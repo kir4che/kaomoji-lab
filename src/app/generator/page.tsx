@@ -97,7 +97,12 @@ const GeneratorPage: React.FC = () => {
         body: JSON.stringify({ userPrompt: finalPrompt }),
       });
 
-      if (!res.ok) throw new Error('生成失敗，請稍後再試。');
+      if (!res.ok) {
+        const errData = await res.json();
+        if (errData.status === 429) {
+          throw new Error('目前 1 分鐘內只能請求 1 次，請稍後再試。');
+        } else throw new Error('生成失敗，請稍後再試。');
+      }
 
       const parsedKaomojis = await res.json();
 

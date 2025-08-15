@@ -7,10 +7,10 @@ import { sanitize } from '@/utils/sanitize';
 
 const redis = Redis.fromEnv();
 
-// 速率限制：使用者（以 IP 區分）在 60 秒內，最多只能請求 10 次。
+// 速率限制：使用者（以 IP 區分）在 60 秒內，最多只能請求 1 次。
 const ratelimit = new Ratelimit({
   redis,
-  limiter: Ratelimit.slidingWindow(5, '60 s'),
+  limiter: Ratelimit.slidingWindow(1, '60 s'),
   analytics: true,
   timeout: 1000,
 });
