@@ -1,0 +1,243 @@
+{
+  "categories": [
+    {
+      "id": "action",
+      "name": {
+        "en": "action",
+        "zh-tw": "動作"
+      },
+      "preview": "╰( ^o^)╮",
+      "lastUpdated": "2025-08-14",
+      "itemCount": 701
+    },
+    {
+      "id": "angry",
+      "name": {
+        "en": "angry",
+        "zh-tw": "生氣"
+      },
+      "preview": "(*｀へ´*)",
+      "lastUpdated": "2025-08-13",
+      "itemCount": 219
+    },
+    {
+      "id": "animal",
+      "name": {
+        "en": "animal",
+        "zh-tw": "動物"
+      },
+      "preview": "ʕ •ᴥ• ʔ",
+      "lastUpdated": "2025-08-13",
+      "itemCount": 380
+    },
+    {
+      "id": "confident",
+      "name": {
+        "en": "confident",
+        "zh-tw": "自信"
+      },
+      "preview": "(｡•̀ᴗ-)✧",
+      "lastUpdated": "2025-08-13",
+      "itemCount": 277
+    },
+    {
+      "id": "confused",
+      "name": {
+        "en": "confused",
+        "zh-tw": "困惑"
+      },
+      "preview": "( •᷄ὤ•᷅)？",
+      "lastUpdated": "2025-08-13",
+      "itemCount": 122
+    },
+    {
+      "id": "embarrassed",
+      "name": {
+        "en": "embarrassed",
+        "zh-tw": "尷尬"
+      },
+      "preview": "•﹏•",
+      "lastUpdated": "2025-08-13",
+      "itemCount": 62
+    },
+    {
+      "id": "excited",
+      "name": {
+        "en": "excited",
+        "zh-tw": "興奮"
+      },
+      "preview": "(ﾉ≧∀≦)ﾉ",
+      "lastUpdated": "2025-08-13",
+      "itemCount": 120
+    },
+    {
+      "id": "greeting",
+      "name": {
+        "en": "greeting",
+        "zh-tw": "問候"
+      },
+      "preview": "(*・ω・)ﾉ",
+      "lastUpdated": "2025-08-13",
+      "itemCount": 106
+    },
+    {
+      "id": "happy",
+      "name": {
+        "en": "happy",
+        "zh-tw": "開心"
+      },
+      "preview": "ᐠ( ᐢ ᵕ ᐢ )ᐟ",
+      "lastUpdated": "2025-08-13",
+      "itemCount": 598
+    },
+    {
+      "id": "helpless",
+      "name": {
+        "en": "helpless",
+        "zh-tw": "無助"
+      },
+      "preview": "(๑•́₃ •̀๑)",
+      "lastUpdated": "2025-08-13",
+      "itemCount": 192
+    },
+    {
+      "id": "love",
+      "name": {
+        "en": "love",
+        "zh-tw": "愛"
+      },
+      "preview": "(*´д`)~♥",
+      "lastUpdated": "2025-08-13",
+      "itemCount": 263
+    },
+    {
+      "id": "other",
+      "name": {
+        "en": "other",
+        "zh-tw": "其他"
+      },
+      "preview": "ʚ ɞ",
+      "lastUpdated": "2025-08-13",
+      "itemCount": 274
+    },
+    {
+      "id": "sad",
+      "name": {
+        "en": "sad",
+        "zh-tw": "難過"
+      },
+      "preview": "( ´•̥̥̥ω•̥̥̥` )",
+      "lastUpdated": "2025-08-13",
+      "itemCount": 493
+    },
+    {
+      "id": "shy",
+      "name": {
+        "en": "shy",
+        "zh-tw": "害羞"
+      },
+      "preview": "(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄ ",
+      "lastUpdated": "2025-08-13",
+      "itemCount": 215
+    },
+    {
+      "id": "surprised",
+      "name": {
+        "en": "surprised",
+        "zh-tw": "驚訝"
+      },
+      "preview": "Σ(°Д°;)",
+      "lastUpdated": "2025-08-13",
+      "itemCount": 278
+    },
+    {
+      "id": "tired",
+      "name": {
+        "en": "tired",
+        "zh-tw": "累累"
+      },
+      "preview": "(ㅎ.ㅎ)",
+      "lastUpdated": "2025-08-13",
+      "itemCount": 65
+    }
+  ],
+  "tags": [
+    "不爽",
+    "你好",
+    "偷偷",
+    "兔子",
+    "加油",
+    "動物",
+    "叫喊",
+    "可愛",
+    "吃",
+    "吐血",
+    "呆滯",
+    "哭泣",
+    "嘆氣",
+    "嚇一跳",
+    "嚴肅",
+    "困惑",
+    "墨鏡",
+    "大笑",
+    "天使",
+    "失望",
+    "安慰",
+    "害怕",
+    "害羞",
+    "寫字",
+    "尷尬",
+    "崩潰",
+    "幹勁",
+    "強壯",
+    "微笑",
+    "思考",
+    "惡魔",
+    "愛心",
+    "感謝",
+    "憤怒",
+    "拜託",
+    "指",
+    "搞怪",
+    "擁抱",
+    "攻擊",
+    "星星",
+    "暈眩",
+    "朋友",
+    "滿足",
+    "無奈",
+    "無言",
+    "熊",
+    "狗狗",
+    "生氣",
+    "疑問",
+    "痛苦",
+    "目瞪口呆",
+    "眨眼",
+    "累",
+    "緊張",
+    "羊",
+    "翅膀",
+    "翻桌",
+    "聳肩",
+    "肌肉",
+    "自信",
+    "興奮",
+    "花",
+    "萬歲",
+    "衝刺",
+    "親",
+    "讚",
+    "貓咪",
+    "跑",
+    "跳舞",
+    "道歉",
+    "遵命",
+    "閃亮",
+    "開心",
+    "難過",
+    "音樂",
+    "顫抖",
+    "驚訝"
+  ]
+}

@@ -1,0 +1,130 @@
+@import 'tailwindcss';
+
+:root {
+  --background: #faf5f6;
+  --foreground: #1c1e21;
+  --primary: #1877f2;
+  --secondary: #42b72a;
+  --card-background: #ffffff;
+  --card-border: #dddfe2;
+  --hover-background: #f0f2f5;
+}
+
+@theme inline {
+  --breakpoint-xs: 32rem;
+
+  --font-sans: var(--font-sans);
+  --font-sans-tc: var(--font-sans-tc);
+  --font-sans-lao: var(--font-sans-lao);
+  --font-emoji: var(--font-emoji);
+  --font-roboto: var(--font-roboto);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary-50: oklch(97.58% 0.011 357.18);
+  --color-primary-100: oklch(94.24% 0.027 357.27);
+  --color-primary-200: oklch(84.58% 0.08 359.1);
+  --color-primary-300: oklch(80.77% 0.107 359.42);
+  --color-primary-400: oklch(76.74% 0.138 358.61);
+  --color-primary-500: oklch(72.49% 0.176 358.8);
+  --color-primary-600: oklch(65.96% 0.23 358.57);
+  --color-primary-700: oklch(58.89% 0.219 358.58);
+  --color-primary-800: oklch(51.57% 0.189 358.61);
+  --color-primary-900: oklch(44.46% 0.16 358.84);
+  --color-primary-950: oklch(40.66% 0.143 358.77);
+}
+
+@layer base {
+  * {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family:
+      var(--font-sans-tc),
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      'Segoe UI',
+      var(--font-sans),
+      'Segoe UI Symbol',
+      'Apple Color Emoji',
+      'Segoe UI Emoji',
+      var(--font-emoji),
+      'Arial Unicode MS',
+      sans-serif;
+    font-feature-settings:
+      'liga' 1,
+      'calt' 1;
+    font-size: 16px;
+  }
+
+  h1 {
+    @apply text-4xl font-bold;
+  }
+
+  h2 {
+    @apply text-xl font-bold;
+  }
+
+  button {
+    cursor: pointer;
+
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+  }
+}
+
+@layer utilities {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .flex-between {
+    @apply flex items-center justify-between;
+  }
+
+  .gradient-text {
+    @apply text-transparent bg-clip-text bg-gradient-to-l via-primary-100 via-15% from-primary-400 to-pink-600;
+  }
+
+  .back-btn {
+    @apply px-4 py-1.5 border border-primary-600 rounded-full bg-white text-primary-600 transition-all duration-300 ease-in-out hover:border-primary-500 hover:ring-2 hover:ring-primary-500/50 hover:ring-offset-2;
+  }
+
+  .shake-animation {
+    animation: shake 0.5s ease-in-out;
+  }
+
+  @keyframes shake {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    75% {
+      transform: translateX(5px);
+    }
+  }
+
+  .pulse-glow {
+    animation: pulse-glow 0.5s ease-in-out;
+  }
+
+  @keyframes pulse-glow {
+    0%,
+    100% {
+      box-shadow: 0 0 5px oklch(0.592 0.249 0.584 / 0.25);
+    }
+    50% {
+      box-shadow: 0 0 10px oklch(0.592 0.249 0.584 / 0.25);
+    }
+  }
+}

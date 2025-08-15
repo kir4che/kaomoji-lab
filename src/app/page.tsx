@@ -1,0 +1,109 @@
+'use client';
+
+import { useState, useEffect } from 'react';
+import Link from 'next/link';
+
+import type { KaomojiItem } from '@/types/Kaomoji';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { useKaomoji } from '@/hooks/useKaomoji';
+import { useFilteredKaomoji } from '@/hooks/useFilteredKaomoji';
+import { useCopyToClipboard } from '@/hooks/useCopyToClipboard';
+import Hexo from '@/components/organisms/Hexo';
+import KaomojiBtn from '@/components/atoms/KaomojiBtn';
+import Input from '@/components/atoms/Input';
+import Loading from '@/components/atoms/Loading';
+
+const Home: React.FC = () => {
+  const { lang } = useLanguage();
+  const { categories, isLoading } = useKaomoji(lang);
+  const { copiedId, copyToClipboard } = useCopyToClipboard();
+
+  const [allKaomojis, setAllKaomojis] = useState<KaomojiItem[]>([]);
+  const [randomKaomojis, setRandomKaomojis] = useState<KaomojiItem[]>([]);
+  const [searchTerm, setSearchTerm] = useState('');
+
+  // 載入所有分類的顏文字
+  useEffect(() => {
+    if (!categories.length) return;
+
+    const fetchAllKaomojis = async () => {
+      const promises = categories.map((category) =>
+        fetch(`/data/categories/${category.id}.json`)
+          .then((res) => res.json())
+          .then((data) => (Array.isArray(data?.items) ? (data.items as KaomojiItem[]) : []))
+          .catch(() => [] as KaomojiItem[])
+      );
+
+      const kaomojisByCategory = await Promise.all(promises);
+      const all = kaomojisByCategory.flat();
+      setAllKaomojis(all);
+
+      const shuffled = [...all].sort(() => Math.random() - 0.5);
+      setRandomKaomojis(shuffled.slice(0, 50));
+    };
+
+    fetchAllKaomojis();
+  }, [categories]);
+
+  const filteredInput = searchTerm ? allKaomojis : randomKaomojis;
+  const filteredKaomojis = useFilteredKaomoji({ sourceKaomojis: filteredInput, searchTerm });
+
+  if (isLoading) return <Loading />;
+
+  return (
+    <>
+      <Hexo />
+      <div className="w-full max-w-96 mx-auto mb-6" role="search">
+        <Input
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          placeholder="搜尋顏文字或標籤..."
+          aria-label="搜尋顏文字或標籤"
+          focusEffect
+        />
+      </div>
+      {filteredKaomojis.length > 0 ? (
+        <ul
+          className="flex flex-wrap gap-2.5 justify-center"
+          aria-live="polite"
+          aria-label={searchTerm ? `搜尋結果，共 ${filteredKaomojis.length} 筆` : '推薦顏文字'}
+        >
+          {filteredKaomojis.map((kaomoji) => (
+            <li key={kaomoji.id}>
+              <KaomojiBtn
+                text={kaomoji.text}
+                onCopy={() => copyToClipboard(kaomoji.text, kaomoji.id)}
+                isCopied={copiedId === kaomoji.id}
+                className="md:text-base"
+              />
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p className="text-gray-500 text-lg text-center py-8">
+          {`沒有找到${searchTerm ? ` "${searchTerm}"` : ''}相關的顏文字`}
+        </p>
+      )}
+      <section className="py-8 text-center space-y-6">
+        <h2>按分類探索</h2>
+        <div className="flex flex-wrap justify-center gap-3">
+          {categories.map((category) => (
+            <Link
+              key={category.id}
+              href={`/category/${category.id}`}
+              className="w-[calc(50%-6px)] sm:w-[calc(24%-6px)] lg:w-[calc(12%-6px)] rounded-xl bg-white p-2.5 text-center shadow shadow-primary-800/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500"
+              aria-label={`${category.name[lang]}，${category.itemCount} 個顏文字`}
+            >
+              <h3 className="text-base font-semibold capitalize text-gray-800">
+                {category.name[lang]}
+              </h3>
+              <p className="text-xs text-gray-500">{category.itemCount} 個</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Home;

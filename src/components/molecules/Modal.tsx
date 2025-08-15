@@ -1,0 +1,45 @@
+'use client';
+
+import type { ReactNode } from 'react';
+
+import CloseIcon from '@/assets/icons/close.svg';
+
+interface ModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+  title?: string;
+  children: ReactNode;
+}
+
+const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, children }) => {
+  if (!isOpen) return null;
+
+  return (
+    <div
+      className="fixed inset-0 z-50 flex-center bg-gray-600/65"
+      onClick={onClose}
+      role="dialog"
+      aria-modal="true"
+    >
+      <div
+        className="w-11/12 sm:w-full max-w-md rounded-lg bg-white p-6 shadow-xl"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="flex-between mb-6">
+          {title && <h3 className="text-lg font-semibold">{title}</h3>}
+          <button
+            type="button"
+            onClick={onClose}
+            className="text-gray-500 hover:text-gray-700"
+            aria-label="關閉視窗"
+          >
+            <CloseIcon className="size-6" />
+          </button>
+        </div>
+        {children}
+      </div>
+    </div>
+  );
+};
+
+export default Modal;
