@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Noto_Sans, Noto_Sans_TC, Noto_Color_Emoji } from 'next/font/google';
+import Script from 'next/script';
 
 import { LanguageProvider } from '@/contexts/LanguageContext';
 import { ToastProvider } from '@/contexts/ToastContext';
@@ -68,6 +69,14 @@ export default function RootLayout({ children }: RootLayoutProps) {
 
   return (
     <html lang="zh-tw" className="scroll-smooth">
+      <head>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9209549258046593"
+          crossOrigin="anonymous"
+          strategy="beforeInteractive"
+        />
+      </head>
       <body className={`${fontClasses} relative antialiased flex flex-col min-h-screen`}>
         <LanguageProvider>
           <ToastProvider>
