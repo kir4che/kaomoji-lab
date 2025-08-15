@@ -68,22 +68,6 @@ export function useKaomojiForm({
     }));
   }, []);
 
-  const handleSubmit = useCallback(
-    (e: React.FormEvent) => {
-      e.preventDefault();
-      if (!formData.text.trim()) {
-        showToast('請輸入顏文字！', 'error');
-        return;
-      }
-      if (formData.tags.length === 0) {
-        showToast('請至少選擇一個標籤！', 'error');
-        return;
-      }
-      onSave(formData);
-    },
-    [formData, onSave, showToast]
-  );
-
   const handleMove = useCallback(() => {
     if (!selectedMoveCategory) {
       showToast('請選擇要移動到的分類！', 'error');
@@ -99,11 +83,31 @@ export function useKaomojiForm({
 
     if (window.confirm(`確定要移動到「${targetName}」嗎？`)) {
       onMove(selectedMoveCategory, isDirty ? formData : undefined);
-      if (isDirty) {
-        showToast('已自動儲存變更！', 'success');
-      }
+      if (isDirty) showToast('已自動儲存變更！', 'success');
     }
   }, [categories, currCategory, formData, isDirty, onMove, selectedMoveCategory, showToast]);
+
+  const handleSubmit = useCallback(
+    (e: React.FormEvent) => {
+      e.preventDefault();
+
+      if (!formData.text.trim()) {
+        showToast('請輸入顏文字！', 'error');
+        return;
+      }
+      if (formData.tags.length === 0) {
+        showToast('請至少選擇一個標籤！', 'error');
+        return;
+      }
+
+      if (selectedMoveCategory) {
+        handleMove();
+      } else {
+        onSave(formData);
+      }
+    },
+    [formData, handleMove, onSave, selectedMoveCategory, showToast]
+  );
 
   return {
     formData,
@@ -115,6 +119,5 @@ export function useKaomojiForm({
     addTags,
     removeTag,
     handleSubmit,
-    handleMove,
   };
 }

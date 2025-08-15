@@ -11,6 +11,7 @@ import KaomojiEditor from '@/components/admin/KaomojiEditor';
 import Input from '@/components/atoms/Input';
 import IconBtn from '@/components/atoms/IconBtn';
 import SelectAllBtn from '@/components/atoms/SelectAllBtn';
+import Loading from '@/components/atoms/Loading';
 import PlusIcon from '@/assets/icons/plus.svg';
 import MinusIcon from '@/assets/icons/minus.svg';
 import CloseIcon from '@/assets/icons/close.svg';
@@ -84,10 +85,17 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
 
   const toggleMultiSelectMode = useCallback(() => {
     setIsMultiSelectMode((prev) => {
-      if (prev) setSelectedKaomojiIds(new Set());
+      if (prev) {
+        if (selectedKaomojiIds.size === 1) {
+          const selectedId = selectedKaomojiIds.values().next().value;
+          const kaomojiToSelect = allKaomoji.find((k) => k.id === selectedId);
+          if (kaomojiToSelect) setSelectedKaomoji(kaomojiToSelect);
+        }
+        setSelectedKaomojiIds(new Set());
+      }
       return !prev;
     });
-  }, []);
+  }, [selectedKaomojiIds, allKaomoji]);
 
   useEffect(() => {
     if (!selectedKaomoji && filteredKaomoji.length > 0 && !isMultiSelectMode)
@@ -113,6 +121,7 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
   }, [allKaomoji, categories, selectedCategory]);
 
   const {
+    isLoading,
     addKaomoji,
     editKaomoji,
     deleteKaomoji,
@@ -129,7 +138,7 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
   });
 
   const handleMoveFromEditor = useCallback(
-    (toCategoryId: string, updatedData?: KaomojiItem) => {
+    async (toCategoryId: string, updatedData?: KaomojiItem) => {
       if (!selectedKaomoji) return;
       const kaomojiToProcess = updatedData || selectedKaomoji;
       const fromCategoryId = kaomojiToCategoryMap.get(kaomojiToProcess.id);
@@ -137,8 +146,9 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
         showToast('無法確定來源分類！', 'error');
         return;
       }
-      moveKaomoji(fromCategoryId, toCategoryId, kaomojiToProcess);
-      setSelectedKaomoji(null);
+      const movedKaomoji = await moveKaomoji(fromCategoryId, toCategoryId, kaomojiToProcess);
+      if (movedKaomoji) setSelectedKaomoji(movedKaomoji);
+      else setSelectedKaomoji(null);
     },
     [selectedKaomoji, kaomojiToCategoryMap, showToast, moveKaomoji]
   );
@@ -156,10 +166,6 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
     },
     [kaomojiToCategoryMap, selectedCategory, addKaomoji, editKaomoji, showToast]
   );
-
-  const handleCancel = useCallback(() => {
-    setSelectedKaomoji(null);
-  }, []);
 
   const onSingleDelete = (cId: string, kId: string) => {
     deleteKaomoji(cId, kId).then((success) => {
@@ -187,8 +193,10 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
     handleBulkRemoveTags(selectedKaomojiIds, tagsToRemove).then(() => setTagsToRemove(''));
   };
 
+  if (isLoading) return <Loading />;
+
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 overflow-hidden">
       <div className="bg-white rounded-lg px-4 sm:px-6 py-4 shadow-sm">
         <div className="flex-between">
           <h3 className={cn('text-lg font-semibold md:hidden', { 'mb-4': !isFilterCollapsed })}>
@@ -293,6 +301,7 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
                     }}
                     label="顏文字"
                     size="small"
+                    disabled={isLoading}
                   />
                 </>
               )}
@@ -324,6 +333,7 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
                   type="button"
                   onClick={onBulkDelete}
                   className="px-3 py-2 text-xs bg-rose-100/50 text-rose-700 border border-rose-200 rounded-md hover:bg-rose-100"
+                  disabled={isLoading}
                 >
                   批量刪除
                 </button>
@@ -383,7 +393,7 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
                     else setSelectedKaomoji(kaomoji);
                   }}
                   className={cn(
-                    'flex-between w-full px-2 md:px-4 py-3 border rounded-lg cursor-pointer transition-colors',
+                    'flex-between w-full px-2.5 py-3 border rounded-lg cursor-pointer transition-colors',
                     (isMultiSelectMode && isSelected) || selectedKaomoji?.id === kaomoji.id
                       ? 'border-primary-500 bg-primary-50'
                       : 'border-gray-200 hover:bg-gray-50'
@@ -432,7 +442,7 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
             currCategory={kaomojiToCategoryMap.get(selectedKaomoji.id) || selectedCategory}
             onSave={handleSave}
             onMove={handleMoveFromEditor}
-            onCancel={handleCancel}
+            isSaving={isLoading}
           />
         )}
       </div>

@@ -5,7 +5,6 @@ import type { KeyboardEvent } from 'react';
 
 import type { KaomojiItem, CategoryData } from '@/types/Kaomoji';
 import { useKaomojiForm } from '@/hooks/useKaomojiForm';
-import { cn } from '@/utils/cn';
 import AvailableTagList from '@/components/organisms/AvailableTagList';
 import IconBtn from '@/components/atoms/IconBtn';
 import Input from '@/components/atoms/Input';
@@ -18,9 +17,9 @@ interface KaomojiEditorProps {
   categories: CategoryData[];
   allTags?: string[];
   currCategory: string;
+  isSaving?: boolean;
   onSave: (kaomoji: KaomojiItem) => void;
   onMove: (toCategory: string, updatedData?: KaomojiItem) => void;
-  onCancel: () => void;
 }
 
 const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
@@ -28,9 +27,9 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
   categories,
   allTags,
   currCategory,
+  isSaving = false,
   onSave,
   onMove,
-  onCancel,
 }) => {
   const {
     formData,
@@ -42,7 +41,6 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
     addTags,
     removeTag,
     handleSubmit,
-    handleMove,
   } = useKaomojiForm({
     kaomoji,
     categories,
@@ -134,36 +132,17 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
                       </option>
                     ))}
                 </select>
-                <button
-                  type="button"
-                  onClick={handleMove}
-                  disabled={!selectedMoveCategory}
-                  className={cn(
-                    'px-4 py-2 text-white border rounded-md text-base font-medium transition-colors',
-                    selectedMoveCategory
-                      ? 'bg-primary-500 hover:bg-primary-600'
-                      : 'bg-gray-300 cursor-not-allowed'
-                  )}
-                >
-                  移動
-                </button>
               </div>
             </div>
           )}
         </div>
         <div className="flex justify-end gap-x-3 mt-8 xl:mt-0">
           <button
-            type="button"
-            onClick={onCancel}
-            className="px-4 py-2 border border-gray-300 text-gray-700 rounded-md hover:bg-gray-50 transition-colors"
-          >
-            取消
-          </button>
-          <button
             type="submit"
             className="px-4 py-2 text-white border rounded-md bg-primary-500 hover:bg-primary-600 text-sm font-medium transition-colors"
+            disabled={isSaving}
           >
-            {isEditMode ? '儲存' : '新增'}
+            {selectedMoveCategory ? '儲存並移動' : isEditMode ? '儲存' : '新增'}
           </button>
         </div>
       </form>
