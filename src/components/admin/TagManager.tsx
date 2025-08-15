@@ -179,7 +179,7 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, allTags, onDataChange }) 
         </div>
         <div
           className={cn(
-            'grid grid-cols-1 gap-3 overflow-y-auto xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 border rounded-lg border-gray-300',
+            'grid grid-cols-1 gap-3 overflow-y-auto xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5',
             expandedTag ? 'max-h-[240px]' : 'max-h-[480px]'
           )}
         >
@@ -317,7 +317,7 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, allTags, onDataChange }) 
               value={editingTag || ''}
               disabled
               onChange={() => {}}
-              className="w-full bg-gray-100"
+              className="w-full rounded-md border border-gray-300 px-2.5 py-2 bg-gray-100"
             />
           </div>
           <div>
@@ -326,8 +326,7 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, allTags, onDataChange }) 
               type="text"
               value={newTagName}
               onChange={(e) => setNewTagName(e.target.value)}
-              className="w-full"
-              autoFocus
+              className="w-full rounded-md border border-gray-300 px-2.5 py-2"
             />
           </div>
           <div className="flex justify-end space-x-3 pt-4">
@@ -350,8 +349,8 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, allTags, onDataChange }) 
       </Modal>
       <Modal isOpen={isMergeModalOpen} onClose={() => setIsMergeModalOpen(false)} title="合併標籤">
         <div className="space-y-4">
-          <p>你將合併以下 {tagsToMerge.size} 個標籤：</p>
-          <div className="flex flex-wrap gap-2 rounded-md bg-gray-100 p-2">
+          <p>您將合併以下 {tagsToMerge.size} 個標籤：</p>
+          <div className="flex flex-wrap gap-x-2">
             {Array.from(tagsToMerge).map((tag) => (
               <span key={tag} className="rounded-md bg-gray-200 px-2 py-1 text-sm">
                 {tag}
@@ -365,7 +364,7 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, allTags, onDataChange }) 
             <Input
               value={finalMergeTag}
               onChange={(e) => setFinalMergeTag(e.target.value)}
-              className="w-full"
+              className="w-full rounded-md border border-gray-300 px-2.5 py-2"
             />
           </div>
           <div className="flex justify-end space-x-3 pt-4">

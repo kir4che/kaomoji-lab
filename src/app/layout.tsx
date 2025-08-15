@@ -77,7 +77,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
           strategy="beforeInteractive"
         />
       </head>
-      <body className={`${fontClasses} relative antialiased flex flex-col min-h-screen no-select`}>
+      <body
+        className={`${fontClasses} relative antialiased flex flex-col min-h-screen [&:not(#admin)]:no-select`}
+      >
         <LanguageProvider>
           <ToastProvider>
             <Header />
