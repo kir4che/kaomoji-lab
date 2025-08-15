@@ -97,6 +97,15 @@
     @apply px-4 py-1.5 border border-primary-600 rounded-full bg-white text-primary-600 transition-all duration-300 ease-in-out hover:border-primary-500 hover:ring-2 hover:ring-primary-500/50 hover:ring-offset-2;
   }
 
+  .no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
   .shake-animation {
     animation: shake 0.5s ease-in-out;
   }
