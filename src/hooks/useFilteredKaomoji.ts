@@ -25,35 +25,46 @@ export function useFilteredKaomoji({
 
     const trimmedSearchTerm = searchTerm.trim();
     if (trimmedSearchTerm) {
-      const searchTerms = trimmedSearchTerm.toLowerCase().split(/\s+/);
-      const includeTerms = searchTerms.filter((t) => !t.startsWith('-'));
-      const excludeTerms = searchTerms
-        .filter((t) => t.startsWith('-'))
-        .map((t) => t.substring(1))
+      const orSegments = trimmedSearchTerm
+        .toLowerCase()
+        .split('|')
+        .map((s) => s.trim())
         .filter(Boolean);
 
-      if (includeTerms.length > 0 || excludeTerms.length > 0) {
-        items = items.filter((item) => {
-          const itemText = item.text.toLowerCase();
-          const itemTags = item.tags.map((t) => t.toLowerCase());
-          const itemId = item.id.toLowerCase();
+      items = items.filter((item) => {
+        const itemText = item.text.toLowerCase();
+        const itemTags = item.tags.map((t) => t.toLowerCase());
+        const itemId = item.id.toLowerCase();
 
-          const check = (term: string) =>
-            itemText.includes(term) ||
-            itemId.includes(term) ||
-            itemTags.some((tag) => tag.includes(term));
+        const check = (term: string) =>
+          itemText.includes(term) ||
+          itemId.includes(term) ||
+          itemTags.some((tag) => tag.includes(term));
 
-          const hasAllIncludeTerms = includeTerms.every(check);
-          const hasAnyExcludeTerms = excludeTerms.length > 0 && excludeTerms.some(check);
+        return orSegments.some((orSegment) => {
+          const andTerms = orSegment.split(/\s+/).filter(Boolean);
 
-          return hasAllIncludeTerms && !hasAnyExcludeTerms;
+          const explicitAndTerms = andTerms
+            .filter((t) => t.startsWith('+'))
+            .map((t) => t.substring(1));
+          const excludeTerms = andTerms.filter((t) => t.startsWith('-')).map((t) => t.substring(1));
+          const implicitAndTerms = andTerms.filter((t) => !t.startsWith('+') && !t.startsWith('-'));
+
+          const passesExplicitAnd = explicitAndTerms.every(check);
+          const passesImplicitAnd = implicitAndTerms.every(check);
+          const passesExclude = !excludeTerms.some(check);
+
+          const passesAndConditions =
+            explicitAndTerms.length > 0
+              ? passesExplicitAnd && passesImplicitAnd
+              : passesImplicitAnd;
+
+          return passesAndConditions && passesExclude;
         });
-      }
+      });
     }
 
-    if (filterTag) {
-      items = items.filter((item) => item.tags.includes(filterTag));
-    }
+    if (filterTag) items = items.filter((item) => item.tags.includes(filterTag));
 
     return items;
   }, [sourceKaomojis, allCategories, searchTerm, selectedCategory, filterTag]);

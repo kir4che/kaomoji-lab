@@ -1,6 +1,6 @@
 'use client';
 
-import { useReducer, useMemo, useCallback } from 'react';
+import { useReducer, useMemo, useCallback, useEffect } from 'react';
 
 import type { KaomojiItem } from '@/types/Kaomoji';
 import { useToast } from '@/contexts/ToastContext';
@@ -36,6 +36,8 @@ interface State {
   tagsToDeleteBulk: Set<string>;
 }
 
+const LOCAL_STORAGE_KEY = 'tagManagerFilterSortState';
+
 const initialState: State = {
   searchTerm: '',
   sortBy: 'count',
@@ -52,6 +54,24 @@ const initialState: State = {
   finalMergeTag: '',
   isDeleteTagsMode: false,
   tagsToDeleteBulk: new Set(),
+};
+
+const getInitialState = (): State => {
+  try {
+    const storedState = localStorage.getItem(LOCAL_STORAGE_KEY);
+    if (storedState) {
+      const parsedState = JSON.parse(storedState);
+      return {
+        ...initialState,
+        searchTerm: parsedState.searchTerm ?? initialState.searchTerm,
+        sortBy: parsedState.sortBy ?? initialState.sortBy,
+        sortOrder: parsedState.sortOrder ?? initialState.sortOrder,
+        usageThreshold: parsedState.usageThreshold ?? initialState.usageThreshold,
+        showLowUsageOnly: parsedState.showLowUsageOnly ?? initialState.showLowUsageOnly,
+      };
+    }
+  } catch {}
+  return initialState;
 };
 
 type Action =
@@ -102,7 +122,7 @@ const reducer = (state: State, action: Action): State => {
 
 export const useTagManager = ({ allKaomoji, allTags, onDataChange }: UseTagManagerProps) => {
   const { showToast } = useToast();
-  const [state, dispatch] = useReducer(reducer, initialState);
+  const [state, dispatch] = useReducer(reducer, {}, getInitialState);
 
   const {
     searchTerm,
@@ -120,6 +140,23 @@ export const useTagManager = ({ allKaomoji, allTags, onDataChange }: UseTagManag
     isDeleteTagsMode,
     tagsToDeleteBulk,
   } = state;
+
+  useEffect(() => {
+    const stateToSave = {
+      searchTerm: state.searchTerm,
+      sortBy: state.sortBy,
+      sortOrder: state.sortOrder,
+      usageThreshold: state.usageThreshold,
+      showLowUsageOnly: state.showLowUsageOnly,
+    };
+    localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(stateToSave));
+  }, [
+    state.searchTerm,
+    state.sortBy,
+    state.sortOrder,
+    state.usageThreshold,
+    state.showLowUsageOnly,
+  ]);
 
   const tagUsageMap = useMemo(() => {
     const usageMap: Record<string, TagUsage> = {};
@@ -187,14 +224,46 @@ export const useTagManager = ({ allKaomoji, allTags, onDataChange }: UseTagManag
   const handleDeleteTag = useCallback(
     async (tag: string) => {
       const usage = tagUsageMap[tag];
-      if (usage && usage.count > 0) {
-        showToast(`無法刪除標籤「${tag}」，尚有 ${usage.count} 個顏文字使用中。`, 'error');
-        return;
-      }
+      let confirmMessage = '';
+      let performBulkUpdate = false;
 
-      if (!window.confirm(`確定要刪除未使用的標籤「${tag}」嗎？`)) return;
+      if (usage && usage.count > 0) {
+        confirmMessage = `標籤「${tag}」目前有 ${usage.count} 個顏文字使用中。確定要刪除此標籤，並將其從所有相關顏文字中移除嗎？`;
+        performBulkUpdate = true;
+      } else confirmMessage = `確定要刪除未使用的標籤「${tag}」嗎？`;
+
+      if (!window.confirm(confirmMessage)) return;
 
       try {
+        if (performBulkUpdate) {
+          const updatesByCategory = new Map<string, KaomojiItem[]>();
+          allKaomoji.forEach((kaomoji: KaomojiItem) => {
+            if (kaomoji.tags.includes(tag)) {
+              const newTags = kaomoji.tags.filter((t: string) => t !== tag);
+              const categoryId = kaomoji.id.split('_')[0];
+
+              if (!updatesByCategory.has(categoryId)) {
+                updatesByCategory.set(
+                  categoryId,
+                  JSON.parse(
+                    JSON.stringify(
+                      allKaomoji.filter((item: KaomojiItem) => item.id.startsWith(`${categoryId}_`))
+                    )
+                  )
+                );
+              }
+              const categoryItems = updatesByCategory.get(categoryId)!;
+              const kaomojiIndex = categoryItems.findIndex(
+                (item: KaomojiItem) => item.id === kaomoji.id
+              );
+              if (kaomojiIndex !== -1) {
+                categoryItems[kaomojiIndex] = { ...kaomoji, tags: newTags };
+              }
+            }
+          });
+          await adminService.bulkUpdateCategoriesForTags(updatesByCategory);
+        }
+
         await adminService.deleteTag(tag);
         onDataChange();
         showToast('刪除成功！', 'success');
@@ -202,7 +271,7 @@ export const useTagManager = ({ allKaomoji, allTags, onDataChange }: UseTagManag
         showToast(err instanceof Error ? err.message : '刪除時發生未知錯誤！', 'error');
       }
     },
-    [tagUsageMap, onDataChange, showToast]
+    [tagUsageMap, allKaomoji, onDataChange, showToast]
   );
 
   const handleMergeTags = useCallback(async () => {
