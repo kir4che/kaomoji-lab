@@ -41,7 +41,7 @@ const GeneratorForm: React.FC<GeneratorFormProps> = ({
         placeholder="例如：閃亮飛舞的貓咪"
         className="rounded-lg py-3.5 text-lg"
         focusEffect
-        helperText="最多100字，輸入想要的感覺或畫面。"
+        helperText="最多可輸入 100 字，且每分鐘只能生成 1 次，暫請見諒。"
       />
       <button
         type="submit"
