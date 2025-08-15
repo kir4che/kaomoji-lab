@@ -101,10 +101,10 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, allTags, onDataChange }) 
             </button>
           </div>
         </div>
-        <div className="flex-between">
-          <div className="flex-center gap-x-1">
-            <div className="flex-center gap-x-1">
-              <label htmlFor="threshold" className="text-xs text-gray-600">
+        <div className="flex-between flex-col-reverse sm:flex-row gap-y-2">
+          <div className="flex-center gap-x-2.5 mr-auto">
+            <div className="flex-center">
+              <label htmlFor="threshold" className="text-xs text-gray-600 mr-2">
                 低頻
               </label>
               <Input
@@ -120,7 +120,6 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, allTags, onDataChange }) 
                   onClick={() => setShowLowUsageOnly(!showLowUsageOnly)}
                   label={showLowUsageOnly ? '顯示所有' : `只顯示低頻 (${lowUsageCount})`}
                   size="small"
-                  className="ml-1"
                 />
               )}
             </div>
@@ -162,7 +161,7 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, allTags, onDataChange }) 
               )
             )}
           </div>
-          <div className="flex-center gap-x-2">
+          <div className="flex-center gap-x-2 w-full sm:w-fit ml-auto">
             <Input
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
