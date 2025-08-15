@@ -42,7 +42,7 @@ const IconBtn: React.FC<IconBtnProps> = ({
       type="button"
       onClick={onClick}
       className={cn(
-        'flex-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 bg-white text-primary-600 hover:text-white border-primary-600 hover:bg-primary-600 focus:ring-primary-500',
+        'flex-center flex-shrink-0 rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 bg-white text-primary-600 hover:text-white border-primary-600 hover:bg-primary-600 focus:ring-primary-500',
         sizeStyles[size],
         className
       )}
