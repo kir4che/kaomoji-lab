@@ -36,13 +36,13 @@ const ExploreMoreSection: React.FC = () => {
   return (
     <section className="container mx-auto px-4 pb-8 text-center">
       <div className="px-8 py-6 bg-white rounded-lg shadow-md">
-        <h3 className="text-xl font-bold mb-6">探索更多</h3>
-        <div className={`grid grid-cols-1 md:grid-cols-${filteredLinks.length} gap-4`}>
+        <h3 className="text-xl font-bold mb-4">探索更多</h3>
+        <div className={`flex-between flex-col md:flex-row gap-x-4 gap-y-3`}>
           {filteredLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className={`${link.bg} p-4 rounded-lg transition-colors`}
+              className={`${link.bg} flex-1 w-full p-4 rounded-lg transition-colors`}
             >
               <h4 className="font-semibold mb-2">{link.title}</h4>
               <p className="text-sm">{link.desc}</p>
