@@ -33,19 +33,27 @@ const siteUrl = new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://kaomojilab.
 
 export const metadata: Metadata = {
   metadataBase: siteUrl,
-  title: '顏文字實驗室 *｡٩(ˊᗜˋ*)و✦\*｡',
+  title: {
+    default: '顏文字實驗室 *｡٩(ˊᗜˋ*)و✦*｡',
+    template: '%s | 顏文字實驗室',
+  },
   description:
     '收藏超過 6000+ 可愛顏文字，支援一鍵複製，按分類和標籤瀏覽，快來找你最喜歡的顏文字 (｡◕‿◕｡)',
   authors: [{ name: '顏文字實驗室', url: siteUrl }],
-  viewport: 'width=device-width, initial-scale=1',
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+  },
   themeColor: '#FA70A4',
   icons: {
     icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
   },
   openGraph: {
     title: '顏文字實驗室 *｡٩(ˊᗜˋ*)و✦\*｡',
     description: '收藏超過 6000+ 可愛顏文字，一鍵複製，快來找你最喜歡的 (｡◕‿◕｡)',
-    url: '/',
+    url: siteUrl.toString(),
     siteName: '顏文字實驗室',
     images: '/images/og-image.png',
     locale: 'zh_TW',
@@ -57,7 +65,17 @@ export const metadata: Metadata = {
     description: '收藏超過 6000+ 可愛顏文字，一鍵複製，快來找你最喜歡的 (｡◕‿◕｡)',
     images: '/images/og-image.png',
   },
-  robots: 'index, follow',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+  alternates: {
+    canonical: siteUrl.toString(),
+  },
 };
 
 interface RootLayoutProps {
