@@ -35,7 +35,6 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
   const [selectedKaomoji, setSelectedKaomoji] = useState<KaomojiItem | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [filterTag, setFilterTag] = useState('');
-  const [isFilterCollapsed, setIsFilterCollapsed] = useState(true);
 
   const [selectedKaomojiIds, setSelectedKaomojiIds] = useState<Set<string>>(new Set());
   const [isMultiSelectMode, setIsMultiSelectMode] = useState(false);
@@ -160,11 +159,18 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
         showToast('無法確定分類！', 'error');
         return;
       }
-      if (data.id === '') await addKaomoji(categoryId, { text: data.text, tags: data.tags });
-      else await editKaomoji(categoryId, data.id, { text: data.text, tags: data.tags });
-      setSelectedKaomoji(null);
+      let savedKaomoji: KaomojiItem | null = null;
+      if (data.id === '')
+        savedKaomoji = await addKaomoji(categoryId, { text: data.text, tags: data.tags });
+      else {
+        savedKaomoji = await editKaomoji(categoryId, data.id, { text: data.text, tags: data.tags });
+      }
+
+      if (savedKaomoji && selectedKaomoji && savedKaomoji.id === selectedKaomoji.id)
+        setSelectedKaomoji(savedKaomoji);
+      else if (data.id === '') setSelectedKaomoji(null);
     },
-    [kaomojiToCategoryMap, selectedCategory, addKaomoji, editKaomoji, showToast]
+    [kaomojiToCategoryMap, selectedCategory, selectedKaomoji, addKaomoji, editKaomoji, showToast]
   );
 
   const onSingleDelete = (cId: string, kId: string) => {
@@ -196,71 +202,50 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
   if (isLoading) return <Loading />;
 
   return (
-    <div className="space-y-4 overflow-hidden">
-      <div className="bg-white rounded-lg px-4 sm:px-6 py-4 shadow-sm">
-        <div className="flex-between">
-          <h3 className={cn('text-lg font-semibold md:hidden', { 'mb-4': !isFilterCollapsed })}>
-            搜尋 & 篩選
-          </h3>
-          <button
-            type="button"
-            onClick={() => setIsFilterCollapsed(!isFilterCollapsed)}
-            className="md:hidden p-1 rounded-full text-gray-600 hover:bg-gray-100"
-            aria-label={isFilterCollapsed ? '展開篩選' : '收起篩選'}
-          >
-            {isFilterCollapsed ? <PlusIcon className="size-5" /> : <CloseIcon className="size-5" />}
-          </button>
-        </div>
-        <div className={`${isFilterCollapsed ? 'hidden' : 'block'} md:block`}>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div
+      className={cn('grid grid-cols-1 gap-4', {
+        'md:grid-cols-[2fr_1.5fr]': !isMultiSelectMode && selectedKaomoji,
+      })}
+    >
+      <div className="space-y-3">
+        <div className="relative bg-white rounded-lg px-4 sm:px-6 py-3">
+          <div className="flex gap-x-2">
             <Input
-              title="搜尋顏文字或標籤"
               value={searchTerm}
+              placeholder="搜尋顏文字或標籤"
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="px-3 py-2 border rounded-md border-gray-300"
+              className="px-2 py-2 border rounded-md border-gray-300 flex-2 text-xs xs:text-sm"
             />
-            <div>
-              <label className="block text-xs font-medium text-gray-700 mb-2">選擇分類</label>
-              <select
-                value={selectedCategory}
-                onChange={(e) => {
-                  setSelectedCategory(e.target.value);
-                  setSelectedKaomoji(null);
-                }}
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none"
-              >
-                <option value="">所有分類</option>
-                {categories.map((category) => (
-                  <option key={category.id} value={category.id}>
-                    {category.name['zh-tw']} ({category.items.length})
-                  </option>
-                ))}
-              </select>
-            </div>
-            <div>
-              <label className="block text-xs font-medium text-gray-700 mb-2">選擇標籤</label>
-              <select
-                value={filterTag}
-                onChange={(e) => setFilterTag(e.target.value)}
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none"
-              >
-                <option value="">所有標籤</option>
-                {tagsWithCounts.map((tagInfo) => (
-                  <option key={tagInfo.tag} value={tagInfo.tag}>
-                    {tagInfo.tag} ({tagInfo.count})
-                  </option>
-                ))}
-              </select>
-            </div>
+            <select
+              value={selectedCategory}
+              onChange={(e) => {
+                setSelectedCategory(e.target.value);
+                setSelectedKaomoji(null);
+              }}
+              className="max-w-24 text-xs xs:text-sm px-2 py-1.5 border border-gray-300 rounded-md focus:outline-none flex-1"
+            >
+              <option value="">選擇分類</option>
+              {categories.map((category) => (
+                <option key={category.id} value={category.id}>
+                  {category.name['zh-tw']} ({category.items.length})
+                </option>
+              ))}
+            </select>
+            <select
+              value={filterTag}
+              onChange={(e) => setFilterTag(e.target.value)}
+              className="max-w-24 text-xs xs:text-sm px-2 py-1.5 border border-gray-300 rounded-md focus:outline-none flex-1"
+            >
+              <option value="">選擇標籤</option>
+              {tagsWithCounts.map((tagInfo) => (
+                <option key={tagInfo.tag} value={tagInfo.tag}>
+                  {tagInfo.tag} ({tagInfo.count})
+                </option>
+              ))}
+            </select>
           </div>
         </div>
-      </div>
-      <div
-        className={cn('grid grid-cols-1 gap-6', {
-          'md:grid-cols-2': !isMultiSelectMode && selectedKaomoji,
-        })}
-      >
-        <div className="bg-white rounded-lg px-4 md:px-6 py-4 shadow-sm">
+        <div className="bg-white rounded-lg px-4 md:px-6 py-3 shadow-sm">
           <div className="flex-between mb-4">
             <h3 className="text-lg font-semibold">顏文字們 ({filteredKaomoji.length}) </h3>
             <div className={cn('flex-center mt-1 gap-x-2')}>
@@ -376,11 +361,8 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
           )}
           <div
             className={cn(
-              'grid grid-cols-3 max-h-48 md:max-h-[480px] gap-2 overflow-x-hidden overflow-y-auto',
-              {
-                'xl:grid-cols-4': isMultiSelectMode,
-                'md:grid-cols-1 lg:grid-cols-2': !isMultiSelectMode,
-              }
+              'grid max-h-48 md:max-h-[420px] gap-2 overflow-x-hidden overflow-y-auto',
+              isMultiSelectMode ? 'xl:grid-cols-4' : 'grid-cols-2 lg:grid-cols-3'
             )}
           >
             {filteredKaomoji.map((kaomoji) => {
@@ -410,7 +392,9 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
                         <CheckIcon className="size-3 text-white" />
                       </div>
                     )}
-                    <p className={cn('text-lg text-nowrap', { 'sm:text-2xl': !isMultiSelectMode })}>
+                    <p
+                      className={cn('text-base text-nowrap', { 'sm:text-lg': !isMultiSelectMode })}
+                    >
                       {kaomoji.text}
                     </p>
                   </div>
@@ -434,18 +418,17 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
             })}
           </div>
         </div>
-        {selectedKaomoji && !isMultiSelectMode && (
-          <KaomojiEditor
-            kaomoji={selectedKaomoji}
-            categories={categories}
-            allTags={indexData.tags}
-            currCategory={kaomojiToCategoryMap.get(selectedKaomoji.id) || selectedCategory}
-            onSave={handleSave}
-            onMove={handleMoveFromEditor}
-            isSaving={isLoading}
-          />
-        )}
       </div>
+      {selectedKaomoji && !isMultiSelectMode && (
+        <KaomojiEditor
+          kaomoji={selectedKaomoji}
+          categories={categories}
+          allTags={indexData.tags}
+          currCategory={kaomojiToCategoryMap.get(selectedKaomoji.id) || selectedCategory}
+          onSave={handleSave}
+          onMove={handleMoveFromEditor}
+        />
+      )}
     </div>
   );
 };

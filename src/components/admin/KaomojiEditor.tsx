@@ -1,7 +1,7 @@
 'use client';
 
-import { memo } from 'react';
-import type { KeyboardEvent } from 'react';
+import { memo, useState } from 'react';
+import type { KeyboardEvent, CompositionEvent } from 'react';
 
 import type { KaomojiItem, CategoryData } from '@/types/Kaomoji';
 import { useKaomojiForm } from '@/hooks/useKaomojiForm';
@@ -17,8 +17,7 @@ interface KaomojiEditorProps {
   categories: CategoryData[];
   allTags?: string[];
   currCategory: string;
-  isSaving?: boolean;
-  onSave: (kaomoji: KaomojiItem) => void;
+  onSave: (kaomoji: KaomojiItem) => Promise<void>;
   onMove: (toCategory: string, updatedData?: KaomojiItem) => void;
 }
 
@@ -27,20 +26,23 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
   categories,
   allTags,
   currCategory,
-  isSaving = false,
   onSave,
   onMove,
 }) => {
+  const [isComposing, setIsComposing] = useState(false);
+
   const {
     formData,
-    setFormData,
     newTag,
     setNewTag,
     selectedMoveCategory,
     setSelectedMoveCategory,
+    isSaving: isAutoSaving,
     addTags,
     removeTag,
     handleSubmit,
+    handleTextChange,
+    handleMove,
   } = useKaomojiForm({
     kaomoji,
     categories,
@@ -53,16 +55,31 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
   const currCategoryName = categories.find((c) => c.id === currCategory)?.name['zh-tw'];
 
   return (
-    <div className="bg-white rounded-md p-4 sm:p-6 flex flex-col min-h-[500px]">
-      {isEditMode && <h3 className="mb-4 text-lg font-semibold">顏文字 ({formData.id})</h3>}
+    <div className="p-4 sm:px-6 pb-6 space-y-4 bg-white rounded-lg">
+      {isEditMode && (
+        <div className="flex-between text-xs">
+          <h3 className="text-lg font-semibold">顏文字 ({formData.id})</h3>
+          {isAutoSaving ? (
+            <p className="flex items-center gap-x-1.5 text-gray-500">
+              <div className="animate-spin rounded-full size-3 border border-gray-400 border-t-transparent" />
+              儲存中...
+            </p>
+          ) : (
+            <p className="flex items-center gap-x-1.5 text-green-600">
+              <span>✓</span>
+              已自動儲存
+            </p>
+          )}
+        </div>
+      )}
       <form onSubmit={handleSubmit} className="flex flex-col flex-1">
         <div className="flex-1 space-y-4">
           <Input
             value={formData.text}
-            onChange={(e) => setFormData((prev) => ({ ...prev, text: e.target.value }))}
+            onChange={(e) => handleTextChange(e.target.value)}
             placeholder="請輸入顏文字"
             aria-label="輸入顏文字"
-            className="rounded-md text-2xl"
+            className="rounded-md text-2xl pr-12"
           />
           <div className="flex items-center flex-wrap gap-2 mb-3 min-h-8">
             {formData.tags.length ? (
@@ -90,22 +107,22 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
             <Input
               value={newTag}
               onChange={(e) => setNewTag(e.target.value)}
+              onCompositionStart={() => setIsComposing(true)}
+              onCompositionEnd={(e: CompositionEvent<HTMLInputElement>) => {
+                setIsComposing(false);
+                setNewTag(e.currentTarget.value);
+              }}
               onKeyDown={(e: KeyboardEvent<HTMLInputElement>) => {
-                if (e.key === 'Enter') {
+                if (e.key === 'Enter' && !isComposing) {
                   e.preventDefault();
                   addTags(newTag);
                 }
               }}
-              placeholder="輸入新標籤（可用逗號或空白分隔）"
+              placeholder="輸入新標籤（可用逗號、分號或空白分隔）"
               aria-label="新增標籤"
               className="px-3 py-2 border rounded-md border-gray-300"
             />
-            <IconBtn
-              icon={<PlusIcon />}
-              onClick={() => addTags(newTag)}
-              label="新增標籤"
-              className="w-9.5"
-            />
+            <IconBtn icon={<PlusIcon />} onClick={() => addTags(newTag)} label="新增標籤" />
           </div>
           {allTags && (
             <AvailableTagList tags={allTags} selectedTags={formData.tags} onSelect={addTags} />
@@ -120,7 +137,10 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
                 <MoveRightIcon className="size-5 flex-shrink-0" />
                 <select
                   value={selectedMoveCategory}
-                  onChange={(e) => setSelectedMoveCategory(e.target.value)}
+                  onChange={(e) => {
+                    setSelectedMoveCategory(e.target.value);
+                    if (e.target.value) handleMove();
+                  }}
                   className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500"
                 >
                   <option value="">選擇目標分類</option>
@@ -135,15 +155,6 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
               </div>
             </div>
           )}
-        </div>
-        <div className="flex justify-end gap-x-3 mt-8 xl:mt-0">
-          <button
-            type="submit"
-            className="px-4 py-2 text-white border rounded-md bg-primary-500 hover:bg-primary-600 text-sm font-medium transition-colors"
-            disabled={isSaving}
-          >
-            {selectedMoveCategory ? '儲存並移動' : isEditMode ? '儲存' : '新增'}
-          </button>
         </div>
       </form>
     </div>

@@ -64,10 +64,10 @@ const AdminPage: React.FC = () => {
   if (isLoading) return <Loading />;
 
   return (
-    <div id="admin" className="min-h-screen container mx-auto py-4">
+    <div id="admin" className="container mx-auto py-4">
       <h1 className="mb-8 text-center">管理後台</h1>
       {indexData && (
-        <div className="space-y-4 max-w-screen-lg mx-auto">
+        <div className="max-w-6xl mx-auto space-y-4">
           <TabMenu tabs={TABS} activeTab={activeTab} setActiveTab={setActiveTab} />
           {activeTab === 'kaomoji' && (
             <KaomojiManager

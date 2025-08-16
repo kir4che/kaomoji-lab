@@ -17,16 +17,17 @@ export function useFilteredKaomoji({
   selectedCategory = '',
   filterTag = '',
 }: UseFilteredKaomojiParams) {
+  const countInString = (str: string, target: string) => str.split(target).length - 1;
+
   return useMemo(() => {
     let items: KaomojiItem[] =
       selectedCategory && allCategories
         ? (allCategories.find((c) => c.id === selectedCategory)?.items ?? [])
         : sourceKaomojis;
 
-    const trimmedSearchTerm = searchTerm.trim();
+    const trimmedSearchTerm = searchTerm.trim().toLowerCase();
     if (trimmedSearchTerm) {
       const orSegments = trimmedSearchTerm
-        .toLowerCase()
         .split('|')
         .map((s) => s.trim())
         .filter(Boolean);
@@ -44,22 +45,22 @@ export function useFilteredKaomoji({
         return orSegments.some((orSegment) => {
           const andTerms = orSegment.split(/\s+/).filter(Boolean);
 
-          const explicitAndTerms = andTerms
-            .filter((t) => t.startsWith('+'))
-            .map((t) => t.substring(1));
-          const excludeTerms = andTerms.filter((t) => t.startsWith('-')).map((t) => t.substring(1));
-          const implicitAndTerms = andTerms.filter((t) => !t.startsWith('+') && !t.startsWith('-'));
+          const termCounts: Record<string, number> = {};
+          const excludeTerms: string[] = [];
 
-          const passesExplicitAnd = explicitAndTerms.every(check);
-          const passesImplicitAnd = implicitAndTerms.every(check);
-          const passesExclude = !excludeTerms.some(check);
+          andTerms.forEach((term) => {
+            if (term.startsWith('-')) excludeTerms.push(term.substring(1));
+            else {
+              const keyword = term.startsWith('+') ? term.substring(1) : term;
+              termCounts[keyword] = (termCounts[keyword] ?? 0) + 1;
+            }
+          });
 
-          const passesAndConditions =
-            explicitAndTerms.length > 0
-              ? passesExplicitAnd && passesImplicitAnd
-              : passesImplicitAnd;
-
-          return passesAndConditions && passesExclude;
+          const passesInclude = Object.entries(termCounts).every(
+            ([term, count]) => countInString(itemText, term) >= count
+          );
+          const passesExclude = !excludeTerms.some((term) => check(term));
+          return passesInclude && passesExclude;
         });
       });
     }
