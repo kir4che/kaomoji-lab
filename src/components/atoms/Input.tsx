@@ -11,6 +11,7 @@ interface InputProps extends Omit<InputHTMLAttributes<HTMLInputElement>, 'onChan
   placeholder?: string;
   disabled?: boolean;
   onChange: (e: ChangeEvent<HTMLInputElement>) => void;
+  labelClass?: string;
   className?: string;
   focusEffect?: boolean;
   helperText?: string;
@@ -24,6 +25,7 @@ const Input: React.FC<InputProps> = ({
   placeholder,
   onChange,
   disabled = false,
+  labelClass,
   className,
   focusEffect = false,
   helperText,
@@ -40,7 +42,10 @@ const Input: React.FC<InputProps> = ({
   return (
     <div className="w-full">
       {title && (
-        <label htmlFor={id} className="block text-sm font-medium text-gray-700 mb-2">
+        <label
+          htmlFor={id}
+          className={cn('block text-sm font-medium text-gray-700 mb-2', labelClass)}
+        >
           {title}
         </label>
       )}
