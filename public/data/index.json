@@ -7,8 +7,8 @@
         "zh-tw": "動作"
       },
       "preview": "╰( ^o^)╮",
-      "lastUpdated": "2025-08-14",
-      "itemCount": 701
+      "lastUpdated": "2025-08-17",
+      "itemCount": 645
     },
     {
       "id": "angry",
@@ -17,8 +17,8 @@
         "zh-tw": "生氣"
       },
       "preview": "(*｀へ´*)",
-      "lastUpdated": "2025-08-13",
-      "itemCount": 219
+      "lastUpdated": "2025-08-17",
+      "itemCount": 245
     },
     {
       "id": "animal",
@@ -27,8 +27,8 @@
         "zh-tw": "動物"
       },
       "preview": "ʕ •ᴥ• ʔ",
-      "lastUpdated": "2025-08-13",
-      "itemCount": 380
+      "lastUpdated": "2025-08-17",
+      "itemCount": 451
     },
     {
       "id": "confident",
@@ -37,8 +37,8 @@
         "zh-tw": "自信"
       },
       "preview": "(｡•̀ᴗ-)✧",
-      "lastUpdated": "2025-08-13",
-      "itemCount": 277
+      "lastUpdated": "2025-08-17",
+      "itemCount": 282
     },
     {
       "id": "confused",
@@ -47,8 +47,18 @@
         "zh-tw": "困惑"
       },
       "preview": "( •᷄ὤ•᷅)？",
-      "lastUpdated": "2025-08-13",
-      "itemCount": 122
+      "lastUpdated": "2025-08-17",
+      "itemCount": 125
+    },
+    {
+      "id": "decoration",
+      "name": {
+        "en": "decoration",
+        "zh-tw": "裝飾"
+      },
+      "preview": "♥･*:.｡ ｡.:*･ﾟ♡･*:.｡ ｡",
+      "lastUpdated": "2025-08-17",
+      "itemCount": 35
     },
     {
       "id": "embarrassed",
@@ -57,8 +67,8 @@
         "zh-tw": "尷尬"
       },
       "preview": "•﹏•",
-      "lastUpdated": "2025-08-13",
-      "itemCount": 62
+      "lastUpdated": "2025-08-17",
+      "itemCount": 64
     },
     {
       "id": "excited",
@@ -67,8 +77,8 @@
         "zh-tw": "興奮"
       },
       "preview": "(ﾉ≧∀≦)ﾉ",
-      "lastUpdated": "2025-08-13",
-      "itemCount": 120
+      "lastUpdated": "2025-08-17",
+      "itemCount": 143
     },
     {
       "id": "greeting",
@@ -77,8 +87,18 @@
         "zh-tw": "問候"
       },
       "preview": "(*・ω・)ﾉ",
-      "lastUpdated": "2025-08-13",
-      "itemCount": 106
+      "lastUpdated": "2025-08-17",
+      "itemCount": 116
+    },
+    {
+      "id": "happiness",
+      "name": {
+        "en": "happiness",
+        "zh-tw": "幸福"
+      },
+      "preview": "ᜊ(꒪ˊ꒳ˋ꒪)ᜊ",
+      "lastUpdated": "2025-08-17",
+      "itemCount": 4
     },
     {
       "id": "happy",
@@ -87,28 +107,28 @@
         "zh-tw": "開心"
       },
       "preview": "ᐠ( ᐢ ᵕ ᐢ )ᐟ",
-      "lastUpdated": "2025-08-13",
-      "itemCount": 598
+      "lastUpdated": "2025-08-17",
+      "itemCount": 640
     },
     {
       "id": "helpless",
       "name": {
         "en": "helpless",
-        "zh-tw": "無助"
+        "zh-tw": "無奈"
       },
       "preview": "(๑•́₃ •̀๑)",
-      "lastUpdated": "2025-08-13",
+      "lastUpdated": "2025-08-17",
       "itemCount": 192
     },
     {
       "id": "love",
       "name": {
         "en": "love",
-        "zh-tw": "愛"
+        "zh-tw": "愛心"
       },
-      "preview": "(*´д`)~♥",
-      "lastUpdated": "2025-08-13",
-      "itemCount": 263
+      "preview": "(♥д♥)",
+      "lastUpdated": "2025-08-17",
+      "itemCount": 274
     },
     {
       "id": "other",
@@ -117,8 +137,8 @@
         "zh-tw": "其他"
       },
       "preview": "ʚ ɞ",
-      "lastUpdated": "2025-08-13",
-      "itemCount": 274
+      "lastUpdated": "2025-08-17",
+      "itemCount": 279
     },
     {
       "id": "sad",
@@ -127,8 +147,8 @@
         "zh-tw": "難過"
       },
       "preview": "( ´•̥̥̥ω•̥̥̥` )",
-      "lastUpdated": "2025-08-13",
-      "itemCount": 493
+      "lastUpdated": "2025-08-17",
+      "itemCount": 534
     },
     {
       "id": "shy",
@@ -137,7 +157,7 @@
         "zh-tw": "害羞"
       },
       "preview": "(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄ ",
-      "lastUpdated": "2025-08-13",
+      "lastUpdated": "2025-08-17",
       "itemCount": 215
     },
     {
@@ -147,8 +167,8 @@
         "zh-tw": "驚訝"
       },
       "preview": "Σ(°Д°;)",
-      "lastUpdated": "2025-08-13",
-      "itemCount": 278
+      "lastUpdated": "2025-08-17",
+      "itemCount": 335
     },
     {
       "id": "tired",
@@ -157,87 +177,112 @@
         "zh-tw": "累累"
       },
       "preview": "(ㅎ.ㅎ)",
-      "lastUpdated": "2025-08-13",
-      "itemCount": 65
+      "lastUpdated": "2025-08-17",
+      "itemCount": 67
     }
   ],
   "tags": [
-    "不爽",
-    "你好",
+    "X嘴",
+    "ぞくぞく",
+    "不滿",
+    "乾杯",
     "偷偷",
     "兔子",
+    "剪刀",
     "加油",
     "動物",
     "叫喊",
     "可愛",
+    "史努比",
     "吃",
     "吐血",
     "呆滯",
-    "哭泣",
+    "哭",
+    "問候",
     "嘆氣",
+    "嘟嘴",
+    "嘲笑",
     "嚇一跳",
     "嚴肅",
     "困惑",
     "墨鏡",
+    "大眼",
     "大笑",
     "天使",
-    "失望",
     "安慰",
     "害怕",
     "害羞",
     "寫字",
     "尷尬",
     "崩潰",
+    "幸福",
     "幹勁",
-    "強壯",
     "微笑",
     "思考",
     "惡魔",
     "愛心",
     "感謝",
-    "憤怒",
+    "抓",
     "拜託",
     "指",
+    "捏",
+    "揮手",
     "搞怪",
     "擁抱",
     "攻擊",
+    "敬禮",
+    "文字",
     "星星",
     "暈眩",
+    "月亮",
     "朋友",
-    "滿足",
+    "歪頭",
+    "汗顏",
+    "泛淚",
+    "流口水",
+    "激動",
     "無奈",
     "無言",
     "熊",
     "狗狗",
     "生氣",
     "疑問",
-    "痛苦",
     "目瞪口呆",
     "眨眼",
-    "累",
+    "睏",
+    "給我",
     "緊張",
     "羊",
     "翅膀",
     "翻桌",
     "聳肩",
     "肌肉",
+    "腹黑",
     "自信",
     "興奮",
+    "舉起雙手",
     "花",
     "萬歲",
-    "衝刺",
+    "裝飾",
     "親",
     "讚",
+    "豬",
     "貓咪",
     "跑",
     "跳舞",
+    "運動",
     "道歉",
-    "遵命",
     "閃亮",
+    "閃電",
+    "閉眼",
     "開心",
     "難過",
     "音樂",
     "顫抖",
-    "驚訝"
-  ]
+    "餓",
+    "驚訝",
+    "魔法"
+  ],
+  "totalItems": 4646,
+  "lastUpdated": "2025-08-17"
 }
