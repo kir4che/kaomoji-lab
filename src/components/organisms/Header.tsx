@@ -46,7 +46,7 @@ const Header: React.FC = () => (
       >
         意見回饋
       </a>
-      {process.env.NODE_ENV === 'development' && (
+      {process.env.NEXT_PUBLIC_NODE_ENV === 'development' && (
         <Link
           href="/admin"
           className="text-sm text-primary-400 hover:text-primary-500 hover:underline hover:underline-offset-2"
