@@ -42,7 +42,7 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
     return savedCheckedIds ? new Set(JSON.parse(savedCheckedIds)) : new Set();
   });
   const [filterCheckedStatus, setFilterCheckedStatus] = useState<'all' | 'checked' | 'unchecked'>(
-    'all'
+    'unchecked'
   );
 
   const [isMultiSelectMode, setIsMultiSelectMode] = useState(false);
@@ -107,14 +107,21 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
       if (prev) {
         if (selectedKaomojiIds.size === 1) {
           const selectedId = selectedKaomojiIds.values().next().value;
-          const kaomojiToSelect = allKaomoji.find((k) => k.id === selectedId);
+          let kaomojiToSelect = null;
+          for (const category of categories) {
+            const found = category.items.find((k) => k.id === selectedId);
+            if (found) {
+              kaomojiToSelect = found;
+              break;
+            }
+          }
           if (kaomojiToSelect) setSelectedKaomoji(kaomojiToSelect);
         }
         setSelectedKaomojiIds(new Set());
       }
       return !prev;
     });
-  }, [selectedKaomojiIds, allKaomoji]);
+  }, [selectedKaomojiIds, categories]);
 
   useEffect(() => {
     if (!selectedKaomoji && filteredKaomoji.length > 0 && !isMultiSelectMode)
@@ -212,7 +219,10 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
   };
 
   const onBulkAddTags = () => {
-    handleBulkAddTags(selectedKaomojiIds, tagsToAdd).then(() => setTagsToAdd(''));
+    handleBulkAddTags(selectedKaomojiIds, tagsToAdd).then(() => {
+      setTagsToAdd('');
+      setSelectedKaomojiIds(new Set());
+    });
   };
 
   const onBulkRemoveTags = () => {
@@ -231,18 +241,15 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
       return;
     }
 
-    const confirmMessage = `確定要從選中的 ${selectedKaomojiIds.size} 個顏文字中移除 ${tagsToRemoveList.join(', ')} 標籤嗎？`;
-
-    if (window.confirm(confirmMessage)) {
-      handleBulkRemoveTags(selectedKaomojiIds, tagsToRemove)
-        .then(() => {
-          setTagsToRemove('');
-          showToast(`已成功移除選定的標籤！`, 'success');
-        })
-        .catch(() => {
-          showToast('移除標籤時發生錯誤！', 'error');
-        });
-    }
+    handleBulkRemoveTags(selectedKaomojiIds, tagsToRemove)
+      .then(() => {
+        setTagsToRemove('');
+        setSelectedKaomojiIds(new Set());
+        showToast(`已成功移除選定的標籤！`, 'success');
+      })
+      .catch(() => {
+        showToast('移除標籤時發生錯誤！', 'error');
+      });
   };
 
   if (isLoading) return <Loading />;
@@ -306,8 +313,24 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
               )}
             >
               <option value="all">全部</option>
-              <option value="checked">已檢查</option>
-              <option value="unchecked">未檢查</option>
+              <option value="checked">
+                已檢查 (
+                {selectedCategory
+                  ? categories
+                      .find((c) => c.id === selectedCategory)
+                      ?.items.filter((item) => checkedKaomojiIds.has(item.id)).length || 0
+                  : Array.from(checkedKaomojiIds).length}
+                )
+              </option>
+              <option value="unchecked">
+                未檢查 (
+                {selectedCategory
+                  ? categories
+                      .find((c) => c.id === selectedCategory)
+                      ?.items.filter((item) => !checkedKaomojiIds.has(item.id)).length || 0
+                  : allKaomoji.length - Array.from(checkedKaomojiIds).length}
+                )
+              </option>
             </select>
           </div>
         </div>

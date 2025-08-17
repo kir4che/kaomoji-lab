@@ -51,7 +51,6 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
     handleMove,
   } = useKaomojiForm({
     kaomoji,
-    categories,
     currCategory,
     onSave,
     onMove,
@@ -177,8 +176,9 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
               <select
                 value={selectedMoveCategory}
                 onChange={(e) => {
-                  setSelectedMoveCategory(e.target.value);
-                  if (e.target.value) handleMove();
+                  const newCategory = e.target.value;
+                  setSelectedMoveCategory(newCategory);
+                  if (newCategory) handleMove(newCategory);
                 }}
                 className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500"
               >

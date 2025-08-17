@@ -1,23 +1,16 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 
 import { useToast } from '@/contexts/ToastContext';
-import type { KaomojiItem, CategoryData } from '@/types/Kaomoji';
+import type { KaomojiItem } from '@/types/Kaomoji';
 
 interface UseKaomojiFormParams {
   kaomoji: KaomojiItem;
-  categories: CategoryData[];
   currCategory: string;
   onSave: (kaomoji: KaomojiItem) => Promise<void>;
   onMove: (toCategory: string, updatedData?: KaomojiItem) => void;
 }
 
-export function useKaomojiForm({
-  kaomoji,
-  categories,
-  currCategory,
-  onSave,
-  onMove,
-}: UseKaomojiFormParams) {
+export function useKaomojiForm({ kaomoji, currCategory, onSave, onMove }: UseKaomojiFormParams) {
   const { showToast } = useToast();
 
   const [formData, setFormData] = useState<KaomojiItem>(kaomoji);
@@ -130,44 +123,37 @@ export function useKaomojiForm({
     return currentDataString !== lastSavedDataRef.current && !isSaving;
   }, [formData.text, formData.tags, kaomoji.id, isSaving]);
 
-  const handleMove = useCallback(async () => {
-    const moveCategory =
-      selectedMoveCategory || categories.find((c) => c.id !== currCategory)?.id || '';
+  const handleMove = useCallback(
+    async (targetCategory?: string) => {
+      const moveCategory = targetCategory || selectedMoveCategory;
 
-    if (!moveCategory) {
-      showToast('無法找到可移動的分類！', 'error');
-      return;
-    }
-
-    if (moveCategory === currCategory) {
-      showToast('不能移動到相同分類！', 'error');
-      return;
-    }
-
-    const currDataString = JSON.stringify({ text: formData.text, tags: formData.tags });
-    const hasChanges = currDataString !== lastSavedDataRef.current && !isSaving;
-
-    if (hasChanges) {
-      try {
-        await forceSave();
-      } catch {
-        showToast('儲存變更失敗，無法移動！', 'error');
+      if (!moveCategory) {
+        showToast('請選擇一個目標分類！', 'error');
         return;
       }
-    }
 
-    onMove(moveCategory, formData);
-    setSelectedMoveCategory('');
-  }, [
-    categories,
-    currCategory,
-    formData,
-    onMove,
-    selectedMoveCategory,
-    showToast,
-    forceSave,
-    isSaving,
-  ]);
+      if (moveCategory === currCategory) {
+        showToast('不能移動到相同分類！', 'error');
+        return;
+      }
+
+      const currDataString = JSON.stringify({ text: formData.text, tags: formData.tags });
+      const hasChanges = currDataString !== lastSavedDataRef.current && !isSaving;
+
+      if (hasChanges) {
+        try {
+          await forceSave();
+        } catch {
+          showToast('儲存變更失敗，無法移動！', 'error');
+          return;
+        }
+      }
+
+      onMove(moveCategory, formData);
+      setSelectedMoveCategory('');
+    },
+    [currCategory, formData, onMove, selectedMoveCategory, showToast, forceSave, isSaving]
+  );
 
   const handleTextChange = useCallback(
     (newText: string) => {
