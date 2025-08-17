@@ -8,6 +8,8 @@ interface UseFilteredKaomojiParams {
   searchTerm?: string;
   selectedCategory?: string;
   filterTag?: string;
+  filterCheckedStatus?: 'all' | 'checked' | 'unchecked';
+  checkedKaomojiIds?: Set<string>;
 }
 
 export function useFilteredKaomoji({
@@ -16,6 +18,8 @@ export function useFilteredKaomoji({
   searchTerm = '',
   selectedCategory = '',
   filterTag = '',
+  filterCheckedStatus = 'all',
+  checkedKaomojiIds = new Set(),
 }: UseFilteredKaomojiParams) {
   const countInString = (str: string, target: string) => str.split(target).length - 1;
 
@@ -42,7 +46,7 @@ export function useFilteredKaomoji({
           itemId.includes(term) ||
           itemTags.some((tag) => tag.includes(term));
 
-        return orSegments.some((orSegment) => {
+        const similaritySearch = orSegments.some((orSegment) => {
           const andTerms = orSegment.split(/\s+/).filter(Boolean);
 
           const termCounts: Record<string, number> = {};
@@ -60,13 +64,39 @@ export function useFilteredKaomoji({
             ([term, count]) => countInString(itemText, term) >= count
           );
           const passesExclude = !excludeTerms.some((term) => check(term));
-          return passesInclude && passesExclude;
+
+          const textMatch = passesInclude && passesExclude;
+          const tagMatch = itemTags.some((tag) => tag.includes(orSegment));
+
+          return textMatch || tagMatch;
         });
+
+        return similaritySearch;
       });
     }
 
-    if (filterTag) items = items.filter((item) => item.tags.includes(filterTag));
+    if (filterTag) {
+      const normalizedFilterTag = filterTag.trim().toLowerCase();
+      items = items.filter((item) =>
+        item.tags.some((tag) => tag.trim().toLowerCase() === normalizedFilterTag)
+      );
+    }
+
+    if (filterCheckedStatus !== 'all') {
+      items = items.filter((item) => {
+        const isChecked = checkedKaomojiIds.has(item.id);
+        return filterCheckedStatus === 'checked' ? isChecked : !isChecked;
+      });
+    }
 
     return items;
-  }, [sourceKaomojis, allCategories, searchTerm, selectedCategory, filterTag]);
+  }, [
+    sourceKaomojis,
+    allCategories,
+    searchTerm,
+    selectedCategory,
+    filterTag,
+    filterCheckedStatus,
+    checkedKaomojiIds,
+  ]);
 }

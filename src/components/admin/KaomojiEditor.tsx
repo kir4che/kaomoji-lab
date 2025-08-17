@@ -5,12 +5,14 @@ import type { KeyboardEvent, CompositionEvent } from 'react';
 
 import type { KaomojiItem, CategoryData } from '@/types/Kaomoji';
 import { useKaomojiForm } from '@/hooks/useKaomojiForm';
+import { cn } from '@/utils/cn';
 import AvailableTagList from '@/components/organisms/AvailableTagList';
 import IconBtn from '@/components/atoms/IconBtn';
 import Input from '@/components/atoms/Input';
 import CloseIcon from '@/assets/icons/close.svg';
 import MoveRightIcon from '@/assets/icons/move-right.svg';
 import PlusIcon from '@/assets/icons/plus.svg';
+import SparkleIcon from '@/assets/icons/sparkle.svg';
 
 interface KaomojiEditorProps {
   kaomoji: KaomojiItem;
@@ -19,6 +21,8 @@ interface KaomojiEditorProps {
   currCategory: string;
   onSave: (kaomoji: KaomojiItem) => Promise<void>;
   onMove: (toCategory: string, updatedData?: KaomojiItem) => void;
+  isChecked?: boolean;
+  onToggleChecked?: (kaomojiId: string) => void;
 }
 
 const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
@@ -28,6 +32,8 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
   currCategory,
   onSave,
   onMove,
+  isChecked,
+  onToggleChecked,
 }) => {
   const [isComposing, setIsComposing] = useState(false);
 
@@ -58,7 +64,24 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
     <div className="p-4 sm:px-6 pb-6 space-y-4 bg-white rounded-lg">
       {isEditMode && (
         <div className="flex-between text-xs">
-          <h3 className="text-lg font-semibold">顏文字 ({formData.id})</h3>
+          <div className="flex items-center gap-x-2">
+            <h3 className="text-lg font-semibold">顏文字 ({formData.id})</h3>
+            {onToggleChecked && (
+              <button
+                type="button"
+                onClick={() => onToggleChecked(formData.id)}
+                className={cn(
+                  'p-1 rounded-full transition-colors',
+                  isChecked
+                    ? 'bg-green-100 text-green-600 hover:bg-green-200'
+                    : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
+                )}
+                aria-label={`${isChecked ? '取消' : '標記'}已檢查`}
+              >
+                <SparkleIcon className="size-4" />
+              </button>
+            )}
+          </div>
           {isAutoSaving ? (
             <p className="flex items-center gap-x-1.5 text-gray-500">
               <div className="animate-spin rounded-full size-3 border border-gray-400 border-t-transparent" />

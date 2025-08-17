@@ -37,6 +37,14 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
   const [filterTag, setFilterTag] = useState('');
 
   const [selectedKaomojiIds, setSelectedKaomojiIds] = useState<Set<string>>(new Set());
+  const [checkedKaomojiIds, setCheckedKaomojiIds] = useState<Set<string>>(() => {
+    const savedCheckedIds = localStorage.getItem('checkedKaomojiIds');
+    return savedCheckedIds ? new Set(JSON.parse(savedCheckedIds)) : new Set();
+  });
+  const [filterCheckedStatus, setFilterCheckedStatus] = useState<'all' | 'checked' | 'unchecked'>(
+    'all'
+  );
+
   const [isMultiSelectMode, setIsMultiSelectMode] = useState(false);
   const [tagsToAdd, setTagsToAdd] = useState('');
   const [tagsToRemove, setTagsToRemove] = useState('');
@@ -57,6 +65,16 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
     return map;
   }, [categories]);
 
+  const toggleKaomojiChecked = useCallback((kaomojiId: string) => {
+    setCheckedKaomojiIds((prev) => {
+      const newSet = new Set(prev);
+      if (newSet.has(kaomojiId)) newSet.delete(kaomojiId);
+      else newSet.add(kaomojiId);
+      localStorage.setItem('checkedKaomojiIds', JSON.stringify(Array.from(newSet)));
+      return newSet;
+    });
+  }, []);
+
   const toggleKaomojiSelection = useCallback((kaomojiId: string) => {
     setSelectedKaomojiIds((prev) => {
       const newSet = new Set(prev);
@@ -72,6 +90,8 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
     selectedCategory,
     searchTerm,
     filterTag,
+    filterCheckedStatus,
+    checkedKaomojiIds,
   });
 
   const selectAllKaomoji = useCallback(() => {
@@ -196,7 +216,33 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
   };
 
   const onBulkRemoveTags = () => {
-    handleBulkRemoveTags(selectedKaomojiIds, tagsToRemove).then(() => setTagsToRemove(''));
+    if (!tagsToRemove.trim()) {
+      showToast('請輸入要移除的標籤！', 'info');
+      return;
+    }
+
+    const tagsToRemoveList = tagsToRemove
+      .split(/[,，、\s]+/)
+      .map((tag) => tag.trim())
+      .filter(Boolean);
+
+    if (tagsToRemoveList.length === 0) {
+      showToast('無效的標籤輸入！', 'info');
+      return;
+    }
+
+    const confirmMessage = `確定要從選中的 ${selectedKaomojiIds.size} 個顏文字中移除 ${tagsToRemoveList.join(', ')} 標籤嗎？`;
+
+    if (window.confirm(confirmMessage)) {
+      handleBulkRemoveTags(selectedKaomojiIds, tagsToRemove)
+        .then(() => {
+          setTagsToRemove('');
+          showToast(`已成功移除選定的標籤！`, 'success');
+        })
+        .catch(() => {
+          showToast('移除標籤時發生錯誤！', 'error');
+        });
+    }
   };
 
   if (isLoading) return <Loading />;
@@ -222,7 +268,10 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
                 setSelectedCategory(e.target.value);
                 setSelectedKaomoji(null);
               }}
-              className="max-w-24 text-xs xs:text-sm px-2 py-1.5 border border-gray-300 rounded-md focus:outline-none flex-1"
+              className={cn(
+                'text-xs xs:text-sm px-2 py-1.5 border border-gray-300 rounded-md focus:outline-none flex-1',
+                isMultiSelectMode ? 'max-w-32' : 'max-w-24'
+              )}
             >
               <option value="">選擇分類</option>
               {categories.map((category) => (
@@ -234,7 +283,10 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
             <select
               value={filterTag}
               onChange={(e) => setFilterTag(e.target.value)}
-              className="max-w-24 text-xs xs:text-sm px-2 py-1.5 border border-gray-300 rounded-md focus:outline-none flex-1"
+              className={cn(
+                'text-xs xs:text-sm px-2 py-1.5 border border-gray-300 rounded-md focus:outline-none flex-1',
+                isMultiSelectMode ? 'max-w-32' : 'max-w-24'
+              )}
             >
               <option value="">選擇標籤</option>
               {tagsWithCounts.map((tagInfo) => (
@@ -242,6 +294,20 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
                   {tagInfo.tag} ({tagInfo.count})
                 </option>
               ))}
+            </select>
+            <select
+              value={filterCheckedStatus}
+              onChange={(e) =>
+                setFilterCheckedStatus(e.target.value as 'all' | 'checked' | 'unchecked')
+              }
+              className={cn(
+                'text-xs xs:text-sm px-2 py-1.5 border border-gray-300 rounded-md focus:outline-none flex-1',
+                isMultiSelectMode ? 'max-w-32' : 'max-w-24'
+              )}
+            >
+              <option value="all">全部</option>
+              <option value="checked">已檢查</option>
+              <option value="unchecked">未檢查</option>
             </select>
           </div>
         </div>
@@ -362,7 +428,9 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
           <div
             className={cn(
               'grid max-h-48 md:max-h-[420px] gap-2 overflow-x-hidden overflow-y-auto',
-              isMultiSelectMode ? 'xl:grid-cols-4' : 'grid-cols-2 lg:grid-cols-3'
+              isMultiSelectMode
+                ? 'grid-cols-2 sm:grid-cols-3 xl:grid-cols-4'
+                : 'grid-cols-2 lg:grid-cols-3'
             )}
           >
             {filteredKaomoji.map((kaomoji) => {
@@ -398,21 +466,19 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
                       {kaomoji.text}
                     </p>
                   </div>
-                  {!isMultiSelectMode && (
-                    <button
-                      type="button"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        const cId = kaomojiToCategoryMap.get(kaomoji.id);
-                        if (cId) onSingleDelete(cId, kaomoji.id);
-                        else showToast('無法確定分類！', 'error');
-                      }}
-                      className="text-gray-500 hover:text-gray-700"
-                      aria-label={`刪除 ${kaomoji.text}`}
-                    >
-                      <CloseIcon className="size-5" />
-                    </button>
-                  )}
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      const cId = kaomojiToCategoryMap.get(kaomoji.id);
+                      if (cId) onSingleDelete(cId, kaomoji.id);
+                      else showToast('無法確定分類！', 'error');
+                    }}
+                    className="text-gray-500 hover:text-gray-700"
+                    aria-label={`刪除 ${kaomoji.text}`}
+                  >
+                    <CloseIcon className="size-5" />
+                  </button>
                 </div>
               );
             })}
@@ -427,6 +493,8 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
           currCategory={kaomojiToCategoryMap.get(selectedKaomoji.id) || selectedCategory}
           onSave={handleSave}
           onMove={handleMoveFromEditor}
+          isChecked={selectedKaomoji && checkedKaomojiIds.has(selectedKaomoji.id)}
+          onToggleChecked={toggleKaomojiChecked}
         />
       )}
     </div>
