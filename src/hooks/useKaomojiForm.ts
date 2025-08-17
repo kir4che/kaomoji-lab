@@ -179,9 +179,13 @@ export function useKaomojiForm({
     [formData, immediateSave]
   );
 
-  const handleSubmit = useCallback((e: React.FormEvent) => {
-    e.preventDefault();
-  }, []);
+  const handleSubmit = useCallback(
+    (e: React.FormEvent) => {
+      e.preventDefault();
+      if (!formData.id && formData.text.trim()) onSave(formData);
+    },
+    [formData, onSave]
+  );
 
   return {
     formData,

@@ -255,12 +255,12 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
     >
       <div className="space-y-3">
         <div className="relative bg-white rounded-lg px-4 sm:px-6 py-3">
-          <div className="flex gap-x-2">
+          <div className="flex gap-x-1.5">
             <Input
               value={searchTerm}
               placeholder="搜尋顏文字或標籤"
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="px-2 py-2 border rounded-md border-gray-300 flex-2 text-xs xs:text-sm"
+              className="p-2 border rounded-md border-gray-300 flex-2 text-xs xs:text-sm"
             />
             <select
               value={selectedCategory}
@@ -269,8 +269,8 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
                 setSelectedKaomoji(null);
               }}
               className={cn(
-                'text-xs xs:text-sm px-2 py-1.5 border border-gray-300 rounded-md focus:outline-none flex-1',
-                isMultiSelectMode ? 'max-w-32' : 'max-w-24'
+                'text-xs xs:text-sm p-1.5 border border-gray-300 rounded-md focus:outline-none flex-1',
+                isMultiSelectMode ? 'max-w-36' : 'max-w-24'
               )}
             >
               <option value="">選擇分類</option>
@@ -284,8 +284,8 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
               value={filterTag}
               onChange={(e) => setFilterTag(e.target.value)}
               className={cn(
-                'text-xs xs:text-sm px-2 py-1.5 border border-gray-300 rounded-md focus:outline-none flex-1',
-                isMultiSelectMode ? 'max-w-32' : 'max-w-24'
+                'text-xs xs:text-sm p-1.5 border border-gray-300 rounded-md focus:outline-none flex-1',
+                isMultiSelectMode ? 'max-w-36' : 'max-w-24'
               )}
             >
               <option value="">選擇標籤</option>
@@ -301,8 +301,8 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
                 setFilterCheckedStatus(e.target.value as 'all' | 'checked' | 'unchecked')
               }
               className={cn(
-                'text-xs xs:text-sm px-2 py-1.5 border border-gray-300 rounded-md focus:outline-none flex-1',
-                isMultiSelectMode ? 'max-w-32' : 'max-w-24'
+                'text-xs xs:text-sm p-1 border border-gray-300 rounded-md focus:outline-none flex-1',
+                isMultiSelectMode ? 'max-w-28' : 'max-w-24'
               )}
             >
               <option value="all">全部</option>
