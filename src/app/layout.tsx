@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Noto_Sans, Noto_Sans_TC, Noto_Color_Emoji } from 'next/font/google';
+import { Noto_Sans_TC, Noto_Color_Emoji } from 'next/font/google';
 import Script from 'next/script';
 
 import { LanguageProvider } from '@/contexts/LanguageContext';
@@ -11,14 +11,9 @@ import ScrollToTopBtn from '@/components/atoms/ScrollToTopBtn';
 
 import './globals.css';
 
-const notoSans = Noto_Sans({
-  variable: '--font-sans',
-  subsets: ['latin'],
-  display: 'swap',
-});
-
 const notoSansTC = Noto_Sans_TC({
   variable: '--font-sans-tc',
+  weight: ['400', '500', '600', '700'],
   subsets: ['latin'],
   display: 'swap',
 });
@@ -27,6 +22,7 @@ const notoColorEmoji = Noto_Color_Emoji({
   variable: '--font-emoji',
   subsets: ['emoji'],
   weight: '400',
+  display: 'swap',
 });
 
 const siteUrl = new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://kaomojilab.vercel.app/');
@@ -83,7 +79,7 @@ interface RootLayoutProps {
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
-  const fontClasses = [notoSans.variable, notoSansTC.variable, notoColorEmoji.variable].join(' ');
+  const fontClasses = [notoSansTC.variable, notoColorEmoji.variable].join(' ');
 
   return (
     <html lang="zh-tw" className="scroll-smooth">
@@ -92,11 +88,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9209549258046593"
           crossOrigin="anonymous"
-          strategy="beforeInteractive"
+          strategy="lazyOnload"
         />
       </head>
       <body
-        className={`${fontClasses} relative antialiased flex flex-col min-h-screen [&:not(#admin)]:no-select`}
+        className={`${fontClasses} font-sans relative antialiased flex flex-col min-h-screen [&:not(#admin)]:no-select`}
       >
         <LanguageProvider>
           <ToastProvider>
