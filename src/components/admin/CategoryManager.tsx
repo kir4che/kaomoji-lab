@@ -156,8 +156,8 @@ const CategoryManager: React.FC<CategoryManagerProps> = ({
       try {
         await adminService.deleteCategory(id);
         showToast('分類刪除成功！', 'success');
-      } catch (error) {
-        const errMsg = error instanceof Error ? error.message : '刪除時發生未知錯誤！';
+      } catch (err) {
+        const errMsg = err instanceof Error ? err.message : '刪除時發生未知錯誤！';
         showToast(errMsg, 'error');
         setCategories(originalCategories);
         onDataChange(originalCategories);

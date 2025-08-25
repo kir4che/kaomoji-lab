@@ -37,7 +37,7 @@ const KaomojiBtn: React.FC<KaomojiBtnProps> = ({ text, onCopy, isCopied, classNa
       aria-label={`${text}（點擊複製）`}
       aria-live="polite"
       className={cn(
-        'bg-white rounded-lg px-2 sm:px-3 py-2 shadow text-sm md:text-lg font-medium text-nowrap border-2 border-transparent hover:border-primary-500/25 hover:text-pink-500 focus:border-transparent transition-colors duration-300',
+        'bg-white rounded-lg p-2 shadow text-sm md:text-base font-medium text-nowrap border-2 border-transparent hover:border-primary-500/25 hover:text-pink-500 focus:border-transparent transition-colors duration-300',
         {
           'text-primary-500 font-medium': showCopyText,
           'shake-animation pulse-glow': isCopied,
