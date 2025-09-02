@@ -7,6 +7,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { useKaomoji } from '@/hooks/useKaomoji';
 import { normalize } from '@/utils/normalize';
 import { sortList } from '@/utils/sortList';
+import { t } from '@/lib/i18n';
 import Loading from '@/components/atoms/Loading';
 import SortingDropdown from '@/components/molecules/SortingDropdown';
 
@@ -20,7 +21,7 @@ const CategoryListPage: React.FC = () => {
   const sortedCategories = useMemo(() => {
     if (sortBy === 'name') {
       return sortList(categories, 'name', sortOrder, (item) =>
-        normalize(item.name[lang] || item.name.en || '未命名分類')
+        normalize(item.name[lang] || item.name.en || t('unnamedCategory', lang))
       );
     }
     if (sortBy === 'count') return sortList(categories, 'itemCount', sortOrder);
@@ -32,17 +33,20 @@ const CategoryListPage: React.FC = () => {
   return (
     <div className="flex-1 flex flex-col">
       <section className="mb-2 xs:mb-0 space-y-4 text-center">
-        <h1>分類一覽</h1>
+        <h1>{t('categoryListTitle', lang)}</h1>
         <p className="text-sm text-gray-500">
-          共 {categories.length} 個分類 ｜ {totalKaomojis} 個顏文字
+          {t('categoryListDescription', lang, {
+            categoryCount: categories.length,
+            kaomojiCount: totalKaomojis,
+          })}
         </p>
       </section>
       <SortingDropdown
         sortBy={sortBy}
         sortOrder={sortOrder}
         options={[
-          { value: 'count', label: '數量' },
-          { value: 'name', label: '名稱' },
+          { value: 'count', label: t('sortByCount', lang) },
+          { value: 'name', label: t('sortByName', lang) },
         ]}
         onSortByChange={(val: string) => setSortBy(val as 'name' | 'count')}
         onSortOrderChange={setSortOrder}
@@ -59,7 +63,7 @@ const CategoryListPage: React.FC = () => {
               {preview}
             </p>
             <h3 className="text-xl font-semibold capitalize text-center">
-              {name[lang] || name.en || '未命名分類'}
+              {name[lang] || name.en || t('unnamedCategory', lang)}
             </h3>
             <span className="absolute -top-2 -right-2 z-30 flex-center bg-primary-100 text-primary-700 size-9 rounded-full text-base font-bold">
               {itemCount}

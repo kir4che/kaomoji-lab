@@ -1,16 +1,23 @@
-import type { CategoryData, KaomojiItem } from '@/types/Kaomoji';
+/* global RequestInit */
+import type { CategoryData, KaomojiItem, Tag } from '@/types/Kaomoji';
 
-async function fetchAPI(endpoint: string, options: any) {
-  const res = await fetch(`/api/admin${endpoint}`, options);
+async function fetchAPI(endpoint: string, options?: RequestInit) {
+  const headers = new Headers(options?.headers);
+  const res = await fetch(`/api/admin${endpoint}`, { ...options, headers });
+
   if (!res.ok) {
     const errorData = await res.json().catch(() => ({ message: 'An unknown error occurred' }));
-    throw new Error(errorData.message || 'API request failed!');
+    throw new Error(errorData.error || 'API request failed!');
   }
   const text = await res.text();
   return text ? JSON.parse(text) : {};
 }
 
-export const createCategory = (data: { category: string; name: object; preview: string }) => {
+export const createCategory = (data: {
+  category: string;
+  name: Record<string, string>;
+  preview: string;
+}) => {
   return fetchAPI('/categories', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -20,7 +27,7 @@ export const createCategory = (data: { category: string; name: object; preview: 
 
 export const updateCategoryInfo = (
   originalCategory: string,
-  data: { category: string; name: object; preview: string }
+  data: { category: string; name: Record<string, string>; preview: string }
 ) => {
   return fetchAPI('/categories', {
     method: 'PUT',
@@ -37,6 +44,14 @@ export const updateCategoryItems = (categoryId: string, data: Partial<CategoryDa
   });
 };
 
+export const updateCategory = (categoryId: string, data: Partial<CategoryData>) => {
+  return fetchAPI('/categories', {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ category: categoryId, ...data }),
+  });
+};
+
 export const deleteCategory = (categoryId: string) => {
   return fetchAPI('/categories', {
     method: 'DELETE',
@@ -45,37 +60,54 @@ export const deleteCategory = (categoryId: string) => {
   });
 };
 
-export const bulkUpdateCategoriesForTags = (updates: Map<string, KaomojiItem[]>) => {
-  const promises = Array.from(updates.entries()).map(([categoryId, items]) =>
-    updateCategoryItems(categoryId, {
-      items,
-      lastUpdated: new Date().toISOString().split('T')[0],
-    })
-  );
-  return Promise.all(promises);
-};
-
-export const renameTag = (oldTag: string, newTag: string) => {
-  return fetchAPI('/tags', {
-    method: 'PUT',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ oldTag, newTag }),
+export const bulkUpdateCategoryItems = (categoryId: string, items: KaomojiItem[]) => {
+  return updateCategoryItems(categoryId, {
+    items,
+    lastUpdated: new Date().toISOString().split('T')[0],
   });
 };
 
-export const mergeTags = (oldTags: string[], newTag: string) => {
+export const getTags = (): Promise<Tag[]> => {
+  return fetchAPI('/tags');
+};
+
+export const createTag = (tag: Tag) => {
   return fetchAPI('/tags', {
-    method: 'PUT',
+    method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ oldTags, newTag }),
+    body: JSON.stringify(tag),
   });
 };
 
-export const deleteTag = (tag: string) => {
+export const updateTag = (tag: Tag) => {
+  return fetchAPI('/tags', {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(tag),
+  });
+};
+
+export const deleteTag = (tagId: string) => {
   return fetchAPI('/tags', {
     method: 'DELETE',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ tag }),
+    body: JSON.stringify({ id: tagId }),
+  });
+};
+
+export const mergeTags = (tagIdsToMerge: string[], finalTagId: string) => {
+  return fetchAPI('/tags/merge', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ tagIdsToMerge, finalTagId }),
+  });
+};
+
+export const bulkRemoveTags = (tagIdsToRemove: string[]) => {
+  return fetchAPI('/tags/bulk-remove', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ tagIdsToRemove }),
   });
 };
 

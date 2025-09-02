@@ -1,18 +1,27 @@
 import type { Metadata } from 'next';
+import { cookies } from 'next/headers';
+
+import type { Language } from '@/types/Language';
+import { t } from '@/lib/i18n';
 
 import CategoryListPage from './client';
 
-export const metadata: Metadata = {
-  title: '分類一覽',
-  description: '瀏覽所有顏文字分類，例如開心、悲傷、動物等，快速找到您想要的顏文字表情。',
-  keywords: ['顏文字', '表情符號', '分類', 'Kaomoji', 'Categories', 'Japanese Emoticons'],
-  openGraph: {
-    title: '顏文字分類',
-    description: '瀏覽所有顏文字分類，快速找到您想要的顏文字表情。',
-    type: 'website',
-    url: '/category',
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const cookieStore = cookies();
+  const lang = ((await cookieStore).get('app-language')?.value || 'zh-tw') as Language;
+
+  return {
+    title: t('meta_category_title', lang),
+    description: t('meta_category_description', lang),
+    keywords: t('meta_category_keywords', lang).split(','),
+    openGraph: {
+      title: t('meta_category_og_title', lang),
+      description: t('meta_category_og_description', lang),
+      type: 'website',
+      url: '/category',
+    },
+  };
+}
 
 const CategoryPageContainer = () => {
   return <CategoryListPage />;

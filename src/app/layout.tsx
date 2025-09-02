@@ -1,7 +1,10 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
+import { cookies } from 'next/headers';
 import { Noto_Sans_TC, Noto_Color_Emoji } from 'next/font/google';
 import Script from 'next/script';
 
+import { getValidLanguage } from '@/utils/getValidLanguage';
+import { t } from '@/lib/i18n';
 import { LanguageProvider } from '@/contexts/LanguageContext';
 import { ToastProvider } from '@/contexts/ToastContext';
 import Header from '@/components/organisms/Header';
@@ -27,62 +30,66 @@ const notoColorEmoji = Noto_Color_Emoji({
 
 const siteUrl = new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://kaomojilab.vercel.app/');
 
-export const metadata: Metadata = {
-  metadataBase: siteUrl,
-  title: {
-    default: '顏文字實驗室 *｡٩(ˊᗜˋ*)و✦*｡',
-    template: '%s | 顏文字實驗室',
-  },
-  description:
-    '收藏超過 6000+ 可愛顏文字，支援一鍵複製，按分類和標籤瀏覽，快來找你最喜歡的顏文字 (｡◕‿◕｡)',
-  authors: [{ name: '顏文字實驗室', url: siteUrl }],
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-  },
-  themeColor: '#FA70A4',
-  icons: {
-    icon: '/favicon.png',
-    shortcut: '/favicon.png',
-    apple: '/favicon.png',
-  },
-  openGraph: {
-    title: '顏文字實驗室 *｡٩(ˊᗜˋ*)و✦\*｡',
-    description: '收藏超過 6000+ 可愛顏文字，一鍵複製，快來找你最喜歡的 (｡◕‿◕｡)',
-    url: siteUrl.toString(),
-    siteName: '顏文字實驗室',
-    images: '/images/og-image.png',
-    locale: 'zh_TW',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: '顏文字實驗室 *｡٩(ˊᗜˋ*)و✦\*｡',
-    description: '收藏超過 6000+ 可愛顏文字，一鍵複製，快來找你最喜歡的 (｡◕‿◕｡)',
-    images: '/images/og-image.png',
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
+export async function generateMetadata(): Promise<Metadata> {
+  const cookieStore = cookies();
+  const lang = getValidLanguage((await (await cookieStore).get('app-language'))?.value);
+
+  const keywords = t('meta_keywords', lang) || '';
+
+  return {
+    title: t('meta_default_title', lang),
+    description: t('meta_description', lang),
+    keywords: keywords.split(','),
+    creator: t('meta_default_title', lang),
+    authors: [{ name: t('meta_default_title', lang) }],
+    publisher: t('meta_default_title', lang),
+    robots: 'index, follow',
+    alternates: {
+      canonical: siteUrl.toString(),
     },
-  },
-  alternates: {
-    canonical: siteUrl.toString(),
-  },
+    openGraph: {
+      title: t('meta_default_title', lang),
+      description: t('meta_og_description', lang),
+      url: siteUrl.toString(),
+      siteName: t('meta_default_title', lang),
+      images: [
+        {
+          url: `${siteUrl.toString()}/images/og-image.png`,
+          width: 1200,
+          height: 630,
+          alt: 'Kaomoji Lab',
+        },
+      ],
+      locale: lang === 'zh-tw' ? 'zh_TW' : 'en_US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('meta_default_title', lang),
+      description: t('meta_twitter_description', lang),
+      images: [`${siteUrl.toString()}/images/og-image.png`],
+    },
+  };
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  themeColor: '#ffffff',
 };
 
 interface RootLayoutProps {
   children: React.ReactNode;
 }
 
-export default function RootLayout({ children }: RootLayoutProps) {
+export default async function RootLayout({ children }: RootLayoutProps) {
   const fontClasses = [notoSansTC.variable, notoColorEmoji.variable].join(' ');
+  const cookieStore = cookies();
+  const lang = getValidLanguage((await (await cookieStore).get('app-language'))?.value);
 
   return (
-    <html lang="zh-tw" className="scroll-smooth">
+    <html lang={lang} className="scroll-smooth">
       <head>
         <Script
           async

@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-import type { CategoryData, CategorySummary, IndexData } from '@/types/Kaomoji';
+import type { CategoryData, CategorySummary, IndexData, Tag } from '@/types/Kaomoji';
 
 function sortItemsById(data: CategoryData): CategoryData {
   data.items.sort((a, b) => {
@@ -49,9 +49,16 @@ function sortAndCleanIndex(): void {
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2) + '\n', 'utf-8');
   });
 
+  const tags: Tag[] = Array.from(allTags)
+    .map((tagId) => ({
+      id: tagId,
+      name: { en: tagId, 'zh-tw': tagId },
+    }))
+    .sort((a, b) => a.id.localeCompare(b.id));
+
   const indexData: IndexData = {
     categories,
-    tags: Array.from(allTags).sort(),
+    tags,
     totalItems: categories.reduce((sum, c) => sum + c.itemCount, 0),
     lastUpdated: new Date().toISOString().split('T')[0],
   };
@@ -59,7 +66,7 @@ function sortAndCleanIndex(): void {
   fs.writeFileSync(indexPath, JSON.stringify(indexData, null, 2) + '\n', 'utf-8');
 
   console.log(`目前分類列表：${categories.map((d) => d.id).join(', ')}`);
-  console.log(`共收集到 ${indexData?.tags?.length} 個獨立 tag`);
+  console.log(`共收集到 ${indexData.tags.length} 個獨立 tag`);
   console.log(`共 ${indexData.totalItems} 個顏文字項目`);
   console.log('🎉 全部檔案處理完成，已產生 index.json！');
 }

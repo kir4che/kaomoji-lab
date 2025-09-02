@@ -8,6 +8,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { useKaomoji } from '@/hooks/useKaomoji';
 import { useFilteredKaomoji } from '@/hooks/useFilteredKaomoji';
 import { useCopyToClipboard } from '@/hooks/useCopyToClipboard';
+import { t } from '@/lib/i18n';
 import Hexo from '@/components/organisms/Hexo';
 import KaomojiBtn from '@/components/atoms/KaomojiBtn';
 import Input from '@/components/atoms/Input';
@@ -53,12 +54,12 @@ const Home: React.FC = () => {
   return (
     <>
       <Hexo />
-      <div className="w-full max-w-96 mx-auto mb-6" role="search">
+      <div className="w-full max-w-96 mx-auto my-6" role="search">
         <Input
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          placeholder="搜尋顏文字或標籤..."
-          aria-label="搜尋顏文字或標籤"
+          placeholder={t('searchInputPlaceholder', lang)}
+          aria-label={t('searchInputAriaLabel', lang)}
           focusEffect
         />
       </div>
@@ -66,7 +67,11 @@ const Home: React.FC = () => {
         <ul
           className="flex flex-wrap gap-2.5 justify-center"
           aria-live="polite"
-          aria-label={searchTerm ? `搜尋結果，共 ${filteredKaomojis.length} 筆` : '推薦顏文字'}
+          aria-label={
+            searchTerm
+              ? t('searchResultsAriaLabel', lang, { count: filteredKaomojis.length })
+              : t('recommendedKaomojis', lang)
+          }
         >
           {filteredKaomojis.map((kaomoji) => (
             <li key={kaomoji.id}>
@@ -81,23 +86,30 @@ const Home: React.FC = () => {
         </ul>
       ) : (
         <p className="text-gray-500 text-lg text-center py-8">
-          {`沒有找到${searchTerm ? ` "${searchTerm}"` : ''}相關的顏文字`}
+          {searchTerm
+            ? t('noKaomojisFoundWithTerm', lang, { term: searchTerm })
+            : t('noKaomojisFound', lang)}
         </p>
       )}
       <section className="py-8 text-center space-y-6">
-        <h2>按分類探索</h2>
+        <h2>{t('exploreByCategory', lang)}</h2>
         <div className="flex flex-wrap justify-center gap-3">
           {categories.map((category) => (
             <Link
               key={category.id}
               href={`/category/${category.id}`}
               className="w-[calc(50%-6px)] sm:w-[calc(24%-6px)] lg:w-[calc(12%-6px)] rounded-xl bg-white p-2.5 text-center shadow shadow-primary-800/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500"
-              aria-label={`${category.name[lang]}，${category.itemCount} 個顏文字`}
+              aria-label={t('categoryAriaLabel', lang, {
+                categoryName: category.name[lang],
+                count: category.itemCount,
+              })}
             >
               <h3 className="text-base font-semibold capitalize text-gray-800">
                 {category.name[lang]}
               </h3>
-              <p className="text-xs text-gray-500">{category.itemCount} 個</p>
+              <p className="text-xs text-gray-500">
+                {t('kaomojisCount', lang, { count: category.itemCount })}
+              </p>
             </Link>
           ))}
         </div>

@@ -114,7 +114,7 @@ export async function PUT(request: NextRequest) {
       });
     }
 
-    await rebuildTagsFromCategories(indexData);
+    await rebuildTagsFromCategories();
     await updateIndexFile(indexData);
 
     return NextResponse.json({ success: true });
@@ -144,7 +144,7 @@ export async function DELETE(request: NextRequest) {
     const indexData = await readIndexFile();
     indexData.categories = indexData.categories.filter((c) => c.id !== category);
 
-    await rebuildTagsFromCategories(indexData);
+    await rebuildTagsFromCategories();
     await updateIndexFile(indexData);
 
     return NextResponse.json({ success: true });

@@ -44,7 +44,7 @@ export function useKaomojiMutations({
       onDataChange(updatedCategories);
 
       try {
-        await adminService.updateCategoryItems(categoryName, updatedData);
+        await adminService.updateCategory(categoryName, updatedData);
       } catch (err) {
         if (showError) {
           const errMsg = err instanceof Error ? err.message : '更新時發生未知錯誤！';
@@ -110,7 +110,7 @@ export function useKaomojiMutations({
       onDataChange(optimisticCategories);
 
       try {
-        await adminService.updateCategoryItems(categoryName, {
+        await adminService.updateCategory(categoryName, {
           items: updatedItems,
           lastUpdated: getTodayDateString(),
         });
@@ -177,11 +177,11 @@ export function useKaomojiMutations({
         setCategories(updatedCategories);
         onDataChange(updatedCategories);
 
-        await adminService.updateCategoryItems(fromCategoryId, {
+        await adminService.updateCategory(fromCategoryId, {
           items: updatedFromItems,
           lastUpdated: getTodayDateString(),
         });
-        await adminService.updateCategoryItems(toCategoryId, {
+        await adminService.updateCategory(toCategoryId, {
           items: updatedToItems,
           lastUpdated: getTodayDateString(),
         });
@@ -339,7 +339,7 @@ export function useKaomojiMutations({
         onDataChange(updatedCategories);
 
         const apiCalls = Array.from(updates.keys()).map((catId) =>
-          adminService.updateCategoryItems(catId, {
+          adminService.updateCategory(catId, {
             items: updates.get(catId)!,
             lastUpdated: getTodayDateString(),
           })

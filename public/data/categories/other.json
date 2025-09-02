@@ -10,7 +10,7 @@
     {
       "id": "other_001",
       "text": "..........ᴅᴜᴅᴜ！",
-      "tags": ["文字"]
+      "tags": ["text"]
     },
     {
       "id": "other_002",
@@ -25,7 +25,7 @@
     {
       "id": "other_005",
       "text": "ʚ ɞ",
-      "tags": ["翅膀", "天使"]
+      "tags": ["angel", "wings"]
     },
     {
       "id": "other_006",
@@ -35,12 +35,12 @@
     {
       "id": "other_007",
       "text": "ଲ",
-      "tags": ["可愛"]
+      "tags": ["cute"]
     },
     {
       "id": "other_009",
       "text": "g˙Ꙫ˙d",
-      "tags": ["驚訝"]
+      "tags": ["surprised"]
     },
     {
       "id": "other_011",
@@ -50,7 +50,7 @@
     {
       "id": "other_012",
       "text": "✿ യ ꕤ",
-      "tags": ["花"]
+      "tags": ["flower"]
     },
     {
       "id": "other_013",
@@ -65,7 +65,7 @@
     {
       "id": "other_015",
       "text": "𓌉◯𓇋",
-      "tags": ["吃"]
+      "tags": ["eating"]
     },
     {
       "id": "other_016",
@@ -85,7 +85,7 @@
     {
       "id": "other_019",
       "text": ".ᐟ.ᐟ",
-      "tags": ["驚訝"]
+      "tags": ["surprised"]
     },
     {
       "id": "other_020",
@@ -100,37 +100,37 @@
     {
       "id": "other_023",
       "text": "|⁰⊖⁰)",
-      "tags": ["偷偷", "生氣"]
+      "tags": ["angry", "peeking"]
     },
     {
       "id": "other_024",
       "text": "(「꒪౪꒪)」",
-      "tags": ["搞怪", "跳舞"]
+      "tags": ["dancing", "goofy"]
     },
     {
       "id": "other_025",
       "text": "ヽ(￣ω￣(￣ω￣〃)ゝ",
-      "tags": ["朋友", "敬禮"]
+      "tags": ["friend", "salute"]
     },
     {
       "id": "other_026",
       "text": "(〠_〠)",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "other_027",
       "text": "(ꆤ⍸ꆤ)",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "other_030",
       "text": "( ｡_｡)",
-      "tags": ["思考"]
+      "tags": ["thinking"]
     },
     {
       "id": "other_031",
       "text": "(。ⓥдⓥ)ノ",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "other_032",
@@ -140,7 +140,7 @@
     {
       "id": "other_033",
       "text": "(ര⸏ुര)",
-      "tags": ["搞怪", "可愛"]
+      "tags": ["cute", "goofy"]
     },
     {
       "id": "other_034",
@@ -150,52 +150,52 @@
     {
       "id": "other_035",
       "text": "(•Ṵ•)",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "other_036",
       "text": "(⁎छ˼̲̮छ)",
-      "tags": ["搞怪", "可愛"]
+      "tags": ["cute", "goofy"]
     },
     {
       "id": "other_037",
       "text": "( ˇ÷ˇ　 )",
-      "tags": ["思考", "無言"]
+      "tags": ["speechless", "thinking"]
     },
     {
       "id": "other_038",
       "text": "(⍬⍸⍬)",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "other_040",
       "text": "(♦亝д 亝)ﾉ",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "other_041",
       "text": "(⋆ʾ ꆚ ʿ⋆)۶⁾⁾⿻",
-      "tags": ["跳舞", "開心"]
+      "tags": ["dancing", "happy"]
     },
     {
       "id": "other_042",
       "text": "ヾ(´￢｀)ﾉ",
-      "tags": ["吃"]
+      "tags": ["eating"]
     },
     {
       "id": "other_044",
       "text": "＿ø(●ʘ╻ʘ●)",
-      "tags": ["嚇一跳", "寫字", "疑問"]
+      "tags": ["question", "startled", "writing"]
     },
     {
       "id": "other_045",
       "text": "└| ∵ |┘",
-      "tags": ["呆滯", "無言"]
+      "tags": ["dazed", "speechless"]
     },
     {
       "id": "other_046",
       "text": "o|∵o|",
-      "tags": ["呆滯", "無言"]
+      "tags": ["dazed", "speechless"]
     },
     {
       "id": "other_047",
@@ -205,52 +205,52 @@
     {
       "id": "other_048",
       "text": "१|˚–˚|५",
-      "tags": ["嚴肅"]
+      "tags": ["serious"]
     },
     {
       "id": "other_049",
       "text": "⌌⌈╹드╹⌉⌏",
-      "tags": ["呆滯"]
+      "tags": ["dazed"]
     },
     {
       "id": "other_050",
       "text": "⌌⌈╹므╹⌉⌏",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "other_051",
       "text": "⌌⌈╹우╹⌍",
-      "tags": ["哭"]
+      "tags": ["crying"]
     },
     {
       "id": "other_052",
       "text": "╏つ” ⊡ 〜 ⊡ ” ╏つ",
-      "tags": ["擁抱"]
+      "tags": ["hug"]
     },
     {
       "id": "other_053",
       "text": "( ˘•૩•˘ ).｡oஇ",
-      "tags": ["思考"]
+      "tags": ["thinking"]
     },
     {
       "id": "other_054",
       "text": "( ੈჰ ੈ)",
-      "tags": ["可愛"]
+      "tags": ["cute"]
     },
     {
       "id": "other_055",
       "text": "( ´•₎౩•` )",
-      "tags": ["可愛"]
+      "tags": ["cute"]
     },
     {
       "id": "other_056",
       "text": "( ് દ ് )",
-      "tags": ["可愛"]
+      "tags": ["cute"]
     },
     {
       "id": "other_057",
       "text": "(´0ﾉ｀*)",
-      "tags": ["音樂"]
+      "tags": ["music"]
     },
     {
       "id": "other_058",
@@ -260,82 +260,82 @@
     {
       "id": "other_059",
       "text": "(்͂ॢ⁰்͂ॢ)३३३∾♪",
-      "tags": ["搞怪", "音樂"]
+      "tags": ["goofy", "music"]
     },
     {
       "id": "other_060",
       "text": "♪ꉂ ꊚ(ꈍꄱꆧ ) ♬♪",
-      "tags": ["大笑", "搞怪", "音樂"]
+      "tags": ["goofy", "lol", "music"]
     },
     {
       "id": "other_061",
       "text": "(०՞კ՞)४♬♪",
-      "tags": ["搞怪", "跳舞", "音樂"]
+      "tags": ["dancing", "goofy", "music"]
     },
     {
       "id": "other_062",
       "text": "౧(*മ് ധമ്)੭ु⁾⁾",
-      "tags": ["搞怪", "跳舞"]
+      "tags": ["dancing", "goofy"]
     },
     {
       "id": "other_063",
       "text": "(खਉख)",
-      "tags": ["搞怪", "無言"]
+      "tags": ["goofy", "speechless"]
     },
     {
       "id": "other_064",
       "text": "( ⓥωⓥ)",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "other_065",
       "text": "⁽⁽(ᵕ≀ ̠ᵕ ) ⋏º¬͜ Ɩ།",
-      "tags": ["搞怪", "睏", "跳舞"]
+      "tags": ["dancing", "goofy", "sleepy"]
     },
     {
       "id": "other_066",
       "text": "ヽ( ̐〥 ̐)ﾉ",
-      "tags": ["搞怪", "興奮"]
+      "tags": ["goofy", "thrilled"]
     },
     {
       "id": "other_067",
       "text": "(*＇◎＇)",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "other_068",
       "text": "웃♥유",
-      "tags": ["愛心"]
+      "tags": ["love"]
     },
     {
       "id": "other_069",
       "text": "ː̗̀٩꒰ꋃ꒱وː̖́",
-      "tags": ["加油", "搞怪", "幹勁"]
+      "tags": ["cheer-up", "goofy", "motivated"]
     },
     {
       "id": "other_070",
       "text": "℃ↂ_ↂ",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "other_071",
       "text": "ɾ◉⊆◉ɹ",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "other_072",
       "text": ": ◉ ∧ ◉ : ╏",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "other_074",
       "text": "(ლ ۞ิ ჴ ۞ิ)ლ",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "other_076",
       "text": "(⑅∫°ਊ°)∫",
-      "tags": ["搞怪", "跳舞"]
+      "tags": ["dancing", "goofy"]
     },
     {
       "id": "other_077",
@@ -345,7 +345,7 @@
     {
       "id": "other_078",
       "text": "(◦△☆)~~!!!",
-      "tags": ["驚訝", "星星", "攻擊"]
+      "tags": ["attack", "star", "surprised"]
     },
     {
       "id": "other_079",
@@ -355,12 +355,12 @@
     {
       "id": "other_080",
       "text": "ے( Ö )ص",
-      "tags": ["驚訝", "搞怪"]
+      "tags": ["goofy", "surprised"]
     },
     {
       "id": "other_081",
       "text": "╰༼=ಠਊಠ=༽╯",
-      "tags": ["生氣", "萬歲"]
+      "tags": ["angry", "banzai"]
     },
     {
       "id": "other_082",
@@ -370,12 +370,12 @@
     {
       "id": "other_083",
       "text": "y( ꒪◊꒪)y",
-      "tags": ["驚訝"]
+      "tags": ["surprised"]
     },
     {
       "id": "other_084",
       "text": "ꐑ(*ꐌ﹋ꐌꐐ*)",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "other_085",
@@ -400,47 +400,47 @@
     {
       "id": "other_089",
       "text": "( ∵´0`∵ )",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "other_090",
       "text": "(∴´⌒`∴)",
-      "tags": ["搞怪", "幸福"]
+      "tags": ["goofy", "happiness"]
     },
     {
       "id": "other_091",
       "text": "（∴°∀°∵）",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "other_092",
       "text": "(::^ω^::)",
-      "tags": ["搞怪", "開心"]
+      "tags": ["goofy", "happy"]
     },
     {
       "id": "other_093",
       "text": "( :: °_° :: )",
-      "tags": ["呆滯", "搞怪", "無言"]
+      "tags": ["dazed", "goofy", "speechless"]
     },
     {
       "id": "other_094",
       "text": "( ∵˘ω˘∵ )",
-      "tags": ["搞怪", "幸福"]
+      "tags": ["goofy", "happiness"]
     },
     {
       "id": "other_095",
       "text": "（∴・∀・∴）",
-      "tags": ["搞怪", "開心"]
+      "tags": ["goofy", "happy"]
     },
     {
       "id": "other_096",
       "text": "(∴´ω`∴)",
-      "tags": ["搞怪", "幸福"]
+      "tags": ["goofy", "happiness"]
     },
     {
       "id": "other_097",
       "text": "(✿◠‿◠) GRACIAS (▰˘◡˘▰)",
-      "tags": ["感謝", "花", "可愛"]
+      "tags": ["cute", "flower", "grateful"]
     },
     {
       "id": "other_098",
@@ -450,32 +450,32 @@
     {
       "id": "other_099",
       "text": "ʚ̴̶̷̆ ̫ ʚ̴̶̷̆",
-      "tags": ["天使", "翅膀", "可愛"]
+      "tags": ["angel", "cute", "wings"]
     },
     {
       "id": "other_100",
       "text": "(°͈̅ ᢐ °͈̅)",
-      "tags": ["嚴肅"]
+      "tags": ["serious"]
     },
     {
       "id": "other_101",
       "text": "૮ ․ ․ ྀིა",
-      "tags": ["動物", "無言"]
+      "tags": ["animal", "speechless"]
     },
     {
       "id": "other_102",
       "text": "ධ̢•͙ꄃ̑•͙ຄ̏ධ̡",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "other_104",
       "text": "ᡣ . ̝ .ꛁּ.𓏸",
-      "tags": ["可愛"]
+      "tags": ["cute"]
     },
     {
       "id": "other_105",
       "text": "(＊’͜’ )ʕ𐭩",
-      "tags": ["動物", "朋友", "開心"]
+      "tags": ["animal", "friend", "happy"]
     },
     {
       "id": "other_106",
@@ -500,17 +500,17 @@
     {
       "id": "other_110",
       "text": "_(´ч」∠)_",
-      "tags": ["吃"]
+      "tags": ["eating"]
     },
     {
       "id": "other_111",
       "text": "⸌ ͔〠 ̖⸍⌕⁔͡⸌ ̗〠 ͕⸍⌕",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "other_112",
       "text": "໒꒰ྀི ๑˙―˙๑ ꒱ྀིა",
-      "tags": ["思考"]
+      "tags": ["thinking"]
     },
     {
       "id": "other_113",
@@ -520,7 +520,7 @@
     {
       "id": "other_114",
       "text": "✌︎ ʘ̅͜ʘ̅",
-      "tags": ["搞怪", "墨鏡"]
+      "tags": ["goofy", "sunglasses"]
     },
     {
       "id": "other_115",
@@ -555,7 +555,7 @@
     {
       "id": "other_122",
       "text": "ก₍⸍⸌̣ʷ̣̫⸍̣⸌₎ค",
-      "tags": ["搞怪", "跳舞"]
+      "tags": ["dancing", "goofy"]
     },
     {
       "id": "other_124",
@@ -565,27 +565,27 @@
     {
       "id": "other_125",
       "text": "(*￣ii￣)",
-      "tags": ["興奮"]
+      "tags": ["thrilled"]
     },
     {
       "id": "other_126",
       "text": "(＾〃＾)",
-      "tags": ["害羞", "興奮"]
+      "tags": ["shy", "thrilled"]
     },
     {
       "id": "other_127",
       "text": "(￣ ¨ヽ￣)",
-      "tags": ["興奮"]
+      "tags": ["thrilled"]
     },
     {
       "id": "other_128",
       "text": "(￣ﾊ￣*)",
-      "tags": ["興奮"]
+      "tags": ["thrilled"]
     },
     {
       "id": "other_129",
       "text": "(\\(￣ﾊ￣))",
-      "tags": ["興奮"]
+      "tags": ["thrilled"]
     },
     {
       "id": "other_130",
@@ -600,7 +600,7 @@
     {
       "id": "other_132",
       "text": "(＾་།＾)",
-      "tags": ["興奮"]
+      "tags": ["thrilled"]
     },
     {
       "id": "other_133",
@@ -610,17 +610,17 @@
     {
       "id": "other_136",
       "text": "(∩` ﾛ ´)⊃━炎炎炎炎炎",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "other_137",
       "text": "(＃￣□￣)o━∈・・━━━━☆",
-      "tags": ["生氣", "攻擊"]
+      "tags": ["angry", "attack"]
     },
     {
       "id": "other_140",
       "text": "(⊃｡•́‿•̀｡)⊃━✿✿✿✿✿✿",
-      "tags": ["花", "可愛"]
+      "tags": ["cute", "flower"]
     },
     {
       "id": "other_141",
@@ -640,7 +640,7 @@
     {
       "id": "other_145",
       "text": "!(;ﾟoﾟ)o/￣￣￣￣￣￣￣~ >ﾟ))))彡",
-      "tags": ["驚訝"]
+      "tags": ["surprised"]
     },
     {
       "id": "other_148",
@@ -670,237 +670,237 @@
     {
       "id": "other_153",
       "text": "(˙ω˙)🎮(˙∀˙)🎮",
-      "tags": ["朋友"]
+      "tags": ["friend"]
     },
     {
       "id": "other_154",
       "text": "ଘ(੭*ˊᵕˋ)੭* ̀ˋ",
-      "tags": ["天使", "跳舞", "開心"]
+      "tags": ["angel", "dancing", "happy"]
     },
     {
       "id": "other_155",
       "text": "ଘʕ੭·͡ᴥ·ʔ﻿ ੭",
-      "tags": ["天使", "熊", "擁抱"]
+      "tags": ["angel", "bear", "hug"]
     },
     {
       "id": "other_156",
       "text": "ଘ(੭ˊᵕˋ)੭",
-      "tags": ["天使", "擁抱", "開心"]
+      "tags": ["angel", "happy", "hug"]
     },
     {
       "id": "other_157",
       "text": "ଘ(੭ˊ◕ᵕ◕ˋ)੭†",
-      "tags": ["可愛", "大眼", "天使"]
+      "tags": ["angel", "big-eyes", "cute"]
     },
     {
       "id": "other_158",
       "text": "ଘ(🌸o▿o)(≧U≦❁)β",
-      "tags": ["天使", "朋友", "花"]
+      "tags": ["angel", "flower", "friend"]
     },
     {
       "id": "other_159",
       "text": "⁽⁽ଘ( ˊωˋ )ଓ⁾⁾",
-      "tags": ["天使", "跳舞", "開心"]
+      "tags": ["angel", "dancing", "happy"]
     },
     {
       "id": "other_160",
       "text": "ʚ(╹ڡ╹)ɞ",
-      "tags": ["可愛", "天使"]
+      "tags": ["angel", "cute"]
     },
     {
       "id": "other_161",
       "text": "ε٩(๑⌓̈๑)۶з",
-      "tags": ["天使", "驚訝", "加油"]
+      "tags": ["angel", "cheer-up", "surprised"]
     },
     {
       "id": "other_162",
       "text": "†_(ﾟｰﾟ*)β",
-      "tags": ["天使"]
+      "tags": ["angel"]
     },
     {
       "id": "other_163",
       "text": "ε (*´･ω･) з",
-      "tags": ["天使", "可愛", "擁抱"]
+      "tags": ["angel", "cute", "hug"]
     },
     {
       "id": "other_164",
       "text": "((ε(*⌒▽⌒)†*ﾟ¨ﾟﾟ･*",
-      "tags": ["天使", "擁抱", "閃亮"]
+      "tags": ["angel", "hug", "sparkle"]
     },
     {
       "id": "other_165",
       "text": "(๑˘ᵕ˘)",
-      "tags": ["天使", "幸福", "微笑"]
+      "tags": ["angel", "happiness", "smile"]
     },
     {
       "id": "other_166",
       "text": "⁽ ¨̮⁾⁽¨̮ ⁾*˚‧♡",
-      "tags": ["天使", "愛心", "跳舞"]
+      "tags": ["angel", "dancing", "love"]
     },
     {
       "id": "other_167",
       "text": "｡+.｡☆ﾟ:;｡+ﾟ ☆*ﾟ¨ﾟﾟ･*:..ﾞ((ε(*⌒▽⌒)†",
-      "tags": ["天使", "擁抱", "閃亮"]
+      "tags": ["angel", "hug", "sparkle"]
     },
     {
       "id": "other_168",
       "text": "ε(*´･ω･)з",
-      "tags": ["天使", "擁抱"]
+      "tags": ["angel", "hug"]
     },
     {
       "id": "other_169",
       "text": "_(꒪ཀ꒪」∠)_",
-      "tags": ["吐血"]
+      "tags": ["vomiting-blood"]
     },
     {
       "id": "other_171",
       "text": "₊⁺꒰ঌ˶ᵒᵕ˂˶໒꒱⁺₊",
-      "tags": ["天使", "翅膀", "閃亮", "開心"]
+      "tags": ["angel", "happy", "sparkle", "wings"]
     },
     {
       "id": "other_172",
       "text": "꒰ঌ^･֊･^໒꒱",
-      "tags": ["可愛", "天使", "翅膀"]
+      "tags": ["angel", "cute", "wings"]
     },
     {
       "id": "other_174",
       "text": "꒰ঌ⁎⁍̴̛ᴗ⁍̴̛⁎໒꒱",
-      "tags": ["天使", "翅膀", "開心"]
+      "tags": ["angel", "happy", "wings"]
     },
     {
       "id": "other_175",
       "text": "꒰ঌ՞o̴̶̷̤ᾥo̴̶̷̤՞໒꒱",
-      "tags": ["天使", "生氣", "翅膀"]
+      "tags": ["angel", "angry", "wings"]
     },
     {
       "id": "other_176",
       "text": "꒰ঌ₍^._.^₎໒꒱",
-      "tags": ["可愛", "天使", "翅膀"]
+      "tags": ["angel", "cute", "wings"]
     },
     {
       "id": "other_177",
       "text": "꒰ঌ˶ᵔᗜᵔ˶໒꒱",
-      "tags": ["天使", "翅膀", "興奮", "開心"]
+      "tags": ["angel", "happy", "thrilled", "wings"]
     },
     {
       "id": "other_178",
       "text": "꒰ঌ ˃ ᵕ ˂ ໒꒱",
-      "tags": ["天使", "翅膀", "興奮", "開心"]
+      "tags": ["angel", "happy", "thrilled", "wings"]
     },
     {
       "id": "other_179",
       "text": "꒰ঌ◍˃̶ᗜ˂̶◍໒꒱",
-      "tags": ["大笑", "天使", "翅膀", "開心"]
+      "tags": ["angel", "happy", "lol", "wings"]
     },
     {
       "id": "other_180",
       "text": "꒰ঌ=>ω<=໒꒱",
-      "tags": ["天使", "翅膀", "開心"]
+      "tags": ["angel", "happy", "wings"]
     },
     {
       "id": "other_181",
       "text": "꒰ঌo･∞︎･o໒꒱",
-      "tags": ["翅膀", "天使"]
+      "tags": ["angel", "wings"]
     },
     {
       "id": "other_182",
       "text": "꒰ঌ>ᴗO໒꒱",
-      "tags": ["天使", "眨眼", "翅膀", "開心"]
+      "tags": ["angel", "happy", "wings", "wink"]
     },
     {
       "id": "other_183",
       "text": "꒰ঌ`ᝫ´໒꒱",
-      "tags": ["天使", "生氣", "翅膀"]
+      "tags": ["angel", "angry", "wings"]
     },
     {
       "id": "other_184",
       "text": "꒰ঌ⌯‘ㅅ’⌯ ໒꒱",
-      "tags": ["可愛", "天使", "翅膀"]
+      "tags": ["angel", "cute", "wings"]
     },
     {
       "id": "other_185",
       "text": "꒰ঌ⬮𖧉⬮໒꒱",
-      "tags": ["翅膀", "天使"]
+      "tags": ["angel", "wings"]
     },
     {
       "id": "other_186",
       "text": "꒰ঌ✪ω✪໒꒱",
-      "tags": ["翅膀", "天使", "興奮"]
+      "tags": ["angel", "thrilled", "wings"]
     },
     {
       "id": "other_188",
       "text": "꒰ঌ๑º꒳º๑໒꒱",
-      "tags": ["天使", "幸福", "翅膀", "開心"]
+      "tags": ["angel", "happiness", "happy", "wings"]
     },
     {
       "id": "other_189",
       "text": "꒰ঌꈍ𖥦ꈍ໒꒱",
-      "tags": ["天使", "害羞", "翅膀", "開心"]
+      "tags": ["angel", "happy", "shy", "wings"]
     },
     {
       "id": "other_190",
       "text": "꒰ঌ՞ ̳o̴̶̷̤ ̫ o̴̶̷̤ ̳՞໒꒱",
-      "tags": ["翅膀", "天使", "驚訝", "可愛"]
+      "tags": ["angel", "cute", "surprised", "wings"]
     },
     {
       "id": "other_191",
       "text": "꒰ঌ‧‧໒꒱",
-      "tags": ["翅膀", "天使"]
+      "tags": ["angel", "wings"]
     },
     {
       "id": "other_193",
       "text": "(* ˊ͈ ᐞ ˋ͈ )✿.*・✿.*・",
-      "tags": ["可愛", "花", "開心"]
+      "tags": ["cute", "flower", "happy"]
     },
     {
       "id": "other_194",
       "text": "✿.*ஐ(๑• .̫ •๑)✿.*ஐ",
-      "tags": ["花", "可愛"]
+      "tags": ["cute", "flower"]
     },
     {
       "id": "other_195",
       "text": "｡･ﾟ｡+ﾟ*｡ﾟ･ｻｸｰﾗ(*ﾟ∀)*´∀)*`∀)ｷﾚｰｲ｡･ﾟ｡+ﾟ*｡ﾟ･",
-      "tags": ["花", "開心"]
+      "tags": ["flower", "happy"]
     },
     {
       "id": "other_196",
       "text": "(✿´꒳`)ﾉ°*❀",
-      "tags": ["花"]
+      "tags": ["flower"]
     },
     {
       "id": "other_197",
       "text": "🌸sακυяαꕤ*",
-      "tags": ["文字", "花"]
+      "tags": ["flower", "text"]
     },
     {
       "id": "other_198",
       "text": "🌸:*:･:*:❀(*´ω`*)❀:*:･:*:🌸",
-      "tags": ["幸福", "花", "開心"]
+      "tags": ["flower", "happiness", "happy"]
     },
     {
       "id": "other_199",
       "text": "(🌸❛ ֊ ❛„)",
-      "tags": ["幸福", "花", "開心"]
+      "tags": ["flower", "happiness", "happy"]
     },
     {
       "id": "other_200",
       "text": "🌸( '-' 🍡）",
-      "tags": ["吃", "花"]
+      "tags": ["eating", "flower"]
     },
     {
       "id": "other_204",
       "text": "(oT-T)尸",
-      "tags": ["哭"]
+      "tags": ["crying"]
     },
     {
       "id": "other_205",
       "text": "[̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]",
-      "tags": ["搞怪", "自信"]
+      "tags": ["confident", "goofy"]
     },
     {
       "id": "other_206",
       "text": "(ಠ_ಠ)",
-      "tags": ["無言", "生氣"]
+      "tags": ["angry", "speechless"]
     },
     {
       "id": "other_207",
@@ -910,22 +910,22 @@
     {
       "id": "other_209",
       "text": "(x(x_(x_x(O_o)x_x)_x)x)",
-      "tags": ["害怕"]
+      "tags": ["scared"]
     },
     {
       "id": "other_210",
       "text": "(　･ω･)☞",
-      "tags": ["指"]
+      "tags": ["pointing"]
     },
     {
       "id": "other_211",
       "text": "(⌐■_■)",
-      "tags": ["墨鏡", "自信"]
+      "tags": ["confident", "sunglasses"]
     },
     {
       "id": "other_212",
       "text": "(◕‿◕✿)",
-      "tags": ["可愛", "大眼", "花", "開心"]
+      "tags": ["big-eyes", "cute", "flower", "happy"]
     },
     {
       "id": "other_213",
@@ -945,7 +945,7 @@
     {
       "id": "other_216",
       "text": "( • )( • )ԅ(≖‿≖ԅ)",
-      "tags": ["捏", "自信"]
+      "tags": ["confident", "pinch"]
     },
     {
       "id": "other_217",
@@ -955,17 +955,17 @@
     {
       "id": "other_218",
       "text": "〜〜(／￣▽)／　〜ф",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "other_219",
       "text": "ଘ(੭ˊᵕˋ)੭* ੈ✩‧₊˚",
-      "tags": ["天使", "可愛", "閃亮"]
+      "tags": ["angel", "cute", "sparkle"]
     },
     {
       "id": "other_220",
       "text": "ଘ(੭ˊ꒳​ˋ)੭✧",
-      "tags": ["可愛", "天使", "閃亮"]
+      "tags": ["angel", "cute", "sparkle"]
     },
     {
       "id": "other_221",
@@ -975,7 +975,7 @@
     {
       "id": "other_223",
       "text": "／/( ◕‿‿◕ )＼",
-      "tags": ["大眼"]
+      "tags": ["big-eyes"]
     },
     {
       "id": "other_224",
@@ -990,137 +990,137 @@
     {
       "id": "other_227",
       "text": "(」・ω・)」うー！(／・ω・)／にゃー！",
-      "tags": ["叫喊"]
+      "tags": ["shout"]
     },
     {
       "id": "other_228",
       "text": "ヾ(・ω・)メ(・ω・)ノ",
-      "tags": ["朋友", "開心"]
+      "tags": ["friend", "happy"]
     },
     {
       "id": "other_229",
       "text": "ヽ(∀° )人( °∀)ノ",
-      "tags": ["朋友"]
+      "tags": ["friend"]
     },
     {
       "id": "other_230",
       "text": "ヽ( ⌒o⌒)人(⌒-⌒ )ﾉ",
-      "tags": ["朋友", "開心"]
+      "tags": ["friend", "happy"]
     },
     {
       "id": "other_231",
       "text": "(*^ω^)八(⌒▽⌒)八(-‿‿- )ヽ",
-      "tags": ["朋友", "開心"]
+      "tags": ["friend", "happy"]
     },
     {
       "id": "other_232",
       "text": "＼(＾∀＾)メ(＾∀＾)ノ",
-      "tags": ["朋友", "開心"]
+      "tags": ["friend", "happy"]
     },
     {
       "id": "other_235",
       "text": "ヽ(≧◡≦)八(o^ ^o)ノ",
-      "tags": ["朋友", "開心"]
+      "tags": ["friend", "happy"]
     },
     {
       "id": "other_236",
       "text": "(*・∀・)爻(・∀・*)",
-      "tags": ["朋友", "開心"]
+      "tags": ["friend", "happy"]
     },
     {
       "id": "other_237",
       "text": "｡*:☆(・ω・人・ω・)｡:゜☆｡",
-      "tags": ["朋友", "閃亮", "開心"]
+      "tags": ["friend", "happy", "sparkle"]
     },
     {
       "id": "other_238",
       "text": "o(^^o)(o^^o)(o^^o)(o^^)o",
-      "tags": ["朋友", "跳舞", "開心"]
+      "tags": ["dancing", "friend", "happy"]
     },
     {
       "id": "other_239",
       "text": "(((￣(￣(￣▽￣)￣)￣)))",
-      "tags": ["朋友", "開心"]
+      "tags": ["friend", "happy"]
     },
     {
       "id": "other_240",
       "text": "(°(°ω(°ω°(☆ω☆)°ω°)ω°)°)",
-      "tags": ["朋友", "興奮"]
+      "tags": ["friend", "thrilled"]
     },
     {
       "id": "other_241",
       "text": "ヾ(・ω・`)ノヾ(´・ω・)ノ゛",
-      "tags": ["安慰", "朋友"]
+      "tags": ["comfort", "friend"]
     },
     {
       "id": "other_242",
       "text": "Ψ( `∀)(∀´ )Ψ",
-      "tags": ["惡魔", "朋友", "自信"]
+      "tags": ["confident", "devil", "friend"]
     },
     {
       "id": "other_243",
       "text": "(っ˘▽˘)(˘▽˘)˘▽˘ς)",
-      "tags": ["擁抱", "朋友", "開心"]
+      "tags": ["friend", "happy", "hug"]
     },
     {
       "id": "other_244",
       "text": "(((*°▽°*)八(*°▽°*)))",
-      "tags": ["朋友", "興奮"]
+      "tags": ["friend", "thrilled"]
     },
     {
       "id": "other_245",
       "text": "☆ヾ(*´・∀・)ﾉヾ(・∀・`*)ﾉ☆",
-      "tags": ["朋友", "閃亮", "開心"]
+      "tags": ["friend", "happy", "sparkle"]
     },
     {
       "id": "other_246",
       "text": "(*＾ω＾)人(＾ω＾*)",
-      "tags": ["朋友", "開心"]
+      "tags": ["friend", "happy"]
     },
     {
       "id": "other_247",
       "text": "٩(๑･ิᴗ･ิ)۶٩(･ิᴗ･ิ๑)۶",
-      "tags": ["加油", "朋友", "開心"]
+      "tags": ["cheer-up", "friend", "happy"]
     },
     {
       "id": "other_248",
       "text": "(☞°ヮ°)☞ ☜(°ヮ°☜)",
-      "tags": ["指", "朋友"]
+      "tags": ["friend", "pointing"]
     },
     {
       "id": "other_249",
       "text": "＼(▽￣ \\ (￣▽￣) / ￣▽)／",
-      "tags": ["朋友", "跳舞", "開心"]
+      "tags": ["dancing", "friend", "happy"]
     },
     {
       "id": "other_250",
       "text": "\\( ˙▿˙ )/\\( ˙▿˙ )/",
-      "tags": ["朋友", "萬歲", "開心"]
+      "tags": ["banzai", "friend", "happy"]
     },
     {
       "id": "other_252",
       "text": "(´>∀)人(´・ω・)ﾉヽ(・ε・*)人(-д-`)",
-      "tags": ["朋友"]
+      "tags": ["friend"]
     },
     {
       "id": "other_253",
       "text": "ヽ(∀ﾟ )人(ﾟ∀ﾟ)人( ﾟ∀)人(∀ﾟ )人(ﾟ∀ﾟ)人( ﾟ∀)ﾉ",
-      "tags": ["朋友"]
+      "tags": ["friend"]
     },
     {
       "id": "other_254",
       "text": "(´･д･｀)ﾊ(･д･｀*)",
-      "tags": ["朋友"]
+      "tags": ["friend"]
     },
     {
       "id": "other_255",
       "text": "(っ˘ڡ˘ς)",
-      "tags": ["吃"]
+      "tags": ["eating"]
     },
     {
       "id": "other_256",
       "text": "( o˘◡˘o) ┌iii┐",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "other_257",
@@ -1150,37 +1150,37 @@
     {
       "id": "other_264",
       "text": "(*´ー`)旦 旦(￣ω￣*)",
-      "tags": ["朋友"]
+      "tags": ["friend"]
     },
     {
       "id": "other_265",
       "text": "(*´з`)口ﾟ｡ﾟ口(・∀・ )",
-      "tags": ["朋友", "開心"]
+      "tags": ["friend", "happy"]
     },
     {
       "id": "other_266",
       "text": "( o^ ^o)且 且(´ω`*)",
-      "tags": ["朋友"]
+      "tags": ["friend"]
     },
     {
       "id": "other_268",
       "text": "( *^^)o∀*∀o(^^* )",
-      "tags": ["朋友", "開心"]
+      "tags": ["friend", "happy"]
     },
     {
       "id": "other_269",
       "text": "( ^^)_旦~~　 ~~U_(^^ )",
-      "tags": ["朋友"]
+      "tags": ["friend"]
     },
     {
       "id": "other_270",
       "text": "(*￣▽￣)旦 且(´∀`*)",
-      "tags": ["朋友", "開心"]
+      "tags": ["friend", "happy"]
     },
     {
       "id": "other_271",
       "text": "-●●●-ｃ(・・ )",
-      "tags": ["吃"]
+      "tags": ["eating"]
     },
     {
       "id": "other_272",
@@ -1190,32 +1190,32 @@
     {
       "id": "other_274",
       "text": "(. ❛ ᴗ ❛.)",
-      "tags": ["可愛", "微笑"]
+      "tags": ["cute", "smile"]
     },
     {
       "id": "other_278",
       "text": "( • )( • ) ԅ(‾⌣‾ԅ)",
-      "tags": ["捏", "自信"]
+      "tags": ["confident", "pinch"]
     },
     {
       "id": "other_279",
       "text": "(◕__◕✿)",
-      "tags": ["呆滯", "大眼", "無言", "花"]
+      "tags": ["big-eyes", "dazed", "flower", "speechless"]
     },
     {
       "id": "other_281",
       "text": "(◕ ᥥ ◕✿)",
-      "tags": ["可愛", "大眼", "花"]
+      "tags": ["big-eyes", "cute", "flower"]
     },
     {
       "id": "other_282",
       "text": "(✿☯‿☯✿)",
-      "tags": ["幸福", "花"]
+      "tags": ["flower", "happiness"]
     },
     {
       "id": "other_283",
       "text": "(︠ʘ ˆ ︠ʘ✿)",
-      "tags": ["嚴肅", "花"]
+      "tags": ["flower", "serious"]
     },
     {
       "id": "other_286",
@@ -1225,167 +1225,167 @@
     {
       "id": "other_287",
       "text": "(ఠ్ఠ ˓̭ ఠ్ఠ)",
-      "tags": ["嚴肅"]
+      "tags": ["serious"]
     },
     {
       "id": "other_288",
       "text": "▐ ﹒︣ Ĺ̯ ﹒︣ ▐",
-      "tags": ["嚴肅"]
+      "tags": ["serious"]
     },
     {
       "id": "other_289",
       "text": "ͼ(ݓ_ݓ)ͽ",
-      "tags": ["搞怪", "無言"]
+      "tags": ["goofy", "speechless"]
     },
     {
       "id": "other_290",
       "text": "░ ര Ĺ̯ ര ░",
-      "tags": ["嚴肅"]
+      "tags": ["serious"]
     },
     {
       "id": "other_291",
       "text": "˙³˙",
-      "tags": ["親"]
+      "tags": ["kiss"]
     },
     {
       "id": "other_293",
       "text": "▼o'ᆺ'o▼⚡️",
-      "tags": ["可愛", "閃電"]
+      "tags": ["cute", "lightning"]
     },
     {
       "id": "other_295",
       "text": "૮(๑◕ܫ◕๑)ა",
-      "tags": ["可愛", "大眼", "擁抱", "狗狗"]
+      "tags": ["big-eyes", "cute", "dog", "hug"]
     },
     {
       "id": "other_296",
       "text": "(*･ω･)/''' ｲﾃﾗｰ♪",
-      "tags": ["加油", "問候", "音樂"]
+      "tags": ["cheer-up", "greeting", "music"]
     },
     {
       "id": "other_297",
       "text": "(･ิω･ิ)",
-      "tags": ["思考", "困惑"]
+      "tags": ["confused", "thinking"]
     },
     {
       "id": "other_298",
       "text": "¯\\\\_( ͡° ͜ʖ ͡°)_/¯",
-      "tags": ["聳肩", "無言"]
+      "tags": ["shrug", "speechless"]
     },
     {
       "id": "other_299",
       "text": "( ͡ ͡° ͜ ʖ ͡ ͡°)",
-      "tags": ["搞怪", "思考"]
+      "tags": ["goofy", "thinking"]
     },
     {
       "id": "other_300",
       "text": "ॱଳॱ",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "other_301",
       "text": "( ಠ ಠ )",
-      "tags": ["無言"]
+      "tags": ["speechless"]
     },
     {
       "id": "other_302",
       "text": "(◔ д◔)",
-      "tags": ["無言"]
+      "tags": ["speechless"]
     },
     {
       "id": "other_303",
       "text": "눈_눈",
-      "tags": ["無言", "嚴肅"]
+      "tags": ["serious", "speechless"]
     },
     {
       "text": "ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ",
-      "tags": ["ぞくぞく", "可愛"],
+      "tags": ["cute", "shiver"],
       "id": "other_307"
     },
     {
       "id": "other_308",
       "text": "=͟͟͞͞ʕ•̫͡•ʔ=͟͟͞͞ʕ•̫͡•ʔ",
-      "tags": ["ぞくぞく", "可愛", "跑"]
+      "tags": ["cute", "running", "shiver"]
     },
     {
       "id": "other_309",
       "text": "ʕ•̫͡• ʔ•̫͡•ཻʕ•̫͡•ʔ•͓͡•ʔ",
-      "tags": ["X嘴", "ぞくぞく", "可愛"]
+      "tags": ["cute", "shiver", "x-mouth"]
     },
     {
       "id": "other_310",
       "text": "ʕ•̫͡•ʕ*̫͡*ʔ",
-      "tags": ["ぞくぞく", "可愛"]
+      "tags": ["cute", "shiver"]
     },
     {
       "id": "other_311",
       "text": "ʕ•͓͡•ʔ-̫͡-ʔ",
-      "tags": ["X嘴", "ぞくぞく", "可愛"]
+      "tags": ["cute", "shiver", "x-mouth"]
     },
     {
       "id": "other_312",
       "text": "ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ",
-      "tags": ["ぞくぞく", "可愛"]
+      "tags": ["cute", "shiver"]
     },
     {
       "id": "other_313",
       "text": "ʕ̢·͡˔·Ɂ̡̣  ʕ̢·͡˔·Ɂ̡̣  ʕ̢·͡˔·Ɂ̡̣",
-      "tags": ["ぞくぞく", "可愛", "熊"]
+      "tags": ["bear", "cute", "shiver"]
     },
     {
       "id": "other_314",
       "text": "ʕ•̫͡•ʔʕ-̫͡-ʔʕ⁎̯͡⁎ʔ༄",
-      "tags": ["ぞくぞく", "可愛"]
+      "tags": ["cute", "shiver"]
     },
     {
       "id": "other_315",
       "text": "˚ʚ｡･-･｡ɞ˚",
-      "tags": ["天使", "翅膀"]
+      "tags": ["angel", "wings"]
     },
     {
       "id": "other_316",
       "text": "／(=･ x ･=)＼",
-      "tags": ["X嘴"]
+      "tags": ["x-mouth"]
     },
     {
       "id": "other_317",
       "text": "|x･`)",
-      "tags": ["X嘴", "偷偷"]
+      "tags": ["peeking", "x-mouth"]
     },
     {
       "id": "other_318",
       "text": "(ﾟ3ﾟ)～♪",
-      "tags": ["嘟嘴", "音樂"]
+      "tags": ["music", "pout"]
     },
     {
       "id": "other_319",
       "text": "⁽⁽ପ( •ु﹃ •ु)​.⑅*♡",
-      "tags": ["愛心", "流口水", "翅膀"]
+      "tags": ["drooling", "love", "wings"]
     },
     {
       "id": "other_320",
       "text": "(☞三☞ ఠ ਉ ఠ))☞三☞",
-      "tags": ["嘲笑", "指", "激動"]
+      "tags": ["excited", "mock", "pointing"]
     },
     {
       "id": "other_321",
       "text": "（☞´^ิ∀^ิ｀）☞",
-      "tags": ["嘲笑", "指", "搞怪"]
+      "tags": ["goofy", "mock", "pointing"]
     },
     {
       "id": "other_322",
       "text": "(*･ω･)✎",
-      "tags": ["寫字"]
+      "tags": ["writing"]
     },
     {
       "id": "other_323",
       "text": "(*ﾟﾉOﾟ)",
-      "tags": ["叫喊"]
+      "tags": ["shout"]
     },
     {
       "id": "other_324",
       "text": "ໂ‧͡‧̫ໃ⚡︎",
-      "tags": ["閃電"]
+      "tags": ["lightning"]
     }
   ]
 }

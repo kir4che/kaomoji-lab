@@ -3,22 +3,24 @@
 import { FC, FormEvent } from 'react';
 
 import type { KaomojiItem } from '@/types/Kaomoji';
-import { useToast } from '@/contexts/ToastContext';
-import { cn } from '@/utils/cn';
+import { useLanguage } from '@/contexts/LanguageContext';
 import { useTagManager } from '@/hooks/useTagManager';
-import EditCard from '@/components/admin/EditCard';
+import { cn } from '@/utils/cn';
 import Input from '@/components/atoms/Input';
-import SelectAllBtn from '@/components/atoms/SelectAllBtn';
-import Modal from '@/components/molecules/Modal';
 import SortingDropdown from '@/components/molecules/SortingDropdown';
 import IconBtn from '@/components/atoms/IconBtn';
-import CloseIcon from '@/assets/icons/close.svg';
+import EditCard from '@/components/admin/EditCard';
+import Loading from '@/components/atoms/Loading';
 import CheckIcon from '@/assets/icons/check.svg';
+import CloseIcon from '@/assets/icons/close.svg';
 import DeleteIcon from '@/assets/icons/delete.svg';
+import SelectAllBtn from '@/components/atoms/SelectAllBtn';
+import Modal from '@/components/molecules/Modal';
+
+import TagModal from './TagModal';
 
 interface TagManagerProps {
   allKaomoji: KaomojiItem[];
-  allTags: string[];
   onDataChange: () => void;
 }
 
@@ -27,53 +29,57 @@ const SORT_OPTIONS = [
   { value: 'name', label: '名稱' },
 ];
 
-const TagManager: FC<TagManagerProps> = ({ allKaomoji, allTags, onDataChange }) => {
-  const { showToast } = useToast();
+const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
+  const { lang } = useLanguage();
   const {
+    isLoading,
     searchTerm,
     setSearchTerm,
     sortBy,
     setSortBy,
     sortOrder,
     setSortOrder,
+    processedTags,
+    editingTag,
+    isModalOpen,
+    openModal,
+    closeModal,
+    handleSave,
+    handleDelete,
     usageThreshold,
     setUsageThreshold,
     showLowUsageOnly,
     setShowLowUsageOnly,
+    lowUsageCount,
     expandedTag,
+    handleTagClick,
     selectedKaomojiIds,
     setSelectedKaomojiIds,
-    editingTag,
-    setEditingTag,
-    newTagName,
-    setNewTagName,
+    toggleKaomojiSelection,
+    handleRemoveTagFromSelected,
     isMergeMode,
+    toggleMergeMode,
     tagsToMerge,
     isMergeModalOpen,
     setIsMergeModalOpen,
     finalMergeTag,
     setFinalMergeTag,
+    handleMergeTags,
     isDeleteTagsMode,
+    toggleDeleteMode,
     tagsToDeleteBulk,
     setTagsToDeleteBulk,
-    filteredTags,
-    lowUsageCount,
-    toggleKaomojiSelection,
-    handleRemoveTagFromSelected,
-    handleRenameTag,
-    handleDeleteTag,
-    handleMergeTags,
     handleBulkDeleteTags,
-    toggleMergeMode,
-    toggleDeleteMode,
-    handleTagClick,
-  } = useTagManager({ allKaomoji, allTags, onDataChange });
+    tagUsageMap,
+  } = useTagManager({ allKaomoji, onDataChange });
+
+  const expandedTagData = expandedTag ? processedTags.find((t) => t.id === expandedTag) : null;
 
   return (
     <>
       <div className="space-y-4 rounded-lg bg-white p-6 shadow-sm">
         <div className="flex-between">
-          <h3 className="text-xl font-semibold text-gray-800 -mt-1">標籤管理 ({allTags.length})</h3>
+          <h3 className="text-xl font-semibold text-gray-800">標籤管理 ({processedTags.length})</h3>
           <div className="flex-center gap-x-2">
             <button
               type="button"
@@ -90,18 +96,27 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, allTags, onDataChange }) 
             <button
               type="button"
               onClick={toggleDeleteMode}
-              className={
+              className={cn(
+                'transition-colors',
                 isDeleteTagsMode
                   ? 'text-gray-500 hover:text-gray-700'
                   : 'rounded-md border px-3 py-1.5 text-xs font-medium border-gray-300 bg-white text-gray-700 hover:bg-gray-50'
-              }
+              )}
               aria-label={isDeleteTagsMode ? '退出多選模式' : '多選模式'}
             >
               {isDeleteTagsMode ? <CloseIcon className="size-5" /> : '多選模式'}
             </button>
+            <button
+              type="button"
+              onClick={() => openModal()}
+              className="rounded-md border border-primary-500 bg-primary-500 px-3 py-1.5 text-xs font-medium text-white hover:bg-primary-600"
+            >
+              新增標籤
+            </button>
           </div>
         </div>
-        <div className="flex-between flex-col-reverse sm:flex-row gap-y-2">
+
+        <div className="flex-between flex-col sm:flex-row gap-y-2">
           <div className="flex-center gap-x-2.5 mr-auto">
             <div className="flex-center">
               <label htmlFor="threshold" className="text-xs text-gray-600 mr-2">
@@ -126,15 +141,12 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, allTags, onDataChange }) 
             {isMergeMode ? (
               <button
                 onClick={() => {
-                  if (tagsToMerge.size < 2) {
-                    showToast('請至少選擇兩個標籤進行合併！', 'info');
-                    return;
-                  }
+                  if (tagsToMerge.size < 2) return;
                   setFinalMergeTag(Array.from(tagsToMerge)[0]);
                   setIsMergeModalOpen(true);
                 }}
                 disabled={tagsToMerge.size < 2}
-                className="rounded-md border border-blue-300 bg-blue-50 px-3 py-1.5 text-xs font-semibold text-blue-500 hover:bg-blue-100/80"
+                className="rounded-md border border-blue-300 bg-blue-50 px-3 py-1.5 text-xs font-semibold text-blue-500 hover:bg-blue-100/80 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 合併選中項 ({tagsToMerge.size})
               </button>
@@ -143,15 +155,15 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, allTags, onDataChange }) 
                 <div className="flex-center gap-x-2">
                   <SelectAllBtn
                     selectedCount={tagsToDeleteBulk.size}
-                    totalCount={filteredTags.length}
-                    onSelectAll={() => setTagsToDeleteBulk(new Set(filteredTags.map((t) => t.tag)))}
+                    totalCount={processedTags.length}
+                    onSelectAll={() => setTagsToDeleteBulk(new Set(processedTags.map((t) => t.id)))}
                     onDeselectAll={() => setTagsToDeleteBulk(new Set())}
                     showCount
                   />
                   <button
                     onClick={handleBulkDeleteTags}
                     disabled={tagsToDeleteBulk.size === 0}
-                    className="text-gray-600 hover:text-rose-600"
+                    className="text-gray-600 hover:text-rose-600 disabled:opacity-50 disabled:cursor-not-allowed"
                     aria-label="刪除標籤"
                     title="刪除標籤"
                   >
@@ -161,12 +173,12 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, allTags, onDataChange }) 
               )
             )}
           </div>
-          <div className="flex-center gap-x-2 w-full sm:w-fit ml-auto">
+          <div className="flex-center gap-x-2">
             <Input
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               placeholder="搜尋標籤..."
-              className=" py-2 border rounded-md"
+              className="w-full py-2 border rounded-md"
             />
             <SortingDropdown
               sortBy={sortBy}
@@ -177,189 +189,149 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, allTags, onDataChange }) 
             />
           </div>
         </div>
-        <div
-          className={cn(
-            'grid grid-cols-1 gap-3 overflow-y-auto xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5',
-            expandedTag ? 'max-h-[240px]' : 'max-h-[480px]'
-          )}
-        >
-          {filteredTags.map((tagUsage) => {
-            const isSelectedForMerge = isMergeMode && tagsToMerge.has(tagUsage.tag);
-            const isSelectedForDelete = isDeleteTagsMode && tagsToDeleteBulk.has(tagUsage.tag);
-            const isSelected = isSelectedForMerge || isSelectedForDelete;
 
-            return (
-              <div
-                key={tagUsage.tag}
-                className={cn('rounded-lg transition-all', {
-                  'border-2 border-blue-400': isSelectedForMerge,
-                  'border-2 border-rose-400': isSelectedForDelete,
-                })}
-              >
-                <EditCard
-                  type="tag"
-                  title={tagUsage.tag}
-                  count={tagUsage.count}
-                  onClick={() => handleTagClick(tagUsage.tag)}
-                  handleEdit={() => setEditingTag(tagUsage.tag)}
-                  handleDelete={() => handleDeleteTag(tagUsage.tag)}
-                  isEditDisabled={isMergeMode || isDeleteTagsMode}
-                  isDeleteDisabled={isMergeMode || isDeleteTagsMode}
-                  className={cn('cursor-pointer hover:bg-gray-50')}
-                  extraContent={
-                    <>
-                      {isSelected && (
-                        <div className="flex-center">
-                          <div
-                            className={cn(
-                              'flex-center size-5 rounded-full text-white',
-                              isSelectedForMerge && 'bg-blue-500',
-                              isSelectedForDelete && 'bg-rose-500'
-                            )}
-                          >
-                            <CheckIcon className="size-3" />
+        {isLoading ? (
+          <Loading />
+        ) : (
+          <div
+            className={cn(
+              'grid grid-cols-1 gap-3 overflow-y-auto xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5',
+              expandedTag ? 'max-h-[240px]' : 'max-h-[480px]'
+            )}
+          >
+            {processedTags.map((tag) => {
+              const isSelectedForMerge = isMergeMode && tagsToMerge.has(tag.id);
+              const isSelectedForDelete = isDeleteTagsMode && tagsToDeleteBulk.has(tag.id);
+              const isSelected = isSelectedForMerge || isSelectedForDelete;
+              return (
+                <div
+                  key={tag.id}
+                  className={cn('rounded-lg transition-all', {
+                    'border-2 border-blue-400': isSelectedForMerge,
+                    'border-2 border-rose-400': isSelectedForDelete,
+                  })}
+                >
+                  <EditCard
+                    type="tag"
+                    title={tag.name[lang]}
+                    count={tag.count}
+                    onClick={() => handleTagClick(tag.id)}
+                    handleEdit={() => openModal(tag)}
+                    handleDelete={() => handleDelete(tag.id)}
+                    isEditDisabled={isMergeMode || isDeleteTagsMode}
+                    isDeleteDisabled={isMergeMode || isDeleteTagsMode}
+                    className={cn('cursor-pointer hover:bg-gray-50')}
+                    extraContent={
+                      <>
+                        {isSelected && (
+                          <div className="flex-center">
+                            <div
+                              className={cn(
+                                'flex-center size-5 rounded-full text-white',
+                                isSelectedForMerge && 'bg-blue-500',
+                                isSelectedForDelete && 'bg-rose-500'
+                              )}
+                            >
+                              <CheckIcon className="size-3" />
+                            </div>
                           </div>
-                        </div>
-                      )}
-                      {tagUsage.count === 0 && (
-                        <span className="rounded-full bg-rose-100 px-2 py-0.5 text-xs font-medium text-rose-700">
-                          未使用
-                        </span>
-                      )}
-                    </>
-                  }
-                />
-              </div>
-            );
-          })}
-        </div>
-        {expandedTag &&
-          !isMergeMode &&
-          !isDeleteTagsMode &&
-          (() => {
-            const expandedTagData = filteredTags.find((t) => t.tag === expandedTag);
-            if (!expandedTagData) return null;
-
-            return (
-              <div className="rounded-lg bg-primary-50 p-4">
-                <div className="flex-between mb-3">
-                  <h4 className="font-medium text-gray-800">標籤「{expandedTag}」的顏文字</h4>
-                  <div className="flex-center gap-x-2">
-                    <SelectAllBtn
-                      selectedCount={
-                        expandedTagData.kaomojis.filter((k) => selectedKaomojiIds.has(k.id)).length
-                      }
-                      totalCount={expandedTagData.kaomojis.length}
-                      onSelectAll={() =>
-                        setSelectedKaomojiIds(new Set(expandedTagData.kaomojis.map((k) => k.id)))
-                      }
-                      onDeselectAll={() => setSelectedKaomojiIds(new Set())}
-                      showCount
-                    />
-                    <button
-                      onClick={() => handleRemoveTagFromSelected(expandedTag)}
-                      disabled={selectedKaomojiIds.size === 0}
-                      className="text-gray-600 hover:text-rose-600"
-                      aria-label="刪除"
-                      title="刪除"
-                    >
-                      <DeleteIcon className="size-5" />
-                    </button>
-                  </div>
-                </div>
-                <div className="grid max-h-60 grid-cols-1 gap-2 overflow-y-auto xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-8">
-                  {expandedTagData.kaomojis.map((kaomoji) => (
-                    <div
-                      key={kaomoji.id}
-                      onClick={() => toggleKaomojiSelection(kaomoji.id)}
-                      className={cn(
-                        'flex items-center cursor-pointer gap-x-1.5 rounded-md border bg-white p-2',
-                        selectedKaomojiIds.has(kaomoji.id)
-                          ? 'border-primary-500 bg-primary-50'
-                          : 'border-gray-200 hover:border-gray-300'
-                      )}
-                    >
-                      <div
-                        className={cn(
-                          'flex-center size-3.5 rounded-full',
-                          selectedKaomojiIds.has(kaomoji.id)
-                            ? 'bg-primary-400'
-                            : 'border border-gray-300'
                         )}
-                      >
-                        <CheckIcon
-                          className={cn(
-                            'size-3',
-                            selectedKaomojiIds.has(kaomoji.id) ? 'text-white' : 'text-transparent'
-                          )}
-                        />
-                      </div>
-                      <p className="truncate text-sm">{kaomoji.text}</p>
-                    </div>
-                  ))}
+                        {tag.count === 0 && (
+                          <span className="rounded-full bg-rose-100 px-2 py-0.5 text-xs font-medium text-rose-700">
+                            未使用
+                          </span>
+                        )}
+                      </>
+                    }
+                  />
                 </div>
+              );
+            })}
+          </div>
+        )}
+        {expandedTagData && !isMergeMode && !isDeleteTagsMode && (
+          <div className="rounded-lg bg-primary-50 p-4">
+            <div className="flex-between mb-3">
+              <h4 className="font-medium text-gray-800">
+                標籤「{expandedTagData.name[lang]}」的顏文字
+              </h4>
+              <div className="flex-center gap-x-2">
+                <SelectAllBtn
+                  selectedCount={selectedKaomojiIds.size}
+                  totalCount={expandedTagData.kaomojis.length}
+                  onSelectAll={() =>
+                    setSelectedKaomojiIds(new Set(expandedTagData.kaomojis.map((k) => k.id)))
+                  }
+                  onDeselectAll={() => setSelectedKaomojiIds(new Set())}
+                  showCount
+                />
+                <button
+                  onClick={() => handleRemoveTagFromSelected(expandedTagData.id)}
+                  disabled={selectedKaomojiIds.size === 0}
+                  className="text-gray-600 hover:text-rose-600"
+                  aria-label="刪除"
+                  title="刪除"
+                >
+                  <DeleteIcon className="size-5" />
+                </button>
               </div>
-            );
-          })()}
+            </div>
+            <div className="grid max-h-60 grid-cols-1 gap-2 overflow-y-auto xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-8">
+              {expandedTagData.kaomojis.map((kaomoji) => (
+                <div
+                  key={kaomoji.id}
+                  onClick={() => toggleKaomojiSelection(kaomoji.id)}
+                  className={cn(
+                    'flex items-center cursor-pointer gap-x-1.5 rounded-md border bg-white p-2',
+                    selectedKaomojiIds.has(kaomoji.id)
+                      ? 'border-primary-500 bg-primary-50'
+                      : 'border-gray-200 hover:border-gray-300'
+                  )}
+                >
+                  <div
+                    className={cn(
+                      'flex-center size-3.5 rounded-full',
+                      selectedKaomojiIds.has(kaomoji.id)
+                        ? 'bg-primary-400'
+                        : 'border border-gray-300'
+                    )}
+                  >
+                    <CheckIcon
+                      className={cn(
+                        'size-3',
+                        selectedKaomojiIds.has(kaomoji.id) ? 'text-white' : 'text-transparent'
+                      )}
+                    />
+                  </div>
+                  <p className="truncate text-sm">{kaomoji.text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
-      <Modal isOpen={!!editingTag} onClose={() => setEditingTag(null)} title="重新命名標籤">
+
+      <TagModal isOpen={isModalOpen} onClose={closeModal} onSave={handleSave} tag={editingTag} />
+
+      <Modal isOpen={isMergeModalOpen} onClose={closeModal} title="合併標籤">
         <form
           onSubmit={(e: FormEvent) => {
             e.preventDefault();
-            handleRenameTag();
+            handleMergeTags();
           }}
           className="space-y-4"
         >
-          <div>
-            <label className="mb-2 block text-sm font-medium text-gray-700">原標籤名稱</label>
-            <Input
-              type="text"
-              value={editingTag || ''}
-              disabled
-              onChange={() => {}}
-              className="w-full rounded-md border border-gray-300 px-2.5 py-2 bg-gray-100"
-            />
-          </div>
-          <div>
-            <label className="mb-2 block text-sm font-medium text-gray-700">新標籤名稱</label>
-            <Input
-              type="text"
-              value={newTagName}
-              onChange={(e) => setNewTagName(e.target.value)}
-              className="w-full rounded-md border border-gray-300 px-2.5 py-2"
-            />
-          </div>
-          <div className="flex justify-end space-x-3 pt-4">
-            <button
-              type="button"
-              onClick={() => setEditingTag(null)}
-              className="rounded-md border border-gray-300 px-4 py-2 text-gray-700 hover:bg-gray-50"
-            >
-              取消
-            </button>
-            <button
-              type="submit"
-              disabled={!newTagName.trim() || newTagName.trim() === editingTag}
-              className="rounded-md bg-primary-500 px-4 py-2 text-white hover:bg-primary-600"
-            >
-              重命名
-            </button>
-          </div>
-        </form>
-      </Modal>
-      <Modal isOpen={isMergeModalOpen} onClose={() => setIsMergeModalOpen(false)} title="合併標籤">
-        <div className="space-y-4">
           <p>您將合併以下 {tagsToMerge.size} 個標籤：</p>
           <div className="flex flex-wrap gap-x-2">
-            {Array.from(tagsToMerge).map((tag) => (
-              <span key={tag} className="rounded-md bg-gray-200 px-2 py-1 text-sm">
-                {tag}
+            {Array.from(tagsToMerge).map((tagId) => (
+              <span key={tagId} className="rounded-md bg-gray-200 px-2 py-1 text-sm">
+                {tagUsageMap.get(tagId)?.name[lang] || tagId}
               </span>
             ))}
           </div>
           <div>
             <label className="mb-2 block text-sm font-medium text-gray-700">
-              選擇或輸入最終的標籤名稱
+              選擇或輸入最終的標籤 ID
             </label>
             <Input
               value={finalMergeTag}
@@ -370,21 +342,20 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, allTags, onDataChange }) 
           <div className="flex justify-end space-x-3 pt-4">
             <button
               type="button"
-              onClick={() => setIsMergeModalOpen(false)}
+              onClick={closeModal}
               className="rounded-md border border-gray-300 px-4 py-2 text-gray-700 hover:bg-gray-50"
             >
               取消
             </button>
             <button
-              type="button"
-              onClick={handleMergeTags}
+              type="submit"
               disabled={!finalMergeTag.trim()}
               className="rounded-md bg-blue-500 px-4 py-2 text-white hover:bg-blue-600 disabled:opacity-50"
             >
               確定合併
             </button>
           </div>
-        </div>
+        </form>
       </Modal>
     </>
   );

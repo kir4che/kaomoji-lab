@@ -10,27 +10,27 @@
     {
       "id": "happiness_001",
       "text": "ᜊ(꒪ˊ꒳ˋ꒪)ᜊ",
-      "tags": ["天使", "幸福", "翅膀", "開心"]
+      "tags": ["angel", "happiness", "happy", "wings"]
     },
     {
       "id": "happiness_002",
       "text": "꒰ঌ*´◒`*໒꒱",
-      "tags": ["幸福", "翅膀"]
+      "tags": ["happiness", "wings"]
     },
     {
       "id": "happiness_003",
       "text": "´༥`",
-      "tags": ["幸福", "微笑"]
+      "tags": ["happiness", "smile"]
     },
     {
       "id": "happiness_004",
       "text": "(*´﹃｀*)",
-      "tags": ["幸福", "流口水", "餓"]
+      "tags": ["drooling", "happiness", "hungry"]
     },
     {
       "id": "happiness_005",
       "text": "(*´ω`)人(´ω`*)",
-      "tags": ["幸福", "朋友", "開心"]
+      "tags": ["friend", "happiness", "happy"]
     }
   ]
 }

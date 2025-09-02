@@ -10,552 +10,552 @@
     {
       "id": "angry_001",
       "text": "(๑⁼̴̀д⁼̴ ๑)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_002",
       "text": "o(´^｀)o",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_003",
       "text": "ꐦ≖ ≖",
-      "tags": ["無言", "生氣"]
+      "tags": ["angry", "speechless"]
     },
     {
       "id": "angry_004",
       "text": "⎛ -᷄ ᴥ -᷅ ⎞೯",
-      "tags": ["動物", "生氣"]
+      "tags": ["angry", "animal"]
     },
     {
       "id": "angry_005",
       "text": "(҂`･ｪ･´)",
-      "tags": ["動物", "幹勁", "生氣"]
+      "tags": ["angry", "animal", "motivated"]
     },
     {
       "id": "angry_006",
       "text": "(ʘ̆ʚʘ̆)",
-      "tags": ["無奈", "生氣"]
+      "tags": ["angry", "helpless"]
     },
     {
       "id": "angry_007",
       "text": "-⤙-",
-      "tags": ["無奈", "生氣"]
+      "tags": ["angry", "helpless"]
     },
     {
       "id": "angry_008",
       "text": "᷄•̆₃•̑",
-      "tags": ["無奈", "生氣"]
+      "tags": ["angry", "helpless"]
     },
     {
       "id": "angry_009",
       "text": "•᷄ ᯅ •᷅",
-      "tags": ["無奈", "生氣"]
+      "tags": ["angry", "helpless"]
     },
     {
       "id": "angry_010",
       "text": "•︡ᯅ•︠",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_011",
       "text": "૮₍ꐦ -᷅ ⤙ -᷄ ₎ა",
-      "tags": ["動物", "無言", "生氣"]
+      "tags": ["angry", "animal", "speechless"]
     },
     {
       "id": "angry_012",
       "text": "૮₍ ˃ ⤙ ˂ ₎ა",
-      "tags": ["動物", "生氣"]
+      "tags": ["angry", "animal"]
     },
     {
       "id": "angry_013",
       "text": "(๑`^´๑)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_016",
       "text": "ԅ( ͒ ۝ ͒ )ᕤ",
-      "tags": ["幹勁", "生氣"]
+      "tags": ["angry", "motivated"]
     },
     {
       "id": "angry_017",
       "text": "(*σ´益｀)σ",
-      "tags": ["指", "生氣"]
+      "tags": ["angry", "pointing"]
     },
     {
       "id": "angry_018",
       "text": "☝(｀ط´≠)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_019",
       "text": "(ლ `Д ́)ლ",
-      "tags": ["崩潰", "生氣"]
+      "tags": ["angry", "breakdown"]
     },
     {
       "id": "angry_020",
       "text": "s( ^ ‸ ^)-p",
-      "tags": ["無言", "生氣"]
+      "tags": ["angry", "speechless"]
     },
     {
       "id": "angry_032",
       "text": "(ノ#-_-)ノ ミ　┴┴",
-      "tags": ["生氣", "翻桌"]
+      "tags": ["angry", "table-flip"]
     },
     {
       "id": "angry_034",
       "text": "(/｀ο´)/ ⌒ ┫:’ﾟ:｡･",
-      "tags": ["翻桌"]
+      "tags": ["table-flip"]
     },
     {
       "id": "angry_035",
       "text": "｡゜(｀Д´)゜｡",
-      "tags": ["哭", "生氣"]
+      "tags": ["angry", "crying"]
     },
     {
       "id": "angry_036",
       "text": "｡･ﾟ’(*/益＼*) ‘ﾟ･｡",
-      "tags": ["哭", "崩潰", "生氣"]
+      "tags": ["angry", "breakdown", "crying"]
     },
     {
       "id": "angry_037",
       "text": "｡ﾟ(ﾟ`⊿゜)ﾟ｡",
-      "tags": ["叫喊", "哭", "生氣"]
+      "tags": ["angry", "crying", "shout"]
     },
     {
       "id": "angry_038",
       "text": "ﾟ｡･ﾟヾ(ﾟ｀ｪ´ﾟ)ﾉ｡ﾟ･｡",
-      "tags": ["哭", "生氣"]
+      "tags": ["angry", "crying"]
     },
     {
       "id": "angry_039",
       "text": "Q(｀⌒´Q)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_040",
       "text": "(ง ͠° ͟ʖ #)ง",
-      "tags": ["幹勁", "生氣"]
+      "tags": ["angry", "motivated"]
     },
     {
       "id": "angry_041",
       "text": "Q–(’̀-’̀Q )",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_042",
       "text": "|Д´)/",
-      "tags": ["偷偷", "生氣"]
+      "tags": ["angry", "peeking"]
     },
     {
       "id": "angry_043",
       "text": "|Д´)ﾉ",
-      "tags": ["偷偷", "生氣"]
+      "tags": ["angry", "peeking"]
     },
     {
       "id": "angry_044",
       "text": "ヽ(*｀Д´*||",
-      "tags": ["生氣", "崩潰"]
+      "tags": ["angry", "breakdown"]
     },
     {
       "id": "angry_045",
       "text": "||*｀Д´*)ﾉ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_046",
       "text": "ᕙ( : ˘ ∧ ˘ : )ᕗ",
-      "tags": ["生氣", "肌肉"]
+      "tags": ["angry", "muscle"]
     },
     {
       "id": "angry_047",
       "text": "ᕙ[ ・ ∧ ・ ]ᕗ",
-      "tags": ["生氣", "肌肉"]
+      "tags": ["angry", "muscle"]
     },
     {
       "id": "angry_048",
       "text": "ᕙ[･۝･]ᕗ",
-      "tags": ["叫喊", "生氣", "肌肉"]
+      "tags": ["angry", "muscle", "shout"]
     },
     {
       "id": "angry_049",
       "text": "୧( ಠ Д ಠ )୨",
-      "tags": ["幹勁", "生氣"]
+      "tags": ["angry", "motivated"]
     },
     {
       "id": "angry_050",
       "text": "ᕦ╏ ʘ̆ ‸ ʘ̆ ╏ᕤ",
-      "tags": ["生氣", "肌肉"]
+      "tags": ["angry", "muscle"]
     },
     {
       "id": "angry_051",
       "text": "|･｀ヘ´･;|ゞ",
-      "tags": ["生氣", "敬禮"]
+      "tags": ["angry", "salute"]
     },
     {
       "id": "angry_052",
       "text": "s(●｀ヘ´●;)ゞ",
-      "tags": ["生氣", "敬禮"]
+      "tags": ["angry", "salute"]
     },
     {
       "id": "angry_053",
       "text": "（○｀ω´）ゞ",
-      "tags": ["生氣", "敬禮"]
+      "tags": ["angry", "salute"]
     },
     {
       "id": "angry_054",
       "text": "(`･ε´-ゞ)",
-      "tags": ["生氣", "敬禮"]
+      "tags": ["angry", "salute"]
     },
     {
       "id": "angry_055",
       "text": "(`Д´)ゞ",
-      "tags": ["生氣", "敬禮"]
+      "tags": ["angry", "salute"]
     },
     {
       "id": "angry_056",
       "text": "(｀д´)ゝ",
-      "tags": ["生氣", "敬禮"]
+      "tags": ["angry", "salute"]
     },
     {
       "id": "angry_057",
       "text": "ｏ(･д´･+)ゞ",
-      "tags": ["生氣", "敬禮"]
+      "tags": ["angry", "salute"]
     },
     {
       "id": "angry_058",
       "text": "(＞Д＜)ゝ",
-      "tags": ["叫喊", "生氣", "敬禮"]
+      "tags": ["angry", "salute", "shout"]
     },
     {
       "id": "angry_059",
       "text": "（・д・ゝ）",
-      "tags": ["生氣", "敬禮"]
+      "tags": ["angry", "salute"]
     },
     {
       "id": "angry_060",
       "text": "∠(´д｀)",
-      "tags": ["無奈", "生氣", "敬禮"]
+      "tags": ["angry", "helpless", "salute"]
     },
     {
       "id": "angry_061",
       "text": "(｀ﾟДﾟ´)ゞ",
-      "tags": ["生氣", "敬禮"]
+      "tags": ["angry", "salute"]
     },
     {
       "id": "angry_062",
       "text": "(●>д<●)ゞ",
-      "tags": ["生氣", "緊張", "敬禮"]
+      "tags": ["angry", "nervous", "salute"]
     },
     {
       "id": "angry_063",
       "text": "＼|*≧Д≦|>",
-      "tags": ["崩潰", "生氣", "敬禮"]
+      "tags": ["angry", "breakdown", "salute"]
     },
     {
       "id": "angry_064",
       "text": "(｀・д・´)ゝ",
-      "tags": ["生氣", "敬禮"]
+      "tags": ["angry", "salute"]
     },
     {
       "id": "angry_065",
       "text": "(｀･д´･ゞ)-☆",
-      "tags": ["星星", "生氣", "敬禮"]
+      "tags": ["angry", "salute", "star"]
     },
     {
       "id": "angry_066",
       "text": "(＞Д＜)ゝ”",
-      "tags": ["叫喊", "生氣", "敬禮"]
+      "tags": ["angry", "salute", "shout"]
     },
     {
       "id": "angry_068",
       "text": "(｡･Д･)ゞ",
-      "tags": ["生氣", "敬禮"]
+      "tags": ["angry", "salute"]
     },
     {
       "id": "angry_069",
       "text": "ヾ(●｀･△･´●)ゞ",
-      "tags": ["生氣", "敬禮"]
+      "tags": ["angry", "salute"]
     },
     {
       "id": "angry_070",
       "text": "(・∧‐)ゞ",
-      "tags": ["生氣", "敬禮"]
+      "tags": ["angry", "salute"]
     },
     {
       "id": "angry_071",
       "text": "(⌍་д་⌌)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_072",
       "text": "(￢ε￢　)",
-      "tags": ["無言", "生氣"]
+      "tags": ["angry", "speechless"]
     },
     {
       "id": "angry_073",
       "text": "(￢з￢)",
-      "tags": ["無言", "生氣"]
+      "tags": ["angry", "speechless"]
     },
     {
       "id": "angry_074",
       "text": "（￢з￢）",
-      "tags": ["無言", "生氣"]
+      "tags": ["angry", "speechless"]
     },
     {
       "id": "angry_075",
       "text": "( ੭눈 _ 눈 )੭",
-      "tags": ["無言", "生氣"]
+      "tags": ["angry", "speechless"]
     },
     {
       "id": "angry_076",
       "text": "（ ಠωಠ）",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_077",
       "text": "(๑•̆૩•̆)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_078",
       "text": "(　`_ゝ´)",
-      "tags": ["無言", "生氣"]
+      "tags": ["angry", "speechless"]
     },
     {
       "id": "angry_079",
       "text": "(ඟ⍘ඟ)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_080",
       "text": "(๑≖ˇдˇ≖๑)",
-      "tags": ["無言", "生氣"]
+      "tags": ["angry", "speechless"]
     },
     {
       "id": "angry_081",
       "text": "ヾ(▼ﾍ▼；)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_082",
       "text": "ヾ(o｀Å´o)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_083",
       "text": "φ(●ﾟ益ﾟ)っ",
-      "tags": ["寫字", "生氣"]
+      "tags": ["angry", "writing"]
     },
     {
       "id": "angry_084",
       "text": "φ(-｀Д´-*)",
-      "tags": ["寫字", "生氣"]
+      "tags": ["angry", "writing"]
     },
     {
       "id": "angry_085",
       "text": "┗(｀O´)┛",
-      "tags": ["叫喊", "生氣", "萬歲"]
+      "tags": ["angry", "banzai", "shout"]
     },
     {
       "id": "angry_086",
       "text": "└｜゜ε゜｜┐",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_087",
       "text": "┌(▼▼メ)┘",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_088",
       "text": "“8-( ●｀ε´●)爻(●｀ε´● )-8”",
-      "tags": ["朋友", "生氣"]
+      "tags": ["angry", "friend"]
     },
     {
       "id": "angry_089",
       "text": "“8-( ●｀・З・´)爻(｀・ε・´● )-8”",
-      "tags": ["朋友", "生氣"]
+      "tags": ["angry", "friend"]
     },
     {
       "id": "angry_090",
       "text": "╏つ ͜ಠ ‸ ͜ಠ ╏つ",
-      "tags": ["擁抱", "生氣"]
+      "tags": ["angry", "hug"]
     },
     {
       "id": "angry_091",
       "text": "(っ⇀`皿′↼)っ",
-      "tags": ["擁抱", "生氣"]
+      "tags": ["angry", "hug"]
     },
     {
       "id": "angry_092",
       "text": "(つ◉益◉)つ",
-      "tags": ["擁抱", "生氣"]
+      "tags": ["angry", "hug"]
     },
     {
       "id": "angry_093",
       "text": "(/￣^￣)/￣ ＼(｡_｡＼)",
-      "tags": ["生氣", "道歉"]
+      "tags": ["angry", "apologize"]
     },
     {
       "id": "angry_094",
       "text": "（。ˇ ⊖ˇ）",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_095",
       "text": "o┤*｀3´*├o",
-      "tags": ["生氣", "親"]
+      "tags": ["angry", "kiss"]
     },
     {
       "id": "angry_096",
       "text": "(-ε- )",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_097",
       "text": "(‘ε’)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_098",
       "text": "（￣ε￣＠）",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_099",
       "text": "σ(≧ε≦ｏ)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_100",
       "text": "┌║ ຈ ε ຈ ║┐",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_101",
       "text": "(≧ε≦)))",
-      "tags": ["生氣", "崩潰"]
+      "tags": ["angry", "breakdown"]
     },
     {
       "id": "angry_102",
       "text": "(｀ε´#)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_103",
       "text": "(╯⊙ ⊱ ⊙╰ )",
-      "tags": ["無言", "生氣", "目瞪口呆"]
+      "tags": ["angry", "dumbfounded", "speechless"]
     },
     {
       "id": "angry_104",
       "text": "（￣ε￣ʃƪ）",
-      "tags": ["害羞", "生氣", "親"]
+      "tags": ["angry", "kiss", "shy"]
     },
     {
       "id": "angry_105",
       "text": "(｡･ˇ_ˇ･｡)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_106",
       "text": "₍₍ ᕕ( ･᷄ὢ･᷅ )ᕗ⁾⁾",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_107",
       "text": "╰(⇀‸↼)╯",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_108",
       "text": "╰(⇀⌂↼‶)╯",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_109",
       "text": "（;≧皿≦）",
-      "tags": ["叫喊", "崩潰", "生氣"]
+      "tags": ["angry", "breakdown", "shout"]
     },
     {
       "id": "angry_110",
       "text": "(。-`ω´-)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_111",
       "text": "( •̆௰•̆)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_112",
       "text": "ต(ꏿ᷅௰ꏿ᷄)ต",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_113",
       "text": "( ･ὢ･ )",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_114",
       "text": ":( •ᾥ•):",
-      "tags": ["叫喊", "生氣"]
+      "tags": ["angry", "shout"]
     },
     {
       "id": "angry_115",
       "text": "٩(╬ŏ3ŏ)و",
-      "tags": ["加油", "生氣", "親"]
+      "tags": ["angry", "cheer-up", "kiss"]
     },
     {
       "id": "angry_116",
       "text": "Σ(`‐ｪ‐´)",
-      "tags": ["生氣", "驚訝"]
+      "tags": ["angry", "surprised"]
     },
     {
       "id": "angry_117",
       "text": "Σ(´д ` ﾒ)",
-      "tags": ["生氣", "驚訝"]
+      "tags": ["angry", "surprised"]
     },
     {
       "id": "angry_118",
       "text": "Σ(;･益･;;;)!!!",
-      "tags": ["嚇一跳", "生氣", "驚訝"]
+      "tags": ["angry", "startled", "surprised"]
     },
     {
       "id": "angry_119",
       "text": "(╬☉д⊙)⊰⊹ฺ",
-      "tags": ["生氣", "目瞪口呆", "閃亮"]
+      "tags": ["angry", "dumbfounded", "sparkle"]
     },
     {
       "id": "angry_120",
       "text": "凸(｀0´)凸",
-      "tags": ["叫喊", "生氣"]
+      "tags": ["angry", "shout"]
     },
     {
       "id": "angry_121",
       "text": "凸(-0-メ)",
-      "tags": ["無言", "生氣", "閉眼"]
+      "tags": ["angry", "closed-eyes", "speechless"]
     },
     {
       "id": "angry_122",
       "text": "凸(｀⌒´メ)凸",
-      "tags": ["無言", "生氣"]
+      "tags": ["angry", "speechless"]
     },
     {
       "id": "angry_123",
       "text": "凸(｀△´＋）",
-      "tags": ["叫喊", "生氣"]
+      "tags": ["angry", "shout"]
     },
     {
       "id": "angry_124",
       "text": "凸(｀ι _´メ）",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_125",
       "text": "(‡▼益▼)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_126",
@@ -565,162 +565,162 @@
     {
       "id": "angry_127",
       "text": "(╬ﾟ◥益◤ﾟ)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_128",
       "text": "(╬⓪益⓪)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_129",
       "text": "[○･｀Д´･○]",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_130",
       "text": "(ꐦ°᷄д°᷅)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_131",
       "text": "((╬●∀●))",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_132",
       "text": "(╬ Ò ‸ Ó)",
-      "tags": ["嚴肅", "生氣"]
+      "tags": ["angry", "serious"]
     },
     {
       "id": "angry_133",
       "text": "(*｀益´*)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_134",
       "text": "(ꐦ ಠ皿ಠ )",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_135",
       "text": "（｀Δ´）！",
-      "tags": ["叫喊", "生氣"]
+      "tags": ["angry", "shout"]
     },
     {
       "id": "angry_136",
       "text": "(╬ಠ益ಠ)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_137",
       "text": "(#｀皿´)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_138",
       "text": "(｀Д´)",
-      "tags": ["叫喊", "生氣"]
+      "tags": ["angry", "shout"]
     },
     {
       "id": "angry_139",
       "text": "(ﾒﾟ皿ﾟ)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_140",
       "text": "（○｀Ｏ´○）",
-      "tags": ["叫喊", "生氣"]
+      "tags": ["angry", "shout"]
     },
     {
       "id": "angry_141",
       "text": "(*｀へ´*)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_142",
       "text": "-`д´-",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_143",
       "text": "ಠ▃ಠ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_144",
       "text": "〴⋋_⋌〵",
-      "tags": ["生氣", "翅膀"]
+      "tags": ["angry", "wings"]
     },
     {
       "id": "angry_145",
       "text": "ఠ ͟ಠ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_146",
       "text": "૮( ᵒ̌皿ᵒ̌ )ა",
-      "tags": ["動物", "生氣"]
+      "tags": ["angry", "animal"]
     },
     {
       "id": "angry_147",
       "text": "(╬ ‾᷅皿‾᷄ ╬)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_148",
       "text": "(｡☉︵ ಠ╬)",
-      "tags": ["哭", "生氣"]
+      "tags": ["angry", "crying"]
     },
     {
       "id": "angry_149",
       "text": "(｀◕‸◕´+)",
-      "tags": ["大眼", "生氣"]
+      "tags": ["angry", "big-eyes"]
     },
     {
       "id": "angry_150",
       "text": "(*`д´*)",
-      "tags": ["叫喊", "生氣"]
+      "tags": ["angry", "shout"]
     },
     {
       "id": "angry_151",
       "text": "⋌༼ •̀ ⌂ •́ ༽⋋",
-      "tags": ["生氣", "翅膀"]
+      "tags": ["angry", "wings"]
     },
     {
       "id": "angry_152",
       "text": "＼(・｀(ｪ)・)/",
-      "tags": ["動物", "生氣", "萬歲"]
+      "tags": ["angry", "animal", "banzai"]
     },
     {
       "id": "angry_153",
       "text": "ヽ(#`Д´)ﾉ",
-      "tags": ["叫喊", "生氣"]
+      "tags": ["angry", "shout"]
     },
     {
       "id": "angry_154",
       "text": "ヽ(ｏ`皿′ｏ)ﾉ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_155",
       "text": "ヽ(´益`)ﾉ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_156",
       "text": "ﾚ(◣益◢#)ﾍ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_157",
       "text": "ヽ(｀⌒´)ﾉ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_158",
       "text": "＼`•̀益•́´／",
-      "tags": ["生氣", "萬歲"]
+      "tags": ["angry", "banzai"]
     },
     {
       "id": "angry_159",
@@ -730,507 +730,507 @@
     {
       "id": "angry_160",
       "text": "ヽ(｀○´)/",
-      "tags": ["叫喊", "生氣"]
+      "tags": ["angry", "shout"]
     },
     {
       "id": "angry_161",
       "text": "ヽ(｀Д´)ノ",
-      "tags": ["叫喊", "生氣", "萬歲"]
+      "tags": ["angry", "banzai", "shout"]
     },
     {
       "id": "angry_162",
       "text": "ヾ(*｀ｪ´*)ﾉ",
-      "tags": ["動物", "生氣"]
+      "tags": ["angry", "animal"]
     },
     {
       "id": "angry_163",
       "text": "ヾ(｀ε´)ﾉ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_164",
       "text": "ヾ(ﾒ｀･д･´)ﾉﾞ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_165",
       "text": "ヾ(*｀⌒´*)ﾉ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_166",
       "text": "((ヾ(≧皿≦ﾒ)ﾉ))",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_167",
       "text": "٩(╬ఠ༬ఠ)و",
-      "tags": ["加油", "生氣"]
+      "tags": ["angry", "cheer-up"]
     },
     {
       "id": "angry_168",
       "text": "٩(//̀Д/́/)۶",
-      "tags": ["加油", "害羞", "生氣"]
+      "tags": ["angry", "cheer-up", "shy"]
     },
     {
       "id": "angry_170",
       "text": "(╬☉д⊙)",
-      "tags": ["生氣", "目瞪口呆", "驚訝"]
+      "tags": ["angry", "dumbfounded", "surprised"]
     },
     {
       "id": "angry_171",
       "text": "(#｀ﾟд´)ﾉ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_173",
       "text": "ల(｀°Δ°)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_174",
       "text": "∩(￣□￣#)∩",
-      "tags": ["生氣", "舉起雙手", "萬歲", "驚訝"]
+      "tags": ["angry", "banzai", "hands-up", "surprised"]
     },
     {
       "id": "angry_175",
       "text": "(ૢ•᷄⊱•᷅ ╬)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_176",
       "text": "‷̗ↂ凸ↂ‴̖",
-      "tags": ["激動", "無言", "生氣"]
+      "tags": ["angry", "excited", "speechless"]
     },
     {
       "id": "angry_177",
       "text": "(ૢ•᷄ۿ•᷅╬)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_178",
       "text": "o(°ω°メ)Ｏ))",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_179",
       "text": "(﹡ˆ﹀ˆ﹡ )ꐦ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_180",
       "text": "(-᷅_-᷄)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_181",
       "text": "(｀-´)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_182",
       "text": "(・-・ꐦ)",
-      "tags": ["無言", "生氣"]
+      "tags": ["angry", "speechless"]
     },
     {
       "id": "angry_183",
       "text": "(#`Д´)ﾉ",
-      "tags": ["叫喊", "生氣"]
+      "tags": ["angry", "shout"]
     },
     {
       "id": "angry_184",
       "text": "(`д´)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_185",
       "text": "(╯•̀ὤ•́)╯",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_186",
       "text": "( ｰ̀ ༥ ｰ́ )",
-      "tags": ["吃", "生氣"]
+      "tags": ["angry", "eating"]
     },
     {
       "id": "angry_188",
       "text": "٩(๑ò ༥ ó ๑)۶",
-      "tags": ["加油", "吃", "生氣"]
+      "tags": ["angry", "cheer-up", "eating"]
     },
     {
       "id": "angry_189",
       "text": "(o｀з’*)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_191",
       "text": "(๑･̆ﾍ･̆๑)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_192",
       "text": "(ꐦ^^)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_193",
       "text": "(⑉‧̆н‧̆⑉)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_194",
       "text": "(๑–̀ω–́๑)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_195",
       "text": "(ꐦº-° )",
-      "tags": ["無言", "生氣"]
+      "tags": ["angry", "speechless"]
     },
     {
       "id": "angry_196",
       "text": "ღ ( ｰ̀ωｰ́ ღ )",
-      "tags": ["生氣", "愛心"]
+      "tags": ["angry", "love"]
     },
     {
       "id": "angry_197",
       "text": "(▼皿▼ﾒ)ﾉ",
-      "tags": ["墨鏡", "生氣"]
+      "tags": ["angry", "sunglasses"]
     },
     {
       "id": "angry_198",
       "text": "(`3´)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_199",
       "text": "(ﾟ皿ﾟﾒ)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_200",
       "text": "(#`皿´)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_201",
       "text": "(-`ェ´-╬)",
-      "tags": ["動物", "生氣"]
+      "tags": ["angry", "animal"]
     },
     {
       "id": "angry_203",
       "text": "(≧д≦)",
-      "tags": ["緊張"]
+      "tags": ["nervous"]
     },
     {
       "id": "angry_204",
       "text": "(≧皿≦)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_205",
       "text": "(╬`益´)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_206",
       "text": "(╬ﾟ益ﾟ)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_207",
       "text": "(╬◣益◢)",
-      "tags": ["墨鏡", "生氣"]
+      "tags": ["angry", "sunglasses"]
     },
     {
       "id": "angry_208",
       "text": "(╬◯益◯)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_209",
       "text": "( ﾒ∀・)",
-      "tags": ["生氣", "眨眼"]
+      "tags": ["angry", "wink"]
     },
     {
       "id": "angry_210",
       "text": "૮ -‘๑’-ა",
-      "tags": ["動物", "無言", "生氣"]
+      "tags": ["angry", "animal", "speechless"]
     },
     {
       "id": "angry_211",
       "text": "ϵ(ò⥐ó)ͽﾌﾟｯ",
-      "tags": ["生氣", "動物"]
+      "tags": ["angry", "animal"]
     },
     {
       "id": "angry_212",
       "text": "⌯•͈₃•͈⌯ಣ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_213",
       "text": "(; ･`д･´)",
-      "tags": ["緊張", "嚴肅", "驚訝"]
+      "tags": ["nervous", "serious", "surprised"]
     },
     {
       "id": "angry_215",
       "text": "ꉂ `o´ )",
-      "tags": ["大笑"]
+      "tags": ["lol"]
     },
     {
       "id": "angry_216",
       "text": "(◕ っ ◕✿)",
-      "tags": ["大眼", "生氣", "花"]
+      "tags": ["angry", "big-eyes", "flower"]
     },
     {
       "id": "angry_217",
       "text": "(◕ˉ◕✿)",
-      "tags": ["大眼", "無言", "生氣", "花"]
+      "tags": ["angry", "big-eyes", "flower", "speechless"]
     },
     {
       "id": "angry_218",
       "text": "(≖ ︿ ≖ ✿)",
-      "tags": ["無言", "生氣", "花"]
+      "tags": ["angry", "flower", "speechless"]
     },
     {
       "id": "angry_219",
       "text": "(≖ ‸ ≖ ✿)",
-      "tags": ["無言", "生氣", "花"]
+      "tags": ["angry", "flower", "speechless"]
     },
     {
       "id": "angry_220",
       "text": "(≖ Δ ≖ ✿)",
-      "tags": ["叫喊", "生氣", "花"]
+      "tags": ["angry", "flower", "shout"]
     },
     {
       "id": "angry_221",
       "text": "(≖ ︿ ≖ ✿)ꐦꐦ",
-      "tags": ["生氣", "花"]
+      "tags": ["angry", "flower"]
     },
     {
       "id": "angry_223",
       "text": "(◢ д ◣)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_224",
       "text": "( ఠ్ఠᗣఠ్ఠ )",
-      "tags": ["生氣", "驚訝"]
+      "tags": ["angry", "surprised"]
     },
     {
       "id": "angry_225",
       "text": "(；¬д¬)",
-      "tags": ["無言", "生氣"]
+      "tags": ["angry", "speechless"]
     },
     {
       "id": "angry_226",
       "text": "(๑･`▱´･๑)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_227",
       "text": "ヾ( ･`⌓´･)ﾉﾞ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_228",
       "text": "(╯•ω•╰)",
-      "tags": ["動物", "生氣"]
+      "tags": ["angry", "animal"]
     },
     {
       "id": "angry_229",
       "text": "(･᷄ὢ･᷅)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_230",
       "text": "ჴ˘ര‸രჴ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_231",
       "text": "(੭ु⍨)੭ु⁾⁾",
-      "tags": ["無奈", "生氣", "跳舞"]
+      "tags": ["angry", "dancing", "helpless"]
     },
     {
       "id": "angry_232",
       "text": "( ° ^ ° )",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_233",
       "text": "(・ε・)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_234",
       "text": "( ˘･з･)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_236",
       "text": "(-_-)",
-      "tags": ["無奈", "無言", "生氣"]
+      "tags": ["angry", "helpless", "speechless"]
     },
     {
       "id": "angry_237",
       "text": "(°ㅂ°ꐦ)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_238",
       "text": "⁽⁽(੭ꐦ •̀Д•́ )੭*⁾⁾",
-      "tags": ["攻擊", "生氣"]
+      "tags": ["angry", "attack"]
     },
     {
       "id": "angry_239",
       "text": "ヽ(｀Д´#)ﾉ ﾑｷｰ!!",
-      "tags": ["叫喊", "生氣"]
+      "tags": ["angry", "shout"]
     },
     {
       "id": "angry_240",
       "text": "(｡-ˇ_ˇ-｡)ﾑｶｯ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_241",
       "text": "(｀ε´)ﾑｽｯ",
-      "tags": ["嘟嘴", "生氣"]
+      "tags": ["angry", "pout"]
     },
     {
       "id": "angry_242",
       "text": "(╬＾ω＾)むかつく",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_243",
       "text": "(ꐦ ‾᷄꒫‾᷅ )",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_246",
       "text": "o(･`д´･ ｡)ｶﾞﾝﾊﾞ—!!!",
-      "tags": ["加油", "生氣"]
+      "tags": ["angry", "cheer-up"]
     },
     {
       "id": "angry_247",
       "text": "(ꐦ•\" ຼ•)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_249",
       "text": "(ノ-o-)ノ⌒┳ ┫┻┣",
-      "tags": ["翻桌"]
+      "tags": ["table-flip"]
     },
     {
       "id": "angry_250",
       "text": "┬──┬◡ﾉ(° -°ﾉ)",
-      "tags": ["翻桌"]
+      "tags": ["table-flip"]
     },
     {
       "id": "angry_251",
       "text": "(╬◣д◢)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_252",
       "text": "ಠﭛಠ",
-      "tags": ["生氣", "無言"]
+      "tags": ["angry", "speechless"]
     },
     {
       "id": "angry_253",
       "text": "(／‵Д′)／~ ╧╧",
-      "tags": ["生氣", "翻桌"]
+      "tags": ["angry", "table-flip"]
     },
     {
       "id": "angry_254",
       "text": "(╯‵□′)╯︵┴─┴",
-      "tags": ["生氣", "翻桌"]
+      "tags": ["angry", "table-flip"]
     },
     {
       "id": "angry_255",
       "text": "(◓Д◒)✄╰⋃╯",
-      "tags": ["生氣", "攻擊"]
+      "tags": ["angry", "attack"]
     },
     {
       "id": "angry_256",
       "text": "(ﾒﾟДﾟ)ﾒ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_257",
       "text": "(`へ´≠)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_258",
       "text": "(#ﾟ⊿`)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_259",
       "text": "(╬▼дﾟ)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_260",
       "text": "( ° ͜ʖ͡°)╭∩╮",
-      "tags": ["生氣", "搞怪"]
+      "tags": ["angry", "goofy"]
     },
     {
       "id": "angry_261",
       "text": "(⌐▀͡ ̯ʖ▀)",
-      "tags": ["生氣", "墨鏡"]
+      "tags": ["angry", "sunglasses"]
     },
     {
       "id": "angry_262",
       "text": "(#･∀･)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_263",
       "text": "٩(๑`^´๑)۶",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_264",
       "text": "٩(๑òωó๑)۶",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_265",
       "text": "(╬•᷅д•᷄╬)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_266",
       "text": "╚|░☀▄☀░|╝",
-      "tags": ["生氣", "搞怪"]
+      "tags": ["angry", "goofy"]
     },
     {
       "id": "angry_268",
       "text": "/@ﾟﾍﾟ@/",
-      "tags": ["動物", "困惑", "思考", "羊"]
+      "tags": ["animal", "confused", "sheep", "thinking"]
     },
     {
       "id": "angry_269",
       "text": "(ｏﾟﾛﾟ)=●)PC】･;’",
-      "tags": ["崩潰", "攻擊", "生氣"]
+      "tags": ["angry", "attack", "breakdown"]
     },
     {
       "id": "angry_270",
       "text": "☞๏็ັཪ๏็๎☞",
-      "tags": ["嚴肅", "指", "生氣"]
+      "tags": ["angry", "pointing", "serious"]
     },
     {
       "id": "angry_271",
       "text": "★o(･д´･+)９”",
-      "tags": ["不滿", "叫喊", "星星", "生氣"]
+      "tags": ["angry", "displeased", "shout", "star"]
     },
     {
       "id": "angry_272",
       "text": "(┛◉Д◉)┛彡┻━┻",
-      "tags": ["不滿", "叫喊", "激動", "生氣", "翻桌", "舉起雙手", "驚訝"]
+      "tags": ["angry", "displeased", "excited", "hands-up", "shout", "surprised", "table-flip"]
     }
   ]
 }

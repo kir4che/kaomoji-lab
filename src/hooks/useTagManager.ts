@@ -1,299 +1,194 @@
 'use client';
 
-import { useReducer, useMemo, useCallback, useEffect } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 
-import type { KaomojiItem } from '@/types/Kaomoji';
+import type { KaomojiItem, Tag } from '@/types/Kaomoji';
 import { useToast } from '@/contexts/ToastContext';
 import * as adminService from '@/services/adminService';
+import { useLanguage } from '@/contexts/LanguageContext';
 
-export interface TagUsage {
-  tag: string;
+export interface TagUsage extends Tag {
   count: number;
   kaomojis: Array<{ id: string; text: string; category: string }>;
 }
 
 interface UseTagManagerProps {
   allKaomoji: KaomojiItem[];
-  allTags: string[];
   onDataChange: () => void;
 }
 
-interface State {
-  searchTerm: string;
-  sortBy: 'name' | 'count';
-  sortOrder: 'asc' | 'desc';
-  usageThreshold: number;
-  showLowUsageOnly: boolean;
-  expandedTag: string | null;
-  selectedKaomojiIds: Set<string>;
-  editingTag: string | null;
-  newTagName: string;
-  isMergeMode: boolean;
-  tagsToMerge: Set<string>;
-  isMergeModalOpen: boolean;
-  finalMergeTag: string;
-  isDeleteTagsMode: boolean;
-  tagsToDeleteBulk: Set<string>;
-}
-
-const LOCAL_STORAGE_KEY = 'tagManagerFilterSortState';
-
-const initialState: State = {
-  searchTerm: '',
-  sortBy: 'count',
-  sortOrder: 'desc',
-  usageThreshold: 5,
-  showLowUsageOnly: false,
-  expandedTag: null,
-  selectedKaomojiIds: new Set(),
-  editingTag: null,
-  newTagName: '',
-  isMergeMode: false,
-  tagsToMerge: new Set(),
-  isMergeModalOpen: false,
-  finalMergeTag: '',
-  isDeleteTagsMode: false,
-  tagsToDeleteBulk: new Set(),
-};
-
-const getInitialState = (): State => {
-  try {
-    const storedState = localStorage.getItem(LOCAL_STORAGE_KEY);
-    if (storedState) {
-      const parsedState = JSON.parse(storedState);
-      return {
-        ...initialState,
-        searchTerm: parsedState.searchTerm ?? initialState.searchTerm,
-        sortBy: parsedState.sortBy ?? initialState.sortBy,
-        sortOrder: parsedState.sortOrder ?? initialState.sortOrder,
-        usageThreshold: parsedState.usageThreshold ?? initialState.usageThreshold,
-        showLowUsageOnly: parsedState.showLowUsageOnly ?? initialState.showLowUsageOnly,
-      };
-    }
-  } catch {}
-  return initialState;
-};
-
-type Action =
-  | { type: 'SET_STATE'; payload: Partial<State> }
-  | { type: 'TOGGLE_MERGE_MODE' }
-  | { type: 'TOGGLE_DELETE_MODE' }
-  | { type: 'START_EDIT'; payload: string }
-  | { type: 'CANCEL_EDIT' }
-  | { type: 'RESET_MODALS' };
-
-const reducer = (state: State, action: Action): State => {
-  switch (action.type) {
-    case 'SET_STATE':
-      return { ...state, ...action.payload };
-    case 'TOGGLE_MERGE_MODE':
-      return {
-        ...state,
-        isMergeMode: !state.isMergeMode,
-        isDeleteTagsMode: false,
-        tagsToMerge: new Set(),
-        tagsToDeleteBulk: new Set(),
-      };
-    case 'TOGGLE_DELETE_MODE':
-      return {
-        ...state,
-        isDeleteTagsMode: !state.isDeleteTagsMode,
-        isMergeMode: false,
-        tagsToMerge: new Set(),
-        tagsToDeleteBulk: new Set(),
-      };
-    case 'START_EDIT':
-      return { ...state, editingTag: action.payload, newTagName: action.payload };
-    case 'CANCEL_EDIT':
-      return { ...state, editingTag: null, newTagName: '' };
-    case 'RESET_MODALS':
-      return {
-        ...state,
-        editingTag: null,
-        newTagName: '',
-        isMergeModalOpen: false,
-        isMergeMode: false,
-        tagsToMerge: new Set(),
-      };
-    default:
-      return state;
-  }
-};
-
-export const useTagManager = ({ allKaomoji, allTags, onDataChange }: UseTagManagerProps) => {
+export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) => {
   const { showToast } = useToast();
-  const [state, dispatch] = useReducer(reducer, {}, getInitialState);
+  const { lang } = useLanguage();
+  const [tags, setTags] = useState<Tag[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [sortBy, setSortBy] = useState<'name' | 'count'>('count');
+  const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
+  const [editingTag, setEditingTag] = useState<Tag | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [usageThreshold, setUsageThreshold] = useState(5);
+  const [showLowUsageOnly, setShowLowUsageOnly] = useState(false);
+  const [expandedTag, setExpandedTag] = useState<string | null>(null);
+  const [selectedKaomojiIds, setSelectedKaomojiIds] = useState(new Set<string>());
 
-  const {
-    searchTerm,
-    sortBy,
-    sortOrder,
-    usageThreshold,
-    showLowUsageOnly,
-    expandedTag,
-    selectedKaomojiIds,
-    editingTag,
-    newTagName,
-    isMergeMode,
-    tagsToMerge,
-    finalMergeTag,
-    isDeleteTagsMode,
-    tagsToDeleteBulk,
-  } = state;
+  const [isMergeMode, setIsMergeMode] = useState(false);
+  const [tagsToMerge, setTagsToMerge] = useState(new Set<string>());
+  const [isMergeModalOpen, setIsMergeModalOpen] = useState(false);
+  const [finalMergeTag, setFinalMergeTag] = useState('');
+
+  const [isDeleteTagsMode, setIsDeleteTagsMode] = useState(false);
+  const [tagsToDeleteBulk, setTagsToDeleteBulk] = useState(new Set<string>());
+
+  const fetchData = useCallback(async () => {
+    try {
+      setIsLoading(true);
+      const fetchedTags = await adminService.getTags();
+      setTags(fetchedTags);
+    } catch {
+      showToast('無法載入標籤，請重試！', 'error');
+    } finally {
+      setIsLoading(false);
+    }
+  }, [showToast]);
 
   useEffect(() => {
-    const stateToSave = {
-      searchTerm: state.searchTerm,
-      sortBy: state.sortBy,
-      sortOrder: state.sortOrder,
-      usageThreshold: state.usageThreshold,
-      showLowUsageOnly: state.showLowUsageOnly,
-    };
-    localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(stateToSave));
-  }, [
-    state.searchTerm,
-    state.sortBy,
-    state.sortOrder,
-    state.usageThreshold,
-    state.showLowUsageOnly,
-  ]);
+    fetchData();
+  }, [fetchData]);
 
   const tagUsageMap = useMemo(() => {
-    const usageMap: Record<string, TagUsage> = {};
-    allTags.forEach((tag: string) => {
-      usageMap[tag] = { tag, count: 0, kaomojis: [] };
+    const usageMap = new Map<string, TagUsage>();
+    tags.forEach((tag) => {
+      usageMap.set(tag.id, { ...tag, count: 0, kaomojis: [] });
     });
-    allKaomoji.forEach((kaomoji: KaomojiItem) => {
-      kaomoji.tags.forEach((tag: string) => {
-        if (usageMap[tag]) {
-          usageMap[tag].count++;
-          usageMap[tag].kaomojis.push({
-            id: kaomoji.id,
-            text: kaomoji.text,
-            category: kaomoji.id.split('_')[0],
-          });
+    allKaomoji.forEach((item) => {
+      const categoryId = item.id.split('_')[0];
+      item.tags.forEach((tagId) => {
+        const usage = usageMap.get(tagId);
+        if (usage) {
+          usage.count++;
+          usage.kaomojis.push({ id: item.id, text: item.text, category: categoryId });
         }
       });
     });
     return usageMap;
-  }, [allKaomoji, allTags]);
+  }, [allKaomoji, tags]);
 
-  const filteredTags = useMemo(() => {
-    const allTagsWithUsage = Object.values(tagUsageMap);
-    const lowUsageTags = allTagsWithUsage.filter((t) => t.count < usageThreshold);
-    let tags = showLowUsageOnly ? lowUsageTags : allTagsWithUsage;
+  const allTagsWithUsage = useMemo(() => Array.from(tagUsageMap.values()), [tagUsageMap]);
 
-    if (searchTerm)
-      tags = tags.filter((t) => t.tag.toLowerCase().includes(searchTerm.toLowerCase()));
+  const processedTags: TagUsage[] = useMemo(() => {
+    let filtered = allTagsWithUsage;
 
-    return [...tags].sort((a, b) => {
+    if (showLowUsageOnly) filtered = filtered.filter((tag) => tag.count < usageThreshold);
+
+    if (searchTerm) {
+      const lowercasedSearchTerm = searchTerm.toLowerCase();
+      filtered = filtered.filter(
+        (tag) =>
+          tag.id.toLowerCase().includes(lowercasedSearchTerm) ||
+          tag.name.en.toLowerCase().includes(lowercasedSearchTerm) ||
+          tag.name['zh-tw'].toLowerCase().includes(lowercasedSearchTerm)
+      );
+    }
+
+    filtered.sort((a, b) => {
       const multiplier = sortOrder === 'asc' ? 1 : -1;
-      if (sortBy === 'name') return a.tag.localeCompare(b.tag) * multiplier;
+      if (sortBy === 'name') return a.name[lang].localeCompare(b.name[lang]) * multiplier;
       return (a.count - b.count) * multiplier;
     });
-  }, [tagUsageMap, showLowUsageOnly, searchTerm, sortBy, sortOrder, usageThreshold]);
+
+    return filtered;
+  }, [allTagsWithUsage, showLowUsageOnly, usageThreshold, searchTerm, sortBy, sortOrder, lang]);
 
   const lowUsageCount = useMemo(
-    () => Object.values(tagUsageMap).filter((t) => t.count < usageThreshold).length,
-    [tagUsageMap, usageThreshold]
+    () => allTagsWithUsage.filter((t) => t.count < usageThreshold).length,
+    [allTagsWithUsage, usageThreshold]
   );
 
-  const handleRenameTag = useCallback(async () => {
-    if (!editingTag) return;
-    const trimmedNewTag = newTagName.trim();
-    if (!trimmedNewTag || editingTag === trimmedNewTag) {
-      dispatch({ type: 'CANCEL_EDIT' });
-      return;
+  const openModal = (tag: Tag | null = null) => {
+    setEditingTag(tag);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setEditingTag(null);
+    setIsModalOpen(false);
+    setIsMergeModalOpen(false);
+  };
+
+  const toggleKaomojiSelection = (kaomojiId: string) => {
+    setSelectedKaomojiIds((prev) => {
+      const newSet = new Set(prev);
+      if (newSet.has(kaomojiId)) newSet.delete(kaomojiId);
+      else newSet.add(kaomojiId);
+      return newSet;
+    });
+  };
+
+  const handleTagClick = (tagId: string) => {
+    if (isDeleteTagsMode) {
+      setTagsToDeleteBulk((prev) => {
+        const newSet = new Set(prev);
+        if (newSet.has(tagId)) newSet.delete(tagId);
+        else newSet.add(tagId);
+        return newSet;
+      });
+    } else if (isMergeMode) {
+      setTagsToMerge((prev) => {
+        const newSet = new Set(prev);
+        if (newSet.has(tagId)) newSet.delete(tagId);
+        else newSet.add(tagId);
+        return newSet;
+      });
+    } else {
+      setExpandedTag((prev) => (prev === tagId ? null : tagId));
+      setSelectedKaomojiIds(new Set());
     }
-    if (allTags.includes(trimmedNewTag)) {
-      showToast('標籤名稱已存在！', 'error');
-      return;
-    }
-    if (!window.confirm(`確定要將標籤「${editingTag}」重命名為「${trimmedNewTag}」嗎？`)) return;
+  };
 
-    try {
-      await adminService.renameTag(editingTag, trimmedNewTag);
-      onDataChange();
-      dispatch({ type: 'RESET_MODALS' });
-      showToast('重命名成功！', 'success');
-    } catch (err) {
-      showToast(err instanceof Error ? err.message : '重命名時發生未知錯誤！', 'error');
-    }
-  }, [editingTag, newTagName, allTags, onDataChange, showToast]);
+  const toggleMergeMode = () => {
+    setIsMergeMode(!isMergeMode);
+    setIsDeleteTagsMode(false);
+    setTagsToMerge(new Set());
+    setTagsToDeleteBulk(new Set());
+  };
 
-  const handleDeleteTag = useCallback(
-    async (tag: string) => {
-      const usage = tagUsageMap[tag];
-      let confirmMessage = '';
-      let performBulkUpdate = false;
+  const toggleDeleteMode = () => {
+    setIsDeleteTagsMode(!isDeleteTagsMode);
+    setIsMergeMode(false);
+    setTagsToMerge(new Set());
+    setTagsToDeleteBulk(new Set());
+  };
 
-      if (usage && usage.count > 0) {
-        confirmMessage = `標籤「${tag}」目前有 ${usage.count} 個顏文字使用中。確定要刪除此標籤，並將其從所有相關顏文字中移除嗎？`;
-        performBulkUpdate = true;
-      } else confirmMessage = `確定要刪除未使用的標籤「${tag}」嗎？`;
-
-      if (!window.confirm(confirmMessage)) return;
-
-      try {
-        if (performBulkUpdate) {
-          const updatesByCategory = new Map<string, KaomojiItem[]>();
-          allKaomoji.forEach((kaomoji: KaomojiItem) => {
-            if (kaomoji.tags.includes(tag)) {
-              const newTags = kaomoji.tags.filter((t: string) => t !== tag);
-              const categoryId = kaomoji.id.split('_')[0];
-
-              if (!updatesByCategory.has(categoryId)) {
-                updatesByCategory.set(
-                  categoryId,
-                  JSON.parse(
-                    JSON.stringify(
-                      allKaomoji.filter((item: KaomojiItem) => item.id.startsWith(`${categoryId}_`))
-                    )
-                  )
-                );
-              }
-              const categoryItems = updatesByCategory.get(categoryId)!;
-              const kaomojiIndex = categoryItems.findIndex(
-                (item: KaomojiItem) => item.id === kaomoji.id
-              );
-              if (kaomojiIndex !== -1) {
-                categoryItems[kaomojiIndex] = { ...kaomoji, tags: newTags };
-              }
-            }
-          });
-          await adminService.bulkUpdateCategoriesForTags(updatesByCategory);
-        }
-
-        await adminService.deleteTag(tag);
-        onDataChange();
-        showToast('刪除成功！', 'success');
-      } catch (err) {
-        showToast(err instanceof Error ? err.message : '刪除時發生未知錯誤！', 'error');
-      }
-    },
-    [tagUsageMap, allKaomoji, onDataChange, showToast]
-  );
-
-  const handleMergeTags = useCallback(async () => {
+  const handleMergeTags = async () => {
     const trimmedFinalTag = finalMergeTag.trim();
     if (!trimmedFinalTag) {
       showToast('請選擇或輸入一個最終的標籤名稱', 'error');
       return;
     }
-    if (!window.confirm(`確定要將 ${tagsToMerge.size} 個標籤合併為「${trimmedFinalTag}」嗎？`))
+    if (tagsToMerge.size < 2) {
+      showToast('請至少選擇兩個標籤進行合併！', 'info');
+      return;
+    }
+    if (
+      !window.confirm(
+        `確定要將 ${tagsToMerge.size} 個標籤合併為「${trimmedFinalTag}」嗎？此操作無法復原。`
+      )
+    )
       return;
 
     try {
       await adminService.mergeTags(Array.from(tagsToMerge), trimmedFinalTag);
-      onDataChange();
-      dispatch({ type: 'RESET_MODALS' });
       showToast('標籤合併成功！', 'success');
+      fetchData();
+      onDataChange();
+      closeModal();
     } catch (err) {
       showToast(err instanceof Error ? err.message : '合併標籤時發生未知錯誤！', 'error');
     }
-  }, [finalMergeTag, tagsToMerge, onDataChange, showToast]);
+  };
 
-  const handleBulkDeleteTags = useCallback(async () => {
+  const handleBulkDeleteTags = async () => {
     if (tagsToDeleteBulk.size === 0) return;
     const tagsArray = Array.from(tagsToDeleteBulk);
     if (
@@ -304,39 +199,15 @@ export const useTagManager = ({ allKaomoji, allTags, onDataChange }: UseTagManag
       return;
 
     try {
-      const updatesByCategory = new Map<string, KaomojiItem[]>();
-      allKaomoji.forEach((kaomoji: KaomojiItem) => {
-        const newTags = kaomoji.tags.filter((tag: string) => !tagsToDeleteBulk.has(tag));
-        if (newTags.length !== kaomoji.tags.length) {
-          const categoryId = kaomoji.id.split('_')[0];
-          if (!updatesByCategory.has(categoryId)) {
-            updatesByCategory.set(
-              categoryId,
-              JSON.parse(
-                JSON.stringify(
-                  allKaomoji.filter((item: KaomojiItem) => item.id.startsWith(`${categoryId}_`))
-                )
-              )
-            );
-          }
-          const categoryItems = updatesByCategory.get(categoryId)!;
-          const kaomojiIndex = categoryItems.findIndex(
-            (item: KaomojiItem) => item.id === kaomoji.id
-          );
-          if (kaomojiIndex !== -1) {
-            categoryItems[kaomojiIndex] = { ...kaomoji, tags: newTags };
-          }
-        }
-      });
-
-      await adminService.bulkUpdateCategoriesForTags(updatesByCategory);
+      await adminService.bulkRemoveTags(tagsArray);
       showToast(`已成功從相關顏文字中移除 ${tagsArray.length} 個標籤！`, 'success');
+      fetchData();
       onDataChange();
-      dispatch({ type: 'TOGGLE_DELETE_MODE' });
+      toggleDeleteMode();
     } catch (err) {
       showToast(err instanceof Error ? err.message : '刪除時發生未知錯誤！', 'error');
     }
-  }, [tagsToDeleteBulk, allKaomoji, onDataChange, showToast]);
+  };
 
   const handleRemoveTagFromSelected = useCallback(
     async (tagToRemove: string) => {
@@ -349,38 +220,39 @@ export const useTagManager = ({ allKaomoji, allTags, onDataChange }: UseTagManag
         return;
 
       try {
-        const updatesByCategory = new Map<string, KaomojiItem[]>();
-        const kaomojisToUpdate = allKaomoji.filter((k: KaomojiItem) =>
-          selectedKaomojiIds.has(k.id)
-        );
+        const updatesByCat = new Map<string, KaomojiItem[]>();
 
-        kaomojisToUpdate.forEach((k: KaomojiItem) => {
-          const categoryId = k.id.split('_')[0];
-          if (!updatesByCategory.has(categoryId)) {
-            updatesByCategory.set(
+        selectedKaomojiIds.forEach((kaomojiId) => {
+          const kaomoji = allKaomoji.find((k) => k.id === kaomojiId);
+          if (!kaomoji) return;
+
+          const categoryId = kaomoji.id.split('_')[0];
+          if (!updatesByCat.has(categoryId)) {
+            updatesByCat.set(
               categoryId,
-              JSON.parse(
-                JSON.stringify(
-                  allKaomoji.filter((item: KaomojiItem) => item.id.startsWith(`${categoryId}_`))
-                )
-              )
+              allKaomoji.filter((k) => k.id.startsWith(`${categoryId}_`))
             );
           }
         });
 
-        updatesByCategory.forEach((items, categoryId) => {
-          const updatedItems = items.map((item: KaomojiItem) =>
-            selectedKaomojiIds.has(item.id)
-              ? { ...item, tags: item.tags.filter((t) => t !== tagToRemove) }
-              : item
-          );
-          updatesByCategory.set(categoryId, updatedItems);
+        updatesByCat.forEach((items, categoryId) => {
+          const updatedItems = items.map((item) => {
+            if (selectedKaomojiIds.has(item.id))
+              return { ...item, tags: item.tags.filter((t) => t !== tagToRemove) };
+            return item;
+          });
+          updatesByCat.set(categoryId, updatedItems);
         });
 
-        await adminService.bulkUpdateCategoriesForTags(updatesByCategory);
+        const updatePromises = Array.from(updatesByCat.entries()).map(([catId, items]) =>
+          adminService.bulkUpdateCategoryItems(catId, items)
+        );
+
+        await Promise.all(updatePromises);
+
         showToast('標籤移除成功！', 'success');
         onDataChange();
-        dispatch({ payload: { selectedKaomojiIds: new Set() }, type: 'SET_STATE' });
+        setSelectedKaomojiIds(new Set());
       } catch (err) {
         showToast(err instanceof Error ? err.message : '更新失敗！', 'error');
       }
@@ -388,83 +260,76 @@ export const useTagManager = ({ allKaomoji, allTags, onDataChange }: UseTagManag
     [selectedKaomojiIds, allKaomoji, onDataChange, showToast]
   );
 
-  const handleTagClick = useCallback(
-    (tag: string) => {
-      if (isDeleteTagsMode) {
-        const newSet = new Set(tagsToDeleteBulk);
-        if (newSet.has(tag)) {
-          newSet.delete(tag);
-        } else {
-          newSet.add(tag);
-        }
-        dispatch({ type: 'SET_STATE', payload: { tagsToDeleteBulk: newSet } });
-      } else if (isMergeMode) {
-        const newSet = new Set(tagsToMerge);
-        if (newSet.has(tag)) {
-          newSet.delete(tag);
-        } else {
-          newSet.add(tag);
-        }
-        dispatch({ type: 'SET_STATE', payload: { tagsToMerge: newSet } });
+  const handleSave = async (tagData: Tag) => {
+    try {
+      if (editingTag) {
+        await adminService.updateTag(tagData);
+        showToast('標籤更新成功！', 'success');
       } else {
-        dispatch({
-          type: 'SET_STATE',
-          payload: { expandedTag: expandedTag === tag ? null : tag, selectedKaomojiIds: new Set() },
-        });
+        await adminService.createTag(tagData);
+        showToast('標籤新增成功！', 'success');
       }
-    },
-    [isDeleteTagsMode, isMergeMode, tagsToDeleteBulk, tagsToMerge, expandedTag]
-  );
-
-  const setEditingTag = useCallback((tag: string | null) => {
-    if (tag) {
-      dispatch({ type: 'START_EDIT', payload: tag });
-    } else {
-      dispatch({ type: 'CANCEL_EDIT' });
+      fetchData();
+      onDataChange();
+      closeModal();
+    } catch (err) {
+      const message = err instanceof Error ? err.message : '操作失敗，請重試！';
+      showToast(message, 'error');
     }
-  }, []);
+  };
+
+  const handleDelete = async (tagId: string) => {
+    if (!window.confirm(`確定要刪除標籤「${tagId}」嗎？此操作無法復原。`)) return;
+
+    try {
+      await adminService.deleteTag(tagId);
+      showToast('標籤刪除成功！', 'success');
+      fetchData();
+      onDataChange();
+    } catch (err) {
+      showToast(err instanceof Error ? err.message : '刪除失敗，請重試！', 'error');
+    }
+  };
 
   return {
-    ...state,
-    setSearchTerm: (payload: string) =>
-      dispatch({ type: 'SET_STATE', payload: { searchTerm: payload } }),
-    setSortBy: (payload: 'name' | 'count') =>
-      dispatch({ type: 'SET_STATE', payload: { sortBy: payload } }),
-    setSortOrder: (payload: 'asc' | 'desc') =>
-      dispatch({ type: 'SET_STATE', payload: { sortOrder: payload } }),
-    setUsageThreshold: (payload: number) =>
-      dispatch({ type: 'SET_STATE', payload: { usageThreshold: payload } }),
-    setShowLowUsageOnly: (payload: boolean) =>
-      dispatch({ type: 'SET_STATE', payload: { showLowUsageOnly: payload } }),
-    setSelectedKaomojiIds: (payload: Set<string>) =>
-      dispatch({ type: 'SET_STATE', payload: { selectedKaomojiIds: payload } }),
-    setNewTagName: (payload: string) =>
-      dispatch({ type: 'SET_STATE', payload: { newTagName: payload } }),
-    setIsMergeModalOpen: (payload: boolean) =>
-      dispatch({ type: 'SET_STATE', payload: { isMergeModalOpen: payload } }),
-    setFinalMergeTag: (payload: string) =>
-      dispatch({ type: 'SET_STATE', payload: { finalMergeTag: payload } }),
-    setTagsToDeleteBulk: (payload: Set<string>) =>
-      dispatch({ type: 'SET_STATE', payload: { tagsToDeleteBulk: payload } }),
-    setEditingTag,
-    filteredTags,
+    isLoading,
+    searchTerm,
+    setSearchTerm,
+    sortBy,
+    setSortBy,
+    sortOrder,
+    setSortOrder,
+    processedTags,
+    editingTag,
+    isModalOpen,
+    openModal,
+    closeModal,
+    handleSave,
+    handleDelete,
+    usageThreshold,
+    setUsageThreshold,
+    showLowUsageOnly,
+    setShowLowUsageOnly,
     lowUsageCount,
-    handleRenameTag,
-    handleDeleteTag,
-    handleMergeTags,
-    handleBulkDeleteTags,
-    handleRemoveTagFromSelected,
-    toggleMergeMode: () => dispatch({ type: 'TOGGLE_MERGE_MODE' }),
-    toggleDeleteMode: () => dispatch({ type: 'TOGGLE_DELETE_MODE' }),
+    expandedTag,
     handleTagClick,
-    toggleKaomojiSelection: (kaomojiId: string) => {
-      const newSet = new Set(selectedKaomojiIds);
-      if (newSet.has(kaomojiId)) {
-        newSet.delete(kaomojiId);
-      } else {
-        newSet.add(kaomojiId);
-      }
-      dispatch({ type: 'SET_STATE', payload: { selectedKaomojiIds: newSet } });
-    },
+    selectedKaomojiIds,
+    setSelectedKaomojiIds,
+    toggleKaomojiSelection,
+    handleRemoveTagFromSelected,
+    isMergeMode,
+    toggleMergeMode,
+    tagsToMerge,
+    isMergeModalOpen,
+    setIsMergeModalOpen,
+    finalMergeTag,
+    setFinalMergeTag,
+    handleMergeTags,
+    isDeleteTagsMode,
+    toggleDeleteMode,
+    tagsToDeleteBulk,
+    setTagsToDeleteBulk,
+    handleBulkDeleteTags,
+    tagUsageMap,
   };
 };

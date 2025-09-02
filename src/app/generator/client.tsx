@@ -2,6 +2,8 @@
 
 import { useState, useId } from 'react';
 
+import { useLanguage } from '@/contexts/LanguageContext';
+import { t } from '@/lib/i18n';
 import { useToast } from '@/contexts/ToastContext';
 import { useCopyToClipboard } from '@/hooks/useCopyToClipboard';
 import KaomojiBtn from '@/components/atoms/KaomojiBtn';
@@ -22,6 +24,7 @@ const GeneratorForm: React.FC<GeneratorFormProps> = ({
   isLoading,
 }) => {
   const inputId = useId();
+  const { lang } = useLanguage();
 
   return (
     <form
@@ -32,16 +35,16 @@ const GeneratorForm: React.FC<GeneratorFormProps> = ({
       }}
     >
       <label htmlFor={inputId} className="sr-only">
-        顏文字靈感輸入
+        {t('generatorPromptLabel', lang)}
       </label>
       <Input
         value={prompt}
         maxLength={100}
         onChange={(e) => onChange(e.target.value)}
-        placeholder="例如：閃亮飛舞的貓咪"
+        placeholder={t('generatorPromptPlaceholder', lang)}
         className="rounded-lg py-3.5 text-lg"
         focusEffect
-        helperText="最多可輸入 100 字，且每分鐘只能生成 1 次，暫請見諒。"
+        helperText={t('generatorHelperText', lang)}
       />
       <button
         type="submit"
@@ -53,26 +56,18 @@ const GeneratorForm: React.FC<GeneratorFormProps> = ({
         {isLoading ? (
           <>
             <SpinnerIcon className="mr-2 size-5 animate-spin" />
-            生成中
+            {t('generating', lang)}
           </>
         ) : (
-          '立即生成'
+          t('generate', lang)
         )}
       </button>
     </form>
   );
 };
 
-const inspirationPrompts = [
-  '開心地跳舞',
-  '偷偷觀察的小貓咪',
-  '閃閃發亮的眼睛',
-  '疲憊地趴在桌上',
-  '送出一個飛吻',
-  '驚訝到下巴掉下來',
-];
-
 const GeneratorPage: React.FC = () => {
+  const { lang } = useLanguage();
   const { showToast } = useToast();
   const { copiedId, copyToClipboard } = useCopyToClipboard();
 
@@ -80,10 +75,19 @@ const GeneratorPage: React.FC = () => {
   const [kaomojis, setKaomojis] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
+  const inspirationPrompts = [
+    t('inspirationDancing', lang),
+    t('inspirationPeekingCat', lang),
+    t('inspirationSparklingEyes', lang),
+    t('inspirationTired', lang),
+    t('inspirationFlyingKiss', lang),
+    t('inspirationSurprised', lang),
+  ];
+
   const handleGenerate = async (currPrompt?: string) => {
     const finalPrompt = (currPrompt ?? prompt).trim();
     if (!finalPrompt) {
-      showToast('請輸入你的想法或選擇一個靈感！', 'error');
+      showToast(t('generatorPromptError', lang), 'error');
       return;
     }
 
@@ -100,8 +104,8 @@ const GeneratorPage: React.FC = () => {
       if (!res.ok) {
         const errData = await res.json();
         if (errData.status === 429) {
-          throw new Error('目前 1 分鐘內只能請求 1 次，請稍後再試。');
-        } else throw new Error('生成失敗，請稍後再試。');
+          throw new Error(t('generatorRateLimitError', lang));
+        } else throw new Error(t('generatorGenericError', lang));
       }
 
       const parsedKaomojis = await res.json();
@@ -110,11 +114,11 @@ const GeneratorPage: React.FC = () => {
         !Array.isArray(parsedKaomojis) ||
         !parsedKaomojis.every((item) => typeof item === 'string')
       )
-        throw new Error('從伺服器收到的資料格式不正確！');
+        throw new Error(t('generatorDataError', lang));
 
       setKaomojis(parsedKaomojis);
     } catch (err) {
-      const errMsg = err instanceof Error ? err.message : '生成失敗，請稍後再試。';
+      const errMsg = err instanceof Error ? err.message : t('generatorGenericError', lang);
       showToast(errMsg, 'error');
     } finally {
       setIsLoading(false);
@@ -129,10 +133,8 @@ const GeneratorPage: React.FC = () => {
   return (
     <div className="flex-1 flex flex-col px-4">
       <section className="mb-4 md:mb-6 text-center space-y-4">
-        <h1>
-          <span className="text-primary-500">顏文字</span>產生器
-        </h1>
-        <p className="text-sm text-gray-500">輸入你的靈感，AI 將為你創造 3 個獨一無二的顏文字！</p>
+        <h1>{t('generatorTitle', lang)}</h1>
+        <p className="text-sm text-gray-500">{t('generatorSubtitle', lang)}</p>
       </section>
       <GeneratorForm
         prompt={prompt}
@@ -142,7 +144,7 @@ const GeneratorPage: React.FC = () => {
       />
       {kaomojis.length > 0 && (
         <section className="pt-10 space-y-6">
-          <h3 className="text-center text-2xl font-semibold">✨ 屬於你的顏文字 ✨</h3>
+          <h3 className="text-center text-2xl font-semibold">{t('yourKaomojis', lang)}</h3>
           <div className="flex flex-wrap items-center justify-center gap-4">
             {kaomojis.map((kaomoji, idx) => {
               const id = String(idx);
@@ -161,7 +163,7 @@ const GeneratorPage: React.FC = () => {
       )}
       <section className="mt-4 py-4 md:pt-6 md:pb-8">
         <h3 className="mb-4 text-center text-lg font-medium text-gray-800">
-          沒有靈感？試試看這些！
+          {t('noInspiration', lang)}
         </h3>
         <div className="flex-center flex-wrap">
           {inspirationPrompts.map((item) => (

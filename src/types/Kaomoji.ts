@@ -2,6 +2,11 @@ import type { Language } from '@/types/Language';
 
 export type CategoryName = Record<Language, string>;
 
+export interface Tag {
+  id: string;
+  name: Record<Language, string>;
+}
+
 export interface KaomojiItem {
   id: string;
   text: string;
@@ -29,5 +34,5 @@ export interface IndexData {
   categories: CategorySummary[];
   totalItems?: number;
   lastUpdated?: string;
-  tags?: string[];
+  tags: Tag[];
 }

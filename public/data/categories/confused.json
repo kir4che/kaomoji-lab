@@ -10,12 +10,12 @@
     {
       "id": "confused_001",
       "text": "(՞• •՞)",
-      "tags": ["困惑", "疑問"]
+      "tags": ["confused", "question"]
     },
     {
       "id": "confused_003",
       "text": "՞• •՞",
-      "tags": ["困惑", "疑問"]
+      "tags": ["confused", "question"]
     },
     {
       "id": "confused_004",
@@ -25,257 +25,257 @@
     {
       "id": "confused_005",
       "text": "( •︠ˍ•︡ )",
-      "tags": ["嚴肅", "思考"]
+      "tags": ["serious", "thinking"]
     },
     {
       "id": "confused_006",
       "text": "( ´◔ ‸◔`)",
-      "tags": ["思考", "困惑"]
+      "tags": ["confused", "thinking"]
     },
     {
       "id": "confused_007",
       "text": "૮ ・・აིྀ",
-      "tags": ["動物", "困惑", "無言"]
+      "tags": ["animal", "confused", "speechless"]
     },
     {
       "id": "confused_008",
       "text": "• ༝ •",
-      "tags": ["可愛", "困惑"]
+      "tags": ["confused", "cute"]
     },
     {
       "id": "confused_009",
       "text": "୧( ˵ ° ~ ° ˵ )",
-      "tags": ["困惑", "思考"]
+      "tags": ["confused", "thinking"]
     },
     {
       "id": "confused_010",
       "text": "( ˶'-'˶)",
-      "tags": ["思考"]
+      "tags": ["thinking"]
     },
     {
       "id": "confused_011",
       "text": "( •ิ_• ิ)",
-      "tags": ["嚴肅"]
+      "tags": ["serious"]
     },
     {
       "id": "confused_012",
       "text": "•︠ˍ•︡",
-      "tags": ["嚴肅", "思考"]
+      "tags": ["serious", "thinking"]
     },
     {
       "id": "confused_013",
       "text": "(?・・)σ",
-      "tags": ["指", "疑問"]
+      "tags": ["pointing", "question"]
     },
     {
       "id": "confused_014",
       "text": "(☝ ՞՞)☝",
-      "tags": ["疑問", "驚訝"]
+      "tags": ["question", "surprised"]
     },
     {
       "id": "confused_015",
       "text": "ᕙ (° ~ ° ~)",
-      "tags": ["困惑", "肌肉"]
+      "tags": ["confused", "muscle"]
     },
     {
       "id": "confused_016",
       "text": "( ་ ⍸ ་ )",
-      "tags": ["困惑", "無言"]
+      "tags": ["confused", "speechless"]
     },
     {
       "id": "confused_017",
       "text": "‹(•¿•)›",
-      "tags": ["困惑", "疑問"]
+      "tags": ["confused", "question"]
     },
     {
       "id": "confused_018",
       "text": "⎰≀.⺤_⺤≀⎰",
-      "tags": ["困惑", "嚴肅"]
+      "tags": ["confused", "serious"]
     },
     {
       "id": "confused_019",
       "text": "₍₍ ᕕ(´◓ω◓)ᕗ⁾⁾",
-      "tags": ["緊張", "跑"]
+      "tags": ["nervous", "running"]
     },
     {
       "id": "confused_020",
       "text": "( “･ω･ﾞ)",
-      "tags": ["思考", "疑問"]
+      "tags": ["question", "thinking"]
     },
     {
       "id": "confused_021",
       "text": "｢(ﾟﾍﾟ)",
-      "tags": ["困惑", "思考"]
+      "tags": ["confused", "thinking"]
     },
     {
       "id": "confused_022",
       "text": "〈(゜。゜)",
-      "tags": ["困惑"]
+      "tags": ["confused"]
     },
     {
       "id": "confused_023",
       "text": "「(°ヘ°)",
-      "tags": ["困惑", "生氣", "疑問"]
+      "tags": ["angry", "confused", "question"]
     },
     {
       "id": "confused_024",
       "text": "｢(ﾟ<ﾟ)ﾞ??",
-      "tags": ["困惑", "疑問"]
+      "tags": ["confused", "question"]
     },
     {
       "id": "confused_025",
       "text": "?(ﾉ)・´ω・(ヾ)",
-      "tags": ["困惑", "疑問"]
+      "tags": ["confused", "question"]
     },
     {
       "id": "confused_027",
       "text": "(‘◇’)?",
-      "tags": ["疑問"]
+      "tags": ["question"]
     },
     {
       "id": "confused_028",
       "text": "(゜-゜)",
-      "tags": ["思考", "困惑"]
+      "tags": ["confused", "thinking"]
     },
     {
       "id": "confused_029",
       "text": "( ・◇・)？",
-      "tags": ["疑問"]
+      "tags": ["question"]
     },
     {
       "id": "confused_030",
       "text": "【・_・?】",
-      "tags": ["疑問"]
+      "tags": ["question"]
     },
     {
       "id": "confused_031",
       "text": "(ﾒ・ん・)？",
-      "tags": ["生氣", "疑問"]
+      "tags": ["angry", "question"]
     },
     {
       "id": "confused_032",
       "text": "(・・？)",
-      "tags": ["疑問"]
+      "tags": ["question"]
     },
     {
       "id": "confused_033",
       "text": "(o゜ー゜o)??",
-      "tags": ["困惑", "思考"]
+      "tags": ["confused", "thinking"]
     },
     {
       "id": "confused_034",
       "text": "（・∩・）？",
-      "tags": ["疑問", "思考"]
+      "tags": ["question", "thinking"]
     },
     {
       "id": "confused_035",
       "text": "??(･x･｡)???",
-      "tags": ["X嘴", "困惑", "疑問"]
+      "tags": ["confused", "question", "x-mouth"]
     },
     {
       "id": "confused_036",
       "text": "(｡・ω・｡)?",
-      "tags": ["疑問", "可愛"]
+      "tags": ["cute", "question"]
     },
     {
       "id": "confused_037",
       "text": "（*・∧・*）?",
-      "tags": ["思考", "生氣", "疑問"]
+      "tags": ["angry", "question", "thinking"]
     },
     {
       "id": "confused_038",
       "text": "（●´・×・｀●）？",
-      "tags": ["難過", "疑問"]
+      "tags": ["question", "sad"]
     },
     {
       "id": "confused_039",
       "text": "?(ο´･д･)??",
-      "tags": ["困惑", "無奈", "疑問"]
+      "tags": ["confused", "helpless", "question"]
     },
     {
       "id": "confused_040",
       "text": "(。「´-ω・)ﾝ？",
-      "tags": ["偷偷", "思考", "疑問"]
+      "tags": ["peeking", "question", "thinking"]
     },
     {
       "id": "confused_041",
       "text": "(*「･ω･)ﾝ？",
-      "tags": ["疑問", "思考", "可愛"]
+      "tags": ["cute", "question", "thinking"]
     },
     {
       "id": "confused_042",
       "text": "( •᷄ὤ•᷅)？",
-      "tags": ["困惑", "疑問"]
+      "tags": ["confused", "question"]
     },
     {
       "id": "confused_043",
       "text": "୧( ˵ ° ~ ° ˵ )୨",
-      "tags": ["困惑", "思考"]
+      "tags": ["confused", "thinking"]
     },
     {
       "id": "confused_045",
       "text": "ゞ( ͡°⍛ ͡°)ゞ",
-      "tags": ["困惑", "敬禮"]
+      "tags": ["confused", "salute"]
     },
     {
       "id": "confused_046",
       "text": "( ՞ ܸ. .ܸ՞ )",
-      "tags": ["呆滯", "困惑", "無言", "疑問"]
+      "tags": ["confused", "dazed", "question", "speechless"]
     },
     {
       "id": "confused_048",
       "text": "꒰ ՞ •͈ 𐃬 ꔷ͈ ՞꒱",
-      "tags": ["困惑", "疑問"]
+      "tags": ["confused", "question"]
     },
     {
       "id": "confused_049",
       "text": "ᜊʕ ྀི ܸ. . .ܸ ྀིʔᜊ",
-      "tags": ["熊", "動物", "困惑", "呆滯"]
+      "tags": ["animal", "bear", "confused", "dazed"]
     },
     {
       "id": "confused_050",
       "text": "( ·•︡•︠)ʕ𐭩",
-      "tags": ["嚴肅", "困惑", "熊", "動物"]
+      "tags": ["animal", "bear", "confused", "serious"]
     },
     {
       "id": "confused_051",
       "text": "(̨̡₈՞ . .՞₉)̧̢",
-      "tags": ["困惑", "暈眩", "羊"]
+      "tags": ["confused", "dizzy", "sheep"]
     },
     {
       "id": "confused_052",
       "text": "(̨̡‎՞ ܸ. .ܸ՞)̧̢",
-      "tags": ["困惑", "暈眩"]
+      "tags": ["confused", "dizzy"]
     },
     {
       "id": "confused_053",
       "text": "(՞•-•՞)",
-      "tags": ["困惑", "疑問"]
+      "tags": ["confused", "question"]
     },
     {
       "id": "confused_054",
       "text": "ଘ꒰ྀི .ܸ ̫ິ .ܸ ྀི꒱",
-      "tags": ["困惑", "思考"]
+      "tags": ["confused", "thinking"]
     },
     {
       "id": "confused_055",
       "text": "( •́ὤ•̀)",
-      "tags": ["困惑", "疑問"]
+      "tags": ["confused", "question"]
     },
     {
       "id": "confused_056",
       "text": "₍˄•͈⚇•͈˄₎",
-      "tags": ["動物", "困惑", "暈眩"]
+      "tags": ["animal", "confused", "dizzy"]
     },
     {
       "id": "confused_057",
       "text": "( ⌓̈ ).｡oO",
-      "tags": ["困惑", "思考"]
+      "tags": ["confused", "thinking"]
     },
     {
       "id": "confused_060",
       "text": "૮( ᵒ̌▱๋ᵒ̌ )ა",
-      "tags": ["害怕", "動物"]
+      "tags": ["animal", "scared"]
     },
     {
       "id": "confused_061",
@@ -285,112 +285,112 @@
     {
       "id": "confused_062",
       "text": "눈_눈",
-      "tags": ["無言", "生氣"]
+      "tags": ["angry", "speechless"]
     },
     {
       "id": "confused_063",
       "text": "ಠ_ಠ",
-      "tags": ["無言", "生氣"]
+      "tags": ["angry", "speechless"]
     },
     {
       "id": "confused_064",
       "text": "(●´⌓`●)",
-      "tags": ["可愛", "呆滯", "無言"]
+      "tags": ["cute", "dazed", "speechless"]
     },
     {
       "id": "confused_065",
       "text": "(*´_ゝ｀)",
-      "tags": ["自信"]
+      "tags": ["confident"]
     },
     {
       "id": "confused_066",
       "text": "( ˊ̱˂˃ˋ̱ )",
-      "tags": ["自信"]
+      "tags": ["confident"]
     },
     {
       "id": "confused_067",
       "text": "(*´罒`*)",
-      "tags": ["自信"]
+      "tags": ["confident"]
     },
     {
       "id": "confused_068",
       "text": "(o´罒`o)",
-      "tags": ["自信"]
+      "tags": ["confident"]
     },
     {
       "id": "confused_069",
       "text": "(´−｀) ﾝｰ",
-      "tags": ["思考"]
+      "tags": ["thinking"]
     },
     {
       "id": "confused_070",
       "text": "(。ヘ°)",
-      "tags": ["思考", "生氣"]
+      "tags": ["angry", "thinking"]
     },
     {
       "id": "confused_071",
       "text": "( 〃．．)",
-      "tags": ["思考"]
+      "tags": ["thinking"]
     },
     {
       "id": "confused_072",
       "text": "(￢з￢)",
-      "tags": ["思考", "生氣"]
+      "tags": ["angry", "thinking"]
     },
     {
       "id": "confused_073",
       "text": "(.•̵̑⌓•̵̑ )",
-      "tags": ["思考", "呆滯"]
+      "tags": ["dazed", "thinking"]
     },
     {
       "id": "confused_074",
       "text": "(ー_ーゞ",
-      "tags": ["思考", "無奈", "敬禮"]
+      "tags": ["helpless", "salute", "thinking"]
     },
     {
       "id": "confused_075",
       "text": "(　`_ゝ´)",
-      "tags": ["思考"]
+      "tags": ["thinking"]
     },
     {
       "id": "confused_076",
       "text": "♒((⇀‸↼))♒",
-      "tags": ["思考"]
+      "tags": ["thinking"]
     },
     {
       "id": "confused_077",
       "text": "٩◔̯◔۶",
-      "tags": ["思考", "加油"]
+      "tags": ["cheer-up", "thinking"]
     },
     {
       "id": "confused_078",
       "text": "( ˇ÷ˇ　 )",
-      "tags": ["思考"]
+      "tags": ["thinking"]
     },
     {
       "id": "confused_079",
       "text": "(¯―¯ ٥)",
-      "tags": ["思考", "尷尬"]
+      "tags": ["embarrassed", "thinking"]
     },
     {
       "id": "confused_080",
       "text": "( ﾟｰﾟ)",
-      "tags": ["思考"]
+      "tags": ["thinking"]
     },
     {
       "id": "confused_081",
       "text": "(´･Ω･｀)",
-      "tags": ["思考", "困惑"]
+      "tags": ["confused", "thinking"]
     },
     {
       "id": "confused_082",
       "text": "(´._.`).｡oஇ()",
-      "tags": ["思考", "無言", "難過"]
+      "tags": ["sad", "speechless", "thinking"]
     },
     {
       "id": "confused_083",
       "text": "(ᇂ_Jᇂ )",
-      "tags": ["思考", "無言", "生氣"]
+      "tags": ["angry", "speechless", "thinking"]
     },
     {
       "id": "confused_086",
@@ -400,67 +400,67 @@
     {
       "id": "confused_087",
       "text": "(●･̆⍛･̆●)",
-      "tags": ["思考", "困惑"]
+      "tags": ["confused", "thinking"]
     },
     {
       "id": "confused_088",
       "text": "（´-`）. ｡oO（）",
-      "tags": ["思考"]
+      "tags": ["thinking"]
     },
     {
       "id": "confused_089",
       "text": "（◎ー◎；）",
-      "tags": ["思考", "驚訝", "緊張"]
+      "tags": ["nervous", "surprised", "thinking"]
     },
     {
       "id": "confused_090",
       "text": "(mm*)",
-      "tags": ["思考"]
+      "tags": ["thinking"]
     },
     {
       "id": "confused_091",
       "text": "Σ(-᷅_-᷄ ๑)",
-      "tags": ["生氣", "驚訝"]
+      "tags": ["angry", "surprised"]
     },
     {
       "id": "confused_092",
       "text": "(ꆤ⍸ꆤ)",
-      "tags": ["思考", "幸福"]
+      "tags": ["happiness", "thinking"]
     },
     {
       "id": "confused_093",
       "text": "(◔_◔)🍔🍕",
-      "tags": ["吃", "思考"]
+      "tags": ["eating", "thinking"]
     },
     {
       "id": "confused_094",
       "text": "໒( ⊡ _ ⊡ )७",
-      "tags": ["思考"]
+      "tags": ["thinking"]
     },
     {
       "id": "confused_095",
       "text": "（ ；¬＿¬)",
-      "tags": ["思考", "無奈"]
+      "tags": ["helpless", "thinking"]
     },
     {
       "id": "confused_096",
       "text": "♪～(￣、￣ )",
-      "tags": ["思考", "音樂"]
+      "tags": ["music", "thinking"]
     },
     {
       "id": "confused_097",
       "text": "ღ˘◡˘ற♡.｡oO",
-      "tags": ["幸福", "思考", "愛心"]
+      "tags": ["happiness", "love", "thinking"]
     },
     {
       "id": "confused_098",
       "text": "(◔ヘ◔)",
-      "tags": ["思考", "生氣"]
+      "tags": ["angry", "thinking"]
     },
     {
       "id": "confused_099",
       "text": "(ᇂ_ᇂ |||)",
-      "tags": ["思考", "無言"]
+      "tags": ["speechless", "thinking"]
     },
     {
       "id": "confused_100",
@@ -470,167 +470,167 @@
     {
       "id": "confused_102",
       "text": "(´. .̫ .`) ༘ؓ ँั๊ྃ",
-      "tags": ["思考", "難過"]
+      "tags": ["sad", "thinking"]
     },
     {
       "id": "confused_103",
       "text": "(∩ ⌣̀_⌣́)",
-      "tags": ["思考"]
+      "tags": ["thinking"]
     },
     {
       "id": "confused_104",
       "text": "(❛ัॢᵕ❛ั ॢ)✩ *ೃ.⋆",
-      "tags": ["思考", "幸福", "閃亮"]
+      "tags": ["happiness", "sparkle", "thinking"]
     },
     {
       "id": "confused_105",
       "text": "(⁽͈˙̑⁾˔̉⁽˙̑⁾͈)˚º꒰꒱",
-      "tags": ["思考"]
+      "tags": ["thinking"]
     },
     {
       "id": "confused_107",
       "text": "╭( ๐ _๐)╮",
-      "tags": ["思考", "無奈", "聳肩"]
+      "tags": ["helpless", "shrug", "thinking"]
     },
     {
       "id": "confused_108",
       "text": "( ´･ω･)…｡oо○",
-      "tags": ["思考", "難過"]
+      "tags": ["sad", "thinking"]
     },
     {
       "id": "confused_109",
       "text": "( ͡° ͜ʖ ͡°)",
-      "tags": ["搞怪", "自信"]
+      "tags": ["confident", "goofy"]
     },
     {
       "id": "confused_110",
       "text": "( ͡° ʖ̯ ͡°)",
-      "tags": ["搞怪", "難過"]
+      "tags": ["goofy", "sad"]
     },
     {
       "id": "confused_111",
       "text": "( ͠° ͟ʖ ͡°)",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "confused_112",
       "text": "( ͡ᵔ ͜ʖ ͡ᵔ)",
-      "tags": ["搞怪", "自信", "開心"]
+      "tags": ["confident", "goofy", "happy"]
     },
     {
       "id": "confused_113",
       "text": "( . •́ _ʖ •̀ .)",
-      "tags": ["難過"]
+      "tags": ["sad"]
     },
     {
       "id": "confused_114",
       "text": "( ఠ ͟ʖ ఠ)",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "confused_115",
       "text": "( ͡ಠ ʖ̯ ͡ಠ)",
-      "tags": ["搞怪", "生氣", "難過"]
+      "tags": ["angry", "goofy", "sad"]
     },
     {
       "id": "confused_116",
       "text": "( ಠ ʖ̯ ಠ)",
-      "tags": ["生氣", "難過"]
+      "tags": ["angry", "sad"]
     },
     {
       "id": "confused_117",
       "text": "( ಠ ͜ʖ ಠ)",
-      "tags": ["搞怪", "自信"]
+      "tags": ["confident", "goofy"]
     },
     {
       "id": "confused_118",
       "text": "( ಥ ʖ̯ ಥ)",
-      "tags": ["哭", "搞怪", "難過"]
+      "tags": ["crying", "goofy", "sad"]
     },
     {
       "id": "confused_119",
       "text": "( ͡• ͜ʖ ͡• )",
-      "tags": ["搞怪", "開心"]
+      "tags": ["goofy", "happy"]
     },
     {
       "id": "confused_120",
       "text": "( ･ิ ͜ʖ ･ิ)",
-      "tags": ["搞怪", "自信"]
+      "tags": ["confident", "goofy"]
     },
     {
       "id": "confused_121",
       "text": "( ͡ ͜ʖ ͡ )",
-      "tags": ["搞怪", "自信"]
+      "tags": ["confident", "goofy"]
     },
     {
       "id": "confused_122",
       "text": "(≖ ͜ʖ≖)",
-      "tags": ["搞怪", "自信"]
+      "tags": ["confident", "goofy"]
     },
     {
       "id": "confused_123",
       "text": "(ʘ ʖ̯ ʘ)",
-      "tags": ["搞怪", "難過", "驚訝"]
+      "tags": ["goofy", "sad", "surprised"]
     },
     {
       "id": "confused_124",
       "text": "(ʘ ͟ʖ ʘ)",
-      "tags": ["搞怪", "驚訝"]
+      "tags": ["goofy", "surprised"]
     },
     {
       "id": "confused_125",
       "text": "(ʘ ͜ʖ ʘ)",
-      "tags": ["搞怪", "驚訝"]
+      "tags": ["goofy", "surprised"]
     },
     {
       "id": "confused_126",
       "text": "(;´༎ຶٹ༎ຶ`)",
-      "tags": ["哭", "崩潰", "搞怪"]
+      "tags": ["breakdown", "crying", "goofy"]
     },
     {
       "id": "confused_127",
       "text": "( ⚆ _ ⚆ )",
-      "tags": ["驚訝"]
+      "tags": ["surprised"]
     },
     {
       "id": "confused_128",
       "text": "(◕⍸ ◕✿)",
-      "tags": ["困惑", "大眼", "疑問", "花"]
+      "tags": ["big-eyes", "confused", "flower", "question"]
     },
     {
       "id": "confused_129",
       "text": "(◕ ᄋ ◕✿)",
-      "tags": ["困惑", "大眼", "無言", "花"]
+      "tags": ["big-eyes", "confused", "flower", "speechless"]
     },
     {
       "id": "confused_130",
       "text": "▓⚗_⚗▓",
-      "tags": ["困惑", "思考"]
+      "tags": ["confused", "thinking"]
     },
     {
       "id": "confused_131",
       "text": "ತ_ತ",
-      "tags": ["困惑", "無言"]
+      "tags": ["confused", "speechless"]
     },
     {
       "id": "confused_132",
       "text": "⚆_⚆",
-      "tags": ["困惑", "目瞪口呆"]
+      "tags": ["confused", "dumbfounded"]
     },
     {
       "id": "confused_133",
       "text": "(ㆆᴗㆆ)",
-      "tags": ["困惑", "思考"]
+      "tags": ["confused", "thinking"]
     },
     {
       "id": "confused_135",
       "text": "(◐‿◑)",
-      "tags": ["困惑"]
+      "tags": ["confused"]
     },
     {
       "id": "confused_136",
       "text": "(@_@)",
-      "tags": ["困惑", "暈眩"]
+      "tags": ["confused", "dizzy"]
     }
   ]
 }

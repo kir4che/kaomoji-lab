@@ -1,6 +1,7 @@
 'use client';
 
-import { createContext, useContext, useState, ReactNode, useMemo } from 'react';
+import { createContext, useContext, useState, ReactNode, useMemo, useEffect } from 'react';
+import Cookies from 'js-cookie';
 
 import type { Language } from '@/types/Language';
 
@@ -21,25 +22,28 @@ interface LanguageProviderProps {
 }
 
 export function LanguageProvider({ children }: LanguageProviderProps) {
-  const [lang, setLang] = useState<Language>('zh-tw');
+  const [lang, setLang] = useState<Language>(() => {
+    const cookieLang = Cookies.get('app-language') as Language | undefined;
+    return cookieLang && ['en', 'zh-tw'].includes(cookieLang) ? cookieLang : 'zh-tw';
+  });
 
-  /*
   useEffect(() => {
-    const storedLang = localStorage.getItem('app-language') as Language | null;
-    if (storedLang && ['en', 'zh-tw'].includes(storedLang)) {
-      setLang(storedLang);
+    const cookieLang = Cookies.get('app-language') as Language | undefined;
+    if (cookieLang && ['en', 'zh-tw'].includes(cookieLang)) {
+      setLang(cookieLang);
     }
   }, []);
 
-  useEffect(() => {
-    localStorage.setItem('app-language', lang);
-  }, [lang]);
-  */
+  const handleSetLang = (newLang: Language) => {
+    Cookies.set('app-language', newLang, { expires: 365 });
+    setLang(newLang);
+    window.location.reload();
+  };
 
   const contextValue = useMemo(
     () => ({
       lang,
-      setLang,
+      setLang: handleSetLang,
     }),
     [lang]
   );

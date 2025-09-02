@@ -3,49 +3,57 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 
-import type { CategoryData, IndexData } from '@/types/Kaomoji';
+import type { CategoryData, IndexData, Tag } from '@/types/Kaomoji';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { t } from '@/lib/i18n';
 import { cn } from '@/utils/cn';
 import Loading from '@/components/atoms/Loading';
 
 interface TagInfo {
-  name: string;
+  tag: Tag;
   count: number;
-  categories: string[];
 }
 
 const TagPage: React.FC = () => {
   const router = useRouter();
+  const { lang } = useLanguage();
   const [allTags, setAllTags] = useState<TagInfo[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const load = async () => {
       try {
-        const res = await fetch('/data/index.json');
-        const data: IndexData = await res.json();
+        const [tagsRes, indexRes] = await Promise.all([
+          fetch('/api/tags'),
+          fetch('/data/index.json'),
+        ]);
 
-        const categoryDataPromises = data.categories.map(async (category) => {
+        const tags: Tag[] = await tagsRes.json();
+        const indexData: IndexData = await indexRes.json();
+
+        const categoryDataPromises = indexData.categories.map(async (category) => {
           const res = await fetch(`/data/categories/${category.id}.json`);
           const categoryData: CategoryData = await res.json();
-          return { category: category.id, items: categoryData.items ?? [] };
+          return categoryData.items ?? [];
         });
 
-        const results = await Promise.all(categoryDataPromises);
+        const allKaomojis = (await Promise.all(categoryDataPromises)).flat();
 
-        const tagMap = new Map<string, TagInfo>();
-        for (const { category, items } of results) {
-          for (const item of items) {
-            for (const tag of item.tags) {
-              const key = tag.toLowerCase();
-              if (!tagMap.has(key)) tagMap.set(key, { name: tag, count: 0, categories: [] });
-              const info = tagMap.get(key)!;
-              info.count += 1;
-              if (!info.categories.includes(category)) info.categories.push(category);
-            }
+        const tagCountMap = new Map<string, number>();
+        for (const item of allKaomojis) {
+          for (const tagId of item.tags) {
+            tagCountMap.set(tagId, (tagCountMap.get(tagId) || 0) + 1);
           }
         }
-        const sortedTags = Array.from(tagMap.values()).sort((a, b) => b.count - a.count);
-        setAllTags(sortedTags);
+
+        const tagInfo: TagInfo[] = tags
+          .map((tag) => ({
+            tag,
+            count: tagCountMap.get(tag.id) || 0,
+          }))
+          .sort((a, b) => b.count - a.count);
+
+        setAllTags(tagInfo);
       } finally {
         setIsLoading(false);
       }
@@ -67,26 +75,26 @@ const TagPage: React.FC = () => {
   if (isLoading) return <Loading />;
 
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex flex-col">
       <section className="space-y-3 sm:space-y-4 text-center">
-        <h1>標籤</h1>
-        <p className="text-sm text-gray-500">透過標籤探索 {allTags.length} 種不同風格的顏文字</p>
+        <h1>{t('tag_page_h1', lang)}</h1>
+        <p className="text-sm text-gray-500">{t('tag_page_p', lang, { count: allTags.length })}</p>
       </section>
       <section className="flex-center flex-1 max-w-screen-lg mx-auto pt-6 pb-8">
         <ul className="flex-center flex-wrap gap-x-2 gap-y-3">
-          {allTags.map((tag) => (
-            <li key={tag.name}>
+          {allTags.map(({ tag, count }) => (
+            <li key={tag.id}>
               <button
                 type="button"
-                onClick={() => router.push(`/tag/${tag.name}`)}
-                disabled={tag.count === 0}
+                onClick={() => router.push(`/tag/${tag.id}`)}
+                disabled={count === 0}
                 className={cn(
                   'px-3.5 py-1 rounded-full text-sm tracking-wide font-medium transition-transform hover:scale-105',
-                  getTagColor(tag.count)
+                  getTagColor(count)
                 )}
-                aria-label={`標籤：${tag.name}（共 ${tag.count} 個）`}
+                aria-label={t('tag_page_aria_label', lang, { tag: tag.name[lang], count })}
               >
-                {tag.name}
+                {tag.name[lang]}
               </button>
             </li>
           ))}

@@ -2,46 +2,29 @@ import { promises as fs } from 'fs';
 import path from 'path';
 
 import type { Metadata } from 'next';
+import { cookies } from 'next/headers';
 import Link from 'next/link';
 
-import type { KaomojiItem, CategoryData, IndexData } from '@/types/Kaomoji';
+import type { Language } from '@/types/Language';
+import type { KaomojiItem, CategoryData, IndexData, Tag } from '@/types/Kaomoji';
+import { t } from '@/lib/i18n';
 import KaomojiList from '@/components/molecules/KaomojiList';
+import * as adminService from '@/services/adminService';
 
-interface TagPageProps {
-  params: Promise<{ tag: string }>;
-  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+const dataDirectory = path.join(process.cwd(), 'public/data');
+
+interface Props {
+  params: Promise<{
+    tag: string;
+  }>;
 }
 
-export async function generateMetadata({ params }: TagPageProps): Promise<Metadata> {
-  const { tag } = await params;
-  const decodedTag = decodeURIComponent(tag);
-  const kaomojis = await getKaomojisByTag(decodedTag);
-  const description = `探索帶有「${decodedTag}」標籤的顏文字！我們為您找到了 ${kaomojis.length} 個相關的顏文字，快來複製您喜歡的吧！`;
-  const keywords = [
-    decodedTag,
-    '顏文字',
-    '表情符號',
-    '標籤',
-    'Kaomoji',
-    'Tags',
-    'Japanese Emoticons',
-  ];
-
-  return {
-    title: `${decodedTag}`,
-    description,
-    keywords,
-    openGraph: {
-      title: `${decodedTag}`,
-      description,
-      type: 'website',
-      url: `/tag/${tag}`,
-    },
-  };
+async function getTagById(tagId: string): Promise<Tag | undefined> {
+  const allTags = await adminService.getTags();
+  return allTags.find((t: { id: string }) => t.id === tagId);
 }
 
-async function getKaomojisByTag(tag: string): Promise<KaomojiItem[]> {
-  const dataDirectory = path.join(process.cwd(), 'public/data');
+async function getKaomojisByTag(tagId: string): Promise<KaomojiItem[]> {
   const indexFile = await fs.readFile(path.join(dataDirectory, 'index.json'), 'utf8');
   const indexData: IndexData = JSON.parse(indexFile);
 
@@ -56,32 +39,67 @@ async function getKaomojisByTag(tag: string): Promise<KaomojiItem[]> {
     if (categoryData.items) allKaomojis.push(...categoryData.items);
   }
 
-  return allKaomojis.filter((k) => k.tags.includes(tag));
+  return allKaomojis.filter((k) => k.tags.includes(tagId));
 }
 
-const TagPage = async ({ params }: TagPageProps) => {
-  const { tag } = await params;
-  const decodedTag = decodeURIComponent(tag);
-  const kaomojis = await getKaomojisByTag(decodedTag);
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const cookieStore = cookies();
+  const lang = ((await cookieStore).get('app-language')?.value || 'zh-tw') as Language;
+  const { tag: tagId } = await params;
+
+  const tag = await getTagById(tagId);
+  const tagName = tag ? tag.name[lang] : tagId;
+
+  const kaomojis = await getKaomojisByTag(tagId);
+  const description = t('meta_tag_page_description', lang, {
+    tag: tagName,
+    count: kaomojis.length,
+  });
+  const keywords = t('meta_tag_page_keywords', lang, { tag: tagName }).split(',');
+
+  return {
+    title: t('tag_page_title', lang, { tag: tagName }),
+    description,
+    keywords,
+    openGraph: {
+      title: t('tag_page_title', lang, { tag: tagName }),
+      description,
+      type: 'website',
+      url: `/tag/${tagId}`,
+    },
+  };
+}
+
+const TagPage = async ({ params }: Props) => {
+  const cookieStore = cookies();
+  const lang = ((await cookieStore).get('app-language')?.value || 'zh-tw') as Language;
+  const { tag: tagId } = await params;
+
+  const tag = await getTagById(tagId);
+  const tagName = tag ? tag.name[lang] : tagId;
+
+  const kaomojis = await getKaomojisByTag(tagId);
 
   return (
     <div className="flex-1 flex flex-col">
       <section className="space-y-3 sm:space-y-4 text-center">
-        <h1>{decodedTag}</h1>
-        <p className="text-sm text-gray-500">共找到 {kaomojis.length} 個包含此標籤的顏文字</p>
+        <h1>{tagName}</h1>
+        <p className="text-sm text-gray-500">
+          {t('tag_page_description', lang, { count: kaomojis.length })}
+        </p>
       </section>
       <section className="pt-6 pb-12">
         {kaomojis.length > 0 ? (
           <KaomojiList kaomojis={kaomojis} />
         ) : (
           <div className="flex-center flex-1">
-            <p className="text-gray-500 text-lg">在此標籤中沒有符合條件的顏文字</p>
+            <p className="text-gray-500 text-lg">{t('tag_page_no_results', lang)}</p>
           </div>
         )}
       </section>
       <section className="mt-auto text-center mb-8">
         <Link href="/tag" className="inline-block back-btn">
-          返回所有標籤
+          {t('tag_page_back_to_all_tags', lang)}
         </Link>
       </section>
     </div>

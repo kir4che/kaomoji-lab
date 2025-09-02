@@ -23,6 +23,36 @@ export function useFilteredKaomoji({
 }: UseFilteredKaomojiParams) {
   const countInString = (str: string, target: string) => str.split(target).length - 1;
 
+  const extractTagTexts = (tags: unknown[]): string[] => {
+    return tags.flatMap((tag) => {
+      if (typeof tag === 'string') return [tag.toLowerCase()];
+      if (typeof tag === 'object' && tag !== null) {
+        const tagObj = tag as any;
+        const texts: string[] = [];
+        if (tagObj.en) texts.push(tagObj.en.toLowerCase());
+        if (tagObj['zh-tw']) texts.push(tagObj['zh-tw'].toLowerCase());
+        return texts;
+      }
+      return [];
+    });
+  };
+
+  const tagMatches = (tags: unknown[], targetTag: string): boolean => {
+    const normalizedTarget = targetTag.trim().toLowerCase();
+
+    return tags.some((tag) => {
+      if (typeof tag === 'string') return tag.trim().toLowerCase() === normalizedTarget;
+      if (typeof tag === 'object' && tag !== null) {
+        const tagObj = tag as any;
+        return (
+          (tagObj.en && tagObj.en.trim().toLowerCase() === normalizedTarget) ||
+          (tagObj['zh-tw'] && tagObj['zh-tw'].trim().toLowerCase() === normalizedTarget)
+        );
+      }
+      return false;
+    });
+  };
+
   return useMemo(() => {
     let items: KaomojiItem[] =
       selectedCategory && allCategories
@@ -38,7 +68,7 @@ export function useFilteredKaomoji({
 
       items = items.filter((item) => {
         const itemText = item.text.toLowerCase();
-        const itemTags = item.tags.map((t) => t.toLowerCase());
+        const itemTags = extractTagTexts(item.tags);
         const itemId = item.id.toLowerCase();
 
         const check = (term: string) =>
@@ -75,19 +105,13 @@ export function useFilteredKaomoji({
       });
     }
 
-    if (filterTag) {
-      const normalizedFilterTag = filterTag.trim().toLowerCase();
-      items = items.filter((item) =>
-        item.tags.some((tag) => tag.trim().toLowerCase() === normalizedFilterTag)
-      );
-    }
+    if (filterTag) items = items.filter((item) => tagMatches(item.tags, filterTag));
 
-    if (filterCheckedStatus !== 'all') {
+    if (filterCheckedStatus !== 'all')
       items = items.filter((item) => {
         const isChecked = checkedKaomojiIds.has(item.id);
         return filterCheckedStatus === 'checked' ? isChecked : !isChecked;
       });
-    }
 
     return items;
   }, [

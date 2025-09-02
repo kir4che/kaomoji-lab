@@ -3,7 +3,8 @@
 import { memo, useState } from 'react';
 import type { KeyboardEvent, CompositionEvent } from 'react';
 
-import type { KaomojiItem, CategoryData } from '@/types/Kaomoji';
+import type { KaomojiItem, CategoryData, Tag } from '@/types/Kaomoji';
+import { useLanguage } from '@/contexts/LanguageContext';
 import { useKaomojiForm } from '@/hooks/useKaomojiForm';
 import { cn } from '@/utils/cn';
 import AvailableTagList from '@/components/organisms/AvailableTagList';
@@ -17,7 +18,7 @@ import SparkleIcon from '@/assets/icons/sparkle.svg';
 interface KaomojiEditorProps {
   kaomoji: KaomojiItem;
   categories: CategoryData[];
-  allTags?: string[];
+  allTags?: Tag[];
   currCategory: string;
   onSave: (kaomoji: KaomojiItem) => Promise<void>;
   onMove: (toCategory: string, updatedData?: KaomojiItem) => void;
@@ -28,7 +29,7 @@ interface KaomojiEditorProps {
 const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
   kaomoji,
   categories,
-  allTags,
+  allTags = [],
   currCategory,
   onSave,
   onMove,
@@ -36,6 +37,7 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
   onToggleChecked,
 }) => {
   const [isComposing, setIsComposing] = useState(false);
+  const { lang } = useLanguage();
 
   const {
     formData,
@@ -57,7 +59,12 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
   });
 
   const isEditMode = Boolean(formData.id);
-  const currCategoryName = categories.find((c) => c.id === currCategory)?.name['zh-tw'];
+  const currCategoryName = categories.find((c) => c.id === currCategory)?.name[lang];
+
+  const getTagName = (tagId: string) => {
+    const tag = allTags.find((t) => t.id === tagId);
+    return tag ? tag.name[lang] : tagId;
+  };
 
   return (
     <div className="p-4 sm:px-6 pb-6 space-y-4 bg-white rounded-lg">
@@ -121,17 +128,17 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
           })}
         >
           {formData.tags.length ? (
-            formData.tags.map((tag) => (
+            formData.tags.map((tagId) => (
               <span
-                key={tag}
+                key={tagId}
                 className="inline-flex items-center pl-2.5 pr-1 py-1 bg-white text-primary-600 border border-primary-600 rounded-full text-sm"
               >
-                {tag}
+                {getTagName(tagId)}
                 <button
                   type="button"
-                  onClick={() => removeTag(tag)}
+                  onClick={() => removeTag(tagId)}
                   className="ml-2 text-primary-400 text-xs font-bold hover:text-primary-600 transition-colors"
-                  aria-label={`刪除標籤 ${tag}`}
+                  aria-label={`刪除標籤 ${getTagName(tagId)}`}
                 >
                   <CloseIcon className="size-5" />
                 </button>
@@ -162,9 +169,7 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
           />
           <IconBtn icon={<PlusIcon />} onClick={() => addTags(newTag)} label="新增標籤" />
         </div>
-        {allTags && (
-          <AvailableTagList tags={allTags} selectedTags={formData.tags} onSelect={addTags} />
-        )}
+        <AvailableTagList tags={allTags} selectedTags={formData.tags} onSelect={addTags} />
         {isEditMode && (
           <div className="flex lg:items-center flex-col lg:flex-row gap-3">
             <p className="whitespace-nowrap">
@@ -187,7 +192,7 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
                   .filter((cat) => cat.id !== currCategory)
                   .map((category) => (
                     <option key={category.id} value={category.id}>
-                      {category.name['zh-tw']} ({category.items.length})
+                      {category.name[lang]} ({category.items.length})
                     </option>
                   ))}
               </select>

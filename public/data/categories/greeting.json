@@ -10,12 +10,12 @@
     {
       "id": "greeting_001",
       "text": "(୨୧•͈ᴗ•͈)◞︎ᵗʱᵃᵑᵏઽ*♡︎",
-      "tags": ["愛心", "感謝"]
+      "tags": ["grateful", "love"]
     },
     {
       "id": "greeting_002",
       "text": "|ω･)و ̑̑༉",
-      "tags": ["加油"]
+      "tags": ["cheer-up"]
     },
     {
       "id": "greeting_003",
@@ -25,22 +25,22 @@
     {
       "id": "greeting_004",
       "text": "|´▽｀●)ﾉ",
-      "tags": ["偷偷", "開心"]
+      "tags": ["happy", "peeking"]
     },
     {
       "id": "greeting_005",
       "text": "|ｮ０ω０*)ﾉﾞ",
-      "tags": ["偷偷", "可愛"]
+      "tags": ["cute", "peeking"]
     },
     {
       "id": "greeting_006",
       "text": "|ω・｀)ノ",
-      "tags": ["偷偷"]
+      "tags": ["peeking"]
     },
     {
       "id": "greeting_007",
       "text": "| 、ン、)ﾉ",
-      "tags": ["偷偷"]
+      "tags": ["peeking"]
     },
     {
       "id": "greeting_008",
@@ -50,37 +50,37 @@
     {
       "id": "greeting_009",
       "text": "☆(*･ｪ･*)＞｡",
-      "tags": ["星星"]
+      "tags": ["star"]
     },
     {
       "id": "greeting_010",
       "text": "＼(^O^ )＞*",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_011",
       "text": "*＜( ^O^)／",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_012",
       "text": "ヽ|･з･|ゞ",
-      "tags": ["親", "敬禮"]
+      "tags": ["kiss", "salute"]
     },
     {
       "id": "greeting_013",
       "text": "*＜( ・∀・)ノ",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_014",
       "text": "ヽ(・∀・ )＞*",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_017",
       "text": "く(^ｰﾟ)ﾉ",
-      "tags": ["眨眼", "開心"]
+      "tags": ["happy", "wink"]
     },
     {
       "id": "greeting_018",
@@ -90,27 +90,27 @@
     {
       "id": "greeting_019",
       "text": "( ^_^)／",
-      "tags": ["微笑"]
+      "tags": ["smile"]
     },
     {
       "id": "greeting_021",
       "text": "(^ Q ^)/",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_022",
       "text": "(^o^)/",
-      "tags": ["萬歲", "開心"]
+      "tags": ["banzai", "happy"]
     },
     {
       "id": "greeting_023",
       "text": "(｡･ω･)ﾉﾞ",
-      "tags": ["可愛"]
+      "tags": ["cute"]
     },
     {
       "id": "greeting_024",
       "text": "(。-ω-)ﾉ",
-      "tags": ["睏"]
+      "tags": ["sleepy"]
     },
     {
       "id": "greeting_025",
@@ -120,7 +120,7 @@
     {
       "id": "greeting_026",
       "text": "(。^_・)ノ",
-      "tags": ["可愛", "眨眼"]
+      "tags": ["cute", "wink"]
     },
     {
       "id": "greeting_027",
@@ -130,12 +130,12 @@
     {
       "id": "greeting_028",
       "text": "(=ﾟωﾟ)ﾉ",
-      "tags": ["動物"]
+      "tags": ["animal"]
     },
     {
       "id": "greeting_029",
       "text": "(*￣Ｏ￣)ノ",
-      "tags": ["叫喊", "驚訝"]
+      "tags": ["shout", "surprised"]
     },
     {
       "id": "greeting_030",
@@ -145,32 +145,32 @@
     {
       "id": "greeting_031",
       "text": "(o・・o)/",
-      "tags": ["驚訝"]
+      "tags": ["surprised"]
     },
     {
       "id": "greeting_032",
       "text": "~(＾◇^)/",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_033",
       "text": "☆ﾐ(o*･ω･)ﾉ",
-      "tags": ["可愛", "星星"]
+      "tags": ["cute", "star"]
     },
     {
       "id": "greeting_034",
       "text": "o｜◕ˇ▽ˇ◕｜ツ",
-      "tags": ["偷偷", "大眼", "開心"]
+      "tags": ["big-eyes", "happy", "peeking"]
     },
     {
       "id": "greeting_035",
       "text": "∪*ゝω･)ﾉ”",
-      "tags": ["動物", "可愛", "狗狗", "眨眼"]
+      "tags": ["animal", "cute", "dog", "wink"]
     },
     {
       "id": "greeting_036",
       "text": "(ஐ╹◡╹)ノ",
-      "tags": ["可愛", "開心"]
+      "tags": ["cute", "happy"]
     },
     {
       "id": "greeting_037",
@@ -185,17 +185,17 @@
     {
       "id": "greeting_039",
       "text": "|。･ω･|ﾉ",
-      "tags": ["偷偷"]
+      "tags": ["peeking"]
     },
     {
       "id": "greeting_040",
       "text": "~ヾ(＾∇＾)",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_041",
       "text": "ヾ( ‘ – ‘*)",
-      "tags": ["微笑"]
+      "tags": ["smile"]
     },
     {
       "id": "greeting_042",
@@ -205,7 +205,7 @@
     {
       "id": "greeting_043",
       "text": "(ﾉ･ｪ･)ﾉ",
-      "tags": ["動物", "羊"]
+      "tags": ["animal", "sheep"]
     },
     {
       "id": "greeting_044",
@@ -215,22 +215,22 @@
     {
       "id": "greeting_045",
       "text": "♪|´∀｀)ノ",
-      "tags": ["偷偷", "開心", "音樂"]
+      "tags": ["happy", "music", "peeking"]
     },
     {
       "id": "greeting_046",
       "text": "(ι´Д｀)ﾉ",
-      "tags": ["難過"]
+      "tags": ["sad"]
     },
     {
       "id": "greeting_047",
       "text": "ﾍ(´ω`)ゞ",
-      "tags": ["敬禮"]
+      "tags": ["salute"]
     },
     {
       "id": "greeting_048",
       "text": "(*´ω｀)o",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_049",
@@ -240,7 +240,7 @@
     {
       "id": "greeting_050",
       "text": "ヽ(･ω･ゞ)",
-      "tags": ["敬禮", "開心"]
+      "tags": ["happy", "salute"]
     },
     {
       "id": "greeting_051",
@@ -250,37 +250,37 @@
     {
       "id": "greeting_052",
       "text": "ヽ(･ϖ･ゞ)",
-      "tags": ["敬禮"]
+      "tags": ["salute"]
     },
     {
       "id": "greeting_053",
       "text": "(＠･０･)ﾉ",
-      "tags": ["驚訝"]
+      "tags": ["surprised"]
     },
     {
       "id": "greeting_054",
       "text": "(•ㅂ•)/",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_055",
       "text": "(○︎´∀︎`○︎)ﾉ",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_056",
       "text": "((*‧∀︎‧))ﾉ",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_058",
       "text": "(*・ω・)ﾉ",
-      "tags": ["可愛"]
+      "tags": ["cute"]
     },
     {
       "id": "greeting_059",
       "text": "(￣▽￣)ノ",
-      "tags": ["自信"]
+      "tags": ["confident"]
     },
     {
       "id": "greeting_060",
@@ -290,12 +290,12 @@
     {
       "id": "greeting_061",
       "text": "( ´ ∀ ` )ﾉ",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_062",
       "text": "(^-^*)/",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_063",
@@ -305,7 +305,7 @@
     {
       "id": "greeting_064",
       "text": "(´• ω •`)ﾉ",
-      "tags": ["可愛"]
+      "tags": ["cute"]
     },
     {
       "id": "greeting_065",
@@ -315,12 +315,12 @@
     {
       "id": "greeting_066",
       "text": "( ´ ▽ ` )ﾉ",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_067",
       "text": "(^０^)ノ",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_068",
@@ -330,17 +330,17 @@
     {
       "id": "greeting_069",
       "text": "(・∀・)ノ",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_070",
       "text": "ヾ(・ω・*)",
-      "tags": ["可愛"]
+      "tags": ["cute"]
     },
     {
       "id": "greeting_071",
       "text": "(*°ｰ°)ﾉ",
-      "tags": ["自信"]
+      "tags": ["confident"]
     },
     {
       "id": "greeting_072",
@@ -350,27 +350,27 @@
     {
       "id": "greeting_073",
       "text": "(o´ω`o)ﾉ",
-      "tags": ["可愛"]
+      "tags": ["cute"]
     },
     {
       "id": "greeting_074",
       "text": "(o^ ^o)/",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_076",
       "text": "(¬_¬)ﾉ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "greeting_077",
       "text": "＼(-o- )",
-      "tags": ["無奈"]
+      "tags": ["helpless"]
     },
     {
       "id": "greeting_078",
       "text": "(๑ö◡ö)۶",
-      "tags": ["加油", "開心"]
+      "tags": ["cheer-up", "happy"]
     },
     {
       "id": "greeting_079",
@@ -380,32 +380,32 @@
     {
       "id": "greeting_080",
       "text": "ヾ(＾∇＾)",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_081",
       "text": "(ノ^∇^)",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_082",
       "text": "(;-_-)ノ",
-      "tags": ["無奈"]
+      "tags": ["helpless"]
     },
     {
       "id": "greeting_083",
       "text": "(≧∇≦)/",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_084",
       "text": "川o･-･)ﾉ",
-      "tags": ["偷偷"]
+      "tags": ["peeking"]
     },
     {
       "id": "greeting_085",
       "text": "＼(￣O￣)",
-      "tags": ["驚訝"]
+      "tags": ["surprised"]
     },
     {
       "id": "greeting_086",
@@ -415,22 +415,22 @@
     {
       "id": "greeting_087",
       "text": "(｡･x･)ゞ",
-      "tags": ["X嘴", "敬禮"]
+      "tags": ["salute", "x-mouth"]
     },
     {
       "id": "greeting_088",
       "text": "ヾ(・ω・ｏ)",
-      "tags": ["可愛"]
+      "tags": ["cute"]
     },
     {
       "id": "greeting_089",
       "text": "( ﾟ▽ﾟ)/",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_090",
       "text": "(｡´∀｀)ﾉ",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_091",
@@ -440,22 +440,22 @@
     {
       "id": "greeting_092",
       "text": "(*＾▽＾)／",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_093",
       "text": "ヾ(＾-＾)ノ",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_094",
       "text": "＼(-_- )",
-      "tags": ["無奈"]
+      "tags": ["helpless"]
     },
     {
       "id": "greeting_095",
       "text": "＼(°o°；）",
-      "tags": ["驚訝"]
+      "tags": ["surprised"]
     },
     {
       "id": "greeting_096",
@@ -465,12 +465,12 @@
     {
       "id": "greeting_097",
       "text": "(/・0・)",
-      "tags": ["驚訝"]
+      "tags": ["surprised"]
     },
     {
       "id": "greeting_098",
       "text": "(⌒ ̫⌒)/",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "greeting_100",
@@ -480,37 +480,37 @@
     {
       "id": "greeting_101",
       "text": "(＊・ ﾜ・´＊)ノ",
-      "tags": ["自信"]
+      "tags": ["confident"]
     },
     {
       "id": "greeting_102",
       "text": "₍ ⺣̤̬ ₎ ʰ ⁱ",
-      "tags": ["可愛", "愛心"]
+      "tags": ["cute", "love"]
     },
     {
       "id": "greeting_104",
       "text": "ヾʕ･⺲･ʔﾉ",
-      "tags": ["動物", "熊"]
+      "tags": ["animal", "bear"]
     },
     {
       "id": "greeting_105",
       "text": "(*ゝω・)ﾉThanks!",
-      "tags": ["感謝", "眨眼"]
+      "tags": ["grateful", "wink"]
     },
     {
       "id": "greeting_106",
       "text": "(*ˊᗜˋ*)/ᵗᑋᵃᐢᵏ ᵞᵒᵘ*",
-      "tags": ["感謝", "開心"]
+      "tags": ["grateful", "happy"]
     },
     {
       "id": "greeting_107",
       "text": "(୨୧•͈ᴗ•͈)◞ᵗʱᵃᵑᵏઽ*♡",
-      "tags": ["可愛", "愛心", "感謝"]
+      "tags": ["cute", "grateful", "love"]
     },
     {
       "id": "greeting_108",
       "text": "ヾ((；´･ω･)ﾉ",
-      "tags": ["緊張"]
+      "tags": ["nervous"]
     },
     {
       "id": "greeting_110",
@@ -520,62 +520,62 @@
     {
       "id": "greeting_111",
       "text": "٩(„❛ ֊ ❛„)*おはよ*❤︎",
-      "tags": ["可愛", "問候", "愛心"]
+      "tags": ["cute", "greeting", "love"]
     },
     {
       "id": "greeting_112",
       "text": "(｡･д･)ﾉｵﾊﾖｰﾝ♪",
-      "tags": ["可愛", "問候", "音樂"]
+      "tags": ["cute", "greeting", "music"]
     },
     {
       "id": "greeting_113",
       "text": "ヾ(*´З`)ﾉ !ぉl￡ょぅ.+: !!",
-      "tags": ["問候", "嘟嘴"]
+      "tags": ["greeting", "pout"]
     },
     {
       "id": "greeting_114",
       "text": "( - ω- ฅ）ｵﾊﾖ.｡.:*♡",
-      "tags": ["動物", "可愛", "問候", "愛心", "貓咪"]
+      "tags": ["animal", "cat", "cute", "greeting", "love"]
     },
     {
       "id": "greeting_115",
       "text": "٩(๑´0`๑)۶ｵｯﾊﾖｰｰ",
-      "tags": ["問候", "萬歲", "開心"]
+      "tags": ["banzai", "greeting", "happy"]
     },
     {
       "id": "greeting_116",
       "text": "«٩((๑- ̀᎑<๑)۶»ぉはょ⌒.°♪",
-      "tags": ["可愛", "問候", "音樂"]
+      "tags": ["cute", "greeting", "music"]
     },
     {
       "id": "greeting_117",
       "text": "(*˘︶˘*)ｵﾔｽﾐﾅｻｨ.｡.:*♡",
-      "tags": ["可愛", "問候", "愛心"]
+      "tags": ["cute", "greeting", "love"]
     },
     {
       "id": "greeting_118",
       "text": "(* ˘ ᵕ ˘*)☆*:.Ⴛ̅̀やਭみ",
-      "tags": ["可愛", "問候"]
+      "tags": ["cute", "greeting"]
     },
     {
       "id": "greeting_119",
       "text": "(。´-ω-｀。).zZ",
-      "tags": ["問候", "睏"]
+      "tags": ["greeting", "sleepy"]
     },
     {
       "id": "greeting_120",
       "text": "+。:.゜ｵﾔｽﾐヽ(´∀｀)ﾉ",
-      "tags": ["可愛", "問候", "開心"]
+      "tags": ["cute", "greeting", "happy"]
     },
     {
       "id": "greeting_121",
       "text": "Good night (*˘︶˘*).｡.:*♡",
-      "tags": ["問候", "愛心"]
+      "tags": ["greeting", "love"]
     },
     {
       "id": "greeting_122",
       "text": "(★ゝз･)ﾉ~*",
-      "tags": ["嘟嘴", "愛心", "揮手", "星星", "眨眼", "親"]
+      "tags": ["kiss", "love", "pout", "star", "waving", "wink"]
     }
   ]
 }

@@ -1,18 +1,27 @@
 import type { Metadata } from 'next';
+import { cookies } from 'next/headers';
+
+import type { Language } from '@/types/Language';
+import { t } from '@/lib/i18n';
 
 import TagPage from './client';
 
-export const metadata: Metadata = {
-  title: '標籤一覽',
-  description: '探索所有顏文字標籤，發現各種風格的顏文字，讓您的訊息更生動有趣。',
-  keywords: ['顏文字', '表情符號', '標籤', 'Kaomoji', 'Tags', 'Japanese Emoticons'],
-  openGraph: {
-    title: '顏文字標籤',
-    description: '探索所有顏文字標籤，發現各種風格的顏文字。',
-    type: 'website',
-    url: '/tag',
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const cookieStore = cookies();
+  const lang = ((await cookieStore).get('app-language')?.value || 'zh-tw') as Language;
+
+  return {
+    title: t('meta_tag_title', lang),
+    description: t('meta_tag_description', lang),
+    keywords: t('meta_tag_keywords', lang).split(','),
+    openGraph: {
+      title: t('meta_tag_og_title', lang),
+      description: t('meta_tag_og_description', lang),
+      type: 'website',
+      url: '/tag',
+    },
+  };
+}
 
 const TagPageContainer = () => {
   return <TagPage />;

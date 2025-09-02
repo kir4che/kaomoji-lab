@@ -10,57 +10,57 @@
     {
       "id": "decoration_001",
       "text": "ଘ♡ଓ*:ﾟ+｡.໒꒱°*。⋈｡♡:* :ﾟ+｡ଘ☆:ﾟ+｡⋈｡",
-      "tags": ["愛心", "裝飾"]
+      "tags": ["decoration", "love"]
     },
     {
       "id": "decoration_002",
       "text": "♥･*:.｡ ｡.:*･ﾟ♡･*:.｡ ｡.:*･ﾟ♥･*:.｡ ｡.:*･ﾟ",
-      "tags": ["愛心", "裝飾"]
+      "tags": ["decoration", "love"]
     },
     {
       "id": "decoration_003",
       "text": "ღ .*・゜♡゜・*:.ღ .*・゜♡゜・*:.ღ .*・゜",
-      "tags": ["愛心", "裝飾"]
+      "tags": ["decoration", "love"]
     },
     {
       "id": "decoration_004",
       "text": "♡・。・。・。・。・。・。・。・。♡",
-      "tags": ["愛心", "裝飾"]
+      "tags": ["decoration", "love"]
     },
     {
       "id": "decoration_005",
       "text": "♡･･*･･♡･･*･･♡･･*･･♡･･*･･♡･･*",
-      "tags": ["愛心"]
+      "tags": ["love"]
     },
     {
       "id": "decoration_006",
       "text": "♡･･････♡･･････♡･･････♡･･････♡",
-      "tags": ["愛心", "裝飾"]
+      "tags": ["decoration", "love"]
     },
     {
       "id": "decoration_007",
       "text": "♡┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈♡",
-      "tags": ["愛心"]
+      "tags": ["love"]
     },
     {
       "id": "decoration_008",
       "text": "❥❥❥+:;;;:+❥❥❥+:;;;:+❥❥❥+:;;;:+❥❥❥",
-      "tags": ["愛心", "裝飾"]
+      "tags": ["decoration", "love"]
     },
     {
       "id": "decoration_009",
       "text": "୨୧･･･････････････････････････････୨୧",
-      "tags": ["可愛"]
+      "tags": ["cute"]
     },
     {
       "id": "decoration_010",
       "text": "ꔫ･--･ꔫ･--･ꔫ･--･ꔫ･--･ꔫ･--･ꔫ･--･ꔫ",
-      "tags": ["裝飾"]
+      "tags": ["decoration"]
     },
     {
       "id": "decoration_011",
       "text": "･･⋈･-･･--･⋈･-･･--･⋈･-･･--･⋈･-･･--･⋈･･",
-      "tags": ["裝飾"]
+      "tags": ["decoration"]
     },
     {
       "id": "decoration_012",
@@ -70,52 +70,52 @@
     {
       "id": "decoration_013",
       "text": "୨୧⌒⌒⌒⌒⌒⌒⌒⌒⌒⌒⌒⌒⌒⌒⌒୨୧",
-      "tags": ["裝飾"]
+      "tags": ["decoration"]
     },
     {
       "id": "decoration_014",
       "text": "୨୧ ⑅ ୨୧ ⑅ ୨୧ ⑅ ୨୧ ⑅ ୨୧ ⑅ ୨୧ ⑅ ୨୧ ⑅ ୨୧ ⑅ ୨୧",
-      "tags": ["可愛"]
+      "tags": ["cute"]
     },
     {
       "id": "decoration_015",
       "text": "⋈・。・。⋈・。・。⋈・。・。⋈",
-      "tags": ["裝飾"]
+      "tags": ["decoration"]
     },
     {
       "id": "decoration_016",
       "text": "୨୧‥∵‥‥∵‥‥∵‥‥∵‥‥∵‥‥∵‥୨୧",
-      "tags": ["裝飾"]
+      "tags": ["decoration"]
     },
     {
       "id": "decoration_017",
       "text": "୨୧：：：：：：：：：：：：：：：：୨୧",
-      "tags": ["裝飾"]
+      "tags": ["decoration"]
     },
     {
       "id": "decoration_018",
       "text": "*.゜｡:+*.゜｡:+*.゜｡:+*.゜*.゜｡:+*.゜｡:+*.゜｡:+*.゜",
-      "tags": ["閃亮", "星星", "裝飾"]
+      "tags": ["decoration", "sparkle", "star"]
     },
     {
       "id": "decoration_019",
       "text": "＊.｡.＊ﾟ＊.｡.＊ﾟ＊.｡.＊ﾟ＊.｡.＊ﾟ＊.｡.＊ﾟ＊.｡.＊ﾟ",
-      "tags": ["閃亮", "裝飾"]
+      "tags": ["decoration", "sparkle"]
     },
     {
       "id": "decoration_020",
       "text": ".｡.:*･ﾟ＋.｡.:*･ﾟ＋.｡.:*･ﾟ＋.｡.:*･ﾟ＋.｡.:*･ﾟ＋",
-      "tags": ["裝飾"]
+      "tags": ["decoration"]
     },
     {
       "id": "decoration_021",
       "text": "ﾟ+｡*ﾟ+｡｡+ﾟ*｡+ﾟ ﾟ+｡*ﾟ+｡｡+ﾟ*｡+ﾟ ﾟ+｡*ﾟ+",
-      "tags": ["裝飾"]
+      "tags": ["decoration"]
     },
     {
       "id": "decoration_022",
       "text": "｡・ﾟ・。｡・ﾟ・。｡・ﾟ・。｡・ﾟ・｡・ﾟ・。",
-      "tags": ["裝飾"]
+      "tags": ["decoration"]
     },
     {
       "id": "decoration_023",
@@ -125,17 +125,17 @@
     {
       "id": "decoration_024",
       "text": "⌒＊｡*ﾟ＊⌒＊ﾟ*｡＊⌒＊｡*ﾟ＊⌒＊ ﾟ*｡＊⌒＊｡*ﾟ",
-      "tags": ["閃亮"]
+      "tags": ["sparkle"]
     },
     {
       "id": "decoration_025",
       "text": "꙳✧˖°⌖꙳✧˖°⌖꙳✧˖°⌖꙳✧˖°⌖꙳✧˖°⌖꙳✧˖°⌖꙳✧˖°⌖꙳✧˖°",
-      "tags": ["裝飾", "閃亮"]
+      "tags": ["decoration", "sparkle"]
     },
     {
       "id": "decoration_026",
       "text": "* `★・*☆` ・☪☽°☆・°:** `★・*☆` ・☪☽°☆・°:*-",
-      "tags": ["星星", "月亮", "裝飾"]
+      "tags": ["decoration", "moon", "star"]
     },
     {
       "id": "decoration_027",
@@ -145,7 +145,7 @@
     {
       "id": "decoration_028",
       "text": "✩ ⋆ ✩ ⋆ ✩ ⋆ ✩ ⋆ ✩ ⋆ ✩ ⋆ ✩",
-      "tags": ["裝飾"]
+      "tags": ["decoration"]
     },
     {
       "id": "decoration_029",
@@ -155,7 +155,7 @@
     {
       "id": "decoration_030",
       "text": "❁.｡.:*:.｡.✽.｡.:*:.｡.❁.｡.:*:.｡.✽.｡.:*:.｡.❁.｡.",
-      "tags": ["裝飾"]
+      "tags": ["decoration"]
     },
     {
       "id": "decoration_031",

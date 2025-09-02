@@ -15,18 +15,36 @@ export async function DELETE(req: NextRequest) {
       else throw new Error('Invalid request body: tags must be an array of strings.');
     } catch {
       const usedTags = await getUsedTags();
-      tagsToRemove = (indexData.tags ?? []).filter((tag) => !usedTags.has(tag));
+
+      const allTags = indexData.tags ?? [];
+      if (allTags.length > 0) {
+        if (typeof allTags[0] === 'object' && 'id' in allTags[0])
+          tagsToRemove = (allTags as any[])
+            .map((tag) => tag.id)
+            .filter((tagId: string) => !usedTags.has(tagId));
+        else tagsToRemove = (allTags as unknown as string[]).filter((tag) => !usedTags.has(tag));
+      }
     }
 
-    if (tagsToRemove.length === 0) {
+    if (tagsToRemove.length === 0)
       return NextResponse.json({
         success: true,
         message: 'No unused tags to clean up.',
         removedCount: 0,
       });
+
+    const currentTags = indexData.tags ?? [];
+    if (currentTags.length > 0) {
+      if (typeof currentTags[0] === 'object' && 'id' in currentTags[0])
+        indexData.tags = (currentTags as any[])
+          .filter((tag) => !tagsToRemove.includes(tag.id))
+          .sort((a, b) => a.id.localeCompare(b.id)) as any;
+      else
+        indexData.tags = (currentTags as unknown as string[])
+          .filter((tag) => !tagsToRemove.includes(tag))
+          .sort() as any;
     }
 
-    indexData.tags = (indexData.tags ?? []).filter((tag) => !tagsToRemove.includes(tag)).sort();
     await updateIndexFile(indexData);
 
     return NextResponse.json({

@@ -1,77 +1,52 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-import type { CategoryData } from '@/types/Kaomoji';
-import {
-  readIndexFile,
-  updateIndexFile,
-  readCategoryFile,
-  writeCategoryFile,
-  isTagInUse,
-  getTodayDateString,
-} from '@/services/dataService';
+import { readIndexFile, updateIndexFile, isTagInUse, getAllTags } from '@/services/dataService';
 
-function updateTagInCategory(
-  categoryData: CategoryData,
-  tagsToRemove: Set<string>,
-  newTag: string
-): boolean {
-  let categoryModified = false;
+export async function GET() {
+  try {
+    const tags = await getAllTags();
+    return NextResponse.json(tags);
+  } catch {
+    return NextResponse.json({ error: 'Failed to fetch tags.' }, { status: 500 });
+  }
+}
 
-  categoryData.items.forEach((item) => {
-    const tagSet = new Set(item.tags);
-    let itemModified = false;
+export async function POST(request: NextRequest) {
+  try {
+    const { id, name } = await request.json();
+    if (!id || !name || !name.en || !name['zh-tw'])
+      return NextResponse.json({ error: 'Missing required parameters.' }, { status: 400 });
 
-    tagsToRemove.forEach((tag) => {
-      if (tagSet.has(tag)) {
-        tagSet.delete(tag);
-        itemModified = true;
-      }
-    });
+    const indexData = await readIndexFile();
+    if (indexData.tags.some((tag) => tag.id === id))
+      return NextResponse.json({ error: 'Tag ID already exists.' }, { status: 409 });
 
-    if (itemModified) {
-      tagSet.add(newTag);
-      item.tags = [...tagSet].sort();
-      categoryModified = true;
-    }
-  });
+    indexData.tags.push({ id, name });
+    indexData.tags.sort((a, b) => a.id.localeCompare(b.id));
+    await updateIndexFile(indexData);
 
-  return categoryModified;
+    return NextResponse.json({ success: true, tag: { id, name } }, { status: 201 });
+  } catch {
+    return NextResponse.json({ error: 'Failed to create tag.' }, { status: 500 });
+  }
 }
 
 // 更新標籤
 export async function PUT(request: NextRequest) {
   try {
-    const { oldTag, oldTags, newTag } = await request.json();
-
-    if (!newTag || !(oldTag || (Array.isArray(oldTags) && oldTags.length > 0)))
+    const { id, name } = await request.json();
+    if (!id || !name || !name.en || !name['zh-tw'])
       return NextResponse.json({ error: 'Missing required parameters' }, { status: 400 });
 
     const indexData = await readIndexFile();
-    if ((indexData.tags ?? []).includes(newTag) && !(oldTags || []).includes(newTag))
-      return NextResponse.json({ error: 'New tag name already exists' }, { status: 400 });
+    const tagIndex = indexData.tags.findIndex((tag) => tag.id === id);
 
-    const rawTags: unknown[] = oldTags || [oldTag];
-    const tagsToUpdate = rawTags.filter((t): t is string => typeof t === 'string');
-    const tagsToRemove = new Set<string>(tagsToUpdate.filter((t) => t !== newTag));
+    if (tagIndex === -1) return NextResponse.json({ error: 'Tag not found.' }, { status: 404 });
 
-    for (const categoryInfo of indexData.categories) {
-      const categoryData = await readCategoryFile(categoryInfo.id);
-      if (!categoryData) continue;
-
-      const modified = updateTagInCategory(categoryData, tagsToRemove, newTag);
-      if (modified) {
-        categoryData.lastUpdated = getTodayDateString();
-        await writeCategoryFile(categoryData);
-      }
-    }
-
-    const finalTags = new Set(indexData.tags ?? []);
-    tagsToRemove.forEach((tag: string) => finalTags.delete(tag));
-    finalTags.add(newTag);
-    indexData.tags = [...finalTags].sort();
+    indexData.tags[tagIndex].name = name;
     await updateIndexFile(indexData);
 
-    return NextResponse.json({ success: true });
+    return NextResponse.json({ success: true, tag: indexData.tags[tagIndex] });
   } catch {
     return NextResponse.json({ error: 'Failed to update tag' }, { status: 500 });
   }
@@ -80,17 +55,22 @@ export async function PUT(request: NextRequest) {
 // 刪除標籤
 export async function DELETE(request: NextRequest) {
   try {
-    const { tag } = await request.json();
-    if (!tag) return NextResponse.json({ error: 'Missing tag name.' }, { status: 400 });
+    const { id } = await request.json();
+    if (!id) return NextResponse.json({ error: 'Missing tag ID.' }, { status: 400 });
 
-    if (await isTagInUse(tag))
+    if (await isTagInUse(id))
       return NextResponse.json(
         { error: 'Tag is still in use and cannot be deleted.' },
         { status: 400 }
       );
 
     const indexData = await readIndexFile();
-    indexData.tags = (indexData.tags ?? []).filter((t) => t !== tag);
+    const initialLength = indexData.tags.length;
+    indexData.tags = indexData.tags.filter((t) => t.id !== id);
+
+    if (indexData.tags.length === initialLength)
+      return NextResponse.json({ error: 'Tag not found.' }, { status: 404 });
+
     await updateIndexFile(indexData);
 
     return NextResponse.json({ success: true });

@@ -26,21 +26,7 @@ const nextConfig: NextConfig = {
 
     return config;
   },
-  babel: {
-    presets: [
-      [
-        'next/babel',
-        {
-          'preset-env': {
-            targets: {
-              esmodules: true,
-            },
-            useBuiltIns: false,
-          },
-        },
-      ],
-    ],
-  },
+
   experimental: {
     optimizeCss: true,
   },

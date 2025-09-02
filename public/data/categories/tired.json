@@ -10,132 +10,132 @@
     {
       "id": "tired_001",
       "text": "(๑´0`๑)",
-      "tags": ["睏"]
+      "tags": ["sleepy"]
     },
     {
       "id": "tired_003",
       "text": "ʕ´-ก̀ʔᐝ",
-      "tags": ["睏"]
+      "tags": ["sleepy"]
     },
     {
       "id": "tired_004",
       "text": "ᶻᶻᶻ",
-      "tags": ["文字", "睏"]
+      "tags": ["sleepy", "text"]
     },
     {
       "id": "tired_005",
       "text": "ʕ⊝ᴥ⊝ʔ",
-      "tags": ["熊", "睏", "閉眼"]
+      "tags": ["bear", "closed-eyes", "sleepy"]
     },
     {
       "id": "tired_007",
       "text": "_:(´□`」 ∠):_",
-      "tags": ["崩潰", "睏"]
+      "tags": ["breakdown", "sleepy"]
     },
     {
       "id": "tired_008",
       "text": "(-ω-)ゝ",
-      "tags": ["睏", "敬禮", "閉眼"]
+      "tags": ["closed-eyes", "salute", "sleepy"]
     },
     {
       "id": "tired_009",
       "text": "ヽ( ˘ω˘ )ゝ",
-      "tags": ["睏", "敬禮"]
+      "tags": ["salute", "sleepy"]
     },
     {
       "id": "tired_010",
       "text": "(〃´o｀)=3",
-      "tags": ["嘆氣", "無奈"]
+      "tags": ["helpless", "sigh"]
     },
     {
       "id": "tired_011",
       "text": "(*´Д｀)=з",
-      "tags": ["不滿", "嘆氣"]
+      "tags": ["displeased", "sigh"]
     },
     {
       "id": "tired_012",
       "text": "ε(´･●_･｀)з",
-      "tags": ["嘆氣", "無奈", "睏"]
+      "tags": ["helpless", "sigh", "sleepy"]
     },
     {
       "id": "tired_013",
       "text": "ヾ(⌒(_๑˘ㅂ˘๑)_)",
-      "tags": ["幸福"]
+      "tags": ["happiness"]
     },
     {
       "id": "tired_014",
       "text": "(´〜｀*) zzz",
-      "tags": ["無奈", "睏"]
+      "tags": ["helpless", "sleepy"]
     },
     {
       "id": "tired_015",
       "text": "(-_-) zzz",
-      "tags": ["無言", "睏", "閉眼"]
+      "tags": ["closed-eyes", "sleepy", "speechless"]
     },
     {
       "id": "tired_017",
       "text": "(-ｪ-)｡o",
-      "tags": ["思考", "睏", "閉眼"]
+      "tags": ["closed-eyes", "sleepy", "thinking"]
     },
     {
       "id": "tired_018",
       "text": "(。-ω-)zzz",
-      "tags": ["睏", "閉眼"]
+      "tags": ["closed-eyes", "sleepy"]
     },
     {
       "id": "tired_020",
       "text": "('´～`)",
-      "tags": ["睏"]
+      "tags": ["sleepy"]
     },
     {
       "id": "tired_021",
       "text": "(∪｡∪)｡｡｡zzz",
-      "tags": ["睏"]
+      "tags": ["sleepy"]
     },
     {
       "id": "tired_022",
       "text": "(ᴗ˳ᴗ)",
-      "tags": ["睏"]
+      "tags": ["sleepy"]
     },
     {
       "id": "tired_023",
       "text": "(ᵕ≀ ̠ᵕ )",
-      "tags": ["睏"]
+      "tags": ["sleepy"]
     },
     {
       "id": "tired_024",
       "text": "［(－－)］zzz",
-      "tags": ["睏", "閉眼"]
+      "tags": ["closed-eyes", "sleepy"]
     },
     {
       "id": "tired_025",
       "text": "( ु⁎ᴗ_ᴗ⁎)ु.｡oO",
-      "tags": ["可愛", "思考", "睏"]
+      "tags": ["cute", "sleepy", "thinking"]
     },
     {
       "id": "tired_028",
       "text": ".꒰ϱ﹏-๑꒱‧*Zz｡",
-      "tags": ["睏", "羊"]
+      "tags": ["sheep", "sleepy"]
     },
     {
       "id": "tired_029",
       "text": "(- o – ) zzZ",
-      "tags": ["睏", "閉眼"]
+      "tags": ["closed-eyes", "sleepy"]
     },
     {
       "id": "tired_030",
       "text": "[(－－)]..zzZ",
-      "tags": ["睏", "閉眼"]
+      "tags": ["closed-eyes", "sleepy"]
     },
     {
       "id": "tired_031",
       "text": "(✿◡‿◡ฺ)zzz",
-      "tags": ["幸福", "睏", "花"]
+      "tags": ["flower", "happiness", "sleepy"]
     },
     {
       "id": "tired_033",
       "text": "|[(*´ｪ`)]|zZＺ",
-      "tags": ["睏"]
+      "tags": ["sleepy"]
     },
     {
       "id": "tired_034",
@@ -145,87 +145,87 @@
     {
       "id": "tired_035",
       "text": "_:(´ཀ`」 ∠):_ …",
-      "tags": ["吐血", "睏"]
+      "tags": ["sleepy", "vomiting-blood"]
     },
     {
       "id": "tired_036",
       "text": "⋆｡˚ (¦3ꇤ[▓▓]⋆｡˚✩",
-      "tags": ["星星", "睏", "閉眼"]
+      "tags": ["closed-eyes", "sleepy", "star"]
     },
     {
       "id": "tired_037",
       "text": "＼(*-◇-)／｡ﾟоО",
-      "tags": ["嘆氣", "無奈", "睏", "閉眼"]
+      "tags": ["closed-eyes", "helpless", "sigh", "sleepy"]
     },
     {
       "id": "tired_038",
       "text": "(;´ρ`)",
-      "tags": ["睏"]
+      "tags": ["sleepy"]
     },
     {
       "id": "tired_039",
       "text": "(*´ο`*)",
-      "tags": ["睏"]
+      "tags": ["sleepy"]
     },
     {
       "id": "tired_040",
       "text": "(▰˘o˘▰)",
-      "tags": ["幸福", "睏"]
+      "tags": ["happiness", "sleepy"]
     },
     {
       "id": "tired_041",
       "text": "ヽ( ´O｀)ゞ",
-      "tags": ["睏", "敬禮"]
+      "tags": ["salute", "sleepy"]
     },
     {
       "id": "tired_043",
       "text": "（´○｀）～ゝ",
-      "tags": ["睏", "敬禮"]
+      "tags": ["salute", "sleepy"]
     },
     {
       "id": "tired_046",
       "text": "(´-ω-｀)",
-      "tags": ["無奈", "睏", "閉眼"]
+      "tags": ["closed-eyes", "helpless", "sleepy"]
     },
     {
       "id": "tired_047",
       "text": "(　³ω³ )",
-      "tags": ["睏", "親"]
+      "tags": ["kiss", "sleepy"]
     },
     {
       "id": "tired_048",
       "text": "(＝ω＝.)",
-      "tags": ["無奈", "睏", "閉眼"]
+      "tags": ["closed-eyes", "helpless", "sleepy"]
     },
     {
       "id": "tired_049",
       "text": "(ू′o‵ ू)*✲ﾟ",
-      "tags": ["嘆氣", "睏", "閃亮"]
+      "tags": ["sigh", "sleepy", "sparkle"]
     },
     {
       "id": "tired_050",
       "text": "(＃´Ｏ｀)",
-      "tags": ["叫喊", "嘆氣", "睏"]
+      "tags": ["shout", "sigh", "sleepy"]
     },
     {
       "id": "tired_052",
       "text": "(＠´＿｀＠)",
-      "tags": ["嘆氣", "睏"]
+      "tags": ["sigh", "sleepy"]
     },
     {
       "id": "tired_055",
       "text": "(๑´ㅁ`)",
-      "tags": ["睏"]
+      "tags": ["sleepy"]
     },
     {
       "id": "tired_056",
       "text": "( ᎔˘꒳˘᎔)",
-      "tags": ["可愛", "幸福", "睏"]
+      "tags": ["cute", "happiness", "sleepy"]
     },
     {
       "id": "tired_057",
       "text": "(､｡ ̫ ｡)､",
-      "tags": ["睏"]
+      "tags": ["sleepy"]
     },
     {
       "id": "tired_060",
@@ -235,77 +235,77 @@
     {
       "id": "tired_061",
       "text": "(－‸ლ)",
-      "tags": ["無言", "閉眼"]
+      "tags": ["closed-eyes", "speechless"]
     },
     {
       "id": "tired_062",
       "text": "[(－－)]..zzZ",
-      "tags": ["睏", "閉眼"]
+      "tags": ["closed-eyes", "sleepy"]
     },
     {
       "id": "tired_063",
       "text": "(－_－) zzZ",
-      "tags": ["無言", "睏", "閉眼"]
+      "tags": ["closed-eyes", "sleepy", "speechless"]
     },
     {
       "id": "tired_064",
       "text": "(∪｡∪)｡｡｡zzZ",
-      "tags": ["睏"]
+      "tags": ["sleepy"]
     },
     {
       "id": "tired_065",
       "text": "(－ω－) zzZ",
-      "tags": ["睏", "閉眼"]
+      "tags": ["closed-eyes", "sleepy"]
     },
     {
       "id": "tired_066",
       "text": "(￣o￣) zzZZzzZZ",
-      "tags": ["睏", "閉眼"]
+      "tags": ["closed-eyes", "sleepy"]
     },
     {
       "id": "tired_067",
       "text": "(( _ _ ))..zzzZZ",
-      "tags": ["睏", "閉眼"]
+      "tags": ["closed-eyes", "sleepy"]
     },
     {
       "id": "tired_069",
       "text": "(－.－)...zzz",
-      "tags": ["睏", "閉眼"]
+      "tags": ["closed-eyes", "sleepy"]
     },
     {
       "id": "tired_070",
       "text": "(＿ ＿*) Z z z",
-      "tags": ["睏", "閉眼"]
+      "tags": ["closed-eyes", "sleepy"]
     },
     {
       "id": "tired_071",
       "text": "(x . x) ~~zzZ",
-      "tags": ["睏"]
+      "tags": ["sleepy"]
     },
     {
       "id": "tired_073",
       "text": "(⑅ ‘﹃’ )",
-      "tags": ["流口水", "睏"]
+      "tags": ["drooling", "sleepy"]
     },
     {
       "id": "tired_074",
       "text": "(￣﹃￣)",
-      "tags": ["流口水", "睏"]
+      "tags": ["drooling", "sleepy"]
     },
     {
       "id": "tired_075",
       "text": "（¯﹃¯）",
-      "tags": ["流口水", "睏"]
+      "tags": ["drooling", "sleepy"]
     },
     {
       "id": "tired_076",
       "text": "_(┐「﹃ﾟ｡)_",
-      "tags": ["流口水", "睏"]
+      "tags": ["drooling", "sleepy"]
     },
     {
       "id": "tired_077",
       "text": "ԅ(¯﹃¯ԅ)",
-      "tags": ["吃", "捏", "睏"]
+      "tags": ["eating", "pinch", "sleepy"]
     }
   ]
 }

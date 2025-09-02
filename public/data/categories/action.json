@@ -10,47 +10,47 @@
     {
       "id": "action_001",
       "text": "( ง⁼̴̀ω⁼̴ )ง⁼³₌₃",
-      "tags": ["幹勁", "跑"]
+      "tags": ["motivated", "running"]
     },
     {
       "id": "action_002",
       "text": "( *・ω・)✄╰ひ╯",
-      "tags": ["剪刀", "腹黑"]
+      "tags": ["scheming", "scissors"]
     },
     {
       "id": "action_004",
       "text": "‎|•'-'•) ✧",
-      "tags": ["偷偷", "閃亮"]
+      "tags": ["peeking", "sparkle"]
     },
     {
       "id": "action_007",
       "text": "(⚭-⚭ ) ੭",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "action_008",
       "text": "▄█▀█●",
-      "tags": ["崩潰", "拜託", "道歉"]
+      "tags": ["apologize", "breakdown", "please"]
     },
     {
       "id": "action_009",
       "text": "ฅ'ω'ฅ",
-      "tags": ["動物", "舉起雙手"]
+      "tags": ["animal", "hands-up"]
     },
     {
       "id": "action_013",
       "text": "=͟͟͞͞(･∇･ ‧̣̥̇)",
-      "tags": ["嚇一跳"]
+      "tags": ["startled"]
     },
     {
       "id": "action_015",
       "text": "（๑⃙⃘´༥`๑⃙⃘)",
-      "tags": ["吃", "幸福"]
+      "tags": ["eating", "happiness"]
     },
     {
       "id": "action_019",
       "text": "(˘▼˘>ԅ( ˘⌣ƪ)",
-      "tags": ["安慰", "捏", "閉眼"]
+      "tags": ["closed-eyes", "comfort", "pinch"]
     },
     {
       "id": "action_020",
@@ -60,387 +60,387 @@
     {
       "id": "action_021",
       "text": "(¬_¬”)-cԅ(‾⌣‾ԅ)",
-      "tags": ["微笑", "捏", "無言", "閉眼"]
+      "tags": ["closed-eyes", "pinch", "smile", "speechless"]
     },
     {
       "id": "action_023",
       "text": "ԅ( ˘ω˘ ԅ)",
-      "tags": ["幸福", "捏", "閉眼"]
+      "tags": ["closed-eyes", "happiness", "pinch"]
     },
     {
       "id": "action_024",
       "text": "ԅ(´ڡ`ԅ)",
-      "tags": ["吃", "幸福", "抓"]
+      "tags": ["eating", "grab", "happiness"]
     },
     {
       "id": "action_027",
       "text": "( ´థ౪థ)σ’`ﾞ",
-      "tags": ["指"]
+      "tags": ["pointing"]
     },
     {
       "id": "action_028",
       "text": "〈(•ˇ‿ˇ•)-→",
-      "tags": ["指", "開心"]
+      "tags": ["happy", "pointing"]
     },
     {
       "id": "action_029",
       "text": "┗(•ˇ_ˇ•)―→",
-      "tags": ["指", "嚴肅"]
+      "tags": ["pointing", "serious"]
     },
     {
       "id": "action_036",
       "text": "[☆ ｀･⊇･´]っ",
-      "tags": ["星星"]
+      "tags": ["star"]
     },
     {
       "id": "action_039",
       "text": "(*＾-‘) ",
-      "tags": ["可愛", "眨眼"]
+      "tags": ["cute", "wink"]
     },
     {
       "id": "action_041",
       "text": "┻━┻ ︵ ლ(⌒-⌒ლ)",
-      "tags": ["不滿", "翻桌", "腹黑"]
+      "tags": ["displeased", "scheming", "table-flip"]
     },
     {
       "id": "action_042",
       "text": "(ʘ∇ʘ)ク 彡 ┻━┻",
-      "tags": ["不滿", "目瞪口呆", "翻桌"]
+      "tags": ["displeased", "dumbfounded", "table-flip"]
     },
     {
       "id": "action_044",
       "text": "(ノ ﾟДﾟ)ノ　＝＝＝＝　┻━━┻",
-      "tags": ["翻桌"]
+      "tags": ["table-flip"]
     },
     {
       "id": "action_045",
       "text": "!!!!|┛*｀Д´|┛・・~~┻━┻　┳━┳",
-      "tags": ["不滿", "叫喊", "激動", "生氣", "翻桌", "舉起雙手"]
+      "tags": ["angry", "displeased", "excited", "hands-up", "shout", "table-flip"]
     },
     {
       "id": "action_048",
       "text": "┬─┬ノ(ಠ_ಠノ)",
-      "tags": ["嚴肅", "生氣", "翻桌"]
+      "tags": ["angry", "serious", "table-flip"]
     },
     {
       "id": "action_049",
       "text": "┬━┬ ノ( ゜-゜ノ)",
-      "tags": ["翻桌"]
+      "tags": ["table-flip"]
     },
     {
       "id": "action_050",
       "text": "┳━┳ ヽ༼ಠل͜ಠ༽ﾉ",
-      "tags": ["生氣", "翻桌"]
+      "tags": ["angry", "table-flip"]
     },
     {
       "id": "action_051",
       "text": "(ヘ･_･)ヘ┳━┳",
-      "tags": ["翻桌"]
+      "tags": ["table-flip"]
     },
     {
       "id": "action_052",
       "text": "(⁎·́௰·̀)◞ ͂͂(˒̩̩̥́௰˓̩̩̥̀⁎)",
-      "tags": ["安慰"]
+      "tags": ["comfort"]
     },
     {
       "id": "action_053",
       "text": "( ‘́⌣’̀)/(˘̩̩ε˘̩ƪ)",
-      "tags": ["安慰"]
+      "tags": ["comfort"]
     },
     {
       "id": "action_054",
       "text": "(￣^￣ﾒ)＼(_ _ ;)",
-      "tags": ["安慰", "道歉", "生氣"]
+      "tags": ["angry", "apologize", "comfort"]
     },
     {
       "id": "action_055",
       "text": "ヾ(_ _*)",
-      "tags": ["安慰"]
+      "tags": ["comfort"]
     },
     {
       "id": "action_056",
       "text": "ヾ(_ _。）",
-      "tags": ["安慰"]
+      "tags": ["comfort"]
     },
     {
       "id": "action_057",
       "text": "(m｡_ _)/",
-      "tags": ["道歉"]
+      "tags": ["apologize"]
     },
     {
       "id": "action_058",
       "text": "ヽ( ･∀･)ﾉ┌┛Σ(ノ `Д´)ノ",
-      "tags": ["攻擊", "開心"]
+      "tags": ["attack", "happy"]
     },
     {
       "id": "action_059",
       "text": "♪o(*´∇｀)┌θ☆(ﾉ>_<)ﾉ",
-      "tags": ["攻擊", "開心", "音樂"]
+      "tags": ["attack", "happy", "music"]
     },
     {
       "id": "action_061",
       "text": "ヽ( ￣∀￣)ﾉ┌┛Σ(ノ ・Д・)ノ",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "action_062",
       "text": "!ヾ(▼皿▼ﾒ)┌θ☆(ﾉ □ )ﾉ ﾟ ﾟ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "action_063",
       "text": "ヽ(*´ｪ｀)ﾉ┌┛Σ(ﾉ´ｪ｀)ﾉ",
-      "tags": ["朋友"]
+      "tags": ["friend"]
     },
     {
       "id": "action_065",
       "text": "ﾍ(*ﾟｰﾟ)┌θ)ﾟﾛﾟ)ﾉ",
-      "tags": ["驚訝", "攻擊"]
+      "tags": ["attack", "surprised"]
     },
     {
       "id": "action_066",
       "text": "( ･´Д｀･)┌θ☆(ﾉ´>ω<)ﾉ",
-      "tags": ["攻擊", "生氣", "難過"]
+      "tags": ["angry", "attack", "sad"]
     },
     {
       "id": "action_067",
       "text": "(ｏﾟﾛﾟ)┌┛Σ(ﾉ´*ω*｀)ﾉ",
-      "tags": ["驚訝", "攻擊"]
+      "tags": ["attack", "surprised"]
     },
     {
       "id": "action_068",
       "text": "ヽ(#ﾟДﾟ)ﾉ┌┛(ﾉ´Д｀)ﾉ",
-      "tags": ["攻擊", "生氣"]
+      "tags": ["angry", "attack"]
     },
     {
       "id": "action_069",
       "text": "(((ง’ω’)و三 ง’ω’)ڡ≡",
-      "tags": ["攻擊", "跑"]
+      "tags": ["attack", "running"]
     },
     {
       "id": "action_070",
       "text": "‾͟͟͞(((ꎤˋ⁻̫ˊ)—̳͟͞͞o",
-      "tags": ["攻擊", "跑"]
+      "tags": ["attack", "running"]
     },
     {
       "id": "action_072",
       "text": "(⋆ˋ⑉̈ˊ)൭൭⁼³₌₃",
-      "tags": ["加油", "幹勁", "跑"]
+      "tags": ["cheer-up", "motivated", "running"]
     },
     {
       "id": "action_073",
       "text": "(((ꎤ’ω’)و三 ꎤ’ω’)-o≡",
-      "tags": ["攻擊", "跑"]
+      "tags": ["attack", "running"]
     },
     {
       "id": "action_075",
       "text": "(∩`ω´)⊃))",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "action_076",
       "text": "(((c=(ﾟﾛﾟ;q)",
-      "tags": ["嚇一跳", "緊張", "跑"]
+      "tags": ["nervous", "running", "startled"]
     },
     {
       "id": "action_078",
       "text": "((⊂(`ω´∩)",
-      "tags": ["攻擊", "擁抱"]
+      "tags": ["attack", "hug"]
     },
     {
       "id": "action_079",
       "text": "‾͟͟͞(((ꎤ๑‾᷅༬‾᷄๑)̂—̳͟͞͞o",
-      "tags": ["攻擊", "生氣", "跑"]
+      "tags": ["angry", "attack", "running"]
     },
     {
       "id": "action_080",
       "text": "((( งᵒ̴̶̷᷅ᐜᵒ̴̶̷᷄)ง三 ( งᵒ̴̶̷᷅ᐜᵒ̴̶̷᷄)ڡ≡",
-      "tags": ["哭", "攻擊", "生氣"]
+      "tags": ["angry", "attack", "crying"]
     },
     {
       "id": "action_081",
       "text": "( ◞•̀д•́)◞⚔◟(•̀д•́◟ )",
-      "tags": ["叫喊", "攻擊", "激動", "生氣"]
+      "tags": ["angry", "attack", "excited", "shout"]
     },
     {
       "id": "action_082",
       "text": "Ｏ( ｀_´)乂(｀_´ )Ｏ",
-      "tags": ["朋友"]
+      "tags": ["friend"]
     },
     {
       "id": "action_083",
       "text": "|_・)",
-      "tags": ["偷偷"]
+      "tags": ["peeking"]
     },
     {
       "id": "action_084",
       "text": "|ω・）",
-      "tags": ["偷偷"]
+      "tags": ["peeking"]
     },
     {
       "id": "action_085",
       "text": "|ω･`)",
-      "tags": ["偷偷"]
+      "tags": ["peeking"]
     },
     {
       "id": "action_086",
       "text": "|･ω･`*)ッ",
-      "tags": ["偷偷"]
+      "tags": ["peeking"]
     },
     {
       "id": "action_087",
       "text": "|∀･)ジ",
-      "tags": ["偷偷", "指"]
+      "tags": ["peeking", "pointing"]
     },
     {
       "id": "action_088",
       "text": "|д･)",
-      "tags": ["偷偷", "驚訝"]
+      "tags": ["peeking", "surprised"]
     },
     {
       "id": "action_089",
       "text": "༼ᕗຈل͜ຈ༽ᕗ",
-      "tags": ["肌肉", "自信", "跑"]
+      "tags": ["confident", "muscle", "running"]
     },
     {
       "id": "action_090",
       "text": "ε=ε=┏( >_<)┛",
-      "tags": ["緊張", "跑"]
+      "tags": ["nervous", "running"]
     },
     {
       "id": "action_091",
       "text": "ε=ε=ε=┌(๑ʘ∀ʘ)┘",
-      "tags": ["興奮", "跑", "驚訝"]
+      "tags": ["running", "surprised", "thrilled"]
     },
     {
       "id": "action_092",
       "text": "ε=ε=ε=ε=┏(;￣▽￣)┛",
-      "tags": ["尷尬", "緊張", "跑"]
+      "tags": ["embarrassed", "nervous", "running"]
     },
     {
       "id": "action_093",
       "text": "ε＝┏(･ω･)┛",
-      "tags": ["跑"]
+      "tags": ["running"]
     },
     {
       "id": "action_094",
       "text": "三┏ ( ˘ω˘ )┛",
-      "tags": ["睏", "跑"]
+      "tags": ["running", "sleepy"]
     },
     {
       "id": "action_095",
       "text": "₍₍ ᕕ(´◓⌓◔)ᕗ⁾⁾",
-      "tags": ["困惑", "緊張", "跑"]
+      "tags": ["confused", "nervous", "running"]
     },
     {
       "id": "action_096",
       "text": "ε=┌(;･_･)┘",
-      "tags": ["緊張", "跑"]
+      "tags": ["nervous", "running"]
     },
     {
       "id": "action_097",
       "text": "ε=ε=ε=ε=ε=ε=┌(￣ー￣)┘",
-      "tags": ["自信", "跑"]
+      "tags": ["confident", "running"]
     },
     {
       "id": "action_098",
       "text": "└(>ω<。)┐-=≡",
-      "tags": ["哭", "跑"]
+      "tags": ["crying", "running"]
     },
     {
       "id": "action_099",
       "text": "ᕕ( ◎_◎)ᕗ",
-      "tags": ["嚇一跳", "跑", "驚訝"]
+      "tags": ["running", "startled", "surprised"]
     },
     {
       "id": "action_100",
       "text": "ε=ε=ε=ε=ε=ε=┏(*´∀｀)┛",
-      "tags": ["跑", "開心"]
+      "tags": ["happy", "running"]
     },
     {
       "id": "action_101",
       "text": "┏( ゜)ਊ゜)┛",
-      "tags": ["跑"]
+      "tags": ["running"]
     },
     {
       "id": "action_103",
       "text": "・・・・・・・┌|*´∀｀|┘",
-      "tags": ["跑", "開心"]
+      "tags": ["happy", "running"]
     },
     {
       "id": "action_104",
       "text": "===≡≡≡｡ﾟ┌(ﾟ´Д`ﾟ)┘ﾟ｡",
-      "tags": ["哭", "崩潰", "跑"]
+      "tags": ["breakdown", "crying", "running"]
     },
     {
       "id": "action_105",
       "text": "┗(^o^　)┓三",
-      "tags": ["萬歲", "跑", "開心"]
+      "tags": ["banzai", "happy", "running"]
     },
     {
       "id": "action_106",
       "text": "─=≡Σ((( つ•̀ω•́)つ",
-      "tags": ["加油", "幹勁", "跑"]
+      "tags": ["cheer-up", "motivated", "running"]
     },
     {
       "id": "action_107",
       "text": "ε=ε=(っ*´□`)っ",
-      "tags": ["哭", "跑"]
+      "tags": ["crying", "running"]
     },
     {
       "id": "action_108",
       "text": "─=≡Σ((( つ◕ل͜◕)つ",
-      "tags": ["大眼", "搞怪", "自信", "跑"]
+      "tags": ["big-eyes", "confident", "goofy", "running"]
     },
     {
       "id": "action_109",
       "text": "……..(((((￢￣▽￣)￢",
-      "tags": ["偷偷", "自信"]
+      "tags": ["confident", "peeking"]
     },
     {
       "id": "action_110",
       "text": "-=≡Σ(((⊃ﾟ∀ﾟ)つ",
-      "tags": ["興奮", "跑", "開心"]
+      "tags": ["happy", "running", "thrilled"]
     },
     {
       "id": "action_111",
       "text": "!!Σ≡≡≡((っ`･Å･)っ",
-      "tags": ["生氣", "跑"]
+      "tags": ["angry", "running"]
     },
     {
       "id": "action_112",
       "text": "⊂＝⊂＝⊂(┛ﾟΘﾟ)┛",
-      "tags": ["動物", "跑", "驚訝"]
+      "tags": ["animal", "running", "surprised"]
     },
     {
       "id": "action_113",
       "text": "ε-ε-ヾ(o´∀)ノ",
-      "tags": ["跑", "開心"]
+      "tags": ["happy", "running"]
     },
     {
       "id": "action_114",
       "text": "ε=ε=ε=(#`・д・)/",
-      "tags": ["生氣", "跑"]
+      "tags": ["angry", "running"]
     },
     {
       "id": "action_115",
       "text": "ε=(ノ≧∇≦）ノ",
-      "tags": ["興奮", "跑", "開心"]
+      "tags": ["happy", "running", "thrilled"]
     },
     {
       "id": "action_116",
       "text": "٩(•౪•٩)三",
-      "tags": ["搞怪", "自信", "跑"]
+      "tags": ["confident", "goofy", "running"]
     },
     {
       "id": "action_117",
       "text": "☆ヾ(･ε･*)ﾉﾞ =з=з=з",
-      "tags": ["愛心", "親", "跑"]
+      "tags": ["kiss", "love", "running"]
     },
     {
       "id": "action_118",
       "text": "─=≡Σ((((ó ì_í)=ó",
-      "tags": ["攻擊", "跑"]
+      "tags": ["attack", "running"]
     },
     {
       "id": "action_119",
@@ -455,67 +455,67 @@
     {
       "id": "action_121",
       "text": "(’ω’ ⊃)⊃三二一",
-      "tags": ["跑"]
+      "tags": ["running"]
     },
     {
       "id": "action_122",
       "text": "(-ω-ゞ",
-      "tags": ["睏", "敬禮"]
+      "tags": ["salute", "sleepy"]
     },
     {
       "id": "action_123",
       "text": "(〃´・ω・`)ゝ",
-      "tags": ["害羞", "敬禮"]
+      "tags": ["salute", "shy"]
     },
     {
       "id": "action_125",
       "text": "o(*￣○￣)ゝ",
-      "tags": ["叫喊", "敬禮"]
+      "tags": ["salute", "shout"]
     },
     {
       "id": "action_126",
       "text": "ヾ|*ﾟωﾟ|ゞ",
-      "tags": ["敬禮", "驚訝"]
+      "tags": ["salute", "surprised"]
     },
     {
       "id": "action_127",
       "text": "ヽ|･ω･|ゞ",
-      "tags": ["敬禮"]
+      "tags": ["salute"]
     },
     {
       "id": "action_128",
       "text": "┏( ﾟωﾟ)ゝ",
-      "tags": ["敬禮"]
+      "tags": ["salute"]
     },
     {
       "id": "action_129",
       "text": "<(¬＿¬<)",
-      "tags": ["指", "無言"]
+      "tags": ["pointing", "speechless"]
     },
     {
       "id": "action_130",
       "text": "(●°u°●)​ 」",
-      "tags": ["叫喊"]
+      "tags": ["shout"]
     },
     {
       "id": "action_131",
       "text": "♪( ･ｪ･)ﾂ彡",
-      "tags": ["動物", "狗狗", "羊", "跳舞", "開心", "音樂"]
+      "tags": ["animal", "dancing", "dog", "happy", "music", "sheep"]
     },
     {
       "id": "action_133",
       "text": "＼(°o°；）",
-      "tags": ["嚇一跳", "驚訝"]
+      "tags": ["startled", "surprised"]
     },
     {
       "id": "action_134",
       "text": "“Σ⊂(☉ω☉∩ )",
-      "tags": ["嚇一跳", "攻擊", "驚訝"]
+      "tags": ["attack", "startled", "surprised"]
     },
     {
       "id": "action_135",
       "text": "(ง °Θ°)ว",
-      "tags": ["動物", "跳舞"]
+      "tags": ["animal", "dancing"]
     },
     {
       "id": "action_136",
@@ -525,17 +525,17 @@
     {
       "id": "action_138",
       "text": "(¬_¬)ﾉ",
-      "tags": ["無言"]
+      "tags": ["speechless"]
     },
     {
       "id": "action_139",
       "text": "＼( ･_･)",
-      "tags": ["指"]
+      "tags": ["pointing"]
     },
     {
       "id": "action_140",
       "text": "*+( ๑´•ω•)۶”",
-      "tags": ["安慰", "加油"]
+      "tags": ["cheer-up", "comfort"]
     },
     {
       "id": "action_141",
@@ -545,32 +545,32 @@
     {
       "id": "action_143",
       "text": "☆=(ゝω･)",
-      "tags": ["可愛", "攻擊"]
+      "tags": ["attack", "cute"]
     },
     {
       "id": "action_144",
       "text": "＿φ( °-°)/",
-      "tags": ["寫字"]
+      "tags": ["writing"]
     },
     {
       "id": "action_145",
       "text": "φ(￣￢￣ヾ)",
-      "tags": ["寫字"]
+      "tags": ["writing"]
     },
     {
       "id": "action_146",
       "text": "φ(´д｀ｏ)",
-      "tags": ["寫字"]
+      "tags": ["writing"]
     },
     {
       "id": "action_147",
       "text": "_〆(。。)",
-      "tags": ["寫字"]
+      "tags": ["writing"]
     },
     {
       "id": "action_148",
       "text": "…_〆(ﾟ▽ﾟ*)",
-      "tags": ["寫字"]
+      "tags": ["writing"]
     },
     {
       "id": "action_150",
@@ -580,7 +580,7 @@
     {
       "id": "action_151",
       "text": "ヾ(⌐■_■)ノ♪",
-      "tags": ["墨鏡", "自信", "跳舞", "音樂"]
+      "tags": ["confident", "dancing", "music", "sunglasses"]
     },
     {
       "id": "action_153",
@@ -590,17 +590,17 @@
     {
       "id": "action_155",
       "text": "(｢`･ω･)｢",
-      "tags": ["自信"]
+      "tags": ["confident"]
     },
     {
       "id": "action_156",
       "text": "(ノ〝∩｡∩)ﾉ",
-      "tags": ["害羞", "舉起雙手", "開心"]
+      "tags": ["hands-up", "happy", "shy"]
     },
     {
       "id": "action_157",
       "text": "┛´Д｀┃┛))",
-      "tags": ["生氣", "跑"]
+      "tags": ["angry", "running"]
     },
     {
       "id": "action_158",
@@ -610,7 +610,7 @@
     {
       "id": "action_159",
       "text": "(´「^o^)「",
-      "tags": ["叫喊"]
+      "tags": ["shout"]
     },
     {
       "id": "action_160",
@@ -620,27 +620,27 @@
     {
       "id": "action_161",
       "text": "ヽ(･ω･ゞ)",
-      "tags": ["敬禮"]
+      "tags": ["salute"]
     },
     {
       "id": "action_162",
       "text": "＼(^ω^＼)",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "action_163",
       "text": "ヾ(-_- )ゞ",
-      "tags": ["無奈", "敬禮"]
+      "tags": ["helpless", "salute"]
     },
     {
       "id": "action_164",
       "text": "ヾ(^^ゞ)",
-      "tags": ["敬禮"]
+      "tags": ["salute"]
     },
     {
       "id": "action_165",
       "text": "ヾ(ﾟ∀ﾟゞ)",
-      "tags": ["興奮", "敬禮"]
+      "tags": ["salute", "thrilled"]
     },
     {
       "id": "action_166",
@@ -655,12 +655,12 @@
     {
       "id": "action_168",
       "text": "ゝ(▽｀*ゝ)",
-      "tags": ["可愛", "開心"]
+      "tags": ["cute", "happy"]
     },
     {
       "id": "action_169",
       "text": "ヘ(^0^)ヘ",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "action_170",
@@ -670,32 +670,32 @@
     {
       "id": "action_171",
       "text": "7(^-^7)",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "action_172",
       "text": "₍₍ ◝(・ω・)◟ ⁾⁾",
-      "tags": ["跳舞", "開心"]
+      "tags": ["dancing", "happy"]
     },
     {
       "id": "action_173",
       "text": "₍₍ ◝( ･’ω’･ )◟ ⁾⁾",
-      "tags": ["自信", "跳舞", "開心"]
+      "tags": ["confident", "dancing", "happy"]
     },
     {
       "id": "action_174",
       "text": "┏(｀o´)┓",
-      "tags": ["叫喊", "生氣", "萬歲"]
+      "tags": ["angry", "banzai", "shout"]
     },
     {
       "id": "action_175",
       "text": "┏(｀ー´)┓",
-      "tags": ["自信"]
+      "tags": ["confident"]
     },
     {
       "id": "action_176",
       "text": "└(^o^)┐",
-      "tags": ["萬歲", "開心"]
+      "tags": ["banzai", "happy"]
     },
     {
       "id": "action_178",
@@ -705,72 +705,72 @@
     {
       "id": "action_179",
       "text": "♫ ┌༼ຈل͜ຈ༽┘ ♪",
-      "tags": ["搞怪", "自信", "跳舞", "音樂"]
+      "tags": ["confident", "dancing", "goofy", "music"]
     },
     {
       "id": "action_180",
       "text": "└|∵┌|",
-      "tags": ["偷偷"]
+      "tags": ["peeking"]
     },
     {
       "id": "action_181",
       "text": "(（（（o┤｀･ｪ･´├o））））)",
-      "tags": ["動物", "生氣"]
+      "tags": ["angry", "animal"]
     },
     {
       "id": "action_182",
       "text": "(._.) ƪ(‘-‘ ƪ)(ʃ ‘-‘)ʃ (/._.)/",
-      "tags": ["朋友", "跳舞"]
+      "tags": ["dancing", "friend"]
     },
     {
       "id": "action_183",
       "text": "ʅ(◔౪◔ʅ)三(ʃ◔౪◔)ʃ",
-      "tags": ["搞怪", "自信"]
+      "tags": ["confident", "goofy"]
     },
     {
       "id": "action_184",
       "text": "L(‘ω’)┘三└(‘ω’)」",
-      "tags": ["跑"]
+      "tags": ["running"]
     },
     {
       "id": "action_185",
       "text": "┗( ^o^)┛≡┏( ^o^)┓≡┗( ^o^)┛",
-      "tags": ["跑", "開心"]
+      "tags": ["happy", "running"]
     },
     {
       "id": "action_186",
       "text": "(　￣▽)爻(▽￣　)",
-      "tags": ["朋友"]
+      "tags": ["friend"]
     },
     {
       "id": "action_187",
       "text": "((／*~▽)乂(▽~*＼))",
-      "tags": ["朋友"]
+      "tags": ["friend"]
     },
     {
       "id": "action_188",
       "text": "(ﾉ^^)乂(^^ )ﾉ",
-      "tags": ["朋友", "開心"]
+      "tags": ["friend", "happy"]
     },
     {
       "id": "action_189",
       "text": "(p´･∀･)乂(･∀･｀q)",
-      "tags": ["朋友", "開心"]
+      "tags": ["friend", "happy"]
     },
     {
       "id": "action_190",
       "text": "(σ･з･)σ",
-      "tags": ["指", "生氣", "親"]
+      "tags": ["angry", "kiss", "pointing"]
     },
     {
       "id": "action_191",
       "text": "(> ^_^ )>",
-      "tags": ["擁抱", "開心"]
+      "tags": ["happy", "hug"]
     },
     {
       "id": "action_192",
       "text": "ლ(́◉◞౪◟◉‵ლ)",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "action_193",
@@ -780,37 +780,37 @@
     {
       "id": "action_194",
       "text": "⊂(・▽・⊂)",
-      "tags": ["擁抱"]
+      "tags": ["hug"]
     },
     {
       "id": "action_195",
       "text": "─=≡Σ((( つºل͜º)つ",
-      "tags": ["搞怪", "擁抱", "自信", "跑"]
+      "tags": ["confident", "goofy", "hug", "running"]
     },
     {
       "id": "action_196",
       "text": "～～～～(/￣ｰ(･･｡)/",
-      "tags": ["安慰"]
+      "tags": ["comfort"]
     },
     {
       "id": "action_197",
       "text": "～～(つˆДˆ)つﾉ>｡☆)ﾉ",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "action_198",
       "text": "(>^_^)><(^o^<)",
-      "tags": ["擁抱", "朋友", "開心"]
+      "tags": ["friend", "happy", "hug"]
     },
     {
       "id": "action_199",
       "text": "(´◉◞౪◟◉)⊃))⊙ω⊙)",
-      "tags": ["攻擊", "目瞪口呆"]
+      "tags": ["attack", "dumbfounded"]
     },
     {
       "id": "action_200",
       "text": "(￣ー￣(｡-_-｡*)ゝ",
-      "tags": ["安慰"]
+      "tags": ["comfort"]
     },
     {
       "id": "action_201",
@@ -820,17 +820,17 @@
     {
       "id": "action_202",
       "text": "(/´-(~。~*)/",
-      "tags": ["安慰", "擁抱", "睏"]
+      "tags": ["comfort", "hug", "sleepy"]
     },
     {
       "id": "action_203",
       "text": "♪((●>ω<)っ)))´、ゝ`)",
-      "tags": ["攻擊", "音樂"]
+      "tags": ["attack", "music"]
     },
     {
       "id": "action_204",
       "text": "⊂´⌒つ ﾟ∀ﾟ)つ━⊂(ﾟ∀ﾟ⊂⌒｀つ",
-      "tags": ["擁抱", "攻擊"]
+      "tags": ["attack", "hug"]
     },
     {
       "id": "action_205",
@@ -840,37 +840,37 @@
     {
       "id": "action_206",
       "text": "╰(*´︶`*)╯(´・ω・｀)",
-      "tags": ["安慰", "難過"]
+      "tags": ["comfort", "sad"]
     },
     {
       "id": "action_207",
       "text": "(ﾉ*’ω’*)ﾉ~~~~) ◜◡‾)",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "action_208",
       "text": "┐(・。・┐) ♪",
-      "tags": ["指", "跳舞", "音樂"]
+      "tags": ["dancing", "music", "pointing"]
     },
     {
       "id": "action_209",
       "text": "♬♫♪◖(●。●)◗♪♫♬",
-      "tags": ["音樂"]
+      "tags": ["music"]
     },
     {
       "id": "action_210",
       "text": "ヾ(´〇｀)ﾉ",
-      "tags": ["叫喊"]
+      "tags": ["shout"]
     },
     {
       "id": "action_211",
       "text": "♪(*´○｀)o¶~~♪",
-      "tags": ["音樂"]
+      "tags": ["music"]
     },
     {
       "id": "action_212",
       "text": "◖ฺ|´⌣`*|◗·˳♪⁎˚♫",
-      "tags": ["幸福", "音樂"]
+      "tags": ["happiness", "music"]
     },
     {
       "id": "action_213",
@@ -880,42 +880,42 @@
     {
       "id": "action_214",
       "text": "(☞ ՞ਊ ՞)☞",
-      "tags": ["指", "搞怪"]
+      "tags": ["goofy", "pointing"]
     },
     {
       "id": "action_216",
       "text": "☚(ﾟヮﾟ☚)",
-      "tags": ["嘲笑", "指"]
+      "tags": ["mock", "pointing"]
     },
     {
       "id": "action_217",
       "text": "川｡μ_μ)σ",
-      "tags": ["指", "害羞"]
+      "tags": ["pointing", "shy"]
     },
     {
       "id": "action_218",
       "text": "(／_^)／ ● ＼(^_＼)",
-      "tags": ["朋友"]
+      "tags": ["friend"]
     },
     {
       "id": "action_219",
       "text": "(ﾉ･ｪ･)ﾉ ● ＼(ﾟｰﾟ＼)",
-      "tags": ["動物", "朋友"]
+      "tags": ["animal", "friend"]
     },
     {
       "id": "action_220",
       "text": "(ノ￣ー￣)ノ ● ＼(^ω^＼)",
-      "tags": ["自信"]
+      "tags": ["confident"]
     },
     {
       "id": "action_221",
       "text": "✽-(ˆ▽ˆ)/✽ ✽\\(ˆ▽ˆ)-✽",
-      "tags": ["朋友", "開心"]
+      "tags": ["friend", "happy"]
     },
     {
       "id": "action_222",
       "text": "=͟͟͞͞⊂( ’ω’ )=͟͟͞͞⊃",
-      "tags": ["跑"]
+      "tags": ["running"]
     },
     {
       "id": "action_223",
@@ -930,62 +930,62 @@
     {
       "id": "action_226",
       "text": "╭( ･ㅂ･)و )))",
-      "tags": ["加油", "跑"]
+      "tags": ["cheer-up", "running"]
     },
     {
       "id": "action_227",
       "text": "(((ೕ( ･ㅂ･)و )))",
-      "tags": ["加油", "跑", "顫抖"]
+      "tags": ["cheer-up", "running", "trembling"]
     },
     {
       "id": "action_228",
       "text": "＼＼\\└(‘ω’)┘//／／",
-      "tags": ["加油", "跳舞", "萬歲"]
+      "tags": ["banzai", "cheer-up", "dancing"]
     },
     {
       "id": "action_229",
       "text": "(｀_´)ゞ",
-      "tags": ["敬禮"]
+      "tags": ["salute"]
     },
     {
       "id": "action_230",
       "text": "く（＾_・）ゝ",
-      "tags": ["可愛", "敬禮"]
+      "tags": ["cute", "salute"]
     },
     {
       "id": "action_231",
       "text": "(・∧‐)ゞ",
-      "tags": ["嚴肅", "敬禮"]
+      "tags": ["salute", "serious"]
     },
     {
       "id": "action_232",
       "text": "(?・・)σ",
-      "tags": ["指", "困惑"]
+      "tags": ["confused", "pointing"]
     },
     {
       "id": "action_233",
       "text": "c( O.O )ɔ",
-      "tags": ["擁抱", "無言", "驚訝"]
+      "tags": ["hug", "speechless", "surprised"]
     },
     {
       "id": "action_234",
       "text": "(」・ω・)」",
-      "tags": ["叫喊"]
+      "tags": ["shout"]
     },
     {
       "id": "action_236",
       "text": "(」ﾟﾛﾟ)｣",
-      "tags": ["叫喊"]
+      "tags": ["shout"]
     },
     {
       "id": "action_237",
       "text": "(❀｣╹□╹)｣*･",
-      "tags": ["叫喊", "可愛", "花", "閃亮"]
+      "tags": ["cute", "flower", "shout", "sparkle"]
     },
     {
       "id": "action_240",
       "text": "~(๑ñ﹏ ⊙☆)ノ",
-      "tags": ["暈眩", "目瞪口呆"]
+      "tags": ["dizzy", "dumbfounded"]
     },
     {
       "id": "action_242",
@@ -995,7 +995,7 @@
     {
       "id": "action_243",
       "text": "ゞ(ↂ ω ↂ)ゞ",
-      "tags": ["敬禮"]
+      "tags": ["salute"]
     },
     {
       "id": "action_244",
@@ -1005,177 +1005,177 @@
     {
       "id": "action_245",
       "text": "(⑅ 「O_o)「",
-      "tags": ["無言", "驚訝"]
+      "tags": ["speechless", "surprised"]
     },
     {
       "id": "action_246",
       "text": "(「ఠωఠ)「",
-      "tags": ["動物"]
+      "tags": ["animal"]
     },
     {
       "id": "action_247",
       "text": "乁( ◔ ౪◔)ㄏ",
-      "tags": ["無奈", "聳肩", "自信"]
+      "tags": ["confident", "helpless", "shrug"]
     },
     {
       "id": "action_248",
       "text": "ㄟ( θ﹏θ)厂",
-      "tags": ["動物", "無奈"]
+      "tags": ["animal", "helpless"]
     },
     {
       "id": "action_249",
       "text": "ʅ（´◔౪◔）ʃ",
-      "tags": ["無奈", "聳肩", "自信"]
+      "tags": ["confident", "helpless", "shrug"]
     },
     {
       "id": "action_250",
       "text": "₍₍ (ง ˙ω˙)ว ⁾⁾",
-      "tags": ["幹勁", "跳舞"]
+      "tags": ["dancing", "motivated"]
     },
     {
       "id": "action_252",
       "text": "!!(⊃ Д)⊃≡ﾟ ﾟ",
-      "tags": ["驚訝"]
+      "tags": ["surprised"]
     },
     {
       "id": "action_253",
       "text": "L(・o・)」",
-      "tags": ["驚訝"]
+      "tags": ["surprised"]
     },
     {
       "id": "action_254",
       "text": "༼ つ ◕o◕ ༽つ",
-      "tags": ["大眼"]
+      "tags": ["big-eyes"]
     },
     {
       "id": "action_255",
       "text": "(ﾉﾟ0ﾟ)ﾉ~",
-      "tags": ["萬歲", "驚訝"]
+      "tags": ["banzai", "surprised"]
     },
     {
       "id": "action_256",
       "text": "(*0*)/",
-      "tags": ["驚訝"]
+      "tags": ["surprised"]
     },
     {
       "id": "action_257",
       "text": "o(｀O´)o",
-      "tags": ["生氣", "攻擊"]
+      "tags": ["angry", "attack"]
     },
     {
       "id": "action_258",
       "text": "(●o≧д≦)o",
-      "tags": ["哭", "生氣"]
+      "tags": ["angry", "crying"]
     },
     {
       "id": "action_259",
       "text": "=͟͟͞͞( •̀д•́)))",
-      "tags": ["跑"]
+      "tags": ["running"]
     },
     {
       "id": "action_260",
       "text": "༼ つ ͠° ͟ ͟ʖ ͡° ༽つ",
-      "tags": ["搞怪"]
+      "tags": ["goofy"]
     },
     {
       "id": "action_261",
       "text": "( •̀ω•́ )σ",
-      "tags": ["指", "自信"]
+      "tags": ["confident", "pointing"]
     },
     {
       "id": "action_262",
       "text": "₍₍ ◝(•̀ㅂ•́)◟ ⁾⁾",
-      "tags": ["跳舞", "自信", "幹勁"]
+      "tags": ["confident", "dancing", "motivated"]
     },
     {
       "id": "action_264",
       "text": "＼(｀0´)／",
-      "tags": ["叫喊", "生氣", "萬歲"]
+      "tags": ["angry", "banzai", "shout"]
     },
     {
       "id": "action_265",
       "text": "ヽ(｀⌒´メ)ノ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "action_266",
       "text": "ヽ(●-`Д´-)ノ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "action_267",
       "text": "ヽ༼ ಠ益ಠ ༽ﾉ",
-      "tags": ["生氣", "萬歲"]
+      "tags": ["angry", "banzai"]
     },
     {
       "id": "action_268",
       "text": "(ノಠ益ಠ)ノ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "action_269",
       "text": "＼(`O´θ／",
-      "tags": ["生氣", "攻擊"]
+      "tags": ["angry", "attack"]
     },
     {
       "id": "action_270",
       "text": "┗|｀O´|┛",
-      "tags": ["叫喊", "生氣"]
+      "tags": ["angry", "shout"]
     },
     {
       "id": "action_271",
       "text": "ヾ(｡｀Д´｡)ﾉ彡☆",
-      "tags": ["崩潰", "生氣"]
+      "tags": ["angry", "breakdown"]
     },
     {
       "id": "action_272",
       "text": "ヽ(｀◇´)/",
-      "tags": ["叫喊", "生氣"]
+      "tags": ["angry", "shout"]
     },
     {
       "id": "action_273",
       "text": "┗(｀皿´)┛",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "action_274",
       "text": "ヽ(｀δ´)ノ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "action_275",
       "text": "└(○｀ε´○)┘",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "action_276",
       "text": "ヾ(｀◇´)ﾉ彡",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "action_277",
       "text": "(☝’益’☝)",
-      "tags": ["指", "生氣"]
+      "tags": ["angry", "pointing"]
     },
     {
       "id": "action_278",
       "text": "б(*｀・´)∂",
-      "tags": ["生氣", "自信"]
+      "tags": ["angry", "confident"]
     },
     {
       "id": "action_279",
       "text": "(ﾉ｀Д´)ﾉ",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "action_280",
       "text": "∪ヽ(●-｀Д´-)ノ彡☆",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "action_281",
       "text": "θ＼(；￢_￢)",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "action_282",
@@ -1185,17 +1185,17 @@
     {
       "id": "action_283",
       "text": "v(｀皿´)ﾉ~",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "action_284",
       "text": "ι(｀ロ´)ノ",
-      "tags": ["叫喊", "攻擊", "生氣"]
+      "tags": ["angry", "attack", "shout"]
     },
     {
       "id": "action_285",
       "text": "(｡´>д<)っ彡☆",
-      "tags": ["崩潰", "緊張"]
+      "tags": ["breakdown", "nervous"]
     },
     {
       "id": "action_286",
@@ -1205,142 +1205,142 @@
     {
       "id": "action_287",
       "text": "ﾐ(ﾉ_ _)ﾉ=3",
-      "tags": ["跑"]
+      "tags": ["running"]
     },
     {
       "id": "action_288",
       "text": "ヘ(>_<ヘ)",
-      "tags": ["緊張"]
+      "tags": ["nervous"]
     },
     {
       "id": "action_289",
       "text": "ε=o(´ﾛ｀||)",
-      "tags": ["叫喊", "嚇一跳", "跑"]
+      "tags": ["running", "shout", "startled"]
     },
     {
       "id": "action_290",
       "text": "((( +д+)o=3=3",
-      "tags": ["暈眩", "緊張", "跑"]
+      "tags": ["dizzy", "nervous", "running"]
     },
     {
       "id": "action_291",
       "text": "へ[ •́ ‸ •̀ ]ʋ",
-      "tags": ["難過"]
+      "tags": ["sad"]
     },
     {
       "id": "action_292",
       "text": "ヾ( ๑´д`๑)ﾂ",
-      "tags": ["跳舞", "難過"]
+      "tags": ["dancing", "sad"]
     },
     {
       "id": "action_293",
       "text": "゛(●ﾉ´・Д・｀)ﾉ",
-      "tags": ["難過"]
+      "tags": ["sad"]
     },
     {
       "id": "action_296",
       "text": "ヾ(ﾟДﾟ;ヾ)",
-      "tags": ["驚訝"]
+      "tags": ["surprised"]
     },
     {
       "id": "action_297",
       "text": "ヾ(;ﾟДﾟ;)ｼ",
-      "tags": ["驚訝"]
+      "tags": ["surprised"]
     },
     {
       "id": "action_298",
       "text": "(｢⊙Д⊙)｢",
-      "tags": ["目瞪口呆", "驚訝"]
+      "tags": ["dumbfounded", "surprised"]
     },
     {
       "id": "action_299",
       "text": "（┛〃°　Д°）┛",
-      "tags": ["目瞪口呆", "跑", "驚訝"]
+      "tags": ["dumbfounded", "running", "surprised"]
     },
     {
       "id": "action_301",
       "text": "ヽ(￣д￣;)ノ=3=3=3",
-      "tags": ["無奈", "跑"]
+      "tags": ["helpless", "running"]
     },
     {
       "id": "action_302",
       "text": "٩(´Д` ;)۶:.*",
-      "tags": ["緊張", "跑", "閃亮"]
+      "tags": ["nervous", "running", "sparkle"]
     },
     {
       "id": "action_303",
       "text": "(´×д×`三꒪д꒪ ;)",
-      "tags": ["暈眩", "緊張"]
+      "tags": ["dizzy", "nervous"]
     },
     {
       "id": "action_304",
       "text": "ε＝ε＝ε＝(((((ﾉ｀･Д･)ﾉ",
-      "tags": ["生氣", "跑"]
+      "tags": ["angry", "running"]
     },
     {
       "id": "action_305",
       "text": "(◞º❒º)◞₎₎(◟º❑º)◟⁾⁾➟➠➨",
-      "tags": ["跑"]
+      "tags": ["running"]
     },
     {
       "id": "action_306",
       "text": "ε=٩(●❛ö❛)۶",
-      "tags": ["跑", "驚訝"]
+      "tags": ["running", "surprised"]
     },
     {
       "id": "action_308",
       "text": "(c=(c=(c=(c=(ﾟﾛﾟ;c=",
-      "tags": ["嚇一跳", "跑"]
+      "tags": ["running", "startled"]
     },
     {
       "id": "action_309",
       "text": "⊂(ﾟДﾟ;⊂⌒`つ",
-      "tags": ["嚇一跳", "跑"]
+      "tags": ["running", "startled"]
     },
     {
       "id": "action_310",
       "text": "..･ヾ(。￣□￣)ﾂ",
-      "tags": ["跑", "驚訝"]
+      "tags": ["running", "surprised"]
     },
     {
       "id": "action_311",
       "text": "≡≡≡=(ﾉTдT)ﾉ",
-      "tags": ["哭", "跑"]
+      "tags": ["crying", "running"]
     },
     {
       "id": "action_312",
       "text": "ε=ε=(⊃≧□≦)⊃",
-      "tags": ["哭", "跑"]
+      "tags": ["crying", "running"]
     },
     {
       "id": "action_313",
       "text": "!!Σ(ﾟДﾟ;≡≡≡≡≡ヾ(;ﾟдﾟ)/",
-      "tags": ["緊張", "跑"]
+      "tags": ["nervous", "running"]
     },
     {
       "id": "action_314",
       "text": "┃ ु ⠁⃘ ⠁⃘ू┃⁼³₌₃",
-      "tags": ["跑"]
+      "tags": ["running"]
     },
     {
       "id": "action_315",
       "text": "ਭ३౽=͟͟͞͞(((ഽʻ⁸ʻ)ഽ",
-      "tags": ["跑"]
+      "tags": ["running"]
     },
     {
       "id": "action_317",
       "text": "(❛ӧ❛三❛ӧ❛)",
-      "tags": ["緊張"]
+      "tags": ["nervous"]
     },
     {
       "id": "action_319",
       "text": "～ε～ε～┌(|||´Д｀)ノ",
-      "tags": ["睏", "跑"]
+      "tags": ["running", "sleepy"]
     },
     {
       "id": "action_320",
       "text": "゛(ﾉ~o~)ﾉ",
-      "tags": ["嘆氣"]
+      "tags": ["sigh"]
     },
     {
       "id": "action_323",
@@ -1355,192 +1355,192 @@
     {
       "id": "action_325",
       "text": "ヽ(´Д｀;≡;´Д｀)丿",
-      "tags": ["緊張"]
+      "tags": ["nervous"]
     },
     {
       "id": "action_326",
       "text": "((ヽ(´Д`;ゞ=ヾ;´Д`)ﾉ))",
-      "tags": ["緊張", "敬禮"]
+      "tags": ["nervous", "salute"]
     },
     {
       "id": "action_327",
       "text": "ヽ(ω；`ヽ))…((ﾉ´；ω)ﾉ",
-      "tags": ["偷偷", "害怕", "朋友"]
+      "tags": ["friend", "peeking", "scared"]
     },
     {
       "id": "action_328",
       "text": "ヽ(д｀ヽ彡ﾉ´д)ﾉ",
-      "tags": ["緊張"]
+      "tags": ["nervous"]
     },
     {
       "id": "action_329",
       "text": "ε=ε=ε=(*ﾉ´Д｀)ﾉﾟ",
-      "tags": ["哭", "花", "跑"]
+      "tags": ["crying", "flower", "running"]
     },
     {
       "id": "action_330",
       "text": "ヾ(*゜、ω゜*)ﾉﾟ",
-      "tags": ["哭", "花"]
+      "tags": ["crying", "flower"]
     },
     {
       "id": "action_331",
       "text": "!!((((((っ;ﾟ∀ﾟ)っ",
-      "tags": ["興奮", "跑"]
+      "tags": ["running", "thrilled"]
     },
     {
       "id": "action_333",
       "text": "｡｡゛(ﾉ><)ﾉ",
-      "tags": ["緊張", "跑"]
+      "tags": ["nervous", "running"]
     },
     {
       "id": "action_334",
       "text": "ε≡Ξ≡Ξ≡ヽ( ;￣〇￣)ﾉ",
-      "tags": ["緊張", "跑"]
+      "tags": ["nervous", "running"]
     },
     {
       "id": "action_337",
       "text": "(＾ω＾ ≡ °д°)",
-      "tags": ["驚訝"]
+      "tags": ["surprised"]
     },
     {
       "id": "action_338",
       "text": "ヽ(≡ω≡;ヽ)",
-      "tags": ["暈眩"]
+      "tags": ["dizzy"]
     },
     {
       "id": "action_339",
       "text": "(ﾉ;≡ω≡)ﾉ",
-      "tags": ["暈眩"]
+      "tags": ["dizzy"]
     },
     {
       "id": "action_340",
       "text": "ﾍ(;´o｀)ﾍ",
-      "tags": ["嘆氣", "睏"]
+      "tags": ["sigh", "sleepy"]
     },
     {
       "id": "action_342",
       "text": "c໒( ◐ ﹏ ◐ )७੭",
-      "tags": ["跳舞"]
+      "tags": ["dancing"]
     },
     {
       "id": "action_343",
       "text": "ԅ[ •́ ﹏├┬┴┬┴",
-      "tags": ["偷偷"]
+      "tags": ["peeking"]
     },
     {
       "id": "action_344",
       "text": "へ[ : ⊚ ﹏ ⊚ : ]ง",
-      "tags": ["暈眩"]
+      "tags": ["dizzy"]
     },
     {
       "id": "action_345",
       "text": "ヾ(｡﹏｡)ﾉﾞ",
-      "tags": ["跳舞"]
+      "tags": ["dancing"]
     },
     {
       "id": "action_346",
       "text": "( ꒪ͧ⌓꒪ͧ ⊂",
-      "tags": ["偷偷", "呆滯"]
+      "tags": ["dazed", "peeking"]
     },
     {
       "id": "action_347",
       "text": "ʕ･_･ ;ʔ≡ʕ; ･_･ʔ",
-      "tags": ["動物", "熊", "緊張", "跑"]
+      "tags": ["animal", "bear", "nervous", "running"]
     },
     {
       "id": "action_348",
       "text": "┗┐ヽ(′Д、`*)ﾉ┌┛",
-      "tags": ["崩潰", "跳舞", "難過"]
+      "tags": ["breakdown", "dancing", "sad"]
     },
     {
       "id": "action_349",
       "text": "ヾ( •́д•̀ ;)ﾉ",
-      "tags": ["害怕", "緊張"]
+      "tags": ["nervous", "scared"]
     },
     {
       "id": "action_350",
       "text": "=͟͟͞͞(꒪ᗜ꒪ ‧̣̥̇)",
-      "tags": ["跑", "驚訝"]
+      "tags": ["running", "surprised"]
     },
     {
       "id": "action_351",
       "text": "/･_･ヾ＼",
-      "tags": ["安慰"]
+      "tags": ["comfort"]
     },
     {
       "id": "action_352",
       "text": "=͟͟͞͞( •̀д•́)",
-      "tags": ["跑"]
+      "tags": ["running"]
     },
     {
       "id": "action_354",
       "text": "♡⁼³₌₃",
-      "tags": ["愛心"]
+      "tags": ["love"]
     },
     {
       "id": "action_355",
       "text": "જ⁀➴♡",
-      "tags": ["愛心"]
+      "tags": ["love"]
     },
     {
       "id": "action_356",
       "text": "( ๑o̴̶̷᷄﹏o̴̶̷̥᷅๑)ノ”",
-      "tags": ["難過"]
+      "tags": ["sad"]
     },
     {
       "id": "action_357",
       "text": "𝒱 \\ (ꐦ `Д´)ﾉ",
-      "tags": ["攻擊", "生氣"]
+      "tags": ["angry", "attack"]
     },
     {
       "id": "action_358",
       "text": "( ง ᵒ̌皿ᵒ̌)ง⁼³₌₃",
-      "tags": ["生氣", "跑"]
+      "tags": ["angry", "running"]
     },
     {
       "id": "action_359",
       "text": "ミ⁰̷̴͈ 。⁰̷̴͈ ミ",
-      "tags": ["跑"]
+      "tags": ["running"]
     },
     {
       "id": "action_362",
       "text": "໒꒰ྀི -᷅ ⤙ -᷄ ꒱ྀི১⁼³₌₃",
-      "tags": ["動物", "生氣", "羊", "跑"]
+      "tags": ["angry", "animal", "running", "sheep"]
     },
     {
       "id": "action_363",
       "text": "ﾅﾂ (ง˘ω˘)วﾅﾂ",
-      "tags": ["幹勁", "跳舞"]
+      "tags": ["dancing", "motivated"]
     },
     {
       "id": "action_364",
       "text": "\\(´ཀ` )/",
-      "tags": ["吐血", "萬歲"]
+      "tags": ["banzai", "vomiting-blood"]
     },
     {
       "id": "action_365",
       "text": "(*꒪ཀ꒪)و",
-      "tags": ["吐血", "加油"]
+      "tags": ["cheer-up", "vomiting-blood"]
     },
     {
       "id": "action_366",
       "text": "▒▓█▇▆▅▃▂ (¯ε¯＊)",
-      "tags": ["親"]
+      "tags": ["kiss"]
     },
     {
       "id": "action_367",
       "text": "_ : (┐「꒪ཀ꒪) : __",
-      "tags": ["吐血"]
+      "tags": ["vomiting-blood"]
     },
     {
       "id": "action_368",
       "text": "φ=͟͟͞͞φ : (´ཀ`」 ∠) : _",
-      "tags": ["吐血", "跑"]
+      "tags": ["running", "vomiting-blood"]
     },
     {
       "id": "action_369",
       "text": "🌸\\(´ᗜˋ*)/››🌸‹‹\\( 　´)/››🌸‹‹\\(*´ᗜˋ)/››🌸",
-      "tags": ["花", "跳舞", "開心"]
+      "tags": ["dancing", "flower", "happy"]
     },
     {
       "id": "action_370",
@@ -1550,272 +1550,272 @@
     {
       "id": "action_371",
       "text": "(づ￣ ³￣)づ",
-      "tags": ["擁抱", "親"]
+      "tags": ["hug", "kiss"]
     },
     {
       "id": "action_373",
       "text": "(つ✧ω✧)つ",
-      "tags": ["擁抱", "興奮", "閃亮"]
+      "tags": ["hug", "sparkle", "thrilled"]
     },
     {
       "id": "action_374",
       "text": "(づ ◕‿◕ )づ",
-      "tags": ["可愛", "大眼", "擁抱"]
+      "tags": ["big-eyes", "cute", "hug"]
     },
     {
       "id": "action_375",
       "text": "(⊃｡•́‿•̀｡)⊃",
-      "tags": ["擁抱", "害羞"]
+      "tags": ["hug", "shy"]
     },
     {
       "id": "action_376",
       "text": "(つ . •́ _ʖ •̀ .)つ",
-      "tags": ["擁抱", "難過", "安慰"]
+      "tags": ["comfort", "hug", "sad"]
     },
     {
       "id": "action_377",
       "text": "(っಠ‿ಠ)っ",
-      "tags": ["擁抱", "自信"]
+      "tags": ["confident", "hug"]
     },
     {
       "id": "action_378",
       "text": "(づ◡﹏◡)づ",
-      "tags": ["擁抱", "安慰"]
+      "tags": ["comfort", "hug"]
     },
     {
       "id": "action_379",
       "text": "⊂(´• ω •`⊂)",
-      "tags": ["擁抱", "可愛"]
+      "tags": ["cute", "hug"]
     },
     {
       "id": "action_380",
       "text": "⊂(･ω･*⊂)",
-      "tags": ["擁抱", "可愛"]
+      "tags": ["cute", "hug"]
     },
     {
       "id": "action_381",
       "text": "⊂(￣▽￣)⊃",
-      "tags": ["擁抱", "幸福", "自信"]
+      "tags": ["confident", "happiness", "hug"]
     },
     {
       "id": "action_382",
       "text": "⊂( ´ ▽ ` )⊃",
-      "tags": ["擁抱", "開心"]
+      "tags": ["happy", "hug"]
     },
     {
       "id": "action_383",
       "text": "( ~*-*)~",
-      "tags": ["擁抱", "跳舞", "開心"]
+      "tags": ["dancing", "happy", "hug"]
     },
     {
       "id": "action_384",
       "text": "m(_ _)m",
-      "tags": ["拜託", "道歉"]
+      "tags": ["apologize", "please"]
     },
     {
       "id": "action_385",
       "text": "(シ_ _)シ",
-      "tags": ["拜託", "道歉"]
+      "tags": ["apologize", "please"]
     },
     {
       "id": "action_386",
       "text": "m(. .)m",
-      "tags": ["拜託", "道歉"]
+      "tags": ["apologize", "please"]
     },
     {
       "id": "action_387",
       "text": "<(_ _)>",
-      "tags": ["道歉"]
+      "tags": ["apologize"]
     },
     {
       "id": "action_388",
       "text": "人(_ _*)",
-      "tags": ["道歉", "拜託"]
+      "tags": ["apologize", "please"]
     },
     {
       "id": "action_389",
       "text": "(*_ _)人",
-      "tags": ["道歉", "拜託"]
+      "tags": ["apologize", "please"]
     },
     {
       "id": "action_390",
       "text": "m(_ _;m)",
-      "tags": ["拜託", "緊張", "道歉"]
+      "tags": ["apologize", "nervous", "please"]
     },
     {
       "id": "action_391",
       "text": "|･ω･)",
-      "tags": ["偷偷"]
+      "tags": ["peeking"]
     },
     {
       "id": "action_392",
       "text": "ﾍ(･_|",
-      "tags": ["偷偷"]
+      "tags": ["peeking"]
     },
     {
       "id": "action_393",
       "text": "|ω･)ﾉ",
-      "tags": ["偷偷"]
+      "tags": ["peeking"]
     },
     {
       "id": "action_394",
       "text": "ヾ(･|",
-      "tags": ["偷偷"]
+      "tags": ["peeking"]
     },
     {
       "id": "action_395",
       "text": "|_￣))",
-      "tags": ["偷偷", "自信"]
+      "tags": ["confident", "peeking"]
     },
     {
       "id": "action_396",
       "text": "|▽//)",
-      "tags": ["偷偷", "害羞"]
+      "tags": ["peeking", "shy"]
     },
     {
       "id": "action_397",
       "text": "┬┴┬┴┤(･_├┬┴┬┴",
-      "tags": ["偷偷"]
+      "tags": ["peeking"]
     },
     {
       "id": "action_398",
       "text": "┬┴┬┴┤･ω･)ﾉ",
-      "tags": ["偷偷"]
+      "tags": ["peeking"]
     },
     {
       "id": "action_399",
       "text": "┬┴┬┴┤( ͡° ͜ʖ├┬┴┬┴",
-      "tags": ["偷偷", "搞怪", "自信"]
+      "tags": ["confident", "goofy", "peeking"]
     },
     {
       "id": "action_400",
       "text": "|ʘ‿ʘ)╯",
-      "tags": ["偷偷"]
+      "tags": ["peeking"]
     },
     {
       "id": "action_401",
       "text": "__φ(．．)",
-      "tags": ["寫字"]
+      "tags": ["writing"]
     },
     {
       "id": "action_402",
       "text": "( ￣ー￣)φ__",
-      "tags": ["寫字", "自信"]
+      "tags": ["confident", "writing"]
     },
     {
       "id": "action_403",
       "text": "__φ(。。)",
-      "tags": ["寫字"]
+      "tags": ["writing"]
     },
     {
       "id": "action_404",
       "text": "__φ(．．;)",
-      "tags": ["寫字", "緊張"]
+      "tags": ["nervous", "writing"]
     },
     {
       "id": "action_405",
       "text": "ヾ( `ー´)シφ__",
-      "tags": ["寫字", "生氣"]
+      "tags": ["angry", "writing"]
     },
     {
       "id": "action_406",
       "text": "__〆(￣ー￣ )",
-      "tags": ["寫字", "自信"]
+      "tags": ["confident", "writing"]
     },
     {
       "id": "action_407",
       "text": "....φ(・∀・*)",
-      "tags": ["寫字", "開心"]
+      "tags": ["happy", "writing"]
     },
     {
       "id": "action_408",
       "text": "___〆(・∀・)",
-      "tags": ["寫字", "開心"]
+      "tags": ["happy", "writing"]
     },
     {
       "id": "action_409",
       "text": "( ^▽^)ψ__",
-      "tags": ["寫字", "自信", "開心"]
+      "tags": ["confident", "happy", "writing"]
     },
     {
       "id": "action_410",
       "text": "....φ(︶▽︶)φ....",
-      "tags": ["寫字", "幸福", "開心"]
+      "tags": ["happiness", "happy", "writing"]
     },
     {
       "id": "action_411",
       "text": "__φ(◎◎ヘ)",
-      "tags": ["寫字", "驚訝"]
+      "tags": ["surprised", "writing"]
     },
     {
       "id": "action_412",
       "text": "☆ﾐ(o*･ω･)ﾉ",
-      "tags": ["跑"]
+      "tags": ["running"]
     },
     {
       "id": "action_413",
       "text": "C= C= C= C= C=┌(;・ω・)┘",
-      "tags": ["緊張", "跑"]
+      "tags": ["nervous", "running"]
     },
     {
       "id": "action_414",
       "text": "─=≡Σ((( つ＞＜)つ",
-      "tags": ["緊張", "跑"]
+      "tags": ["nervous", "running"]
     },
     {
       "id": "action_415",
       "text": "ε=ε=ε=ε=┌(;￣▽￣)┘",
-      "tags": ["尷尬", "自信", "跑"]
+      "tags": ["confident", "embarrassed", "running"]
     },
     {
       "id": "action_416",
       "text": "ε=ε=┌( >_<)┘",
-      "tags": ["緊張", "跑"]
+      "tags": ["nervous", "running"]
     },
     {
       "id": "action_417",
       "text": "C= C= C= C=┌( `ー´)┘",
-      "tags": ["生氣", "跑"]
+      "tags": ["angry", "running"]
     },
     {
       "id": "action_419",
       "text": "。。。ミヽ(。＞＜)ノ",
-      "tags": ["緊張", "跑"]
+      "tags": ["nervous", "running"]
     },
     {
       "id": "action_420",
       "text": "(ﾒ ﾟ皿ﾟ)ﾒ",
-      "tags": ["生氣", "攻擊"]
+      "tags": ["angry", "attack"]
     },
     {
       "id": "action_421",
       "text": "(┛`д´)┛",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "action_422",
       "text": "(#`Д´)ﾉ",
-      "tags": ["叫喊", "生氣"]
+      "tags": ["angry", "shout"]
     },
     {
       "id": "action_423",
       "text": "ヽ(#`Д´)ﾉ",
-      "tags": ["生氣", "萬歲"]
+      "tags": ["angry", "banzai"]
     },
     {
       "id": "action_424",
       "text": "(／‵Д′)／~ ╧╧",
-      "tags": ["崩潰", "生氣", "翻桌"]
+      "tags": ["angry", "breakdown", "table-flip"]
     },
     {
       "id": "action_425",
       "text": "ヽ( `д´*)ノ",
-      "tags": ["生氣", "萬歲"]
+      "tags": ["angry", "banzai"]
     },
     {
       "id": "action_426",
       "text": "┏((＝￣(ｴ)￣=))┛",
-      "tags": ["熊", "自信"]
+      "tags": ["bear", "confident"]
     },
     {
       "id": "action_427",
@@ -1830,32 +1830,32 @@
     {
       "id": "action_429",
       "text": "(( へ(へ´∀`)へ",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "action_433",
       "text": "┌|◎o◎|┘",
-      "tags": ["驚訝", "跳舞"]
+      "tags": ["dancing", "surprised"]
     },
     {
       "id": "action_434",
       "text": "∑(ι´Дン)ノ",
-      "tags": ["驚訝", "指"]
+      "tags": ["pointing", "surprised"]
     },
     {
       "id": "action_435",
       "text": "Σヽ(ﾟД ﾟ; )ﾉ",
-      "tags": ["緊張"]
+      "tags": ["nervous"]
     },
     {
       "id": "action_436",
       "text": "(　ﾟ∀ﾟ)つ≡≡≡♡♡♡)`ν゜)ｸﾞｼｬ",
-      "tags": ["愛心", "攻擊"]
+      "tags": ["attack", "love"]
     },
     {
       "id": "action_437",
       "text": "⊂彡☆))д`)",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "action_438",
@@ -1865,12 +1865,12 @@
     {
       "id": "action_439",
       "text": "_(┐ ◟;ﾟдﾟ)ノ",
-      "tags": ["嚇一跳"]
+      "tags": ["startled"]
     },
     {
       "id": "action_440",
       "text": "((└(:3」┌)┘))",
-      "tags": ["跳舞"]
+      "tags": ["dancing"]
     },
     {
       "id": "action_441",
@@ -1880,7 +1880,7 @@
     {
       "id": "action_442",
       "text": "( σ՞ਊ ՞)σ",
-      "tags": ["指", "興奮"]
+      "tags": ["pointing", "thrilled"]
     },
     {
       "id": "action_443",
@@ -1895,7 +1895,7 @@
     {
       "id": "action_445",
       "text": "( ～'ω')～",
-      "tags": ["跳舞"]
+      "tags": ["dancing"]
     },
     {
       "id": "action_446",
@@ -1905,12 +1905,12 @@
     {
       "id": "action_447",
       "text": "ξ( ✿＞◡❛)▄︻▇▇〓▄︻┻┳═一",
-      "tags": ["攻擊", "花", "可愛"]
+      "tags": ["attack", "cute", "flower"]
     },
     {
       "id": "action_448",
       "text": "ヽ(・×・´)ゞ",
-      "tags": ["敬禮"]
+      "tags": ["salute"]
     },
     {
       "id": "action_449",
@@ -1920,107 +1920,107 @@
     {
       "id": "action_450",
       "text": "˓˓ (̨̡› 𝅒 ‹ )̧̢ ˒˒",
-      "tags": ["跳舞", "開心", "音樂"]
+      "tags": ["dancing", "happy", "music"]
     },
     {
       "id": "action_451",
       "text": "( ੭ ･ ౩･ )੭",
-      "tags": ["可愛", "跳舞"]
+      "tags": ["cute", "dancing"]
     },
     {
       "id": "action_452",
       "text": "( 'ᵕ' و(و ♪‪( 'o' و(و ♪‪",
-      "tags": ["朋友", "跳舞", "開心", "音樂"]
+      "tags": ["dancing", "friend", "happy", "music"]
     },
     {
       "id": "action_453",
       "text": "´๑・ڡ・๑｀",
-      "tags": ["吃", "幸福"]
+      "tags": ["eating", "happiness"]
     },
     {
       "id": "action_454",
       "text": ".｡Oᐡ(⁎°ᴗ°⁎ᐡ )",
-      "tags": ["拜託", "動物"]
+      "tags": ["animal", "please"]
     },
     {
       "id": "action_455",
       "text": "໒꒰ྀི•ू⁼̴̶̤̀༥⁼̴̶̤́•ू ꒱ྀི১",
-      "tags": ["吃", "幸福", "開心"]
+      "tags": ["eating", "happiness", "happy"]
     },
     {
       "id": "action_456",
       "text": "( 'ч' )",
-      "tags": ["吃", "幸福"]
+      "tags": ["eating", "happiness"]
     },
     {
       "id": "action_457",
       "text": "(っ* ॑꒳ ॑*)╮",
-      "tags": ["開心"]
+      "tags": ["happy"]
     },
     {
       "id": "action_458",
       "text": "(*•؎ •*)",
-      "tags": ["吃", "幸福"]
+      "tags": ["eating", "happiness"]
     },
     {
       "id": "action_459",
       "text": "๑⃙⃘´༥๑⃙⃘ಣ",
-      "tags": ["吃", "幸福"]
+      "tags": ["eating", "happiness"]
     },
     {
       "id": "action_460",
       "text": "(｡・‧̫・｡)o🪄",
-      "tags": ["閃亮"]
+      "tags": ["sparkle"]
     },
     {
       "id": "action_461",
       "text": "=͟͟͞͞ (˘▾˘)",
-      "tags": ["幸福", "跑"]
+      "tags": ["happiness", "running"]
     },
     {
       "id": "action_462",
       "text": "꒰˶•̤̀༥•̤́˵꒱",
-      "tags": ["吃", "幸福"]
+      "tags": ["eating", "happiness"]
     },
     {
       "id": "action_464",
       "text": "εεε畄_( ຶཽ ˙̫̮ ຶཽ )",
-      "tags": ["跑"]
+      "tags": ["running"]
     },
     {
       "id": "action_465",
       "text": "(　ﾟ∀ﾟ) ﾉ♡",
-      "tags": ["愛心", "開心"]
+      "tags": ["happy", "love"]
     },
     {
       "id": "action_466",
       "text": "(╭￣3￣)╭♡",
-      "tags": ["愛心", "親"]
+      "tags": ["kiss", "love"]
     },
     {
       "id": "action_467",
       "text": "(●б人<●)",
-      "tags": ["可愛", "拜託"]
+      "tags": ["cute", "please"]
     },
     {
       "id": "action_468",
       "text": "(；´ﾟωﾟ｀人)",
-      "tags": ["拜託", "緊張"]
+      "tags": ["nervous", "please"]
     },
     {
       "id": "action_469",
       "text": "ヾ(⌒(_´･ㅅ･`)_",
-      "tags": ["難過"]
+      "tags": ["sad"]
     },
     {
       "id": "action_470",
       "text": "il||li _|￣|○ヽ(･ω･｀)",
-      "tags": ["崩潰", "安慰"]
+      "tags": ["breakdown", "comfort"]
     },
     {
       "id": "action_471",
       "text": "(*´Д`)つ))´∀`)",
-      "tags": ["安慰"]
+      "tags": ["comfort"]
     },
     {
       "id": "action_472",
@@ -2030,32 +2030,32 @@
     {
       "id": "action_473",
       "text": "ლ(・´ｪ`・ლ)",
-      "tags": ["拜託"]
+      "tags": ["please"]
     },
     {
       "id": "action_474",
       "text": "｡･ﾟ･(ﾉД`)ヽ(ﾟДﾟ )秀秀",
-      "tags": ["哭", "安慰"]
+      "tags": ["comfort", "crying"]
     },
     {
       "id": "action_475",
       "text": "(ㄏ￣▽￣)ㄏ ㄟ(￣▽￣ㄟ)",
-      "tags": ["跳舞", "開心"]
+      "tags": ["dancing", "happy"]
     },
     {
       "id": "action_476",
       "text": "( ﾟ∀ﾟ)o彡ﾟ",
-      "tags": ["加油", "叫喊"]
+      "tags": ["cheer-up", "shout"]
     },
     {
       "id": "action_477",
       "text": "ﾚ(ﾟ∀ﾟ;)ﾍ=З=З=З",
-      "tags": ["跑", "驚訝"]
+      "tags": ["running", "surprised"]
     },
     {
       "id": "action_478",
       "text": "ε≡(ノ´＿ゝ｀）ノ",
-      "tags": ["嘆氣", "跑"]
+      "tags": ["running", "sigh"]
     },
     {
       "id": "action_479",
@@ -2070,42 +2070,42 @@
     {
       "id": "action_481",
       "text": "(∩^o^)⊃━☆ﾟ.*･｡",
-      "tags": ["星星"]
+      "tags": ["star"]
     },
     {
       "id": "action_482",
       "text": "..._〆(°▽°*)",
-      "tags": ["寫字"]
+      "tags": ["writing"]
     },
     {
       "id": "action_483",
       "text": "ε=ε=ヾ(;ﾟдﾟ)/",
-      "tags": ["嚇一跳", "跑"]
+      "tags": ["running", "startled"]
     },
     {
       "id": "action_484",
       "text": "ε≡ﾍ( ´∀`)ﾉ",
-      "tags": ["跑", "開心"]
+      "tags": ["happy", "running"]
     },
     {
       "id": "action_485",
       "text": "|Д`)ノ⌒●～*",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "action_486",
       "text": "( ´∀`);y=ｰ(ﾟдﾟ)･∵. ﾀｰﾝ",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "action_487",
       "text": "(“￣▽￣)-o█ █o-(￣▽￣”)/",
-      "tags": ["朋友"]
+      "tags": ["friend"]
     },
     {
       "id": "action_488",
       "text": "(´;ω;`)ヾ(･∀･`)",
-      "tags": ["哭", "安慰"]
+      "tags": ["comfort", "crying"]
     },
     {
       "id": "action_489",
@@ -2115,7 +2115,7 @@
     {
       "id": "action_490",
       "text": "(=ﾟДﾟ=) ▄︻┻┳━ ·.`.`.`.",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "action_491",
@@ -2125,77 +2125,77 @@
     {
       "id": "action_492",
       "text": "(:3っ)へ ヽ(´Д｀●ヽ)",
-      "tags": ["安慰"]
+      "tags": ["comfort"]
     },
     {
       "id": "action_493",
       "text": "ヾ(◎´・ω・｀)ノ",
-      "tags": ["安慰", "難過"]
+      "tags": ["comfort", "sad"]
     },
     {
       "id": "action_494",
       "text": "ル||☛_☚|リ",
-      "tags": ["指"]
+      "tags": ["pointing"]
     },
     {
       "id": "action_495",
       "text": "L(　；ω；)┘三└(；ω；　)」",
-      "tags": ["哭", "崩潰", "跑"]
+      "tags": ["breakdown", "crying", "running"]
     },
     {
       "id": "action_499",
       "text": "( ‘д‘⊂彡☆))Д´)",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "action_500",
       "text": "(　′∀`)σ≡σ☆))Д′)",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "action_501",
       "text": "(￣^￣)ゞ",
-      "tags": ["敬禮"]
+      "tags": ["salute"]
     },
     {
       "id": "action_502",
       "text": "ι(´Д`ι)",
-      "tags": ["拜託"]
+      "tags": ["please"]
     },
     {
       "id": "action_505",
       "text": "(ㅅ˘ㅂ˘)",
-      "tags": ["拜託", "幸福"]
+      "tags": ["happiness", "please"]
     },
     {
       "id": "action_506",
       "text": "(｡-人-｡)",
-      "tags": ["拜託", "道歉"]
+      "tags": ["apologize", "please"]
     },
     {
       "id": "action_507",
       "text": "( ｣｡╹o╹｡)｣",
-      "tags": ["叫喊", "拜託"]
+      "tags": ["please", "shout"]
     },
     {
       "id": "action_508",
       "text": "(」｡≧□≦)」",
-      "tags": ["哭", "拜託"]
+      "tags": ["crying", "please"]
     },
     {
       "id": "action_510",
       "text": "ლ(´﹏`ლ)",
-      "tags": ["拜託"]
+      "tags": ["please"]
     },
     {
       "id": "action_512",
       "text": "(*ˇωˇ*人)",
-      "tags": ["拜託", "睏"]
+      "tags": ["please", "sleepy"]
     },
     {
       "id": "action_513",
       "text": "( ・∀・)・・・--------☆",
-      "tags": ["星星"]
+      "tags": ["star"]
     },
     {
       "id": "action_514",
@@ -2220,12 +2220,12 @@
     {
       "id": "action_518",
       "text": "―⊂|=0ヘ(^^ )",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "action_519",
       "text": "○∞∞∞∞ヽ(^ー^ )",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "action_520",
@@ -2250,12 +2250,12 @@
     {
       "id": "action_524",
       "text": "―(T_T)→",
-      "tags": ["哭"]
+      "tags": ["crying"]
     },
     {
       "id": "action_525",
       "text": "((( ￣□)_／",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "action_526",
@@ -2270,7 +2270,7 @@
     {
       "id": "action_528",
       "text": "(ﾒ￣▽￣)︻┳═一",
-      "tags": ["自信"]
+      "tags": ["confident"]
     },
     {
       "id": "action_529",
@@ -2280,287 +2280,287 @@
     {
       "id": "action_530",
       "text": "ଘ(੭ºัᴗºั)━☆ﾟ*:.",
-      "tags": ["天使", "星星"]
+      "tags": ["angel", "star"]
     },
     {
       "id": "action_531",
       "text": "ଘ(ᵕ˵ ૩ᵕ)━☆ﾟ.*･｡ﾟ",
-      "tags": ["天使", "親"]
+      "tags": ["angel", "kiss"]
     },
     {
       "id": "action_532",
       "text": "ଘ( ŎUŎ)━☆ﾟ.*･｡ﾟ",
-      "tags": ["天使", "驚訝"]
+      "tags": ["angel", "surprised"]
     },
     {
       "id": "action_533",
       "text": "（✿ ͡◕ ᴗ◕)つ━━✫・*。",
-      "tags": ["大眼", "花"]
+      "tags": ["big-eyes", "flower"]
     },
     {
       "id": "action_534",
       "text": "╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ",
-      "tags": ["自信"]
+      "tags": ["confident"]
     },
     {
       "id": "action_535",
       "text": "(/￣ー￣)/~~☆’.･.･:★’.･.･:☆",
-      "tags": ["星星", "自信"]
+      "tags": ["confident", "star"]
     },
     {
       "id": "action_537",
       "text": "(ノ°∀°)ノ⌒･*:.｡. .｡.:*･゜ﾟ･*☆",
-      "tags": ["星星"]
+      "tags": ["star"]
     },
     {
       "id": "action_538",
       "text": "((ε(*´･ω･)っ†*ﾟ¨ﾟﾟ･*:..☆",
-      "tags": ["天使", "擁抱", "閃亮"]
+      "tags": ["angel", "hug", "sparkle"]
     },
     {
       "id": "action_539",
       "text": "ヾ(´〇`)ﾉ♪♪♪",
-      "tags": ["開心", "音樂"]
+      "tags": ["happy", "music"]
     },
     {
       "id": "action_540",
       "text": "ヘ(￣ω￣ヘ)",
-      "tags": ["自信", "跳舞"]
+      "tags": ["confident", "dancing"]
     },
     {
       "id": "action_541",
       "text": "(〜￣▽￣)〜",
-      "tags": ["自信", "跳舞", "開心"]
+      "tags": ["confident", "dancing", "happy"]
     },
     {
       "id": "action_542",
       "text": "ヽ(o´∀`)ﾉ♪♬",
-      "tags": ["萬歲", "開心", "音樂"]
+      "tags": ["banzai", "happy", "music"]
     },
     {
       "id": "action_543",
       "text": "♪ヽ(^^ヽ)♪",
-      "tags": ["跳舞", "開心", "音樂"]
+      "tags": ["dancing", "happy", "music"]
     },
     {
       "id": "action_544",
       "text": "♪(/_ _ )/♪",
-      "tags": ["跳舞", "難過", "音樂"]
+      "tags": ["dancing", "music", "sad"]
     },
     {
       "id": "action_545",
       "text": "♪♬((d⌒ω⌒b))♬♪",
-      "tags": ["跳舞", "開心", "音樂"]
+      "tags": ["dancing", "happy", "music"]
     },
     {
       "id": "action_546",
       "text": "└(￣-￣└))",
-      "tags": ["自信", "跳舞"]
+      "tags": ["confident", "dancing"]
     },
     {
       "id": "action_547",
       "text": "((┘￣ω￣)┘",
-      "tags": ["自信", "跳舞"]
+      "tags": ["confident", "dancing"]
     },
     {
       "id": "action_548",
       "text": "√(￣‥￣√)",
-      "tags": ["自信", "跳舞"]
+      "tags": ["confident", "dancing"]
     },
     {
       "id": "action_549",
       "text": "└(＾＾)┐",
-      "tags": ["跳舞", "開心"]
+      "tags": ["dancing", "happy"]
     },
     {
       "id": "action_550",
       "text": "┌(＾＾)┘",
-      "tags": ["跳舞", "開心"]
+      "tags": ["dancing", "happy"]
     },
     {
       "id": "action_551",
       "text": "＼(￣▽￣)＼",
-      "tags": ["自信", "跳舞", "開心"]
+      "tags": ["confident", "dancing", "happy"]
     },
     {
       "id": "action_552",
       "text": "／(￣▽￣)／",
-      "tags": ["自信", "跳舞", "開心"]
+      "tags": ["confident", "dancing", "happy"]
     },
     {
       "id": "action_553",
       "text": "(￣▽￣)/♫•*¨*•.¸¸♪",
-      "tags": ["自信", "開心", "音樂"]
+      "tags": ["confident", "happy", "music"]
     },
     {
       "id": "action_554",
       "text": "(^_^♪)",
-      "tags": ["開心", "音樂"]
+      "tags": ["happy", "music"]
     },
     {
       "id": "action_555",
       "text": "(~˘▽˘)~",
-      "tags": ["幸福", "跳舞", "開心"]
+      "tags": ["dancing", "happiness", "happy"]
     },
     {
       "id": "action_556",
       "text": "~(˘▽˘~)",
-      "tags": ["幸福", "跳舞", "開心"]
+      "tags": ["dancing", "happiness", "happy"]
     },
     {
       "id": "action_557",
       "text": "ヾ(⌐■_■)ノ♪",
-      "tags": ["墨鏡", "自信", "跳舞", "音樂"]
+      "tags": ["confident", "dancing", "music", "sunglasses"]
     },
     {
       "id": "action_558",
       "text": "(〜￣△￣)〜",
-      "tags": ["跳舞", "無奈"]
+      "tags": ["dancing", "helpless"]
     },
     {
       "id": "action_559",
       "text": "(~‾▽‾)~",
-      "tags": ["跳舞", "開心"]
+      "tags": ["dancing", "happy"]
     },
     {
       "id": "action_560",
       "text": "乁( • ω •乁)",
-      "tags": ["跳舞", "開心"]
+      "tags": ["dancing", "happy"]
     },
     {
       "id": "action_561",
       "text": "(｢• ω •)｢",
-      "tags": ["跳舞", "開心"]
+      "tags": ["dancing", "happy"]
     },
     {
       "id": "action_562",
       "text": "⁽⁽◝( • ω • )◜⁾⁾",
-      "tags": ["跳舞", "開心"]
+      "tags": ["dancing", "happy"]
     },
     {
       "id": "action_563",
       "text": "✺◟( • ω • )◞✺",
-      "tags": ["跳舞", "閃亮", "開心"]
+      "tags": ["dancing", "happy", "sparkle"]
     },
     {
       "id": "action_565",
       "text": "( ˘ ɜ˘) ♬♪♫",
-      "tags": ["開心", "音樂"]
+      "tags": ["happy", "music"]
     },
     {
       "id": "action_566",
       "text": "♪♪♪ ヽ(ˇ∀ˇ )ゞ",
-      "tags": ["敬禮", "跳舞", "開心", "音樂"]
+      "tags": ["dancing", "happy", "music", "salute"]
     },
     {
       "id": "action_567",
       "text": "(ˇ▽ˇ)ノ♪♬♫",
-      "tags": ["開心", "音樂"]
+      "tags": ["happy", "music"]
     },
     {
       "id": "action_568",
       "text": "(꒪ཀ꒪*)ｸﾞﾌｯ",
-      "tags": ["吐血"]
+      "tags": ["vomiting-blood"]
     },
     {
       "id": "action_569",
       "text": "( ´ཫ` )",
-      "tags": ["吐血"]
+      "tags": ["vomiting-blood"]
     },
     {
       "id": "action_570",
       "text": "_(´ཀ`」 ∠)_",
-      "tags": ["吐血"]
+      "tags": ["vomiting-blood"]
     },
     {
       "id": "action_571",
       "text": "(＾ཀ＾)",
-      "tags": ["吐血"]
+      "tags": ["vomiting-blood"]
     },
     {
       "id": "action_572",
       "text": "( ´ཀ` )",
-      "tags": ["吐血"]
+      "tags": ["vomiting-blood"]
     },
     {
       "id": "action_573",
       "text": "( ^o^)・:∴",
-      "tags": ["吐血"]
+      "tags": ["vomiting-blood"]
     },
     {
       "id": "action_574",
       "text": "(*´’Д’) : ;* : ;ｶﾊｯ",
-      "tags": ["吐血", "緊張"]
+      "tags": ["nervous", "vomiting-blood"]
     },
     {
       "id": "action_575",
       "text": "(´ཀ`///)",
-      "tags": ["吐血", "害羞"]
+      "tags": ["shy", "vomiting-blood"]
     },
     {
       "id": "action_576",
       "text": "(◜ཀ◝)",
-      "tags": ["吐血", "幸福"]
+      "tags": ["happiness", "vomiting-blood"]
     },
     {
       "id": "action_577",
       "text": "(✽︎´ཫ`✽︎)ｸﾞﾊｯ💕💕",
-      "tags": ["吐血", "愛心"]
+      "tags": ["love", "vomiting-blood"]
     },
     {
       "id": "action_578",
       "text": "(°ཀ°)",
-      "tags": ["吐血", "驚訝"]
+      "tags": ["surprised", "vomiting-blood"]
     },
     {
       "id": "action_579",
       "text": "(✽´ཫ`✽)",
-      "tags": ["吐血"]
+      "tags": ["vomiting-blood"]
     },
     {
       "id": "action_580",
       "text": "( ° ཫ ° )･∵. ｸﾞﾊｯ!!",
-      "tags": ["吐血"]
+      "tags": ["vomiting-blood"]
     },
     {
       "id": "action_581",
       "text": "(っ^ཀ^c)",
-      "tags": ["吐血", "擁抱"]
+      "tags": ["hug", "vomiting-blood"]
     },
     {
       "id": "action_582",
       "text": "( ˘ཀ˘ )",
-      "tags": ["吐血", "幸福"]
+      "tags": ["happiness", "vomiting-blood"]
     },
     {
       "id": "action_583",
       "text": "( ˙ཫ˙ )",
-      "tags": ["吐血"]
+      "tags": ["vomiting-blood"]
     },
     {
       "id": "action_584",
       "text": "(꒪ཀ꒪*)ｸﾞﾌｯ💥",
-      "tags": ["吐血"]
+      "tags": ["vomiting-blood"]
     },
     {
       "id": "action_586",
       "text": "( ´͈ཀ`͈ )ｺﾞﾌｯ",
-      "tags": ["吐血", "緊張"]
+      "tags": ["nervous", "vomiting-blood"]
     },
     {
       "id": "action_587",
       "text": "(　 ˆᴘˆ )ｫｪｯ❤",
-      "tags": ["愛心"]
+      "tags": ["love"]
     },
     {
       "id": "action_588",
       "text": "( ❀⃙⃕⃠⃝⃘⃚ ཀ ❀⃙⃕⃠⃝⃘⃚ )",
-      "tags": ["吐血", "花"]
+      "tags": ["flower", "vomiting-blood"]
     },
     {
       "id": "action_589",
       "text": "(๑¯︻¯)口からケチャップ♥",
-      "tags": ["吐血", "愛心"]
+      "tags": ["love", "vomiting-blood"]
     },
     {
       "id": "action_590",
@@ -2570,62 +2570,62 @@
     {
       "id": "action_592",
       "text": "ｸﾞﾊｯ‼(⑉°口°)･∵",
-      "tags": ["吐血", "驚訝"]
+      "tags": ["surprised", "vomiting-blood"]
     },
     {
       "id": "action_595",
       "text": "ヽ( ･∀･)ﾉ_θ彡☆Σ(ノ `Д´)ノ",
-      "tags": ["攻擊", "生氣"]
+      "tags": ["angry", "attack"]
     },
     {
       "id": "action_596",
       "text": "(*´∇`)┌θ☆(ﾉ>_<)ﾉ",
-      "tags": ["攻擊", "緊張"]
+      "tags": ["attack", "nervous"]
     },
     {
       "id": "action_597",
       "text": "( ￣ω￣)ノﾞ⌒☆ﾐ(o _ _)o",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "action_598",
       "text": "(*`0´)θ☆(メ°皿°)ﾉ",
-      "tags": ["攻擊", "生氣"]
+      "tags": ["angry", "attack"]
     },
     {
       "id": "action_599",
       "text": "(o¬‿¬o )...☆ﾐ(*x_x)",
-      "tags": ["攻擊", "自信"]
+      "tags": ["attack", "confident"]
     },
     {
       "id": "action_600",
       "text": "(╬￣皿￣)=○＃(￣#)３￣)",
-      "tags": ["攻擊", "生氣"]
+      "tags": ["angry", "attack"]
     },
     {
       "id": "action_601",
       "text": "(; -_-)――――――C<―_-)",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "action_602",
       "text": "＜( ￣︿￣)︵θ︵θ︵☆(＞口＜－)",
-      "tags": ["攻擊", "緊張"]
+      "tags": ["attack", "nervous"]
     },
     {
       "id": "action_603",
       "text": "(￣ε(#￣)☆╰╮o(￣▽￣///)",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "action_604",
       "text": "ヽ(>_<ヽ) ―⊂|=0ヘ(^‿^ )",
-      "tags": ["攻擊", "緊張"]
+      "tags": ["attack", "nervous"]
     },
     {
       "id": "action_605",
       "text": "ヘ(>_<ヘ) ￢o(￣‿￣ﾒ)",
-      "tags": ["攻擊", "生氣"]
+      "tags": ["angry", "attack"]
     },
     {
       "id": "action_606",
@@ -2635,62 +2635,62 @@
     {
       "id": "action_609",
       "text": "(¬_¬'')ԅ(￣ε￣ԅ)",
-      "tags": ["捏", "攻擊", "生氣"]
+      "tags": ["angry", "attack", "pinch"]
     },
     {
       "id": "action_610",
       "text": "/( .□.)＼ ︵╰(°益°)╯︵ /(.□. /)",
-      "tags": ["攻擊", "生氣"]
+      "tags": ["angry", "attack"]
     },
     {
       "id": "action_611",
       "text": "(ﾉ-.-)ﾉ….((((((((((((●~* ( >_<)",
-      "tags": ["攻擊", "緊張"]
+      "tags": ["attack", "nervous"]
     },
     {
       "id": "action_612",
       "text": "!!(ﾒ￣ ￣)_θ☆°0°)/",
-      "tags": ["攻擊", "驚訝"]
+      "tags": ["attack", "surprised"]
     },
     {
       "id": "action_613",
       "text": "(`⌒*)O-(`⌒´Q)",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "action_614",
       "text": "(((ง’ω’)و三 ง’ω’)ڡ≡　☆⌒ﾐ((x_x)",
-      "tags": ["攻擊"]
+      "tags": ["attack"]
     },
     {
       "id": "action_615",
       "text": "(งಠ_ಠ)ง　σ( •̀ ω •́ σ)",
-      "tags": ["攻擊", "自信"]
+      "tags": ["attack", "confident"]
     },
     {
       "id": "action_616",
       "text": "(っ•﹏•)っ ✴==≡눈٩(`皿´҂)ง",
-      "tags": ["攻擊", "生氣"]
+      "tags": ["angry", "attack"]
     },
     {
       "id": "action_617",
       "text": "(｢• ω •)｢ (⌒ω⌒`)",
-      "tags": ["可愛"]
+      "tags": ["cute"]
     },
     {
       "id": "action_618",
       "text": "( °ᴗ°)~ð (/❛o❛\\)",
-      "tags": ["攻擊", "驚訝"]
+      "tags": ["attack", "surprised"]
     },
     {
       "id": "action_619",
       "text": "(ʘ‿ʘ)ノ✿",
-      "tags": ["花", "開心"]
+      "tags": ["flower", "happy"]
     },
     {
       "id": "action_620",
       "text": "ミ=͟͟͞͞(✿ʘ ᴗʘ)っ",
-      "tags": ["花", "跑", "開心"]
+      "tags": ["flower", "happy", "running"]
     },
     {
       "id": "action_621",
@@ -2700,537 +2700,537 @@
     {
       "id": "action_622",
       "text": "ヽ( ;ﾟ;ж;ﾟ;)ﾉ",
-      "tags": ["大笑", "驚訝"]
+      "tags": ["lol", "surprised"]
     },
     {
       "id": "action_623",
       "text": "ｍ（＿　＿；；ｍ",
-      "tags": ["道歉", "拜託"]
+      "tags": ["apologize", "please"]
     },
     {
       "id": "action_624",
       "text": "m(_ _)m",
-      "tags": ["道歉", "拜託", "感謝"]
+      "tags": ["apologize", "grateful", "please"]
     },
     {
       "id": "action_625",
       "text": "m(._.)m",
-      "tags": ["道歉", "拜託", "感謝"]
+      "tags": ["apologize", "grateful", "please"]
     },
     {
       "id": "action_626",
       "text": "ｍ（．＿．）ｍ",
-      "tags": ["道歉", "拜託", "感謝"]
+      "tags": ["apologize", "grateful", "please"]
     },
     {
       "id": "action_627",
       "text": "m(￢0￢)m",
-      "tags": ["生氣", "道歉"]
+      "tags": ["angry", "apologize"]
     },
     {
       "id": "action_628",
       "text": "(*m＿　_)m",
-      "tags": ["道歉", "拜託"]
+      "tags": ["apologize", "please"]
     },
     {
       "id": "action_629",
       "text": "m(*-ω-)m",
-      "tags": ["感謝", "拜託", "睏"]
+      "tags": ["grateful", "please", "sleepy"]
     },
     {
       "id": "action_630",
       "text": "(m;_ _)m",
-      "tags": ["道歉", "拜託"]
+      "tags": ["apologize", "please"]
     },
     {
       "id": "action_631",
       "text": "(m。_。)m",
-      "tags": ["道歉", "拜託", "感謝"]
+      "tags": ["apologize", "grateful", "please"]
     },
     {
       "id": "action_632",
       "text": "<(_ _)>",
-      "tags": ["道歉", "拜託", "感謝"]
+      "tags": ["apologize", "grateful", "please"]
     },
     {
       "id": "action_633",
       "text": "＜(。_。)＞",
-      "tags": ["道歉", "拜託", "感謝"]
+      "tags": ["apologize", "grateful", "please"]
     },
     {
       "id": "action_634",
       "text": "≦(._.)≧",
-      "tags": ["道歉", "拜託", "感謝"]
+      "tags": ["apologize", "grateful", "please"]
     },
     {
       "id": "action_635",
       "text": "<(￢0￢)>",
-      "tags": ["生氣"]
+      "tags": ["angry"]
     },
     {
       "id": "action_636",
       "text": "<(．＿．)>",
-      "tags": ["道歉", "拜託"]
+      "tags": ["apologize", "please"]
     },
     {
       "id": "action_637",
       "text": "(o_ _)o",
-      "tags": ["拜託", "道歉"]
+      "tags": ["apologize", "please"]
     },
     {
       "id": "action_638",
       "text": "(o。_。)o",
-      "tags": ["拜託", "道歉"]
+      "tags": ["apologize", "please"]
     },
     {
       "id": "action_639",
       "text": "(シ_ _)シ",
-      "tags": ["拜託", "道歉"]
+      "tags": ["apologize", "please"]
     },
     {
       "id": "action_640",
       "text": "(ᴗ͈ˬᴗ͈)ഒ",
-      "tags": ["道歉", "害羞", "感謝"]
+      "tags": ["apologize", "grateful", "shy"]
     },
     {
       "id": "action_641",
       "text": "*ᴗ ᴗ)⁾⁾♡",
-      "tags": ["愛心", "感謝"]
+      "tags": ["grateful", "love"]
     },
     {
       "id": "action_642",
       "text": "(˶ˆuˆ˵ )ഒ",
-      "tags": ["感謝"]
+      "tags": ["grateful"]
     },
     {
       "id": "action_643",
       "text": "m(｡≧ｴ≦｡)m",
-      "tags": ["道歉", "難過", "拜託"]
+      "tags": ["apologize", "please", "sad"]
     },
     {
       "id": "action_644",
       "text": "(◞‸◟ㆀ)",
-      "tags": ["道歉"]
+      "tags": ["apologize"]
     },
     {
       "id": "action_645",
       "text": "(；´д｀)ゞ",
-      "tags": ["道歉", "敬禮"]
+      "tags": ["apologize", "salute"]
     },
     {
       "id": "action_647",
       "text": "(ノಠ益ಠ)ノ彡┻━┻",
-      "tags": ["不滿", "生氣", "翻桌", "舉起雙手"]
+      "tags": ["angry", "displeased", "hands-up", "table-flip"]
     },
     {
       "id": "action_649",
       "text": "(ﾉꐦ ⊙曲ఠ)ﾉ彡┻━┻",
-      "tags": ["不滿", "崩潰", "激動", "生氣", "翻桌", "舉起雙手"]
+      "tags": ["angry", "breakdown", "displeased", "excited", "hands-up", "table-flip"]
     },
     {
       "id": "action_650",
       "text": "（ノ♯｀△´）ノ~’┻━┻",
-      "tags": ["不滿", "叫喊", "生氣", "翻桌", "舉起雙手"]
+      "tags": ["angry", "displeased", "hands-up", "shout", "table-flip"]
     },
     {
       "id": "action_651",
       "text": "(┛ಠДಠ)┛彡┻━┻",
-      "tags": ["不滿", "叫喊", "翻桌", "舉起雙手"]
+      "tags": ["displeased", "hands-up", "shout", "table-flip"]
     },
     {
       "id": "action_652",
       "text": "༼ ᕤ ºل͟º ༽ᕤ ︵┻━┻",
-      "tags": ["不滿", "無言", "翻桌", "舉起雙手"]
+      "tags": ["displeased", "hands-up", "speechless", "table-flip"]
     },
     {
       "id": "action_653",
       "text": "༼ノಠل͟ಠ༽ノ ︵ ┻━┻",
-      "tags": ["不滿", "無言", "翻桌", "舉起雙手"]
+      "tags": ["displeased", "hands-up", "speechless", "table-flip"]
     },
     {
       "id": "action_654",
       "text": "(つ☢益☢)つ︵┻━┻",
-      "tags": ["不滿", "翻桌"]
+      "tags": ["displeased", "table-flip"]
     },
     {
       "id": "action_655",
       "text": "┻━┻ ︵ ლ(ಠ益ಠლ)",
-      "tags": ["不滿", "生氣", "翻桌"]
+      "tags": ["angry", "displeased", "table-flip"]
     },
     {
       "id": "action_656",
       "text": "/(ò.ó)┛彡┻━┻",
-      "tags": ["不滿", "生氣", "翻桌"]
+      "tags": ["angry", "displeased", "table-flip"]
     },
     {
       "id": "action_657",
       "text": "(ﾉ｀Д)ﾉ:・’∵:.┻┻",
-      "tags": ["生氣", "翻桌"]
+      "tags": ["angry", "table-flip"]
     },
     {
       "id": "action_658",
       "text": "ʕノ•ᴥ•ʔノ ︵ ┻━┻",
-      "tags": ["動物", "熊", "翻桌", "舉起雙手"]
+      "tags": ["animal", "bear", "hands-up", "table-flip"]
     },
     {
       "id": "action_659",
       "text": "ʕ ⊃･ ◡ ･ ʔ⊃︵┻━┻",
-      "tags": ["不滿", "微笑", "翻桌", "腹黑"]
+      "tags": ["displeased", "scheming", "smile", "table-flip"]
     },
     {
       "id": "action_660",
       "text": "(┛❍ᴥ❍)┛彡┻━┻",
-      "tags": ["不滿", "動物", "狗狗", "翻桌", "舉起雙手"]
+      "tags": ["animal", "displeased", "dog", "hands-up", "table-flip"]
     },
     {
       "id": "action_661",
       "text": "༼ ͠ຈ ͟ل͜ ͠ຈ༽ง︵┻━┻",
-      "tags": ["微笑", "翻桌"]
+      "tags": ["smile", "table-flip"]
     },
     {
       "id": "action_662",
       "text": "(╯ಠ_ರೃ)╯︵ ┻━┻",
-      "tags": ["不滿", "生氣", "翻桌", "舉起雙手"]
+      "tags": ["angry", "displeased", "hands-up", "table-flip"]
     },
     {
       "id": "action_663",
       "text": "(ノ°▽°)ノ︵┻━┻",
-      "tags": ["不滿", "翻桌", "腹黑", "興奮", "舉起雙手"]
+      "tags": ["displeased", "hands-up", "scheming", "table-flip", "thrilled"]
     },
     {
       "id": "action_664",
       "text": "(ﾉ*’ω’*)ﾉ彡┻━┻",
-      "tags": ["不滿", "翻桌", "舉起雙手"]
+      "tags": ["displeased", "hands-up", "table-flip"]
     },
     {
       "id": "action_665",
       "text": "(ﾉ＾◡＾)ﾉ︵ ┻━┻",
-      "tags": ["不滿", "微笑", "翻桌", "腹黑", "舉起雙手"]
+      "tags": ["displeased", "hands-up", "scheming", "smile", "table-flip"]
     },
     {
       "id": "action_666",
       "text": "(╯ ･ ᗜ ･ )╯︵ ┻━┻",
-      "tags": ["不滿", "翻桌", "腹黑", "舉起雙手"]
+      "tags": ["displeased", "hands-up", "scheming", "table-flip"]
     },
     {
       "id": "action_667",
       "text": "(/¯◡ ‿ ◡)/¯ ~ ┻━┻",
-      "tags": ["無奈", "翻桌", "舉起雙手", "閉眼"]
+      "tags": ["closed-eyes", "hands-up", "helpless", "table-flip"]
     },
     {
       "id": "action_668",
       "text": "(ノ-_-)ノ ~┻━┻",
-      "tags": ["無奈", "無言", "翻桌", "舉起雙手", "閉眼"]
+      "tags": ["closed-eyes", "hands-up", "helpless", "speechless", "table-flip"]
     },
     {
       "id": "action_669",
       "text": "(._.) ~ ︵ ┻━┻",
-      "tags": ["無奈", "無言", "翻桌"]
+      "tags": ["helpless", "speechless", "table-flip"]
     },
     {
       "id": "action_670",
       "text": "ヽ༼ ツ ༽ﾉ ︵┻━┻",
-      "tags": ["不滿", "微笑", "無奈", "翻桌", "舉起雙手"]
+      "tags": ["displeased", "hands-up", "helpless", "smile", "table-flip"]
     },
     {
       "id": "action_671",
       "text": "(╯=▃=)╯︵┻━┻",
-      "tags": ["不滿", "無言", "翻桌", "舉起雙手"]
+      "tags": ["displeased", "hands-up", "speechless", "table-flip"]
     },
     {
       "id": "action_672",
       "text": "(/#-_-)/~┻┻〃",
-      "tags": ["無奈", "無言", "翻桌"]
+      "tags": ["helpless", "speechless", "table-flip"]
     },
     {
       "id": "action_673",
       "text": "ヽ(^o^)ρ┳┻┳°σ(^o^)ノ",
-      "tags": ["翻桌"]
+      "tags": ["table-flip"]
     },
     {
       "id": "action_674",
       "text": "(╯°益°)╯彡┻━┻",
-      "tags": ["不滿", "激動", "生氣", "翻桌", "舉起雙手"]
+      "tags": ["angry", "displeased", "excited", "hands-up", "table-flip"]
     },
     {
       "id": "action_675",
       "text": "(╮°-°)╮┳━━┳ ( ╯°□°)╯ ┻━━┻",
-      "tags": ["翻桌", "生氣"]
+      "tags": ["angry", "table-flip"]
     },
     {
       "id": "action_676",
       "text": "(ﾉ；；)ﾉ~┻━┻",
-      "tags": ["哭", "翻桌", "舉起雙手", "難過"]
+      "tags": ["crying", "hands-up", "sad", "table-flip"]
     },
     {
       "id": "action_677",
       "text": "（ノT＿T)ノ ＾┻━┻",
-      "tags": ["哭", "翻桌", "舉起雙手", "難過"]
+      "tags": ["crying", "hands-up", "sad", "table-flip"]
     },
     {
       "id": "action_678",
       "text": "‎(ﾉಥ益ಥ）ﾉ ┻━┻",
-      "tags": ["不滿", "哭", "生氣", "翻桌", "舉起雙手", "難過"]
+      "tags": ["angry", "crying", "displeased", "hands-up", "sad", "table-flip"]
     },
     {
       "id": "action_679",
       "text": "(ﾉಥДಥ)ﾉ︵┻━┻･/",
-      "tags": ["不滿", "哭", "生氣", "翻桌", "舉起雙手", "難過"]
+      "tags": ["angry", "crying", "displeased", "hands-up", "sad", "table-flip"]
     },
     {
       "id": "action_680",
       "text": "(/ToT)/ ~┻┻",
-      "tags": ["哭", "翻桌", "難過"]
+      "tags": ["crying", "sad", "table-flip"]
     },
     {
       "id": "action_682",
       "text": "ฅ՞•ﻌ•՞ฅ",
-      "tags": ["動物", "可愛", "狗狗", "舉起雙手"]
+      "tags": ["animal", "cute", "dog", "hands-up"]
     },
     {
       "id": "action_683",
       "text": "ฅʕ•̫͡•",
-      "tags": ["動物"]
+      "tags": ["animal"]
     },
     {
       "id": "action_684",
       "text": "ฅ ฅ",
-      "tags": ["動物", "可愛", "舉起雙手"]
+      "tags": ["animal", "cute", "hands-up"]
     },
     {
       "id": "action_685",
       "text": "คค ฅ ฅ",
-      "tags": ["動物", "可愛", "舉起雙手"]
+      "tags": ["animal", "cute", "hands-up"]
     },
     {
       "id": "action_687",
       "text": "ฅ(♡ơ ₃ơ)ฅ",
-      "tags": ["動物", "愛心", "舉起雙手", "親"]
+      "tags": ["animal", "hands-up", "kiss", "love"]
     },
     {
       "id": "action_688",
       "text": "(ฅˊ̱˂˃ˋ̱ฅ)♪",
-      "tags": ["動物", "自信", "舉起雙手", "音樂"]
+      "tags": ["animal", "confident", "hands-up", "music"]
     },
     {
       "id": "action_689",
       "text": "ฅ(ٛ•௰• ٛ )",
-      "tags": ["動物", "可愛"]
+      "tags": ["animal", "cute"]
     },
     {
       "id": "action_690",
       "text": "ฅ(ٛ •௰•´ ٛ )꒭！",
-      "tags": ["動物", "嚇一跳", "生氣"]
+      "tags": ["angry", "animal", "startled"]
     },
     {
       "id": "action_691",
       "text": "(ฅ⁍̴̀◊⁍̴́)و ̑̑",
-      "tags": ["加油", "動物"]
+      "tags": ["animal", "cheer-up"]
     },
     {
       "id": "action_692",
       "text": "ೕ(⁍̴̀◊⁍̴́ฅ)",
-      "tags": ["動物", "敬禮"]
+      "tags": ["animal", "salute"]
     },
     {
       "id": "action_693",
       "text": "ฅ(๑’Δ’๑)",
-      "tags": ["動物", "驚訝"]
+      "tags": ["animal", "surprised"]
     },
     {
       "id": "action_694",
       "text": "ฅ=͟͟͞͞((꒪∆꒪;)ฅ",
-      "tags": ["動物", "嚇一跳", "舉起雙手", "跑"]
+      "tags": ["animal", "hands-up", "running", "startled"]
     },
     {
       "id": "action_695",
       "text": "ฅ˙Ⱉ˙ฅ",
-      "tags": ["動物", "可愛", "舉起雙手", "驚訝"]
+      "tags": ["animal", "cute", "hands-up", "surprised"]
     },
     {
       "id": "action_697",
       "text": "ฅ⁽͑ ˚̀ ˙̭ ˚́ ⁾̉ฅ",
-      "tags": ["動物", "嚇一跳", "生氣", "舉起雙手"]
+      "tags": ["angry", "animal", "hands-up", "startled"]
     },
     {
       "id": "action_698",
       "text": "ฅ(•ㅅ•❀)ฅ",
-      "tags": ["可愛", "舉起雙手", "花"]
+      "tags": ["cute", "flower", "hands-up"]
     },
     {
       "id": "action_699",
       "text": "ฅ(• ɪ •)ฅ",
-      "tags": ["可愛", "舉起雙手"]
+      "tags": ["cute", "hands-up"]
     },
     {
       "id": "action_700",
       "text": "ฅ(^◕ᴥ◕^)ฅ",
-      "tags": ["可愛", "大眼", "狗狗", "舉起雙手"]
+      "tags": ["big-eyes", "cute", "dog", "hands-up"]
     },
     {
       "id": "action_701",
       "text": "ฅ●ω●ฅ",
-      "tags": ["可愛", "舉起雙手"]
+      "tags": ["cute", "hands-up"]
     },
     {
       "id": "action_704",
       "text": "(๑’ᗢ’๑)ฅ",
-      "tags": ["動物", "自信"]
+      "tags": ["animal", "confident"]
     },
     {
       "id": "action_706",
       "text": "•ฅ՞- ﻌ- ՞ฅ",
-      "tags": ["動物", "舉起雙手", "難過"]
+      "tags": ["animal", "hands-up", "sad"]
     },
     {
       "id": "action_707",
       "text": "(ฅ• . •ฅ)",
-      "tags": ["可愛", "舉起雙手"]
+      "tags": ["cute", "hands-up"]
     },
     {
       "id": "action_708",
       "text": "૮₍ ˃̵͈᷄ . ฅ ₎ა",
-      "tags": ["動物", "指", "自信"]
+      "tags": ["animal", "confident", "pointing"]
     },
     {
       "id": "action_709",
       "text": "◥(ฅº￦ºฅ)◤",
-      "tags": ["可愛", "惡魔", "舉起雙手"]
+      "tags": ["cute", "devil", "hands-up"]
     },
     {
       "id": "action_712",
       "text": "(๑́•∀•๑̀)ฅ",
-      "tags": ["動物", "開心"]
+      "tags": ["animal", "happy"]
     },
     {
       "id": "action_713",
       "text": "( ฅ˶˙ᴗ˙˶ ฅ ).ᐟ‪.ᐟ",
-      "tags": ["動物", "可愛", "舉起雙手", "開心"]
+      "tags": ["animal", "cute", "hands-up", "happy"]
     },
     {
       "id": "action_714",
       "text": "ฅ •ﻌ•♡",
-      "tags": ["動物", "可愛", "愛心"]
+      "tags": ["animal", "cute", "love"]
     },
     {
       "id": "action_715",
       "text": "(♡´͈༝`͈)ฅ˒˒",
-      "tags": ["動物", "可愛", "愛心"]
+      "tags": ["animal", "cute", "love"]
     },
     {
       "id": "action_716",
       "text": "(ฅ’ω’ฅ)​♥",
-      "tags": ["動物", "可愛", "愛心", "舉起雙手"]
+      "tags": ["animal", "cute", "hands-up", "love"]
     },
     {
       "id": "action_717",
       "text": "(ฅ•ω•ღ)ꕀ♡",
-      "tags": ["動物", "愛心"]
+      "tags": ["animal", "love"]
     },
     {
       "id": "action_719",
       "text": "(=˃̣̣̥᷄ᆽ˂̣̣̥᷅=)ฅ",
-      "tags": ["動物", "哭", "無奈", "難過"]
+      "tags": ["animal", "crying", "helpless", "sad"]
     },
     {
       "id": "action_720",
       "text": "(৹ᵒ̴̶̷᷄́ฅᵒ̴̶̷᷅)",
-      "tags": ["動物", "哭", "難過"]
+      "tags": ["animal", "crying", "sad"]
     },
     {
       "id": "action_722",
       "text": "ฅ(๑*д*๑)ฅ!!",
-      "tags": ["嚇一跳", "舉起雙手", "驚訝"]
+      "tags": ["hands-up", "startled", "surprised"]
     },
     {
       "text": "♪٩(٩ •'ᵕ'• ) \"✧♪( •'ᵕ'•و(و \"✧,",
-      "tags": ["興奮", "跳舞", "閃亮", "開心", "音樂"],
+      "tags": ["dancing", "happy", "music", "sparkle", "thrilled"],
       "id": "action_724"
     },
     {
       "id": "action_725",
       "text": "٩(｡- ω- ｡*)",
-      "tags": ["加油"]
+      "tags": ["cheer-up"]
     },
     {
       "id": "action_726",
       "text": "ε≡≡ﾍ( ´Д`)ﾉ",
-      "tags": ["跑", "崩潰"]
+      "tags": ["breakdown", "running"]
     },
     {
       "id": "action_727",
       "text": "(•͈˽•͈)",
-      "tags": ["可愛", "害羞", "微笑"]
+      "tags": ["cute", "shy", "smile"]
     },
     {
       "id": "action_728",
       "text": "(／_^)／　　●　＼(^_＼)",
-      "tags": ["舉起雙手", "運動", "開心"]
+      "tags": ["exercise", "hands-up", "happy"]
     },
     {
       "id": "action_732",
       "text": "( ￣▽￣)[] [](≧▽≦ )",
-      "tags": ["乾杯", "朋友", "興奮", "開心"]
+      "tags": ["cheers", "friend", "happy", "thrilled"]
     },
     {
       "id": "action_733",
       "text": "（⊃≧ω≦(´ω｀*⊂)",
-      "tags": ["擁抱", "朋友", "興奮", "開心"]
+      "tags": ["friend", "happy", "hug", "thrilled"]
     },
     {
       "id": "action_734",
       "text": "ヾ(￣ー￣(≧ω≦*)ゝ",
-      "tags": ["朋友", "興奮", "舉起雙手", "開心"]
+      "tags": ["friend", "hands-up", "happy", "thrilled"]
     },
     {
       "id": "action_735",
       "text": "(m)(.__.)(m)",
-      "tags": ["感謝", "拜託", "道歉"]
+      "tags": ["apologize", "grateful", "please"]
     },
     {
       "id": "action_736",
       "text": "ヾ( ´｡ •x• ｡` )ﾉ”",
-      "tags": ["X嘴", "揮手", "舉起雙手"]
+      "tags": ["hands-up", "waving", "x-mouth"]
     },
     {
       "id": "action_737",
       "text": "“8-(*･x･)爻(･x･*)-8”",
-      "tags": ["X嘴", "擁抱", "朋友"]
+      "tags": ["friend", "hug", "x-mouth"]
     },
     {
       "id": "action_738",
       "text": "ヾ(･ω･｀★)ゞ",
-      "tags": ["敬禮", "星星", "舉起雙手"]
+      "tags": ["hands-up", "salute", "star"]
     },
     {
       "id": "action_739",
       "text": "（★・л・★）ゝ",
-      "tags": ["星星", "敬禮"]
+      "tags": ["salute", "star"]
     },
     {
       "id": "action_740",
       "text": "(★｀･ω･)ゞ",
-      "tags": ["星星", "敬禮"]
+      "tags": ["salute", "star"]
     },
     {
       "id": "action_741",
       "text": "┻━┻ ヘ╰( •̀ε•́ ╰)",
-      "tags": ["不滿", "嘟嘴", "翻桌", "舉起雙手"]
+      "tags": ["displeased", "hands-up", "pout", "table-flip"]
     },
     {
       "id": "action_742",
       "text": "(╯°□°）╯︵ ┻━┻",
-      "tags": ["不滿", "叫喊", "激動", "生氣", "目瞪口呆", "翻桌", "舉起雙手"]
+      "tags": ["angry", "displeased", "dumbfounded", "excited", "hands-up", "shout", "table-flip"]
     },
     {
       "id": "action_743",
       "text": "＼（´Ｏ｀）／",
-      "tags": ["叫喊", "舉起雙手", "萬歲"]
+      "tags": ["banzai", "hands-up", "shout"]
     },
     {
       "id": "action_744",
       "text": "┬─┬ノ( º _ ºノ)",
-      "tags": ["不滿", "無言", "翻桌"]
+      "tags": ["displeased", "speechless", "table-flip"]
     }
   ]
 }

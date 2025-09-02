@@ -110,15 +110,16 @@ const CategoryManager: React.FC<CategoryManagerProps> = ({
 
       try {
         const apiData = {
+          id: trimmed.nameEn.toLowerCase(),
           category: trimmed.category,
           name: { en: trimmed.nameEn.toLowerCase(), 'zh-tw': trimmed.nameZhTw },
           preview: trimmed.preview,
+          lastUpdated: new Date().toISOString().split('T')[0],
+          items: [],
         };
 
         if (isCreating) await adminService.createCategory(apiData);
-        else {
-          await adminService.updateCategoryInfo(modalState.category!.id, apiData);
-        }
+        else await adminService.updateCategoryInfo(modalState.category!.id, apiData);
 
         resetModal();
         showToast(`分類${isCreating ? '創建' : '更新'}成功！`, 'success');

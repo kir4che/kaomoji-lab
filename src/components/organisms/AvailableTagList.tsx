@@ -1,9 +1,13 @@
+'use client';
+
+import type { Tag } from '@/types/Kaomoji';
+import { useLanguage } from '@/contexts/LanguageContext';
 import { cn } from '@/utils/cn';
 
 interface AvailableTagListProps {
-  tags: string[];
+  tags: Tag[];
   selectedTags: string[];
-  onSelect: (tag: string) => void;
+  onSelect: (tagId: string) => void;
   className?: string;
 }
 
@@ -13,7 +17,8 @@ const AvailableTagList: React.FC<AvailableTagListProps> = ({
   onSelect,
   className,
 }) => {
-  const availableTags = tags.filter((tag) => !selectedTags.includes(tag));
+  const { lang } = useLanguage();
+  const availableTags = tags.filter((tag) => !selectedTags.includes(tag.id));
 
   if (!availableTags.length) return null;
 
@@ -24,13 +29,13 @@ const AvailableTagList: React.FC<AvailableTagListProps> = ({
       <div className="flex flex-wrap gap-2">
         {availableTags.map((tag) => (
           <button
-            key={tag}
+            key={tag.id}
             type="button"
-            onClick={() => onSelect(tag)}
+            onClick={() => onSelect(tag.id)}
             className="px-2 py-1 text-sm bg-gray-100 text-gray-700 rounded hover:bg-gray-200"
-            aria-label={`加入標籤 ${tag}`}
+            aria-label={`加入標籤 ${tag.name[lang]}`}
           >
-            {tag}
+            {tag.name[lang]}
           </button>
         ))}
       </div>

@@ -1,14 +1,22 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import dynamic from 'next/dynamic';
 
 import type { CategoryData, IndexData } from '@/types/Kaomoji';
 import { useToast } from '@/contexts/ToastContext';
 import TabMenu from '@/components/admin/TabMenu';
-import KaomojiManager from '@/components/admin/KaomojiManager';
-import CategoryManager from '@/components/admin/CategoryManager';
-import TagManager from '@/components/admin/TagManager';
 import Loading from '@/components/atoms/Loading';
+
+const KaomojiManager = dynamic(() => import('@/components/admin/KaomojiManager'), {
+  loading: () => <Loading />,
+});
+const CategoryManager = dynamic(() => import('@/components/admin/CategoryManager'), {
+  loading: () => <Loading />,
+});
+const TagManager = dynamic(() => import('@/components/admin/TagManager'), {
+  loading: () => <Loading />,
+});
 
 const TABS = [
   { id: 'kaomoji', label: '顏文字管理' },
@@ -80,11 +88,7 @@ const AdminPage: React.FC = () => {
             <CategoryManager categories={categories} onDataChange={setCategories} />
           )}
           {activeTab === 'tag' && (
-            <TagManager
-              allKaomoji={allKaomoji}
-              allTags={indexData.tags || []}
-              onDataChange={() => loadData(true)}
-            />
+            <TagManager allKaomoji={allKaomoji} onDataChange={() => loadData(true)} />
           )}
         </div>
       )}
