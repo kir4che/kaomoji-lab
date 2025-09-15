@@ -4,16 +4,19 @@ import { useState, useMemo } from 'react';
 import Link from 'next/link';
 
 import { useLanguage } from '@/contexts/LanguageContext';
-import { useKaomoji } from '@/hooks/useKaomoji';
 import { normalize } from '@/utils/normalize';
 import { sortList } from '@/utils/sortList';
 import { t } from '@/lib/i18n';
-import Loading from '@/components/atoms/Loading';
 import SortingDropdown from '@/components/molecules/SortingDropdown';
+import type { CategorySummary } from '@/types/Kaomoji';
 
-const CategoryListPage: React.FC = () => {
+interface CategoryListPageProps {
+  categories: CategorySummary[];
+  totalKaomojis: number;
+}
+
+const CategoryListPage: React.FC<CategoryListPageProps> = ({ categories, totalKaomojis }) => {
   const { lang } = useLanguage();
-  const { categories, totalKaomojis, isLoading } = useKaomoji(lang);
 
   const [sortBy, setSortBy] = useState<'name' | 'count'>('count');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
@@ -27,8 +30,6 @@ const CategoryListPage: React.FC = () => {
     if (sortBy === 'count') return sortList(categories, 'itemCount', sortOrder);
     return categories;
   }, [categories, sortBy, sortOrder, lang]);
-
-  if (isLoading) return <Loading />;
 
   return (
     <div className="flex-1 flex flex-col">

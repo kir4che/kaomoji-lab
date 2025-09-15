@@ -1,121 +1,56 @@
-'use client';
+import path from 'path';
+import { promises as fs } from 'fs';
 
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
+import { cookies } from 'next/headers';
+import type { Metadata } from 'next';
 
-import type { KaomojiItem } from '@/types/Kaomoji';
-import { useLanguage } from '@/contexts/LanguageContext';
-import { useKaomoji } from '@/hooks/useKaomoji';
-import { useFilteredKaomoji } from '@/hooks/useFilteredKaomoji';
-import { useCopyToClipboard } from '@/hooks/useCopyToClipboard';
 import { t } from '@/lib/i18n';
-import Hexo from '@/components/organisms/Hexo';
-import KaomojiBtn from '@/components/atoms/KaomojiBtn';
-import Input from '@/components/atoms/Input';
-import Loading from '@/components/atoms/Loading';
+import type { Language } from '@/types/Language';
+import { readIndexFile } from '@/services/dataService';
+import type { CategorySummary, KaomojiItem, IndexData } from '@/types/Kaomoji';
 
-const Home: React.FC = () => {
-  const { lang } = useLanguage();
-  const { categories, isLoading } = useKaomoji(lang);
-  const { copiedId, copyToClipboard } = useCopyToClipboard();
+import HomeClient from './client';
 
-  const [allKaomojis, setAllKaomojis] = useState<KaomojiItem[]>([]);
-  const [randomKaomojis, setRandomKaomojis] = useState<KaomojiItem[]>([]);
-  const [searchTerm, setSearchTerm] = useState('');
+export async function generateMetadata(): Promise<Metadata> {
+  const cookieStore = cookies();
+  const lang = ((await cookieStore).get('app-language')?.value || 'zh-tw') as Language;
 
-  // 載入所有分類的顏文字
-  useEffect(() => {
-    if (!categories.length) return;
+  return {
+    title: t('meta_home_title', lang),
+    description: t('meta_home_description', lang),
+    keywords: t('meta_home_keywords', lang).split(','),
+    openGraph: {
+      title: t('meta_home_og_title', lang),
+      description: t('meta_home_og_description', lang),
+      type: 'website',
+      url: '/',
+    },
+  };
+}
 
-    const fetchAllKaomojis = async () => {
-      const promises = categories.map((category) =>
-        fetch(`/data/categories/${category.id}.json`)
-          .then((res) => res.json())
-          .then((data) => (Array.isArray(data?.items) ? (data.items as KaomojiItem[]) : []))
-          .catch(() => [] as KaomojiItem[])
-      );
+const HomePage = async () => {
+  const indexData: IndexData = await readIndexFile();
+  const categories: CategorySummary[] = (indexData?.categories || []).map((c) => ({
+    ...c,
+    filePath: `categories/${c.id}.json`,
+  }));
 
-      const kaomojisByCategory = await Promise.all(promises);
-      const all = kaomojisByCategory.flat();
-      setAllKaomojis(all);
+  const dataDirectory = path.join(process.cwd(), 'public/data');
 
-      const shuffled = [...all].sort(() => Math.random() - 0.5);
-      setRandomKaomojis(shuffled.slice(0, 50));
-    };
+  const categoryDataPromises = categories.map(async (category) => {
+    const filePath = path.join(dataDirectory, 'categories', `${category.id}.json`);
+    try {
+      const res = await fs.readFile(filePath, 'utf8');
+      const categoryData: { items?: KaomojiItem[] } = JSON.parse(res);
+      return categoryData.items ?? [];
+    } catch {
+      return [];
+    }
+  });
 
-    fetchAllKaomojis();
-  }, [categories]);
+  const allKaomojis = (await Promise.all(categoryDataPromises)).flat();
 
-  const filteredInput = searchTerm ? allKaomojis : randomKaomojis;
-  const filteredKaomojis = useFilteredKaomoji({ sourceKaomojis: filteredInput, searchTerm });
-
-  if (isLoading) return <Loading />;
-
-  return (
-    <>
-      <Hexo />
-      <div className="w-full max-w-96 mx-auto my-6" role="search">
-        <Input
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          placeholder={t('searchInputPlaceholder', lang)}
-          aria-label={t('searchInputAriaLabel', lang)}
-          focusEffect
-        />
-      </div>
-      {filteredKaomojis.length > 0 ? (
-        <ul
-          className="flex flex-wrap gap-2.5 justify-center"
-          aria-live="polite"
-          aria-label={
-            searchTerm
-              ? t('searchResultsAriaLabel', lang, { count: filteredKaomojis.length })
-              : t('recommendedKaomojis', lang)
-          }
-        >
-          {filteredKaomojis.map((kaomoji) => (
-            <li key={kaomoji.id}>
-              <KaomojiBtn
-                text={kaomoji.text}
-                onCopy={() => copyToClipboard(kaomoji.text, kaomoji.id)}
-                isCopied={copiedId === kaomoji.id}
-                className="md:text-base"
-              />
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p className="text-gray-500 text-lg text-center py-8">
-          {searchTerm
-            ? t('noKaomojisFoundWithTerm', lang, { term: searchTerm })
-            : t('noKaomojisFound', lang)}
-        </p>
-      )}
-      <section className="py-8 text-center space-y-6">
-        <h2>{t('exploreByCategory', lang)}</h2>
-        <div className="flex flex-wrap justify-center gap-3">
-          {categories.map((category) => (
-            <Link
-              key={category.id}
-              href={`/category/${category.id}`}
-              className="w-[calc(50%-6px)] sm:w-[calc(24%-6px)] lg:w-[calc(12%-6px)] rounded-xl bg-white p-2.5 text-center shadow shadow-primary-800/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500"
-              aria-label={t('categoryAriaLabel', lang, {
-                categoryName: category.name[lang],
-                count: category.itemCount,
-              })}
-            >
-              <h3 className="text-base font-semibold capitalize text-gray-800">
-                {category.name[lang]}
-              </h3>
-              <p className="text-xs text-gray-500">
-                {t('kaomojisCount', lang, { count: category.itemCount })}
-              </p>
-            </Link>
-          ))}
-        </div>
-      </section>
-    </>
-  );
+  return <HomeClient categories={categories} allKaomojis={allKaomojis} />;
 };
 
-export default Home;
+export default HomePage;

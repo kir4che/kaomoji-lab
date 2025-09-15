@@ -3,7 +3,14 @@ import type { CategoryData, KaomojiItem, Tag } from '@/types/Kaomoji';
 
 async function fetchAPI(endpoint: string, options?: RequestInit) {
   const headers = new Headers(options?.headers);
-  const res = await fetch(`/api/admin${endpoint}`, { ...options, headers });
+
+  const getBaseUrl = () => {
+    if (typeof window !== 'undefined') return '';
+    if (process.env.NEXT_PUBLIC_VERCEL_URL) return `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`;
+    return `http://localhost:${process.env.PORT ?? 3000}`;
+  };
+
+  const res = await fetch(`${getBaseUrl()}/api/admin${endpoint}`, { ...options, headers });
 
   if (!res.ok) {
     const errorData = await res.json().catch(() => ({ message: 'An unknown error occurred' }));

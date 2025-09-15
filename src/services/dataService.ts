@@ -1,7 +1,7 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 
-import type { IndexData, CategoryData } from '@/types/Kaomoji';
+import type { IndexData, CategoryData, Tag } from '@/types/Kaomoji';
 
 const DATA_DIR = path.join(process.cwd(), 'public', 'data');
 const CATEGORIES_DIR = path.join(DATA_DIR, 'categories');
@@ -49,13 +49,18 @@ export async function deleteCategoryFile(categoryId: string): Promise<void> {
   await fs.unlink(getCategoryFilePath(categoryId));
 }
 
-export async function getAllTags(): Promise<string[]> {
+export async function getAllTags(): Promise<Tag[]> {
   const indexData = await readIndexFile();
-  if (Array.isArray(indexData.tags) && indexData.tags.length > 0) {
-    if (typeof indexData.tags[0] === 'object' && 'id' in indexData.tags[0])
-      return (indexData.tags as any[]).map((tag) => tag.id);
-  }
-  return (indexData.tags as unknown as string[]) || [];
+  const { tags = [] } = indexData;
+
+  if (tags.length === 0) return [];
+
+  if (typeof tags[0] === 'object' && tags[0] !== null && 'id' in tags[0]) return tags as Tag[];
+
+  return (tags as unknown as string[]).map((tagId) => ({
+    id: tagId,
+    name: { en: tagId, 'zh-tw': tagId },
+  }));
 }
 
 export async function isTagInUse(tagId: string): Promise<boolean> {

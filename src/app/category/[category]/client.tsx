@@ -5,7 +5,6 @@ import Link from 'next/link';
 
 import type { CategoryData } from '@/types/Kaomoji';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { useKaomoji } from '@/hooks/useKaomoji';
 import { useFilteredKaomoji } from '@/hooks/useFilteredKaomoji';
 import { t } from '@/lib/i18n';
 import Input from '@/components/atoms/Input';
@@ -17,7 +16,6 @@ interface CategoryPageClientProps {
 
 const CategoryPageClient: React.FC<CategoryPageClientProps> = ({ categoryData }) => {
   const { lang } = useLanguage();
-  const { getCategoryName } = useKaomoji(lang);
   const [searchTerm, setSearchTerm] = useState('');
 
   const filteredKaomojis = useFilteredKaomoji({
@@ -25,10 +23,12 @@ const CategoryPageClient: React.FC<CategoryPageClientProps> = ({ categoryData })
     searchTerm,
   });
 
+  const categoryName = categoryData.name[lang] || categoryData.name.en || categoryData.id;
+
   return (
     <div className="flex-1 flex flex-col">
       <section className="mb-4 space-y-3 sm:space-y-4 text-center">
-        <h1>{getCategoryName(categoryData.id)}</h1>
+        <h1>{categoryName}</h1>
         <p className="text-sm text-gray-500">
           {t('kaomojiCountInCategory', lang, { count: categoryData.items.length })}
         </p>

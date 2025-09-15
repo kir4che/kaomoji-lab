@@ -37,7 +37,10 @@ export async function generateMetadata(): Promise<Metadata> {
   const keywords = t('meta_keywords', lang) || '';
 
   return {
-    title: t('meta_default_title', lang),
+    title: {
+      default: t('meta_default_title', lang),
+      template: `%s - ${t('meta_default_title', lang)}`,
+    },
     description: t('meta_description', lang),
     keywords: keywords.split(','),
     creator: t('meta_default_title', lang),

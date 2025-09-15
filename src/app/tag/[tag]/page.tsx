@@ -1,15 +1,17 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 
+import { cache } from 'react';
 import type { Metadata } from 'next';
 import { cookies } from 'next/headers';
+import { notFound } from 'next/navigation';
 import Link from 'next/link';
 
 import type { Language } from '@/types/Language';
 import type { KaomojiItem, CategoryData, IndexData, Tag } from '@/types/Kaomoji';
 import { t } from '@/lib/i18n';
 import KaomojiList from '@/components/molecules/KaomojiList';
-import * as adminService from '@/services/adminService';
+import { getAllTags } from '@/services/dataService';
 
 const dataDirectory = path.join(process.cwd(), 'public/data');
 
@@ -19,43 +21,64 @@ interface Props {
   }>;
 }
 
-async function getTagById(tagId: string): Promise<Tag | undefined> {
-  const allTags = await adminService.getTags();
-  return allTags.find((t: { id: string }) => t.id === tagId);
-}
-
-async function getKaomojisByTag(tagId: string): Promise<KaomojiItem[]> {
-  const indexFile = await fs.readFile(path.join(dataDirectory, 'index.json'), 'utf8');
-  const indexData: IndexData = JSON.parse(indexFile);
-
-  const allKaomojis: KaomojiItem[] = [];
-
-  for (const category of indexData.categories) {
-    const categoryFile = await fs.readFile(
-      path.join(dataDirectory, 'categories', `${category.id}.json`),
-      'utf8'
+const getTagBySlugOrId = cache(async (slugOrId: string): Promise<Tag | undefined> => {
+  try {
+    const allTags = await getAllTags();
+    const slug = slugOrId.toLowerCase();
+    return allTags.find(
+      (t) =>
+        t.id === slugOrId ||
+        t.name.en.toLowerCase() === slug ||
+        t.name['zh-tw'].toLowerCase() === slug
     );
-    const categoryData: CategoryData = JSON.parse(categoryFile);
-    if (categoryData.items) allKaomojis.push(...categoryData.items);
+  } catch {
+    return undefined;
   }
+});
 
-  return allKaomojis.filter((k) => k.tags.includes(tagId));
-}
+const getKaomojisByTag = cache(async (tagId: string): Promise<KaomojiItem[]> => {
+  try {
+    const indexFile = await fs.readFile(path.join(dataDirectory, 'index.json'), 'utf8');
+    const indexData: IndexData = JSON.parse(indexFile);
+
+    const categoryFilePromises = indexData.categories.map((category) => {
+      const filePath = path.join(dataDirectory, 'categories', `${category.id}.json`);
+      return fs.readFile(filePath, 'utf8');
+    });
+
+    const categoryFiles = await Promise.all(categoryFilePromises);
+
+    const allKaomojis = categoryFiles.flatMap((fileContent) => {
+      const categoryData: CategoryData = JSON.parse(fileContent);
+      return categoryData.items || [];
+    });
+
+    return allKaomojis.filter((k) => k.tags.includes(tagId));
+  } catch {
+    notFound();
+  }
+});
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const cookieStore = cookies();
-  const lang = ((await cookieStore).get('app-language')?.value || 'zh-tw') as Language;
-  const { tag: tagId } = await params;
+  const cookieStore = await cookies();
+  const lang = (cookieStore.get('app-language')?.value || 'zh-tw') as Language;
+  const { tag: slug } = await params;
 
-  const tag = await getTagById(tagId);
-  const tagName = tag ? tag.name[lang] : tagId;
+  const tag = await getTagBySlugOrId(slug);
 
-  const kaomojis = await getKaomojisByTag(tagId);
+  if (!tag) {
+    notFound();
+  }
+
+  const tagName = tag.name[lang] || tag.name.en;
+  const kaomojis = await getKaomojisByTag(tag.id);
   const description = t('meta_tag_page_description', lang, {
     tag: tagName,
     count: kaomojis.length,
   });
   const keywords = t('meta_tag_page_keywords', lang, { tag: tagName }).split(',');
+  keywords.push(`${tagName} 顏文字`);
+  keywords.push(`${tagName} Kaomoji`);
 
   return {
     title: t('tag_page_title', lang, { tag: tagName }),
@@ -65,20 +88,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: t('tag_page_title', lang, { tag: tagName }),
       description,
       type: 'website',
-      url: `/tag/${tagId}`,
+      url: `/tag/${slug}`,
     },
   };
 }
 
 const TagPage = async ({ params }: Props) => {
-  const cookieStore = cookies();
-  const lang = ((await cookieStore).get('app-language')?.value || 'zh-tw') as Language;
-  const { tag: tagId } = await params;
+  const cookieStore = await cookies();
+  const lang = (cookieStore.get('app-language')?.value || 'zh-tw') as Language;
+  const { tag: slug } = await params;
 
-  const tag = await getTagById(tagId);
-  const tagName = tag ? tag.name[lang] : tagId;
+  const tag = await getTagBySlugOrId(slug);
 
-  const kaomojis = await getKaomojisByTag(tagId);
+  if (!tag) {
+    notFound();
+  }
+
+  const tagName = tag.name[lang] || tag.name.en;
+  const kaomojis = await getKaomojisByTag(tag.id);
 
   return (
     <div className="flex-1 flex flex-col">

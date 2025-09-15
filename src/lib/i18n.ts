@@ -131,6 +131,26 @@ const translations: Translations = {
     'zh-tw': '© 2025 顏文字實驗室 All rights reserved.',
     en: '© 2025 Kaomoji Lab All rights reserved.',
   },
+  meta_home_title: {
+    'zh-tw': '顏文字實驗室',
+    en: 'Kaomoji Lab',
+  },
+  meta_home_description: {
+    'zh-tw': '顏文字實驗室',
+    en: 'Kaomoji Lab',
+  },
+  meta_home_keywords: {
+    'zh-tw': '顏文字,顏文字實驗室,Kaomoji,可愛顏文字,特殊符號,表情符號,一鍵複製',
+    en: 'Kaomoji,Kaomoji Lab,cute kaomoji,special symbols,emoticons,one-click copy',
+  },
+  meta_home_og_title: {
+    'zh-tw': '顏文字實驗室',
+    en: 'Kaomoji Lab',
+  },
+  meta_home_og_description: {
+    'zh-tw': '顏文字實驗室',
+    en: 'Kaomoji Lab',
+  },
   exploreMore: {
     'zh-tw': '探索更多',
     en: 'Explore More',
@@ -330,8 +350,8 @@ const translations: Translations = {
     en: '{tag},Kaomoji,emoticon,tags,Japanese Emoticons',
   },
   tag_page_title: {
-    'zh-tw': '標籤：{tag}',
-    en: 'Tag: {tag}',
+    'zh-tw': '{tag}',
+    en: '{tag}',
   },
   tag_page_description: {
     'zh-tw': '共找到 {count} 個包含此標籤的顏文字',
@@ -346,8 +366,8 @@ const translations: Translations = {
     en: 'Back to all tags',
   },
   tag_page_aria_label: {
-    'zh-tw': '標籤：{tag}（共 {count} 個）',
-    en: 'Tag: {tag} ({count} total)',
+    'zh-tw': '{tag}（共 {count} 個）',
+    en: '{tag} ({count} total)',
   },
   tag_page_h1: {
     'zh-tw': '標籤',
