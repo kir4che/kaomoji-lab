@@ -32,11 +32,12 @@ const siteUrl = new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://kaomojilab.
 
 export async function generateMetadata(): Promise<Metadata> {
   const cookieStore = cookies();
-  const lang = getValidLanguage((await (await cookieStore).get('app-language'))?.value);
+  const lang = getValidLanguage((await (await cookieStore).get('app-language'))?.value) || 'zh-tw';
 
   const keywords = t('meta_keywords', lang) || '';
 
   return {
+    metadataBase: siteUrl,
     title: {
       default: t('meta_default_title', lang),
       template: `%s - ${t('meta_default_title', lang)}`,
@@ -49,6 +50,9 @@ export async function generateMetadata(): Promise<Metadata> {
     robots: 'index, follow',
     alternates: {
       canonical: siteUrl.toString(),
+    },
+    icons: {
+      icon: '/favicon.ico',
     },
     openGraph: {
       title: t('meta_default_title', lang),
