@@ -19,6 +19,9 @@ export async function generateMetadata(): Promise<Metadata> {
     title: t('meta_home_title', lang),
     description: t('meta_home_description', lang),
     keywords: t('meta_home_keywords', lang).split(','),
+    alternates: {
+      canonical: '/',
+    },
     openGraph: {
       title: t('meta_home_og_title', lang),
       description: t('meta_home_og_description', lang),

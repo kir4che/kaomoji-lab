@@ -63,6 +63,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cookieStore = await cookies();
   const lang = (cookieStore.get('app-language')?.value || 'zh-tw') as Language;
   const { tag: slug } = await params;
+  const canonicalPath = `/tag/${encodeURIComponent(slug)}`;
 
   const tag = await getTagBySlugOrId(slug);
 
@@ -84,11 +85,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: t('tag_page_title', lang, { tag: tagName }),
     description,
     keywords,
+    alternates: {
+      canonical: canonicalPath,
+    },
     openGraph: {
       title: t('tag_page_title', lang, { tag: tagName }),
       description,
       type: 'website',
-      url: `/tag/${slug}`,
+      url: canonicalPath,
     },
   };
 }

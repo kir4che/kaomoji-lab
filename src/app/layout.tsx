@@ -29,6 +29,7 @@ const notoColorEmoji = Noto_Color_Emoji({
 });
 
 const siteUrl = new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://kaomojilab.vercel.app/');
+const ogImageUrl = new URL('/images/og-image.png', siteUrl).toString();
 
 export async function generateMetadata(): Promise<Metadata> {
   const cookieStore = cookies();
@@ -48,20 +49,17 @@ export async function generateMetadata(): Promise<Metadata> {
     authors: [{ name: t('meta_default_title', lang) }],
     publisher: t('meta_default_title', lang),
     robots: 'index, follow',
-    alternates: {
-      canonical: siteUrl.toString(),
-    },
     icons: {
       icon: '/favicon.ico',
     },
     openGraph: {
       title: t('meta_default_title', lang),
       description: t('meta_og_description', lang),
-      url: siteUrl.toString(),
+      url: '/',
       siteName: t('meta_default_title', lang),
       images: [
         {
-          url: `${siteUrl.toString()}/images/og-image.png`,
+          url: ogImageUrl,
           width: 1200,
           height: 630,
           alt: 'Kaomoji Lab',
@@ -74,7 +72,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: 'summary_large_image',
       title: t('meta_default_title', lang),
       description: t('meta_twitter_description', lang),
-      images: [`${siteUrl.toString()}/images/og-image.png`],
+      images: [ogImageUrl],
     },
   };
 }
