@@ -29,30 +29,30 @@ const SelectAllBtn: React.FC<SelectAllBtnProps> = ({
   };
 
   return (
-    <div className={cn('flex-center gap-x-1', className)}>
-      <button
-        type="button"
-        onClick={handleClick}
-        className={cn(
-          'hover:text-primary-600 transition-colors',
-          isAllSelected ? 'text-primary-600' : 'text-gray-800'
-        )}
-        aria-label={isAllSelected ? '取消全選' : '全選'}
-      >
-        <SelectAllIcon className="size-5" />
-      </button>
-      {showCount && hasSelection && (
-        <span
-          className={cn(
-            'text-xs font-normal',
-            isAllSelected ? 'text-primary-600' : 'text-gray-800',
-            countClassName
-          )}
-        >
-          已選擇 {selectedCount} 個
-        </span>
+    <button
+      type="button"
+      onClick={handleClick}
+      className={cn(
+        'flex-center gap-1 hover:text-primary-600 transition-colors',
+        isAllSelected ? 'text-primary-600' : 'text-gray-800',
+        className
       )}
-    </div>
+      aria-label={isAllSelected ? '取消全選' : '全選'}
+    >
+      <SelectAllIcon className="size-4.5" />
+      <span
+        className={cn(
+          'text-xs font-normal',
+          isAllSelected ? 'text-primary-600' : 'text-gray-800',
+          countClassName
+        )}
+      >
+        {showCount && hasSelection
+          ? `
+已選擇 ${selectedCount} 個`
+          : '全選'}
+      </span>
+    </button>
   );
 };
 
