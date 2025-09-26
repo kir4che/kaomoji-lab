@@ -5,6 +5,8 @@ import type { IndexData, CategoryData, Tag } from '@/types/Kaomoji';
 
 const DATA_DIR = path.join(process.cwd(), 'public', 'data');
 const CATEGORIES_DIR = path.join(DATA_DIR, 'categories');
+const STORAGE_DIR = path.join(process.cwd(), 'storage');
+const CHECKED_KAOMOJI_FILE = path.join(STORAGE_DIR, 'checked-kaomoji.json');
 
 const getIndexFilePath = () => path.join(DATA_DIR, 'index.json');
 const getCategoryFilePath = (id: string) => path.join(CATEGORIES_DIR, `${id}.json`);
@@ -49,6 +51,33 @@ export async function deleteCategoryFile(categoryId: string): Promise<void> {
   await fs.unlink(getCategoryFilePath(categoryId));
 }
 
+const isLocalPersistenceEnabled = () => process.env.NODE_ENV !== 'production';
+
+const ensureCheckedKaomojiFile = async () => {
+  await fs.mkdir(STORAGE_DIR, { recursive: true });
+  try {
+    await fs.access(CHECKED_KAOMOJI_FILE);
+  } catch {
+    await fs.writeFile(CHECKED_KAOMOJI_FILE, '[]', 'utf-8');
+  }
+};
+
+export async function readCheckedKaomojiIds(): Promise<string[]> {
+  if (!isLocalPersistenceEnabled()) return [];
+  await ensureCheckedKaomojiFile();
+  const content = await fs.readFile(CHECKED_KAOMOJI_FILE, 'utf-8');
+  const parsed = JSON.parse(content);
+  if (!Array.isArray(parsed)) return [];
+  return parsed.filter((id): id is string => typeof id === 'string');
+}
+
+export async function writeCheckedKaomojiIds(ids: string[]): Promise<void> {
+  if (!isLocalPersistenceEnabled()) return;
+  await ensureCheckedKaomojiFile();
+  const uniqueIds = Array.from(new Set(ids.filter((id): id is string => typeof id === 'string')));
+  await fs.writeFile(CHECKED_KAOMOJI_FILE, JSON.stringify(uniqueIds, null, 2), 'utf-8');
+}
+
 export async function getAllTags(): Promise<Tag[]> {
   const indexData = await readIndexFile();
   const { tags = [] } = indexData;
@@ -91,25 +120,42 @@ export async function getUsedTags(): Promise<Set<string>> {
 }
 
 export async function rebuildTagsFromCategories(): Promise<void> {
-  const allTags = new Set<string>();
-  const currentIndexData = await readIndexFile(); // 重新命名避免衝突
+  const allTagIds = new Set<string>();
+  const currentIndexData = await readIndexFile();
 
   for (const categorySummary of currentIndexData.categories) {
     const categoryData = await readCategoryFile(categorySummary.id);
-    if (categoryData) {
-      categoryData.items.forEach((item) => {
-        item.tags.forEach((tagId) => {
-          allTags.add(tagId);
-        });
-      });
-    }
+    if (!categoryData) continue;
+    categoryData.items.forEach((item) => item.tags.forEach((tagId) => allTagIds.add(tagId)));
   }
 
-  if (typeof currentIndexData.tags[0] === 'object') {
-    currentIndexData.tags = Array.from(allTags)
+  if (typeof currentIndexData.tags[0] === 'object' && currentIndexData.tags[0] !== null) {
+    const existingTagMap = new Map<string, Tag>();
+    (currentIndexData.tags as Tag[]).forEach((tag) => {
+      if (tag?.id) existingTagMap.set(tag.id, tag);
+    });
+
+    currentIndexData.tags = Array.from(allTagIds)
       .sort()
-      .map((id) => ({ id })) as any;
-  } else currentIndexData.tags = Array.from(allTags).sort() as any;
+      .map((id) => {
+        const existing = existingTagMap.get(id);
+        if (existing)
+          return {
+            id,
+            name: {
+              en: existing.name?.en || existing.id,
+              'zh-tw': existing.name?.['zh-tw'] || existing.id,
+            },
+          };
+
+        return {
+          id,
+          name: { en: id, 'zh-tw': id },
+        };
+      }) as any;
+  } else {
+    currentIndexData.tags = Array.from(allTagIds).sort() as any;
+  }
 
   await updateIndexFile(currentIndexData);
 }

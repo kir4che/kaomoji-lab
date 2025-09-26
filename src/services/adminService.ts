@@ -124,3 +124,23 @@ export const cleanupTags = () => {
     headers: { 'Content-Type': 'application/json' },
   });
 };
+
+export const getCheckedKaomojiIds = async (): Promise<string[]> => {
+  const data = await fetchAPI('/checked');
+  if (Array.isArray(data?.ids))
+    return data.ids.filter((id: unknown): id is string => typeof id === 'string');
+  return [];
+};
+
+export const saveCheckedKaomojiIds = async (ids: string[]) => {
+  try {
+    await fetchAPI('/checked', {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ids }),
+    });
+  } catch (error) {
+    if (error instanceof Error && error.message === 'Checked kaomoji persistence disabled') return;
+    throw error;
+  }
+};

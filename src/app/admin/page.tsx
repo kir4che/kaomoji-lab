@@ -41,14 +41,20 @@ const AdminPage: React.FC = () => {
       try {
         setIsLoading(true);
 
-        const idxRes = await fetch('/data/index.json');
+        const cacheBuster = Date.now().toString();
+
+        const idxRes = await fetch(`/data/index.json?cb=${cacheBuster}`, {
+          cache: 'no-store',
+        });
         if (!idxRes.ok) throw new Error('無法載入索引資料！');
         const indexDataFromServer: IndexData = await idxRes.json();
         setIndexData(indexDataFromServer);
 
         const categoryData = await Promise.all(
           indexDataFromServer.categories.map(async (cat) => {
-            const res = await fetch(`/data/categories/${cat.id}.json`);
+            const res = await fetch(`/data/categories/${cat.id}.json?cb=${cacheBuster}`, {
+              cache: 'no-store',
+            });
             if (!res.ok) throw new Error(`無法載入分類：${cat.id}！`);
             return res.json() as Promise<CategoryData>;
           })
@@ -82,6 +88,7 @@ const AdminPage: React.FC = () => {
               categories={categories}
               indexData={indexData}
               onDataChange={setCategories}
+              onRefreshIndexData={() => loadData(true)}
             />
           )}
           {activeTab === 'category' && (
