@@ -1,32 +1,40 @@
 'use client';
 
-import { useState, useEffect, useMemo, useCallback } from 'react';
+import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 
 import type { KaomojiItem, CategoryData, IndexData } from '@/types/Kaomoji';
 import { useToast } from '@/contexts/ToastContext';
 import { cn } from '@/utils/cn';
 import { useFilteredKaomoji } from '@/hooks/useFilteredKaomoji';
 import { useKaomojiMutations } from '@/hooks/useKaomojiMutations';
+import { getCheckedKaomojiIds, saveCheckedKaomojiIds } from '@/services/adminService';
 import KaomojiEditor from '@/components/admin/KaomojiEditor';
+import CategoryTagCrossView from '@/components/admin/CategoryTagCrossView';
 import Input from '@/components/atoms/Input';
 import IconBtn from '@/components/atoms/IconBtn';
 import SelectAllBtn from '@/components/atoms/SelectAllBtn';
 import Loading from '@/components/atoms/Loading';
 import PlusIcon from '@/assets/icons/plus.svg';
 import MinusIcon from '@/assets/icons/minus.svg';
+import DeleteIcon from '@/assets/icons/delete.svg';
 import CloseIcon from '@/assets/icons/close.svg';
 import CheckIcon from '@/assets/icons/check.svg';
+import ResetIcon from '@/assets/icons/reset.svg';
 
 interface KaomojiManagerProps {
   categories: CategoryData[];
   indexData: IndexData;
   onDataChange: (updatedCategories: CategoryData[]) => void;
+  onRefreshIndexData?: () => void;
 }
+
+const CHECKED_STORAGE_KEY = 'checkedKaomojiIds';
 
 const KaomojiManager: React.FC<KaomojiManagerProps> = ({
   categories: initialCategories,
   indexData,
   onDataChange,
+  onRefreshIndexData,
 }: KaomojiManagerProps) => {
   const { showToast } = useToast();
 
@@ -37,23 +45,120 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
   const [filterTag, setFilterTag] = useState('');
 
   const [selectedKaomojiIds, setSelectedKaomojiIds] = useState<Set<string>>(new Set());
-  const [checkedKaomojiIds, setCheckedKaomojiIds] = useState<Set<string>>(() => {
-    const savedCheckedIds = localStorage.getItem('checkedKaomojiIds');
-    return savedCheckedIds ? new Set(JSON.parse(savedCheckedIds)) : new Set();
-  });
-  const [filterCheckedStatus, setFilterCheckedStatus] = useState<'all' | 'checked' | 'unchecked'>(
-    'unchecked'
+  const [checkedKaomojiIds, setCheckedKaomojiIds] = useState<Set<string>>(new Set());
+  const loadErrorNotifiedRef = useRef(false);
+  const persistErrorNotifiedRef = useRef(false);
+  const [checkedStatusFilters, setCheckedStatusFilters] = useState<Set<'checked' | 'unchecked'>>(
+    () => new Set(['unchecked'])
   );
+  const filterCheckedStatus = useMemo<'all' | 'checked' | 'unchecked'>(() => {
+    if (checkedStatusFilters.size === 0 || checkedStatusFilters.size === 2) return 'all';
+    if (checkedStatusFilters.has('checked')) return 'checked';
+    return 'unchecked';
+  }, [checkedStatusFilters]);
 
-  const [isMultiSelectMode, setIsMultiSelectMode] = useState(false);
   const [tagsToAdd, setTagsToAdd] = useState('');
-  const [tagsToRemove, setTagsToRemove] = useState('');
+  const [showCrossView, setShowCrossView] = useState(false);
+  const previousFilteredIdsRef = useRef<string[]>([]);
 
   useEffect(() => {
     setCategories(initialCategories);
   }, [initialCategories]);
 
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    let isCancelled = false;
+
+    const hydrateFromLocalStorage = () => {
+      try {
+        const stored = window.localStorage.getItem(CHECKED_STORAGE_KEY);
+        if (!stored) return;
+        const parsed = JSON.parse(stored);
+        if (Array.isArray(parsed)) {
+          const validIds = parsed.filter((id: unknown): id is string => typeof id === 'string');
+          if (!isCancelled) setCheckedKaomojiIds(new Set(validIds));
+        }
+      } catch {
+        window.localStorage.removeItem(CHECKED_STORAGE_KEY);
+        if (!loadErrorNotifiedRef.current) {
+          loadErrorNotifiedRef.current = true;
+          showToast('載入檢查狀態時發生錯誤，已重設清單。', 'info');
+        }
+      }
+    };
+
+    hydrateFromLocalStorage();
+
+    getCheckedKaomojiIds()
+      .then((ids) => {
+        if (isCancelled || !Array.isArray(ids)) return;
+        const validIds = ids.filter((id): id is string => typeof id === 'string');
+        if (!isCancelled) {
+          setCheckedKaomojiIds(new Set(validIds));
+          window.localStorage.setItem(CHECKED_STORAGE_KEY, JSON.stringify(validIds));
+        }
+      })
+      .catch((err) => {
+        if (isCancelled || loadErrorNotifiedRef.current) return;
+        if (err instanceof Error && err.message === 'Checked kaomoji persistence disabled') return;
+        loadErrorNotifiedRef.current = true;
+        showToast('無法讀取本機檔案中的檢查狀態，已使用瀏覽器的資料。', 'info');
+      });
+
+    return () => {
+      isCancelled = true;
+    };
+  }, [showToast]);
+
+  const persistCheckedKaomojiIds = useCallback(
+    (ids: Set<string>) => {
+      if (typeof window !== 'undefined')
+        window.localStorage.setItem(CHECKED_STORAGE_KEY, JSON.stringify(Array.from(ids)));
+
+      saveCheckedKaomojiIds(Array.from(ids))
+        .then(() => {
+          persistErrorNotifiedRef.current = false;
+        })
+        .catch((err) => {
+          if (err instanceof Error && err.message === 'Checked kaomoji persistence disabled')
+            return;
+          if (persistErrorNotifiedRef.current) return;
+          persistErrorNotifiedRef.current = true;
+          showToast('儲存檢查狀態到本機檔案時發生錯誤，只會保留瀏覽器資料。', 'error');
+        });
+    },
+    [showToast]
+  );
+
   const allKaomoji = useMemo(() => categories.flatMap((c) => c.items), [categories]);
+
+  const tagNameMap = useMemo(() => {
+    const map = new Map<string, string>();
+    indexData.tags.forEach((tag) => {
+      if (tag?.id) map.set(tag.id, tag.name?.['zh-tw'] || tag.name?.en || tag.id);
+    });
+    return map;
+  }, [indexData.tags]);
+
+  const tagAliasMap = useMemo(() => {
+    const normalize = (value: string) =>
+      value.normalize('NFKC').trim().replace(/\s+/g, ' ').toLowerCase();
+
+    const map = new Map<string, string[]>();
+    indexData.tags.forEach((tag) => {
+      if (!tag?.id) return;
+      const aliases = new Set<string>();
+      const candidates = [tag.id, tag.name?.en, tag.name?.['zh-tw']].filter(
+        (value): value is string => Boolean(value)
+      );
+      candidates.forEach((value) => aliases.add(normalize(value)));
+      const aliasArray = Array.from(aliases);
+      map.set(tag.id, aliasArray);
+      map.set(normalize(tag.id), aliasArray);
+    });
+    return map;
+  }, [indexData.tags]);
 
   const kaomojiToCategoryMap = useMemo(() => {
     const map = new Map<string, string>();
@@ -65,15 +170,18 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
     return map;
   }, [categories]);
 
-  const toggleKaomojiChecked = useCallback((kaomojiId: string) => {
-    setCheckedKaomojiIds((prev) => {
-      const newSet = new Set(prev);
-      if (newSet.has(kaomojiId)) newSet.delete(kaomojiId);
-      else newSet.add(kaomojiId);
-      localStorage.setItem('checkedKaomojiIds', JSON.stringify(Array.from(newSet)));
-      return newSet;
-    });
-  }, []);
+  const toggleKaomojiChecked = useCallback(
+    (kaomojiId: string) => {
+      setCheckedKaomojiIds((prev) => {
+        const newSet = new Set(prev);
+        if (newSet.has(kaomojiId)) newSet.delete(kaomojiId);
+        else newSet.add(kaomojiId);
+        persistCheckedKaomojiIds(newSet);
+        return newSet;
+      });
+    },
+    [persistCheckedKaomojiIds]
+  );
 
   const toggleKaomojiSelection = useCallback((kaomojiId: string) => {
     setSelectedKaomojiIds((prev) => {
@@ -92,6 +200,7 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
     filterTag,
     filterCheckedStatus,
     checkedKaomojiIds,
+    tagAliasMap,
   });
 
   const selectAllKaomoji = useCallback(() => {
@@ -102,32 +211,52 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
     setSelectedKaomojiIds(new Set());
   }, []);
 
-  const toggleMultiSelectMode = useCallback(() => {
-    setIsMultiSelectMode((prev) => {
-      if (prev) {
-        if (selectedKaomojiIds.size === 1) {
-          const selectedId = selectedKaomojiIds.values().next().value;
-          let kaomojiToSelect = null;
-          for (const category of categories) {
-            const found = category.items.find((k) => k.id === selectedId);
-            if (found) {
-              kaomojiToSelect = found;
-              break;
-            }
-          }
-          if (kaomojiToSelect) setSelectedKaomoji(kaomojiToSelect);
-        }
-        setSelectedKaomojiIds(new Set());
-      }
-      return !prev;
+  const toggleStatusFilter = useCallback((status: 'checked' | 'unchecked') => {
+    setCheckedStatusFilters((prev) => {
+      const next = new Set(prev);
+      if (next.has(status)) next.delete(status);
+      else next.add(status);
+      return next;
     });
-  }, [selectedKaomojiIds, categories]);
+  }, []);
+
+  const handleResetCrossViewSelection = useCallback(() => {
+    setSelectedCategory('');
+    setFilterTag('');
+    setCheckedStatusFilters(new Set(['unchecked']));
+    setSelectedKaomojiIds(new Set());
+    setSelectedKaomoji(null);
+  }, [
+    setSelectedCategory,
+    setFilterTag,
+    setCheckedStatusFilters,
+    setSelectedKaomojiIds,
+    setSelectedKaomoji,
+  ]);
 
   useEffect(() => {
-    if (!selectedKaomoji && filteredKaomoji.length > 0 && !isMultiSelectMode)
-      setSelectedKaomoji(filteredKaomoji[0]);
-    if (isMultiSelectMode) setSelectedKaomoji(null);
-  }, [filteredKaomoji, selectedKaomoji, isMultiSelectMode]);
+    if (filteredKaomoji.length === 0) {
+      if (selectedKaomoji) setSelectedKaomoji(null);
+      previousFilteredIdsRef.current = [];
+      return;
+    }
+
+    const currentIndex = selectedKaomoji
+      ? filteredKaomoji.findIndex((item) => item.id === selectedKaomoji.id)
+      : -1;
+
+    if (currentIndex === -1) {
+      const previousIds = previousFilteredIdsRef.current;
+      const previousIndex = selectedKaomoji ? previousIds.indexOf(selectedKaomoji.id) : -1;
+      const nextIndex =
+        previousIndex >= 0 ? Math.min(previousIndex, filteredKaomoji.length - 1) : 0;
+      const nextSelection = filteredKaomoji[nextIndex];
+      if (nextSelection) setSelectedKaomoji(nextSelection);
+      else setSelectedKaomoji(null);
+    }
+
+    previousFilteredIdsRef.current = filteredKaomoji.map((item) => item.id);
+  }, [filteredKaomoji, selectedKaomoji]);
 
   const tagsWithCounts = useMemo(() => {
     const counts: { [tag: string]: number } = {};
@@ -142,9 +271,25 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
       item.tags.forEach((tag) => (counts[tag] = (counts[tag] || 0) + 1));
     });
     return Object.keys(counts)
-      .map((tag) => ({ tag, count: counts[tag] }))
-      .sort((a, b) => a.tag.localeCompare(b.tag, 'zh-TW'));
-  }, [allKaomoji, categories, selectedCategory]);
+      .map((tag) => ({ tag, count: counts[tag], label: tagNameMap.get(tag) || tag }))
+      .sort((a, b) => a.label.localeCompare(b.label, 'zh-TW'));
+  }, [allKaomoji, categories, selectedCategory, tagNameMap]);
+
+  const checkedCount = useMemo(() => {
+    if (selectedCategory) {
+      const category = categories.find((c) => c.id === selectedCategory);
+      return category ? category.items.filter((item) => checkedKaomojiIds.has(item.id)).length : 0;
+    }
+    return checkedKaomojiIds.size;
+  }, [selectedCategory, categories, checkedKaomojiIds]);
+
+  const uncheckedCount = useMemo(() => {
+    if (selectedCategory) {
+      const category = categories.find((c) => c.id === selectedCategory);
+      return category ? category.items.filter((item) => !checkedKaomojiIds.has(item.id)).length : 0;
+    }
+    return allKaomoji.length - checkedKaomojiIds.size;
+  }, [selectedCategory, categories, checkedKaomojiIds, allKaomoji]);
 
   const {
     isLoading,
@@ -155,12 +300,12 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
     handleBulkDelete,
     handleBulkMove,
     handleBulkAddTags,
-    handleBulkRemoveTags,
   } = useKaomojiMutations({
     categories,
     onDataChange,
     setCategories,
     kaomojiToCategoryMap,
+    availableTags: indexData.tags,
   });
 
   const handleMoveFromEditor = useCallback(
@@ -219,36 +364,15 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
   };
 
   const onBulkAddTags = () => {
-    handleBulkAddTags(selectedKaomojiIds, tagsToAdd).then(() => {
-      setTagsToAdd('');
-      setSelectedKaomojiIds(new Set());
-    });
-  };
-
-  const onBulkRemoveTags = () => {
-    if (!tagsToRemove.trim()) {
-      showToast('請輸入要移除的標籤！', 'info');
-      return;
-    }
-
-    const tagsToRemoveList = tagsToRemove
-      .split(/[,，、\s]+/)
-      .map((tag) => tag.trim())
-      .filter(Boolean);
-
-    if (tagsToRemoveList.length === 0) {
-      showToast('無效的標籤輸入！', 'info');
-      return;
-    }
-
-    handleBulkRemoveTags(selectedKaomojiIds, tagsToRemove)
-      .then(() => {
-        setTagsToRemove('');
-        setSelectedKaomojiIds(new Set());
-        showToast(`已成功移除選定的標籤！`, 'success');
+    handleBulkAddTags(selectedKaomojiIds, tagsToAdd)
+      .then((result) => {
+        if (result && result.updatedItemCount > 0) {
+          setTagsToAdd('');
+          setSelectedKaomojiIds(new Set());
+        }
       })
       .catch(() => {
-        showToast('移除標籤時發生錯誤！', 'error');
+        /* error toast already handled inside mutation hook */
       });
   };
 
@@ -257,237 +381,214 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
   return (
     <div
       className={cn('grid grid-cols-1 gap-4', {
-        'md:grid-cols-[2fr_1.5fr]': !isMultiSelectMode && selectedKaomoji,
+        'md:grid-cols-[2fr_1.5fr]': Boolean(selectedKaomoji),
       })}
     >
       <div className="space-y-3">
         <div className="relative bg-white rounded-lg px-4 sm:px-6 py-3">
-          <div className="flex gap-x-1.5">
+          <div className="flex flex-col gap-2 xs:flex-row xs:gap-1.5">
             <Input
               value={searchTerm}
               placeholder="搜尋顏文字或標籤"
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="p-2 border rounded-md border-gray-300 flex-2 text-xs xs:text-sm"
+              className="w-full p-2 border rounded-md border-gray-300 text-sm h-12 xs:flex-[2]"
             />
-            <select
-              value={selectedCategory}
-              onChange={(e) => {
-                setSelectedCategory(e.target.value);
-                setSelectedKaomoji(null);
-              }}
-              className={cn(
-                'text-xs xs:text-sm p-1.5 border border-gray-300 rounded-md focus:outline-none flex-1',
-                isMultiSelectMode ? 'max-w-36' : 'max-w-24'
-              )}
-            >
-              <option value="">選擇分類</option>
-              {categories.map((category) => (
-                <option key={category.id} value={category.id}>
-                  {category.name['zh-tw']} ({category.items.length})
-                </option>
-              ))}
-            </select>
-            <select
-              value={filterTag}
-              onChange={(e) => setFilterTag(e.target.value)}
-              className={cn(
-                'text-xs xs:text-sm p-1.5 border border-gray-300 rounded-md focus:outline-none flex-1',
-                isMultiSelectMode ? 'max-w-36' : 'max-w-24'
-              )}
-            >
-              <option value="">選擇標籤</option>
-              {tagsWithCounts.map((tagInfo) => (
-                <option key={tagInfo.tag} value={tagInfo.tag}>
-                  {tagInfo.tag} ({tagInfo.count})
-                </option>
-              ))}
-            </select>
-            <select
-              value={filterCheckedStatus}
-              onChange={(e) =>
-                setFilterCheckedStatus(e.target.value as 'all' | 'checked' | 'unchecked')
-              }
-              className={cn(
-                'text-xs xs:text-sm p-1 border border-gray-300 rounded-md focus:outline-none flex-1',
-                isMultiSelectMode ? 'max-w-28' : 'max-w-24'
-              )}
-            >
-              <option value="all">全部</option>
-              <option value="checked">
-                已檢查 (
-                {selectedCategory
-                  ? categories
-                      .find((c) => c.id === selectedCategory)
-                      ?.items.filter((item) => checkedKaomojiIds.has(item.id)).length || 0
-                  : Array.from(checkedKaomojiIds).length}
-                )
-              </option>
-              <option value="unchecked">
-                未檢查 (
-                {selectedCategory
-                  ? categories
-                      .find((c) => c.id === selectedCategory)
-                      ?.items.filter((item) => !checkedKaomojiIds.has(item.id)).length || 0
-                  : allKaomoji.length - Array.from(checkedKaomojiIds).length}
-                )
-              </option>
-            </select>
+            <div className="flex flex-wrap gap-2 xs:flex-nowrap xs:flex-1">
+              <select
+                value={selectedCategory}
+                onChange={(e) => {
+                  setSelectedCategory(e.target.value);
+                  setSelectedKaomoji(null);
+                }}
+                className="flex-1 text-xs xs:text-sm p-1.5 border border-gray-300 rounded-md focus:outline-none"
+              >
+                <option value="">選擇分類</option>
+                {categories.map((category) => (
+                  <option key={category.id} value={category.id}>
+                    {category.name['zh-tw']} ({category.items.length})
+                  </option>
+                ))}
+              </select>
+              <select
+                value={filterTag}
+                onChange={(e) => setFilterTag(e.target.value)}
+                className="flex-1 text-xs xs:text-sm p-1.5 border border-gray-300 rounded-md focus:outline-none"
+              >
+                <option value="">選擇標籤</option>
+                {tagsWithCounts.map((tagInfo) => (
+                  <option key={tagInfo.tag} value={tagInfo.tag}>
+                    {tagInfo.label} ({tagInfo.count})
+                  </option>
+                ))}
+              </select>
+              <div className="flex flex-1 xs:flex-col gap-x-3 gap-y-0.5 border border-gray-300 rounded-md px-2 py-1.5 text-xs text-gray-600">
+                <label className="flex items-center gap-1 whitespace-nowrap">
+                  <input
+                    type="checkbox"
+                    className="size-2.5 accent-primary-500"
+                    checked={checkedStatusFilters.has('checked')}
+                    onChange={() => toggleStatusFilter('checked')}
+                  />
+                  <span>已檢查 ({checkedCount})</span>
+                </label>
+                <label className="flex items-center gap-1 whitespace-nowrap">
+                  <input
+                    type="checkbox"
+                    className="size-2.5 accent-primary-500"
+                    checked={checkedStatusFilters.has('unchecked')}
+                    onChange={() => toggleStatusFilter('unchecked')}
+                  />
+                  <span>未檢查 ({uncheckedCount})</span>
+                </label>
+              </div>
+            </div>
           </div>
+        </div>
+        <div className="bg-white rounded-lg px-4 md:px-6 py-2">
+          <div className="flex items-center justify-between gap-3">
+            <h3 className="text-sm font-medium">分類 × 標籤檢視</h3>
+            <div className="flex items-center gap-2">
+              <IconBtn
+                icon={<ResetIcon />}
+                onClick={handleResetCrossViewSelection}
+                label="重置交叉檢視篩選"
+                size="small"
+                className="text-gray-600 border-gray-200 hover:bg-gray-100 hover:text-gray-700"
+              />
+              <IconBtn
+                icon={showCrossView ? <MinusIcon /> : <PlusIcon />}
+                onClick={() => setShowCrossView((prev) => !prev)}
+                label={showCrossView ? '收合交叉檢視' : '展開交叉檢視'}
+                size="small"
+                className="text-gray-600 border-gray-200 hover:bg-gray-100 hover:text-gray-700"
+              />
+            </div>
+          </div>
+          {showCrossView && (
+            <div className="mt-4">
+              <CategoryTagCrossView
+                categories={categories}
+                tagNameMap={tagNameMap}
+                checkedKaomojiIds={checkedKaomojiIds}
+                onCategoryClick={(categoryId) => {
+                  setSelectedCategory(categoryId);
+                  setFilterTag('');
+                  setCheckedStatusFilters(new Set(['unchecked']));
+                }}
+                onTagClick={(categoryId, tagId) => {
+                  setSelectedCategory(categoryId);
+                  setFilterTag(tagId);
+                  setCheckedStatusFilters(new Set(['unchecked']));
+                }}
+              />
+            </div>
+          )}
         </div>
         <div className="bg-white rounded-lg px-4 md:px-6 py-3 shadow-sm">
           <div className="flex-between mb-4">
-            <h3 className="text-lg font-semibold">顏文字們 ({filteredKaomoji.length}) </h3>
-            <div className={cn('flex-center mt-1 gap-x-2')}>
-              {isMultiSelectMode ? (
-                <>
-                  <SelectAllBtn
-                    selectedCount={selectedKaomojiIds.size}
-                    totalCount={filteredKaomoji.length}
-                    onSelectAll={selectAllKaomoji}
-                    onDeselectAll={deselectAllKaomoji}
-                  />
-                  <button
-                    type="button"
-                    onClick={toggleMultiSelectMode}
-                    className="text-gray-500 hover:text-gray-700"
-                    aria-label="退出多選模式"
-                  >
-                    <CloseIcon className="size-5" />
-                  </button>
-                </>
-              ) : (
-                <>
-                  <button
-                    type="button"
-                    onClick={toggleMultiSelectMode}
-                    className="px-3 py-1.5 text-xs font-medium rounded-md bg-white text-primary-600 border border-primary-300"
-                  >
-                    多選模式
-                  </button>
-                  <IconBtn
-                    icon={<PlusIcon />}
-                    onClick={() => {
-                      if (!selectedCategory) {
-                        showToast('請先選擇一個分類再新增顏文字！', 'error');
-                        return;
-                      }
-                      setSelectedKaomoji({ id: '', text: '', tags: [] });
-                    }}
-                    label="顏文字"
-                    size="small"
-                    disabled={isLoading}
-                  />
-                </>
-              )}
-            </div>
+            <h3 className="text-lg font-semibold">顏文字們 ({filteredKaomoji.length})</h3>
+            <SelectAllBtn
+              selectedCount={selectedKaomojiIds.size}
+              totalCount={filteredKaomoji.length}
+              onSelectAll={selectAllKaomoji}
+              onDeselectAll={deselectAllKaomoji}
+              className="ml-2"
+            />
+            {selectedKaomojiIds.size > 0 && (
+              <IconBtn
+                icon={<DeleteIcon />}
+                onClick={onBulkDelete}
+                label="批量刪除"
+                size="medium"
+                className="size-fit ml-1 text-rose-600 !border-transparent hover:!bg-white hover:!text-rose-600 hover:!border-transparent"
+                disabled={isLoading}
+              />
+            )}
+            <IconBtn
+              icon={<PlusIcon />}
+              onClick={() => {
+                if (!selectedCategory) {
+                  showToast('請先選擇一個分類再新增顏文字！', 'error');
+                  return;
+                }
+                setSelectedKaomoji({ id: '', text: '', tags: [] });
+              }}
+              label="顏文字"
+              size="small"
+              className="ml-auto"
+              disabled={isLoading}
+            />
           </div>
-          {isMultiSelectMode && selectedKaomojiIds.size > 0 && (
-            <div className="flex flex-col gap-y-3 mb-6">
-              <div className="flex-center gap-x-3">
-                <select
-                  defaultValue=""
-                  onChange={(e) => {
-                    if (e.target.value) {
-                      onBulkMove(e.target.value);
-                      e.target.value = '';
-                    }
-                  }}
-                  className="flex-1 p-1.5 text-xs border border-gray-300 rounded-md focus:outline-none"
-                >
-                  <option value="">移動到...</option>
-                  {categories
-                    .filter((cat) => cat.id !== selectedCategory)
-                    .map((category) => (
-                      <option key={category.id} value={category.id}>
-                        {category.name['zh-tw']}
-                      </option>
-                    ))}
-                </select>
-                <button
-                  type="button"
-                  onClick={onBulkDelete}
-                  className="px-3 py-2 text-xs bg-rose-100/50 text-rose-700 border border-rose-200 rounded-md hover:bg-rose-100"
-                  disabled={isLoading}
-                >
-                  批量刪除
-                </button>
-              </div>
-              <div className="flex-center gap-x-2 flex-1">
-                <div className="flex-center gap-x-1.5 w-full">
-                  <Input
-                    value={tagsToAdd}
-                    onChange={(e) => setTagsToAdd(e.target.value)}
-                    placeholder="輸入新標籤（可用逗號或空格分隔）"
-                    aria-label="輸入新標籤"
-                    className="px-3 py-2 text-xs border border-gray-300 rounded-md focus:border-blue-400 focus:shadow-blue-100/50"
-                  />
-                  <IconBtn
-                    icon={<PlusIcon />}
-                    onClick={onBulkAddTags}
-                    label="新增標籤"
-                    className="text-blue-600  border-blue-600 hover:bg-blue-600"
-                    size="small"
-                  />
-                </div>
-                <div className="flex-center gap-x-1.5 w-full">
-                  <Input
-                    value={tagsToRemove}
-                    onChange={(e) => setTagsToRemove(e.target.value)}
-                    placeholder="輸入要移除的標籤（可用逗號或空格分隔）"
-                    aria-label="輸入要移除的標籤"
-                    className="px-3 py-2 text-xs border border-gray-300 rounded-md focus:border-rose-400 focus:shadow-rose-100/50"
-                  />
-                  <IconBtn
-                    icon={<MinusIcon />}
-                    onClick={onBulkRemoveTags}
-                    label="移除標籤"
-                    className="text-rose-600 border-rose-600 hover:bg-rose-600"
-                    size="small"
-                  />
-                </div>
-              </div>
+          {selectedKaomojiIds.size > 0 && (
+            <div className="flex-center gap-3 mb-4 md:max-w-sm">
+              <select
+                defaultValue=""
+                onChange={(e) => {
+                  if (e.target.value) {
+                    onBulkMove(e.target.value);
+                    e.target.value = '';
+                  }
+                }}
+                className="p-1.5 text-xs border border-gray-300 rounded-md focus:outline-none min-w-28"
+              >
+                <option value="">移動到...</option>
+                {categories
+                  .filter((cat) => cat.id !== selectedCategory)
+                  .map((category) => (
+                    <option key={category.id} value={category.id}>
+                      {category.name['zh-tw']}
+                    </option>
+                  ))}
+              </select>
+              <Input
+                value={tagsToAdd}
+                onChange={(e) => setTagsToAdd(e.target.value)}
+                placeholder="輸入新標籤（可用逗號或空格分隔）"
+                aria-label="輸入新標籤"
+                className="px-3 py-2 text-xs border border-gray-300 rounded-md focus:border-blue-400 focus:shadow-blue-100/50"
+              />
+              <IconBtn
+                icon={<PlusIcon />}
+                onClick={onBulkAddTags}
+                label="新增標籤"
+                className="text-blue-600 border-blue-600 hover:bg-blue-600"
+                size="small"
+              />
             </div>
           )}
-          <div
-            className={cn(
-              'grid max-h-48 md:max-h-[420px] gap-2 overflow-x-hidden overflow-y-auto',
-              isMultiSelectMode
-                ? 'grid-cols-2 sm:grid-cols-3 xl:grid-cols-4'
-                : 'grid-cols-2 lg:grid-cols-3'
-            )}
-          >
+          <div className="grid max-h-48 md:max-h-[420px] gap-2 overflow-x-hidden overflow-y-auto grid-cols-2 sm:grid-cols-3 xl:grid-cols-4">
             {filteredKaomoji.map((kaomoji) => {
               const isSelected = selectedKaomojiIds.has(kaomoji.id);
               return (
                 <div
                   key={kaomoji.id}
-                  onClick={() => {
-                    if (isMultiSelectMode) toggleKaomojiSelection(kaomoji.id);
-                    else setSelectedKaomoji(kaomoji);
-                  }}
+                  onClick={() => setSelectedKaomoji(kaomoji)}
                   className={cn(
                     'flex-between w-full px-2.5 py-3 border rounded-lg cursor-pointer transition-colors',
-                    (isMultiSelectMode && isSelected) || selectedKaomoji?.id === kaomoji.id
+                    isSelected || selectedKaomoji?.id === kaomoji.id
                       ? 'border-primary-500 bg-primary-50'
                       : 'border-gray-200 hover:bg-gray-50'
                   )}
                 >
                   <div className="flex items-center gap-2">
-                    {isMultiSelectMode && (
-                      <div
-                        className={cn(
-                          'size-4 border-2 rounded flex-center transition-colors',
-                          isSelected ? 'border-primary-400 bg-primary-400' : 'border-gray-300'
-                        )}
-                      >
-                        <CheckIcon className="size-3 text-white" />
-                      </div>
-                    )}
-                    <p
-                      className={cn('text-base text-nowrap', { 'sm:text-lg': !isMultiSelectMode })}
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        toggleKaomojiSelection(kaomoji.id);
+                      }}
+                      className={cn(
+                        'size-4 border-2 rounded flex-center transition-colors',
+                        isSelected
+                          ? 'border-primary-400 bg-primary-400 text-white'
+                          : 'border-gray-300 bg-white text-transparent'
+                      )}
+                      aria-label={`選取 ${kaomoji.text}`}
+                      aria-pressed={isSelected}
                     >
-                      {kaomoji.text}
-                    </p>
+                      <CheckIcon className="size-3" />
+                    </button>
+                    <p className="text-base text-nowrap sm:text-lg">{kaomoji.text}</p>
                   </div>
                   <button
                     type="button"
@@ -508,7 +609,7 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
           </div>
         </div>
       </div>
-      {selectedKaomoji && !isMultiSelectMode && (
+      {selectedKaomoji && (
         <KaomojiEditor
           kaomoji={selectedKaomoji}
           categories={categories}
@@ -518,6 +619,7 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
           onMove={handleMoveFromEditor}
           isChecked={selectedKaomoji && checkedKaomojiIds.has(selectedKaomoji.id)}
           onToggleChecked={toggleKaomojiChecked}
+          onTagCreated={() => onRefreshIndexData?.()}
         />
       )}
     </div>

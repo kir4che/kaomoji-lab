@@ -62,8 +62,9 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
     tagsToMerge,
     isMergeModalOpen,
     setIsMergeModalOpen,
-    finalMergeTag,
-    setFinalMergeTag,
+    finalMergeTagName,
+    setFinalMergeTagName,
+    finalMergeTarget,
     handleMergeTags,
     isDeleteTagsMode,
     toggleDeleteMode,
@@ -142,7 +143,9 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
               <button
                 onClick={() => {
                   if (tagsToMerge.size < 2) return;
-                  setFinalMergeTag(Array.from(tagsToMerge)[0]);
+                  const firstTagId = Array.from(tagsToMerge)[0];
+                  const fallbackName = tagUsageMap.get(firstTagId)?.name['zh-tw'] ?? '';
+                  setFinalMergeTagName(fallbackName);
                   setIsMergeModalOpen(true);
                 }}
                 disabled={tagsToMerge.size < 2}
@@ -310,9 +313,7 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
           </div>
         )}
       </div>
-
       <TagModal isOpen={isModalOpen} onClose={closeModal} onSave={handleSave} tag={editingTag} />
-
       <Modal isOpen={isMergeModalOpen} onClose={closeModal} title="合併標籤">
         <form
           onSubmit={(e: FormEvent) => {
@@ -331,13 +332,27 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
           </div>
           <div>
             <label className="mb-2 block text-sm font-medium text-gray-700">
-              選擇或輸入最終的標籤 ID
+              請輸入最終標籤的中文名稱
             </label>
             <Input
-              value={finalMergeTag}
-              onChange={(e) => setFinalMergeTag(e.target.value)}
+              value={finalMergeTagName}
+              onChange={(e) => setFinalMergeTagName(e.target.value)}
+              list="merge-tag-options"
+              placeholder="輸入或選擇標籤的中文名稱"
               className="w-full rounded-md border border-gray-300 px-2.5 py-2"
             />
+            <datalist id="merge-tag-options">
+              {Array.from(tagUsageMap.values()).map((tag) => (
+                <option key={tag.id} value={tag.name['zh-tw']} />
+              ))}
+            </datalist>
+            <p className="mt-1 text-xs text-gray-500">
+              {finalMergeTagName.trim()
+                ? finalMergeTarget
+                  ? `將合併至「${finalMergeTarget.name['zh-tw']}」 (ID: ${finalMergeTarget.id})`
+                  : '找不到相符的標籤，請確認中文名稱或先新增該標籤。'
+                : '可輸入現有標籤的中文名稱或從清單中選擇。'}
+            </p>
           </div>
           <div className="flex justify-end space-x-3 pt-4">
             <button
@@ -349,7 +364,7 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
             </button>
             <button
               type="submit"
-              disabled={!finalMergeTag.trim()}
+              disabled={!finalMergeTarget}
               className="rounded-md bg-blue-500 px-4 py-2 text-white hover:bg-blue-600 disabled:opacity-50"
             >
               確定合併

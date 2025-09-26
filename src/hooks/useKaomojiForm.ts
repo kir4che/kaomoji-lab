@@ -1,22 +1,80 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 
 import { useToast } from '@/contexts/ToastContext';
-import type { KaomojiItem } from '@/types/Kaomoji';
+import type { KaomojiItem, Tag } from '@/types/Kaomoji';
+import * as adminService from '@/services/adminService';
+
+const isEnglish = (text: string) => /^[\x20-\x7E]+$/.test(text);
+
+const slugifyId = (value: string) => {
+  const slug = value
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 64);
+  return slug || `tag-${Date.now()}`;
+};
 
 interface UseKaomojiFormParams {
   kaomoji: KaomojiItem;
   currCategory: string;
   onSave: (kaomoji: KaomojiItem) => Promise<void>;
   onMove: (toCategory: string, updatedData?: KaomojiItem) => void;
+  availableTags?: Tag[];
+  onTagCreated?: (tag: Tag) => void | Promise<void>;
 }
 
-export function useKaomojiForm({ kaomoji, currCategory, onSave, onMove }: UseKaomojiFormParams) {
+export function useKaomojiForm({
+  kaomoji,
+  currCategory,
+  onSave,
+  onMove,
+  availableTags = [],
+  onTagCreated,
+}: UseKaomojiFormParams) {
   const { showToast } = useToast();
 
   const [formData, setFormData] = useState<KaomojiItem>(kaomoji);
   const [newTag, setNewTag] = useState('');
   const [selectedMoveCategory, setSelectedMoveCategory] = useState('');
   const [isSaving, setIsSaving] = useState(false);
+  const [customTags, setCustomTags] = useState<Tag[]>([]);
+
+  const normalizeTag = useCallback((tag: string) => {
+    return tag.normalize('NFKC').trim().replace(/\s+/g, ' ').toLowerCase();
+  }, []);
+
+  useEffect(() => {
+    setCustomTags((prev) =>
+      prev.filter((tag) => !availableTags.some((origin) => origin.id === tag.id))
+    );
+  }, [availableTags]);
+
+  const combinedTags = useMemo(() => {
+    const map = new Map<string, Tag>();
+    availableTags.forEach((tag) => map.set(tag.id, tag));
+    customTags.forEach((tag) => map.set(tag.id, tag));
+    return Array.from(map.values());
+  }, [availableTags, customTags]);
+
+  const tagLookup = useMemo(() => {
+    const map = new Map<string, string>();
+
+    combinedTags.forEach((tag) => {
+      const candidates = [tag.id, tag.name?.en, tag.name?.['zh-tw']].filter(
+        (value): value is string => Boolean(value)
+      );
+
+      candidates.forEach((value) => {
+        const normalized = normalizeTag(value);
+        if (!normalized) return;
+        map.set(normalized, tag.id);
+      });
+    });
+
+    return map;
+  }, [combinedTags, normalizeTag]);
 
   const saveTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const lastSavedDataRef = useRef<string>('');
@@ -63,24 +121,129 @@ export function useKaomojiForm({ kaomoji, currCategory, onSave, onMove }: UseKao
     [onSave, showToast]
   );
 
+  const requestNewTag = useCallback(
+    async (rawTag: string): Promise<Tag | null> => {
+      const zhName = rawTag.trim();
+      if (!zhName) return null;
+
+      if (typeof window === 'undefined') {
+        showToast('目前環境無法建立新標籤。', 'error');
+        return null;
+      }
+
+      let englishName = '';
+      while (true) {
+        const input = window.prompt(`請為新標籤「${zhName}」輸入英文名稱`, englishName);
+        if (input === null) return null;
+        const trimmed = input.trim();
+        if (!trimmed) {
+          window.alert('英文名稱不可為空。');
+          continue;
+        }
+        if (!isEnglish(trimmed)) {
+          window.alert('英文名稱請使用英文或半形符號。');
+          continue;
+        }
+        englishName = trimmed;
+        break;
+      }
+
+      const defaultId = slugifyId(englishName || zhName);
+      let finalId = '';
+
+      while (true) {
+        const input = window.prompt(
+          '請輸入標籤 ID（僅限小寫英文、數字與連字號）',
+          finalId || defaultId
+        );
+        if (input === null) return null;
+        const candidate = slugifyId(input);
+        if (!candidate) {
+          window.alert('標籤 ID 不可為空。');
+          continue;
+        }
+        if (combinedTags.some((tag) => tag.id === candidate)) {
+          window.alert('標籤 ID 已存在，請重新輸入。');
+          continue;
+        }
+        finalId = candidate;
+        break;
+      }
+
+      const newTag: Tag = {
+        id: finalId,
+        name: {
+          en: englishName,
+          'zh-tw': zhName,
+        },
+      };
+
+      try {
+        await adminService.createTag(newTag);
+        setCustomTags((prev) => [...prev, newTag]);
+        if (onTagCreated) await onTagCreated(newTag);
+        showToast(`已建立標籤「${zhName}」`, 'success');
+        return newTag;
+      } catch (err) {
+        const message = err instanceof Error ? err.message : '建立標籤失敗，請稍後再試。';
+        showToast(message, 'error');
+        return null;
+      }
+    },
+    [combinedTags, onTagCreated, showToast]
+  );
+
   // 新增標籤
   const addTags = useCallback(
     async (tagsToAdd: string | string[]) => {
-      const tags = Array.isArray(tagsToAdd) ? tagsToAdd : [tagsToAdd];
-      const newTags = tags
-        .flatMap((tag) => tag.split(/[,;、\s]+/))
-        .map((tag) => tag.trim())
-        .filter((tag) => tag && !formData.tags.includes(tag));
+      const inputs = Array.isArray(tagsToAdd) ? tagsToAdd : [tagsToAdd];
+      const existingNormalized = new Set(formData.tags.map((tag) => normalizeTag(tag)));
+      const processedInputs = new Set<string>();
+      const tagsToAppend: string[] = [];
 
-      if (newTags.length > 0) {
-        const updatedFormData = { ...formData, tags: [...formData.tags, ...newTags].sort() };
+      for (const raw of inputs) {
+        const parts = raw.split(/[,;、\s]+/);
+        for (const part of parts) {
+          const trimmed = part.trim();
+          if (!trimmed) continue;
+
+          const normalizedInput = normalizeTag(trimmed);
+          if (!normalizedInput || processedInputs.has(normalizedInput)) continue;
+          processedInputs.add(normalizedInput);
+
+          const existingId = tagLookup.get(normalizedInput);
+          if (existingId) {
+            const normalizedId = normalizeTag(existingId);
+            if (!existingNormalized.has(normalizedId)) {
+              existingNormalized.add(normalizedId);
+              tagsToAppend.push(existingId);
+            }
+            continue;
+          }
+
+          const createdTag = await requestNewTag(trimmed);
+          if (!createdTag) continue;
+
+          const normalizedId = normalizeTag(createdTag.id);
+          if (!existingNormalized.has(normalizedId)) {
+            existingNormalized.add(normalizedId);
+            tagsToAppend.push(createdTag.id);
+          }
+        }
+      }
+
+      if (tagsToAppend.length > 0) {
+        const updatedFormData = {
+          ...formData,
+          tags: [...formData.tags, ...tagsToAppend].sort(),
+        };
         setFormData(updatedFormData);
         setNewTag('');
 
         if (updatedFormData.id) await immediateSave(updatedFormData);
       }
     },
-    [formData, immediateSave]
+    [formData, immediateSave, normalizeTag, requestNewTag, tagLookup]
   );
 
   // 移除標籤
@@ -188,5 +351,6 @@ export function useKaomojiForm({ kaomoji, currCategory, onSave, onMove }: UseKao
     forceSave,
     immediateSave,
     handleMove,
+    availableTagOptions: combinedTags,
   };
 }

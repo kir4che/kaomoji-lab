@@ -35,7 +35,7 @@ export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) 
   const [isMergeMode, setIsMergeMode] = useState(false);
   const [tagsToMerge, setTagsToMerge] = useState(new Set<string>());
   const [isMergeModalOpen, setIsMergeModalOpen] = useState(false);
-  const [finalMergeTag, setFinalMergeTag] = useState('');
+  const [finalMergeTagName, setFinalMergeTagName] = useState('');
 
   const [isDeleteTagsMode, setIsDeleteTagsMode] = useState(false);
   const [tagsToDeleteBulk, setTagsToDeleteBulk] = useState(new Set<string>());
@@ -114,6 +114,7 @@ export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) 
     setEditingTag(null);
     setIsModalOpen(false);
     setIsMergeModalOpen(false);
+    setFinalMergeTagName('');
   };
 
   const toggleKaomojiSelection = (kaomojiId: string) => {
@@ -151,6 +152,7 @@ export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) 
     setIsDeleteTagsMode(false);
     setTagsToMerge(new Set());
     setTagsToDeleteBulk(new Set());
+    setFinalMergeTagName('');
   };
 
   const toggleDeleteMode = () => {
@@ -160,10 +162,20 @@ export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) 
     setTagsToDeleteBulk(new Set());
   };
 
+  const finalMergeTarget = useMemo(() => {
+    const trimmedName = finalMergeTagName.trim();
+    if (!trimmedName) return null;
+    return allTagsWithUsage.find((tag) => tag.name['zh-tw']?.trim() === trimmedName) ?? null;
+  }, [finalMergeTagName, allTagsWithUsage]);
+
   const handleMergeTags = async () => {
-    const trimmedFinalTag = finalMergeTag.trim();
-    if (!trimmedFinalTag) {
-      showToast('請選擇或輸入一個最終的標籤名稱', 'error');
+    const trimmedFinalName = finalMergeTagName.trim();
+    if (!trimmedFinalName) {
+      showToast('請輸入最終標籤的中文名稱', 'error');
+      return;
+    }
+    if (!finalMergeTarget) {
+      showToast('找不到相符的標籤，請確認輸入的中文名稱或先建立新標籤。', 'error');
       return;
     }
     if (tagsToMerge.size < 2) {
@@ -172,13 +184,13 @@ export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) 
     }
     if (
       !window.confirm(
-        `確定要將 ${tagsToMerge.size} 個標籤合併為「${trimmedFinalTag}」嗎？此操作無法復原。`
+        `確定要將 ${tagsToMerge.size} 個標籤合併為「${trimmedFinalName}」嗎？此操作無法復原。`
       )
     )
       return;
 
     try {
-      await adminService.mergeTags(Array.from(tagsToMerge), trimmedFinalTag);
+      await adminService.mergeTags(Array.from(tagsToMerge), finalMergeTarget.id);
       showToast('標籤合併成功！', 'success');
       fetchData();
       onDataChange();
@@ -322,8 +334,9 @@ export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) 
     tagsToMerge,
     isMergeModalOpen,
     setIsMergeModalOpen,
-    finalMergeTag,
-    setFinalMergeTag,
+    finalMergeTagName,
+    setFinalMergeTagName,
+    finalMergeTarget,
     handleMergeTags,
     isDeleteTagsMode,
     toggleDeleteMode,

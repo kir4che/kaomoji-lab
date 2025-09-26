@@ -1,6 +1,6 @@
 'use client';
 
-import { memo, useState } from 'react';
+import { memo, useState, useCallback } from 'react';
 import type { KeyboardEvent, CompositionEvent } from 'react';
 
 import type { KaomojiItem, CategoryData, Tag } from '@/types/Kaomoji';
@@ -24,6 +24,7 @@ interface KaomojiEditorProps {
   onMove: (toCategory: string, updatedData?: KaomojiItem) => void;
   isChecked?: boolean;
   onToggleChecked?: (kaomojiId: string) => void;
+  onTagCreated?: (tag: Tag) => void;
 }
 
 const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
@@ -35,6 +36,7 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
   onMove,
   isChecked,
   onToggleChecked,
+  onTagCreated,
 }) => {
   const [isComposing, setIsComposing] = useState(false);
   const { lang } = useLanguage();
@@ -51,20 +53,26 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
     handleSubmit,
     handleTextChange,
     handleMove,
+    availableTagOptions,
   } = useKaomojiForm({
     kaomoji,
     currCategory,
     onSave,
     onMove,
+    availableTags: allTags,
+    onTagCreated,
   });
 
   const isEditMode = Boolean(formData.id);
   const currCategoryName = categories.find((c) => c.id === currCategory)?.name[lang];
 
-  const getTagName = (tagId: string) => {
-    const tag = allTags.find((t) => t.id === tagId);
-    return tag ? tag.name[lang] : tagId;
-  };
+  const getTagName = useCallback(
+    (tagId: string) => {
+      const tag = availableTagOptions.find((t) => t.id === tagId);
+      return tag ? tag.name[lang] : tagId;
+    },
+    [availableTagOptions, lang]
+  );
 
   return (
     <div className="p-4 sm:px-6 pb-6 space-y-4 bg-white rounded-lg">
@@ -169,7 +177,11 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
           />
           <IconBtn icon={<PlusIcon />} onClick={() => addTags(newTag)} label="新增標籤" />
         </div>
-        <AvailableTagList tags={allTags} selectedTags={formData.tags} onSelect={addTags} />
+        <AvailableTagList
+          tags={availableTagOptions}
+          selectedTags={formData.tags}
+          onSelect={addTags}
+        />
         {isEditMode && (
           <div className="flex lg:items-center flex-col lg:flex-row gap-3">
             <p className="whitespace-nowrap">

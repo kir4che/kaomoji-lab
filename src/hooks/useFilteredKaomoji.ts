@@ -10,6 +10,7 @@ interface UseFilteredKaomojiParams {
   filterTag?: string;
   filterCheckedStatus?: 'all' | 'checked' | 'unchecked';
   checkedKaomojiIds?: Set<string>;
+  tagAliasMap?: Map<string, string[]>;
 }
 
 export function useFilteredKaomoji({
@@ -20,40 +21,51 @@ export function useFilteredKaomoji({
   filterTag = '',
   filterCheckedStatus = 'all',
   checkedKaomojiIds = new Set(),
+  tagAliasMap,
 }: UseFilteredKaomojiParams) {
   const countInString = (str: string, target: string) => str.split(target).length - 1;
 
-  const extractTagTexts = (tags: unknown[]): string[] => {
-    return tags.flatMap((tag) => {
-      if (typeof tag === 'string') return [tag.toLowerCase()];
-      if (typeof tag === 'object' && tag !== null) {
-        const tagObj = tag as any;
-        const texts: string[] = [];
-        if (tagObj.en) texts.push(tagObj.en.toLowerCase());
-        if (tagObj['zh-tw']) texts.push(tagObj['zh-tw'].toLowerCase());
-        return texts;
-      }
-      return [];
-    });
-  };
-
-  const tagMatches = (tags: unknown[], targetTag: string): boolean => {
-    const normalizedTarget = targetTag.trim().toLowerCase();
-
-    return tags.some((tag) => {
-      if (typeof tag === 'string') return tag.trim().toLowerCase() === normalizedTarget;
-      if (typeof tag === 'object' && tag !== null) {
-        const tagObj = tag as any;
-        return (
-          (tagObj.en && tagObj.en.trim().toLowerCase() === normalizedTarget) ||
-          (tagObj['zh-tw'] && tagObj['zh-tw'].trim().toLowerCase() === normalizedTarget)
-        );
-      }
-      return false;
-    });
-  };
+  const normalize = (value: string) =>
+    value.normalize('NFKC').trim().replace(/\s+/g, ' ').toLowerCase();
 
   return useMemo(() => {
+    const extractTagTexts = (tags: unknown[]): string[] =>
+      tags.flatMap((tag) => {
+        if (typeof tag === 'string') {
+          const normalizedTag = normalize(tag);
+          const aliasCandidates = tagAliasMap?.get(tag) ?? tagAliasMap?.get(normalizedTag) ?? [];
+          const aliasSet = new Set<string>([normalizedTag]);
+          aliasCandidates.forEach((alias) => {
+            if (alias) aliasSet.add(alias);
+          });
+          return Array.from(aliasSet);
+        }
+        if (typeof tag === 'object' && tag !== null) {
+          const tagObj = tag as any;
+          const texts: string[] = [];
+          if (tagObj.en) texts.push(tagObj.en.toLowerCase());
+          if (tagObj['zh-tw']) texts.push(tagObj['zh-tw'].toLowerCase());
+          return texts;
+        }
+        return [];
+      });
+
+    const tagMatches = (tags: unknown[], targetTag: string): boolean => {
+      const normalizedTarget = targetTag.trim().toLowerCase();
+
+      return tags.some((tag) => {
+        if (typeof tag === 'string') return tag.trim().toLowerCase() === normalizedTarget;
+        if (typeof tag === 'object' && tag !== null) {
+          const tagObj = tag as any;
+          return (
+            (tagObj.en && tagObj.en.trim().toLowerCase() === normalizedTarget) ||
+            (tagObj['zh-tw'] && tagObj['zh-tw'].trim().toLowerCase() === normalizedTarget)
+          );
+        }
+        return false;
+      });
+    };
+
     let items: KaomojiItem[] =
       selectedCategory && allCategories
         ? (allCategories.find((c) => c.id === selectedCategory)?.items ?? [])
@@ -122,5 +134,6 @@ export function useFilteredKaomoji({
     filterTag,
     filterCheckedStatus,
     checkedKaomojiIds,
+    tagAliasMap,
   ]);
 }
