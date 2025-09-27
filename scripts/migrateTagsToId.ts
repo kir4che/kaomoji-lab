@@ -33,7 +33,7 @@ const DATA_DIR = path.join(process.cwd(), 'public', 'data');
 const CATEGORIES_DIR = path.join(DATA_DIR, 'categories');
 const INDEX_FILE = path.join(DATA_DIR, 'index.json');
 
-async function runMigration() {
+async function main() {
   try {
     const indexContent = await fs.readFile(INDEX_FILE, 'utf-8');
     const indexData: IndexData = JSON.parse(indexContent);
@@ -44,7 +44,7 @@ async function runMigration() {
     });
     tagMap.set('ぞくぞく', 'shiver');
 
-    console.log(`Built tag map with ${tagMap.size} entries.`);
+    console.log(`已建立標籤對照表，共 ${tagMap.size} 筆。`);
 
     for (const category of indexData.categories) {
       const categoryFilePath = path.join(CATEGORIES_DIR, `${category.id}.json`);
@@ -69,15 +69,15 @@ async function runMigration() {
 
         if (fileModified) {
           await fs.writeFile(categoryFilePath, JSON.stringify(categoryData, null, 2), 'utf-8');
-          console.log(`Updated tags in: ${category.id}.json`);
+          console.log(`已更新分類檔案中的標籤：${category.id}.json`);
         }
       } catch (err) {
-        console.error(`Error processing file ${category.id}.json:`, err);
+        console.error(`處理分類檔案 ${category.id}.json 時發生錯誤：`, err);
       }
     }
   } catch (err) {
-    console.error('Failed to run tag migration:', err);
+    console.error(`合併標籤 ID 時發生錯誤：`, err);
   }
 }
 
-runMigration();
+main();
