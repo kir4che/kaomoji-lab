@@ -72,9 +72,21 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
     setTagsToDeleteBulk,
     handleBulkDeleteTags,
     tagUsageMap,
+    crossFilterTagIds,
+    setCrossFilterTagIds,
+    filteredExpandedTagKaomojis,
   } = useTagManager({ allKaomoji, onDataChange });
 
   const expandedTagData = expandedTag ? processedTags.find((t) => t.id === expandedTag) : null;
+  const filteredKaomojis = expandedTag ? filteredExpandedTagKaomojis : [];
+  const secondaryFilterValue = crossFilterTagIds[0] ?? '';
+
+  const crossFilterOptions = Array.from(tagUsageMap.values())
+    .filter((tag) => tag.id !== expandedTag)
+    .map((tag) => ({
+      id: tag.id,
+      label: tag.name[lang],
+    }));
 
   return (
     <>
@@ -261,9 +273,9 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
               <div className="flex-center gap-x-2">
                 <SelectAllBtn
                   selectedCount={selectedKaomojiIds.size}
-                  totalCount={expandedTagData.kaomojis.length}
+                  totalCount={filteredKaomojis.length}
                   onSelectAll={() =>
-                    setSelectedKaomojiIds(new Set(expandedTagData.kaomojis.map((k) => k.id)))
+                    setSelectedKaomojiIds(new Set(filteredKaomojis.map((k) => k.id)))
                   }
                   onDeselectAll={() => setSelectedKaomojiIds(new Set())}
                   showCount
@@ -279,36 +291,77 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
                 </button>
               </div>
             </div>
+            <div className="mb-3 flex flex-wrap items-center gap-2 text-sm text-gray-700">
+              <label htmlFor="cross-filter" className="text-xs text-gray-600">
+                交叉篩選
+              </label>
+              <select
+                id="cross-filter"
+                value={secondaryFilterValue}
+                onChange={(event) => {
+                  const value = event.target.value;
+                  setCrossFilterTagIds(value ? [value] : []);
+                }}
+                className="rounded-md border border-gray-300 bg-white px-2.5 py-1 text-sm"
+              >
+                <option value="">全部顯示</option>
+                {crossFilterOptions.map((option) => (
+                  <option key={option.id} value={option.id}>
+                    {option.label}
+                  </option>
+                ))}
+              </select>
+              {crossFilterTagIds.length > 0 && (
+                <span className="flex items-center gap-2">
+                  <span className="rounded-full bg-primary-100 px-2 py-0.5 text-xs text-primary-600">
+                    {tagUsageMap.get(crossFilterTagIds[0])?.name[lang] ?? crossFilterTagIds[0]}
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => setCrossFilterTagIds([])}
+                    className="text-xs text-gray-500 hover:text-gray-700"
+                  >
+                    清除
+                  </button>
+                </span>
+              )}
+            </div>
             <div className="grid max-h-60 grid-cols-1 gap-2 overflow-y-auto xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-8">
-              {expandedTagData.kaomojis.map((kaomoji) => (
-                <div
-                  key={kaomoji.id}
-                  onClick={() => toggleKaomojiSelection(kaomoji.id)}
-                  className={cn(
-                    'flex items-center cursor-pointer gap-x-1.5 rounded-md border bg-white p-2',
-                    selectedKaomojiIds.has(kaomoji.id)
-                      ? 'border-primary-500 bg-primary-50'
-                      : 'border-gray-200 hover:border-gray-300'
-                  )}
-                >
+              {filteredKaomojis.length > 0 ? (
+                filteredKaomojis.map((kaomoji) => (
                   <div
+                    key={kaomoji.id}
+                    onClick={() => toggleKaomojiSelection(kaomoji.id)}
                     className={cn(
-                      'flex-center size-3.5 rounded-full',
+                      'flex items-center cursor-pointer gap-x-1.5 rounded-md border bg-white p-2',
                       selectedKaomojiIds.has(kaomoji.id)
-                        ? 'bg-primary-400'
-                        : 'border border-gray-300'
+                        ? 'border-primary-500 bg-primary-50'
+                        : 'border-gray-200 hover:border-gray-300'
                     )}
                   >
-                    <CheckIcon
+                    <div
                       className={cn(
-                        'size-3',
-                        selectedKaomojiIds.has(kaomoji.id) ? 'text-white' : 'text-transparent'
+                        'flex-center size-3.5 rounded-full',
+                        selectedKaomojiIds.has(kaomoji.id)
+                          ? 'bg-primary-400'
+                          : 'border border-gray-300'
                       )}
-                    />
+                    >
+                      <CheckIcon
+                        className={cn(
+                          'size-3',
+                          selectedKaomojiIds.has(kaomoji.id) ? 'text-white' : 'text-transparent'
+                        )}
+                      />
+                    </div>
+                    <p className="truncate text-sm">{kaomoji.text}</p>
                   </div>
-                  <p className="truncate text-sm">{kaomoji.text}</p>
+                ))
+              ) : (
+                <div className="col-span-full flex justify-center rounded-md border border-dashed border-gray-300 bg-white py-6 text-sm text-gray-500">
+                  沒有符合交叉篩選的顏文字
                 </div>
-              ))}
+              )}
             </div>
           </div>
         )}

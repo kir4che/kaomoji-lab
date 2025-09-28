@@ -10,9 +10,11 @@ import {
   rebuildTagsFromCategories,
   getTodayDateString,
   isValidCategoryId,
+  readTemporaryCategory,
+  writeTemporaryCategory,
 } from '@/services/dataService';
+import { TEMP_CATEGORY_ID } from '@/constants/tempCategory';
 
-// 取得所有分類
 export async function GET() {
   try {
     return NextResponse.json(await readIndexFile());
@@ -21,7 +23,6 @@ export async function GET() {
   }
 }
 
-// 建立新分類
 export async function POST(request: NextRequest) {
   try {
     const { category, name, preview } = await request.json();
@@ -58,7 +59,6 @@ export async function POST(request: NextRequest) {
   }
 }
 
-// 更新分類
 export async function PUT(request: NextRequest) {
   try {
     const { category, name, items, preview, originalCategory } = await request.json();
@@ -66,9 +66,23 @@ export async function PUT(request: NextRequest) {
     if (!isValidCategoryId(category))
       return NextResponse.json({ error: 'Invalid category name' }, { status: 400 });
 
+    if (category === TEMP_CATEGORY_ID) {
+      if (originalCategory && originalCategory !== TEMP_CATEGORY_ID)
+        return NextResponse.json({ error: '暫存分類無法重新命名' }, { status: 400 });
+
+      const current = await readTemporaryCategory();
+      await writeTemporaryCategory({
+        name: name || current.name,
+        items: Array.isArray(items) ? items : current.items,
+        preview: typeof preview === 'string' ? preview : current.preview,
+        lastUpdated: getTodayDateString(),
+      });
+
+      return NextResponse.json({ success: true });
+    }
+
     const indexData = await readIndexFile();
 
-    // 處理分類重新命名的情況
     if (originalCategory && originalCategory !== category) {
       await deleteCategoryFile(originalCategory);
       const cat = indexData.categories.find((c) => c.id === originalCategory);
@@ -123,13 +137,15 @@ export async function PUT(request: NextRequest) {
   }
 }
 
-// 刪除分類
 export async function DELETE(request: NextRequest) {
   try {
     const { category } = await request.json();
 
     if (!isValidCategoryId(category))
       return NextResponse.json({ error: 'Invalid category name' }, { status: 400 });
+
+    if (category === TEMP_CATEGORY_ID)
+      return NextResponse.json({ error: '暫存分類無法刪除' }, { status: 400 });
 
     const categoryData = await readCategoryFile(category);
     if (!categoryData) return NextResponse.json({ error: 'Category not found' }, { status: 404 });

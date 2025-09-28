@@ -74,6 +74,18 @@ export const bulkUpdateCategoryItems = (categoryId: string, items: KaomojiItem[]
   });
 };
 
+export const getTemporaryCategory = () => {
+  return fetchAPI('/temporary-category');
+};
+
+export const updateTemporaryCategory = (data: Partial<CategoryData>) => {
+  return fetchAPI('/temporary-category', {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(data),
+  });
+};
+
 export const getTags = (): Promise<Tag[]> => {
   return fetchAPI('/tags');
 };

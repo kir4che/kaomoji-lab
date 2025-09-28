@@ -39,6 +39,15 @@ export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) 
 
   const [isDeleteTagsMode, setIsDeleteTagsMode] = useState(false);
   const [tagsToDeleteBulk, setTagsToDeleteBulk] = useState(new Set<string>());
+  const [crossFilterTagIds, setCrossFilterTagIds] = useState<string[]>([]);
+
+  const kaomojiMap = useMemo(() => {
+    const map = new Map<string, KaomojiItem>();
+    allKaomoji.forEach((item) => {
+      map.set(item.id, item);
+    });
+    return map;
+  }, [allKaomoji]);
 
   const fetchData = useCallback(async () => {
     try {
@@ -127,23 +136,24 @@ export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) 
   };
 
   const handleTagClick = (tagId: string) => {
-    if (isDeleteTagsMode) {
+    if (isDeleteTagsMode)
       setTagsToDeleteBulk((prev) => {
         const newSet = new Set(prev);
         if (newSet.has(tagId)) newSet.delete(tagId);
         else newSet.add(tagId);
         return newSet;
       });
-    } else if (isMergeMode) {
+    else if (isMergeMode)
       setTagsToMerge((prev) => {
         const newSet = new Set(prev);
         if (newSet.has(tagId)) newSet.delete(tagId);
         else newSet.add(tagId);
         return newSet;
       });
-    } else {
+    else {
       setExpandedTag((prev) => (prev === tagId ? null : tagId));
       setSelectedKaomojiIds(new Set());
+      setCrossFilterTagIds([]);
     }
   };
 
@@ -272,6 +282,35 @@ export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) 
     [selectedKaomojiIds, allKaomoji, onDataChange, showToast]
   );
 
+  const filteredExpandedTagKaomojis = useMemo(() => {
+    if (!expandedTag) return [];
+    const baseKaomojis = tagUsageMap.get(expandedTag)?.kaomojis ?? [];
+    if (crossFilterTagIds.length === 0) return baseKaomojis;
+
+    return baseKaomojis.filter((kaomoji) => {
+      const fullKaomoji = kaomojiMap.get(kaomoji.id);
+      if (!fullKaomoji) return false;
+      return crossFilterTagIds.every((tagId) => fullKaomoji.tags.includes(tagId));
+    });
+  }, [expandedTag, tagUsageMap, crossFilterTagIds, kaomojiMap]);
+
+  useEffect(() => {
+    setSelectedKaomojiIds((prev) => {
+      if (!expandedTag) return new Set<string>();
+      if (prev.size === 0) return prev;
+
+      const validIds = new Set(filteredExpandedTagKaomojis.map((k) => k.id));
+      const next = new Set<string>();
+
+      prev.forEach((id) => {
+        if (validIds.has(id)) next.add(id);
+      });
+
+      if (next.size === prev.size) return prev;
+      return next;
+    });
+  }, [expandedTag, filteredExpandedTagKaomojis]);
+
   const handleSave = async (tagData: Tag) => {
     try {
       if (editingTag) {
@@ -344,5 +383,8 @@ export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) 
     setTagsToDeleteBulk,
     handleBulkDeleteTags,
     tagUsageMap,
+    crossFilterTagIds,
+    setCrossFilterTagIds,
+    filteredExpandedTagKaomojis,
   };
 };

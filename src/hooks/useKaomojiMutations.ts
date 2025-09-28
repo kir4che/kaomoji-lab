@@ -24,8 +24,12 @@ const generateNextKaomojiId = (category: CategoryData) => {
   const maxId = Math.max(
     0,
     ...category.items
-      .map((item) => parseInt(item.id.split('_')[1] || '0', 10))
-      .filter((n) => !isNaN(n))
+      .map((item) => {
+        const segments = item.id.split('_');
+        const lastSegment = segments[segments.length - 1] || '0';
+        return parseInt(lastSegment, 10);
+      })
+      .filter((n) => !Number.isNaN(n))
   );
   return `${category.id}_${String(maxId + 1).padStart(3, '0')}`;
 };
@@ -96,16 +100,10 @@ export function useKaomojiMutations({
 
   const updateCategoryData = useCallback(
     async (categoryName: string, updatedData: Partial<CategoryData>, showError = true) => {
-      let originalCategories: CategoryData[] = [];
-      let nextCategories: CategoryData[] = [];
-
-      setCategories((prev) => {
-        originalCategories = prev;
-        nextCategories = prev.map((cat) =>
-          cat.id === categoryName ? { ...cat, ...updatedData } : cat
-        );
-        return nextCategories;
-      });
+      const originalCategories = categories;
+      const nextCategories = originalCategories.map((cat) =>
+        cat.id === categoryName ? { ...cat, ...updatedData } : cat
+      );
 
       const hasTargetCategory = nextCategories.some((cat) => cat.id === categoryName);
       if (!hasTargetCategory) {
@@ -113,6 +111,7 @@ export function useKaomojiMutations({
         return;
       }
 
+      setCategories(nextCategories);
       onDataChange(nextCategories);
 
       try {
@@ -127,7 +126,7 @@ export function useKaomojiMutations({
         throw err;
       }
     },
-    [onDataChange, setCategories, showToast]
+    [categories, onDataChange, setCategories, showToast]
   );
 
   const addKaomoji = useCallback(
@@ -225,21 +224,23 @@ export function useKaomojiMutations({
 
       if (!fromCategory || !toCategory) {
         showToast('來源或目標分類不存在！', 'error');
-        return null;
+        return { kaomoji: null, idMapping: new Map() };
       }
 
-      const updatedFromItems = fromCategory.items.filter((item) => item.id !== kaomojiToMove.id);
+      const oldId = kaomojiToMove.id;
+      const updatedFromItems = fromCategory.items.filter((item) => item.id !== oldId);
       const newId = generateNextKaomojiId(toCategory);
       const newKaomoji: KaomojiItem = { ...kaomojiToMove, id: newId };
       const updatedToItems = [...toCategory.items, newKaomoji];
 
+      const idMapping = new Map<string, string>([[oldId, newId]]);
+
       const updatedCategories = categories.map((cat) => {
-        if (cat.id === fromCategoryId) {
+        if (cat.id === fromCategoryId)
           return { ...cat, items: updatedFromItems, lastUpdated: getTodayDateString() };
-        }
-        if (cat.id === toCategoryId) {
+        else if (cat.id === toCategoryId)
           return { ...cat, items: updatedToItems, lastUpdated: getTodayDateString() };
-        }
+
         return cat;
       });
 
@@ -259,12 +260,12 @@ export function useKaomojiMutations({
         });
 
         showToast(`顏文字「${kaomojiToMove.text}」已成功移動！`, 'success');
-        return newKaomoji;
+        return { kaomoji: newKaomoji, idMapping };
       } catch {
         showToast('移動時發生錯誤！', 'error');
         setCategories(originalCategories);
         onDataChange(originalCategories);
-        return null;
+        return { kaomoji: null, idMapping: new Map() };
       }
     },
     [categories, showToast, setCategories, onDataChange]
@@ -311,31 +312,41 @@ export function useKaomojiMutations({
       handleBulkAction(selectedKaomojiIds, async (items) => {
         if (!window.confirm(`確定要刪除選中的 ${items.length} 個顏文字嗎？`)) return;
 
-        const updatesByCat = new Map<string, KaomojiItem[]>();
-        const idsToDeleteByCat = new Map<string, Set<string>>();
+        const originalCategories = categories;
 
+        const nextCategories = originalCategories.map((category) => {
+          const idsToDelete = new Set<string>();
+          items.forEach((item) => {
+            if (kaomojiToCategoryMap.get(item.id) === category.id) {
+              idsToDelete.add(item.id);
+            }
+          });
+
+          if (idsToDelete.size === 0) return category;
+
+          const updatedItems = category.items.filter((item) => !idsToDelete.has(item.id));
+          return { ...category, items: updatedItems, lastUpdated: getTodayDateString() };
+        });
+
+        setCategories(nextCategories);
+        onDataChange(nextCategories);
+
+        const updatesByCat = new Map<string, { items: KaomojiItem[]; lastUpdated: string }>();
         items.forEach((item) => {
           const catId = kaomojiToCategoryMap.get(item.id);
           if (catId) {
-            if (!idsToDeleteByCat.has(catId)) idsToDeleteByCat.set(catId, new Set());
-            idsToDeleteByCat.get(catId)!.add(item.id);
+            if (!updatesByCat.has(catId)) {
+              const updatedCategory = nextCategories.find((c) => c.id === catId)!;
+              updatesByCat.set(catId, {
+                items: updatedCategory.items,
+                lastUpdated: updatedCategory.lastUpdated,
+              });
+            }
           }
         });
 
-        idsToDeleteByCat.forEach((idsToDelete, catId) => {
-          const originalItems = categories.find((c) => c.id === catId)!.items;
-          updatesByCat.set(
-            catId,
-            originalItems.filter((item) => !idsToDelete.has(item.id))
-          );
-        });
-
-        const updatePromises = Array.from(updatesByCat.entries()).map(([catId, updatedItems]) =>
-          updateCategoryData(
-            catId,
-            { items: updatedItems, lastUpdated: getTodayDateString() },
-            false
-          )
+        const updatePromises = Array.from(updatesByCat.entries()).map(([catId, data]) =>
+          adminService.updateCategory(catId, data)
         );
 
         try {
@@ -343,9 +354,11 @@ export function useKaomojiMutations({
           showToast(`成功刪除 ${items.length} 個顏文字！`, 'success');
         } catch {
           showToast('批量刪除時發生錯誤', 'error');
+          setCategories(originalCategories);
+          onDataChange(originalCategories);
         }
       }),
-    [handleBulkAction, kaomojiToCategoryMap, categories, updateCategoryData, showToast]
+    [handleBulkAction, kaomojiToCategoryMap, categories, setCategories, onDataChange, showToast]
   );
 
   const handleBulkMove = useCallback(
@@ -363,6 +376,7 @@ export function useKaomojiMutations({
         const originalCategories = JSON.parse(JSON.stringify(categories));
         const updates = new Map<string, KaomojiItem[]>();
         const itemsToMoveByCat = new Map<string, KaomojiItem[]>();
+        const idMapping = new Map<string, string>();
 
         items.forEach((item) => {
           const fromId = kaomojiToCategoryMap.get(item.id)!;
@@ -392,10 +406,12 @@ export function useKaomojiMutations({
 
         for (const item of items) {
           if (kaomojiToCategoryMap.get(item.id) !== targetCategoryId) {
+            const newId = `${targetCategoryId}_${String(nextIdCounter++).padStart(3, '0')}`;
             newItemsInTarget.push({
               ...item,
-              id: `${targetCategoryId}_${String(nextIdCounter++).padStart(3, '0')}`,
+              id: newId,
             });
+            idMapping.set(item.id, newId);
           }
         }
         updates.set(targetCategoryId, newItemsInTarget);
@@ -423,10 +439,12 @@ export function useKaomojiMutations({
         try {
           await Promise.all(apiCalls);
           showToast(`成功移動 ${items.length} 個顏文字！`, 'success');
+          return { idMapping };
         } catch {
           showToast('批量移動時發生未知錯誤！', 'error');
           setCategories(originalCategories);
           onDataChange(originalCategories);
+          return { idMapping: new Map<string, string>() };
         }
       }),
     [handleBulkAction, categories, kaomojiToCategoryMap, onDataChange, setCategories, showToast]
@@ -484,7 +502,6 @@ export function useKaomojiMutations({
       const categorizedClones = getCategorizedUpdatesForTagging(items);
       const updatesToApply: Array<[string, KaomojiItem[]]> = [];
       let updatedItemCount = 0;
-      let skippedForDuplicate = 0;
 
       for (const [catId, currentItems] of categorizedClones.entries()) {
         let categoryChanged = false;
@@ -508,10 +525,7 @@ export function useKaomojiMutations({
               tagMap.set(normalizedTag, tagId);
               addedCount += 1;
             });
-            if (addedCount === 0) {
-              skippedForDuplicate += 1;
-              return item;
-            }
+            if (addedCount === 0) return item;
           } else {
             let removed = false;
             const keysToDelete = Array.from(tagMap.keys()).filter((key) => removalLookup.has(key));
@@ -530,6 +544,8 @@ export function useKaomojiMutations({
         if (categoryChanged) updatesToApply.push([catId, updatedItems]);
       }
 
+      const skippedForDuplicate = items.length - updatedItemCount;
+
       if (updatedItemCount === 0) {
         if (mode === 'add') {
           const message =
@@ -537,9 +553,8 @@ export function useKaomojiMutations({
               ? '選取的顏文字都已包含這些標籤，無需新增。'
               : '沒有符合條件的顏文字可新增標籤。';
           showToast(message, 'info');
-        } else {
-          showToast('沒有符合的標籤可移除。', 'info');
-        }
+        } else showToast('沒有符合的標籤可移除。', 'info');
+
         return { updatedItemCount: 0, skippedForDuplicate };
       }
 
@@ -553,13 +568,13 @@ export function useKaomojiMutations({
           `成功為 ${updatedItemCount} 個顏文字${mode === 'add' ? '新增' : '移除'}標籤！`,
           'success'
         );
-        if (mode === 'add' && skippedForDuplicate > 0) {
+        if (mode === 'add' && skippedForDuplicate > 0)
           showToast(`有 ${skippedForDuplicate} 個顏文字已擁有這些標籤，未重複新增。`, 'info');
-        }
+
         return { updatedItemCount, skippedForDuplicate };
-      } catch (error) {
-        showToast('批次標籤更新時發生錯誤', 'error');
-        throw error;
+      } catch (err) {
+        showToast('批次標籤更新時發生錯誤！', 'error');
+        throw err;
       }
     },
     [

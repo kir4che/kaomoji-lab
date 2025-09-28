@@ -17,11 +17,8 @@ const TagModal: FC<TagModalProps> = ({ isOpen, onClose, onSave, tag }) => {
   const [formData, setFormData] = useState<Tag>({ id: '', name: { en: '', 'zh-tw': '' } });
 
   useEffect(() => {
-    if (tag) {
-      setFormData(tag);
-    } else {
-      setFormData({ id: '', name: { en: '', 'zh-tw': '' } });
-    }
+    if (tag) setFormData(tag);
+    else setFormData({ id: '', name: { en: '', 'zh-tw': '' } });
   }, [tag, isOpen]);
 
   const handleChange = (field: keyof Tag['name'], value: string) => {

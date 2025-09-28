@@ -255,9 +255,7 @@ export function useKaomojiForm({
       };
       setFormData(updatedFormData);
 
-      if (updatedFormData.id) {
-        await immediateSave(updatedFormData);
-      }
+      if (updatedFormData.id) await immediateSave(updatedFormData);
     },
     [formData, immediateSave]
   );
