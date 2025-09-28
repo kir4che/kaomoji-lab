@@ -5,13 +5,13 @@ import { cache } from 'react';
 import type { Metadata } from 'next';
 import { cookies } from 'next/headers';
 import { notFound } from 'next/navigation';
-import Link from 'next/link';
 
 import type { Language } from '@/types/Language';
 import type { KaomojiItem, CategoryData, IndexData, Tag } from '@/types/Kaomoji';
 import { t } from '@/lib/i18n';
-import KaomojiList from '@/components/molecules/KaomojiList';
 import { getAllTags } from '@/services/dataService';
+
+import TagPageClient from './client';
 
 const dataDirectory = path.join(process.cwd(), 'public/data');
 
@@ -107,30 +107,7 @@ const TagPage = async ({ params }: Props) => {
   const tagName = tag.name[lang] || tag.name.en;
   const kaomojis = await getKaomojisByTag(tag.id);
 
-  return (
-    <div className="flex-1 flex flex-col">
-      <section className="space-y-3 sm:space-y-4 text-center">
-        <h1>{tagName}</h1>
-        <p className="text-sm text-gray-500">
-          {t('tagPageDescription', lang, { count: kaomojis.length })}
-        </p>
-      </section>
-      <section className="pt-6 pb-12">
-        {kaomojis.length > 0 ? (
-          <KaomojiList kaomojis={kaomojis} />
-        ) : (
-          <div className="flex-center flex-1">
-            <p className="text-gray-500 text-lg">{t('tagPageNoResults', lang)}</p>
-          </div>
-        )}
-      </section>
-      <section className="mt-auto text-center mb-8">
-        <Link href="/tag" className="inline-block back-btn">
-          {t('tagPageBackToAllTags', lang)}
-        </Link>
-      </section>
-    </div>
-  );
+  return <TagPageClient kaomojis={kaomojis} tagName={tagName} />;
 };
 
 export default TagPage;

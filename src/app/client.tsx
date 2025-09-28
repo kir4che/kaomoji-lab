@@ -9,7 +9,7 @@ import { useFilteredKaomoji } from '@/hooks/useFilteredKaomoji';
 import { useCopyToClipboard } from '@/hooks/useCopyToClipboard';
 import { t } from '@/lib/i18n';
 import Hexo from '@/components/organisms/Hexo';
-import KaomojiBtn from '@/components/atoms/KaomojiBtn';
+import KaomojiList from '@/components/molecules/KaomojiList';
 import Input from '@/components/atoms/Input';
 
 interface HomeClientProps {
@@ -46,26 +46,18 @@ const Home: React.FC<HomeClientProps> = ({ categories, allKaomojis: initialAllKa
         />
       </div>
       {filteredKaomojis.length > 0 ? (
-        <ul
-          className="flex-center flex-wrap gap-2.5 -mx-4 sm:mx-0"
+        <KaomojiList
+          kaomojis={filteredKaomojis}
+          onKaomojiCopy={copyToClipboard}
+          copiedId={copiedId}
+          itemClassName="md:text-base"
           aria-live="polite"
           aria-label={
             searchTerm
               ? t('searchResultsAriaLabel', lang, { count: filteredKaomojis.length })
               : t('recommendedKaomojis', lang)
           }
-        >
-          {filteredKaomojis.map((kaomoji) => (
-            <li key={kaomoji.id}>
-              <KaomojiBtn
-                text={kaomoji.text}
-                onCopy={() => copyToClipboard(kaomoji.text, kaomoji.id)}
-                isCopied={copiedId === kaomoji.id}
-                className="md:text-base"
-              />
-            </li>
-          ))}
-        </ul>
+        />
       ) : (
         <p className="text-gray-500 text-lg text-center py-8">
           {searchTerm

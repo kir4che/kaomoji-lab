@@ -265,25 +265,6 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
     return map;
   }, [indexData.tags]);
 
-  const tagAliasMap = useMemo(() => {
-    const normalize = (value: string) =>
-      value.normalize('NFKC').trim().replace(/\s+/g, ' ').toLowerCase();
-
-    const map = new Map<string, string[]>();
-    indexData.tags.forEach((tag) => {
-      if (!tag?.id) return;
-      const aliases = new Set<string>();
-      const candidates = [tag.id, tag.name?.en, tag.name?.['zh-tw']].filter(
-        (value): value is string => Boolean(value)
-      );
-      candidates.forEach((value) => aliases.add(normalize(value)));
-      const aliasArray = Array.from(aliases);
-      map.set(tag.id, aliasArray);
-      map.set(normalize(tag.id), aliasArray);
-    });
-    return map;
-  }, [indexData.tags]);
-
   const kaomojiToCategoryMap = useMemo(() => {
     const map = new Map<string, string>();
     for (const category of categories) {
@@ -390,7 +371,6 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
     filterTag: filterTags,
     filterCheckedStatus,
     checkedKaomojiIds,
-    tagAliasMap,
   });
 
   const selectAllKaomoji = useCallback(() => {
