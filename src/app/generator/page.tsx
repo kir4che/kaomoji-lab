@@ -11,15 +11,15 @@ export async function generateMetadata(): Promise<Metadata> {
   const lang = ((await cookieStore).get('app-language')?.value || 'zh-tw') as Language;
 
   return {
-    title: t('meta_generator_title', lang),
-    description: t('meta_generator_description', lang),
-    keywords: t('meta_generator_keywords', lang).split(','),
+    title: t('metaGeneratorTitle', lang),
+    description: t('metaGeneratorDescription', lang),
+    keywords: t('metaGeneratorKeywords', lang).split(','),
     alternates: {
       canonical: '/generator',
     },
     openGraph: {
-      title: t('meta_generator_og_title', lang),
-      description: t('meta_generator_og_description', lang),
+      title: t('metaGeneratorOgTitle', lang),
+      description: t('metaGeneratorOgDescription', lang),
       type: 'website',
       url: '/generator',
     },

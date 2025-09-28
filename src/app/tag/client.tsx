@@ -32,11 +32,11 @@ const TagPage: React.FC<TagPageProps> = ({ allTags }) => {
   return (
     <div className="flex flex-col">
       <section className="space-y-3 sm:space-y-4 text-center">
-        <h1>{t('tag_page_h1', lang)}</h1>
-        <p className="text-sm text-gray-500">{t('tag_page_p', lang, { count: allTags.length })}</p>
+        <h1>{t('tagPageH1', lang)}</h1>
+        <p className="text-sm text-gray-500">{t('tagPageP', lang, { count: allTags.length })}</p>
       </section>
       <section className="flex-center flex-1 max-w-screen-lg mx-auto pt-6 pb-8">
-        <ul className="flex-center flex-wrap gap-x-2 gap-y-3">
+        <ul className="flex-center flex-wrap gap-x-2 gap-y-3 -mx-4 sm:mx-0">
           {allTags.map(({ tag, count }) => (
             <li key={tag.id}>
               <button
@@ -47,7 +47,7 @@ const TagPage: React.FC<TagPageProps> = ({ allTags }) => {
                   'px-3.5 py-1 rounded-full text-sm tracking-wide font-medium transition-transform hover:scale-105',
                   getTagColor(count)
                 )}
-                aria-label={t('tag_page_aria_label', lang, { tag: tag.name[lang], count })}
+                aria-label={t('tagPageAriaLabel', lang, { tag: tag.name[lang], count })}
               >
                 {tag.name[lang]}
               </button>

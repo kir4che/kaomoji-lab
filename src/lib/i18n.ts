@@ -131,23 +131,23 @@ const translations: Translations = {
     'zh-tw': '© 2025 顏文字實驗室 All rights reserved.',
     en: '© 2025 Kaomoji Lab All rights reserved.',
   },
-  meta_home_title: {
+  metaHomeTitle: {
     'zh-tw': '顏文字實驗室',
     en: 'Kaomoji Lab',
   },
-  meta_home_description: {
+  metaHomeDescription: {
     'zh-tw': '顏文字實驗室',
     en: 'Kaomoji Lab',
   },
-  meta_home_keywords: {
+  metaHomeKeywords: {
     'zh-tw': '顏文字,顏文字實驗室,Kaomoji,可愛顏文字,特殊符號,表情符號,一鍵複製',
     en: 'Kaomoji,Kaomoji Lab,cute kaomoji,special symbols,emoticons,one-click copy',
   },
-  meta_home_og_title: {
+  metaHomeOgTitle: {
     'zh-tw': '顏文字實驗室',
     en: 'Kaomoji Lab',
   },
-  meta_home_og_description: {
+  metaHomeOgDescription: {
     'zh-tw': '顏文字實驗室',
     en: 'Kaomoji Lab',
   },
@@ -255,125 +255,125 @@ const translations: Translations = {
     'zh-tw': '沒有靈感？試試看這些！',
     en: 'No inspiration? Try these!',
   },
-  meta_default_title: {
+  metaDefaultTitle: {
     'zh-tw': '顏文字實驗室',
     en: 'Kaomoji Lab',
   },
-  meta_template_title: {
+  metaTemplateTitle: {
     'zh-tw': '%s | 顏文字實驗室',
     en: '%s | Kaomoji Lab',
   },
-  meta_description: {
+  metaDescription: {
     'zh-tw':
       '收藏超過 6000+ 可愛顏文字 (Kaomoji)，支援一鍵複製，按分類和標籤瀏覽，輕鬆找到喜歡的顏文字 (｡◕‿◕｡)',
     en: 'A collection of 6000+ cute Kaomoji, supports one-click copy, browse by category and tag, and easily find your favorite Kaomoji (｡◕‿◕｡)',
   },
-  meta_keywords: {
+  metaKeywords: {
     'zh-tw': '顏文字,Kaomoji,可愛顏文字,特殊符號,表情符號,一鍵複製',
     en: 'Kaomoji,cute kaomoji,special symbols,emoticons,one-click copy',
   },
-  meta_og_description: {
+  metaOgDescription: {
     'zh-tw': '收藏超過 6000+ 可愛顏文字 (Kaomoji)，一鍵複製，輕鬆找到喜歡的顏文字 (｡◕‿◕｡)',
     en: 'A collection of 6000+ cute Kaomoji, one-click copy, and easily find your favorite Kaomoji (｡◕‿◕｡)',
   },
-  meta_twitter_description: {
+  metaTwitterDescription: {
     'zh-tw': '收藏超過 6000+ 可愛顏文字 (Kaomoji)，一鍵複製，輕鬆找到喜歡的顏文字 (｡◕‿◕｡)',
     en: 'A collection of 6000+ cute Kaomoji, one-click copy, and easily find your favorite Kaomoji (｡◕‿◕｡)',
   },
-  meta_generator_title: {
+  metaGeneratorTitle: {
     'zh-tw': 'AI 顏文字產生器',
     en: 'AI Kaomoji Generator',
   },
-  meta_generator_description: {
+  metaGeneratorDescription: {
     'zh-tw': '輸入你的靈感或心情，讓 AI 為你生成獨一無二的客製化顏文字！簡單、快速，立即複製使用。',
     en: 'Enter your inspiration or mood, and let AI generate unique custom Kaomoji for you! Simple, fast, and ready to copy and use.',
   },
-  meta_generator_keywords: {
+  metaGeneratorKeywords: {
     'zh-tw': '顏文字,AI產生器,表情符號,Kaomoji,客製化表情,客製化顏文字,Japanese Emoticons',
     en: 'Kaomoji,AI Generator,emoticon,custom emoji,custom kaomoji,Japanese Emoticons',
   },
-  meta_generator_og_title: {
+  metaGeneratorOgTitle: {
     'zh-tw': 'AI 顏文字產生器',
     en: 'AI Kaomoji Generator',
   },
-  meta_generator_og_description: {
+  metaGeneratorOgDescription: {
     'zh-tw': '輸入你的靈感或心情，讓 AI 為你生成獨一無二的客製化顏文字！簡單、快速，立即複製使用。',
     en: 'Enter your inspiration or mood, and let AI generate unique custom Kaomoji for you! Simple, fast, and ready to copy and use.',
   },
-  meta_category_title: {
+  metaCategoryTitle: {
     'zh-tw': '分類一覽',
     en: 'Category List',
   },
-  meta_category_description: {
+  metaCategoryDescription: {
     'zh-tw': '瀏覽所有顏文字分類，例如開心、悲傷、動物等，快速找到您想要的顏文字表情。',
     en: 'Browse all Kaomoji categories, such as happy, sad, animal, etc., to quickly find the emoticon you want.',
   },
-  meta_category_keywords: {
+  metaCategoryKeywords: {
     'zh-tw': '顏文字,表情符號,分類,Kaomoji,Categories,Japanese Emoticons',
     en: 'Kaomoji,emoticon,categories,Japanese Emoticons',
   },
-  meta_category_og_title: {
+  metaCategoryOgTitle: {
     'zh-tw': '顏文字分類',
     en: 'Kaomoji Categories',
   },
-  meta_category_og_description: {
+  metaCategoryOgDescription: {
     'zh-tw': '瀏覽所有顏文字分類，快速找到您想要的顏文字表情。',
     en: 'Browse all Kaomoji categories to quickly find the emoticon you want.',
   },
-  meta_tag_title: {
+  metaTagTitle: {
     'zh-tw': '標籤一覽',
     en: 'Tag List',
   },
-  meta_tag_description: {
+  metaTagDescription: {
     'zh-tw': '探索所有顏文字標籤，發現各種風格的顏文字，讓您的訊息更生動有趣。',
     en: 'Explore all Kaomoji tags, discover various styles of Kaomoji, and make your messages more lively and interesting.',
   },
-  meta_tag_keywords: {
+  metaTagKeywords: {
     'zh-tw': '顏文字,表情符號,標籤,Kaomoji,Tags,Japanese Emoticons',
     en: 'Kaomoji,emoticon,tags,Japanese Emoticons',
   },
-  meta_tag_og_title: {
+  metaTagOgTitle: {
     'zh-tw': '顏文字標籤',
     en: 'Kaomoji Tags',
   },
-  meta_tag_og_description: {
+  metaTagOgDescription: {
     'zh-tw': '探索所有顏文字標籤，發現各種風格的顏文字。',
     en: 'Explore all Kaomoji tags and discover various styles of Kaomoji.',
   },
-  meta_tag_page_description: {
+  metaTagPageDescription: {
     'zh-tw':
       '探索帶有「{tag}」標籤的顏文字！我們為您找到了 {count} 個相關的顏文字，快來複製您喜歡的吧！',
     en: 'Explore Kaomoji with the tag "{tag}"! We found {count} related Kaomoji for you, come and copy your favorites!',
   },
-  meta_tag_page_keywords: {
+  metaTagPageKeywords: {
     'zh-tw': '{tag},顏文字,表情符號,標籤,Kaomoji,Tags,Japanese Emoticons',
     en: '{tag},Kaomoji,emoticon,tags,Japanese Emoticons',
   },
-  tag_page_title: {
+  tagPageTitle: {
     'zh-tw': '{tag}',
     en: '{tag}',
   },
-  tag_page_description: {
+  tagPageDescription: {
     'zh-tw': '共找到 {count} 個包含此標籤的顏文字',
     en: 'Found {count} kaomojis with this tag',
   },
-  tag_page_no_results: {
+  tagPageNoResults: {
     'zh-tw': '在此標籤中沒有符合條件的顏文字',
     en: 'No matching kaomojis found for this tag',
   },
-  tag_page_back_to_all_tags: {
+  tagPageBackToAllTags: {
     'zh-tw': '返回所有標籤',
     en: 'Back to all tags',
   },
-  tag_page_aria_label: {
+  tagPageAriaLabel: {
     'zh-tw': '{tag}（共 {count} 個）',
     en: '{tag} ({count} total)',
   },
-  tag_page_h1: {
+  tagPageH1: {
     'zh-tw': '標籤',
     en: 'Tags',
   },
-  tag_page_p: {
+  tagPageP: {
     'zh-tw': '透過標籤探索 {count} 種不同風格的顏文字',
     en: 'Explore {count} different styles of kaomoji through tags',
   },
@@ -386,11 +386,10 @@ export const t = (
 ) => {
   let text = translations[key][lang];
 
-  if (options) {
+  if (options)
     Object.keys(options).forEach((optionKey) => {
       text = text.replace(`{${optionKey}}`, String(options[optionKey]));
     });
-  }
 
   return text;
 };

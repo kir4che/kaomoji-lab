@@ -22,11 +22,10 @@ const CategoryListPage: React.FC<CategoryListPageProps> = ({ categories, totalKa
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
 
   const sortedCategories = useMemo(() => {
-    if (sortBy === 'name') {
+    if (sortBy === 'name')
       return sortList(categories, 'name', sortOrder, (item) =>
         normalize(item.name[lang] || item.name.en || t('unnamedCategory', lang))
       );
-    }
     if (sortBy === 'count') return sortList(categories, 'itemCount', sortOrder);
     return categories;
   }, [categories, sortBy, sortOrder, lang]);

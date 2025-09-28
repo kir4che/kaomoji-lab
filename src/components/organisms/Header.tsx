@@ -30,7 +30,7 @@ const NavItem: React.FC<NavItemProps> = ({ href, text, Icon }) => (
     className="group inline-flex items-center gap-x-1 text-sm font-medium text-primary-500"
   >
     <Icon className="size-4.5 text-primary-500 group-hover:text-primary-600" />
-    <span className="text-primary-400 hidden xs:block">{text}</span>
+    <span className="text-primary-400 hidden sm:block">{text}</span>
   </Link>
 );
 

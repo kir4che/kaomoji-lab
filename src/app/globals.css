@@ -11,7 +11,7 @@
 }
 
 @theme inline {
-  --breakpoint-xs: 32rem;
+  --breakpoint-xs: 28rem;
 
   --font-sans:
     var(--font-sans-tc), var(--font-emoji), system-ui, -apple-system, BlinkMacSystemFont,
@@ -78,6 +78,16 @@
 
   .back-btn {
     @apply px-4 py-1.5 border border-primary-600 rounded-full bg-white text-primary-600 transition-all duration-300 ease-in-out hover:border-primary-500 hover:ring-2 hover:ring-primary-500/50 hover:ring-offset-2;
+  }
+
+  /* 隱藏捲動條但保留捲動功能 */
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
   }
 
   .no-select {

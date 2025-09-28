@@ -67,29 +67,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const tag = await getTagBySlugOrId(slug);
 
-  if (!tag) {
-    notFound();
-  }
+  if (!tag) notFound();
 
   const tagName = tag.name[lang] || tag.name.en;
   const kaomojis = await getKaomojisByTag(tag.id);
-  const description = t('meta_tag_page_description', lang, {
+  const description = t('metaTagPageDescription', lang, {
     tag: tagName,
     count: kaomojis.length,
   });
-  const keywords = t('meta_tag_page_keywords', lang, { tag: tagName }).split(',');
+  const keywords = t('metaTagPageKeywords', lang, { tag: tagName }).split(',');
   keywords.push(`${tagName} 顏文字`);
   keywords.push(`${tagName} Kaomoji`);
 
   return {
-    title: t('tag_page_title', lang, { tag: tagName }),
+    title: t('tagPageTitle', lang, { tag: tagName }),
     description,
     keywords,
     alternates: {
       canonical: canonicalPath,
     },
     openGraph: {
-      title: t('tag_page_title', lang, { tag: tagName }),
+      title: t('tagPageTitle', lang, { tag: tagName }),
       description,
       type: 'website',
       url: canonicalPath,
@@ -104,9 +102,7 @@ const TagPage = async ({ params }: Props) => {
 
   const tag = await getTagBySlugOrId(slug);
 
-  if (!tag) {
-    notFound();
-  }
+  if (!tag) notFound();
 
   const tagName = tag.name[lang] || tag.name.en;
   const kaomojis = await getKaomojisByTag(tag.id);
@@ -116,7 +112,7 @@ const TagPage = async ({ params }: Props) => {
       <section className="space-y-3 sm:space-y-4 text-center">
         <h1>{tagName}</h1>
         <p className="text-sm text-gray-500">
-          {t('tag_page_description', lang, { count: kaomojis.length })}
+          {t('tagPageDescription', lang, { count: kaomojis.length })}
         </p>
       </section>
       <section className="pt-6 pb-12">
@@ -124,13 +120,13 @@ const TagPage = async ({ params }: Props) => {
           <KaomojiList kaomojis={kaomojis} />
         ) : (
           <div className="flex-center flex-1">
-            <p className="text-gray-500 text-lg">{t('tag_page_no_results', lang)}</p>
+            <p className="text-gray-500 text-lg">{t('tagPageNoResults', lang)}</p>
           </div>
         )}
       </section>
       <section className="mt-auto text-center mb-8">
         <Link href="/tag" className="inline-block back-btn">
-          {t('tag_page_back_to_all_tags', lang)}
+          {t('tagPageBackToAllTags', lang)}
         </Link>
       </section>
     </div>

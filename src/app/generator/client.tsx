@@ -103,9 +103,8 @@ const GeneratorPage: React.FC = () => {
 
       if (!res.ok) {
         const errData = await res.json();
-        if (errData.status === 429) {
-          throw new Error(t('generatorRateLimitError', lang));
-        } else throw new Error(t('generatorGenericError', lang));
+        if (errData.status === 429) throw new Error(t('generatorRateLimitError', lang));
+        else throw new Error(t('generatorGenericError', lang));
       }
 
       const parsedKaomojis = await res.json();
@@ -145,7 +144,7 @@ const GeneratorPage: React.FC = () => {
       {kaomojis.length > 0 && (
         <section className="pt-10 space-y-6">
           <h3 className="text-center text-2xl font-semibold">{t('yourKaomojis', lang)}</h3>
-          <div className="flex flex-wrap items-center justify-center gap-4">
+          <div className="flex-center flex-wrap gap-4">
             {kaomojis.map((kaomoji, idx) => {
               const id = String(idx);
               return (

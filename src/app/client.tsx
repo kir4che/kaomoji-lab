@@ -47,7 +47,7 @@ const Home: React.FC<HomeClientProps> = ({ categories, allKaomojis: initialAllKa
       </div>
       {filteredKaomojis.length > 0 ? (
         <ul
-          className="flex flex-wrap gap-2.5 justify-center"
+          className="flex-center flex-wrap gap-2.5 -mx-4 sm:mx-0"
           aria-live="polite"
           aria-label={
             searchTerm
@@ -80,7 +80,7 @@ const Home: React.FC<HomeClientProps> = ({ categories, allKaomojis: initialAllKa
             <Link
               key={category.id}
               href={`/category/${category.id}`}
-              className="w-[calc(50%-6px)] sm:w-[calc(24%-6px)] lg:w-[calc(12%-6px)] rounded-xl bg-white p-2.5 text-center shadow shadow-primary-800/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500"
+              className="w-[calc(32%-6px)] sm:w-[calc(24%-6px)] md:w-[calc(16%-6px)] lg:w-[calc(12%-6px)] rounded-xl bg-white p-2 text-center shadow shadow-primary-800/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500"
               aria-label={t('categoryAriaLabel', lang, {
                 categoryName: category.name[lang],
                 count: category.itemCount,

@@ -35,28 +35,28 @@ export async function generateMetadata(): Promise<Metadata> {
   const cookieStore = cookies();
   const lang = getValidLanguage((await (await cookieStore).get('app-language'))?.value) || 'zh-tw';
 
-  const keywords = t('meta_keywords', lang) || '';
+  const keywords = t('metaKeywords', lang) || '';
 
   return {
     metadataBase: siteUrl,
     title: {
-      default: t('meta_default_title', lang),
-      template: `%s - ${t('meta_default_title', lang)}`,
+      default: t('metaDefaultTitle', lang),
+      template: `%s - ${t('metaDefaultTitle', lang)}`,
     },
-    description: t('meta_description', lang),
+    description: t('metaDescription', lang),
     keywords: keywords.split(','),
-    creator: t('meta_default_title', lang),
-    authors: [{ name: t('meta_default_title', lang) }],
-    publisher: t('meta_default_title', lang),
+    creator: t('metaDefaultTitle', lang),
+    authors: [{ name: t('metaDefaultTitle', lang) }],
+    publisher: t('metaDefaultTitle', lang),
     robots: 'index, follow',
     icons: {
       icon: '/favicon.ico',
     },
     openGraph: {
-      title: t('meta_default_title', lang),
-      description: t('meta_og_description', lang),
+      title: t('metaDefaultTitle', lang),
+      description: t('metaOgDescription', lang),
       url: '/',
-      siteName: t('meta_default_title', lang),
+      siteName: t('metaDefaultTitle', lang),
       images: [
         {
           url: ogImageUrl,
@@ -70,8 +70,8 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     twitter: {
       card: 'summary_large_image',
-      title: t('meta_default_title', lang),
-      description: t('meta_twitter_description', lang),
+      title: t('metaDefaultTitle', lang),
+      description: t('metaTwitterDescription', lang),
       images: [ogImageUrl],
     },
   };

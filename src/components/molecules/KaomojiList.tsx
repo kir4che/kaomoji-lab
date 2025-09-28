@@ -12,7 +12,7 @@ const KaomojiList: React.FC<KaomojiListProps> = ({ kaomojis }) => {
   const { copiedId, copyToClipboard } = useCopyToClipboard();
 
   return (
-    <ul role="list" className="flex-center flex-wrap gap-2 md:gap-3">
+    <ul role="list" className="flex-center flex-wrap gap-2 md:gap-3 -mx-4 sm:mx-0">
       {kaomojis.map((kaomoji) => (
         <li key={kaomoji.id}>
           <KaomojiBtn
