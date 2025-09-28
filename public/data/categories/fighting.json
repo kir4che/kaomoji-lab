@@ -1,0 +1,396 @@
+{
+  "id": "fighting",
+  "name": {
+    "en": "fighting",
+    "zh-tw": "加油"
+  },
+  "preview": "",
+  "lastUpdated": "2025-09-27",
+  "items": [
+    {
+      "id": "fighting_001",
+      "text": "╭( ･ㅂ･)و )))",
+      "tags": ["cheer-up", "running"]
+    },
+    {
+      "id": "fighting_002",
+      "text": "(((ೕ( ･ㅂ･)و )))",
+      "tags": ["cheer-up", "running"]
+    },
+    {
+      "id": "fighting_003",
+      "text": "＼＼\\└(‘ω’)┘//／／",
+      "tags": ["banzai", "cheer-up"]
+    },
+    {
+      "id": "fighting_005",
+      "text": "＼(>o<)／",
+      "tags": ["cheer-up", "shout"]
+    },
+    {
+      "id": "fighting_006",
+      "text": "╭(°ㅂ°)╮╰(°ㅂ°)╯╭(°ㅂ°)╮╰(°ㅂ°)╯",
+      "tags": ["cheer-up", "dancing", "dazed"]
+    },
+    {
+      "id": "fighting_007",
+      "text": "٩(๑･ิᴗ･ิ)۶٩(･ิᴗ･ิ๑)۶",
+      "tags": ["cheer-up", "group", "happy", "smile"]
+    },
+    {
+      "id": "fighting_008",
+      "text": "\\( ˙▿˙ )/\\( ˙▿˙ )/",
+      "tags": ["banzai", "cheer-up", "group", "happy", "holding-hands"]
+    },
+    {
+      "id": "fighting_009",
+      "text": "ヾ(・◇・)ﾉθ～♪",
+      "tags": ["cheer-up", "happy", "music"]
+    },
+    {
+      "id": "fighting_010",
+      "text": "ε٩(๑⌓̈๑)۶з",
+      "tags": ["cheer-up", "cute", "dazed"]
+    },
+    {
+      "id": "fighting_011",
+      "text": "٩(｡•ω<｡)و Fight☆",
+      "tags": ["cheer-up", "star", "text", "wink"]
+    },
+    {
+      "id": "fighting_012",
+      "text": "＼＼\\ ٩(๑❛ワ❛๑)و //／／",
+      "tags": ["banzai", "cheer-up", "cute"]
+    },
+    {
+      "id": "fighting_013",
+      "text": "٩(●ö●)۶",
+      "tags": ["cheer-up", "shout"]
+    },
+    {
+      "id": "fighting_014",
+      "text": "＼\\ ٩( ᐛ )و /／",
+      "tags": ["banzai", "cheer-up", "happy", "head-tilt"]
+    },
+    {
+      "id": "fighting_015",
+      "text": "＼(^o^)／",
+      "tags": ["banzai", "cheer-up", "happy"]
+    },
+    {
+      "id": "fighting_016",
+      "text": "ヽ(･∀･)ﾉ",
+      "tags": ["banzai", "cheer-up", "happy"]
+    },
+    {
+      "id": "fighting_017",
+      "text": "ヽ(´▽`)ﾉ",
+      "tags": ["banzai", "cheer-up", "happy"]
+    },
+    {
+      "id": "fighting_018",
+      "text": "＼(^▽^＠)ノ",
+      "tags": ["banzai", "cheer-up", "happy"]
+    },
+    {
+      "id": "fighting_019",
+      "text": "ヾ(＠^∇^＠)ノ",
+      "tags": ["banzai", "cheer-up", "happy"]
+    },
+    {
+      "id": "fighting_020",
+      "text": "୧⍢⃝୨",
+      "tags": ["cheer-up", "happy", "motivated"]
+    },
+    {
+      "id": "fighting_022",
+      "text": "٩(˙▿︎˙)۶",
+      "tags": ["banzai", "cheer-up", "happy"]
+    },
+    {
+      "id": "fighting_023",
+      "text": "ᐠ( ᐢωᐢ )ᐟ",
+      "tags": ["banzai", "cheer-up", "happy"]
+    },
+    {
+      "id": "fighting_024",
+      "text": "٩(๑´0`๑)۶",
+      "tags": ["banzai", "cheer-up", "shout"]
+    },
+    {
+      "id": "fighting_026",
+      "text": "˗ˏˋ(∩╹□╹∩)ˎˊ˗",
+      "tags": ["cheer-up", "shout"]
+    },
+    {
+      "id": "fighting_027",
+      "text": "(∩˃o˂∩)♡",
+      "tags": ["cheer-up", "love", "shout", "thrilled"]
+    },
+    {
+      "id": "fighting_028",
+      "text": "(๑و•̀ω•́)و",
+      "tags": ["cheer-up", "motivated"]
+    },
+    {
+      "id": "fighting_029",
+      "text": "(ง •̀_•́)ง",
+      "tags": ["cheer-up", "motivated"]
+    },
+    {
+      "id": "fighting_030",
+      "text": "(ง’̀-‘́)ง",
+      "tags": ["cheer-up", "motivated"]
+    },
+    {
+      "id": "fighting_031",
+      "text": "(ง •̀ゝ•́)ง",
+      "tags": ["cheer-up", "motivated"]
+    },
+    {
+      "id": "fighting_032",
+      "text": "｡ﾟ+.*(+･｀ω･)９",
+      "tags": ["cheer-up", "motivated", "sparkle"]
+    },
+    {
+      "id": "fighting_033",
+      "text": "( *๑•̀д•́๑)」",
+      "tags": ["cheer-up", "motivated", "shout"]
+    },
+    {
+      "id": "fighting_034",
+      "text": "( ง ´◇｀)ง♪",
+      "tags": ["cheer-up", "music", "shout"]
+    },
+    {
+      "id": "fighting_035",
+      "text": "٩( ‘ω’ )و",
+      "tags": ["cheer-up", "motivated"]
+    },
+    {
+      "id": "fighting_036",
+      "text": "٩(｡•ω•｡)و",
+      "tags": ["cheer-up", "cute", "motivated"]
+    },
+    {
+      "id": "fighting_037",
+      "text": "٩(๑˘ω˘๑)۶:.｡",
+      "tags": ["cheer-up", "happiness", "sleepy"]
+    },
+    {
+      "id": "fighting_038",
+      "text": "(*•̀ᴗ•́*)و ̑̑",
+      "tags": ["cheer-up", "confident", "motivated", "smile"]
+    },
+    {
+      "id": "fighting_039",
+      "text": "!(•̀ᴗ•́)و ̑̑",
+      "tags": ["cheer-up", "confident", "motivated", "smile"]
+    },
+    {
+      "id": "fighting_040",
+      "text": "(•̀o•́)ง",
+      "tags": ["cheer-up", "motivated", "shout"]
+    },
+    {
+      "id": "fighting_041",
+      "text": "¡¡¡( •̀ ᴗ •́ )و!!!",
+      "tags": ["cheer-up", "motivated", "smile"]
+    },
+    {
+      "id": "fighting_042",
+      "text": "٩(๑`ȏ´๑)۶",
+      "tags": ["cheer-up", "motivated", "shout"]
+    },
+    {
+      "id": "fighting_043",
+      "text": "٩(｡・ω・｡)﻿و",
+      "tags": ["cheer-up", "cute"]
+    },
+    {
+      "id": "fighting_044",
+      "text": "( •̀ᴗ•́ )و ̑̑",
+      "tags": ["cheer-up", "confident", "motivated", "smile"]
+    },
+    {
+      "id": "fighting_045",
+      "text": "ʾ٩( ๑•̀o•́๑ )وおー！",
+      "tags": ["cheer-up", "shout", "text"]
+    },
+    {
+      "id": "fighting_047",
+      "text": "ﾌｧｲﾄｰ( ･ᴗ･ )⚐⚑⚐",
+      "tags": ["cheer-up", "smile", "text"]
+    },
+    {
+      "id": "fighting_048",
+      "text": "ᶠⁱᴳʰᵀᵎᵎ(*˙˘˙*)و⚑⁎",
+      "tags": ["cheer-up", "smile", "text"]
+    },
+    {
+      "id": "fighting_049",
+      "text": "※o(ωﾟ*)ﾌﾚｰ ※＼(*ﾟωﾟ*)/※ ﾌﾚｰ(*ﾟω)o※",
+      "tags": ["cheer-up", "dazed", "group", "text"]
+    },
+    {
+      "id": "fighting_050",
+      "text": "(•́⌄•́๑)૭✧",
+      "tags": ["cheer-up", "cute", "happy", "sparkle"]
+    },
+    {
+      "id": "fighting_052",
+      "text": "٩(•̤̀ᵕ•̤́๑)૭✧",
+      "tags": ["cheer-up", "motivated", "sparkle"]
+    },
+    {
+      "id": "fighting_053",
+      "text": "٩(๑❛ワ❛๑)و",
+      "tags": ["cheer-up", "happy"]
+    },
+    {
+      "id": "fighting_054",
+      "text": "٩( ᐛ )و",
+      "tags": ["cheer-up", "happy", "head-tilt", "naughty"]
+    },
+    {
+      "id": "fighting_055",
+      "text": "٩(˙ᵕ˙⑅๑)",
+      "tags": ["cheer-up", "smile"]
+    },
+    {
+      "id": "fighting_056",
+      "text": "ふぁい㌧٩(´ᵕ｀๑)و＊",
+      "tags": ["cheer-up", "smile", "text"]
+    },
+    {
+      "id": "fighting_057",
+      "text": "٩(๑ơలơ)۶♡",
+      "tags": ["cheer-up", "happy", "love"]
+    },
+    {
+      "id": "fighting_058",
+      "text": "٩(๑∂▿∂๑)۶♡",
+      "tags": ["cheer-up", "happy", "love"]
+    },
+    {
+      "id": "fighting_059",
+      "text": "٩꒰ ˘ ³˘꒱۶~♡",
+      "tags": ["cheer-up", "love", "pouting"]
+    },
+    {
+      "id": "fighting_060",
+      "text": "╭(♡･ㅂ･)و ̑̑",
+      "tags": ["cheer-up", "confident", "love", "motivated"]
+    },
+    {
+      "id": "fighting_061",
+      "text": "٩(๑ò ༥ ó ๑)۶",
+      "tags": ["cheer-up", "eating", "excited", "motivated"]
+    },
+    {
+      "id": "fighting_062",
+      "text": "*⸜( •ᴗ• )⸝*",
+      "tags": ["banzai", "cheer-up", "smile"]
+    },
+    {
+      "id": "fighting_063",
+      "text": "((( งᵒ̴̶̷᷅ᐜᵒ̴̶̷᷄)ง三",
+      "tags": ["cheer-up", "motivated"]
+    },
+    {
+      "id": "fighting_064",
+      "text": "(^o^)/",
+      "tags": ["banzai", "cheer-up", "happy"]
+    },
+    {
+      "id": "fighting_065",
+      "text": "｡ﾟ･｡ﾟᐠ( ᐢ ᵕ ᐢ )ᐟ｡ﾟ･｡ﾟ",
+      "tags": ["banzai", "cheer-up", "happy", "smile"]
+    },
+    {
+      "id": "fighting_066",
+      "text": "(۶•̀ᴗ•́)۶",
+      "tags": ["banzai", "cheer-up", "confident", "motivated", "smile"]
+    },
+    {
+      "id": "fighting_067",
+      "text": "(ᗒᗨᗕ)/",
+      "tags": ["banzai", "cheer-up", "lol"]
+    },
+    {
+      "id": "fighting_068",
+      "text": "ヽ(≧Д≦)ノ",
+      "tags": ["banzai", "cheer-up", "excited", "shout", "thrilled"]
+    },
+    {
+      "id": "fighting_069",
+      "text": "٩(˃̶͈̀௰˂̶͈́)و",
+      "tags": ["banzai", "cheer-up", "cute", "shy", "thrilled"]
+    },
+    {
+      "id": "fighting_070",
+      "text": "٩(˵˃̶ω˂̶˵)◞",
+      "tags": ["banzai", "cheer-up", "shy", "thrilled"]
+    },
+    {
+      "id": "fighting_071",
+      "text": "ヾ(≧∇≦)ゞ",
+      "tags": ["banzai", "cheer-up", "thrilled", "waving"]
+    },
+    {
+      "id": "fighting_072",
+      "text": "٩(ó｡ò۶ ♡)))♬",
+      "tags": ["cheer-up", "love", "music"]
+    },
+    {
+      "id": "fighting_073",
+      "text": "٩(♡ε♡ )۶",
+      "tags": ["cheer-up", "love", "pouting", "thrilled"]
+    },
+    {
+      "id": "fighting_074",
+      "text": "(ง ͠° ͟ل͜ ͡°)ง",
+      "tags": ["cheer-up", "lenny-face", "smile"]
+    },
+    {
+      "id": "fighting_075",
+      "text": "ヽ(∀ﾟ )人(ﾟ∀ﾟ)人( ﾟ∀)人(∀ﾟ )人(ﾟ∀ﾟ)人( ﾟ∀)ﾉ",
+      "tags": ["banzai", "cheer-up", "group", "happy", "holding-hands", "mock"]
+    },
+    {
+      "id": "fighting_076",
+      "text": "ヽ(＾▽＾)人(＾▽＾)人(＾▽＾)ﾉ",
+      "tags": ["banzai", "cheer-up", "group", "happy", "holding-hands", "lol"]
+    },
+    {
+      "id": "fighting_077",
+      "text": "(ฅ⁍̴̀◊⁍̴́)و ̑̑",
+      "tags": ["animal", "cheer-up", "motivated"]
+    },
+    {
+      "id": "fighting_078",
+      "text": "╭( ･ㅂ･)و ̑̑",
+      "tags": ["cheer-up", "motivated"]
+    },
+    {
+      "id": "fighting_079",
+      "text": "◝( ′ㅂ`)و ̑̑",
+      "tags": ["cheer-up", "helpless"]
+    },
+    {
+      "id": "fighting_080",
+      "text": "ೕ(`･୰･´)و ̑̑",
+      "tags": ["cheer-up", "cute"]
+    },
+    {
+      "id": "fighting_081",
+      "text": "(๑˃̵ᴗ˂̵)و",
+      "tags": ["cheer-up", "happy", "smile"]
+    },
+    {
+      "id": "fighting_082",
+      "text": "٩(✪ꀾ⍟༶)و",
+      "tags": ["cheer-up"]
+    }
+  ]
+}

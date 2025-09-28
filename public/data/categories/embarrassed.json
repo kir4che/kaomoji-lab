@@ -5,332 +5,192 @@
     "zh-tw": "尷尬"
   },
   "preview": "•﹏•",
-  "lastUpdated": "2025-08-17",
+  "lastUpdated": "2025-09-28",
   "items": [
-    {
-      "id": "embarrassed_001",
-      "text": "•﹏•",
-      "tags": ["embarrassed", "shy", "speechless"]
-    },
-    {
-      "id": "embarrassed_004",
-      "text": "(⁄ ⁄>⁄ ▽ ⁄<⁄ ⁄)",
-      "tags": ["embarrassed", "shy"]
-    },
-    {
-      "id": "embarrassed_005",
-      "text": "ԅ(≖‿≖ ;ԅ)",
-      "tags": ["confident", "embarrassed", "nervous", "pinch"]
-    },
-    {
-      "id": "embarrassed_006",
-      "text": "m(_ _;m)",
-      "tags": ["apologize", "embarrassed"]
-    },
-    {
-      "id": "embarrassed_007",
-      "text": "m(｡_｡；))m",
-      "tags": ["apologize", "nervous", "please"]
-    },
-    {
-      "id": "embarrassed_008",
-      "text": "(=`ｪ´=；)ゞ",
-      "tags": ["animal", "embarrassed", "salute"]
-    },
-    {
-      "id": "embarrassed_009",
-      "text": "(；°ρ°)ゝ”",
-      "tags": ["embarrassed", "nervous", "salute"]
-    },
-    {
-      "id": "embarrassed_010",
-      "text": "|；´・ω･｀|ゞ",
-      "tags": ["embarrassed", "salute"]
-    },
     {
       "id": "embarrassed_011",
       "text": "(；・ε・)ゝ”",
-      "tags": ["embarrassed", "salute"]
+      "tags": ["embarrassed", "pouting", "sweat-drop"]
     },
     {
       "id": "embarrassed_012",
       "text": "(；´・∀・)ゝ”",
-      "tags": ["embarrassed", "salute"]
+      "tags": ["embarrassed", "sweat-drop"]
     },
     {
       "id": "embarrassed_013",
       "text": "(；●∀●)ゝ”",
-      "tags": ["embarrassed", "nervous", "salute"]
+      "tags": ["cool", "embarrassed", "sunglasses", "sweat-drop"]
     },
     {
       "id": "embarrassed_014",
       "text": "(`-д-；)ゞ",
-      "tags": ["angry", "embarrassed", "salute"]
-    },
-    {
-      "id": "embarrassed_015",
-      "text": "(´･Д･lll)ゞ",
-      "tags": ["embarrassed", "salute", "speechless"]
+      "tags": ["closed-eyes", "displeased", "embarrassed", "scratch", "sweat-drop"]
     },
     {
       "id": "embarrassed_016",
       "text": "(´▽｀；)ゞ",
-      "tags": ["embarrassed", "salute"]
-    },
-    {
-      "id": "embarrassed_017",
-      "text": "(¯―¯٥)",
-      "tags": ["embarrassed", "helpless", "nervous"]
+      "tags": ["embarrassed", "scratch", "sweat-drop"]
     },
     {
       "id": "embarrassed_018",
       "text": "(￢ω￢;A)",
-      "tags": ["embarrassed"]
-    },
-    {
-      "id": "embarrassed_019",
-      "text": "(ᇂ_ᇂ|||)",
-      "tags": ["embarrassed", "speechless"]
-    },
-    {
-      "id": "embarrassed_020",
-      "text": "φ(．．;)",
-      "tags": ["nervous", "writing"]
-    },
-    {
-      "id": "embarrassed_021",
-      "text": "…..φ(〃∇〃 ）",
-      "tags": ["shy", "writing"]
+      "tags": ["embarrassed", "sweat-drop"]
     },
     {
       "id": "embarrassed_022",
       "text": "ヾ(´▽｀;)ゝ",
-      "tags": ["embarrassed", "salute"]
-    },
-    {
-      "id": "embarrassed_023",
-      "text": "〜(꒪꒳꒪;)〜",
-      "tags": ["embarrassed", "nervous"]
+      "tags": ["embarrassed", "sweat-drop", "waving"]
     },
     {
       "id": "embarrassed_024",
       "text": "(ΘεΘ;)",
-      "tags": ["embarrassed", "nervous"]
+      "tags": ["embarrassed", "pouting", "sweat-drop"]
     },
     {
       "id": "embarrassed_025",
       "text": "(≡ε≡；)",
-      "tags": ["embarrassed", "nervous"]
+      "tags": ["embarrassed", "pouting", "sweat-drop"]
     },
     {
       "id": "embarrassed_026",
       "text": "(´ε｀；)",
-      "tags": ["embarrassed", "nervous"]
-    },
-    {
-      "id": "embarrassed_027",
-      "text": "｢(;´Σ ｀〃)ヘ",
-      "tags": ["embarrassed", "nervous", "please"]
-    },
-    {
-      "id": "embarrassed_028",
-      "text": "ヽ(´▽｀；)/♪",
-      "tags": ["embarrassed", "happy", "music"]
-    },
-    {
-      "id": "embarrassed_029",
-      "text": "ヾ(´▽｀;)ゝ",
-      "tags": ["embarrassed", "goofy", "salute"]
-    },
-    {
-      "id": "embarrassed_030",
-      "text": "₍ ⁄⁄⁄ ຶᵦ ⁄⁄⁄ ຶ₎",
-      "tags": ["embarrassed", "shy"]
-    },
-    {
-      "id": "embarrassed_031",
-      "text": "(ΘεΘʃƪ)",
-      "tags": ["embarrassed", "kiss", "shy"]
+      "tags": ["embarrassed", "pouting", "sweat-drop"]
     },
     {
       "id": "embarrassed_032",
       "text": "（^_^ ；)ε￣)",
-      "tags": ["angry", "embarrassed", "kiss"]
+      "tags": ["embarrassed", "pouting", "sweat-drop"]
     },
     {
       "id": "embarrassed_033",
       "text": "(；-◞౪◟-)",
-      "tags": ["embarrassed", "goofy", "nervous"]
+      "tags": ["closed-eyes", "embarrassed", "sweat-drop"]
     },
     {
       "id": "embarrassed_034",
       "text": "(・ω・；)",
-      "tags": ["embarrassed", "nervous"]
+      "tags": ["embarrassed", "sweat-drop"]
     },
     {
       "id": "embarrassed_035",
       "text": "(・_・ヾ",
-      "tags": ["embarrassed"]
-    },
-    {
-      "id": "embarrassed_036",
-      "text": "(・・。)ゞ",
-      "tags": ["salute", "shy"]
+      "tags": ["embarrassed", "scratch"]
     },
     {
       "id": "embarrassed_037",
       "text": "(^^ゞ",
-      "tags": ["embarrassed"]
+      "tags": ["embarrassed", "happy", "scratch"]
     },
     {
       "id": "embarrassed_038",
       "text": "(^～^;)ゞ",
-      "tags": ["embarrassed", "nervous"]
-    },
-    {
-      "id": "embarrassed_039",
-      "text": "(-_-)ゞ゛",
-      "tags": ["helpless", "sleepy"]
-    },
-    {
-      "id": "embarrassed_040",
-      "text": "(＃⌒∇⌒＃)ゞ",
-      "tags": ["happy", "shy"]
-    },
-    {
-      "id": "embarrassed_041",
-      "text": "σ(´し_｀〃)ゞ",
-      "tags": ["shy"]
-    },
-    {
-      "id": "embarrassed_042",
-      "text": ";＾◇＾;)ゝ",
-      "tags": ["embarrassed"]
-    },
-    {
-      "id": "embarrassed_043",
-      "text": "( ;-(ｴ)-)ゞ",
-      "tags": ["animal", "bear", "nervous", "salute"]
-    },
-    {
-      "id": "embarrassed_044",
-      "text": "(ﾟｰﾟ;)",
-      "tags": ["embarrassed", "nervous"]
+      "tags": ["embarrassed", "scratch", "sweat-drop"]
     },
     {
       "id": "embarrassed_045",
       "text": "∑(⌒◇⌒；)",
-      "tags": ["embarrassed", "surprised"]
-    },
-    {
-      "id": "embarrassed_046",
-      "text": "(゜▽゜;)",
-      "tags": ["embarrassed", "nervous"]
+      "tags": ["embarrassed", "sweat-drop"]
     },
     {
       "id": "embarrassed_047",
       "text": "ｰ(°◇°〃)",
-      "tags": ["embarrassed", "surprised"]
+      "tags": ["dazed", "embarrassed"]
     },
     {
       "id": "embarrassed_048",
       "text": "（；^ω^）",
-      "tags": ["embarrassed"]
+      "tags": ["embarrassed", "sweat-drop"]
     },
     {
       "id": "embarrassed_049",
       "text": "(￣◇￣;)",
-      "tags": ["embarrassed"]
-    },
-    {
-      "id": "embarrassed_050",
-      "text": "(~_~;)",
-      "tags": ["embarrassed", "helpless"]
+      "tags": ["closed-eyes", "embarrassed", "sweat-drop"]
     },
     {
       "id": "embarrassed_051",
       "text": "´エ｀；",
-      "tags": ["animal", "embarrassed"]
+      "tags": ["bear", "embarrassed", "sweat-drop"]
     },
     {
       "id": "embarrassed_052",
       "text": "(-∀-`; )",
-      "tags": ["embarrassed"]
-    },
-    {
-      "id": "embarrassed_053",
-      "text": "(*;´□`)ゞ",
-      "tags": ["embarrassed", "salute", "shout"]
-    },
-    {
-      "id": "embarrassed_054",
-      "text": "（￣ー￣；）",
-      "tags": ["confident", "embarrassed"]
+      "tags": ["closed-eyes", "embarrassed", "sweat-drop"]
     },
     {
       "id": "embarrassed_055",
       "text": "((´∀`;))",
-      "tags": ["embarrassed"]
-    },
-    {
-      "id": "embarrassed_056",
-      "text": "(*´･д･)",
-      "tags": ["embarrassed", "helpless"]
-    },
-    {
-      "id": "embarrassed_058",
-      "text": "⁄(⁄ ⁄ ⁄ω⁄ ⁄ ⁄)⁄",
-      "tags": ["embarrassed", "shy"]
-    },
-    {
-      "id": "embarrassed_059",
-      "text": "(;¬_¬)",
-      "tags": []
-    },
-    {
-      "id": "embarrassed_060",
-      "text": "(¬_¬)",
-      "tags": ["angry"]
+      "tags": ["embarrassed", "sweat-drop"]
     },
     {
       "id": "embarrassed_061",
       "text": "( ˙꒳​˙ ٥)",
-      "tags": ["nervous"]
+      "tags": ["embarrassed", "sweat-drop"]
     },
     {
-      "id": "embarrassed_062",
+      "id": "embarrassed_070",
+      "text": "(*°ｰ°)ﾉ",
+      "tags": ["dazed", "embarrassed", "waving"]
+    },
+    {
+      "id": "embarrassed_071",
+      "text": "(◐‿◑)",
+      "tags": ["embarrassed", "scheming", "smile"]
+    },
+    {
+      "id": "embarrassed_072",
+      "text": "(｡･з･)ゞ",
+      "tags": ["embarrassed", "pouting", "scratch"]
+    },
+    {
+      "id": "embarrassed_073",
+      "text": "(Θ︹Θ)ს",
+      "tags": ["closed-eyes", "displeased", "embarrassed", "sweat-drop"]
+    },
+    {
+      "id": "embarrassed_074",
+      "text": ";＾◇＾;)ゝ",
+      "tags": ["embarrassed", "nervous", "scratch", "sweat-drop"]
+    },
+    {
+      "id": "embarrassed_075",
+      "text": "工ｴｴｪｪ(;╹⌓╹)ｪｪｴｴ工",
+      "tags": ["embarrassed", "sweat-drop"]
+    },
+    {
+      "id": "embarrassed_076",
+      "text": "(◕⌓◕;)",
+      "tags": ["big-eyes", "embarrassed", "nervous", "sweat-drop"]
+    },
+    {
+      "id": "embarrassed_077",
+      "text": "ヾ((；´･ω･)ﾉ",
+      "tags": ["embarrassed", "hands-up", "sweat-drop"]
+    },
+    {
+      "id": "embarrassed_078",
+      "text": "(；°ρ°)ゝ”",
+      "tags": ["dazed", "embarrassed", "scratch", "sweat-drop"]
+    },
+    {
+      "id": "embarrassed_079",
+      "text": "(｡･Д･)ゞ",
+      "tags": ["embarrassed", "scratch"]
+    },
+    {
+      "id": "embarrassed_080",
+      "text": "=͟͟͞͞(･∇･ ‧̣̥̇)",
+      "tags": ["embarrassed", "nervous", "sweat-drop"]
+    },
+    {
+      "id": "embarrassed_081",
       "text": "(*^﹏^*)",
-      "tags": ["embarrassed"]
+      "tags": ["embarrassed", "trembling"]
     },
     {
-      "id": "embarrassed_063",
-      "text": "ヾ(｡ꏿ﹏ꏿ)ﾉﾞ",
-      "tags": ["scared"]
-    },
-    {
-      "id": "embarrassed_064",
-      "text": "(((;ꏿöꏿ;)))",
-      "tags": ["scared", "startled"]
-    },
-    {
-      "id": "embarrassed_065",
-      "text": "⁀⊙﹏☉⁀",
-      "tags": ["dizzy", "nervous", "scared"]
-    },
-    {
-      "id": "embarrassed_066",
-      "text": "ミ●﹏☉ミ",
-      "tags": ["dizzy", "embarrassed", "nervous", "scared"]
-    },
-    {
-      "id": "embarrassed_067",
-      "text": "໒(⊙ᴗ⊙)७✎▤",
-      "tags": ["embarrassed", "smile", "writing"]
-    },
-    {
-      "id": "embarrassed_068",
-      "text": "♨o(>_<)o♨",
-      "tags": ["embarrassed", "nervous"]
+      "id": "embarrassed_082",
+      "text": "(゜▽゜;)",
+      "tags": ["embarrassed", "nervous", "surprised", "sweat-drop"]
     }
   ]
 }

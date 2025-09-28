@@ -5,27 +5,12 @@
     "zh-tw": "驚訝"
   },
   "preview": "Σ(°Д°;)",
-  "lastUpdated": "2025-08-17",
+  "lastUpdated": "2025-09-28",
   "items": [
-    {
-      "id": "surprised_001",
-      "text": "( ˚ཫ˚ )",
-      "tags": ["startled", "surprised"]
-    },
-    {
-      "id": "surprised_002",
-      "text": "°꒰๑'ꀾ'๑꒱°",
-      "tags": ["surprised", "thrilled"]
-    },
-    {
-      "id": "surprised_003",
-      "text": "⚆_⚆",
-      "tags": ["surprised"]
-    },
     {
       "id": "surprised_004",
       "text": "（ ་Ꙫ ་）",
-      "tags": ["surprised"]
+      "tags": ["neutral", "surprised"]
     },
     {
       "id": "surprised_005",
@@ -58,14 +43,9 @@
       "tags": ["shout", "surprised"]
     },
     {
-      "id": "surprised_011",
-      "text": "(๑ ꒪ꌂ꒪๑)",
-      "tags": ["speechless", "startled"]
-    },
-    {
       "id": "surprised_012",
       "text": "ᓫ(°⌑°)ǃ",
-      "tags": ["animal", "startled", "surprised"]
+      "tags": ["animal", "surprised"]
     },
     {
       "id": "surprised_013",
@@ -75,7 +55,7 @@
     {
       "id": "surprised_014",
       "text": "๑ᵒᯅᵒ๑",
-      "tags": ["startled", "surprised"]
+      "tags": ["dazed", "surprised"]
     },
     {
       "id": "surprised_015",
@@ -98,24 +78,14 @@
       "tags": ["surprised"]
     },
     {
-      "id": "surprised_023",
-      "text": "ᯅ̈.ᐟ.ᐟ",
-      "tags": ["shout", "surprised"]
-    },
-    {
       "id": "surprised_025",
       "text": "𖦹ᯅ𖦹.ᐟ.ᐟ",
-      "tags": ["shout", "surprised"]
-    },
-    {
-      "id": "surprised_026",
-      "text": "ƪ(ƪ꒪ৱ৹)ᵒʰ˵˵",
-      "tags": ["speechless", "surprised"]
+      "tags": ["dizzy", "surprised"]
     },
     {
       "id": "surprised_027",
       "text": "(•’╻’• ۶)۶",
-      "tags": ["pointing", "startled", "surprised"]
+      "tags": ["pointing", "surprised"]
     },
     {
       "id": "surprised_029",
@@ -135,27 +105,27 @@
     {
       "id": "surprised_032",
       "text": "(*´ﾟωﾟﾉ",
-      "tags": ["surprised"]
+      "tags": ["hands-up", "surprised"]
     },
     {
       "id": "surprised_033",
       "text": "く（＠Д＠）",
-      "tags": ["salute", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_034",
       "text": "∠( ﾟдﾟ)/",
-      "tags": ["salute", "surprised"]
+      "tags": ["dazed", "displeased", "hands-up", "shout", "surprised"]
     },
     {
       "id": "surprised_035",
       "text": "<|๑⊙Д⊙|/",
-      "tags": ["dumbfounded", "salute", "startled", "surprised"]
+      "tags": ["dumbfounded", "surprised"]
     },
     {
       "id": "surprised_036",
       "text": "(ؔꇵ ˻̠ ؔꇵ)",
-      "tags": ["startled", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_037",
@@ -163,54 +133,34 @@
       "tags": ["surprised"]
     },
     {
-      "id": "surprised_038",
-      "text": "（ ゜ρ゜)ノ",
-      "tags": ["surprised"]
-    },
-    {
       "id": "surprised_039",
       "text": "o｜๑⊙Д⊙๑｜ツ",
-      "tags": ["dumbfounded", "peeking", "question", "startled", "surprised"]
+      "tags": ["dumbfounded", "surprised"]
     },
     {
       "id": "surprised_040",
       "text": "(o゜◇゜)ノ",
-      "tags": ["question", "surprised"]
-    },
-    {
-      "id": "surprised_041",
-      "text": "＼(￣O￣)",
-      "tags": ["startled", "surprised"]
-    },
-    {
-      "id": "surprised_042",
-      "text": "(/・0・)",
       "tags": ["surprised"]
     },
     {
       "id": "surprised_043",
       "text": "(๑ò◊ó ﾉ)ﾉ",
-      "tags": ["startled", "surprised"]
+      "tags": ["hands-up", "surprised"]
     },
     {
       "id": "surprised_044",
       "text": "(ﾉ･o･)ﾉ",
-      "tags": ["surprised"]
+      "tags": ["hands-up", "surprised"]
     },
     {
       "id": "surprised_045",
       "text": "(ﾉﾟ⊿ﾟ)ﾉ",
-      "tags": ["angry", "surprised"]
+      "tags": ["angry", "hands-up", "surprised"]
     },
     {
       "id": "surprised_046",
       "text": "┌|*ﾟｏﾟ|┘",
-      "tags": ["startled", "surprised"]
-    },
-    {
-      "id": "surprised_047",
-      "text": "༼ つ ◕o◕ ༽つ",
-      "tags": ["big-eyes", "hug", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_048",
@@ -225,37 +175,22 @@
     {
       "id": "surprised_050",
       "text": "Σ(￣。￣ノ)ノ",
-      "tags": ["startled", "surprised"]
-    },
-    {
-      "id": "surprised_051",
-      "text": "ヾ(。￣□￣)ﾂ",
-      "tags": ["startled", "surprised"]
-    },
-    {
-      "id": "surprised_052",
-      "text": "ヾ(￣□￣;)ﾉ",
-      "tags": ["startled", "surprised"]
+      "tags": ["closed-eyes", "surprised"]
     },
     {
       "id": "surprised_053",
       "text": "٩( ⺤◊⺤)۶",
-      "tags": ["startled", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_054",
       "text": "(o´Д`)",
-      "tags": ["startled", "surprised"]
-    },
-    {
-      "id": "surprised_055",
-      "text": "∑(￣□￣)",
-      "tags": ["startled", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_056",
       "text": "ヾ(￣0￣； )ノ",
-      "tags": ["startled", "surprised"]
+      "tags": ["closed-eyes", "surprised", "sweat-drop"]
     },
     {
       "id": "surprised_057",
@@ -265,7 +200,7 @@
     {
       "id": "surprised_058",
       "text": "Σ( ﾟωﾟ；≡⊃",
-      "tags": ["peeking", "surprised"]
+      "tags": ["surprised", "sweat-drop"]
     },
     {
       "id": "surprised_059",
@@ -275,12 +210,7 @@
     {
       "id": "surprised_061",
       "text": "↷( ó╻ò)",
-      "tags": ["startled", "surprised"]
-    },
-    {
-      "id": "surprised_062",
-      "text": "(◎_◎;)",
-      "tags": ["nervous", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_063",
@@ -298,29 +228,19 @@
       "tags": ["angry", "surprised"]
     },
     {
-      "id": "surprised_066",
-      "text": "(꒪ȏ꒪)ｴｯ?",
-      "tags": ["question", "surprised"]
-    },
-    {
-      "id": "surprised_067",
-      "text": "σ(゜◆゜;)",
-      "tags": ["nervous", "surprised"]
-    },
-    {
       "id": "surprised_068",
       "text": "( ゜Д゜；)！？",
-      "tags": ["startled", "surprised"]
+      "tags": ["surprised", "sweat-drop"]
     },
     {
       "id": "surprised_069",
       "text": "(｀◎△◎)!?",
-      "tags": ["startled", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_070",
       "text": "（＊｀〇Д〇）？",
-      "tags": ["question", "shout", "surprised"]
+      "tags": ["dumbfounded", "question", "shout", "surprised"]
     },
     {
       "id": "surprised_071",
@@ -330,7 +250,7 @@
     {
       "id": "surprised_072",
       "text": "(*。0 – 0。*)？",
-      "tags": ["question", "surprised"]
+      "tags": ["dumbfounded", "question", "surprised"]
     },
     {
       "id": "surprised_073",
@@ -340,37 +260,27 @@
     {
       "id": "surprised_074",
       "text": "∑(O_O；)",
-      "tags": ["startled", "surprised"]
+      "tags": ["surprised", "sweat-drop"]
     },
     {
       "id": "surprised_075",
       "text": "Σ(‘◉⌓◉’)",
-      "tags": ["dumbfounded", "startled", "surprised"]
-    },
-    {
-      "id": "surprised_076",
-      "text": "Σ(-᷅_-᷄๑)",
-      "tags": ["angry", "speechless", "surprised"]
+      "tags": ["dumbfounded", "surprised"]
     },
     {
       "id": "surprised_077",
       "text": "Σ(ＴωＴ)",
-      "tags": ["crying", "sad", "surprised"]
+      "tags": ["crying", "surprised"]
     },
     {
       "id": "surprised_078",
       "text": "Σ(●ꉺ▱ꉺ●)",
-      "tags": ["startled", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_079",
       "text": "∑（｡･Д･｡）???",
       "tags": ["question", "surprised"]
-    },
-    {
-      "id": "surprised_080",
-      "text": "Σ(๛д๛)",
-      "tags": ["speechless", "surprised"]
     },
     {
       "id": "surprised_081",
@@ -385,62 +295,42 @@
     {
       "id": "surprised_083",
       "text": "Σ(￣ロ￣lll)",
-      "tags": ["breakdown", "startled"]
+      "tags": ["closed-eyes", "surprised", "sweat-drop"]
     },
     {
       "id": "surprised_084",
       "text": "Σ(￣□￣lll)",
-      "tags": ["breakdown", "startled"]
+      "tags": ["closed-eyes", "surprised", "sweat-drop"]
     },
     {
       "id": "surprised_085",
       "text": "Σ(+_@)!?",
-      "tags": ["dizzy", "startled"]
-    },
-    {
-      "id": "surprised_086",
-      "text": "Σ(ﾟﾛ､ﾟ;)",
-      "tags": ["startled", "surprised", "vomiting-blood"]
+      "tags": ["dizzy", "surprised"]
     },
     {
       "id": "surprised_087",
       "text": "Σ(； ･`д･´)",
-      "tags": ["nervous", "serious", "surprised"]
-    },
-    {
-      "id": "surprised_088",
-      "text": "Σ(´△｀Ⅲ)",
-      "tags": ["speechless", "surprised"]
+      "tags": ["surprised", "sweat-drop"]
     },
     {
       "id": "surprised_089",
       "text": "Σ(•’╻’• ۶)۶",
-      "tags": ["startled", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_090",
       "text": "(☉ε　⊙ﾉ)ﾉ",
-      "tags": ["startled"]
-    },
-    {
-      "id": "surprised_091",
-      "text": "＼(●o○;)ノ",
-      "tags": ["banzai", "speechless", "surprised"]
+      "tags": ["hands-up", "pouting", "surprised"]
     },
     {
       "id": "surprised_092",
       "text": "＼(☆o◎)／",
-      "tags": ["banzai", "star", "surprised"]
-    },
-    {
-      "id": "surprised_093",
-      "text": "Σ(♡＠﹏ ＠☆)ﾉ”",
-      "tags": ["dizzy", "love", "star", "startled"]
+      "tags": ["star", "surprised"]
     },
     {
       "id": "surprised_094",
       "text": "＼(´◓Д◔`)／",
-      "tags": ["banzai", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_095",
@@ -455,7 +345,7 @@
     {
       "id": "surprised_098",
       "text": "⊙_ʘ",
-      "tags": ["surprised"]
+      "tags": ["big-eyes", "dumbfounded", "surprised"]
     },
     {
       "id": "surprised_099",
@@ -473,24 +363,14 @@
       "tags": ["dumbfounded", "surprised"]
     },
     {
-      "id": "surprised_102",
-      "text": "（・□・；）",
-      "tags": ["nervous", "surprised"]
-    },
-    {
       "id": "surprised_103",
       "text": "(*ﾟﾛﾟ)",
-      "tags": ["startled", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_104",
       "text": "Σ(゜ロ゜;)",
-      "tags": ["startled", "surprised"]
-    },
-    {
-      "id": "surprised_105",
-      "text": "∑(ﾟﾛﾟ〃)",
-      "tags": ["nervous", "startled", "surprised"]
+      "tags": ["surprised", "sweat-drop"]
     },
     {
       "id": "surprised_106",
@@ -510,17 +390,12 @@
     {
       "id": "surprised_109",
       "text": "（＊〇□〇）……！",
-      "tags": ["startled", "surprised"]
-    },
-    {
-      "id": "surprised_110",
-      "text": "∑(;°Д°)",
-      "tags": ["startled", "surprised"]
+      "tags": ["dumbfounded", "surprised"]
     },
     {
       "id": "surprised_111",
       "text": "━Σ(ﾟДﾟ|||)━",
-      "tags": ["breakdown", "startled"]
+      "tags": ["dazed", "shout", "surprised", "sweat-drop"]
     },
     {
       "id": "surprised_112",
@@ -538,11 +413,6 @@
       "tags": ["surprised"]
     },
     {
-      "id": "surprised_115",
-      "text": "(；゜○゜)",
-      "tags": ["dumbfounded", "nervous", "surprised"]
-    },
-    {
       "id": "surprised_116",
       "text": "(・о・)",
       "tags": ["surprised"]
@@ -551,11 +421,6 @@
       "id": "surprised_117",
       "text": "(✿☉｡☉)",
       "tags": ["cute", "dumbfounded", "flower", "surprised"]
-    },
-    {
-      "id": "surprised_118",
-      "text": "（°o°；）",
-      "tags": ["nervous", "surprised"]
     },
     {
       "id": "surprised_119",
@@ -570,22 +435,12 @@
     {
       "id": "surprised_121",
       "text": "w(°ｏ°)w",
-      "tags": ["banzai", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_122",
       "text": "´ ˙○˙ ",
       "tags": ["surprised"]
-    },
-    {
-      "id": "surprised_123",
-      "text": "༼⁰o⁰；༽",
-      "tags": ["nervous", "surprised"]
-    },
-    {
-      "id": "surprised_124",
-      "text": "(°o°:)",
-      "tags": ["nervous", "surprised"]
     },
     {
       "id": "surprised_125",
@@ -603,11 +458,6 @@
       "tags": ["surprised"]
     },
     {
-      "id": "surprised_128",
-      "text": "٩(●ö●)۶",
-      "tags": ["banzai", "cheer-up", "surprised"]
-    },
-    {
       "id": "surprised_129",
       "text": "(⑉⊙ȏ⊙)",
       "tags": ["dumbfounded", "surprised"]
@@ -618,19 +468,14 @@
       "tags": ["surprised"]
     },
     {
-      "id": "surprised_131",
-      "text": "Σ(･o･;)",
-      "tags": ["nervous", "surprised"]
-    },
-    {
       "id": "surprised_132",
       "text": "(ﾉﾟοﾟ)ﾉ",
-      "tags": ["banzai", "surprised"]
+      "tags": ["dazed", "hands-up"]
     },
     {
       "id": "surprised_133",
       "text": "(ﾉ*0*)ﾉ",
-      "tags": ["banzai", "surprised"]
+      "tags": ["hands-up", "surprised"]
     },
     {
       "id": "surprised_134",
@@ -665,17 +510,17 @@
     {
       "id": "surprised_140",
       "text": "⊙▂⊙",
-      "tags": ["dumbfounded", "scared", "startled", "surprised"]
+      "tags": ["dumbfounded", "scared", "surprised"]
     },
     {
       "id": "surprised_141",
       "text": "〣( ºΔº )〣",
-      "tags": ["startled"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_142",
       "text": "(ʘᗩʘ’)",
-      "tags": ["dazed", "surprised"]
+      "tags": ["big-eyes", "dumbfounded", "surprised"]
     },
     {
       "id": "surprised_143",
@@ -695,22 +540,17 @@
     {
       "id": "surprised_146",
       "text": "(　ﾟДﾟ)＜!!",
-      "tags": ["question", "shout", "surprised"]
+      "tags": ["dazed", "displeased", "excited", "shout", "surprised"]
     },
     {
       "id": "surprised_147",
       "text": "＼(〇O〇)／",
-      "tags": ["banzai", "surprised"]
+      "tags": ["banzai", "big-eyes", "shout"]
     },
     {
       "id": "surprised_148",
       "text": "＼(＠O＠)／",
-      "tags": ["banzai", "startled", "surprised"]
-    },
-    {
-      "id": "surprised_149",
-      "text": "◑.◑",
-      "tags": ["speechless"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_150",
@@ -720,7 +560,7 @@
     {
       "id": "surprised_151",
       "text": "━(◯Δ◯∥)━ン",
-      "tags": ["startled"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_152",
@@ -730,27 +570,17 @@
     {
       "id": "surprised_153",
       "text": "ゞ◎Д◎ヾ",
-      "tags": ["salute", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_154",
       "text": "（｀〇Д〇）",
-      "tags": ["shout", "surprised"]
-    },
-    {
-      "id": "surprised_155",
-      "text": "（ΟΔΟ；；）",
-      "tags": ["nervous", "surprised"]
+      "tags": ["dumbfounded", "surprised"]
     },
     {
       "id": "surprised_156",
       "text": "ヽ(ﾟДﾟ)ﾉ",
-      "tags": ["banzai", "surprised"]
-    },
-    {
-      "id": "surprised_157",
-      "text": "ヽ ( ꒪д꒪ )ﾉ",
-      "tags": ["banzai", "speechless", "surprised"]
+      "tags": ["dazed", "displeased", "hands-up", "shout", "surprised"]
     },
     {
       "id": "surprised_158",
@@ -758,34 +588,24 @@
       "tags": ["dumbfounded", "surprised"]
     },
     {
-      "id": "surprised_159",
-      "text": "(ﾟДﾟ；)ゞ",
-      "tags": ["nervous", "salute", "surprised"]
-    },
-    {
       "id": "surprised_160",
       "text": "－(゜Д゜;)-ン!",
-      "tags": ["startled"]
-    },
-    {
-      "id": "surprised_161",
-      "text": "(ﾟДﾟ;)",
-      "tags": ["nervous", "surprised"]
+      "tags": ["surprised", "sweat-drop"]
     },
     {
       "id": "surprised_164",
       "text": "σ(ｏдｏlll)",
-      "tags": ["breakdown", "surprised"]
+      "tags": ["dumbfounded", "surprised", "sweat-drop"]
     },
     {
       "id": "surprised_165",
       "text": "╰། ᵒ̌ д ᵒ̌ །╯",
-      "tags": ["banzai", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_166",
       "text": "ヽ(○´Д｀)ﾉ",
-      "tags": ["banzai", "sad", "surprised"]
+      "tags": ["hands-up", "sad", "surprised"]
     },
     {
       "id": "surprised_167",
@@ -795,17 +615,17 @@
     {
       "id": "surprised_168",
       "text": "┗|*´ﾟДﾟ｀|┛",
-      "tags": ["surprised"]
+      "tags": ["dazed", "hands-up", "shout", "surprised"]
     },
     {
       "id": "surprised_170",
       "text": "!!(ﾉ*ﾟДﾟ)ﾉ",
-      "tags": ["banzai", "surprised"]
+      "tags": ["dazed", "excited", "hands-up", "shout", "surprised"]
     },
     {
       "id": "surprised_171",
       "text": "(-@Д@)",
-      "tags": ["startled", "sunglasses", "surprised"]
+      "tags": ["cool", "surprised"]
     },
     {
       "id": "surprised_172",
@@ -815,37 +635,22 @@
     {
       "id": "surprised_173",
       "text": "ヽ〔ﾟДﾟ〕丿",
-      "tags": ["banzai", "surprised"]
+      "tags": ["dazed", "displeased", "hands-up", "shout", "surprised"]
     },
     {
       "id": "surprised_174",
       "text": "ฺ(☼Д☼)",
-      "tags": ["startled", "surprised"]
-    },
-    {
-      "id": "surprised_175",
-      "text": "工ｴｴｪｪ(;╹⌓╹)ｪｪｴｴ工",
-      "tags": ["startled", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_176",
       "text": "エｴｪｪｪ(●’Д’●)ｪｪｪｴエ",
-      "tags": ["startled", "surprised"]
-    },
-    {
-      "id": "surprised_177",
-      "text": "(꒪ȏ꒪;)",
-      "tags": ["nervous", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_178",
       "text": "((ﾟ□ﾟ;))",
       "tags": ["surprised"]
-    },
-    {
-      "id": "surprised_179",
-      "text": "(●゜□゜)人(゜□゜○)",
-      "tags": ["friend", "surprised"]
     },
     {
       "id": "surprised_180",
@@ -860,42 +665,22 @@
     {
       "id": "surprised_182",
       "text": "!!!!!!(ﾟﾛﾟ屮)屮",
-      "tags": ["startled"]
+      "tags": ["excited", "surprised"]
     },
     {
       "id": "surprised_183",
       "text": "ヾ(´囗｀｡)ﾉ",
-      "tags": ["surprised"]
-    },
-    {
-      "id": "surprised_184",
-      "text": "(/;◇;)/",
-      "tags": ["surprised"]
-    },
-    {
-      "id": "surprised_185",
-      "text": "(＠O＠;)",
-      "tags": ["nervous", "surprised"]
+      "tags": ["hands-up", "surprised"]
     },
     {
       "id": "surprised_186",
       "text": "(๑ʘ∆ʘ๑)",
-      "tags": ["dumbfounded", "surprised"]
+      "tags": ["big-eyes", "dumbfounded", "surprised"]
     },
     {
       "id": "surprised_187",
       "text": "Σ(",
       "tags": []
-    },
-    {
-      "id": "surprised_188",
-      "text": "╰[ ⁰﹏⁰ ]╯",
-      "tags": ["banzai", "nervous", "surprised"]
-    },
-    {
-      "id": "surprised_189",
-      "text": "(￣□￣)",
-      "tags": ["surprised"]
     },
     {
       "id": "surprised_190",
@@ -915,7 +700,7 @@
     {
       "id": "surprised_193",
       "text": "(oﾐﾟﾛﾟﾐ)o",
-      "tags": ["startled", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_194",
@@ -938,29 +723,9 @@
       "tags": ["surprised", "thrilled"]
     },
     {
-      "id": "surprised_198",
-      "text": ";° ロ°",
-      "tags": ["nervous", "surprised"]
-    },
-    {
-      "id": "surprised_199",
-      "text": "（￣□￣；）",
-      "tags": ["nervous", "surprised"]
-    },
-    {
-      "id": "surprised_200",
-      "text": "´⊙o⊙`；",
-      "tags": ["dumbfounded", "nervous", "surprised"]
-    },
-    {
-      "id": "surprised_201",
-      "text": "ヽ（゜ロ゜；）ノ",
-      "tags": ["banzai", "nervous", "surprised"]
-    },
-    {
       "id": "surprised_202",
       "text": "ヾ(=ﾟ･ﾟ=)ﾉ",
-      "tags": ["animal", "surprised"]
+      "tags": ["animal", "hands-up", "surprised"]
     },
     {
       "id": "surprised_203",
@@ -978,29 +743,24 @@
       "tags": ["surprised"]
     },
     {
-      "id": "surprised_206",
-      "text": "ヾ(ﾟдﾟ;)",
-      "tags": ["nervous", "surprised"]
-    },
-    {
       "id": "surprised_207",
       "text": "ヾ(o´０ω０o)ﾉ",
-      "tags": ["cute", "surprised"]
+      "tags": ["cute", "hands-up", "surprised"]
     },
     {
       "id": "surprised_208",
       "text": "ヽ༼⊙_⊙༽ﾉ",
-      "tags": ["banzai", "surprised"]
+      "tags": ["hands-up", "surprised"]
     },
     {
       "id": "surprised_210",
       "text": "<(llﾟ◇ﾟll)>",
-      "tags": ["startled", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_211",
       "text": "ヽ(‘ºل͟º)ノ",
-      "tags": ["banzai", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_212",
@@ -1015,7 +775,7 @@
     {
       "id": "surprised_214",
       "text": "Σ(´ﾟωﾟ｀ )",
-      "tags": ["sad", "startled", "surprised"]
+      "tags": ["dazed", "surprised"]
     },
     {
       "id": "surprised_215",
@@ -1030,7 +790,7 @@
     {
       "id": "surprised_217",
       "text": "(･:ﾟдﾟ:･)",
-      "tags": ["startled", "surprised"]
+      "tags": ["dazed", "shout", "surprised"]
     },
     {
       "id": "surprised_218",
@@ -1038,49 +798,19 @@
       "tags": ["sunglasses", "surprised"]
     },
     {
-      "id": "surprised_220",
-      "text": "Σ(;ﾟдﾟ)",
-      "tags": ["startled"]
-    },
-    {
-      "id": "surprised_221",
-      "text": "(●▼●;)",
-      "tags": ["embarrassed", "nervous", "surprised"]
-    },
-    {
-      "id": "surprised_222",
-      "text": "(°ﾛ°٥)",
-      "tags": ["nervous", "surprised"]
-    },
-    {
       "id": "surprised_224",
       "text": "Σ(°Д°;)",
-      "tags": ["surprised"]
-    },
-    {
-      "id": "surprised_225",
-      "text": "∑(￣□￣;)",
-      "tags": ["surprised"]
+      "tags": ["dazed", "surprised", "sweat-drop"]
     },
     {
       "id": "surprised_226",
       "text": "∑(✘Д✘๑ )",
-      "tags": ["startled"]
-    },
-    {
-      "id": "surprised_227",
-      "text": "ㅇㅅㅇ",
       "tags": ["surprised"]
     },
     {
       "id": "surprised_228",
       "text": "( ºωº )",
       "tags": ["surprised"]
-    },
-    {
-      "id": "surprised_229",
-      "text": "δ△δ",
-      "tags": ["speechless", "surprised"]
     },
     {
       "id": "surprised_230",
@@ -1105,27 +835,17 @@
     {
       "id": "surprised_235",
       "text": "ʅʢ•o•ʡ",
-      "tags": ["question", "startled", "surprised"]
-    },
-    {
-      "id": "surprised_236",
-      "text": "(˶ҩᆺҩ˶)",
-      "tags": ["startled", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_237",
       "text": "(˶စ ูစ˶)",
-      "tags": ["surprised"]
+      "tags": ["shy", "surprised"]
     },
     {
       "id": "surprised_238",
       "text": "(〃ﾟдﾟ〃)",
-      "tags": ["shy", "startled", "surprised"]
-    },
-    {
-      "id": "surprised_240",
-      "text": "ミ⁰̷̴͈ 。⁰̷̴͈ ミ",
-      "tags": ["animal", "startled", "surprised"]
+      "tags": ["dazed", "shout", "shy", "surprised"]
     },
     {
       "id": "surprised_241",
@@ -1135,17 +855,12 @@
     {
       "id": "surprised_243",
       "text": "⚆ꆚ⚆ಣ",
-      "tags": ["goofy", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_244",
       "text": "oᴗOಣ",
       "tags": ["surprised"]
-    },
-    {
-      "id": "surprised_246",
-      "text": "(˶ඕ ⌔ ඕ˶)",
-      "tags": ["startled", "surprised"]
     },
     {
       "id": "surprised_247",
@@ -1155,157 +870,17 @@
     {
       "id": "surprised_248",
       "text": "( ᐢ• 0 •ᐢ )",
-      "tags": ["startled", "surprised"]
-    },
-    {
-      "id": "surprised_249",
-      "text": "(๑ó⌓ò๑)",
-      "tags": ["dazed", "helpless", "speechless"]
-    },
-    {
-      "id": "surprised_250",
-      "text": "(꒪⌓꒪)",
-      "tags": ["dazed", "speechless"]
-    },
-    {
-      "id": "surprised_251",
-      "text": "ଽ꒰⌓̈ ॢ꒱ ̉ ̉",
-      "tags": ["dazed", "speechless"]
-    },
-    {
-      "id": "surprised_252",
-      "text": "( •᷄⌓•᷅ )",
-      "tags": ["helpless", "speechless"]
-    },
-    {
-      "id": "surprised_253",
-      "text": "(´๑・⌓・｀)",
-      "tags": ["cute", "dazed", "speechless"]
-    },
-    {
-      "id": "surprised_254",
-      "text": "( ³⌓³)",
-      "tags": ["dazed", "speechless"]
-    },
-    {
-      "id": "surprised_255",
-      "text": "(๑°⌓°๑)",
-      "tags": ["speechless", "surprised"]
-    },
-    {
-      "id": "surprised_256",
-      "text": ";ↀ⌓ↀ",
-      "tags": ["animal", "dazed", "nervous"]
-    },
-    {
-      "id": "surprised_257",
-      "text": "(◕⌓◕;)",
-      "tags": ["big-eyes", "dazed", "nervous", "speechless"]
-    },
-    {
-      "id": "surprised_258",
-      "text": "(ὀ⌓ὀ⑅)",
-      "tags": ["cute", "dazed", "speechless"]
-    },
-    {
-      "id": "surprised_259",
-      "text": "˛˛૧(˵¯͒▱¯͒˵)",
-      "tags": ["dazed", "speechless"]
-    },
-    {
-      "id": "surprised_260",
-      "text": "˚▱˚",
-      "tags": ["dazed", "speechless"]
-    },
-    {
-      "id": "surprised_261",
-      "text": "(ⅈ▱ⅈ)",
-      "tags": ["dazed", "speechless"]
-    },
-    {
-      "id": "surprised_262",
-      "text": "(⌯꒪͒ .̼ ꒪͒)",
-      "tags": ["dazed", "speechless"]
-    },
-    {
-      "id": "surprised_263",
-      "text": "(⊙…⊙ )",
-      "tags": ["dazed", "speechless"]
-    },
-    {
-      "id": "surprised_264",
-      "text": "( ‘-’ )",
-      "tags": ["speechless"]
-    },
-    {
-      "id": "surprised_265",
-      "text": "( ´ㅁ` ;)",
-      "tags": ["embarrassed", "speechless"]
-    },
-    {
-      "id": "surprised_266",
-      "text": "( ꒪꒫꒪)",
-      "tags": ["dazed", "speechless"]
-    },
-    {
-      "id": "surprised_267",
-      "text": "꒰•⌓•꒱",
-      "tags": ["dazed", "speechless"]
-    },
-    {
-      "id": "surprised_268",
-      "text": "(◕ㅁ◕✿)",
-      "tags": ["big-eyes", "flower", "startled", "surprised"]
-    },
-    {
-      "id": "surprised_269",
-      "text": "(◕д◕✿)",
-      "tags": ["big-eyes", "flower", "startled", "surprised"]
-    },
-    {
-      "id": "surprised_270",
-      "text": "(￣ ￣|||)",
-      "tags": ["embarrassed", "speechless"]
-    },
-    {
-      "id": "surprised_271",
-      "text": "(；￣Д￣）",
-      "tags": ["speechless", "startled", "surprised"]
-    },
-    {
-      "id": "surprised_272",
-      "text": "⊙﹏⊙",
-      "tags": ["speechless", "surprised"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_273",
       "text": ";꒪ö꒪",
-      "tags": ["startled"]
-    },
-    {
-      "id": "surprised_274",
-      "text": "Σ(ಠิωಠิ|||)",
-      "tags": ["speechless", "startled"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_275",
       "text": "ि०॰०ॢी",
-      "tags": ["scared", "startled"]
-    },
-    {
-      "id": "surprised_276",
-      "text": "(°⌓°)",
-      "tags": ["speechless", "startled"]
-    },
-    {
-      "id": "surprised_277",
-      "text": "╭(°ﾛ°”)╯",
-      "tags": ["scared", "speechless", "startled"]
-    },
-    {
-      "id": "surprised_278",
-      "text": "ヘ（。□°）ヘ",
-      "tags": ["startled"]
+      "tags": ["scared", "surprised"]
     },
     {
       "id": "surprised_279",
@@ -1315,47 +890,22 @@
     {
       "id": "surprised_280",
       "text": "(((φ(◎ロ◎;)φ)))",
-      "tags": ["startled"]
-    },
-    {
-      "id": "surprised_281",
-      "text": "(((ﾟдﾟ)))",
-      "tags": ["startled"]
-    },
-    {
-      "id": "surprised_282",
-      "text": "(((0へ0))]",
-      "tags": ["scared", "speechless", "startled"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_283",
       "text": "((((；゜Д゜)))",
-      "tags": ["scared", "startled"]
+      "tags": ["scared", "surprised", "sweat-drop"]
     },
     {
       "id": "surprised_284",
       "text": "Σ░(꒪◊꒪ ))))",
-      "tags": ["startled", "surprised"]
-    },
-    {
-      "id": "surprised_285",
-      "text": "ヾ(´ﾟДﾟ｀;)ゝ",
-      "tags": ["nervous", "startled"]
-    },
-    {
-      "id": "surprised_286",
-      "text": "(ｼ;ﾟДﾟ)ｼ",
-      "tags": ["startled"]
-    },
-    {
-      "id": "surprised_287",
-      "text": "ԅ(‹o›Д‹o›ԅ)",
-      "tags": ["nervous", "pinch", "scared", "startled"]
+      "tags": ["surprised"]
     },
     {
       "id": "surprised_288",
       "text": ";◉∀◉)オッ",
-      "tags": ["shout", "surprised"]
+      "tags": ["big-eyes", "surprised", "sweat-drop"]
     },
     {
       "id": "surprised_289",
@@ -1370,7 +920,7 @@
     {
       "id": "surprised_291",
       "text": "Σ(*ﾟдﾟﾉ)ﾉ",
-      "tags": ["surprised"]
+      "tags": ["dazed", "hands-up", "shout", "surprised"]
     },
     {
       "id": "surprised_292",
@@ -1383,11 +933,6 @@
       "tags": ["big-eyes", "surprised"]
     },
     {
-      "id": "surprised_294",
-      "text": "ฅ(๑*д*๑)ฅ!!",
-      "tags": ["surprised"]
-    },
-    {
       "id": "surprised_295",
       "text": "(゜ロ゜)",
       "tags": ["surprised"]
@@ -1395,12 +940,7 @@
     {
       "id": "surprised_296",
       "text": "( ﾟдﾟ)",
-      "tags": ["surprised"]
-    },
-    {
-      "id": "surprised_297",
-      "text": "(゜o゜)",
-      "tags": ["surprised"]
+      "tags": ["dazed", "shout", "surprised"]
     },
     {
       "id": "surprised_298",
@@ -1410,7 +950,7 @@
     {
       "id": "surprised_299",
       "text": "(✽ ﾟдﾟ ✽)",
-      "tags": ["surprised"]
+      "tags": ["dazed", "shout", "surprised"]
     },
     {
       "id": "surprised_300",
@@ -1420,27 +960,17 @@
     {
       "id": "surprised_301",
       "text": "!!θ(　ﾟДﾟ)＝θ☆",
-      "tags": ["attack", "surprised"]
-    },
-    {
-      "id": "surprised_302",
-      "text": "(((c=(°ロ°;q)",
-      "tags": ["dumbfounded", "nervous", "running", "startled"]
-    },
-    {
-      "id": "surprised_303",
-      "text": "ᕕ(╯°□°)ᕗ",
-      "tags": ["dumbfounded", "nervous", "running", "shout"]
+      "tags": ["attack", "dazed", "displeased", "excited", "shout", "star", "surprised"]
     },
     {
       "id": "surprised_304",
       "text": "(┌ﾟдﾟ)┌",
-      "tags": ["surprised"]
+      "tags": ["dazed", "shout", "surprised"]
     },
     {
       "id": "surprised_305",
       "text": "└(ﾟдﾟ)┐",
-      "tags": ["surprised"]
+      "tags": ["dancing", "dazed", "shout", "surprised"]
     },
     {
       "id": "surprised_306",
@@ -1450,7 +980,7 @@
     {
       "id": "surprised_307",
       "text": "(」ﾟДﾟ)」",
-      "tags": ["shout"]
+      "tags": ["dazed", "shout", "surprised"]
     },
     {
       "id": "surprised_308",
@@ -1470,7 +1000,7 @@
     {
       "id": "surprised_311",
       "text": "(/ﾟДﾟ)/",
-      "tags": ["shout", "surprised"]
+      "tags": ["dazed", "displeased", "shout"]
     },
     {
       "id": "surprised_312",
@@ -1483,114 +1013,59 @@
       "tags": ["surprised"]
     },
     {
-      "id": "surprised_314",
-      "text": "ε=ε=(怒ﾟДﾟ)ﾉ",
-      "tags": ["angry", "running"]
-    },
-    {
-      "id": "surprised_315",
-      "text": "Σ(ﾟДﾟ；≡；ﾟдﾟ)",
-      "tags": ["nervous"]
-    },
-    {
       "id": "surprised_316",
       "text": "Σ(°Д°；≡；°д°)",
-      "tags": ["nervous", "startled"]
+      "tags": ["surprised", "sweat-drop"]
     },
     {
       "id": "surprised_317",
       "text": "ε=ε=ε=┏(ﾟロﾟ;)┛",
-      "tags": ["running", "startled"]
+      "tags": ["pouting", "running", "surprised"]
     },
     {
       "id": "surprised_318",
       "text": "ε==ε==(ﾉ゜д゜)ﾂ",
-      "tags": ["running", "surprised"]
+      "tags": ["hands-up", "running", "surprised"]
     },
     {
       "id": "surprised_319",
       "text": "（（（（（（（（　゜□゜）ノ",
-      "tags": ["running", "surprised"]
-    },
-    {
-      "id": "surprised_320",
-      "text": "ヽ(ﾟ□ﾟ＼*≡*／ﾟ□ﾟ)ﾉ",
-      "tags": ["nervous"]
+      "tags": ["dazed", "running", "surprised", "waving"]
     },
     {
       "id": "surprised_321",
       "text": "ε＝（ﾉﾟдﾟ）ﾉ",
-      "tags": ["running", "surprised"]
+      "tags": ["dazed", "hands-up", "running", "shout", "surprised"]
     },
     {
       "id": "surprised_322",
       "text": "Σ(°□°)⊃",
-      "tags": ["dumbfounded", "surprised"]
-    },
-    {
-      "id": "surprised_323",
-      "text": "#ﾟÅﾟ）⊂彡☆))ﾟДﾟ)･∵.",
-      "tags": ["attack"]
-    },
-    {
-      "id": "surprised_324",
-      "text": "щ(ºДºщ)",
-      "tags": ["please", "surprised"]
-    },
-    {
-      "id": "surprised_325",
-      "text": "ლ(ﾟдﾟლ)",
-      "tags": ["please", "surprised"]
-    },
-    {
-      "id": "surprised_326",
-      "text": "џ(ºДºџ)",
-      "tags": ["please", "surprised"]
-    },
-    {
-      "id": "surprised_327",
-      "text": "(屮゜Д゜)屮",
-      "tags": ["please"]
+      "tags": ["dazed", "surprised"]
     },
     {
       "id": "surprised_328",
       "text": "(*ﾟДﾟ)・:∴(吐血)",
-      "tags": ["surprised", "vomiting-blood"]
+      "tags": ["dazed", "shout", "surprised", "vomiting-blood"]
     },
     {
       "id": "surprised_329",
       "text": "( ﾟдﾟ)･:∴ｺﾞﾌｯ!!",
-      "tags": ["surprised", "vomiting-blood"]
+      "tags": ["dazed", "excited", "shout", "surprised"]
     },
     {
       "id": "surprised_330",
       "text": ".ﾌﾞﾊｯ(๑°Д°).∴",
-      "tags": ["surprised", "vomiting-blood"]
+      "tags": ["dazed", "surprised", "vomiting-blood"]
     },
     {
       "id": "surprised_331",
       "text": "(҂` ﾛ ´)︻デ═一 ＼(º □ º l|l)/",
-      "tags": ["attack", "startled"]
-    },
-    {
-      "id": "surprised_332",
-      "text": "(╯°Д°)╯︵ /(.□ . ＼)",
-      "tags": ["attack", "startled"]
+      "tags": ["attack", "surprised"]
     },
     {
       "id": "surprised_335",
       "text": "( ﾟДﾟ)ゞ",
-      "tags": ["angry", "salute", "surprised"]
-    },
-    {
-      "id": "surprised_336",
-      "text": "(╬⁽⁽ ⁰ ⁾⁾ Д ⁽⁽ ⁰ ⁾⁾)",
-      "tags": ["angry", "surprised"]
-    },
-    {
-      "id": "surprised_337",
-      "text": "ヽ(#ﾟДﾟ)ﾉ",
-      "tags": ["angry", "banzai"]
+      "tags": ["dazed", "scratch", "shout", "surprised"]
     },
     {
       "id": "surprised_338",
@@ -1598,59 +1073,14 @@
       "tags": ["angry"]
     },
     {
-      "id": "surprised_339",
-      "text": "(╬ﾟдﾟ)",
-      "tags": ["angry", "surprised"]
-    },
-    {
-      "id": "surprised_340",
-      "text": "щ(゜ロ゜щ)",
-      "tags": ["please"]
-    },
-    {
-      "id": "surprised_341",
-      "text": "(# ﾟДﾟ)",
-      "tags": ["angry"]
-    },
-    {
       "id": "surprised_342",
       "text": "(#°Д°)",
-      "tags": ["angry", "surprised"]
+      "tags": ["dazed", "displeased", "surprised"]
     },
     {
       "id": "surprised_343",
       "text": "(ﾟДﾟ?)",
-      "tags": ["question", "surprised"]
-    },
-    {
-      "id": "surprised_344",
-      "text": "(°⌓°)",
-      "tags": ["confused", "dumbfounded"]
-    },
-    {
-      "id": "surprised_345",
-      "text": "┌(。Д。)┐",
-      "tags": ["helpless", "speechless", "surprised"]
-    },
-    {
-      "id": "surprised_346",
-      "text": "Σ(ﾟДﾟ；≡；ﾟдﾟ)",
-      "tags": ["nervous"]
-    },
-    {
-      "id": "surprised_347",
-      "text": "⊙△⊙",
-      "tags": ["dumbfounded", "speechless", "surprised"]
-    },
-    {
-      "id": "surprised_348",
-      "text": "(((ﾟдﾟ)))",
-      "tags": ["dumbfounded", "nervous", "startled"]
-    },
-    {
-      "id": "surprised_349",
-      "text": "(|||ﾟдﾟ)",
-      "tags": ["dumbfounded", "nervous", "startled"]
+      "tags": ["dazed", "question", "shout", "surprised"]
     },
     {
       "id": "surprised_350",
@@ -1660,17 +1090,157 @@
     {
       "id": "surprised_351",
       "text": "(ノ)ʘ﹃ʘ(ヾ)",
-      "tags": ["drooling", "dumbfounded", "hands-up", "surprised"]
+      "tags": ["drooling", "dumbfounded", "hands-up"]
     },
     {
       "id": "surprised_352",
       "text": "(๑°﹃°๑)",
-      "tags": ["drooling", "surprised"]
+      "tags": ["dazed", "drooling", "surprised"]
     },
     {
-      "id": "surprised_353",
-      "text": "( º﹃º )",
-      "tags": ["drooling", "surprised"]
+      "id": "surprised_358",
+      "text": "＼(°o°；）",
+      "tags": ["surprised", "sweat-drop"]
+    },
+    {
+      "id": "surprised_359",
+      "text": "(☝ ՞՞)☝",
+      "tags": ["hands-up", "surprised"]
+    },
+    {
+      "id": "surprised_361",
+      "text": "(╬☉д⊙)",
+      "tags": ["displeased", "dumbfounded", "surprised"]
+    },
+    {
+      "id": "surprised_362",
+      "text": "Σ(;･益･;;;)!!!",
+      "tags": ["excited", "surprised", "sweat-drop"]
+    },
+    {
+      "id": "surprised_363",
+      "text": "(; ･`д･´)",
+      "tags": ["surprised", "sweat-drop"]
+    },
+    {
+      "id": "surprised_364",
+      "text": "ᕦ⊙෴⊙ᕤ",
+      "tags": ["dumbfounded", "hands-up", "motivated", "muscle", "surprised"]
+    },
+    {
+      "id": "surprised_366",
+      "text": "＿ø(●ʘ╻ʘ●)",
+      "tags": ["dumbfounded", "surprised", "writing"]
+    },
+    {
+      "id": "surprised_367",
+      "text": "へ( ʘ͡ ₒ ʘ͡ )╮/\\╱\\",
+      "tags": ["dumbfounded"]
+    },
+    {
+      "id": "surprised_377",
+      "text": "(｀ﾟДﾟ´)ゞ",
+      "tags": ["dazed", "scratch", "shout", "surprised"]
+    },
+    {
+      "id": "surprised_383",
+      "text": "(´ﾟдﾟ`)",
+      "tags": ["dazed", "shout", "surprised"]
+    },
+    {
+      "id": "surprised_384",
+      "text": "¯\\_(⊙_ʖ⊙)_/¯",
+      "tags": ["dumbfounded", "shrug"]
+    },
+    {
+      "id": "surprised_385",
+      "text": "|д･)",
+      "tags": ["peeking", "surprised"]
+    },
+    {
+      "id": "surprised_386",
+      "text": "c( O.O )ɔ",
+      "tags": ["dazed", "neutral", "surprised"]
+    },
+    {
+      "id": "surprised_387",
+      "text": "(⑅ 「O_o)「",
+      "tags": ["pointing", "speechless", "surprised"]
+    },
+    {
+      "id": "surprised_388",
+      "text": "╭(°ﾛ°”)╯",
+      "tags": ["dancing", "scared", "surprised", "sweat-drop"]
+    },
+    {
+      "id": "surprised_389",
+      "text": "(((0へ0))]",
+      "tags": ["dazed", "scared", "surprised", "trembling"]
+    },
+    {
+      "id": "surprised_390",
+      "text": "（ΟΔΟ；；）",
+      "tags": ["surprised", "sweat-drop"]
+    },
+    {
+      "id": "surprised_391",
+      "text": "ヾ(ﾟДﾟ;ヾ)",
+      "tags": ["dazed", "hands-up", "shout", "surprised", "sweat-drop"]
+    },
+    {
+      "id": "surprised_392",
+      "text": "┌┤´ﾟДﾟ`├┐",
+      "tags": ["dazed", "displeased", "shout", "surprised"]
+    },
+    {
+      "id": "surprised_393",
+      "text": "ଽ꒰⌓̈ ॢ꒱ ̉ ̉",
+      "tags": ["animal", "cute", "speechless", "surprised"]
+    },
+    {
+      "id": "surprised_394",
+      "text": "ヽ ( ꒪д꒪ )ﾉ",
+      "tags": ["dazed", "hands-up", "shout", "surprised"]
+    },
+    {
+      "id": "surprised_395",
+      "text": "(๑°⌓°๑)",
+      "tags": ["speechless", "surprised"]
+    },
+    {
+      "id": "surprised_396",
+      "text": "(°⌓°)",
+      "tags": ["speechless", "surprised"]
+    },
+    {
+      "id": "surprised_397",
+      "text": "૮◍⁰ᯅ⁰◍ა",
+      "tags": ["animal", "cute", "dazed", "surprised"]
+    },
+    {
+      "id": "surprised_398",
+      "text": "(◦△☆)~~!!!",
+      "tags": ["dazed", "excited", "star", "surprised"]
+    },
+    {
+      "id": "surprised_399",
+      "text": "(°ﾛ°٥)",
+      "tags": ["surprised"]
+    },
+    {
+      "id": "surprised_400",
+      "text": "ヽ（゜ロ゜；）ノ",
+      "tags": ["nervous", "surprised", "sweat-drop"]
+    },
+    {
+      "id": "surprised_401",
+      "text": "（∴°∀°∵）",
+      "tags": ["dazed", "surprised"]
+    },
+    {
+      "id": "surprised_402",
+      "text": "σ(゜◆゜;)",
+      "tags": ["dazed", "surprised", "sweat-drop"]
     }
   ]
 }

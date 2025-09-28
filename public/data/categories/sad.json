@@ -5,97 +5,67 @@
     "zh-tw": "難過"
   },
   "preview": "( ´•̥̥̥ω•̥̥̥` )",
-  "lastUpdated": "2025-08-17",
+  "lastUpdated": "2025-09-28",
   "items": [
-    {
-      "id": "sad_001",
-      "text": "₍₍ (̨̡ ‾᷄ᗣ‾᷅ )̧̢ ₎₎",
-      "tags": ["crying", "helpless", "sad", "trembling"]
-    },
-    {
-      "id": "sad_002",
-      "text": "꒰ꌶ ̯ ̜ꌶ ꒱",
-      "tags": ["crying", "helpless", "sad"]
-    },
     {
       "id": "sad_003",
       "text": ";´༎ຶД༎ຶ",
-      "tags": ["breakdown", "crying", "sad"]
+      "tags": ["breakdown", "crying", "sweat-drop"]
     },
     {
       "id": "sad_004",
       "text": "( ´•̥×•̥` )",
-      "tags": ["crying", "helpless", "sad"]
-    },
-    {
-      "id": "sad_005",
-      "text": "ʕ̯•͡ˑ͓•̯᷅ʔ",
-      "tags": ["animal", "sad"]
+      "tags": ["crying", "x-mouth"]
     },
     {
       "id": "sad_006",
       "text": "•́‸ก",
-      "tags": ["crying", "helpless", "sad"]
-    },
-    {
-      "id": "sad_008",
-      "text": "Ծ‸Ծ",
-      "tags": ["helpless", "sad"]
+      "tags": ["cover-face", "sad"]
     },
     {
       "id": "sad_009",
       "text": "߹ ߹",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_010",
       "text": "୧º̣͙•̥͙º̣͙୨",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_011",
       "text": "˃̣̣̥᷄⌓˂̣̣̥᷅",
-      "tags": ["breakdown", "crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_012",
       "text": "ಥ_ಥ ᖗ",
-      "tags": ["crying", "sad"]
+      "tags": ["teary"]
     },
     {
       "id": "sad_013",
       "text": "ಥ_ಥ",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_014",
-      "text": "🚰·̫🚰",
-      "tags": ["crying"]
+      "tags": ["teary"]
     },
     {
       "id": "sad_015",
       "text": "ʚ̴̶̷.ʚ̴̶̷̥̀",
-      "tags": ["crying", "helpless"]
+      "tags": ["crying", "innocent"]
     },
     {
       "id": "sad_017",
       "text": "( ŏ̥̥̥̥ŏ̥̥̥̥ )",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_019",
       "text": "˚‧º·(˚ ˃̣̣̥⌓˂̣̣̥ )‧º·˚",
-      "tags": ["breakdown", "crying"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_020",
       "text": "૮₍ •̥𖥦•̥ ♡ ₎ა",
-      "tags": ["animal", "crying", "love", "sad"]
-    },
-    {
-      "id": "sad_021",
-      "text": "˃̣̣̥᷄⌓˂̣̣̥᷅",
-      "tags": ["breakdown", "crying", "sad"]
+      "tags": ["animal", "crying", "love"]
     },
     {
       "id": "sad_022",
@@ -105,27 +75,17 @@
     {
       "id": "sad_023",
       "text": "｡°(°¯᷄◠¯᷅°)°｡",
-      "tags": ["crying", "helpless"]
+      "tags": ["closed-eyes", "crying", "helpless"]
     },
     {
       "id": "sad_025",
       "text": "(υ´•̥ •̥`υ)",
-      "tags": ["crying", "sad"]
+      "tags": ["animal", "crying", "helpless"]
     },
     {
       "id": "sad_026",
       "text": "(๑•́₋•̩̥̀๑)",
-      "tags": ["crying", "helpless", "sad"]
-    },
-    {
-      "id": "sad_028",
-      "text": "૮₍ ˃̵͈᷄ ᎔ ˂̵͈᷅ ₎ა",
-      "tags": ["animal", "crying", "nervous"]
-    },
-    {
-      "id": "sad_029",
-      "text": "◔̯◔",
-      "tags": ["helpless"]
+      "tags": ["crying", "helpless"]
     },
     {
       "id": "sad_030",
@@ -143,24 +103,9 @@
       "tags": ["animal", "helpless"]
     },
     {
-      "id": "sad_034",
-      "text": "•᷄⌓•",
-      "tags": ["helpless", "sad"]
-    },
-    {
-      "id": "sad_035",
-      "text": "(╭☞•́⍛•̀)╭☞",
-      "tags": ["helpless", "pointing", "sad"]
-    },
-    {
-      "id": "sad_041",
-      "text": "( ﾉo|o)ﾉ ┫｡ﾟ:.:",
-      "tags": ["crying", "table-flip"]
-    },
-    {
       "id": "sad_042",
       "text": "・゜・(ノД`)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_043",
@@ -168,49 +113,39 @@
       "tags": ["breakdown", "crying", "shout"]
     },
     {
-      "id": "sad_044",
-      "text": "｡･ﾟﾟ･(>д<)･ﾟﾟ･｡",
-      "tags": ["crying", "nervous", "sad"]
-    },
-    {
       "id": "sad_045",
       "text": "｡･ﾟヾ(✦థ ｪ థ)ﾉ｡ﾟ･｡",
-      "tags": ["crying", "goofy"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_046",
       "text": "｡：ﾟ(｡ﾉω＼｡)ﾟ･｡",
-      "tags": ["crying", "sad", "shy"]
+      "tags": ["crying", "shy"]
     },
     {
       "id": "sad_047",
       "text": "。：゜(；´∩｀；)゜：。",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_048",
-      "text": "｡ﾟ( ﾟஇ‸இﾟ)ﾟ｡",
-      "tags": ["crying", "helpless"]
+      "tags": ["crying", "sweat-drop"]
     },
     {
       "id": "sad_049",
       "text": "。ﾟ(ﾟﾉД｀ﾟ)ﾟ｡",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_050",
       "text": "(/□＼*)・゜",
-      "tags": ["crying", "sad", "shy"]
+      "tags": ["crying", "shy"]
     },
     {
       "id": "sad_051",
       "text": "(ノД`)・゜・。",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_052",
       "text": "˚‧º·(˚ ˃̣̣̥᷄⌓˂̣̣̥᷅ )‧º·˚",
-      "tags": ["breakdown", "crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_053",
@@ -220,17 +155,12 @@
     {
       "id": "sad_054",
       "text": "˚‧⁺(͘๑̊/﹏)⁺‧˚",
-      "tags": ["crying", "helpless", "scared"]
+      "tags": ["cover-face", "crying", "scared", "trembling"]
     },
     {
       "id": "sad_055",
       "text": "。･゜･(｡´ﾉω･`)",
-      "tags": ["crying", "peeking", "sad", "shy"]
-    },
-    {
-      "id": "sad_056",
-      "text": "｡ﾟ(ﾟ∩´﹏`∩ﾟ)ﾟ｡",
-      "tags": ["crying", "hands-up", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_057",
@@ -238,29 +168,19 @@
       "tags": ["crying"]
     },
     {
-      "id": "sad_058",
-      "text": "‧º·(˚ ˃̣̣̥⌓˂̣̣̥ )‧º·˚",
-      "tags": ["breakdown", "crying", "sad"]
-    },
-    {
-      "id": "sad_059",
-      "text": "๐·°(৹˃̵﹏˂̵৹)°·๐",
-      "tags": ["crying", "helpless", "sad"]
-    },
-    {
       "id": "sad_060",
       "text": "｡･+ﾟﾟ(うд´｡)ﾟﾟ+･｡",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_061",
       "text": "｡･ﾟ(ﾟ⊃ω⊂ﾟ)ﾟ･｡",
-      "tags": ["crying", "sad", "shy"]
+      "tags": ["crying", "shy"]
     },
     {
       "id": "sad_062",
       "text": "｡･ﾟ･(*ﾉД`*)･ﾟ･。",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_063",
@@ -273,24 +193,9 @@
       "tags": ["crying", "helpless"]
     },
     {
-      "id": "sad_066",
-      "text": "(つ﹏<)･ﾟ｡",
-      "tags": ["crying", "nervous", "sad"]
-    },
-    {
-      "id": "sad_067",
-      "text": "｡ﾟ･（>﹏<）･ﾟ｡",
-      "tags": ["crying", "nervous", "sad"]
-    },
-    {
       "id": "sad_068",
       "text": "｡ﾟ(*´□`)ﾟ｡",
       "tags": ["crying"]
-    },
-    {
-      "id": "sad_069",
-      "text": "｡:ﾟ(;´∩`;)ﾟ:｡",
-      "tags": ["crying", "sad"]
     },
     {
       "id": "sad_070",
@@ -305,52 +210,42 @@
     {
       "id": "sad_072",
       "text": "（；へ：）",
-      "tags": ["crying", "helpless", "sad"]
+      "tags": ["crying", "helpless", "sweat-drop"]
     },
     {
       "id": "sad_073",
       "text": "(*´；ェ；`*)",
-      "tags": ["crying", "helpless", "sad"]
+      "tags": ["crying", "helpless", "sweat-drop"]
     },
     {
       "id": "sad_074",
       "text": "(´；ω；`)",
-      "tags": ["crying", "helpless"]
+      "tags": ["crying", "helpless", "sweat-drop"]
     },
     {
       "id": "sad_075",
       "text": "(´；д；`)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_076",
-      "text": "(´；Д；｀)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_077",
-      "text": "（ｉДｉ）",
-      "tags": ["crying"]
+      "tags": ["crying", "sweat-drop"]
     },
     {
       "id": "sad_078",
       "text": "(个_个)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_079",
       "text": "＼（＠；◇；＠）／",
-      "tags": ["breakdown", "crying"]
+      "tags": ["breakdown", "crying", "sweat-drop"]
     },
     {
       "id": "sad_080",
       "text": "o(；△；)o",
-      "tags": ["crying", "sad"]
+      "tags": ["crying", "sweat-drop"]
     },
     {
       "id": "sad_081",
       "text": "ͼ(ݓ_ݓ)ͽ",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_082",
@@ -360,22 +255,12 @@
     {
       "id": "sad_083",
       "text": "( ᵒ̴̶̷̥́ _ᵒ̴̶̷̣̥̀ )",
-      "tags": ["crying", "helpless", "sad"]
-    },
-    {
-      "id": "sad_084",
-      "text": "( ɵ̥̥ ˑ̫ ɵ̥̥)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying", "helpless"]
     },
     {
       "id": "sad_085",
       "text": "(´;︵;`)",
-      "tags": ["crying", "helpless", "sad"]
-    },
-    {
-      "id": "sad_086",
-      "text": "( ˃̣̣̥ω˂̣̣̥ )",
-      "tags": ["crying", "helpless", "nervous", "sad"]
+      "tags": ["crying", "helpless"]
     },
     {
       "id": "sad_087",
@@ -383,24 +268,14 @@
       "tags": ["crying", "helpless"]
     },
     {
-      "id": "sad_088",
-      "text": "꒰๑•̥﹏•̥๑꒱",
-      "tags": ["crying", "helpless", "sad"]
-    },
-    {
       "id": "sad_089",
       "text": "( ´•̥̥̥ω•̥̥̥` )",
-      "tags": ["crying", "sad"]
+      "tags": ["crying", "helpless"]
     },
     {
       "id": "sad_090",
       "text": "(ˊ̥̥̥̥̥ ³ ˋ̥̥̥̥̥)",
-      "tags": ["crying", "kiss"]
-    },
-    {
-      "id": "sad_091",
-      "text": "(῭̩̩̩̥ꄗ΅̩̩̩̥)",
-      "tags": ["breakdown", "nervous"]
+      "tags": ["crying", "pouting"]
     },
     {
       "id": "sad_092",
@@ -410,27 +285,17 @@
     {
       "id": "sad_093",
       "text": "(̂ ˃̥̥̥ ˑ̫ ˂̥̥̥ )̂",
-      "tags": ["crying", "helpless", "sad"]
-    },
-    {
-      "id": "sad_095",
-      "text": "(;﹏;)",
-      "tags": ["crying", "helpless"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_096",
       "text": "(*̩̩̩ᵋ *̩̩̩ )",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_097",
-      "text": "꒰⁎′̥̥̥ ⌑ ‵̥̥̥ ꒱",
-      "tags": ["crying", "nervous"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_098",
       "text": "( ͒˃̩̩⌂˂̩̩ ͒)",
-      "tags": ["breakdown", "crying", "sad"]
+      "tags": ["breakdown", "crying"]
     },
     {
       "id": "sad_100",
@@ -438,49 +303,19 @@
       "tags": ["crying"]
     },
     {
-      "id": "sad_101",
-      "text": "Щ(º̩̩́Дº̩̩̀щ)",
-      "tags": ["breakdown", "crying"]
-    },
-    {
       "id": "sad_102",
       "text": "⑅ᵕ_ᵕ̩̩ƪ",
-      "tags": ["crying", "helpless", "sad"]
-    },
-    {
-      "id": "sad_103",
-      "text": "( Ĭ ^ Ĭ )",
-      "tags": ["angry", "crying", "helpless"]
+      "tags": ["crying", "helpless"]
     },
     {
       "id": "sad_104",
       "text": "(੭ ˃̣̣̥ ω˂̣̣̥)੭ु⁾⁾",
-      "tags": ["breakdown", "crying", "sad"]
-    },
-    {
-      "id": "sad_105",
-      "text": "(´;ω;｀)",
-      "tags": ["crying", "helpless"]
-    },
-    {
-      "id": "sad_106",
-      "text": "ｍ(｡≧Д≦｡)ｍ",
-      "tags": ["apologize", "crying", "please"]
-    },
-    {
-      "id": "sad_107",
-      "text": "( m-ｪ-)m))",
-      "tags": ["apologize", "helpless", "please"]
-    },
-    {
-      "id": "sad_108",
-      "text": "(ノ_．)ノ",
-      "tags": ["crying", "please"]
+      "tags": ["crying", "excited"]
     },
     {
       "id": "sad_109",
       "text": "（ﾉ´д｀）",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_110",
@@ -490,37 +325,22 @@
     {
       "id": "sad_111",
       "text": "(╥_╥)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_112",
-      "text": "（ ＴДＴ）",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_113",
-      "text": "(o;TωT)o",
-      "tags": ["breakdown", "crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_114",
       "text": "(T_T)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_115",
       "text": "(T⌓T)",
-      "tags": ["crying", "helpless", "sad"]
-    },
-    {
-      "id": "sad_116",
-      "text": "╥﹏╥",
-      "tags": ["crying", "helpless", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_118",
       "text": "(/ _ ; )",
-      "tags": ["crying", "helpless", "sad"]
+      "tags": ["crying", "helpless"]
     },
     {
       "id": "sad_119",
@@ -530,62 +350,37 @@
     {
       "id": "sad_120",
       "text": "(๑ १д१)",
-      "tags": ["crying", "helpless", "sad"]
-    },
-    {
-      "id": "sad_121",
-      "text": "(இ﹏இ`｡)",
       "tags": ["crying", "helpless"]
     },
     {
       "id": "sad_122",
       "text": "(´°̥̥̥̥̥̥̥̥ω°̥̥̥̥̥̥̥̥｀)",
-      "tags": ["breakdown", "crying", "sad"]
-    },
-    {
-      "id": "sad_123",
-      "text": "o(╥﹏╥)o",
-      "tags": ["breakdown", "crying", "helpless", "sad"]
+      "tags": ["crying", "dazed", "helpless"]
     },
     {
       "id": "sad_124",
       "text": "o(TヘTo)",
-      "tags": ["crying", "helpless", "sad"]
-    },
-    {
-      "id": "sad_125",
-      "text": "(╥ᆺ╥；)",
       "tags": ["crying", "helpless"]
     },
     {
       "id": "sad_126",
       "text": "|*´Д｀|ﾉ",
-      "tags": ["crying", "peeking", "sad"]
-    },
-    {
-      "id": "sad_127",
-      "text": "ᕦ[ ˵ ຈ ︿ ຈ ˵ ]ᕤ",
-      "tags": ["helpless", "muscle", "sad"]
+      "tags": ["crying", "shout", "waving"]
     },
     {
       "id": "sad_128",
       "text": "( ´⍪⌂⍪`)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_129",
       "text": "(ಢ⊱ಢ ｡)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_130",
       "text": "(ఠ ̥̆ ఠ)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_132",
-      "text": "(●･̆⍛･̆●)",
-      "tags": ["sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_133",
@@ -605,17 +400,12 @@
     {
       "id": "sad_136",
       "text": "(ಢധಢ)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_137",
       "text": "q(╯ᆺ╰๑)",
       "tags": ["helpless", "sad"]
-    },
-    {
-      "id": "sad_138",
-      "text": "（｡≧◇≦）ﾉ",
-      "tags": ["crying", "please", "sad"]
     },
     {
       "id": "sad_139",
@@ -630,22 +420,17 @@
     {
       "id": "sad_141",
       "text": "_〆(´Д⊂",
-      "tags": ["crying", "sad", "writing"]
+      "tags": ["crying", "writing"]
     },
     {
       "id": "sad_142",
       "text": "(*ﾉ´□`)ﾉ",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_143",
-      "text": "ヽ(*´Д｀*)ﾉ",
-      "tags": ["banzai", "breakdown", "crying"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_144",
       "text": "₍₍⁽⁽(ી(´;ω;` )ʃ)₎₎⁾⁾",
-      "tags": ["crying", "sad"]
+      "tags": ["crying", "dancing", "helpless"]
     },
     {
       "id": "sad_145",
@@ -653,49 +438,14 @@
       "tags": ["comfort", "hug", "sad"]
     },
     {
-      "id": "sad_146",
-      "text": "( ;_;)爻(-“-;)",
-      "tags": ["comfort", "flower", "friend", "hug", "sad"]
-    },
-    {
-      "id": "sad_147",
-      "text": "༼ つ ̥◕͙_̙◕͖ ͓༽つ",
-      "tags": ["big-eyes", "comfort", "crying", "hug", "sad"]
-    },
-    {
-      "id": "sad_148",
-      "text": "ლ(◉◞⊖◟◉｀ლ)",
-      "tags": ["sad"]
-    },
-    {
       "id": "sad_149",
       "text": "⊂(´・ω・｀⊂)",
-      "tags": ["comfort", "hug"]
-    },
-    {
-      "id": "sad_150",
-      "text": "(●´Д｀)⊃⊂(´Д｀○)",
-      "tags": ["comfort", "friend", "hug", "sad"]
-    },
-    {
-      "id": "sad_151",
-      "text": "（ノ´д｀ノ。・・。＼´д｀＼）",
-      "tags": ["friend", "sad"]
-    },
-    {
-      "id": "sad_152",
-      "text": "(๑´• ₃ •̀๑)",
-      "tags": ["helpless", "sad"]
-    },
-    {
-      "id": "sad_153",
-      "text": "(*´･з･)",
-      "tags": ["helpless"]
+      "tags": ["comfort", "cute", "hug"]
     },
     {
       "id": "sad_154",
       "text": "(TεT)",
-      "tags": ["angry", "crying", "helpless"]
+      "tags": ["angry", "crying", "helpless", "pouting"]
     },
     {
       "id": "sad_155",
@@ -710,12 +460,12 @@
     {
       "id": "sad_157",
       "text": "(๑ˇεˇ๑)",
-      "tags": ["helpless"]
+      "tags": ["helpless", "pouting"]
     },
     {
       "id": "sad_158",
       "text": "(Ō̥̥̥̥̥̥̥ ԑ Ō̥̥̥̥̥̥̥ ૢ)",
-      "tags": ["breakdown", "crying", "sad"]
+      "tags": ["pouting", "teary"]
     },
     {
       "id": "sad_159",
@@ -725,32 +475,12 @@
     {
       "id": "sad_160",
       "text": "ヾ(´□｀* )ノ",
-      "tags": ["breakdown", "crying", "sad", "shout"]
-    },
-    {
-      "id": "sad_161",
-      "text": "ヽ(´Д｀)人(´Д｀)人(´Д｀)ノ",
-      "tags": ["crying", "friend", "sad"]
-    },
-    {
-      "id": "sad_162",
-      "text": "(੭ु ‾᷄ᗣ‾᷅ )੭ु⁾⁾",
-      "tags": ["breakdown", "crying", "sad"]
-    },
-    {
-      "id": "sad_163",
-      "text": "(੭ु´͈ ᐜ `͈)੭ु⁾⁾",
-      "tags": ["crying", "cute", "dancing", "helpless"]
+      "tags": ["breakdown", "crying", "shout"]
     },
     {
       "id": "sad_164",
       "text": "( ਊдਊ)",
-      "tags": ["crying", "goofy", "sad"]
-    },
-    {
-      "id": "sad_165",
-      "text": "(๑ᵕ⌓ᵕ̤)",
-      "tags": ["helpless", "sad", "sleepy"]
+      "tags": ["crying", "shout"]
     },
     {
       "id": "sad_166",
@@ -760,47 +490,32 @@
     {
       "id": "sad_167",
       "text": "(｡し_し｡)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_168",
-      "text": "（)´д`(）",
-      "tags": ["nervous", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_169",
       "text": "ヽ(´･ω･`)､",
-      "tags": ["helpless", "sad"]
+      "tags": ["cute", "helpless", "sad"]
     },
     {
       "id": "sad_170",
       "text": "(´・ω・`)",
-      "tags": ["sad"]
+      "tags": ["cute", "sad"]
     },
     {
       "id": "sad_171",
       "text": "(´o・┏ω┓・o｀)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_172",
       "text": "[´・ω・`]",
-      "tags": ["peeking", "sad"]
+      "tags": ["cute", "sad"]
     },
     {
       "id": "sad_173",
       "text": "⁝ˊ ̤•௰⃜•ˋ ̤⁝˒˒˒",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_174",
-      "text": "(≧д≦ヾ)",
-      "tags": ["sad"]
-    },
-    {
-      "id": "sad_175",
-      "text": "(´･_･`)",
-      "tags": ["sad", "speechless"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_176",
@@ -813,16 +528,6 @@
       "tags": ["apologize", "sad"]
     },
     {
-      "id": "sad_178",
-      "text": "∑(´ﾟωﾟ｀*)",
-      "tags": ["sad", "scared", "startled"]
-    },
-    {
-      "id": "sad_179",
-      "text": "(⊙﹏⊙✿)",
-      "tags": ["dizzy", "dumbfounded", "flower", "sad"]
-    },
-    {
       "id": "sad_180",
       "text": "(๑ △ ๑)`*",
       "tags": ["sad", "sparkle"]
@@ -830,7 +535,7 @@
     {
       "id": "sad_181",
       "text": "ヾ(´A｀)ノﾟ",
-      "tags": ["banzai", "flower", "sad"]
+      "tags": ["flower", "sad"]
     },
     {
       "id": "sad_182",
@@ -838,14 +543,9 @@
       "tags": ["helpless", "sad"]
     },
     {
-      "id": "sad_183",
-      "text": "(๑•́ ₃ •̀๑)",
-      "tags": ["angry", "sad"]
-    },
-    {
       "id": "sad_184",
       "text": "(๑ˊ▵ॢˋ̥๑)",
-      "tags": ["crying", "helpless", "sad"]
+      "tags": ["crying", "helpless"]
     },
     {
       "id": "sad_185",
@@ -873,24 +573,14 @@
       "tags": ["helpless", "sad"]
     },
     {
-      "id": "sad_190",
-      "text": "(´°ω°`)",
-      "tags": ["dazed", "sad", "speechless"]
-    },
-    {
       "id": "sad_191",
       "text": "( ͒ ́ඉ .̫ ඉ ̀ ͒)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_192",
-      "text": "(` . .̫ . `)",
-      "tags": ["sad", "speechless"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_193",
       "text": "(இ௦இ)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_194",
@@ -898,19 +588,14 @@
       "tags": ["sad", "sigh"]
     },
     {
-      "id": "sad_195",
-      "text": "( ≧Д≦)",
-      "tags": ["breakdown", "crying", "sad"]
-    },
-    {
       "id": "sad_196",
       "text": "ಥ⌣ಥ",
-      "tags": ["crying"]
+      "tags": ["smile", "teary"]
     },
     {
       "id": "sad_197",
       "text": "૮(ꂧꁞꂧ)ა",
-      "tags": ["animal", "crying", "sad"]
+      "tags": ["animal", "crying"]
     },
     {
       "id": "sad_198",
@@ -920,27 +605,12 @@
     {
       "id": "sad_199",
       "text": "ヾ( ˃̶⺫˂̶｡)ノ",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_200",
       "text": "(o_ _)ｏ))",
       "tags": ["apologize"]
-    },
-    {
-      "id": "sad_201",
-      "text": "ミ☆(*._.)",
-      "tags": ["star"]
-    },
-    {
-      "id": "sad_202",
-      "text": "(-﹏-。)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_203",
-      "text": "(☍﹏⁰)｡",
-      "tags": ["crying", "sad"]
     },
     {
       "id": "sad_204",
@@ -953,11 +623,6 @@
       "tags": ["helpless", "sigh", "sleepy"]
     },
     {
-      "id": "sad_206",
-      "text": "(‘A`)",
-      "tags": ["sad", "speechless"]
-    },
-    {
       "id": "sad_207",
       "text": "(︶︹︺)",
       "tags": ["angry", "sad"]
@@ -968,19 +633,9 @@
       "tags": ["dumbfounded", "flower", "sad"]
     },
     {
-      "id": "sad_209",
-      "text": "⊙︿⊙",
-      "tags": ["dumbfounded", "sad", "speechless"]
-    },
-    {
       "id": "sad_210",
       "text": "ヽ(●ﾟ´Д｀ﾟ●)ﾉﾟ",
-      "tags": ["banzai", "breakdown", "crying", "flower"]
-    },
-    {
-      "id": "sad_211",
-      "text": "(Θ︹Θ)ს",
-      "tags": ["angry", "sad"]
+      "tags": ["breakdown", "crying", "flower"]
     },
     {
       "id": "sad_212",
@@ -990,32 +645,17 @@
     {
       "id": "sad_213",
       "text": "(oꆤ︵ꆤo)",
-      "tags": ["crying", "helpless", "sad"]
+      "tags": ["crying", "helpless"]
     },
     {
       "id": "sad_214",
       "text": "ōۃō",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_215",
       "text": "(　´_ﾉ` )",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_216",
-      "text": "ʕ ಡ ﹏ ಡ ʔ",
-      "tags": ["animal", "crying", "sad"]
-    },
-    {
-      "id": "sad_217",
-      "text": "(◕︿◕✿)",
-      "tags": ["big-eyes", "cute", "flower", "sad"]
-    },
-    {
-      "id": "sad_218",
-      "text": "ਉ_ਉ",
-      "tags": ["sad", "speechless"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_219",
@@ -1036,11 +676,6 @@
       "id": "sad_222",
       "text": "( ب_ب )",
       "tags": ["helpless", "sad"]
-    },
-    {
-      "id": "sad_223",
-      "text": "（；￣д￣）",
-      "tags": ["helpless", "sigh", "speechless"]
     },
     {
       "id": "sad_224",
@@ -1070,22 +705,17 @@
     {
       "id": "sad_230",
       "text": "(っ◞‸◟c)",
-      "tags": ["sad"]
+      "tags": ["hug", "sad"]
     },
     {
       "id": "sad_231",
       "text": "(˘̩̩̩ε˘̩ƪ)",
-      "tags": ["crying", "helpless"]
+      "tags": ["crying", "helpless", "pouting"]
     },
     {
       "id": "sad_232",
       "text": "(◞‸◟；)",
-      "tags": ["helpless", "nervous", "sad"]
-    },
-    {
-      "id": "sad_233",
-      "text": "…(ﾟⅩﾟ)…",
-      "tags": ["speechless"]
+      "tags": ["sad", "sweat-drop"]
     },
     {
       "id": "sad_234",
@@ -1111,31 +741,6 @@
       "id": "sad_238",
       "text": "(⊙△⊙✿)",
       "tags": ["dumbfounded", "flower", "surprised"]
-    },
-    {
-      "id": "sad_240",
-      "text": "(ó﹏ò｡)",
-      "tags": ["crying", "helpless", "sad"]
-    },
-    {
-      "id": "sad_241",
-      "text": "(｡ŏ﹏ŏ)",
-      "tags": ["helpless", "sad"]
-    },
-    {
-      "id": "sad_242",
-      "text": "( ･ั﹏･ั)",
-      "tags": ["sad"]
-    },
-    {
-      "id": "sad_243",
-      "text": "☁ 。७﹏७ 。☁",
-      "tags": ["sad"]
-    },
-    {
-      "id": "sad_244",
-      "text": "〳 •́ ﹏ •̀ 〵",
-      "tags": ["helpless", "sad"]
     },
     {
       "id": "sad_245",
@@ -1205,7 +810,7 @@
     {
       "id": "sad_258",
       "text": "ꀯ(⑈ꑒ᷅⺫ꑒ᷄)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_259",
@@ -1258,11 +863,6 @@
       "tags": ["sad"]
     },
     {
-      "id": "sad_269",
-      "text": "(´･⊥･｀)",
-      "tags": ["speechless"]
-    },
-    {
       "id": "sad_270",
       "text": "( ˵ ◐ ︿ ◐ ˵ )",
       "tags": ["sad"]
@@ -1275,7 +875,7 @@
     {
       "id": "sad_272",
       "text": "(´･ω･`)",
-      "tags": ["helpless", "sad"]
+      "tags": ["cute", "helpless", "sad"]
     },
     {
       "id": "sad_273",
@@ -1285,7 +885,7 @@
     {
       "id": "sad_274",
       "text": "˃̣̣̣̣̣̣︿˂̣̣̣̣̣̣",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_275",
@@ -1300,7 +900,7 @@
     {
       "id": "sad_277",
       "text": "( ඉ́ .̫ ඉ̀ )",
-      "tags": ["crying", "helpless", "sad"]
+      "tags": ["crying", "helpless"]
     },
     {
       "id": "sad_278",
@@ -1313,34 +913,9 @@
       "tags": ["helpless", "sad"]
     },
     {
-      "id": "sad_280",
-      "text": "ॱᯅॱ",
-      "tags": ["sad"]
-    },
-    {
       "id": "sad_281",
       "text": "ᵕ᷄≀ ̠ᵕ᷅",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_282",
-      "text": "•︡ᯅ•︠",
-      "tags": ["sad"]
-    },
-    {
-      "id": "sad_283",
-      "text": "•︠ˍ•︡",
-      "tags": ["sad"]
-    },
-    {
-      "id": "sad_284",
-      "text": "(శωశ)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_285",
-      "text": "(๑• . •๑)",
-      "tags": ["speechless"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_287",
@@ -1353,34 +928,19 @@
       "tags": ["helpless", "sad"]
     },
     {
-      "id": "sad_289",
-      "text": "( ͒ ́⌒ .̫ ⌒ ̀ ͒)",
-      "tags": ["helpless", "sad"]
-    },
-    {
       "id": "sad_290",
       "text": "(՞꜆Q ω Q꜀՞)",
-      "tags": ["crying", "cute", "helpless", "sad"]
-    },
-    {
-      "id": "sad_292",
-      "text": "᪗꒰ྀི ̥ ̫ _ ̥꒱ྀིଓ",
-      "tags": ["crying", "helpless", "sad"]
+      "tags": ["crying", "cute", "helpless"]
     },
     {
       "id": "sad_293",
       "text": "՞ ̥_ ̫ _ ̥՞♡",
-      "tags": ["crying", "love", "sad"]
+      "tags": ["closed-eyes", "crying", "love"]
     },
     {
       "id": "sad_294",
       "text": "‎꒰ᐡ´˃ ˙̫ ˂ഃᐡ꒱",
-      "tags": ["animal", "crying", "helpless", "sad"]
-    },
-    {
-      "id": "sad_295",
-      "text": "‎૮ › ༝ ‹ ྀིა",
-      "tags": ["animal", "helpless", "nervous", "sad"]
+      "tags": ["animal", "crying", "helpless"]
     },
     {
       "id": "sad_296",
@@ -1388,19 +948,9 @@
       "tags": ["animal", "sad"]
     },
     {
-      "id": "sad_297",
-      "text": "૮꒰ྀི > . < ꒱ྀིა",
-      "tags": ["animal", "nervous", "sad"]
-    },
-    {
       "id": "sad_298",
       "text": "(̨̡ ᵒ̴̶̷̥́- ᵒ̴̶̷̣̥̀     )̧̢",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_299",
-      "text": "꒰ঌ૮ o̴̶̷ ࿁ o̴̶̷ ა໒꒱",
-      "tags": ["angel", "animal", "crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_300",
@@ -1410,22 +960,22 @@
     {
       "id": "sad_303",
       "text": "ꉂ૮ o̴̶̷᷄ ·̫ᕳᕲა",
-      "tags": ["animal", "crying", "sad"]
+      "tags": ["animal", "crying"]
     },
     {
       "id": "sad_305",
       "text": "｡ﾟ(ﾟ꜆. ̫.꜀)ﾟ｡",
-      "tags": ["animal", "crying", "sad"]
+      "tags": ["animal", "crying"]
     },
     {
       "id": "sad_306",
       "text": "ଘ꒰ྀི › ⤙ິ ‹ ྀི꒱",
-      "tags": ["angry", "helpless"]
+      "tags": ["angry", "helpless", "wings"]
     },
     {
       "id": "sad_307",
       "text": "ଘ꒰ྀི › ˔ ິ ก ྀི꒱",
-      "tags": ["crying", "helpless", "sad"]
+      "tags": ["crying", "helpless", "wings"]
     },
     {
       "id": "sad_308",
@@ -1455,32 +1005,17 @@
     {
       "id": "sad_313",
       "text": "(〒︿〒)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_314",
-      "text": "｡ﾟヽ(ﾟ´Д`)ﾉﾟ｡",
-      "tags": ["breakdown", "crying"]
-    },
-    {
-      "id": "sad_315",
-      "text": "(´ﾟдﾟ`)",
-      "tags": ["dazed", "surprised"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_316",
       "text": "இдஇ",
-      "tags": ["breakdown", "crying"]
-    },
-    {
-      "id": "sad_317",
-      "text": "(´;ω;`)",
-      "tags": ["crying"]
+      "tags": ["crying", "shout"]
     },
     {
       "id": "sad_318",
       "text": "(◜◔。◔◝)",
-      "tags": ["crying", "helpless", "smile"]
+      "tags": ["crying", "helpless", "naughty", "smile"]
     },
     {
       "id": "sad_319",
@@ -1488,19 +1023,9 @@
       "tags": ["sad", "smile"]
     },
     {
-      "id": "sad_320",
-      "text": "(☍﹏⁰)",
-      "tags": ["crying", "sad"]
-    },
-    {
       "id": "sad_321",
       "text": "(;´༎ຶД༎ຶ`)",
       "tags": ["breakdown", "crying"]
-    },
-    {
-      "id": "sad_322",
-      "text": "(☍﹏⁰。)",
-      "tags": ["crying"]
     },
     {
       "id": "sad_323",
@@ -1510,7 +1035,7 @@
     {
       "id": "sad_325",
       "text": "•૮₍´˶- . - ⑅ ₎ა",
-      "tags": ["animal", "crying", "sad"]
+      "tags": ["animal", "crying", "shy"]
     },
     {
       "id": "sad_326",
@@ -1520,7 +1045,7 @@
     {
       "id": "sad_327",
       "text": "•(ᗒᗣᗕ)՞",
-      "tags": ["breakdown", "crying", "question", "sad"]
+      "tags": ["breakdown", "crying"]
     },
     {
       "id": "sad_330",
@@ -1535,52 +1060,12 @@
     {
       "id": "sad_333",
       "text": "૮₍´˶• . • ⑅ ₎ა",
-      "tags": ["animal", "crying", "sad"]
-    },
-    {
-      "id": "sad_335",
-      "text": "૮₍˶Ó﹏Ò ⑅₎ა",
-      "tags": ["animal", "crying", "helpless", "sad"]
+      "tags": ["animal", "crying", "shy"]
     },
     {
       "id": "sad_336",
       "text": "( ͡ಥ‿ ಥ)━☆ﾟ.*･｡ﾟ",
-      "tags": ["crying", "star"]
-    },
-    {
-      "id": "sad_338",
-      "text": "ヽ(;´Д｀)ﾉ",
-      "tags": ["banzai", "breakdown", "nervous"]
-    },
-    {
-      "id": "sad_339",
-      "text": "щ(´Д｀щ)",
-      "tags": ["please"]
-    },
-    {
-      "id": "sad_340",
-      "text": "ლ(´Д`ლ)",
-      "tags": ["please"]
-    },
-    {
-      "id": "sad_341",
-      "text": "p(´⌒｀｡q)",
-      "tags": ["helpless", "please", "sad"]
-    },
-    {
-      "id": "sad_342",
-      "text": "｡ﾟﾟ(」｡≧□≦)」",
-      "tags": ["crying", "please", "shout"]
-    },
-    {
-      "id": "sad_343",
-      "text": "ლ(ಥ Д ಥ )ლ",
-      "tags": ["crying", "please"]
-    },
-    {
-      "id": "sad_344",
-      "text": "Щ(º̩̩́Дº̩̩̀щ)",
-      "tags": ["crying", "please"]
+      "tags": ["magic", "smile", "star", "teary"]
     },
     {
       "id": "sad_346",
@@ -1588,24 +1073,14 @@
       "tags": ["crying"]
     },
     {
-      "id": "sad_347",
-      "text": "ヽ༼ຈل͜ຈ༽ﾉ",
-      "tags": ["crying"]
-    },
-    {
       "id": "sad_349",
       "text": "ヽ(；▽；)ノ",
-      "tags": ["crying", "happy"]
-    },
-    {
-      "id": "sad_350",
-      "text": "꒰๑˃͈꒳˂͈๑꒱ﾉ*ﾞ̥",
-      "tags": ["crying", "happy"]
+      "tags": ["crying", "happy", "sweat-drop"]
     },
     {
       "id": "sad_351",
       "text": "༶ඬ༝ඬ༶",
-      "tags": ["crying"]
+      "tags": ["sparkle", "teary", "x-mouth"]
     },
     {
       "id": "sad_352",
@@ -1613,104 +1088,29 @@
       "tags": ["crying"]
     },
     {
-      "id": "sad_353",
-      "text": "(っ˘̩╭╮˘̩)っ",
-      "tags": ["comfort", "crying", "hug"]
-    },
-    {
-      "id": "sad_354",
-      "text": "（；へ：）",
-      "tags": ["crying"]
-    },
-    {
-      "id": "sad_355",
-      "text": "o(；△；)o",
-      "tags": ["crying", "nervous", "sad"]
-    },
-    {
       "id": "sad_356",
       "text": "((o(;△;)o))",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_357",
-      "text": "(*´；ェ；`*)",
-      "tags": ["animal", "crying"]
-    },
-    {
-      "id": "sad_358",
-      "text": "(´；ω；`)",
-      "tags": ["crying"]
-    },
-    {
-      "id": "sad_359",
-      "text": "(´；д；`)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying", "nervous"]
     },
     {
       "id": "sad_360",
       "text": "(゜´Д｀゜)",
-      "tags": ["breakdown", "crying", "sad"]
-    },
-    {
-      "id": "sad_361",
-      "text": "ಥ_ಥ",
-      "tags": ["crying"]
+      "tags": ["breakdown", "crying"]
     },
     {
       "id": "sad_362",
       "text": "(๑′̥̥̥▵‵̥̥̥ ૂ๑)",
-      "tags": ["crying", "helpless", "sad"]
-    },
-    {
-      "id": "sad_363",
-      "text": "(٭°̧̧̧꒳°̧̧̧٭)",
-      "tags": ["crying"]
+      "tags": ["crying", "helpless"]
     },
     {
       "id": "sad_364",
       "text": "（ｉДｉ）",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_365",
-      "text": "( ´•̥×•̥` )",
-      "tags": ["crying", "helpless", "sad"]
-    },
-    {
-      "id": "sad_366",
-      "text": "( ᵒ̴̶̷̥́ _ᵒ̴̶̷̣̥̀ )",
       "tags": ["crying"]
     },
     {
       "id": "sad_367",
       "text": "( ˃̣̣̥ω˂̣̣̥ )",
-      "tags": ["crying", "cute", "sad"]
-    },
-    {
-      "id": "sad_368",
-      "text": "( ɵ̥̥ ˑ̫ ɵ̥̥)",
       "tags": ["crying"]
-    },
-    {
-      "id": "sad_369",
-      "text": "(´;︵;`)",
-      "tags": ["crying", "helpless"]
-    },
-    {
-      "id": "sad_370",
-      "text": "( ´•̥̥̥ω•̥̥̥` )",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_371",
-      "text": "(ˊ̥̥̥̥̥ ³ ˋ̥̥̥̥̥)",
-      "tags": ["crying"]
-    },
-    {
-      "id": "sad_372",
-      "text": "(๑ १д१)",
-      "tags": ["crying", "nervous"]
     },
     {
       "id": "sad_373",
@@ -1718,38 +1118,13 @@
       "tags": ["breakdown", "crying", "scared"]
     },
     {
-      "id": "sad_374",
-      "text": "(̥ ̥এ́ ̼ এ̥̀)̥̥੭ੇʓ ੭ੇʓ",
-      "tags": ["crying"]
-    },
-    {
       "id": "sad_375",
       "text": "⁝(˚͈͈͈͈̥̆₍₎˚͈͈͈͈̥̆⁎)⁝",
-      "tags": ["crying", "sad", "trembling"]
+      "tags": ["crying", "trembling"]
     },
     {
       "id": "sad_376",
       "text": "(˃̥̥ω˂̥̥̥)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_377",
-      "text": "( ͒˃̩̩⌂˂̩̩ ͒)",
-      "tags": ["breakdown", "crying"]
-    },
-    {
-      "id": "sad_378",
-      "text": "(ᵕ̣̣̣̣̣̣﹏ᵕ̣̣̣̣̣̣)",
-      "tags": ["closed-eyes", "crying", "sad"]
-    },
-    {
-      "id": "sad_380",
-      "text": "( -̩̩̩͡˛ -̩̩̩͡ )",
-      "tags": ["crying"]
-    },
-    {
-      "id": "sad_381",
-      "text": "( Ĭ ^ Ĭ )",
       "tags": ["crying"]
     },
     {
@@ -1758,74 +1133,14 @@
       "tags": ["breakdown", "crying"]
     },
     {
-      "id": "sad_383",
-      "text": "・゜・(ノД`)",
-      "tags": ["breakdown", "crying", "sad"]
-    },
-    {
-      "id": "sad_384",
-      "text": ".·´¯`(>▂<)´¯`·.",
-      "tags": ["breakdown", "crying"]
-    },
-    {
-      "id": "sad_385",
-      "text": "｡：ﾟ(｡ﾉω＼｡)ﾟ･｡",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_386",
-      "text": "。：゜(；´∩｀；)゜：。",
-      "tags": ["crying", "nervous"]
-    },
-    {
-      "id": "sad_387",
-      "text": "｡ﾟ( ﾟஇ‸இﾟ)ﾟ｡",
-      "tags": ["breakdown", "crying", "helpless"]
-    },
-    {
-      "id": "sad_388",
-      "text": "。ﾟ(ﾟﾉД｀ﾟ)ﾟ｡",
-      "tags": ["breakdown", "crying", "sad"]
-    },
-    {
       "id": "sad_389",
       "text": "｡゜(｀Д´)゜｡",
       "tags": ["angry", "breakdown", "crying"]
     },
     {
-      "id": "sad_390",
-      "text": "˚‧º·(˚ ˃̣̣̥᷄⌓˂̣̣̥᷅ )‧º·˚",
-      "tags": ["crying"]
-    },
-    {
-      "id": "sad_391",
-      "text": "°(ಗдಗ。)°.",
-      "tags": ["breakdown", "crying"]
-    },
-    {
-      "id": "sad_392",
-      "text": "｡ﾟ(ﾟ∩´﹏`∩ﾟ)ﾟ｡",
-      "tags": ["crying", "hands-up", "nervous"]
-    },
-    {
-      "id": "sad_393",
-      "text": "๐·°(৹˃̵﹏˂̵৹)°·๐",
-      "tags": ["crying"]
-    },
-    {
       "id": "sad_394",
       "text": "⋆*:.｡. (-᷄◞८ૄ◟-᷅) .｡.:*⋆",
       "tags": ["crying"]
-    },
-    {
-      "id": "sad_395",
-      "text": "｡･ﾟ･(*ﾉД`*)･ﾟ･。",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_396",
-      "text": "｡ﾟヽ(ﾟ´Д｀)ﾉﾟ｡",
-      "tags": ["banzai", "breakdown", "crying"]
     },
     {
       "id": "sad_397",
@@ -1838,19 +1153,9 @@
       "tags": ["angry", "crying"]
     },
     {
-      "id": "sad_400",
-      "text": "(つ﹏<)･ﾟ｡",
-      "tags": ["crying"]
-    },
-    {
-      "id": "sad_401",
-      "text": "｡ﾟ(*´□`)ﾟ｡",
-      "tags": ["crying", "sad"]
-    },
-    {
       "id": "sad_402",
       "text": "ヽ(´□｀。)ﾉ",
-      "tags": ["banzai", "breakdown", "crying"]
+      "tags": ["breakdown", "crying"]
     },
     {
       "id": "sad_403",
@@ -1860,22 +1165,7 @@
     {
       "id": "sad_404",
       "text": "（；_・）",
-      "tags": ["crying", "peeking"]
-    },
-    {
-      "id": "sad_405",
-      "text": "(/ _ ; )",
-      "tags": ["crying"]
-    },
-    {
-      "id": "sad_406",
-      "text": "(T＿T)",
-      "tags": ["crying"]
-    },
-    {
-      "id": "sad_407",
-      "text": "o(；TωT)o",
-      "tags": ["crying", "nervous", "sad"]
+      "tags": ["crying", "sweat-drop"]
     },
     {
       "id": "sad_408",
@@ -1893,19 +1183,14 @@
       "tags": ["breakdown", "crying"]
     },
     {
-      "id": "sad_411",
-      "text": "(╥_╥)",
-      "tags": ["crying"]
-    },
-    {
       "id": "sad_412",
       "text": "(｡┰ω┰。)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_413",
       "text": "(； T.T))",
-      "tags": ["crying"]
+      "tags": ["crying", "sweat-drop"]
     },
     {
       "id": "sad_414",
@@ -1913,33 +1198,8 @@
       "tags": ["crying"]
     },
     {
-      "id": "sad_415",
-      "text": "╥﹏╥",
-      "tags": ["crying"]
-    },
-    {
-      "id": "sad_416",
-      "text": "o(╥﹏╥)o",
-      "tags": ["crying"]
-    },
-    {
       "id": "sad_417",
       "text": "{{p´Д｀q}}",
-      "tags": ["breakdown", "crying"]
-    },
-    {
-      "id": "sad_418",
-      "text": "(☍﹏⁰)",
-      "tags": ["crying"]
-    },
-    {
-      "id": "sad_421",
-      "text": "˃̣̣̥᷄⌓˂̣̣̥᷅",
-      "tags": ["crying", "dazed", "sad"]
-    },
-    {
-      "id": "sad_422",
-      "text": "இдஇ",
       "tags": ["breakdown", "crying"]
     },
     {
@@ -1950,7 +1210,7 @@
     {
       "id": "sad_424",
       "text": "( ˃ ⌑ ˂ഃ )",
-      "tags": ["breakdown", "crying", "sad"]
+      "tags": ["breakdown", "crying"]
     },
     {
       "id": "sad_425",
@@ -1958,19 +1218,14 @@
       "tags": ["breakdown", "crying", "flower"]
     },
     {
-      "id": "sad_426",
-      "text": "… :(˘•̥ㅁ•̥˘ ):",
-      "tags": ["crying", "nervous"]
-    },
-    {
       "id": "sad_428",
       "text": "｡ﾟ( ﾟஇωஇﾟ)ﾟ｡",
-      "tags": ["breakdown", "crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_429",
       "text": "｡ °(°´ᯅ`°)° ｡",
-      "tags": ["breakdown", "crying"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_430",
@@ -1978,39 +1233,14 @@
       "tags": ["breakdown", "crying", "flower"]
     },
     {
-      "id": "sad_431",
-      "text": "(இ﹏இ`。)",
-      "tags": ["crying"]
-    },
-    {
       "id": "sad_433",
       "text": "꒰ঌ ˃̣̣̥ ⌓ ˂̣̣̥ ໒꒱",
-      "tags": ["angel", "crying", "sad", "wings"]
-    },
-    {
-      "id": "sad_434",
-      "text": "（>﹏<）",
-      "tags": ["crying", "nervous"]
-    },
-    {
-      "id": "sad_435",
-      "text": "( ɵ̥̥‸ɵ̥̥)",
-      "tags": ["crying", "helpless"]
-    },
-    {
-      "id": "sad_436",
-      "text": "(⋟﹏⋞)",
-      "tags": ["crying"]
+      "tags": ["crying", "wings"]
     },
     {
       "id": "sad_437",
       "text": "( ༎ຶ⌑༎ຶ )",
       "tags": ["breakdown", "crying"]
-    },
-    {
-      "id": "sad_438",
-      "text": "(˃̣̣̥⌓˂̣̣̥ )",
-      "tags": ["crying", "dazed"]
     },
     {
       "id": "sad_439",
@@ -2025,27 +1255,12 @@
     {
       "id": "sad_441",
       "text": "༼ಢ_ಢ༽",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_442",
-      "text": "༼ ﹏ ༽",
-      "tags": ["crying"]
-    },
-    {
-      "id": "sad_443",
-      "text": "(ಥ﹏ಥ)",
-      "tags": ["crying"]
-    },
-    {
-      "id": "sad_444",
-      "text": "ᕕ( ཀ ʖ̯ ཀ)ᕗ",
       "tags": ["crying"]
     },
     {
       "id": "sad_445",
       "text": "(-̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥᷄_-̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥᷅ )",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_446",
@@ -2053,79 +1268,29 @@
       "tags": ["breakdown", "crying"]
     },
     {
-      "id": "sad_447",
-      "text": "╰(ɵ̥̥ ˑ̫ ɵ̥̥ ╰)",
-      "tags": ["crying"]
-    },
-    {
       "id": "sad_448",
       "text": "(TдT)",
       "tags": ["crying"]
     },
     {
-      "id": "sad_450",
-      "text": "‧º·(˚ ˃̣̣̥⌓˂̣̣̥ )‧º·",
-      "tags": ["crying"]
-    },
-    {
-      "id": "sad_451",
-      "text": "(ノ﹏ヽ)",
-      "tags": ["crying"]
-    },
-    {
       "id": "sad_452",
-      "text": "(;Д;)",
-      "tags": ["crying"]
+      "text": "( ; Д ; )",
+      "tags": ["crying", "shout"]
     },
     {
       "id": "sad_453",
       "text": "(˚ ˃̣̣̥⌓˂̣̣̥ )",
-      "tags": ["crying", "dazed"]
-    },
-    {
-      "id": "sad_454",
-      "text": "(;﹏;)",
-      "tags": ["scared"]
-    },
-    {
-      "id": "sad_455",
-      "text": "(இ﹏இ`｡)",
       "tags": ["crying"]
     },
     {
       "id": "sad_456",
       "text": "( T ʖ̯ T)",
-      "tags": ["goofy", "sad"]
-    },
-    {
-      "id": "sad_457",
-      "text": "(T⌓T)",
-      "tags": ["dazed", "sad"]
-    },
-    {
-      "id": "sad_458",
-      "text": "(´ ͡༎ຶ ͜ʖ ͡༎ຶ `)︵‿︵",
-      "tags": ["crying", "dancing", "goofy"]
+      "tags": ["sad"]
     },
     {
       "id": "sad_459",
       "text": "(ಥ _ʖಥ)",
-      "tags": ["goofy", "sad"]
-    },
-    {
-      "id": "sad_460",
-      "text": "(つ﹏⊂)",
-      "tags": ["crying"]
-    },
-    {
-      "id": "sad_461",
-      "text": "༼☯﹏☯༽",
-      "tags": ["crying", "dizzy"]
-    },
-    {
-      "id": "sad_462",
-      "text": "(☍﹏⁰)｡",
-      "tags": ["crying", "sad"]
+      "tags": ["teary"]
     },
     {
       "id": "sad_463",
@@ -2138,11 +1303,6 @@
       "tags": ["breakdown", "crying"]
     },
     {
-      "id": "sad_465",
-      "text": "|₋ॢọ̶̶̷̥᷅๑)‧˚⁺",
-      "tags": ["crying", "peeking", "sparkle"]
-    },
-    {
       "id": "sad_466",
       "text": "α ～ (´｀d )",
       "tags": ["crying", "sigh"]
@@ -2150,67 +1310,37 @@
     {
       "id": "sad_467",
       "text": "˚‧º·(′̥̥̥ o ‵̥̥̥)‧º·˚",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_469",
-      "text": "( ＞Д＜ )ゝ”",
-      "tags": ["nervous", "salute"]
-    },
-    {
-      "id": "sad_470",
-      "text": "( ´•̥̥̥o•̥̥̥`)♡(˘̩̩̩̩̩̩ ⌂ ˘̩̩̩̩̩̩)",
-      "tags": ["comfort", "crying", "love"]
-    },
-    {
-      "id": "sad_471",
-      "text": "( ´•̥̥̥o•̥̥̥`)(˃̣̣̥╭╮˂̣̣̥)‧º·˚",
-      "tags": ["crying", "friend", "sad"]
-    },
-    {
-      "id": "sad_472",
-      "text": "(✖﹏✖)",
-      "tags": ["crying", "dizzy"]
-    },
-    {
-      "id": "sad_473",
-      "text": "ʕ ಡ ﹏ ಡ ʔ",
-      "tags": ["animal", "crying"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_474",
       "text": "(˃̣̣̥︿˂̣̣̥)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_475",
       "text": "。･ﾟ･(つд`ﾟ)･ﾟ･",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_476",
       "text": "・゜・(PД`q｡)・゜・",
-      "tags": ["breakdown", "crying", "sad"]
+      "tags": ["breakdown", "crying"]
     },
     {
       "id": "sad_477",
       "text": "(ﾟ々｡)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_478",
-      "text": "(◕‸ ◕✿)",
-      "tags": ["angry", "big-eyes", "flower", "helpless", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_479",
       "text": "(இ__இ✿)",
-      "tags": ["crying", "flower", "sad"]
+      "tags": ["crying", "flower"]
     },
     {
       "id": "sad_480",
       "text": "(ﹷ _ ﹷ✿)",
-      "tags": ["crying", "flower", "sad"]
+      "tags": ["crying", "flower"]
     },
     {
       "id": "sad_481",
@@ -2220,42 +1350,27 @@
     {
       "id": "sad_482",
       "text": "(ꈍ ‸ ꈍ✿)",
-      "tags": ["crying", "flower", "helpless", "sad"]
+      "tags": ["crying", "flower", "helpless"]
     },
     {
       "id": "sad_483",
       "text": "(ᵕ̣̣̣̣̣ ہ ᵕ̣̣̣̣̣̣ ✿)",
-      "tags": ["closed-eyes", "crying", "flower", "sad"]
+      "tags": ["closed-eyes", "crying", "flower"]
     },
     {
       "id": "sad_484",
       "text": "｡:ﾟ(｡ﹷ ‸ ﹷ ✿)",
-      "tags": ["breakdown", "crying", "flower", "sad"]
-    },
-    {
-      "id": "sad_485",
-      "text": "( ˃̣̣̥﹏˂̣̣̥ ✿)",
-      "tags": ["breakdown", "crying", "flower", "nervous"]
-    },
-    {
-      "id": "sad_486",
-      "text": "˚‧º·( 。ᗒ ‸ ◕✿)",
-      "tags": ["big-eyes", "crying", "flower", "helpless", "sad"]
-    },
-    {
-      "id": "sad_487",
-      "text": "（◞‸◟）",
-      "tags": ["helpless", "sad"]
+      "tags": ["breakdown", "crying", "flower"]
     },
     {
       "id": "sad_488",
       "text": "◕︵◕",
-      "tags": ["big-eyes", "crying", "helpless", "sad"]
+      "tags": ["big-eyes", "crying", "helpless"]
     },
     {
       "id": "sad_489",
       "text": "(ノ_<。)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_490",
@@ -2265,7 +1380,7 @@
     {
       "id": "sad_491",
       "text": "('´・ω・｀')",
-      "tags": ["sad"]
+      "tags": ["cute", "sad"]
     },
     {
       "id": "sad_492",
@@ -2275,22 +1390,12 @@
     {
       "id": "sad_493",
       "text": "(ﾉω･｀o)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_494",
-      "text": "(∥￣■￣∥)",
-      "tags": ["breakdown", "speechless"]
-    },
-    {
-      "id": "sad_495",
-      "text": "( oꆤ︵ꆤo)",
-      "tags": ["crying", "helpless", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_496",
       "text": "(✿˘̩̩̩̩̩̩ヘ˘̩̩̩̩̩̩ )",
-      "tags": ["crying", "cute", "flower", "sad"]
+      "tags": ["crying", "cute", "flower"]
     },
     {
       "id": "sad_497",
@@ -2298,54 +1403,34 @@
       "tags": ["breakdown", "crying"]
     },
     {
-      "id": "sad_498",
-      "text": "“∵”",
-      "tags": ["crying", "sad"]
-    },
-    {
       "id": "sad_500",
       "text": "(✿˃̣̣̥‸˂̣̣̥᷅ )",
-      "tags": ["crying", "cute", "flower", "helpless", "sad"]
+      "tags": ["crying", "flower"]
     },
     {
       "id": "sad_501",
       "text": "∩︵∩",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_502",
-      "text": "( ´･仝･｀)",
-      "tags": ["dazed", "speechless"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_503",
       "text": "( ´〒^〒`)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_504",
-      "text": "˚‧º·(˃̣̣̥⌓˂̣̣̥)‧º·˚",
-      "tags": ["breakdown", "crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_505",
       "text": "（（（(T-T*)）））",
-      "tags": ["crying", "sad", "scared"]
+      "tags": ["crying", "scared"]
     },
     {
       "id": "sad_506",
       "text": "(╥╯⌒╰╥๑)",
-      "tags": ["crying", "helpless", "sad"]
+      "tags": ["crying", "helpless"]
     },
     {
       "id": "sad_507",
       "text": "(Ő︵Ő)",
-      "tags": ["crying", "helpless", "sad"]
-    },
-    {
-      "id": "sad_508",
-      "text": "(๑-﹏-๑)",
-      "tags": []
+      "tags": ["crying", "helpless"]
     },
     {
       "id": "sad_509",
@@ -2353,49 +1438,14 @@
       "tags": []
     },
     {
-      "id": "sad_510",
-      "text": "(⌯˃̶᷄ ﹏ ˂̶᷄⌯)ﾟ",
-      "tags": ["crying", "nervous", "sad"]
-    },
-    {
-      "id": "sad_511",
-      "text": "(⌯˃̶᷄ ﹏ ˂̶᷄⌯)",
-      "tags": ["crying", "nervous", "sad"]
-    },
-    {
-      "id": "sad_512",
-      "text": "(੭ ･᷄﹏･᷅)੭ु⁾",
-      "tags": ["helpless", "sad"]
-    },
-    {
-      "id": "sad_513",
-      "text": ":;(∩´﹏`∩);:",
-      "tags": ["crying", "hands-up", "sad", "scared"]
-    },
-    {
       "id": "sad_514",
       "text": "(；ꏿ︿ꏿ)",
-      "tags": []
-    },
-    {
-      "id": "sad_515",
-      "text": "(｡>﹏<｡)",
-      "tags": ["nervous", "sad"]
-    },
-    {
-      "id": "sad_516",
-      "text": "( ཀ ʖ̯ ཀ)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_517",
-      "text": ":(il|◦‎.◦):",
-      "tags": ["crying", "nervous"]
+      "tags": ["sweat-drop"]
     },
     {
       "id": "sad_519",
       "text": "‧⁺◟( ᵒ̴̶̷̥́ ·̫ ᵒ̴̶̷̣̥̀ )",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_520",
@@ -2410,7 +1460,7 @@
     {
       "id": "sad_525",
       "text": "｡°(´ฅωฅ`)°｡",
-      "tags": ["crying", "hands-up", "shy"]
+      "tags": ["cover-face", "crying"]
     },
     {
       "id": "sad_526",
@@ -2418,44 +1468,14 @@
       "tags": ["comfort", "hug"]
     },
     {
-      "id": "sad_527",
-      "text": "ヾ(((;ꈡ▱ꈡ;)))ﾉ",
-      "tags": ["scared"]
-    },
-    {
-      "id": "sad_528",
-      "text": "ヽ(;ﾟ;∀;ﾟ; )ﾉ",
-      "tags": ["breakdown", "scared", "startled"]
-    },
-    {
       "id": "sad_529",
       "text": "((유∀유|||))",
       "tags": ["scared"]
     },
     {
-      "id": "sad_530",
-      "text": "٩(´Д` ;)۶:.*",
-      "tags": ["nervous", "speechless"]
-    },
-    {
-      "id": "sad_531",
-      "text": "((o(;△;)o))",
-      "tags": ["crying", "scared", "startled", "trembling"]
-    },
-    {
-      "id": "sad_532",
-      "text": "ʕ；ᴥ；ʔ",
-      "tags": ["animal", "bear", "crying", "sad"]
-    },
-    {
       "id": "sad_533",
       "text": "ﾟﾟ\\(´O`/)°゜ﾟ",
       "tags": ["breakdown", "crying"]
-    },
-    {
-      "id": "sad_534",
-      "text": "(๑o̴̶̷̥᷅﹏o̴̶̷̥᷅๑)",
-      "tags": ["crying", "sad"]
     },
     {
       "id": "sad_535",
@@ -2478,11 +1498,6 @@
       "tags": ["crying"]
     },
     {
-      "id": "sad_540",
-      "text": "m(__)m",
-      "tags": ["apologize", "helpless"]
-    },
-    {
       "id": "sad_541",
       "text": "(･ัω･ั)",
       "tags": ["sad"]
@@ -2490,67 +1505,32 @@
     {
       "id": "sad_542",
       "text": "(つд⊂)ｴｰﾝ",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_543",
       "text": "(ﾉД`)ｼｸｼｸ",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_544",
       "text": "｡･ﾟ･(ﾉД`)･ﾟ･｡",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_545",
       "text": "｡･ﾟ･(ﾉ∀`)･ﾟ･｡",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_546",
-      "text": "•᷄ᯅ•᷅",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_547",
-      "text": "(˶‾᷄ ⁻̫ ‾᷅˵)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_548",
-      "text": "( ˘･з･)",
-      "tags": ["sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_549",
       "text": "( ´•︵•` )",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_550",
-      "text": "(◞‸◟)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_551",
-      "text": "( ˘•ω•˘ )",
-      "tags": ["sad", "thinking"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_552",
       "text": "＿|￣|○",
       "tags": ["helpless", "sad"]
-    },
-    {
-      "id": "sad_553",
-      "text": "(´-﹏-`;)",
-      "tags": ["sad", "sweat-drop"]
-    },
-    {
-      "id": "sad_554",
-      "text": "(¯―¯٥)",
-      "tags": ["sad", "sweat-drop"]
     },
     {
       "id": "sad_555",
@@ -2560,12 +1540,7 @@
     {
       "id": "sad_556",
       "text": "(；´Д｀)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_557",
-      "text": "(ーー゛)",
-      "tags": ["sad", "speechless"]
+      "tags": ["crying", "sweat-drop"]
     },
     {
       "id": "sad_558",
@@ -2573,79 +1548,44 @@
       "tags": ["sad"]
     },
     {
-      "id": "sad_559",
-      "text": "(；一_一)",
-      "tags": ["sad", "speechless"]
-    },
-    {
       "id": "sad_560",
       "text": "m(_ _;)",
       "tags": ["apologize", "sad"]
     },
     {
-      "id": "sad_561",
-      "text": "(⑉･̆⌓･̆⑉)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_562",
-      "text": "(ᗒᗣᗕ)՞",
-      "tags": ["crying", "sad"]
-    },
-    {
       "id": "sad_563",
       "text": "(ノдT)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_564",
       "text": "：ﾟ(｡ﾉω＼｡)ﾟ･｡",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_565",
-      "text": "(╥﹏╥)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_566",
-      "text": "｡ﾟ(ﾟ´ω`ﾟ)ﾟ｡",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_567",
       "text": "(ఠ్ ˓̭ ఠ్)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_568",
       "text": "(TOT)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_569",
       "text": "(ToT)/~~~",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_570",
       "text": "⸍⚙̥ꇴ⚙̥⸌",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_571",
-      "text": "ᵕ᷄≀ ̠˘᷅",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "sad_572",
-      "text": "(✘﹏✘)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_573",
       "text": "(✘Д✘)",
-      "tags": ["crying", "sad"]
+      "tags": ["crying"]
     },
     {
       "id": "sad_574",
@@ -2658,11 +1598,6 @@
       "tags": ["sad"]
     },
     {
-      "id": "sad_576",
-      "text": "(－－〆)",
-      "tags": ["sad", "speechless"]
-    },
-    {
       "id": "sad_577",
       "text": "⋆ᶿ̵᷄ ˒̼ ᶿ̵᷅⋆",
       "tags": ["helpless", "sad", "star", "teary"]
@@ -2670,7 +1605,162 @@
     {
       "id": "sad_578",
       "text": "ଘ꒰ ⸝⸝ʚ̴̶̷̆ ᵕ ʚ̴̶̷̆⸝⸝꒱ଓ˚",
-      "tags": ["displeased", "helpless", "teary", "wings"]
+      "tags": ["innocent", "teary", "wings"]
+    },
+    {
+      "id": "sad_580",
+      "text": "( ´థ౪థ)σ",
+      "tags": ["breakdown", "crying", "pointing"]
+    },
+    {
+      "id": "sad_583",
+      "text": "ﾟ｡･ﾟヾ(ﾟ｀ｪ´ﾟ)ﾉ｡ﾟ･｡",
+      "tags": ["angry", "crying", "hands-up"]
+    },
+    {
+      "id": "sad_585",
+      "text": "( ಥ ʖ̯ ಥ)",
+      "tags": ["displeased", "teary"]
+    },
+    {
+      "id": "sad_586",
+      "text": "(;´༎ຶٹ༎ຶ`)",
+      "tags": ["breakdown", "crying"]
+    },
+    {
+      "id": "sad_587",
+      "text": "( ఠ్ఠᗣఠ్ఠ )",
+      "tags": ["confused", "crying", "displeased"]
+    },
+    {
+      "id": "sad_588",
+      "text": "( . •́ _ʖ •̀ .)",
+      "tags": ["sad"]
+    },
+    {
+      "id": "sad_589",
+      "text": "(◞‸◟ㆀ)",
+      "tags": ["apologize", "sad"]
+    },
+    {
+      "id": "sad_590",
+      "text": "(◞‸◟)",
+      "tags": ["sad"]
+    },
+    {
+      "id": "sad_591",
+      "text": "¯\\_༼ ಥ ‿ ಥ ༽_/¯",
+      "tags": ["shrug", "smile", "teary"]
+    },
+    {
+      "id": "sad_592",
+      "text": "ᕕ( ཀ ʖ̯ ཀ)ᕗ",
+      "tags": ["crying", "displeased", "running"]
+    },
+    {
+      "id": "sad_593",
+      "text": "( ཀ ʖ̯ ཀ)",
+      "tags": ["crying", "displeased"]
+    },
+    {
+      "id": "sad_594",
+      "text": "(=˃̣̣̥᷄ᆽ˂̣̣̥᷅=)ฅ",
+      "tags": ["animal", "crying"]
+    },
+    {
+      "id": "sad_595",
+      "text": "( ✿˃̣̣̥᷄⌓˂̣̣̥᷅ )",
+      "tags": ["crying", "flower"]
+    },
+    {
+      "id": "sad_596",
+      "text": "( ๑o̴̶̷᷄﹏o̴̶̷̥᷅๑)ノ”",
+      "tags": ["crying", "sad", "teary", "trembling", "waving"]
+    },
+    {
+      "id": "sad_597",
+      "text": "╰(ɵ̥̥ ˑ̫ ɵ̥̥ ╰)",
+      "tags": ["crying", "hands-up"]
+    },
+    {
+      "id": "sad_598",
+      "text": "( ɵ̥̥‸ɵ̥̥)",
+      "tags": ["crying", "displeased"]
+    },
+    {
+      "id": "sad_599",
+      "text": "( ɵ̥̥ ˑ̫ ɵ̥̥)",
+      "tags": ["crying"]
+    },
+    {
+      "id": "sad_600",
+      "text": "｡ﾟ(ﾟ´ω`ﾟ)ﾟ｡",
+      "tags": ["crying", "helpless"]
+    },
+    {
+      "id": "sad_601",
+      "text": "ʕథ౪థʔ",
+      "tags": ["crying", "mock"]
+    },
+    {
+      "id": "sad_602",
+      "text": "ʕ o̴̶̷᷄ ̫ o̴̶̷̥᷅ ʔ",
+      "tags": ["crying", "innocent", "teary"]
+    },
+    {
+      "id": "sad_603",
+      "text": "(இ﹏இ`｡)",
+      "tags": ["breakdown", "crying", "nervous", "sweat-drop", "trembling"]
+    },
+    {
+      "id": "sad_604",
+      "text": "(╥ᆺ╥；)",
+      "tags": ["closed-eyes", "crying", "sweat-drop"]
+    },
+    {
+      "id": "sad_605",
+      "text": "(╥﹏╥)",
+      "tags": ["closed-eyes", "crying", "nervous", "trembling"]
+    },
+    {
+      "id": "sad_606",
+      "text": "╥﹏╥",
+      "tags": ["closed-eyes", "crying", "nervous", "trembling"]
+    },
+    {
+      "id": "sad_607",
+      "text": "o(╥﹏╥)o",
+      "tags": ["closed-eyes", "crying", "nervous", "trembling"]
+    },
+    {
+      "id": "sad_608",
+      "text": "ヾ(;ﾟ;Д;ﾟ;)ﾉﾞ",
+      "tags": ["crying", "hands-up", "nervous", "sweat-drop"]
+    },
+    {
+      "id": "sad_609",
+      "text": "(/;◇;)/",
+      "tags": ["crying", "hands-up"]
+    },
+    {
+      "id": "sad_610",
+      "text": "(= ; ｪ ; =)",
+      "tags": ["animal", "crying"]
+    },
+    {
+      "id": "sad_611",
+      "text": "⑉´ᯅ`⑉",
+      "tags": ["helpless", "sad", "sigh"]
+    },
+    {
+      "id": "sad_612",
+      "text": "(つ . •́ _ʖ •̀ .)つ",
+      "tags": ["comfort", "hug", "sad"]
+    },
+    {
+      "id": "sad_613",
+      "text": "꒰๑•̥﹏•̥๑꒱",
+      "tags": ["crying", "cute", "nervous", "trembling"]
     }
   ]
 }

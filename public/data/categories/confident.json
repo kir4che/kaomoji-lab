@@ -5,27 +5,12 @@
     "zh-tw": "自信"
   },
   "preview": "(｡•̀ᴗ-)✧",
-  "lastUpdated": "2025-08-17",
+  "lastUpdated": "2025-09-28",
   "items": [
     {
       "id": "confident_001",
       "text": "ᕙ(•̤᷆ ॒ ູ॒•̤᷇)ᕘ",
-      "tags": ["confident"]
-    },
-    {
-      "id": "confident_002",
-      "text": "(•̀ᴗ• )",
-      "tags": ["confident", "smile"]
-    },
-    {
-      "id": "confident_003",
-      "text": "~(˶‾᷄ꈊ‾᷅˵)~",
-      "tags": ["confident", "happiness"]
-    },
-    {
-      "id": "confident_004",
-      "text": "◔.̮◔✧",
-      "tags": ["confident", "cute", "sparkle"]
+      "tags": ["confident", "muscle"]
     },
     {
       "id": "confident_005",
@@ -33,24 +18,9 @@
       "tags": ["big-eyes", "confident"]
     },
     {
-      "id": "confident_006",
-      "text": "୧(﹒︠ᴗ﹒︡)୨",
-      "tags": ["confident", "motivated"]
-    },
-    {
-      "id": "confident_007",
-      "text": "•̀ᴗ• •̀ᴗ•́",
-      "tags": ["confident", "smile"]
-    },
-    {
       "id": "confident_009",
       "text": "( ˶ ❛ ꁞ ❛ ˶ )",
       "tags": ["confident", "shy"]
-    },
-    {
-      "id": "confident_010",
-      "text": "ᖘ ❛‿˂̵✧",
-      "tags": ["confident", "cute", "sparkle", "wink"]
     },
     {
       "id": "confident_011",
@@ -65,47 +35,32 @@
     {
       "id": "confident_013",
       "text": "•̀֊•́",
-      "tags": ["confident", "goofy"]
-    },
-    {
-      "id": "confident_014",
-      "text": "( •̀ᴗ•́ ) ̖́-",
-      "tags": ["cheer-up", "confident"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_015",
       "text": "( ⁼̴̤̆◡̶͂⁼̴̤̆ )",
-      "tags": ["confident", "goofy"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_016",
       "text": "(˶‾᷄ ⁻̫ ‾᷅˵)",
-      "tags": ["confident", "happiness"]
+      "tags": ["confident", "happiness", "shy"]
     },
     {
       "id": "confident_017",
       "text": "( ˶ｰ̀֊ｰ )੭",
-      "tags": []
+      "tags": ["shy"]
     },
     {
       "id": "confident_018",
       "text": "ჱ̒ ｰ̀֊ｰ́ )",
-      "tags": ["confident", "like"]
-    },
-    {
-      "id": "confident_019",
-      "text": "*୧⃛(๑⃙⃘⁼̴̀⁼̴́๑⃙⃘)୨⃛",
-      "tags": ["cheer-up", "motivated"]
-    },
-    {
-      "id": "confident_020",
-      "text": "୧⍢⃝୨",
-      "tags": ["cheer-up", "motivated"]
+      "tags": ["closed-eyes", "confident", "like", "smile"]
     },
     {
       "id": "confident_022",
       "text": "ԅ(≖‿≖ԅ)",
-      "tags": ["confident", "goofy", "pinch"]
+      "tags": ["confident", "grab"]
     },
     {
       "id": "confident_023",
@@ -113,23 +68,8 @@
       "tags": ["confident"]
     },
     {
-      "id": "confident_024",
-      "text": "ԅ། ຈ ◞౪◟ຈ །و",
-      "tags": ["confident", "goofy"]
-    },
-    {
       "id": "confident_025",
       "text": "( •̀ω•́ )σ",
-      "tags": ["confident", "pointing"]
-    },
-    {
-      "id": "confident_026",
-      "text": "(╭☞´ิ∀´ิ)╭☞",
-      "tags": ["confident", "goofy", "pointing"]
-    },
-    {
-      "id": "confident_027",
-      "text": "( ━☞´◔‿ゝ◔`)━☞",
       "tags": ["confident", "pointing"]
     },
     {
@@ -148,79 +88,24 @@
       "tags": ["confident", "grateful"]
     },
     {
-      "id": "confident_033",
-      "text": "(๑و•̀ω•́)و",
-      "tags": ["cheer-up", "motivated"]
-    },
-    {
-      "id": "confident_034",
-      "text": "(ง •̀_•́)ง",
-      "tags": ["cheer-up", "motivated"]
-    },
-    {
-      "id": "confident_035",
-      "text": "(ᓄಠ_ಠ)ᓄ",
-      "tags": ["angry", "motivated", "serious"]
-    },
-    {
       "id": "confident_036",
       "text": "ᕙ(° ͜ಠ ͜ʖ ͜ಠ°)ᓄ",
-      "tags": ["confident", "muscle"]
+      "tags": ["confident", "hands-up", "muscle", "smile"]
     },
     {
       "id": "confident_037",
       "text": "(ง ͡ʘ ͜ʖ ͡ʘ)ง",
-      "tags": ["confident", "goofy", "motivated"]
-    },
-    {
-      "id": "confident_038",
-      "text": "(งಠ_ಠ)ง",
-      "tags": ["angry", "motivated", "serious"]
-    },
-    {
-      "id": "confident_039",
-      "text": "(ง ° ͜ ʖ °)ง",
-      "tags": ["confident", "goofy", "motivated"]
-    },
-    {
-      "id": "confident_040",
-      "text": "(ง’̀-‘́)ง",
-      "tags": ["cheer-up", "motivated"]
+      "tags": ["cheer-up", "confident", "motivated"]
     },
     {
       "id": "confident_041",
       "text": "(́ง◉◞౪◟◉‵)ง",
-      "tags": ["confident", "goofy", "motivated"]
-    },
-    {
-      "id": "confident_042",
-      "text": "( ง ͡°╭ ͟ʖ╮͡° ) ง",
-      "tags": ["confident", "motivated", "serious"]
-    },
-    {
-      "id": "confident_043",
-      "text": "(ง ͠° ͟ل͜ ͡°)ง",
-      "tags": ["confident", "goofy", "motivated"]
-    },
-    {
-      "id": "confident_044",
-      "text": "(ง ͠ ͠° ل͜ °)ง",
-      "tags": ["confident", "motivated"]
-    },
-    {
-      "id": "confident_045",
-      "text": "(ง •̀ゝ•́)ง",
-      "tags": ["cheer-up", "motivated"]
-    },
-    {
-      "id": "confident_046",
-      "text": "(ง°ل͜°)ง",
-      "tags": ["confident", "goofy", "motivated"]
+      "tags": ["big-eyes", "motivated"]
     },
     {
       "id": "confident_047",
       "text": "(૭ ఠ༬ఠ)૭",
-      "tags": ["motivated", "startled"]
+      "tags": ["motivated", "surprised"]
     },
     {
       "id": "confident_048",
@@ -230,252 +115,147 @@
     {
       "id": "confident_050",
       "text": "༼ง ◉_◉༽ง",
-      "tags": ["motivated", "serious"]
-    },
-    {
-      "id": "confident_051",
-      "text": "༼ง ͠ຈ ͟ل͜ ͠ຈ༽ง",
-      "tags": ["confident", "goofy", "motivated"]
-    },
-    {
-      "id": "confident_052",
-      "text": "｡ﾟ+.*(+･｀ω･)９",
-      "tags": ["cheer-up", "motivated"]
+      "tags": ["big-eyes", "motivated"]
     },
     {
       "id": "confident_053",
       "text": "ᕙ╏ : ◑ ڡ ◑ : ╏ᕗ",
-      "tags": ["confident", "muscle"]
-    },
-    {
-      "id": "confident_054",
-      "text": "ᕙ〳 ʘ – ʘ 〵ᕗ",
-      "tags": ["muscle", "serious"]
-    },
-    {
-      "id": "confident_055",
-      "text": "ᕙ། ◕ – ◕ །ᕗ",
-      "tags": ["big-eyes", "confident", "cute", "muscle"]
-    },
-    {
-      "id": "confident_056",
-      "text": "ᕙ( * •̀ ᗜ •́ * )ᕗ",
-      "tags": ["happy", "motivated", "muscle"]
-    },
-    {
-      "id": "confident_057",
-      "text": "ᕙ༼ຈل͜ຈ༽ᕗ",
-      "tags": ["confident", "goofy", "muscle"]
-    },
-    {
-      "id": "confident_058",
-      "text": "ᕦ⊙෴⊙ᕤ",
-      "tags": ["motivated", "muscle", "surprised"]
+      "tags": ["confident", "hands-up", "muscle", "舔"]
     },
     {
       "id": "confident_059",
       "text": "ᕙ( ͡◉ ͜ ʖ ͡◉)ᕗ",
-      "tags": ["confident", "goofy", "muscle"]
-    },
-    {
-      "id": "confident_060",
-      "text": "ᕦ༼✩ل͜✩༽ᕤ",
-      "tags": ["muscle", "sparkle"]
-    },
-    {
-      "id": "confident_061",
-      "text": "ᕙ(⇀‸↼‶)ᕗ",
-      "tags": ["angry", "muscle"]
-    },
-    {
-      "id": "confident_062",
-      "text": "ᕙ༼ ◔ل͜ ◕ ༽ᕤ",
-      "tags": ["big-eyes", "confident", "cute", "muscle"]
-    },
-    {
-      "id": "confident_063",
-      "text": "ᕙ (° ~͜ʖ~ °) ᕗ",
-      "tags": ["confident", "muscle"]
+      "tags": ["big-eyes", "hands-up", "motivated", "muscle"]
     },
     {
       "id": "confident_064",
       "text": "( ͝° ͜ʖ͡°)ᕤ",
-      "tags": ["confident", "goofy", "muscle"]
-    },
-    {
-      "id": "confident_065",
-      "text": "ᕦ༼ຈل͜ຈ༽ᕤ",
-      "tags": ["confident", "goofy", "muscle"]
-    },
-    {
-      "id": "confident_066",
-      "text": "ᕙ། – ڡ – །ᕗ",
-      "tags": ["happiness", "muscle"]
+      "tags": ["confident", "hands-up", "muscle", "smile"]
     },
     {
       "id": "confident_067",
       "text": "ᕦ(ò_óˇ)ᕤ",
-      "tags": ["motivated", "muscle", "serious"]
-    },
-    {
-      "id": "confident_068",
-      "text": "ᕙ( ∗ σ Ĺ̯ σ ∗ )ᕗ",
-      "tags": ["muscle", "serious"]
-    },
-    {
-      "id": "confident_069",
-      "text": "ᕙ༼*◕_◕*༽ᕤ",
-      "tags": ["big-eyes", "cute", "muscle"]
-    },
-    {
-      "id": "confident_070",
-      "text": "ᕦ( ⇀ ل ↼ )ᕤ",
-      "tags": ["confident", "muscle", "speechless"]
+      "tags": ["hands-up", "motivated", "muscle", "serious"]
     },
     {
       "id": "confident_071",
       "text": "ᕙ(͡°‿ ͡°)ᕗ",
-      "tags": ["confident", "muscle", "smile"]
+      "tags": ["confident", "hands-up", "muscle", "smile"]
     },
     {
       "id": "confident_072",
       "text": "ᕙ(˵ ಠ ਊ ಠ ˵)ᕗ",
-      "tags": ["motivated", "muscle"]
+      "tags": ["confused", "hands-up", "lol", "muscle"]
     },
     {
       "id": "confident_073",
       "text": "(◎｀・ω・´)ゞ",
-      "tags": ["motivated", "salute"]
-    },
-    {
-      "id": "confident_075",
-      "text": "(｀･ω･´)ゞ",
-      "tags": ["salute"]
+      "tags": ["motivated", "scratch"]
     },
     {
       "id": "confident_076",
       "text": "(･`◡´･)ゝ",
-      "tags": ["confident", "salute", "smile"]
+      "tags": ["confident", "smile"]
     },
     {
       "id": "confident_077",
       "text": "∠꒰’౪’꒱✧",
-      "tags": ["confident", "salute", "sparkle"]
+      "tags": ["animal", "confident", "sparkle"]
     },
     {
       "id": "confident_079",
       "text": "（｀・ゝ・´）ゞ",
-      "tags": ["salute"]
+      "tags": ["scratch"]
     },
     {
       "id": "confident_080",
       "text": "（*￣‥￣*）ゝ",
-      "tags": ["confident", "salute"]
-    },
-    {
-      "id": "confident_081",
-      "text": "(`･ω･´)ゞ",
-      "tags": ["salute"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_082",
       "text": "∠(｀･ω･´)",
-      "tags": ["salute"]
-    },
-    {
-      "id": "confident_083",
-      "text": "（｀・ω・）ゞ",
-      "tags": ["salute"]
+      "tags": ["cute"]
     },
     {
       "id": "confident_084",
       "text": "(･ω´-ゞ)^☆",
-      "tags": ["confident", "salute"]
+      "tags": ["confident", "scratch", "star"]
     },
     {
       "id": "confident_085",
       "text": "(o｀･ω･)ゞ",
-      "tags": ["salute"]
+      "tags": ["cute", "scratch"]
     },
     {
       "id": "confident_086",
       "text": "（*｀・ω・*）ゞ",
-      "tags": ["confident", "salute"]
+      "tags": ["confident", "scratch"]
     },
     {
       "id": "confident_087",
       "text": "(●｀･ω･)ゞ＜ok！",
-      "tags": ["salute"]
+      "tags": ["cute", "scratch"]
     },
     {
       "id": "confident_088",
       "text": "(*｀･ω･)ゞ",
-      "tags": ["salute"]
+      "tags": ["cute", "scratch"]
     },
     {
       "id": "confident_089",
       "text": "(`･ω･)ゞ",
-      "tags": ["salute"]
+      "tags": ["cute", "scratch"]
     },
     {
       "id": "confident_090",
       "text": "(｀∀´)ゝ”",
-      "tags": ["confident", "goofy", "salute"]
-    },
-    {
-      "id": "confident_091",
-      "text": "(○$´∀`)ゞ",
-      "tags": ["confident", "salute"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_092",
       "text": "(｡ゝ∀･)ゞ",
-      "tags": ["happy", "salute", "wink"]
+      "tags": ["happy", "scratch", "wink"]
     },
     {
       "id": "confident_093",
       "text": "(oゝ∀・o)ゞ",
-      "tags": ["happy", "salute", "wink"]
+      "tags": ["happy", "scratch", "wink"]
     },
     {
       "id": "confident_094",
       "text": "(｀∀´*)ゞ",
-      "tags": ["confident", "goofy", "salute"]
+      "tags": ["confident", "scratch"]
     },
     {
       "id": "confident_095",
       "text": "ヾ(*｀∀´*)ゞ",
-      "tags": ["confident", "goofy", "salute"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_096",
       "text": "(゜∀´)ゞ=☆",
-      "tags": ["confident", "salute"]
+      "tags": ["confident", "scratch", "star"]
     },
     {
       "id": "confident_097",
       "text": "(･∀･´*)ゞ",
-      "tags": ["confident", "salute"]
-    },
-    {
-      "id": "confident_098",
-      "text": "( *๑•̀д•́๑)」",
-      "tags": ["cheer-up", "motivated", "shout"]
+      "tags": ["confident", "scratch"]
     },
     {
       "id": "confident_099",
       "text": "(｀∇´ゞ",
-      "tags": ["confident", "goofy", "salute"]
+      "tags": ["confident", "scratch"]
     },
     {
       "id": "confident_100",
       "text": "(￣^￣)ゞ",
-      "tags": ["confident", "salute"]
+      "tags": ["confident", "scratch"]
     },
     {
       "id": "confident_101",
       "text": "∠(･`_´･ )",
-      "tags": ["salute", "serious"]
+      "tags": ["serious"]
     },
     {
       "id": "confident_102",
@@ -485,32 +265,12 @@
     {
       "id": "confident_103",
       "text": "(￣ー￣)ゞ",
-      "tags": ["confident", "salute"]
-    },
-    {
-      "id": "confident_104",
-      "text": "( ͡°Ĺ̯̿̿ ͡°)",
-      "tags": ["confident", "serious", "sunglasses"]
+      "tags": ["confident", "scratch"]
     },
     {
       "id": "confident_105",
       "text": "(¬‿¬)",
       "tags": ["confident", "smile"]
-    },
-    {
-      "id": "confident_106",
-      "text": "( ͡° ͜ʖ ͡°)",
-      "tags": ["confident", "goofy"]
-    },
-    {
-      "id": "confident_107",
-      "text": "〳 ͡° Ĺ̯ ͡° 〵",
-      "tags": ["confident", "serious", "sunglasses"]
-    },
-    {
-      "id": "confident_108",
-      "text": "v(´-ι_-｀)v",
-      "tags": ["helpless", "speechless"]
     },
     {
       "id": "confident_109",
@@ -520,22 +280,22 @@
     {
       "id": "confident_110",
       "text": "(ಡωಡ)",
-      "tags": ["confident", "goofy"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_111",
       "text": "（*థ౪థ）",
-      "tags": ["confident", "goofy"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_112",
       "text": "(ತ◞౪◟ತ‵)",
-      "tags": ["confident", "goofy"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_113",
       "text": "（｀∀´）ノ",
-      "tags": ["confident", "goofy"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_114",
@@ -545,17 +305,12 @@
     {
       "id": "confident_115",
       "text": "ヾ(^ิ∀^ิ)",
-      "tags": ["confident", "goofy"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_116",
       "text": "╰(❛∀❛ )",
       "tags": ["confident"]
-    },
-    {
-      "id": "confident_118",
-      "text": "(‘•̀ ▽ •́ )✎",
-      "tags": ["confident", "writing"]
     },
     {
       "id": "confident_119",
@@ -565,7 +320,7 @@
     {
       "id": "confident_120",
       "text": "“Φ(￣▽￣Φ)",
-      "tags": ["confident", "dancing", "goofy"]
+      "tags": ["confident", "dancing"]
     },
     {
       "id": "confident_121",
@@ -573,94 +328,29 @@
       "tags": ["confident", "helpless", "shrug"]
     },
     {
-      "id": "confident_122",
-      "text": "┌༼▀̿̿Ĺ̯̿̿▀̿༽┘",
-      "tags": ["confident", "sunglasses"]
-    },
-    {
-      "id": "confident_123",
-      "text": "༼ つ ͡ ͡° ͜ ʖ ͡ ͡° ༽つ",
-      "tags": ["confident", "goofy", "hug"]
-    },
-    {
-      "id": "confident_124",
-      "text": "(っಠ‿ಠ)っ",
-      "tags": ["confident", "goofy", "hug"]
-    },
-    {
-      "id": "confident_125",
-      "text": "༼ つ ▀̿_▀̿ ༽つ",
-      "tags": ["confident", "hug", "sunglasses"]
-    },
-    {
-      "id": "confident_126",
-      "text": "(.づ▣ ͜ʖ▣)づ.",
-      "tags": ["confident", "goofy", "hug"]
-    },
-    {
       "id": "confident_127",
       "text": "(。≖ˇ3ˇ≖｡)",
-      "tags": ["confident", "kiss"]
+      "tags": ["confident", "pouting"]
     },
     {
       "id": "confident_128",
       "text": "(๑❛ั ॄ❛ั๑)",
-      "tags": ["confident", "goofy"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_129",
       "text": "ｰ(•̃͡ε•̃͡)∫",
-      "tags": ["confident"]
-    },
-    {
-      "id": "confident_131",
-      "text": "( ง ´◇｀)ง♪",
-      "tags": ["cheer-up", "music"]
-    },
-    {
-      "id": "confident_132",
-      "text": "♫ꉂ (๑¯ਊ¯)σ",
-      "tags": ["confident", "goofy", "music", "pointing"]
-    },
-    {
-      "id": "confident_133",
-      "text": "˓( ˶ ❛ ꁞ ❛ ˶ )˒˒",
-      "tags": ["confident"]
+      "tags": ["confident", "pouting"]
     },
     {
       "id": "confident_134",
       "text": "((ꉺꈊꉺ)ꀢ༣",
-      "tags": ["confident", "goofy"]
-    },
-    {
-      "id": "confident_135",
-      "text": "ꉂ (๑¯ਊ¯)σ",
-      "tags": ["confident", "goofy", "pointing"]
-    },
-    {
-      "id": "confident_136",
-      "text": "(΄◞ิਊ◟ิ‵)",
-      "tags": ["confident", "goofy"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_137",
       "text": "“ψ(｀∇´)ψ",
-      "tags": ["confident", "devil", "goofy"]
-    },
-    {
-      "id": "confident_138",
-      "text": "٩( ‘ω’ )و",
-      "tags": ["cheer-up", "motivated"]
-    },
-    {
-      "id": "confident_139",
-      "text": "٩(｡•ω•｡)و",
-      "tags": ["cheer-up", "cute", "motivated"]
-    },
-    {
-      "id": "confident_140",
-      "text": "٩(๑˘ω˘๑)۶:.｡",
-      "tags": ["cheer-up", "happiness", "motivated", "sleepy"]
+      "tags": ["confident", "devil"]
     },
     {
       "id": "confident_141",
@@ -685,12 +375,12 @@
     {
       "id": "confident_145",
       "text": "( •॔௰•॓)",
-      "tags": ["confident", "goofy"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_146",
       "text": "∩(｀・ω・´)∩",
-      "tags": ["banzai", "cheer-up", "hands-up", "motivated"]
+      "tags": ["hands-up", "motivated"]
     },
     {
       "id": "confident_147",
@@ -713,16 +403,6 @@
       "tags": ["confident", "thinking"]
     },
     {
-      "id": "confident_151",
-      "text": "(*•̀ᴗ•́*)و ̑̑",
-      "tags": ["cheer-up", "confident", "motivated"]
-    },
-    {
-      "id": "confident_152",
-      "text": "╭( ･ㅂ･)و ̑̑",
-      "tags": ["cheer-up", "motivated"]
-    },
-    {
       "id": "confident_153",
       "text": "(๑•̀ㅂ•́)و✧",
       "tags": ["cheer-up", "motivated", "sparkle"]
@@ -730,57 +410,7 @@
     {
       "id": "confident_154",
       "text": "( •̀ᄇ• ́)ﻭ✧",
-      "tags": ["cheer-up", "sparkle"]
-    },
-    {
-      "id": "confident_155",
-      "text": "꒰๑͒•̀ुꇵ͒•꒱و ̑̑",
-      "tags": ["cheer-up", "goofy", "motivated"]
-    },
-    {
-      "id": "confident_156",
-      "text": "╭( ･ㅂ･)و ̑̑ ˂ᵒ͜͡ᵏᵎ⁾✩",
-      "tags": ["cheer-up"]
-    },
-    {
-      "id": "confident_157",
-      "text": "(•̀ᴗ•́)൬༉",
-      "tags": ["cheer-up", "confident", "music"]
-    },
-    {
-      "id": "confident_158",
-      "text": "!(•̀ᴗ•́)و ̑̑",
-      "tags": ["cheer-up", "motivated"]
-    },
-    {
-      "id": "confident_159",
-      "text": "(•̀o•́)ง",
-      "tags": ["cheer-up", "motivated", "surprised"]
-    },
-    {
-      "id": "confident_160",
-      "text": "٩(✪ꀾ⍟༶)و",
-      "tags": ["cheer-up", "goofy"]
-    },
-    {
-      "id": "confident_161",
-      "text": "୧( ⁼̴̶̤̀ω⁼̴̶̤́ )૭",
-      "tags": ["cheer-up", "confident"]
-    },
-    {
-      "id": "confident_162",
-      "text": "(۶•̀ᴗ•́)۶",
-      "tags": ["cheer-up", "motivated"]
-    },
-    {
-      "id": "confident_163",
-      "text": "ೕ(`･୰･´)و ̑̑",
-      "tags": ["cheer-up", "salute"]
-    },
-    {
-      "id": "confident_164",
-      "text": "¡¡¡( •̀ ᴗ •́ )و!!!",
-      "tags": ["cheer-up", "motivated"]
+      "tags": ["cheer-up", "motivated", "sparkle"]
     },
     {
       "id": "confident_165",
@@ -790,37 +420,22 @@
     {
       "id": "confident_166",
       "text": "ೕ(`･୰･´)",
-      "tags": ["salute"]
+      "tags": []
     },
     {
       "id": "confident_167",
       "text": "ೕ(･ㅂ･ )",
-      "tags": ["salute"]
+      "tags": []
     },
     {
       "id": "confident_168",
       "text": "ೕ(•̀ᴗ•́)",
-      "tags": ["confident", "salute"]
+      "tags": ["confident", "smile"]
     },
     {
       "id": "confident_170",
       "text": "~(-◎ω◎)",
-      "tags": ["confident", "sunglasses"]
-    },
-    {
-      "id": "confident_171",
-      "text": "（͡°͜ʖ͡°）",
-      "tags": ["confident", "goofy"]
-    },
-    {
-      "id": "confident_172",
-      "text": "(◍ ´꒳` ◍)b",
-      "tags": ["happy", "like"]
-    },
-    {
-      "id": "confident_173",
-      "text": "ԅ[ •́ ﹏ •̀ ]و",
-      "tags": ["cheer-up", "sad"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_174",
@@ -845,7 +460,7 @@
     {
       "id": "confident_178",
       "text": "ʕ •̀ o •́ ʔ",
-      "tags": ["animal", "bear", "confident", "motivated"]
+      "tags": ["confident", "motivated", "shout"]
     },
     {
       "id": "confident_179",
@@ -853,14 +468,9 @@
       "tags": ["confident"]
     },
     {
-      "id": "confident_180",
-      "text": "٩(๑`ȏ´๑)۶",
-      "tags": ["angry", "cheer-up", "motivated"]
-    },
-    {
       "id": "confident_181",
       "text": "٩(๑`^´๑)۶",
-      "tags": ["angry", "cheer-up", "motivated"]
+      "tags": ["angry", "motivated"]
     },
     {
       "id": "confident_182",
@@ -873,44 +483,14 @@
       "tags": ["confident"]
     },
     {
-      "id": "confident_184",
-      "text": "(ง๑ •̀_•́)ง",
-      "tags": ["cheer-up", "motivated"]
-    },
-    {
       "id": "confident_185",
       "text": "( ‘-^ )b",
       "tags": ["cute", "like"]
     },
     {
-      "id": "confident_186",
-      "text": "٩(ˊᗜˋ*)و",
-      "tags": ["cheer-up", "happy", "motivated"]
-    },
-    {
       "id": "confident_187",
       "text": "(｡•̀ᴗ-)✧",
-      "tags": ["confident", "sparkle", "wink"]
-    },
-    {
-      "id": "confident_188",
-      "text": "(⌐▨_▨)",
-      "tags": ["confident", "sunglasses"]
-    },
-    {
-      "id": "confident_189",
-      "text": "◪_◪",
-      "tags": ["sunglasses"]
-    },
-    {
-      "id": "confident_190",
-      "text": "⊂(▀¯▀⊂ )",
-      "tags": ["hug", "sunglasses"]
-    },
-    {
-      "id": "confident_191",
-      "text": "(⌐▀͡ ̯ʖ▀)",
-      "tags": ["confident", "goofy", "sunglasses"]
+      "tags": ["confident", "smile", "sparkle", "wink"]
     },
     {
       "id": "confident_192",
@@ -918,114 +498,34 @@
       "tags": []
     },
     {
-      "id": "confident_193",
-      "text": "☀(▀U ▀-͠)",
-      "tags": ["sheep", "sunglasses"]
-    },
-    {
-      "id": "confident_194",
-      "text": "( ╬◣ 益◢）y━･~",
-      "tags": ["angry", "sunglasses"]
-    },
-    {
-      "id": "confident_195",
-      "text": "(つ▀¯▀ )つ",
-      "tags": ["hug", "sunglasses"]
-    },
-    {
       "id": "confident_196",
       "text": "щ(▼ﾛ▼щ)",
-      "tags": ["please", "sunglasses"]
-    },
-    {
-      "id": "confident_197",
-      "text": "༼◥▶ل͜◀◤༽",
-      "tags": ["confident", "sunglasses"]
-    },
-    {
-      "id": "confident_198",
-      "text": "ヽ༼◥▶ل͜◀◤༽ﾉ",
-      "tags": ["banzai", "confident", "sunglasses"]
-    },
-    {
-      "id": "confident_199",
-      "text": "ヽ(⌐■_■)ノ♪♬",
-      "tags": ["dancing", "music", "sunglasses"]
-    },
-    {
-      "id": "confident_200",
-      "text": "┏(‘▀_▀’)ノ♬♪",
-      "tags": ["music", "sunglasses"]
+      "tags": ["give"]
     },
     {
       "id": "confident_201",
       "text": "//(*▼▽▼)∩//",
-      "tags": ["banzai", "happy", "sunglasses"]
+      "tags": ["happy"]
     },
     {
       "id": "confident_202",
       "text": "└( ▼▼ )┐",
-      "tags": ["sunglasses"]
+      "tags": ["dancing"]
     },
     {
       "id": "confident_203",
       "text": "ヽ( ▼∀▼)ﾉ",
-      "tags": ["banzai", "happy", "sunglasses"]
-    },
-    {
-      "id": "confident_204",
-      "text": "ლ(▀̿̿Ĺ̯̿̿▀̿ლ)",
-      "tags": ["sunglasses"]
-    },
-    {
-      "id": "confident_205",
-      "text": "┌(▀Ĺ̯▀)┐",
-      "tags": ["sunglasses"]
-    },
-    {
-      "id": "confident_206",
-      "text": "(̿▀̿ ̿Ĺ̯̿̿▀̿ ̿)̄",
-      "tags": ["sunglasses"]
+      "tags": ["happy"]
     },
     {
       "id": "confident_207",
       "text": "ヾ(*▼・▼)ﾉ⌒☆",
-      "tags": ["star", "sunglasses"]
-    },
-    {
-      "id": "confident_208",
-      "text": "ᕕ༼⌐■-■༽ᕗ",
-      "tags": ["running", "sunglasses"]
-    },
-    {
-      "id": "confident_209",
-      "text": "( ▀ 益 ▀ )",
-      "tags": ["angry", "sunglasses"]
-    },
-    {
-      "id": "confident_210",
-      "text": "ヾ(●ε●)ノ",
-      "tags": ["sunglasses"]
-    },
-    {
-      "id": "confident_211",
-      "text": "☀🌴༼▀̿ Ĺ̯▀̿༽",
-      "tags": ["sunglasses"]
+      "tags": ["star"]
     },
     {
       "id": "confident_212",
       "text": "d(`･∀･)b",
       "tags": ["like"]
-    },
-    {
-      "id": "confident_213",
-      "text": "٩(｡・ω・｡)﻿و",
-      "tags": ["cheer-up", "motivated"]
-    },
-    {
-      "id": "confident_214",
-      "text": "( • ̀ω•́ )",
-      "tags": ["confident"]
     },
     {
       "id": "confident_215",
@@ -1048,11 +548,6 @@
       "tags": ["confident", "smile"]
     },
     {
-      "id": "confident_222",
-      "text": "(˵¯͒⌄¯͒˵)",
-      "tags": ["confident", "happiness", "smile"]
-    },
-    {
       "id": "confident_223",
       "text": "⎚⩊⎚´ -✧",
       "tags": ["confident", "sparkle"]
@@ -1060,17 +555,17 @@
     {
       "id": "confident_224",
       "text": "⌯≖◡≖⌯ಣ",
-      "tags": ["confident", "goofy"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_225",
       "text": "❛˓◞˂̵✧ಣ",
-      "tags": ["confident", "cute", "sparkle", "wink"]
+      "tags": ["confident", "naughty", "smile", "sparkle", "wink"]
     },
     {
       "id": "confident_226",
       "text": "( ˶ｰ̀֊ｰ́ )੭",
-      "tags": []
+      "tags": ["shy"]
     },
     {
       "id": "confident_227",
@@ -1085,12 +580,12 @@
     {
       "id": "confident_229",
       "text": "၄(cʸ„òᴗóﾘ၃",
-      "tags": ["confident", "goofy"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_230",
       "text": "(⌯︎¤̴̶̷̀ᴗ¤̴̶̷́⌯︎)",
-      "tags": ["confident", "sparkle"]
+      "tags": ["confident", "smile", "sparkle"]
     },
     {
       "id": "confident_231",
@@ -1100,7 +595,7 @@
     {
       "id": "confident_232",
       "text": "૮₍ ˶• ˔ ต ₎ა",
-      "tags": ["animal", "confident", "pointing"]
+      "tags": ["animal", "confident", "pointing", "shy"]
     },
     {
       "id": "confident_234",
@@ -1115,7 +610,7 @@
     {
       "id": "confident_236",
       "text": "(๑⁍᷄౪⁍᷅๑)",
-      "tags": ["confident", "goofy"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_237",
@@ -1125,7 +620,7 @@
     {
       "id": "confident_238",
       "text": "＼( ｀.∀´)／",
-      "tags": ["banzai", "confident"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_239",
@@ -1158,19 +653,9 @@
       "tags": ["confident"]
     },
     {
-      "id": "confident_245",
-      "text": "( ⁼̴̤̆◡̶͂⁼̴̤̆ )",
-      "tags": ["confident", "smile"]
-    },
-    {
       "id": "confident_246",
       "text": "ϵ(ò⥐ó)ͽﾌﾟｯ",
       "tags": ["confident"]
-    },
-    {
-      "id": "confident_247",
-      "text": "~(˶‾᷄ꈊ‾᷅˵)~",
-      "tags": ["confident", "dancing", "happiness"]
     },
     {
       "id": "confident_248",
@@ -1178,29 +663,19 @@
       "tags": ["confident"]
     },
     {
-      "id": "confident_249",
-      "text": "͠° ͟ʖ ͡°",
-      "tags": ["confident", "goofy"]
-    },
-    {
       "id": "confident_250",
       "text": "˶‾᷄ །། ‾᷅˵",
-      "tags": ["confident"]
+      "tags": ["confident", "shy"]
     },
     {
       "id": "confident_251",
       "text": "( ͡ʘ ͜ʖ ͡ʘ)",
-      "tags": ["confident", "goofy"]
+      "tags": ["confident", "smile"]
     },
     {
       "id": "confident_252",
       "text": "(◔౪◔)",
-      "tags": ["confident", "goofy"]
-    },
-    {
-      "id": "confident_253",
-      "text": "ლ(́◕◞౪◟◕‵ლ)",
-      "tags": ["big-eyes", "confident"]
+      "tags": ["confident", "naughty"]
     },
     {
       "id": "confident_254",
@@ -1218,19 +693,14 @@
       "tags": ["confident", "smile"]
     },
     {
-      "id": "confident_257",
-      "text": "( •̀ᴗ•́ )و ̑̑",
-      "tags": ["cheer-up", "motivated"]
-    },
-    {
       "id": "confident_258",
       "text": "٢ ` ౪´ ì",
-      "tags": ["confident", "devil"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_259",
       "text": "┗(｀O ´)┛",
-      "tags": ["angry", "devil", "shout"]
+      "tags": ["angry", "shout"]
     },
     {
       "id": "confident_260",
@@ -1238,49 +708,14 @@
       "tags": ["confident", "devil"]
     },
     {
-      "id": "confident_261",
-      "text": "( ∀ )ψ",
-      "tags": ["confident", "devil"]
-    },
-    {
-      "id": "confident_262",
-      "text": "(｀∀´)Ψ",
-      "tags": ["confident", "devil"]
-    },
-    {
       "id": "confident_263",
       "text": "｀(^ ▼^)´↑",
-      "tags": ["confident", "devil"]
+      "tags": ["confident"]
     },
     {
       "id": "confident_264",
       "text": "ƪ(`▿▿▿▿´ƪ )",
-      "tags": ["confident", "dancing", "devil"]
-    },
-    {
-      "id": "confident_265",
-      "text": "“ψ (｀∇´) ψ",
-      "tags": ["confident", "devil"]
-    },
-    {
-      "id": "confident_266",
-      "text": "( ｀▽´)Ψミ(/・ω・)/",
-      "tags": ["attack", "devil"]
-    },
-    {
-      "id": "confident_267",
-      "text": "Ѱζ༼ᴼل͜ᴼ༽ᶘѰ",
-      "tags": ["confident", "devil"]
-    },
-    {
-      "id": "confident_268",
-      "text": "ಠﭛಠ",
-      "tags": ["angry", "devil"]
-    },
-    {
-      "id": "confident_270",
-      "text": "(◞≼◉ื≽◟ ;益;◞≼◉ื≽◟)Ψ",
-      "tags": ["angry", "devil"]
+      "tags": ["confident", "dancing"]
     },
     {
       "id": "confident_271",
@@ -1290,12 +725,7 @@
     {
       "id": "confident_272",
       "text": "Ψ(☆ｗ☆)Ψ",
-      "tags": ["devil", "thrilled"]
-    },
-    {
-      "id": "confident_274",
-      "text": "^(#｀∀´)_ Ψ････・･†_(ﾟｰﾟ*)β",
-      "tags": ["angel", "attack", "devil"]
+      "tags": ["devil", "star", "thrilled"]
     },
     {
       "id": "confident_275",
@@ -1310,52 +740,27 @@
     {
       "id": "confident_277",
       "text": "Ψ(｀∀´#)ﾉ ",
-      "tags": ["devil"]
-    },
-    {
-      "id": "confident_278",
-      "text": "╭∩╮(⋋‿⋌ )ᕗ",
-      "tags": ["devil", "speechless"]
+      "tags": ["confident", "devil", "displeased", "hands-up"]
     },
     {
       "id": "confident_280",
       "text": "(*●艸●*)",
-      "tags": ["devil", "shy"]
-    },
-    {
-      "id": "confident_281",
-      "text": "∋━━o(｀∀´oメ）～→",
-      "tags": ["attack", "devil"]
+      "tags": ["shy"]
     },
     {
       "id": "confident_283",
       "text": "(((＼（✘෴✘）／)))",
-      "tags": ["devil", "dizzy"]
+      "tags": ["dizzy", "hands-up"]
     },
     {
       "id": "confident_284",
       "text": "╰(°ㅂ°)╯",
-      "tags": ["banzai", "thrilled"]
-    },
-    {
-      "id": "confident_285",
-      "text": "₍₍⁽⁽(ી(^‿ゝ^)ʃ)₎₎⁾⁾",
-      "tags": ["cute", "dancing", "happy"]
-    },
-    {
-      "id": "confident_287",
-      "text": "((( ←～（o ｀▽´ )oΨ",
-      "tags": ["attack", "devil"]
+      "tags": ["thrilled"]
     },
     {
       "id": "confident_288",
       "text": "ಸ‿ಸ",
       "tags": ["smile"]
-    },
-    {
-      "id": "confident_289",
-      "text": "(◕◞౪◟◕✿)",
-      "tags": ["big-eyes", "confident", "flower", "goofy"]
     },
     {
       "id": "confident_290",
@@ -1368,16 +773,6 @@
       "tags": ["confident", "motivated", "sparkle"]
     },
     {
-      "id": "confident_293",
-      "text": "٩(｡•ω<｡)و Fight☆",
-      "tags": ["cheer-up", "cute", "star"]
-    },
-    {
-      "id": "confident_294",
-      "text": "ʾ٩( ๑•̀o•́๑ )وおー！",
-      "tags": ["cheer-up"]
-    },
-    {
       "id": "confident_295",
       "text": "(๑•̀ㅁ•́๑)✧",
       "tags": ["confident", "motivated", "sparkle"]
@@ -1388,11 +783,6 @@
       "tags": ["confident", "sparkle"]
     },
     {
-      "id": "confident_297",
-      "text": "ʕ•̀ω•́ʔ✧",
-      "tags": ["confident", "sparkle"]
-    },
-    {
       "id": "confident_298",
       "text": "(≖‿ゝ≖)✧",
       "tags": ["confident", "sparkle", "wink"]
@@ -1400,7 +790,7 @@
     {
       "id": "confident_299",
       "text": "ᕙ(•̤᷆ ॒ ູ•̤᷇)ᕘ₊˚",
-      "tags": ["confident", "muscle", "sparkle"]
+      "tags": ["confident", "hands-up", "muscle", "shy"]
     },
     {
       "id": "confident_300",
@@ -1408,14 +798,99 @@
       "tags": ["confident", "serious"]
     },
     {
-      "id": "confident_301",
-      "text": "٩(｡・ω・｡)و",
-      "tags": ["confident", "motivated"]
-    },
-    {
       "id": "confident_302",
       "text": "(๑•̀ω•́)ノ",
       "tags": ["confident", "motivated"]
+    },
+    {
+      "id": "confident_303",
+      "text": "d(｡ゝд･)",
+      "tags": ["confident", "like"]
+    },
+    {
+      "id": "confident_305",
+      "text": "꒰˶•̤̀༥•̤́˵꒱",
+      "tags": ["confident", "eating", "motivated"]
+    },
+    {
+      "id": "confident_306",
+      "text": "‎|•'-'•) ✧",
+      "tags": ["confident", "peeking", "sparkle"]
+    },
+    {
+      "id": "confident_307",
+      "text": "(҂`･ｪ･´)",
+      "tags": ["animal", "motivated"]
+    },
+    {
+      "id": "confident_309",
+      "text": "( ･ิ ͜ʖ ･ิ)",
+      "tags": ["confident", "smile"]
+    },
+    {
+      "id": "confident_310",
+      "text": "(≖ ͜ʖ≖)",
+      "tags": ["confident", "smile"]
+    },
+    {
+      "id": "confident_311",
+      "text": "( ͡ ͜ʖ ͡ )",
+      "tags": ["confident", "smile"]
+    },
+    {
+      "id": "confident_312",
+      "text": "ᕙ (° ~͜ʖ~ °) ᕗ",
+      "tags": ["hands-up", "motivated", "muscle", "smile"]
+    },
+    {
+      "id": "confident_314",
+      "text": "💐(❛˓◞˂̵ )>",
+      "tags": ["confident", "flower", "naughty", "smile", "wink"]
+    },
+    {
+      "id": "confident_316",
+      "text": "( ✧ ̫ ✧ )",
+      "tags": ["confident", "sparkle"]
+    },
+    {
+      "id": "confident_317",
+      "text": "(✧ᴗ✧✿)",
+      "tags": ["confident", "flower", "smile", "sparkle"]
+    },
+    {
+      "id": "confident_318",
+      "text": "✧٩(•́⌄•́๑)و ✧",
+      "tags": ["cheer-up", "confident", "cute", "motivated", "sparkle"]
+    },
+    {
+      "id": "confident_319",
+      "text": "ʕ •̀ ω •́ ʔ",
+      "tags": ["confident", "motivated"]
+    },
+    {
+      "id": "confident_320",
+      "text": "(⌐■_■)",
+      "tags": ["confident", "sunglasses"]
+    },
+    {
+      "id": "confident_321",
+      "text": "¯\\_༼ᴼل͜ᴼ༽_/¯",
+      "tags": ["confident", "shrug", "smile"]
+    },
+    {
+      "id": "confident_322",
+      "text": "(ง°ل͜°)ง",
+      "tags": ["confident", "dazed", "motivated", "smile"]
+    },
+    {
+      "id": "confident_323",
+      "text": "(•̀ᴗ•́)൬༉",
+      "tags": ["confident", "smile"]
+    },
+    {
+      "id": "confident_324",
+      "text": "❛˓◞˂̵✧",
+      "tags": ["confident", "naughty", "smile", "sparkle", "wink"]
     }
   ]
 }

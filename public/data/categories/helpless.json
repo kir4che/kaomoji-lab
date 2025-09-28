@@ -5,7 +5,7 @@
     "zh-tw": "無奈"
   },
   "preview": "(๑•́₃ •̀๑)",
-  "lastUpdated": "2025-08-17",
+  "lastUpdated": "2025-09-28",
   "items": [
     {
       "id": "helpless_001",
@@ -15,37 +15,22 @@
     {
       "id": "helpless_002",
       "text": "ᵕ᷄≀ ̠˘᷅",
-      "tags": ["helpless", "sigh", "sleepy"]
+      "tags": ["closed-eyes", "helpless", "sleepy"]
     },
     {
       "id": "helpless_003",
       "text": "•᷄ɞ•᷅",
-      "tags": ["helpless", "sigh"]
+      "tags": ["bird", "helpless"]
     },
     {
       "id": "helpless_004",
       "text": "・ࡇ・",
-      "tags": ["helpless"]
+      "tags": ["confused", "helpless"]
     },
     {
       "id": "helpless_005",
       "text": "(*´･з･)",
-      "tags": ["angry", "helpless"]
-    },
-    {
-      "id": "helpless_006",
-      "text": "･᷄৺･᷅",
-      "tags": ["helpless", "sigh", "sleepy"]
-    },
-    {
-      "id": "helpless_007",
-      "text": "⑉´ᯅ`⑉",
-      "tags": ["helpless", "sad", "sigh"]
-    },
-    {
-      "id": "helpless_009",
-      "text": "(๑•́₃ •̀๑)",
-      "tags": ["angry", "helpless"]
+      "tags": ["helpless", "pouting"]
     },
     {
       "id": "helpless_010",
@@ -53,59 +38,9 @@
       "tags": ["helpless", "sigh"]
     },
     {
-      "id": "helpless_017",
-      "text": "┬──┬ ¯\\_(ツ)",
-      "tags": ["shrug", "table-flip"]
-    },
-    {
-      "id": "helpless_018",
-      "text": "o(´д｀o)",
-      "tags": ["nervous", "please"]
-    },
-    {
-      "id": "helpless_019",
-      "text": "(o´д｀)o",
-      "tags": ["please"]
-    },
-    {
-      "id": "helpless_020",
-      "text": "へ(´д｀へ)",
-      "tags": ["please"]
-    },
-    {
       "id": "helpless_021",
       "text": "三三三ʅ(；◔౪◔)ʃ",
-      "tags": ["helpless", "running", "shrug"]
-    },
-    {
-      "id": "helpless_022",
-      "text": "(;¬_¬)",
-      "tags": ["speechless"]
-    },
-    {
-      "id": "helpless_023",
-      "text": "（；¬＿¬)",
-      "tags": ["speechless"]
-    },
-    {
-      "id": "helpless_024",
-      "text": "(¬_¬)",
-      "tags": ["angry", "speechless"]
-    },
-    {
-      "id": "helpless_025",
-      "text": "(¬ω¬)",
-      "tags": ["sleepy", "speechless"]
-    },
-    {
-      "id": "helpless_026",
-      "text": "( ¬_¬)",
-      "tags": ["speechless"]
-    },
-    {
-      "id": "helpless_027",
-      "text": "눈_눈",
-      "tags": ["angry", "speechless"]
+      "tags": ["helpless", "naughty", "running", "shrug", "sweat-drop"]
     },
     {
       "id": "helpless_028",
@@ -113,79 +48,14 @@
       "tags": ["angry", "helpless"]
     },
     {
-      "id": "helpless_029",
-      "text": "(눈_눈)",
-      "tags": ["speechless"]
-    },
-    {
-      "id": "helpless_030",
-      "text": "(;￢＿￢)",
-      "tags": ["speechless"]
-    },
-    {
       "id": "helpless_031",
       "text": "┌༼ σ ‸ σ ༽┐",
       "tags": ["angry", "helpless", "shrug"]
     },
     {
-      "id": "helpless_032",
-      "text": "(；￢＿￢)",
-      "tags": ["speechless"]
-    },
-    {
-      "id": "helpless_033",
-      "text": "(ಠ.ಠ)",
-      "tags": ["angry", "speechless"]
-    },
-    {
-      "id": "helpless_034",
-      "text": "(눈_눈;)",
-      "tags": ["embarrassed", "speechless"]
-    },
-    {
-      "id": "helpless_035",
-      "text": "( ¬ _ ¬ ;)",
-      "tags": ["embarrassed", "speechless"]
-    },
-    {
-      "id": "helpless_036",
-      "text": "( ج_ج )",
-      "tags": ["helpless", "speechless"]
-    },
-    {
       "id": "helpless_037",
       "text": "(ԾεԾ|||)",
-      "tags": ["embarrassed", "helpless"]
-    },
-    {
-      "id": "helpless_038",
-      "text": "(´-ι_-｀)",
-      "tags": ["helpless", "sigh", "speechless"]
-    },
-    {
-      "id": "helpless_039",
-      "text": "(´-_ゝ-`)",
-      "tags": ["helpless", "sigh", "speechless"]
-    },
-    {
-      "id": "helpless_040",
-      "text": "(´ι_｀ )",
-      "tags": ["helpless", "sigh", "speechless"]
-    },
-    {
-      "id": "helpless_041",
-      "text": "(ᇂ_Jᇂ)",
-      "tags": ["speechless"]
-    },
-    {
-      "id": "helpless_042",
-      "text": "(`L_` )",
-      "tags": ["helpless", "sigh", "speechless"]
-    },
-    {
-      "id": "helpless_043",
-      "text": "( ´_>`)",
-      "tags": ["helpless", "sigh", "speechless"]
+      "tags": ["embarrassed", "helpless", "pouting"]
     },
     {
       "id": "helpless_044",
@@ -193,39 +63,9 @@
       "tags": ["helpless", "shrug"]
     },
     {
-      "id": "helpless_045",
-      "text": "(o˘д˘)o",
-      "tags": ["please"]
-    },
-    {
-      "id": "helpless_046",
-      "text": "(;-_-)/",
-      "tags": ["helpless", "speechless"]
-    },
-    {
-      "id": "helpless_047",
-      "text": "( ´_ゝ｀)ﾉ",
-      "tags": ["speechless"]
-    },
-    {
       "id": "helpless_048",
       "text": "＼_(´ι _` 　)",
       "tags": ["helpless"]
-    },
-    {
-      "id": "helpless_049",
-      "text": "(ノ´＿ゝ｀）ノ",
-      "tags": ["helpless", "speechless"]
-    },
-    {
-      "id": "helpless_050",
-      "text": "(ノ´m｀)ノ",
-      "tags": ["helpless", "speechless"]
-    },
-    {
-      "id": "helpless_051",
-      "text": "ヽ(;^o^ヽ)",
-      "tags": ["please"]
     },
     {
       "id": "helpless_052",
@@ -233,49 +73,29 @@
       "tags": ["helpless", "shrug"]
     },
     {
-      "id": "helpless_053",
-      "text": "(〜￣△￣)〜",
-      "tags": ["dancing", "helpless"]
-    },
-    {
       "id": "helpless_054",
       "text": "╭(°ㅂ°)╮",
       "tags": ["helpless", "shrug", "surprised"]
     },
     {
-      "id": "helpless_055",
-      "text": "༼つ . •́ _ʖ •̀ . ༽つ",
-      "tags": ["comfort", "hug", "serious"]
-    },
-    {
-      "id": "helpless_056",
-      "text": "(っ⇀⑃↼)っ",
-      "tags": ["cheer-up", "hug"]
-    },
-    {
       "id": "helpless_057",
       "text": "(๑•́ ₃ •̀๑)",
-      "tags": ["angry", "helpless"]
+      "tags": ["cute", "displeased", "helpless"]
     },
     {
       "id": "helpless_058",
       "text": "（＿ε＿）",
-      "tags": ["helpless"]
+      "tags": ["helpless", "pouting"]
     },
     {
       "id": "helpless_059",
       "text": "•́ε•̀٥",
-      "tags": ["helpless", "sigh"]
+      "tags": ["helpless", "pouting", "sigh"]
     },
     {
       "id": "helpless_060",
       "text": "(´-ε-｀;)",
-      "tags": ["embarrassed", "helpless"]
-    },
-    {
-      "id": "helpless_061",
-      "text": "ヽ(´Д｀ヽ",
-      "tags": ["nervous", "please"]
+      "tags": ["embarrassed", "helpless", "pouting"]
     },
     {
       "id": "helpless_062",
@@ -290,17 +110,12 @@
     {
       "id": "helpless_064",
       "text": "┌( •́ ਊ •̀ )┐",
-      "tags": ["goofy", "helpless", "shrug"]
+      "tags": ["bird", "helpless", "shrug"]
     },
     {
       "id": "helpless_065",
       "text": "ε-(´・｀)",
       "tags": ["helpless", "sigh"]
-    },
-    {
-      "id": "helpless_066",
-      "text": "(-ι_- )))。。。",
-      "tags": ["helpless", "speechless"]
     },
     {
       "id": "helpless_067",
@@ -310,12 +125,7 @@
     {
       "id": "helpless_068",
       "text": "w(´･ω･`)w",
-      "tags": ["helpless", "shrug"]
-    },
-    {
-      "id": "helpless_069",
-      "text": "\\(-ㅂ-)/ ♥ ♥ ♥",
-      "tags": ["helpless", "love", "shrug"]
+      "tags": ["cute", "helpless", "shrug"]
     },
     {
       "id": "helpless_070",
@@ -325,7 +135,7 @@
     {
       "id": "helpless_071",
       "text": "ヽ(。_°)ノ",
-      "tags": ["banzai", "helpless"]
+      "tags": ["helpless"]
     },
     {
       "id": "helpless_072",
@@ -335,17 +145,7 @@
     {
       "id": "helpless_073",
       "text": "¯\\_(ツ)_/¯",
-      "tags": ["helpless", "shrug"]
-    },
-    {
-      "id": "helpless_074",
-      "text": "¯\\_ಠ_ಠ_/¯",
-      "tags": ["angry", "helpless", "shrug"]
-    },
-    {
-      "id": "helpless_075",
-      "text": "¯\\(◉‿◉)/¯",
-      "tags": ["happy", "helpless", "shrug"]
+      "tags": ["helpless", "shrug", "smile"]
     },
     {
       "id": "helpless_076",
@@ -353,39 +153,14 @@
       "tags": ["happy", "helpless", "shrug"]
     },
     {
-      "id": "helpless_077",
-      "text": "¯\\_( ͠° ͟ʖ °͠ )_/¯",
-      "tags": ["confident", "helpless", "shrug"]
-    },
-    {
-      "id": "helpless_078",
-      "text": "¯\\_༼ᴼل͜ᴼ༽_/¯",
-      "tags": ["confident", "helpless", "shrug"]
-    },
-    {
-      "id": "helpless_079",
-      "text": "¯\\_༼ ಥ ‿ ಥ ༽_/¯",
-      "tags": ["helpless", "shrug"]
-    },
-    {
-      "id": "helpless_080",
-      "text": "¯\\_(⊙_ʖ⊙)_/¯",
-      "tags": ["dumbfounded", "helpless", "shrug"]
-    },
-    {
       "id": "helpless_081",
       "text": "¯\\_(⊙︿⊙)_/¯",
-      "tags": ["dumbfounded", "helpless", "sad", "shrug"]
-    },
-    {
-      "id": "helpless_082",
-      "text": "¯\\_ʘᗜʘ_/¯",
-      "tags": ["happy", "helpless", "shrug"]
+      "tags": ["dumbfounded", "helpless", "shrug"]
     },
     {
       "id": "helpless_083",
       "text": "┐(‘～`；)┌",
-      "tags": ["embarrassed", "helpless", "shrug"]
+      "tags": ["embarrassed", "helpless", "shrug", "sweat-drop"]
     },
     {
       "id": "helpless_084",
@@ -408,19 +183,9 @@
       "tags": ["helpless", "shrug"]
     },
     {
-      "id": "helpless_088",
-      "text": "┐( ∵ )┌",
-      "tags": ["helpless", "shrug"]
-    },
-    {
       "id": "helpless_089",
       "text": "┐(￣ヘ￣)┌",
       "tags": ["angry", "helpless", "shrug"]
-    },
-    {
-      "id": "helpless_090",
-      "text": "┐(´∀｀)┌",
-      "tags": ["happy", "helpless", "shrug"]
     },
     {
       "id": "helpless_091",
@@ -440,7 +205,7 @@
     {
       "id": "helpless_094",
       "text": "┐(；´・Д・`)┌",
-      "tags": ["helpless", "shrug", "surprised"]
+      "tags": ["helpless", "shrug", "surprised", "sweat-drop"]
     },
     {
       "id": "helpless_095",
@@ -465,32 +230,22 @@
     {
       "id": "helpless_100",
       "text": "╰(　´◔　ω　◔ `)╯",
-      "tags": ["banzai", "helpless", "shrug"]
+      "tags": ["helpless", "naughty", "shrug"]
     },
     {
       "id": "helpless_101",
       "text": "ヽ(　￣д￣;)ノ",
-      "tags": ["banzai", "embarrassed", "helpless"]
-    },
-    {
-      "id": "helpless_102",
-      "text": "ヽ（・＿・；)ノ",
-      "tags": ["banzai", "helpless", "nervous"]
+      "tags": ["embarrassed", "helpless"]
     },
     {
       "id": "helpless_103",
       "text": "ヽ(ー_ー )ノ",
-      "tags": ["banzai", "helpless"]
+      "tags": ["helpless"]
     },
     {
       "id": "helpless_104",
       "text": "╭(๑¯д¯๑)╮",
       "tags": ["helpless", "shrug", "sigh"]
-    },
-    {
-      "id": "helpless_105",
-      "text": "ヽ(￣д￣;)ノ",
-      "tags": ["helpless", "speechless"]
     },
     {
       "id": "helpless_106",
@@ -501,11 +256,6 @@
       "id": "helpless_108",
       "text": "╭(°A°`)╮",
       "tags": ["helpless", "shrug", "surprised"]
-    },
-    {
-      "id": "helpless_109",
-      "text": "(ㆆ ᴗ ㆆ)",
-      "tags": ["helpless", "speechless"]
     },
     {
       "id": "helpless_110",
@@ -523,39 +273,14 @@
       "tags": ["helpless", "smile"]
     },
     {
-      "id": "helpless_113",
-      "text": "┗(･ω･;)┛",
-      "tags": ["banzai", "helpless", "nervous"]
-    },
-    {
       "id": "helpless_114",
       "text": "╮(╯_╰)╭",
       "tags": ["helpless", "shrug"]
     },
     {
-      "id": "helpless_115",
-      "text": "ʕT//ᴥ//T ʔ",
-      "tags": ["bear", "crying", "shy"]
-    },
-    {
-      "id": "helpless_116",
-      "text": "( ✿˃̣̣̥᷄⌓˂̣̣̥᷅ )",
-      "tags": ["crying", "dazed", "flower"]
-    },
-    {
-      "id": "helpless_117",
-      "text": "(๑˃̣̣̥⌓˂̣̣̥)",
-      "tags": ["crying", "dazed"]
-    },
-    {
-      "id": "helpless_118",
-      "text": "(ﾐ〒﹏〒ﾐ)",
-      "tags": ["crying"]
-    },
-    {
       "id": "helpless_119",
       "text": "ο（´･ω･｀o）",
-      "tags": ["helpless", "sigh"]
+      "tags": ["cute", "helpless"]
     },
     {
       "id": "helpless_120",
@@ -563,24 +288,9 @@
       "tags": ["sad"]
     },
     {
-      "id": "helpless_122",
-      "text": "( ˘･з･)",
-      "tags": ["angry"]
-    },
-    {
-      "id": "helpless_123",
-      "text": "(´ﾟдﾟ`)",
-      "tags": ["dazed", "surprised"]
-    },
-    {
-      "id": "helpless_124",
-      "text": "┐(´д`)┌",
-      "tags": ["helpless", "shrug", "sleepy"]
-    },
-    {
       "id": "helpless_126",
       "text": "凹(´･ω･｀)凹",
-      "tags": ["helpless"]
+      "tags": ["cute", "helpless"]
     },
     {
       "id": "helpless_127",
@@ -595,22 +305,17 @@
     {
       "id": "helpless_129",
       "text": "…_φ(･ω･` )",
-      "tags": ["helpless", "writing"]
+      "tags": ["cute", "helpless", "writing"]
     },
     {
       "id": "helpless_130",
       "text": "(´•̥ᴥ•̥`▼)",
-      "tags": ["bear", "crying", "sad"]
+      "tags": ["bear", "crying"]
     },
     {
       "id": "helpless_131",
       "text": "Σ(｀L_｀ )",
       "tags": ["angry", "surprised"]
-    },
-    {
-      "id": "helpless_132",
-      "text": "(・ω・｀)………..",
-      "tags": ["helpless", "speechless"]
     },
     {
       "id": "helpless_133",
@@ -620,57 +325,17 @@
     {
       "id": "helpless_134",
       "text": "| 　 ´ω｀|φ",
-      "tags": ["peeking", "writing"]
-    },
-    {
-      "id": "helpless_135",
-      "text": "(・ε・`*) …",
-      "tags": ["speechless"]
+      "tags": ["helpless", "writing"]
     },
     {
       "id": "helpless_136",
       "text": "(o´・ω・｀)ﾉ",
-      "tags": ["sad"]
+      "tags": ["cute", "sad"]
     },
     {
       "id": "helpless_137",
       "text": "(๑• ₃•๑)",
-      "tags": ["angry", "helpless"]
-    },
-    {
-      "id": "helpless_138",
-      "text": "(´❛-❛)",
-      "tags": ["serious", "speechless"]
-    },
-    {
-      "id": "helpless_139",
-      "text": "(◞‸◟)",
-      "tags": ["helpless"]
-    },
-    {
-      "id": "helpless_140",
-      "text": "。(>_<;=;>_<)。",
-      "tags": ["nervous"]
-    },
-    {
-      "id": "helpless_142",
-      "text": "／(￣ロ￣;)＼",
-      "tags": ["nervous"]
-    },
-    {
-      "id": "helpless_143",
-      "text": "┌┤´ﾟДﾟ`├┐",
-      "tags": ["nervous", "shout"]
-    },
-    {
-      "id": "helpless_144",
-      "text": "ヾ(;ﾟ;Д;ﾟ;)ﾉﾞ",
-      "tags": ["nervous"]
-    },
-    {
-      "id": "helpless_146",
-      "text": "＼(>o<)／",
-      "tags": ["banzai", "hands-up", "shout"]
+      "tags": ["angry", "cute", "helpless"]
     },
     {
       "id": "helpless_147",
@@ -680,12 +345,7 @@
     {
       "id": "helpless_148",
       "text": "(ᗒᗣᗕ)՞",
-      "tags": ["breakdown", "confused", "question"]
-    },
-    {
-      "id": "helpless_149",
-      "text": "(((p(>o<)q)))",
-      "tags": ["nervous"]
+      "tags": ["breakdown", "confused"]
     },
     {
       "id": "helpless_150",
@@ -693,39 +353,14 @@
       "tags": ["breakdown", "shout"]
     },
     {
-      "id": "helpless_151",
-      "text": "{{|└(>o< )┘|}}",
-      "tags": ["dancing", "nervous"]
-    },
-    {
-      "id": "helpless_152",
-      "text": "＼(>o<)ノ",
-      "tags": ["breakdown", "shout"]
-    },
-    {
-      "id": "helpless_153",
-      "text": "ヽ(≧Д≦)ノ",
-      "tags": ["banzai", "breakdown", "crying"]
-    },
-    {
-      "id": "helpless_154",
-      "text": "<!–･”(>0<)”･ –>",
-      "tags": ["nervous", "shout"]
-    },
-    {
-      "id": "helpless_155",
-      "text": "<!– {{(>_<)}} –>",
-      "tags": ["nervous"]
-    },
-    {
       "id": "helpless_156",
       "text": "((ヾ(≧皿≦；)ノ＿))",
-      "tags": ["breakdown", "crying"]
+      "tags": ["breakdown", "crying", "sweat-drop"]
     },
     {
       "id": "helpless_157",
       "text": "◝(๑⁺д⁺๑)◞՞",
-      "tags": ["breakdown", "question"]
+      "tags": ["breakdown"]
     },
     {
       "id": "helpless_158",
@@ -733,43 +368,8 @@
       "tags": ["angry", "breakdown"]
     },
     {
-      "id": "helpless_159",
-      "text": "•(◐﹏◐)•",
-      "tags": ["dizzy"]
-    },
-    {
-      "id": "helpless_160",
-      "text": "(¤﹏¤)",
-      "tags": ["dizzy"]
-    },
-    {
-      "id": "helpless_161",
-      "text": "╏ ˵ ✪ ﹏ ✪ ˵ ╏",
-      "tags": ["dizzy"]
-    },
-    {
-      "id": "helpless_162",
-      "text": "▐ ” ⊗ ﹏ ⊗ ”▐",
-      "tags": ["dizzy"]
-    },
-    {
-      "id": "helpless_164",
-      "text": "=。:.ﾟ٩(⑅๑꒪﹏꒪๑)۶:.｡+ﾟ",
-      "tags": ["banzai", "breakdown", "dizzy", "sparkle"]
-    },
-    {
-      "id": "helpless_165",
-      "text": "ヽ༼☯﹏☯༽ﾉ",
-      "tags": ["banzai", "dizzy"]
-    },
-    {
       "id": "helpless_166",
       "text": "꒰(⋅⃝∸௰͡ ⋅⃝)꒱",
-      "tags": ["dizzy"]
-    },
-    {
-      "id": "helpless_167",
-      "text": "ˣ ˷ ˣ",
       "tags": ["dizzy"]
     },
     {
@@ -778,24 +378,9 @@
       "tags": ["dizzy"]
     },
     {
-      "id": "helpless_169",
-      "text": "(◕_ゝ ◕✿)",
-      "tags": ["angry", "big-eyes", "flower", "helpless", "speechless"]
-    },
-    {
       "id": "helpless_170",
       "text": "乁༼☯‿☯✿༽ㄏ",
       "tags": ["flower", "helpless", "shrug"]
-    },
-    {
-      "id": "helpless_171",
-      "text": "从´_υ｀从",
-      "tags": ["helpless", "sigh", "speechless"]
-    },
-    {
-      "id": "helpless_172",
-      "text": "(--_--)",
-      "tags": ["helpless", "sleepy", "speechless"]
     },
     {
       "id": "helpless_173",
@@ -805,7 +390,7 @@
     {
       "id": "helpless_174",
       "text": "(；⌣̀_⌣́)",
-      "tags": ["helpless"]
+      "tags": ["helpless", "sweat-drop"]
     },
     {
       "id": "helpless_175",
@@ -813,84 +398,24 @@
       "tags": []
     },
     {
-      "id": "helpless_176",
-      "text": "c〳 ݓ ﹏ ݓ 〵੭",
-      "tags": ["speechless"]
-    },
-    {
-      "id": "helpless_177",
-      "text": "(╯•﹏•╰)",
-      "tags": ["helpless"]
-    },
-    {
-      "id": "helpless_178",
-      "text": "(◍•﹏•)",
-      "tags": []
-    },
-    {
-      "id": "helpless_179",
-      "text": "(﹗︠﹏︠﹗︡)",
-      "tags": []
-    },
-    {
-      "id": "helpless_180",
-      "text": "´-﹏-`；",
-      "tags": ["embarrassed"]
-    },
-    {
-      "id": "helpless_181",
-      "text": "(.`･﹏･´.)",
-      "tags": []
-    },
-    {
-      "id": "helpless_182",
-      "text": "●﹏●",
-      "tags": ["speechless"]
-    },
-    {
-      "id": "helpless_183",
-      "text": "ヽ(◕﹏◕)ﾉ",
-      "tags": ["big-eyes", "speechless"]
-    },
-    {
-      "id": "helpless_184",
-      "text": "(ーー;)",
-      "tags": ["speechless"]
-    },
-    {
-      "id": "helpless_185",
-      "text": "ヾ( •́д•̀ ;)ﾉ",
-      "tags": ["nervous", "scared"]
-    },
-    {
-      "id": "helpless_186",
-      "text": "|*´・Д・)r))ﾟ",
-      "tags": ["nervous", "peeking", "scared"]
-    },
-    {
       "id": "helpless_187",
       "text": "ヾ(*д*)ﾉ",
-      "tags": ["scared", "startled"]
+      "tags": ["scared", "surprised"]
     },
     {
       "id": "helpless_188",
       "text": "(((; ఠ ਉ ఠ))",
-      "tags": ["scared", "startled", "trembling"]
+      "tags": ["scared", "surprised", "trembling"]
     },
     {
       "id": "helpless_189",
       "text": "（´□｀川）",
-      "tags": ["embarrassed", "scared", "startled"]
-    },
-    {
-      "id": "helpless_190",
-      "text": "┗(･ω･;)┛",
-      "tags": ["nervous"]
+      "tags": ["embarrassed", "scared", "surprised"]
     },
     {
       "id": "helpless_191",
       "text": "Σ(・ω・`|||)",
-      "tags": ["startled"]
+      "tags": ["cute", "surprised"]
     },
     {
       "id": "helpless_192",
@@ -900,57 +425,12 @@
     {
       "id": "helpless_193",
       "text": "ヾ(*ㅿ*๑)ﾂ",
-      "tags": ["scared", "startled"]
-    },
-    {
-      "id": "helpless_194",
-      "text": "(⁎˃ᆺ˂)",
-      "tags": ["animal", "nervous", "sad"]
-    },
-    {
-      "id": "helpless_195",
-      "text": "( >д<)",
-      "tags": ["nervous"]
-    },
-    {
-      "id": "helpless_196",
-      "text": "(>人<)",
-      "tags": ["apologize", "nervous", "please"]
-    },
-    {
-      "id": "helpless_197",
-      "text": "(>_<)",
-      "tags": ["nervous", "sad"]
-    },
-    {
-      "id": "helpless_198",
-      "text": "ｏ( ><)o",
-      "tags": ["nervous"]
-    },
-    {
-      "id": "helpless_199",
-      "text": "˃ ⤙ ˂",
-      "tags": ["nervous", "sad"]
-    },
-    {
-      "id": "helpless_200",
-      "text": "(›´ω`‹ )",
-      "tags": ["nervous"]
-    },
-    {
-      "id": "helpless_201",
-      "text": "ʕ •ﻌ•; ʔ",
-      "tags": ["animal", "bear", "embarrassed", "helpless", "sweat-drop"]
+      "tags": ["scared", "surprised"]
     },
     {
       "id": "helpless_202",
       "text": "／(=´x`=)＼",
       "tags": ["helpless", "x-mouth"]
-    },
-    {
-      "id": "helpless_203",
-      "text": "+ﾟ*｡:ﾟ+凸(◕‿◕✿)+ﾟ*｡:ﾟ+",
-      "tags": ["angry", "big-eyes", "flower", "scheming", "smile", "sparkle"]
     },
     {
       "id": "helpless_204",
@@ -965,7 +445,7 @@
     {
       "id": "helpless_206",
       "text": "(눈‸눈)",
-      "tags": ["displeased", "serious", "speechless"]
+      "tags": ["displeased", "helpless", "speechless"]
     },
     {
       "id": "helpless_207",
@@ -988,14 +468,464 @@
       "tags": ["closed-eyes", "helpless", "sigh"]
     },
     {
-      "id": "helpless_211",
-      "text": "(*-ω-)",
-      "tags": ["closed-eyes", "helpless", "speechless"]
+      "id": "helpless_213",
+      "text": "(๑- ༥ -๑ )",
+      "tags": ["closed-eyes", "eating", "helpless"]
     },
     {
-      "id": "helpless_212",
+      "id": "helpless_215",
+      "text": "∠(´д｀)",
+      "tags": ["helpless"]
+    },
+    {
+      "id": "helpless_217",
+      "text": "•᷄ ᯅ •᷅",
+      "tags": ["helpless"]
+    },
+    {
+      "id": "helpless_218",
+      "text": "_:(´□`」 ∠):_",
+      "tags": ["helpless", "shout"]
+    },
+    {
+      "id": "helpless_219",
+      "text": "(＃´Ｏ｀)",
+      "tags": ["shout", "sigh"]
+    },
+    {
+      "id": "helpless_221",
+      "text": "ε≡(ノ´＿ゝ｀）ノ",
+      "tags": ["hands-up", "helpless", "running", "sigh"]
+    },
+    {
+      "id": "helpless_222",
+      "text": "(´-ω-｀)",
+      "tags": ["closed-eyes", "helpless", "sleepy"]
+    },
+    {
+      "id": "helpless_223",
+      "text": "(〃´o｀)=3",
+      "tags": ["helpless", "sigh"]
+    },
+    {
+      "id": "helpless_224",
+      "text": "ヽ(*´□｀*)ッ",
+      "tags": ["hands-up", "helpless", "shout"]
+    },
+    {
+      "id": "helpless_225",
+      "text": "('´～`)",
+      "tags": ["helpless", "sweat-drop"]
+    },
+    {
+      "id": "helpless_226",
+      "text": "(＠´＿｀＠)",
+      "tags": ["helpless"]
+    },
+    {
+      "id": "helpless_227",
+      "text": "(๑´0`๑)",
+      "tags": ["helpless"]
+    },
+    {
+      "id": "helpless_228",
+      "text": "(*´ο`*)",
+      "tags": ["helpless"]
+    },
+    {
+      "id": "helpless_231",
+      "text": "σ(´し_｀〃)ゞ",
+      "tags": ["helpless", "scratch"]
+    },
+    {
+      "id": "helpless_232",
+      "text": "ﾍ(´ω`)ゞ",
+      "tags": ["helpless", "scratch"]
+    },
+    {
+      "id": "helpless_233",
+      "text": "(ノ´＿ゝ｀）ノ",
+      "tags": ["hands-up", "helpless"]
+    },
+    {
+      "id": "helpless_234",
+      "text": "( Ĭ ^ Ĭ )",
+      "tags": ["crying", "helpless"]
+    },
+    {
+      "id": "helpless_235",
+      "text": "(*´ω｀)o",
+      "tags": ["helpless", "waving"]
+    },
+    {
+      "id": "helpless_236",
       "text": "_(-ω-`_)",
-      "tags": ["closed-eyes", "helpless", "speechless"]
+      "tags": ["closed-eyes", "helpless"]
+    },
+    {
+      "id": "helpless_237",
+      "text": "-⤙-",
+      "tags": ["closed-eyes", "displeased", "helpless"]
+    },
+    {
+      "id": "helpless_238",
+      "text": "(*-ω-)",
+      "tags": ["closed-eyes", "sleepy", "speechless"]
+    },
+    {
+      "id": "helpless_239",
+      "text": "＼(-o- )",
+      "tags": ["closed-eyes", "helpless", "waving"]
+    },
+    {
+      "id": "helpless_240",
+      "text": "( ´◔ ‸◔`)",
+      "tags": ["displeased", "helpless"]
+    },
+    {
+      "id": "helpless_242",
+      "text": "（￣ε￣＠）",
+      "tags": ["closed-eyes", "displeased", "helpless", "pouting"]
+    },
+    {
+      "id": "helpless_243",
+      "text": "(*´_ゝ｀)",
+      "tags": ["helpless"]
+    },
+    {
+      "id": "helpless_244",
+      "text": "(￢з￢)",
+      "tags": ["helpless", "pouting"]
+    },
+    {
+      "id": "helpless_245",
+      "text": "（´-`）. ｡oO",
+      "tags": ["helpless", "thinking"]
+    },
+    {
+      "id": "helpless_246",
+      "text": "୧( ˵ ° ~ ° ˵ )୨",
+      "tags": ["displeased", "hands-up", "helpless", "shy"]
+    },
+    {
+      "id": "helpless_247",
+      "text": "(*´罒`*)",
+      "tags": ["helpless"]
+    },
+    {
+      "id": "helpless_248",
+      "text": "(o´罒`o)",
+      "tags": ["helpless"]
+    },
+    {
+      "id": "helpless_249",
+      "text": "(´−｀) ﾝｰ",
+      "tags": ["helpless"]
+    },
+    {
+      "id": "helpless_251",
+      "text": "(ﾉ)- ω- (ヾ)ｽｷ♪",
+      "tags": ["closed-eyes", "hands-up", "helpless", "music", "sleepy"]
+    },
+    {
+      "id": "helpless_252",
+      "text": "(○´3｀)ﾉ",
+      "tags": ["hands-up", "helpless", "pouting", "waving"]
+    },
+    {
+      "id": "helpless_253",
+      "text": "٩(๑´3｀๑)۶",
+      "tags": ["hands-up", "helpless", "pouting"]
+    },
+    {
+      "id": "helpless_255",
+      "text": "(☆´3｀)",
+      "tags": ["helpless", "pouting", "star"]
+    },
+    {
+      "id": "helpless_257",
+      "text": "|(￣3￣)|",
+      "tags": ["closed-eyes", "helpless", "pouting"]
+    },
+    {
+      "id": "helpless_258",
+      "text": "(~￣³￣)~",
+      "tags": ["closed-eyes", "dancing", "helpless", "pouting"]
+    },
+    {
+      "id": "helpless_259",
+      "text": "(･´з`･)ゞ",
+      "tags": ["helpless", "pouting", "scratch"]
+    },
+    {
+      "id": "helpless_260",
+      "text": "(*´σЗ`)σ",
+      "tags": ["helpless", "pointing", "pouting"]
+    },
+    {
+      "id": "helpless_261",
+      "text": "(*´σ з｀) ～♪",
+      "tags": ["helpless", "music", "pointing", "pouting"]
+    },
+    {
+      "id": "helpless_262",
+      "text": "ヾ(´ε`ヾ)",
+      "tags": ["helpless", "hug", "pouting"]
+    },
+    {
+      "id": "helpless_264",
+      "text": "(*´з｀*)",
+      "tags": ["helpless", "pouting"]
+    },
+    {
+      "id": "helpless_265",
+      "text": "(*ノз`*)",
+      "tags": ["cover-face", "helpless", "pouting"]
+    },
+    {
+      "id": "helpless_266",
+      "text": "(╯3╰)",
+      "tags": ["helpless", "pouting", "sigh"]
+    },
+    {
+      "id": "helpless_267",
+      "text": "☆⌒ヽ(´ε｀ )",
+      "tags": ["helpless", "pouting", "star", "waving"]
+    },
+    {
+      "id": "helpless_268",
+      "text": "(人´З`)",
+      "tags": ["helpless", "please", "pouting"]
+    },
+    {
+      "id": "helpless_269",
+      "text": "(´з｀)⊃～",
+      "tags": ["helpless", "pouting"]
+    },
+    {
+      "id": "helpless_270",
+      "text": "(´._.`).｡o",
+      "tags": ["helpless", "neutral"]
+    },
+    {
+      "id": "helpless_271",
+      "text": "ミ☆(*._.)",
+      "tags": ["helpless", "neutral", "star"]
+    },
+    {
+      "id": "helpless_272",
+      "text": "(∗❛ัε ❛ั ๑ )",
+      "tags": ["displeased", "helpless", "pouting"]
+    },
+    {
+      "id": "helpless_273",
+      "text": "₍₍ (̨̡ ‾᷄ᗣ‾᷅ )̧̢ ₎₎",
+      "tags": ["closed-eyes", "helpless", "shout", "trembling"]
+    },
+    {
+      "id": "helpless_274",
+      "text": "v(´-ι_-｀)v",
+      "tags": ["helpless", "speechless"]
+    },
+    {
+      "id": "helpless_275",
+      "text": "( ج_ج )",
+      "tags": ["helpless", "speechless"]
+    },
+    {
+      "id": "helpless_276",
+      "text": "(´-ι_-｀)",
+      "tags": ["helpless", "sigh", "speechless"]
+    },
+    {
+      "id": "helpless_277",
+      "text": "(´-_ゝ-`)",
+      "tags": ["helpless", "sigh", "speechless"]
+    },
+    {
+      "id": "helpless_278",
+      "text": "(´ι_｀ )",
+      "tags": ["helpless", "sigh", "speechless"]
+    },
+    {
+      "id": "helpless_279",
+      "text": "(`L_` )",
+      "tags": ["helpless", "sigh", "speechless"]
+    },
+    {
+      "id": "helpless_280",
+      "text": "( ´_>`)",
+      "tags": ["helpless", "sigh", "speechless"]
+    },
+    {
+      "id": "helpless_281",
+      "text": "(;-_-)/",
+      "tags": ["helpless", "speechless"]
+    },
+    {
+      "id": "helpless_282",
+      "text": "(ノ´m｀)ノ",
+      "tags": ["helpless", "speechless"]
+    },
+    {
+      "id": "helpless_283",
+      "text": "(-ι_- )))。。。",
+      "tags": ["helpless", "speechless"]
+    },
+    {
+      "id": "helpless_284",
+      "text": "(・ω・｀)………..",
+      "tags": ["cute", "helpless", "speechless"]
+    },
+    {
+      "id": "helpless_285",
+      "text": "从´_υ｀从",
+      "tags": ["helpless", "sigh", "speechless"]
+    },
+    {
+      "id": "helpless_286",
+      "text": "(--_--)",
+      "tags": ["helpless", "sleepy", "speechless"]
+    },
+    {
+      "id": "helpless_287",
+      "text": "(‘A`)",
+      "tags": ["helpless"]
+    },
+    {
+      "id": "helpless_288",
+      "text": "Σ(´△｀Ⅲ)",
+      "tags": ["helpless", "sweat-drop"]
+    },
+    {
+      "id": "helpless_289",
+      "text": "(๑ó⌓ò๑)",
+      "tags": ["dazed", "helpless"]
+    },
+    {
+      "id": "helpless_290",
+      "text": "( •᷄⌓•᷅ )",
+      "tags": ["helpless"]
+    },
+    {
+      "id": "helpless_291",
+      "text": "┌(。Д。)┐",
+      "tags": ["helpless", "speechless", "surprised"]
+    },
+    {
+      "id": "helpless_292",
+      "text": "(;-_-)ノ",
+      "tags": ["helpless"]
+    },
+    {
+      "id": "helpless_293",
+      "text": "＼(-_- )",
+      "tags": ["helpless"]
+    },
+    {
+      "id": "helpless_294",
+      "text": "(￢ε￢　)",
+      "tags": ["displeased", "helpless", "pouting"]
+    },
+    {
+      "id": "helpless_295",
+      "text": "(ο´ω｀ο)ゝ",
+      "tags": ["happiness", "helpless", "scratch"]
+    },
+    {
+      "id": "helpless_296",
+      "text": "◔̯◔",
+      "tags": ["displeased", "helpless"]
+    },
+    {
+      "id": "helpless_297",
+      "text": "(๑´• ₃ •̀๑)",
+      "tags": ["cute", "displeased", "helpless"]
+    },
+    {
+      "id": "helpless_298",
+      "text": "⎛ -᷄ ᴥ -᷅ ⎞೯",
+      "tags": ["closed-eyes", "dog", "helpless"]
+    },
+    {
+      "id": "helpless_299",
+      "text": "(›´ω`‹ )",
+      "tags": ["helpless", "hungry"]
+    },
+    {
+      "id": "helpless_300",
+      "text": "〆(´ω`●)ゞ",
+      "tags": ["helpless", "scratch"]
+    },
+    {
+      "id": "helpless_305",
+      "text": "(=´ω`=)",
+      "tags": ["cute", "helpless"]
+    },
+    {
+      "id": "helpless_306",
+      "text": "o(´^｀)o",
+      "tags": ["displeased", "helpless"]
+    },
+    {
+      "id": "helpless_307",
+      "text": "(〃´Å｀〃)",
+      "tags": ["helpless", "sigh"]
+    },
+    {
+      "id": "helpless_308",
+      "text": "( *¯ ³¯*)♡",
+      "tags": ["closed-eyes", "helpless", "love", "pouting"]
+    },
+    {
+      "id": "helpless_309",
+      "text": "꒰ꌶ ̯ ̜ꌶ ꒱",
+      "tags": ["displeased", "helpless"]
+    },
+    {
+      "id": "helpless_310",
+      "text": "(*σ´益｀)σ",
+      "tags": ["helpless", "pointing"]
+    },
+    {
+      "id": "helpless_311",
+      "text": "( ´_ゝ｀)ﾉ",
+      "tags": ["helpless", "speechless", "waving"]
+    },
+    {
+      "id": "helpless_312",
+      "text": "•᷄⌓•",
+      "tags": ["helpless"]
+    },
+    {
+      "id": "helpless_313",
+      "text": "(///ˊㅿˋ///)",
+      "tags": ["helpless", "shy"]
+    },
+    {
+      "id": "helpless_314",
+      "text": "Σ(´д ` ﾒ)",
+      "tags": ["helpless"]
+    },
+    {
+      "id": "helpless_315",
+      "text": "( ´з｀)ﾉ⌒☆",
+      "tags": ["helpless", "pouting", "star", "waving"]
+    },
+    {
+      "id": "helpless_316",
+      "text": "ヽ(´Д｀ヽ",
+      "tags": ["helpless", "please", "shout", "waving"]
+    },
+    {
+      "id": "helpless_317",
+      "text": "( ∵´0`∵ )",
+      "tags": ["helpless"]
+    },
+    {
+      "id": "helpless_318",
+      "text": "∵ゞ(´ε｀●) ﾌﾞ!!",
+      "tags": ["helpless", "pouting", "scratch"]
     }
   ]
 }

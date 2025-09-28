@@ -5,57 +5,22 @@
     "zh-tw": "興奮"
   },
   "preview": "(ﾉ≧∀≦)ﾉ",
-  "lastUpdated": "2025-08-17",
+  "lastUpdated": "2025-09-27",
   "items": [
     {
       "id": "excited_001",
       "text": "⁽(◍˃̵͈̑ᴗ˂̵͈̑)⁽",
-      "tags": ["dancing", "happy", "thrilled"]
+      "tags": ["dancing", "hands-up", "smile", "thrilled"]
     },
     {
       "id": "excited_002",
       "text": "̋(๑˃́ꇴ˂̀๑)",
-      "tags": ["happy", "lol", "thrilled"]
-    },
-    {
-      "id": "excited_004",
-      "text": "(๑ᵒ̴̶̷͈᷄ᗨᵒ̴̶̷͈᷅)",
-      "tags": ["happy", "thrilled"]
-    },
-    {
-      "id": "excited_005",
-      "text": "*⸜( •ᴗ• )⸝*",
-      "tags": ["happy", "thrilled"]
-    },
-    {
-      "id": "excited_006",
-      "text": "(˶˚ ᗨ ˚˶)",
-      "tags": ["happy", "thrilled"]
-    },
-    {
-      "id": "excited_007",
-      "text": "✧⁺⸜(˙▾˙)⸝⁺✧",
-      "tags": ["happy", "sparkle", "thrilled"]
+      "tags": ["lol", "thrilled"]
     },
     {
       "id": "excited_008",
       "text": "(◍˃̶ᗜ˂̶◍)✩",
-      "tags": ["happy", "lol", "star", "thrilled"]
-    },
-    {
-      "id": "excited_009",
-      "text": "- ̗̀(ᵔ⌔ᵔ)´̖-",
-      "tags": ["cheer-up", "happy", "thrilled"]
-    },
-    {
-      "id": "excited_010",
-      "text": "੭ ˙ᗜ˙ )੭",
-      "tags": ["happy", "thrilled"]
-    },
-    {
-      "id": "excited_011",
-      "text": "✌︎︎• ◡•𝕪𝕖𝕖𝕖",
-      "tags": ["happy"]
+      "tags": ["lol", "star", "thrilled"]
     },
     {
       "id": "excited_012",
@@ -68,104 +33,44 @@
       "tags": ["happy", "love", "thrilled"]
     },
     {
-      "id": "excited_014",
-      "text": "✌︎˶╹ꇴ╹˶✌︎",
-      "tags": ["happy", "thrilled"]
-    },
-    {
-      "id": "excited_015",
-      "text": "ƪ(`▿▿▿▿´ƪ)",
-      "tags": ["thrilled"]
-    },
-    {
       "id": "excited_016",
       "text": "(σﾟ∀ﾟ)σ",
-      "tags": ["pointing", "thrilled"]
-    },
-    {
-      "id": "excited_017",
-      "text": "（☝ ՞ਊ ՞）☝",
-      "tags": ["thrilled"]
-    },
-    {
-      "id": "excited_018",
-      "text": "(☞^o^) ☞",
-      "tags": ["cheer-up", "happy", "pointing"]
-    },
-    {
-      "id": "excited_019",
-      "text": "(ง ˙o˙)ว",
-      "tags": ["dancing", "thrilled"]
+      "tags": ["mock", "pointing", "thrilled"]
     },
     {
       "id": "excited_020",
       "text": "d(ﾟ∀ﾟ )b",
-      "tags": ["like", "thrilled"]
-    },
-    {
-      "id": "excited_023",
-      "text": "(ﾉ≧∇≦)ﾉ ﾐ ┸━┸",
-      "tags": ["happy", "table-flip", "thrilled"]
-    },
-    {
-      "id": "excited_024",
-      "text": "(ﾉ*’‐’)ﾉ ﾐ ┸┸",
-      "tags": ["table-flip", "thrilled"]
-    },
-    {
-      "id": "excited_025",
-      "text": "／(* o *／)≡(＼* o *)＼",
-      "tags": ["nervous", "thrilled"]
-    },
-    {
-      "id": "excited_026",
-      "text": "ᕙ(☉ਊ☉)ᕗ",
-      "tags": ["muscle", "surprised", "thrilled"]
-    },
-    {
-      "id": "excited_027",
-      "text": "٩(ﾟ∀三ﾟ三∀ﾟ)",
-      "tags": ["nervous", "thrilled"]
-    },
-    {
-      "id": "excited_028",
-      "text": "ヾ(≧∇≦)ゞ",
-      "tags": ["happy", "salute", "thrilled"]
+      "tags": ["like", "mock", "thrilled"]
     },
     {
       "id": "excited_029",
       "text": "∠(*ﾟ∇ﾟ*)",
-      "tags": ["happy", "salute", "thrilled"]
+      "tags": ["happy", "thrilled"]
     },
     {
       "id": "excited_030",
       "text": "ヾ(≧ー≦)ゞ",
-      "tags": ["happy", "salute", "thrilled"]
-    },
-    {
-      "id": "excited_031",
-      "text": "(≧∇≦)/",
-      "tags": ["banzai", "happy"]
+      "tags": ["happy", "thrilled"]
     },
     {
       "id": "excited_032",
       "text": "(*●⁰ꈊ⁰●)ﾉ",
-      "tags": ["happy", "thrilled"]
+      "tags": ["hands-up", "happy", "thrilled"]
     },
     {
       "id": "excited_033",
       "text": "(◍˃̶ᗜ˂̶◍)ﾉ”",
-      "tags": ["happy", "lol", "thrilled"]
+      "tags": ["lol", "thrilled", "waving"]
     },
     {
       "id": "excited_034",
       "text": "(ж^□^ж)ﾉ",
-      "tags": ["happy", "lol", "thrilled"]
+      "tags": ["hands-up", "happy", "lol", "thrilled"]
     },
     {
       "id": "excited_035",
       "text": "ｰ(☆∀☆)/”",
-      "tags": ["happy", "sparkle", "thrilled"]
+      "tags": ["happy", "star", "thrilled"]
     },
     {
       "id": "excited_036",
@@ -174,33 +79,23 @@
     },
     {
       "id": "excited_037",
-      "text": "(✧∇✧)╯",
-      "tags": ["sparkle", "thrilled"]
+      "text": "(✧∇✧)",
+      "tags": ["confident", "sparkle", "thrilled"]
     },
     {
       "id": "excited_038",
       "text": "o(*’▽’*)/☆ﾟ’",
-      "tags": ["happy", "sparkle"]
-    },
-    {
-      "id": "excited_039",
-      "text": "( *՞ਊ՞*)ﾉ",
-      "tags": ["thrilled"]
+      "tags": ["happy", "sparkle", "star"]
     },
     {
       "id": "excited_040",
       "text": "(* ﾟ∀ﾟ)ﾉｼ",
-      "tags": ["happy", "thrilled"]
+      "tags": ["hands-up", "happy", "mock", "thrilled"]
     },
     {
       "id": "excited_041",
       "text": "ヾ(☆▽☆)",
-      "tags": ["thrilled"]
-    },
-    {
-      "id": "excited_042",
-      "text": "╰(✧∇✧)",
-      "tags": ["sparkle", "thrilled"]
+      "tags": ["star", "thrilled"]
     },
     {
       "id": "excited_043",
@@ -218,54 +113,14 @@
       "tags": ["love", "thrilled"]
     },
     {
-      "id": "excited_046",
-      "text": "ヽ(･∀･)ﾉ",
-      "tags": ["banzai", "happy"]
-    },
-    {
-      "id": "excited_047",
-      "text": "ヾ(๑ㆁᗜㆁ๑)ﾉ”",
-      "tags": ["happy", "lol", "thrilled"]
-    },
-    {
       "id": "excited_048",
       "text": "ヾ(Ő∀Ő๑)ﾉ",
-      "tags": ["happy", "thrilled"]
-    },
-    {
-      "id": "excited_049",
-      "text": "ヾ(๑╹ヮ╹๑)ﾉ”",
-      "tags": ["happy", "thrilled"]
-    },
-    {
-      "id": "excited_050",
-      "text": "ヽ(´▽`)ﾉ",
-      "tags": ["banzai", "happy"]
-    },
-    {
-      "id": "excited_051",
-      "text": "＼（＾∀＾）メ（＾∀＾）ノ",
-      "tags": ["friend", "happy"]
-    },
-    {
-      "id": "excited_052",
-      "text": "ヽ(＾▽＾)人(＾▽＾)人(＾▽＾)ﾉ",
-      "tags": ["friend", "happy"]
-    },
-    {
-      "id": "excited_053",
-      "text": "(∗ᵒ̶̶̷̀ω˂̶́∗)੭₎₎̊₊♡",
-      "tags": ["happy", "love", "thrilled"]
+      "tags": ["hands-up", "happy", "thrilled"]
     },
     {
       "id": "excited_054",
       "text": "(ﾉ≧∀≦)ﾉ",
-      "tags": ["hands-up", "happy", "thrilled"]
-    },
-    {
-      "id": "excited_055",
-      "text": "ヾ( ͝° ͜ʖ͡°)ノ♪",
-      "tags": ["confident", "dancing", "goofy", "music"]
+      "tags": ["hands-up", "thrilled"]
     },
     {
       "id": "excited_056",
@@ -273,24 +128,9 @@
       "tags": ["dancing", "happy", "thrilled"]
     },
     {
-      "id": "excited_057",
-      "text": "＼(^▽^＠)ノ",
-      "tags": ["banzai", "happy"]
-    },
-    {
       "id": "excited_058",
       "text": "ヽ( °◇°)ノ",
       "tags": ["thrilled"]
-    },
-    {
-      "id": "excited_059",
-      "text": "ヾ(＠^∇^＠)ノ",
-      "tags": ["banzai", "happy", "thrilled"]
-    },
-    {
-      "id": "excited_060",
-      "text": "╰(°ㅂ°)╯",
-      "tags": ["banzai", "thrilled"]
     },
     {
       "id": "excited_062",
@@ -320,102 +160,27 @@
     {
       "id": "excited_067",
       "text": "┌|≧∇≦|┘",
-      "tags": ["happy", "thrilled"]
-    },
-    {
-      "id": "excited_068",
-      "text": "♪┏(・o･)┛♪",
-      "tags": ["music", "surprised"]
-    },
-    {
-      "id": "excited_069",
-      "text": "“:♡.•♬✧⁽⁽ଘ( ˊᵕˋ )ଓ⁾⁾*+:•*∴",
-      "tags": ["dancing", "happy", "love", "music", "sparkle"]
-    },
-    {
-      "id": "excited_070",
-      "text": "╭(°ㅂ°)╮╰(°ㅂ°)╯╭(°ㅂ°)╮╰(°ㅂ°)╯",
-      "tags": ["banzai", "thrilled"]
-    },
-    {
-      "id": "excited_071",
-      "text": "＼(^o^)／",
-      "tags": ["banzai", "happy", "thrilled"]
-    },
-    {
-      "id": "excited_072",
-      "text": "(☆⊙∇⊙)爻(⊙∇⊙☆)",
-      "tags": ["friend", "thrilled"]
-    },
-    {
-      "id": "excited_073",
-      "text": "ヽ(*ﾟ｀∀´ﾟ)乂(´ﾟ∀ﾟ｀*)ﾉ",
-      "tags": ["friend", "happy", "thrilled"]
-    },
-    {
-      "id": "excited_074",
-      "text": "└(┐ﾞ’ωﾞ’ωﾞ`┘)┌",
-      "tags": ["dancing", "nervous"]
-    },
-    {
-      "id": "excited_075",
-      "text": "((((／￣∇￣)／＼(￣∇￣＼))))",
-      "tags": ["friend"]
+      "tags": ["dancing", "thrilled"]
     },
     {
       "id": "excited_076",
       "text": "ヾ(❛ε❛“)ʃ",
-      "tags": ["dancing", "kiss"]
+      "tags": ["dancing", "pouting"]
     },
     {
       "id": "excited_077",
       "text": "(*゜▽゜ノノ゛☆",
-      "tags": ["happy", "thrilled"]
-    },
-    {
-      "id": "excited_078",
-      "text": "（＾Ｏ＾☆♪",
-      "tags": ["happy", "music", "star", "thrilled"]
-    },
-    {
-      "id": "excited_079",
-      "text": "(ﾉ> ◇ <)ﾉ♪",
-      "tags": ["music", "shout", "thrilled"]
-    },
-    {
-      "id": "excited_080",
-      "text": "♪♪(o*゜∇゜)o～♪♪",
-      "tags": ["dancing", "happy", "music", "thrilled"]
-    },
-    {
-      "id": "excited_081",
-      "text": "ᒄ₍⁽ˆ⁰ˆ⁾₎ᒃ♪♬",
-      "tags": ["dancing", "happy", "music", "thrilled"]
-    },
-    {
-      "id": "excited_082",
-      "text": "꒰๑˃꒵˂꒱◞ ♪⋆ฺ｡",
-      "tags": ["cute", "happy", "music", "thrilled"]
-    },
-    {
-      "id": "excited_083",
-      "text": "♪!(^O^)y",
-      "tags": ["happy", "music"]
+      "tags": ["happy", "star", "thrilled"]
     },
     {
       "id": "excited_084",
       "text": "( ๑˃̶ ॣꇴ ॣ˂̶)♪⁺",
-      "tags": ["happy", "lol", "music", "thrilled"]
-    },
-    {
-      "id": "excited_085",
-      "text": "(((*°▽°*)八(*°▽°*)))♪",
-      "tags": ["friend", "happy", "music"]
+      "tags": ["lol", "music", "shy", "thrilled"]
     },
     {
       "id": "excited_086",
       "text": "(*≧▽≦)ﾉｼ))",
-      "tags": ["happy", "lol", "thrilled", "waving"]
+      "tags": ["hands-up", "happy", "lol", "thrilled", "waving"]
     },
     {
       "id": "excited_087",
@@ -423,19 +188,9 @@
       "tags": ["happy", "lol", "thrilled"]
     },
     {
-      "id": "excited_088",
-      "text": "(੭ु˙꒳​˙)੭ु⁾⁾",
-      "tags": ["cute", "dancing", "happy", "thrilled"]
-    },
-    {
       "id": "excited_089",
       "text": "꒰*⑅˃̶͈ ৺˂̶͈⑅꒱੭ु⁾⁾·°",
       "tags": ["cute", "thrilled"]
-    },
-    {
-      "id": "excited_090",
-      "text": "(੭ु˙꒳˙)੭ु⁾⁾*✭",
-      "tags": ["dancing", "happy", "star", "thrilled"]
     },
     {
       "id": "excited_091",
@@ -468,21 +223,6 @@
       "tags": ["happy", "thrilled"]
     },
     {
-      "id": "excited_097",
-      "text": "＼(o￣∇￣o)/",
-      "tags": ["banzai"]
-    },
-    {
-      "id": "excited_098",
-      "text": "*｡٩(ˊωˋ*)و✧*｡",
-      "tags": ["cheer-up", "motivated", "sparkle", "thrilled"]
-    },
-    {
-      "id": "excited_099",
-      "text": "٩(ˊᗜˋ*)و",
-      "tags": ["cheer-up", "happy", "motivated"]
-    },
-    {
       "id": "excited_100",
       "text": "(<●>ω<●>)✧",
       "tags": ["sparkle", "thrilled"]
@@ -493,24 +233,14 @@
       "tags": ["love", "thrilled"]
     },
     {
-      "id": "excited_102",
-      "text": "(∩˃o˂∩)♡",
-      "tags": ["cheer-up", "hands-up", "love", "shout", "thrilled"]
-    },
-    {
       "id": "excited_103",
       "text": "(*°∀°)=3",
       "tags": ["thrilled"]
     },
     {
-      "id": "excited_104",
-      "text": "ヽ(o♡o)/",
-      "tags": ["banzai", "love", "thrilled"]
-    },
-    {
       "id": "excited_105",
       "text": "☆^(o≧∀≦)o",
-      "tags": ["happy", "star", "thrilled"]
+      "tags": ["star", "thrilled"]
     },
     {
       "id": "excited_106",
@@ -520,7 +250,7 @@
     {
       "id": "excited_107",
       "text": "(✧∀✧)/",
-      "tags": ["sparkle", "thrilled"]
+      "tags": ["hands-up", "sparkle", "thrilled"]
     },
     {
       "id": "excited_108",
@@ -528,19 +258,9 @@
       "tags": ["thrilled"]
     },
     {
-      "id": "excited_110",
-      "text": "o(☆Ф∇Ф☆)o",
-      "tags": ["thrilled"]
-    },
-    {
-      "id": "excited_111",
-      "text": "˗ˏˋ(∩╹□╹∩)ˎˊ˗",
-      "tags": ["banzai", "cheer-up", "hands-up", "shout", "thrilled"]
-    },
-    {
       "id": "excited_112",
       "text": "(˶> <˶)♡",
-      "tags": ["love", "thrilled"]
+      "tags": ["love", "shy", "thrilled"]
     },
     {
       "id": "excited_116",
@@ -548,19 +268,9 @@
       "tags": ["dancing", "happy", "thrilled"]
     },
     {
-      "id": "excited_117",
-      "text": "٩(˵˃̶ω˂̶˵)◞",
-      "tags": ["cheer-up", "happy", "thrilled"]
-    },
-    {
       "id": "excited_118",
       "text": "⸜(･ิᴗ･ิ๑)⸝",
       "tags": ["happy", "thrilled"]
-    },
-    {
-      "id": "excited_119",
-      "text": "✧⁺⸜(●′▾‵●)⸝⁺✧",
-      "tags": ["sparkle", "thrilled"]
     },
     {
       "id": "excited_121",
@@ -578,89 +288,34 @@
       "tags": ["thrilled"]
     },
     {
-      "id": "excited_124",
-      "text": "( ✧ ̫ ✧ )",
-      "tags": ["sparkle", "thrilled"]
-    },
-    {
-      "id": "excited_125",
-      "text": "｡ﾟ･｡ﾟᐠ( ᐢ ᵕ ᐢ )ᐟ｡ﾟ･｡ﾟ",
-      "tags": ["banzai", "happy", "thrilled"]
-    },
-    {
-      "id": "excited_128",
-      "text": "(✧ᴗ✧✿)",
-      "tags": ["flower", "love", "sparkle", "thrilled"]
-    },
-    {
-      "id": "excited_129",
-      "text": "ﾌｧｲﾄｰ( ･ᴗ･ )⚐⚑⚐",
-      "tags": ["cheer-up"]
-    },
-    {
-      "id": "excited_130",
-      "text": "ᶠⁱᴳʰᵀᵎᵎ(*˙˘˙*)و⚑⁎",
-      "tags": ["cheer-up", "cute"]
-    },
-    {
-      "id": "excited_131",
-      "text": "※o(ωﾟ*)ﾌﾚｰ ※＼(*ﾟωﾟ*)/※ ﾌﾚｰ(*ﾟω)o※",
-      "tags": ["cheer-up"]
-    },
-    {
-      "id": "excited_132",
-      "text": "٩(๑´0`๑)۶",
-      "tags": ["banzai", "thrilled"]
-    },
-    {
-      "id": "excited_133",
-      "text": "♫.(◕∠◕).♫",
-      "tags": ["music", "thrilled"]
-    },
-    {
-      "id": "excited_134",
-      "text": "✧◝(⁰▿⁰)◜✧",
-      "tags": ["banzai", "sparkle", "thrilled"]
-    },
-    {
-      "id": "excited_135",
-      "text": "✧*｡٩(ˊᗜˋ*)و✧*｡",
-      "tags": ["banzai", "sparkle", "thrilled"]
-    },
-    {
-      "id": "excited_136",
-      "text": "⁽⁽◟(∗ ˊωˋ ∗)◞ ⁾⁾",
-      "tags": ["dancing", "thrilled"]
-    },
-    {
       "id": "excited_137",
       "text": "ヾﾉ≧∀≦)o",
-      "tags": ["happy", "thrilled", "waving"]
+      "tags": ["thrilled", "waving"]
     },
     {
       "id": "excited_138",
       "text": "(≧∀≦ゞ",
-      "tags": ["happy", "salute", "thrilled"]
+      "tags": ["scratch", "thrilled"]
     },
     {
       "id": "excited_139",
       "text": "―(≧∀≦)ゞ",
-      "tags": ["happy", "salute", "thrilled"]
+      "tags": ["scratch", "thrilled"]
     },
     {
       "id": "excited_140",
       "text": "(ﾉ≧∀≦)ﾉ ‥…━━━★",
-      "tags": ["attack", "hands-up", "happy", "star", "thrilled"]
+      "tags": ["hands-up", "magic", "star", "thrilled"]
     },
     {
       "id": "excited_141",
       "text": "ε=ε=ε=(ﾉ≧∀≦)ﾉ",
-      "tags": ["hands-up", "happy", "running", "thrilled"]
+      "tags": ["hands-up", "running", "thrilled"]
     },
     {
       "id": "excited_142",
       "text": "(つ≧▽≦)つ",
-      "tags": ["happy", "hug", "lol", "thrilled"]
+      "tags": ["hug", "lol", "thrilled"]
     },
     {
       "id": "excited_143",
@@ -680,12 +335,12 @@
     {
       "id": "excited_146",
       "text": "（≧▽≦）ゝ",
-      "tags": ["happy", "lol", "salute", "thrilled"]
+      "tags": ["happy", "lol", "thrilled"]
     },
     {
       "id": "excited_147",
       "text": "（≧▽≦）ゞ",
-      "tags": ["happy", "lol", "salute", "thrilled"]
+      "tags": ["happy", "lol", "scratch", "thrilled"]
     },
     {
       "id": "excited_148",
@@ -695,17 +350,17 @@
     {
       "id": "excited_149",
       "text": "≧ω≦",
-      "tags": ["cute", "happy", "thrilled"]
+      "tags": ["cute", "thrilled"]
     },
     {
       "id": "excited_150",
       "text": "ε===(っ≧ω≦)っ",
-      "tags": ["happy", "hug", "running", "thrilled"]
+      "tags": ["hug", "running", "thrilled"]
     },
     {
       "id": "excited_151",
       "text": "(≧ω≦)ゞ",
-      "tags": ["happy", "salute", "thrilled"]
+      "tags": ["scratch", "thrilled"]
     },
     {
       "id": "excited_152",
@@ -716,6 +371,76 @@
       "id": "excited_153",
       "text": "(ﾉ>ω<)ﾉ :｡･:*:･ﾟ’★",
       "tags": ["hands-up", "magic", "star", "thrilled"]
+    },
+    {
+      "id": "excited_155",
+      "text": "(♡ >ω< ♡)",
+      "tags": ["love", "thrilled"]
+    },
+    {
+      "id": "excited_156",
+      "text": "ε=(ノ≧∇≦）ノ",
+      "tags": ["hands-up", "running", "thrilled"]
+    },
+    {
+      "id": "excited_157",
+      "text": "(ﾉ≧∇≦)ﾉ ﾐ ┸━┸",
+      "tags": ["hands-up", "table-flip", "thrilled"]
+    },
+    {
+      "id": "excited_158",
+      "text": "(≧∇≦)b",
+      "tags": ["like", "thrilled"]
+    },
+    {
+      "id": "excited_160",
+      "text": "ε(๑> ₃ <)з",
+      "tags": ["pouting", "thrilled", "wings"]
+    },
+    {
+      "id": "excited_161",
+      "text": "⌯>3<⌯ಣ",
+      "tags": ["happiness", "pouting"]
+    },
+    {
+      "id": "excited_162",
+      "text": "(つ✧ω✧)つ",
+      "tags": ["hug", "sparkle", "thrilled"]
+    },
+    {
+      "id": "excited_163",
+      "text": "≧❀‿❀≦",
+      "tags": ["flower", "smile", "thrilled"]
+    },
+    {
+      "id": "excited_164",
+      "text": "d(≧︎▽︎≦︎*d)",
+      "tags": ["like", "thrilled"]
+    },
+    {
+      "id": "excited_165",
+      "text": "₍₍ ( ๑॔˃̶◡ ˂̶๑॓)◞♡",
+      "tags": ["dancing", "love", "smile", "thrilled"]
+    },
+    {
+      "id": "excited_167",
+      "text": "＼|*≧Д≦|>",
+      "tags": ["excited", "hands-up", "thrilled"]
+    },
+    {
+      "id": "excited_168",
+      "text": "(●o≧д≦)o",
+      "tags": ["thrilled"]
+    },
+    {
+      "id": "excited_171",
+      "text": "(≧д≦ヾ)",
+      "tags": ["thrilled"]
+    },
+    {
+      "id": "excited_172",
+      "text": "(≧д≦)",
+      "tags": ["thrilled"]
     }
   ]
 }

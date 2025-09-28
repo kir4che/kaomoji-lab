@@ -5,7 +5,7 @@
     "zh-tw": "其他"
   },
   "preview": "ʚ ɞ",
-  "lastUpdated": "2025-08-17",
+  "lastUpdated": "2025-09-28",
   "items": [
     {
       "id": "other_001",
@@ -25,17 +25,17 @@
     {
       "id": "other_005",
       "text": "ʚ ɞ",
-      "tags": ["angel", "wings"]
+      "tags": ["decoration", "wings"]
     },
     {
       "id": "other_006",
       "text": "⚚",
-      "tags": []
+      "tags": ["decoration"]
     },
     {
       "id": "other_007",
       "text": "ଲ",
-      "tags": ["cute"]
+      "tags": ["cute", "decoration"]
     },
     {
       "id": "other_009",
@@ -50,42 +50,42 @@
     {
       "id": "other_012",
       "text": "✿ യ ꕤ",
-      "tags": ["flower"]
+      "tags": ["decoration", "flower"]
     },
     {
       "id": "other_013",
       "text": "𖠚ᐝ",
-      "tags": []
+      "tags": ["decoration"]
     },
     {
       "id": "other_014",
       "text": "ᯤ",
-      "tags": []
+      "tags": ["decoration"]
     },
     {
       "id": "other_015",
       "text": "𓌉◯𓇋",
-      "tags": ["eating"]
+      "tags": ["decoration", "eating"]
     },
     {
       "id": "other_016",
       "text": "𖥧𓇣",
-      "tags": []
+      "tags": ["decoration"]
     },
     {
       "id": "other_017",
       "text": "𖢔꙳𐂂𖥧𖥧",
-      "tags": []
+      "tags": ["decoration"]
     },
     {
       "id": "other_018",
       "text": "±",
-      "tags": []
+      "tags": ["decoration"]
     },
     {
       "id": "other_019",
       "text": ".ᐟ.ᐟ",
-      "tags": ["surprised"]
+      "tags": ["decoration", "surprised"]
     },
     {
       "id": "other_020",
@@ -98,49 +98,29 @@
       "tags": []
     },
     {
-      "id": "other_023",
-      "text": "|⁰⊖⁰)",
-      "tags": ["angry", "peeking"]
-    },
-    {
       "id": "other_024",
       "text": "(「꒪౪꒪)」",
-      "tags": ["dancing", "goofy"]
-    },
-    {
-      "id": "other_025",
-      "text": "ヽ(￣ω￣(￣ω￣〃)ゝ",
-      "tags": ["friend", "salute"]
+      "tags": ["dancing"]
     },
     {
       "id": "other_026",
       "text": "(〠_〠)",
-      "tags": ["goofy"]
+      "tags": []
     },
     {
       "id": "other_027",
       "text": "(ꆤ⍸ꆤ)",
-      "tags": ["goofy"]
-    },
-    {
-      "id": "other_030",
-      "text": "( ｡_｡)",
-      "tags": ["thinking"]
+      "tags": []
     },
     {
       "id": "other_031",
       "text": "(。ⓥдⓥ)ノ",
-      "tags": ["goofy"]
-    },
-    {
-      "id": "other_032",
-      "text": "( ﾟｰﾟ)",
       "tags": []
     },
     {
       "id": "other_033",
       "text": "(ര⸏ुര)",
-      "tags": ["cute", "goofy"]
+      "tags": ["cute"]
     },
     {
       "id": "other_034",
@@ -150,27 +130,22 @@
     {
       "id": "other_035",
       "text": "(•Ṵ•)",
-      "tags": ["goofy"]
+      "tags": []
     },
     {
       "id": "other_036",
       "text": "(⁎छ˼̲̮छ)",
-      "tags": ["cute", "goofy"]
-    },
-    {
-      "id": "other_037",
-      "text": "( ˇ÷ˇ　 )",
-      "tags": ["speechless", "thinking"]
+      "tags": ["cute"]
     },
     {
       "id": "other_038",
       "text": "(⍬⍸⍬)",
-      "tags": ["goofy"]
+      "tags": []
     },
     {
       "id": "other_040",
       "text": "(♦亝д 亝)ﾉ",
-      "tags": ["goofy"]
+      "tags": ["hands-up"]
     },
     {
       "id": "other_041",
@@ -180,22 +155,7 @@
     {
       "id": "other_042",
       "text": "ヾ(´￢｀)ﾉ",
-      "tags": ["eating"]
-    },
-    {
-      "id": "other_044",
-      "text": "＿ø(●ʘ╻ʘ●)",
-      "tags": ["question", "startled", "writing"]
-    },
-    {
-      "id": "other_045",
-      "text": "└| ∵ |┘",
-      "tags": ["dazed", "speechless"]
-    },
-    {
-      "id": "other_046",
-      "text": "o|∵o|",
-      "tags": ["dazed", "speechless"]
+      "tags": ["eating", "hands-up"]
     },
     {
       "id": "other_047",
@@ -223,13 +183,8 @@
       "tags": ["crying"]
     },
     {
-      "id": "other_052",
-      "text": "╏つ” ⊡ 〜 ⊡ ” ╏つ",
-      "tags": ["hug"]
-    },
-    {
       "id": "other_053",
-      "text": "( ˘•૩•˘ ).｡oஇ",
+      "text": "( ˘•૩•˘ ).｡o",
       "tags": ["thinking"]
     },
     {
@@ -250,7 +205,7 @@
     {
       "id": "other_057",
       "text": "(´0ﾉ｀*)",
-      "tags": ["music"]
+      "tags": ["hands-up", "music"]
     },
     {
       "id": "other_058",
@@ -260,92 +215,62 @@
     {
       "id": "other_059",
       "text": "(்͂ॢ⁰்͂ॢ)३३३∾♪",
-      "tags": ["goofy", "music"]
+      "tags": ["music"]
     },
     {
       "id": "other_060",
       "text": "♪ꉂ ꊚ(ꈍꄱꆧ ) ♬♪",
-      "tags": ["goofy", "lol", "music"]
+      "tags": ["lol", "music"]
     },
     {
       "id": "other_061",
       "text": "(०՞კ՞)४♬♪",
-      "tags": ["dancing", "goofy", "music"]
+      "tags": ["dancing", "music"]
     },
     {
       "id": "other_062",
       "text": "౧(*മ് ധമ്)੭ु⁾⁾",
-      "tags": ["dancing", "goofy"]
-    },
-    {
-      "id": "other_063",
-      "text": "(खਉख)",
-      "tags": ["goofy", "speechless"]
+      "tags": ["dancing"]
     },
     {
       "id": "other_064",
       "text": "( ⓥωⓥ)",
-      "tags": ["goofy"]
+      "tags": []
     },
     {
       "id": "other_065",
       "text": "⁽⁽(ᵕ≀ ̠ᵕ ) ⋏º¬͜ Ɩ།",
-      "tags": ["dancing", "goofy", "sleepy"]
+      "tags": ["dancing", "sleepy"]
     },
     {
       "id": "other_066",
       "text": "ヽ( ̐〥 ̐)ﾉ",
-      "tags": ["goofy", "thrilled"]
+      "tags": ["hands-up"]
     },
     {
       "id": "other_067",
       "text": "(*＇◎＇)",
-      "tags": ["goofy"]
-    },
-    {
-      "id": "other_068",
-      "text": "웃♥유",
-      "tags": ["love"]
-    },
-    {
-      "id": "other_069",
-      "text": "ː̗̀٩꒰ꋃ꒱وː̖́",
-      "tags": ["cheer-up", "goofy", "motivated"]
+      "tags": []
     },
     {
       "id": "other_070",
       "text": "℃ↂ_ↂ",
-      "tags": ["goofy"]
+      "tags": []
     },
     {
       "id": "other_071",
       "text": "ɾ◉⊆◉ɹ",
-      "tags": ["goofy"]
+      "tags": ["big-eyes"]
     },
     {
       "id": "other_072",
       "text": ": ◉ ∧ ◉ : ╏",
-      "tags": ["goofy"]
-    },
-    {
-      "id": "other_074",
-      "text": "(ლ ۞ิ ჴ ۞ิ)ლ",
-      "tags": ["goofy"]
-    },
-    {
-      "id": "other_076",
-      "text": "(⑅∫°ਊ°)∫",
-      "tags": ["dancing", "goofy"]
+      "tags": ["big-eyes", "displeased"]
     },
     {
       "id": "other_077",
       "text": "◴_◶",
       "tags": []
-    },
-    {
-      "id": "other_078",
-      "text": "(◦△☆)~~!!!",
-      "tags": ["attack", "star", "surprised"]
     },
     {
       "id": "other_079",
@@ -355,17 +280,7 @@
     {
       "id": "other_080",
       "text": "ے( Ö )ص",
-      "tags": ["goofy", "surprised"]
-    },
-    {
-      "id": "other_081",
-      "text": "╰༼=ಠਊಠ=༽╯",
-      "tags": ["angry", "banzai"]
-    },
-    {
-      "id": "other_082",
-      "text": "へ( ʘ͡ ₒ ʘ͡ )╮/\\╱\\",
-      "tags": []
+      "tags": ["surprised"]
     },
     {
       "id": "other_083",
@@ -375,7 +290,7 @@
     {
       "id": "other_084",
       "text": "ꐑ(*ꐌ﹋ꐌꐐ*)",
-      "tags": ["goofy"]
+      "tags": []
     },
     {
       "id": "other_085",
@@ -388,59 +303,24 @@
       "tags": []
     },
     {
-      "id": "other_087",
-      "text": "ৎ୭",
-      "tags": []
-    },
-    {
-      "id": "other_088",
-      "text": "ᨼ ᩚ",
-      "tags": []
-    },
-    {
-      "id": "other_089",
-      "text": "( ∵´0`∵ )",
-      "tags": ["goofy"]
-    },
-    {
       "id": "other_090",
       "text": "(∴´⌒`∴)",
-      "tags": ["goofy", "happiness"]
-    },
-    {
-      "id": "other_091",
-      "text": "（∴°∀°∵）",
-      "tags": ["goofy"]
+      "tags": ["happiness"]
     },
     {
       "id": "other_092",
       "text": "(::^ω^::)",
-      "tags": ["goofy", "happy"]
-    },
-    {
-      "id": "other_093",
-      "text": "( :: °_° :: )",
-      "tags": ["dazed", "goofy", "speechless"]
+      "tags": ["happy"]
     },
     {
       "id": "other_094",
       "text": "( ∵˘ω˘∵ )",
-      "tags": ["goofy", "happiness"]
+      "tags": ["closed-eyes"]
     },
     {
       "id": "other_095",
       "text": "（∴・∀・∴）",
-      "tags": ["goofy", "happy"]
-    },
-    {
-      "id": "other_096",
-      "text": "(∴´ω`∴)",
-      "tags": ["goofy", "happiness"]
-    },
-    {
-      "id": "other_097",
-      "text": "(✿◠‿◠) GRACIAS (▰˘◡˘▰)",
-      "tags": ["cute", "flower", "grateful"]
+      "tags": ["happy"]
     },
     {
       "id": "other_098",
@@ -450,7 +330,7 @@
     {
       "id": "other_099",
       "text": "ʚ̴̶̷̆ ̫ ʚ̴̶̷̆",
-      "tags": ["angel", "cute", "wings"]
+      "tags": ["cute", "innocent"]
     },
     {
       "id": "other_100",
@@ -458,24 +338,9 @@
       "tags": ["serious"]
     },
     {
-      "id": "other_101",
-      "text": "૮ ․ ․ ྀིა",
-      "tags": ["animal", "speechless"]
-    },
-    {
-      "id": "other_102",
-      "text": "ධ̢•͙ꄃ̑•͙ຄ̏ධ̡",
-      "tags": ["goofy"]
-    },
-    {
       "id": "other_104",
       "text": "ᡣ . ̝ .ꛁּ.𓏸",
       "tags": ["cute"]
-    },
-    {
-      "id": "other_105",
-      "text": "(＊’͜’ )ʕ𐭩",
-      "tags": ["animal", "friend", "happy"]
     },
     {
       "id": "other_106",
@@ -505,12 +370,7 @@
     {
       "id": "other_111",
       "text": "⸌ ͔〠 ̖⸍⌕⁔͡⸌ ̗〠 ͕⸍⌕",
-      "tags": ["goofy"]
-    },
-    {
-      "id": "other_112",
-      "text": "໒꒰ྀི ๑˙―˙๑ ꒱ྀིა",
-      "tags": ["thinking"]
+      "tags": []
     },
     {
       "id": "other_113",
@@ -520,7 +380,7 @@
     {
       "id": "other_114",
       "text": "✌︎ ʘ̅͜ʘ̅",
-      "tags": ["goofy", "sunglasses"]
+      "tags": ["big-eyes", "smile"]
     },
     {
       "id": "other_115",
@@ -530,11 +390,6 @@
     {
       "id": "other_116",
       "text": "(σ回ω・)σ←↑→↓←↑",
-      "tags": []
-    },
-    {
-      "id": "other_117",
-      "text": "(ﾟДﾟ)σ━00000000000━●",
       "tags": []
     },
     {
@@ -548,24 +403,14 @@
       "tags": []
     },
     {
-      "id": "other_120",
-      "text": "=└(┐卍^o^)卍",
-      "tags": []
-    },
-    {
       "id": "other_122",
       "text": "ก₍⸍⸌̣ʷ̣̫⸍̣⸌₎ค",
-      "tags": ["dancing", "goofy"]
-    },
-    {
-      "id": "other_124",
-      "text": "(#‵)3′)▂▂▂▃▄▅～～～嗡嗡嗡嗡嗡",
-      "tags": []
+      "tags": ["dancing"]
     },
     {
       "id": "other_125",
       "text": "(*￣ii￣)",
-      "tags": ["thrilled"]
+      "tags": ["closed-eyes", "thrilled"]
     },
     {
       "id": "other_126",
@@ -575,32 +420,32 @@
     {
       "id": "other_127",
       "text": "(￣ ¨ヽ￣)",
-      "tags": ["thrilled"]
+      "tags": ["closed-eyes", "thrilled"]
     },
     {
       "id": "other_128",
       "text": "(￣ﾊ￣*)",
-      "tags": ["thrilled"]
+      "tags": ["closed-eyes", "thrilled"]
     },
     {
       "id": "other_129",
       "text": "(\\(￣ﾊ￣))",
-      "tags": ["thrilled"]
+      "tags": ["closed-eyes", "thrilled"]
     },
     {
       "id": "other_130",
       "text": "(￣ ;￣)",
-      "tags": []
+      "tags": ["closed-eyes"]
     },
     {
       "id": "other_131",
       "text": "(￣ ;;￣)",
-      "tags": []
+      "tags": ["closed-eyes"]
     },
     {
       "id": "other_132",
       "text": "(＾་།＾)",
-      "tags": ["thrilled"]
+      "tags": ["happy", "vomiting-blood"]
     },
     {
       "id": "other_133",
@@ -611,21 +456,6 @@
       "id": "other_136",
       "text": "(∩` ﾛ ´)⊃━炎炎炎炎炎",
       "tags": ["attack"]
-    },
-    {
-      "id": "other_137",
-      "text": "(＃￣□￣)o━∈・・━━━━☆",
-      "tags": ["angry", "attack"]
-    },
-    {
-      "id": "other_140",
-      "text": "(⊃｡•́‿•̀｡)⊃━✿✿✿✿✿✿",
-      "tags": ["cute", "flower"]
-    },
-    {
-      "id": "other_141",
-      "text": "(∩ᄑ_ᄑ)⊃━☆ﾟ*･｡*･:≡( ε:)",
-      "tags": []
     },
     {
       "id": "other_143",
@@ -640,7 +470,7 @@
     {
       "id": "other_145",
       "text": "!(;ﾟoﾟ)o/￣￣￣￣￣￣￣~ >ﾟ))))彡",
-      "tags": ["surprised"]
+      "tags": ["closed-eyes", "surprised"]
     },
     {
       "id": "other_148",
@@ -653,11 +483,6 @@
       "tags": []
     },
     {
-      "id": "other_150",
-      "text": "ヽ(；^ ^)ノﾞ ．．．...___〇",
-      "tags": []
-    },
-    {
       "id": "other_151",
       "text": "(=O*_*)=O Q(*_*Q)",
       "tags": []
@@ -665,192 +490,127 @@
     {
       "id": "other_152",
       "text": "Ю　○三　＼(￣^￣＼)",
-      "tags": []
-    },
-    {
-      "id": "other_153",
-      "text": "(˙ω˙)🎮(˙∀˙)🎮",
-      "tags": ["friend"]
-    },
-    {
-      "id": "other_154",
-      "text": "ଘ(੭*ˊᵕˋ)੭* ̀ˋ",
-      "tags": ["angel", "dancing", "happy"]
-    },
-    {
-      "id": "other_155",
-      "text": "ଘʕ੭·͡ᴥ·ʔ﻿ ੭",
-      "tags": ["angel", "bear", "hug"]
-    },
-    {
-      "id": "other_156",
-      "text": "ଘ(੭ˊᵕˋ)੭",
-      "tags": ["angel", "happy", "hug"]
-    },
-    {
-      "id": "other_157",
-      "text": "ଘ(੭ˊ◕ᵕ◕ˋ)੭†",
-      "tags": ["angel", "big-eyes", "cute"]
-    },
-    {
-      "id": "other_158",
-      "text": "ଘ(🌸o▿o)(≧U≦❁)β",
-      "tags": ["angel", "flower", "friend"]
-    },
-    {
-      "id": "other_159",
-      "text": "⁽⁽ଘ( ˊωˋ )ଓ⁾⁾",
-      "tags": ["angel", "dancing", "happy"]
+      "tags": ["closed-eyes"]
     },
     {
       "id": "other_160",
       "text": "ʚ(╹ڡ╹)ɞ",
-      "tags": ["angel", "cute"]
-    },
-    {
-      "id": "other_161",
-      "text": "ε٩(๑⌓̈๑)۶з",
-      "tags": ["angel", "cheer-up", "surprised"]
+      "tags": ["cute", "wings", "舔"]
     },
     {
       "id": "other_162",
       "text": "†_(ﾟｰﾟ*)β",
-      "tags": ["angel"]
+      "tags": ["wings"]
     },
     {
       "id": "other_163",
       "text": "ε (*´･ω･) з",
-      "tags": ["angel", "cute", "hug"]
+      "tags": ["cute", "hug", "wings"]
     },
     {
       "id": "other_164",
       "text": "((ε(*⌒▽⌒)†*ﾟ¨ﾟﾟ･*",
-      "tags": ["angel", "hug", "sparkle"]
+      "tags": ["hug", "sparkle", "wings"]
     },
     {
       "id": "other_165",
       "text": "(๑˘ᵕ˘)",
-      "tags": ["angel", "happiness", "smile"]
-    },
-    {
-      "id": "other_166",
-      "text": "⁽ ¨̮⁾⁽¨̮ ⁾*˚‧♡",
-      "tags": ["angel", "dancing", "love"]
+      "tags": ["happiness", "smile", "wings"]
     },
     {
       "id": "other_167",
       "text": "｡+.｡☆ﾟ:;｡+ﾟ ☆*ﾟ¨ﾟﾟ･*:..ﾞ((ε(*⌒▽⌒)†",
-      "tags": ["angel", "hug", "sparkle"]
-    },
-    {
-      "id": "other_168",
-      "text": "ε(*´･ω･)з",
-      "tags": ["angel", "hug"]
-    },
-    {
-      "id": "other_169",
-      "text": "_(꒪ཀ꒪」∠)_",
-      "tags": ["vomiting-blood"]
+      "tags": ["hug", "sparkle", "star", "wings"]
     },
     {
       "id": "other_171",
       "text": "₊⁺꒰ঌ˶ᵒᵕ˂˶໒꒱⁺₊",
-      "tags": ["angel", "happy", "sparkle", "wings"]
+      "tags": ["happy", "shy", "sparkle", "wings", "wink"]
     },
     {
       "id": "other_172",
       "text": "꒰ঌ^･֊･^໒꒱",
-      "tags": ["angel", "cute", "wings"]
+      "tags": ["cat", "cute", "smile", "wings"]
     },
     {
       "id": "other_174",
       "text": "꒰ঌ⁎⁍̴̛ᴗ⁍̴̛⁎໒꒱",
-      "tags": ["angel", "happy", "wings"]
+      "tags": ["cute", "smile", "wings"]
     },
     {
       "id": "other_175",
       "text": "꒰ঌ՞o̴̶̷̤ᾥo̴̶̷̤՞໒꒱",
-      "tags": ["angel", "angry", "wings"]
-    },
-    {
-      "id": "other_176",
-      "text": "꒰ঌ₍^._.^₎໒꒱",
-      "tags": ["angel", "cute", "wings"]
+      "tags": ["cute", "innocent", "wings"]
     },
     {
       "id": "other_177",
       "text": "꒰ঌ˶ᵔᗜᵔ˶໒꒱",
-      "tags": ["angel", "happy", "thrilled", "wings"]
+      "tags": ["happy", "shy", "wings"]
     },
     {
       "id": "other_178",
       "text": "꒰ঌ ˃ ᵕ ˂ ໒꒱",
-      "tags": ["angel", "happy", "thrilled", "wings"]
+      "tags": ["smile", "wings"]
     },
     {
       "id": "other_179",
       "text": "꒰ঌ◍˃̶ᗜ˂̶◍໒꒱",
-      "tags": ["angel", "happy", "lol", "wings"]
+      "tags": ["lol", "thrilled", "wings"]
     },
     {
       "id": "other_180",
       "text": "꒰ঌ=>ω<=໒꒱",
-      "tags": ["angel", "happy", "wings"]
+      "tags": ["happy", "wings"]
     },
     {
       "id": "other_181",
       "text": "꒰ঌo･∞︎･o໒꒱",
-      "tags": ["angel", "wings"]
+      "tags": ["animal", "wings"]
     },
     {
       "id": "other_182",
       "text": "꒰ঌ>ᴗO໒꒱",
-      "tags": ["angel", "happy", "wings", "wink"]
+      "tags": ["smile", "wings", "wink"]
     },
     {
       "id": "other_183",
       "text": "꒰ঌ`ᝫ´໒꒱",
-      "tags": ["angel", "angry", "wings"]
+      "tags": ["angry", "wings"]
     },
     {
       "id": "other_184",
       "text": "꒰ঌ⌯‘ㅅ’⌯ ໒꒱",
-      "tags": ["angel", "cute", "wings"]
+      "tags": ["animal", "wings"]
     },
     {
       "id": "other_185",
       "text": "꒰ঌ⬮𖧉⬮໒꒱",
-      "tags": ["angel", "wings"]
+      "tags": ["animal", "big-eyes", "wings"]
     },
     {
       "id": "other_186",
       "text": "꒰ঌ✪ω✪໒꒱",
-      "tags": ["angel", "thrilled", "wings"]
+      "tags": ["star", "thrilled", "wings"]
     },
     {
       "id": "other_188",
       "text": "꒰ঌ๑º꒳º๑໒꒱",
-      "tags": ["angel", "happiness", "happy", "wings"]
+      "tags": ["happy", "wings"]
     },
     {
       "id": "other_189",
       "text": "꒰ঌꈍ𖥦ꈍ໒꒱",
-      "tags": ["angel", "happy", "shy", "wings"]
+      "tags": ["happy", "shy", "wings"]
     },
     {
       "id": "other_190",
       "text": "꒰ঌ՞ ̳o̴̶̷̤ ̫ o̴̶̷̤ ̳՞໒꒱",
-      "tags": ["angel", "cute", "surprised", "wings"]
+      "tags": ["cute", "innocent", "shy", "wings"]
     },
     {
       "id": "other_191",
       "text": "꒰ঌ‧‧໒꒱",
-      "tags": ["angel", "wings"]
-    },
-    {
-      "id": "other_193",
-      "text": "(* ˊ͈ ᐞ ˋ͈ )✿.*・✿.*・",
-      "tags": ["cute", "flower", "happy"]
+      "tags": ["neutral", "wings"]
     },
     {
       "id": "other_194",
@@ -860,32 +620,12 @@
     {
       "id": "other_195",
       "text": "｡･ﾟ｡+ﾟ*｡ﾟ･ｻｸｰﾗ(*ﾟ∀)*´∀)*`∀)ｷﾚｰｲ｡･ﾟ｡+ﾟ*｡ﾟ･",
-      "tags": ["flower", "happy"]
-    },
-    {
-      "id": "other_196",
-      "text": "(✿´꒳`)ﾉ°*❀",
-      "tags": ["flower"]
+      "tags": ["happy", "mock"]
     },
     {
       "id": "other_197",
       "text": "🌸sακυяαꕤ*",
       "tags": ["flower", "text"]
-    },
-    {
-      "id": "other_198",
-      "text": "🌸:*:･:*:❀(*´ω`*)❀:*:･:*:🌸",
-      "tags": ["flower", "happiness", "happy"]
-    },
-    {
-      "id": "other_199",
-      "text": "(🌸❛ ֊ ❛„)",
-      "tags": ["flower", "happiness", "happy"]
-    },
-    {
-      "id": "other_200",
-      "text": "🌸( '-' 🍡）",
-      "tags": ["eating", "flower"]
     },
     {
       "id": "other_204",
@@ -895,12 +635,7 @@
     {
       "id": "other_205",
       "text": "[̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]",
-      "tags": ["confident", "goofy"]
-    },
-    {
-      "id": "other_206",
-      "text": "(ಠ_ಠ)",
-      "tags": ["angry", "speechless"]
+      "tags": ["confident", "lenny-face", "smile"]
     },
     {
       "id": "other_207",
@@ -913,19 +648,9 @@
       "tags": ["scared"]
     },
     {
-      "id": "other_210",
-      "text": "(　･ω･)☞",
-      "tags": ["pointing"]
-    },
-    {
-      "id": "other_211",
-      "text": "(⌐■_■)",
-      "tags": ["confident", "sunglasses"]
-    },
-    {
       "id": "other_212",
       "text": "(◕‿◕✿)",
-      "tags": ["big-eyes", "cute", "flower", "happy"]
+      "tags": ["big-eyes", "cute", "flower", "smile"]
     },
     {
       "id": "other_213",
@@ -940,32 +665,17 @@
     {
       "id": "other_215",
       "text": "‿︵‿︵‿︵‿ヽ(°□° )ノ︵‿︵‿︵‿︵",
-      "tags": []
+      "tags": ["smile"]
     },
     {
       "id": "other_216",
       "text": "( • )( • )ԅ(≖‿≖ԅ)",
-      "tags": ["confident", "pinch"]
-    },
-    {
-      "id": "other_217",
-      "text": "( ＾▽＾)っ✂╰⋃╯",
-      "tags": []
+      "tags": ["confident", "grab", "smile"]
     },
     {
       "id": "other_218",
       "text": "〜〜(／￣▽)／　〜ф",
       "tags": ["happy"]
-    },
-    {
-      "id": "other_219",
-      "text": "ଘ(੭ˊᵕˋ)੭* ੈ✩‧₊˚",
-      "tags": ["angel", "cute", "sparkle"]
-    },
-    {
-      "id": "other_220",
-      "text": "ଘ(੭ˊ꒳​ˋ)੭✧",
-      "tags": ["angel", "cute", "sparkle"]
     },
     {
       "id": "other_221",
@@ -975,16 +685,11 @@
     {
       "id": "other_223",
       "text": "／/( ◕‿‿◕ )＼",
-      "tags": ["big-eyes"]
+      "tags": ["big-eyes", "smile"]
     },
     {
       "id": "other_224",
       "text": "⧸⎩⎠⎞͏(・∀・)⎛͏⎝⎭⧹",
-      "tags": []
-    },
-    {
-      "id": "other_226",
-      "text": "(◓Д◒)✄╰⋃╯",
       "tags": []
     },
     {
@@ -993,139 +698,9 @@
       "tags": ["shout"]
     },
     {
-      "id": "other_228",
-      "text": "ヾ(・ω・)メ(・ω・)ノ",
-      "tags": ["friend", "happy"]
-    },
-    {
-      "id": "other_229",
-      "text": "ヽ(∀° )人( °∀)ノ",
-      "tags": ["friend"]
-    },
-    {
-      "id": "other_230",
-      "text": "ヽ( ⌒o⌒)人(⌒-⌒ )ﾉ",
-      "tags": ["friend", "happy"]
-    },
-    {
-      "id": "other_231",
-      "text": "(*^ω^)八(⌒▽⌒)八(-‿‿- )ヽ",
-      "tags": ["friend", "happy"]
-    },
-    {
-      "id": "other_232",
-      "text": "＼(＾∀＾)メ(＾∀＾)ノ",
-      "tags": ["friend", "happy"]
-    },
-    {
-      "id": "other_235",
-      "text": "ヽ(≧◡≦)八(o^ ^o)ノ",
-      "tags": ["friend", "happy"]
-    },
-    {
-      "id": "other_236",
-      "text": "(*・∀・)爻(・∀・*)",
-      "tags": ["friend", "happy"]
-    },
-    {
-      "id": "other_237",
-      "text": "｡*:☆(・ω・人・ω・)｡:゜☆｡",
-      "tags": ["friend", "happy", "sparkle"]
-    },
-    {
-      "id": "other_238",
-      "text": "o(^^o)(o^^o)(o^^o)(o^^)o",
-      "tags": ["dancing", "friend", "happy"]
-    },
-    {
-      "id": "other_239",
-      "text": "(((￣(￣(￣▽￣)￣)￣)))",
-      "tags": ["friend", "happy"]
-    },
-    {
-      "id": "other_240",
-      "text": "(°(°ω(°ω°(☆ω☆)°ω°)ω°)°)",
-      "tags": ["friend", "thrilled"]
-    },
-    {
-      "id": "other_241",
-      "text": "ヾ(・ω・`)ノヾ(´・ω・)ノ゛",
-      "tags": ["comfort", "friend"]
-    },
-    {
-      "id": "other_242",
-      "text": "Ψ( `∀)(∀´ )Ψ",
-      "tags": ["confident", "devil", "friend"]
-    },
-    {
-      "id": "other_243",
-      "text": "(っ˘▽˘)(˘▽˘)˘▽˘ς)",
-      "tags": ["friend", "happy", "hug"]
-    },
-    {
-      "id": "other_244",
-      "text": "(((*°▽°*)八(*°▽°*)))",
-      "tags": ["friend", "thrilled"]
-    },
-    {
-      "id": "other_245",
-      "text": "☆ヾ(*´・∀・)ﾉヾ(・∀・`*)ﾉ☆",
-      "tags": ["friend", "happy", "sparkle"]
-    },
-    {
-      "id": "other_246",
-      "text": "(*＾ω＾)人(＾ω＾*)",
-      "tags": ["friend", "happy"]
-    },
-    {
-      "id": "other_247",
-      "text": "٩(๑･ิᴗ･ิ)۶٩(･ิᴗ･ิ๑)۶",
-      "tags": ["cheer-up", "friend", "happy"]
-    },
-    {
-      "id": "other_248",
-      "text": "(☞°ヮ°)☞ ☜(°ヮ°☜)",
-      "tags": ["friend", "pointing"]
-    },
-    {
-      "id": "other_249",
-      "text": "＼(▽￣ \\ (￣▽￣) / ￣▽)／",
-      "tags": ["dancing", "friend", "happy"]
-    },
-    {
-      "id": "other_250",
-      "text": "\\( ˙▿˙ )/\\( ˙▿˙ )/",
-      "tags": ["banzai", "friend", "happy"]
-    },
-    {
-      "id": "other_252",
-      "text": "(´>∀)人(´・ω・)ﾉヽ(・ε・*)人(-д-`)",
-      "tags": ["friend"]
-    },
-    {
-      "id": "other_253",
-      "text": "ヽ(∀ﾟ )人(ﾟ∀ﾟ)人( ﾟ∀)人(∀ﾟ )人(ﾟ∀ﾟ)人( ﾟ∀)ﾉ",
-      "tags": ["friend"]
-    },
-    {
-      "id": "other_254",
-      "text": "(´･д･｀)ﾊ(･д･｀*)",
-      "tags": ["friend"]
-    },
-    {
-      "id": "other_255",
-      "text": "(っ˘ڡ˘ς)",
-      "tags": ["eating"]
-    },
-    {
       "id": "other_256",
       "text": "( o˘◡˘o) ┌iii┐",
       "tags": ["happy"]
-    },
-    {
-      "id": "other_257",
-      "text": "(　’ω’)旦~~",
-      "tags": []
     },
     {
       "id": "other_260",
@@ -1148,36 +723,6 @@
       "tags": []
     },
     {
-      "id": "other_264",
-      "text": "(*´ー`)旦 旦(￣ω￣*)",
-      "tags": ["friend"]
-    },
-    {
-      "id": "other_265",
-      "text": "(*´з`)口ﾟ｡ﾟ口(・∀・ )",
-      "tags": ["friend", "happy"]
-    },
-    {
-      "id": "other_266",
-      "text": "( o^ ^o)且 且(´ω`*)",
-      "tags": ["friend"]
-    },
-    {
-      "id": "other_268",
-      "text": "( *^^)o∀*∀o(^^* )",
-      "tags": ["friend", "happy"]
-    },
-    {
-      "id": "other_269",
-      "text": "( ^^)_旦~~　 ~~U_(^^ )",
-      "tags": ["friend"]
-    },
-    {
-      "id": "other_270",
-      "text": "(*￣▽￣)旦 且(´∀`*)",
-      "tags": ["friend", "happy"]
-    },
-    {
       "id": "other_271",
       "text": "-●●●-ｃ(・・ )",
       "tags": ["eating"]
@@ -1185,7 +730,7 @@
     {
       "id": "other_272",
       "text": "( ・・)つ―●○◎-",
-      "tags": []
+      "tags": ["dango", "eating"]
     },
     {
       "id": "other_274",
@@ -1195,27 +740,22 @@
     {
       "id": "other_278",
       "text": "( • )( • ) ԅ(‾⌣‾ԅ)",
-      "tags": ["confident", "pinch"]
-    },
-    {
-      "id": "other_279",
-      "text": "(◕__◕✿)",
-      "tags": ["big-eyes", "dazed", "flower", "speechless"]
+      "tags": ["confident", "grab"]
     },
     {
       "id": "other_281",
       "text": "(◕ ᥥ ◕✿)",
-      "tags": ["big-eyes", "cute", "flower"]
+      "tags": ["big-eyes", "displeased", "flower"]
     },
     {
       "id": "other_282",
       "text": "(✿☯‿☯✿)",
-      "tags": ["flower", "happiness"]
+      "tags": ["flower", "smile"]
     },
     {
       "id": "other_283",
       "text": "(︠ʘ ˆ ︠ʘ✿)",
-      "tags": ["flower", "serious"]
+      "tags": ["big-eyes", "displeased", "flower"]
     },
     {
       "id": "other_286",
@@ -1233,24 +773,9 @@
       "tags": ["serious"]
     },
     {
-      "id": "other_289",
-      "text": "ͼ(ݓ_ݓ)ͽ",
-      "tags": ["goofy", "speechless"]
-    },
-    {
-      "id": "other_290",
-      "text": "░ ര Ĺ̯ ര ░",
-      "tags": ["serious"]
-    },
-    {
       "id": "other_291",
       "text": "˙³˙",
-      "tags": ["kiss"]
-    },
-    {
-      "id": "other_293",
-      "text": "▼o'ᆺ'o▼⚡️",
-      "tags": ["cute", "lightning"]
+      "tags": ["pouting"]
     },
     {
       "id": "other_295",
@@ -1258,44 +783,19 @@
       "tags": ["big-eyes", "cute", "dog", "hug"]
     },
     {
-      "id": "other_296",
-      "text": "(*･ω･)/''' ｲﾃﾗｰ♪",
-      "tags": ["cheer-up", "greeting", "music"]
-    },
-    {
       "id": "other_297",
       "text": "(･ิω･ิ)",
       "tags": ["confused", "thinking"]
     },
     {
-      "id": "other_298",
-      "text": "¯\\\\_( ͡° ͜ʖ ͡°)_/¯",
-      "tags": ["shrug", "speechless"]
-    },
-    {
       "id": "other_299",
       "text": "( ͡ ͡° ͜ ʖ ͡ ͡°)",
-      "tags": ["goofy", "thinking"]
+      "tags": ["lenny-face", "smile", "thinking"]
     },
     {
       "id": "other_300",
       "text": "ॱଳॱ",
-      "tags": ["goofy"]
-    },
-    {
-      "id": "other_301",
-      "text": "( ಠ ಠ )",
-      "tags": ["speechless"]
-    },
-    {
-      "id": "other_302",
-      "text": "(◔ д◔)",
-      "tags": ["speechless"]
-    },
-    {
-      "id": "other_303",
-      "text": "눈_눈",
-      "tags": ["serious", "speechless"]
+      "tags": ["vomiting-blood"]
     },
     {
       "text": "ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ",
@@ -1340,7 +840,7 @@
     {
       "id": "other_315",
       "text": "˚ʚ｡･-･｡ɞ˚",
-      "tags": ["angel", "wings"]
+      "tags": ["wings"]
     },
     {
       "id": "other_316",
@@ -1355,37 +855,772 @@
     {
       "id": "other_318",
       "text": "(ﾟ3ﾟ)～♪",
-      "tags": ["music", "pout"]
-    },
-    {
-      "id": "other_319",
-      "text": "⁽⁽ପ( •ु﹃ •ु)​.⑅*♡",
-      "tags": ["drooling", "love", "wings"]
-    },
-    {
-      "id": "other_320",
-      "text": "(☞三☞ ఠ ਉ ఠ))☞三☞",
-      "tags": ["excited", "mock", "pointing"]
-    },
-    {
-      "id": "other_321",
-      "text": "（☞´^ิ∀^ิ｀）☞",
-      "tags": ["goofy", "mock", "pointing"]
-    },
-    {
-      "id": "other_322",
-      "text": "(*･ω･)✎",
-      "tags": ["writing"]
+      "tags": ["music", "pouting"]
     },
     {
       "id": "other_323",
       "text": "(*ﾟﾉOﾟ)",
-      "tags": ["shout"]
+      "tags": ["hands-up", "shout"]
     },
     {
       "id": "other_324",
       "text": "ໂ‧͡‧̫ໃ⚡︎",
       "tags": ["lightning"]
+    },
+    {
+      "id": "other_325",
+      "text": "／(* o *／)≡(＼* o *)＼",
+      "tags": ["dizzy", "group"]
+    },
+    {
+      "id": "other_326",
+      "text": "(　³ω³ )",
+      "tags": ["pouting"]
+    },
+    {
+      "id": "other_327",
+      "text": "(๑¯︻¯)口からケチャップ♥",
+      "tags": ["closed-eyes", "love", "vomiting-blood"]
+    },
+    {
+      "id": "other_328",
+      "text": "¯\\(◉‿◉)/¯",
+      "tags": ["big-eyes", "scheming", "shrug", "smile"]
+    },
+    {
+      "id": "other_329",
+      "text": "◉‿◉",
+      "tags": ["big-eyes", "scheming", "smile"]
+    },
+    {
+      "id": "other_330",
+      "text": "ε(´･●_･｀)з",
+      "tags": ["wings"]
+    },
+    {
+      "id": "other_331",
+      "text": "(ᵕ≀ ̠ᵕ )",
+      "tags": ["closed-eyes"]
+    },
+    {
+      "id": "other_332",
+      "text": "(▰˘o˘▰)",
+      "tags": ["closed-eyes"]
+    },
+    {
+      "id": "other_333",
+      "text": "⋆ᙏ *",
+      "tags": ["decoration", "rabbit", "star"]
+    },
+    {
+      "id": "other_334",
+      "text": "- ̗̀ ⸜՞•𖥦•՞⸝ ̖́-",
+      "tags": ["cute"]
+    },
+    {
+      "id": "other_335",
+      "text": "☀(▀U ▀-͠)",
+      "tags": ["happy", "sunglasses"]
+    },
+    {
+      "id": "other_336",
+      "text": "(̿▀̿ ̿Ĺ̯̿̿▀̿ ̿)̄",
+      "tags": ["displeased", "serious", "sunglasses"]
+    },
+    {
+      "id": "other_337",
+      "text": "┌༼▀̿̿Ĺ̯̿̿▀̿༽┘",
+      "tags": ["dancing", "displeased", "serious", "sunglasses"]
+    },
+    {
+      "id": "other_338",
+      "text": "(⌐▨_▨)",
+      "tags": ["speechless", "sunglasses"]
+    },
+    {
+      "id": "other_339",
+      "text": "(⌐▀͡ ̯ʖ▀)",
+      "tags": ["displeased", "serious", "sunglasses"]
+    },
+    {
+      "id": "other_340",
+      "text": "┌(▀Ĺ̯▀)┐",
+      "tags": ["displeased", "serious", "shrug", "sunglasses"]
+    },
+    {
+      "id": "other_341",
+      "text": "☀🌴༼▀̿ Ĺ̯▀̿༽",
+      "tags": ["displeased", "serious", "sunglasses"]
+    },
+    {
+      "id": "other_342",
+      "text": "(´°ω°`)",
+      "tags": ["dazed"]
+    },
+    {
+      "id": "other_343",
+      "text": "• ༝ •",
+      "tags": ["cute", "speechless", "x-mouth"]
+    },
+    {
+      "id": "other_345",
+      "text": "( ·•︡•︠)ʕ𐭩",
+      "tags": ["like"]
+    },
+    {
+      "id": "other_346",
+      "text": "┬┴┬┴┤( ͡° ͜ʖ├┬┴┬┴",
+      "tags": ["lenny-face", "peeking", "smile"]
+    },
+    {
+      "id": "other_347",
+      "text": "( ͡° ͜ʖ ͡°)",
+      "tags": ["lenny-face", "smile"]
+    },
+    {
+      "id": "other_348",
+      "text": "╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ",
+      "tags": ["hands-up", "lenny-face", "magic", "smile", "star"]
+    },
+    {
+      "id": "other_349",
+      "text": "( ° ͜ʖ͡°)╭∩╮",
+      "tags": ["angry", "lenny-face", "scheming", "smile"]
+    },
+    {
+      "id": "other_350",
+      "text": "/╲/\\╭( ͡°͡° ͜ʖ ͡°͡°)╮/\\╱\\",
+      "tags": ["lenny-face", "smile"]
+    },
+    {
+      "id": "other_353",
+      "text": "༼ つ ͡ ͡° ͜ ʖ ͡ ͡° ༽つ",
+      "tags": ["hug", "lenny-face", "smile"]
+    },
+    {
+      "id": "other_354",
+      "text": "（͡°͜ʖ͡°）",
+      "tags": ["lenny-face", "smile"]
+    },
+    {
+      "id": "other_355",
+      "text": "ヾ( ͝° ͜ʖ͡°)ノ♪",
+      "tags": ["dancing", "lenny-face", "music", "smile"]
+    },
+    {
+      "id": "other_356",
+      "text": "¯\\\\_( ͡° ͜ʖ ͡°)_/¯",
+      "tags": ["lenny-face", "shrug", "smile"]
+    },
+    {
+      "id": "other_357",
+      "text": "༼ つ ͠° ͟ ͟ʖ ͡° ༽つ",
+      "tags": ["displeased", "hug", "lenny-face", "serious"]
+    },
+    {
+      "id": "other_358",
+      "text": "ᶘ ͡°ᴥ͡°ᶅ",
+      "tags": ["bear", "dog", "lenny-face"]
+    },
+    {
+      "id": "other_359",
+      "text": "( ง ͡°╭ ͟ʖ╮͡° ) ง",
+      "tags": ["displeased", "lenny-face", "serious"]
+    },
+    {
+      "id": "other_360",
+      "text": "( ͡°Ĺ̯̿̿ ͡°)",
+      "tags": ["displeased", "lenny-face", "serious"]
+    },
+    {
+      "id": "other_361",
+      "text": "〳 ͡° Ĺ̯ ͡° 〵",
+      "tags": ["displeased", "lenny-face", "serious"]
+    },
+    {
+      "id": "other_362",
+      "text": "͠° ͟ʖ ͡°",
+      "tags": ["confused", "lenny-face", "serious"]
+    },
+    {
+      "id": "other_363",
+      "text": "ゞ( ͡°⍛ ͡°)ゞ",
+      "tags": ["confused", "lenny-face", "scratch"]
+    },
+    {
+      "id": "other_364",
+      "text": "( ͡° ʖ̯ ͡°)",
+      "tags": ["displeased", "lenny-face"]
+    },
+    {
+      "id": "other_365",
+      "text": "( ͠° ͟ʖ ͡°)",
+      "tags": ["confused", "displeased", "lenny-face"]
+    },
+    {
+      "id": "other_366",
+      "text": "(•‿•)",
+      "tags": ["smile"]
+    },
+    {
+      "id": "other_367",
+      "text": "( ˘ ɜ˘) ♬♪♫",
+      "tags": ["closed-eyes", "music", "pouting"]
+    },
+    {
+      "id": "other_368",
+      "text": "♡ (ʘ ꒳ ʘ✿)",
+      "tags": ["big-eyes", "cute", "flower", "love"]
+    },
+    {
+      "id": "other_369",
+      "text": "(ʘ ͜ʖ ʘ)",
+      "tags": ["big-eyes", "smile"]
+    },
+    {
+      "id": "other_370",
+      "text": "(ㆆᴗㆆ)",
+      "tags": ["smile"]
+    },
+    {
+      "id": "other_371",
+      "text": "( “･ω･ﾞ)",
+      "tags": ["cute", "sweat-drop"]
+    },
+    {
+      "id": "other_372",
+      "text": "( 〃．．)",
+      "tags": ["neutral"]
+    },
+    {
+      "id": "other_373",
+      "text": ".｡Oᐡ(⁎°ᴗ°⁎ᐡ )",
+      "tags": ["animal", "cute", "smile"]
+    },
+    {
+      "id": "other_374",
+      "text": "(❦ ᴗ ❦ ✿)",
+      "tags": ["flower", "smile"]
+    },
+    {
+      "id": "other_375",
+      "text": "（○゜ε＾○）",
+      "tags": ["wink", "pouting"]
+    },
+    {
+      "id": "other_376",
+      "text": "(˳˘ ɜ˘)˳ ♬♪♫",
+      "tags": ["closed-eyes", "music", "pouting"]
+    },
+    {
+      "id": "other_380",
+      "text": "⁽˙³˙⁾",
+      "tags": ["cute", "pouting"]
+    },
+    {
+      "id": "other_381",
+      "text": "⌯･3·⌯ಣ",
+      "tags": ["pouting"]
+    },
+    {
+      "id": "other_382",
+      "text": "Σ>―(´･ω･`)→",
+      "tags": ["cute"]
+    },
+    {
+      "id": "other_383",
+      "text": "(๑• . •๑)",
+      "tags": ["neutral"]
+    },
+    {
+      "id": "other_397",
+      "text": "(((ꎤ’ω’)و三 ꎤ’ω’)-o≡",
+      "tags": ["attack", "running"]
+    },
+    {
+      "id": "other_400",
+      "text": "(._.) ƪ(‘-‘ ƪ)(ʃ ‘-‘)ʃ (/._.)/",
+      "tags": ["dancing", "group", "hands-up", "helpless"]
+    },
+    {
+      "id": "other_402",
+      "text": "((／*~▽)乂(▽~*＼))",
+      "tags": ["group", "holding-hands"]
+    },
+    {
+      "id": "other_403",
+      "text": "(ﾉ^^)乂(^^ )ﾉ",
+      "tags": ["group", "happy", "holding-hands"]
+    },
+    {
+      "id": "other_404",
+      "text": "(p´･∀･)乂(･∀･｀q)",
+      "tags": ["group", "happy", "holding-hands"]
+    },
+    {
+      "id": "other_407",
+      "text": "(／_^)／ ● ＼(^_＼)",
+      "tags": ["play", "group", "hands-up", "happy"]
+    },
+    {
+      "id": "other_408",
+      "text": "(ﾉ･ｪ･)ﾉ ● ＼(ﾟｰﾟ＼)",
+      "tags": ["animal", "dazed", "play", "group", "hands-up"]
+    },
+    {
+      "id": "other_409",
+      "text": "✽-(ˆ▽ˆ)/✽",
+      "tags": ["flower", "happy", "waving"]
+    },
+    {
+      "id": "other_463",
+      "text": "(*^ω^)八(⌒▽⌒)八(-‿‿- )ヽ",
+      "tags": ["closed-eyes", "group", "happy", "smile"]
+    },
+    {
+      "id": "other_467",
+      "text": "o(^^o)(o^^o)(o^^o)(o^^)o",
+      "tags": ["dancing", "group", "happy"]
+    },
+    {
+      "id": "other_468",
+      "text": "(((￣(￣(￣▽￣)￣)￣)))",
+      "tags": ["closed-eyes", "helpless"]
+    },
+    {
+      "id": "other_469",
+      "text": "(°(°ω(°ω°(☆ω☆)°ω°)ω°)°)",
+      "tags": ["dazed", "group", "star", "thrilled"]
+    },
+    {
+      "id": "other_470",
+      "text": "ヾ(・ω・`)ノ",
+      "tags": ["comfort"]
+    },
+    {
+      "id": "other_471",
+      "text": "Ψ( `∀)(∀´ )Ψ",
+      "tags": ["devil", "group", "mock"]
+    },
+    {
+      "id": "other_481",
+      "text": "(´･д･｀)ﾊ(･д･｀*)",
+      "tags": ["group", "helpless", "holding-hands"]
+    },
+    {
+      "id": "other_483",
+      "text": "(*´з`)口ﾟ｡ﾟ口(・∀・ )",
+      "tags": ["cheers", "group", "helpless"]
+    },
+    {
+      "id": "other_485",
+      "text": "( *^^)o∀*∀o(^^* )",
+      "tags": ["cheers", "group", "happy"]
+    },
+    {
+      "id": "other_488",
+      "text": "(˵•́ ◡(̿▨-▨¬)̄",
+      "tags": ["group", "peeking", "shy", "smile", "sunglasses"]
+    },
+    {
+      "id": "other_489",
+      "text": "(̿▨-▨¬˵)(˘ε˘˶๑ )",
+      "tags": ["closed-eyes", "cool", "group", "pouting", "sunglasses"]
+    },
+    {
+      "id": "other_490",
+      "text": "ヽ( ⌒ω⌒)人(=^‥^= )ﾉ",
+      "tags": ["cat", "group", "happy", "holding-hands", "neutral"]
+    },
+    {
+      "id": "other_493",
+      "text": "ヽ(○｀･v･)人(･v･´●)ﾉ",
+      "tags": ["group", "happy", "holding-hands"]
+    },
+    {
+      "id": "other_497",
+      "text": "ヽ(´Д｀)人(´Д｀)人(´Д｀)ノ",
+      "tags": ["group", "helpless", "holding-hands", "sad", "sigh"]
+    },
+    {
+      "id": "other_498",
+      "text": "(●゜□゜)人(゜□゜○)",
+      "tags": ["dazed", "group", "holding-hands", "surprised"]
+    },
+    {
+      "id": "other_503",
+      "text": "((((／￣∇￣)／＼(￣∇￣＼))))",
+      "tags": ["closed-eyes", "group", "hands-up"]
+    },
+    {
+      "id": "other_504",
+      "text": "(((*°▽°*)八(*°▽°*)))♪",
+      "tags": ["dancing", "dazed", "group", "happy", "holding-hands", "music"]
+    },
+    {
+      "id": "other_505",
+      "text": "ଘ(🌸o▿o)(≧U≦❁)β",
+      "tags": ["flower", "group", "thrilled", "wings"]
+    },
+    {
+      "id": "other_508",
+      "text": "♪(((#^-^)八(^_^*)))♪",
+      "tags": ["dancing", "group", "happy", "music"]
+    },
+    {
+      "id": "other_509",
+      "text": "♪♪＼(^ω^＼)( /^ω^)/♪♪",
+      "tags": ["dancing", "group", "happy", "music"]
+    },
+    {
+      "id": "other_512",
+      "text": "꒰๑*´ᗜ`*꒱*›◡‹꒱꒱",
+      "tags": ["animal", "happiness", "happy", "thrilled"]
+    },
+    {
+      "id": "other_513",
+      "text": "(~˘▾˘)~ ~(˘▾˘~)",
+      "tags": ["closed-eyes", "dancing", "group", "happy"]
+    },
+    {
+      "id": "other_523",
+      "text": "（ノ´д｀ノ。・・。＼´д｀＼）",
+      "tags": ["group", "hands-up", "helpless"]
+    },
+    {
+      "id": "other_528",
+      "text": "(｀∀´)Ψ",
+      "tags": ["devil", "mock"]
+    },
+    {
+      "id": "other_529",
+      "text": "((( ←～（o ｀▽´ )oΨ",
+      "tags": ["attack", "devil", "mock"]
+    },
+    {
+      "id": "other_530",
+      "text": "◥(ฅº￦ºฅ)◤",
+      "tags": ["cat", "cute", "devil", "hands-up"]
+    },
+    {
+      "id": "other_531",
+      "text": "Ѱζ༼ᴼل͜ᴼ༽ᶘѰ",
+      "tags": ["devil", "hands-up", "smile"]
+    },
+    {
+      "id": "other_533",
+      "text": "( σ՞ਊ ՞)σ",
+      "tags": ["mock", "pointing", "thrilled"]
+    },
+    {
+      "id": "other_534",
+      "text": "ꉂ (๑¯ਊ¯)σ",
+      "tags": ["closed-eyes", "lol", "mock", "pointing"]
+    },
+    {
+      "id": "other_535",
+      "text": "(΄◞ิਊ◟ิ‵)",
+      "tags": ["mock"]
+    },
+    {
+      "id": "other_536",
+      "text": "（☝ ՞ਊ ՞）☝",
+      "tags": ["mock", "pointing", "thrilled"]
+    },
+    {
+      "id": "other_537",
+      "text": "ᕙ(☉ਊ☉)ᕗ",
+      "tags": ["dazed", "dumbfounded", "mock", "muscle"]
+    },
+    {
+      "id": "other_538",
+      "text": "( *՞ਊ՞*)ﾉ",
+      "tags": ["mock", "waving"]
+    },
+    {
+      "id": "other_539",
+      "text": "☆( ՞ ਊ ՞ )ゞ",
+      "tags": ["mock", "scratch", "star"]
+    },
+    {
+      "id": "other_540",
+      "text": "♡(㋭ ਊ ㋲)♡",
+      "tags": ["love", "mock"]
+    },
+    {
+      "id": "other_541",
+      "text": "🚰·̫🚰",
+      "tags": ["crying"]
+    },
+    {
+      "id": "other_543",
+      "text": "( ´∀`);y=ｰ(ﾟдﾟ)･∵. ﾀｰﾝ",
+      "tags": [
+        "dazed",
+        "group",
+        "happiness",
+        "happy",
+        "nervous",
+        "shout",
+        "surprised",
+        "sweat-drop",
+        "text"
+      ]
+    },
+    {
+      "id": "other_544",
+      "text": "!!Σ(ﾟДﾟ;≡≡≡≡≡ヾ(;ﾟдﾟ)/",
+      "tags": [
+        "dazed",
+        "excited",
+        "group",
+        "hands-up",
+        "nervous",
+        "running",
+        "shout",
+        "surprised",
+        "sweat-drop"
+      ]
+    },
+    {
+      "id": "other_546",
+      "text": "☺︎",
+      "tags": ["smile"]
+    },
+    {
+      "id": "other_547",
+      "text": "◡̈⃝✩‧₊",
+      "tags": ["smile", "star"]
+    },
+    {
+      "id": "other_548",
+      "text": "(＾ω＾ ≡ °д°)",
+      "tags": ["dazed", "group", "happy", "surprised"]
+    },
+    {
+      "id": "other_550",
+      "text": "♫.(◕∠◕).♫",
+      "tags": ["big-eyes", "music"]
+    },
+    {
+      "id": "other_551",
+      "text": "( o^ ^o)且 且(´ω`*)",
+      "tags": ["cheers", "group", "happy"]
+    },
+    {
+      "id": "other_552",
+      "text": "(*´ω`)人(´ω`*)",
+      "tags": ["group", "happiness", "holding-hands"]
+    },
+    {
+      "id": "other_553",
+      "text": "ᕦʕ ⊙ ◡ ⊙ ʔᕤ",
+      "tags": ["dumbfounded", "motivated", "muscle", "smile"]
+    },
+    {
+      "id": "other_554",
+      "text": "ʕ̯•͡ˑ͓•̯᷅ʔ",
+      "tags": ["cute", "x-mouth"]
+    },
+    {
+      "id": "other_555",
+      "text": "ʕ•̬͡•ʔ",
+      "tags": ["cute", "smile"]
+    },
+    {
+      "id": "other_556",
+      "text": "ʕ•ૅૄ•ʔ",
+      "tags": ["cute", "pouting"]
+    },
+    {
+      "id": "other_557",
+      "text": "ʕ•̫͡•ʔ♬✧",
+      "tags": ["cute", "music", "sparkle"]
+    },
+    {
+      "id": "other_558",
+      "text": "ʕ・ᵌ・ʔ",
+      "tags": ["cute", "pouting"]
+    },
+    {
+      "id": "other_559",
+      "text": "(◡‿◡✿)",
+      "tags": ["closed-eyes", "flower", "smile"]
+    },
+    {
+      "id": "other_561",
+      "text": "(´ΘωΘ`)",
+      "tags": ["closed-eyes"]
+    },
+    {
+      "id": "other_562",
+      "text": "( ‘́⌣’̀)/♫•*¨*•.¸¸♪",
+      "tags": ["music", "smile", "waving"]
+    },
+    {
+      "id": "other_563",
+      "text": "(‘. • ᵕ •. `)",
+      "tags": ["displeased"]
+    },
+    {
+      "id": "other_564",
+      "text": "(￣▽￣)/♫•*¨*•.¸¸♪",
+      "tags": ["closed-eyes", "happy", "music", "waving"]
+    },
+    {
+      "id": "other_565",
+      "text": "꒰ঌ₍ᐢ. .ᐢ₎ᐝ໒꒱",
+      "tags": ["cute", "neutral", "rabbit", "wings"]
+    },
+    {
+      "id": "other_566",
+      "text": "꒰ঌᐢ. ֑ .ᐢ໒꒱",
+      "tags": ["cute", "displeased", "rabbit", "wings"]
+    },
+    {
+      "id": "other_567",
+      "text": "꒰ঌᐢ.ˬ.ᐢ໒꒱",
+      "tags": ["cute", "rabbit", "smile", "wings"]
+    },
+    {
+      "id": "other_568",
+      "text": "꒰ঌ૮ o̴̶̷ ࿁ o̴̶̷ ა໒꒱",
+      "tags": ["animal", "innocent", "wings"]
+    },
+    {
+      "id": "other_569",
+      "text": "*⋆꒰ঌ(⁎ᴗ͈ˬᴗ͈⁎)໒꒱⋆*",
+      "tags": ["cute", "shy", "star", "wings"]
+    },
+    {
+      "id": "other_570",
+      "text": "(◕ᴗ◕✿)",
+      "tags": ["big-eyes", "flower", "smile"]
+    },
+    {
+      "id": "other_571",
+      "text": "(◕ㅅ◕✿)",
+      "tags": ["animal", "big-eyes", "cute", "flower"]
+    },
+    {
+      "id": "other_572",
+      "text": "(◕◞౪◟◕✿)",
+      "tags": ["big-eyes", "flower"]
+    },
+    {
+      "id": "other_573",
+      "text": "(◕ω◕✿)",
+      "tags": ["big-eyes", "cute", "flower"]
+    },
+    {
+      "id": "other_574",
+      "text": "(◕ ꒳ ◕✿)",
+      "tags": ["big-eyes", "flower"]
+    },
+    {
+      "id": "other_575",
+      "text": "+ﾟ*｡:ﾟ+(◕‿◕✿)+ﾟ*｡:ﾟ+",
+      "tags": ["big-eyes", "flower", "smile", "sparkle"]
+    },
+    {
+      "id": "other_576",
+      "text": "♡(◕ᗜ◕✿)",
+      "tags": ["big-eyes", "flower", "happy", "love"]
+    },
+    {
+      "id": "other_577",
+      "text": "(◕︿◕✿)",
+      "tags": ["big-eyes", "displeased", "flower"]
+    },
+    {
+      "id": "other_578",
+      "text": "(◕‸ ◕✿)",
+      "tags": ["big-eyes", "displeased", "flower"]
+    },
+    {
+      "id": "other_579",
+      "text": "˚‧º·( 。ᗒ ‸ ◕✿)",
+      "tags": ["big-eyes", "crying", "flower", "wink"]
+    },
+    {
+      "id": "other_580",
+      "text": "(◕ㅁ◕✿)",
+      "tags": ["big-eyes", "flower", "surprised"]
+    },
+    {
+      "id": "other_581",
+      "text": "(◕д◕✿)",
+      "tags": ["big-eyes", "flower", "surprised"]
+    },
+    {
+      "id": "other_593",
+      "text": "༼◥▶ل͜◀◤༽",
+      "tags": ["confident", "smile", "sunglasses"]
+    },
+    {
+      "id": "other_594",
+      "text": "ヽ༼◥▶ل͜◀◤༽ﾉ",
+      "tags": ["confident", "hands-up", "smile", "sunglasses"]
+    },
+    {
+      "id": "other_595",
+      "text": "(•‾⌣‾•)و ̑̑♡",
+      "tags": ["closed-eyes", "love", "smile"]
+    },
+    {
+      "id": "other_596",
+      "text": "⸜( •⌄• )⸝",
+      "tags": ["cute"]
+    },
+    {
+      "id": "other_597",
+      "text": "ෆ.･ﾟ✌( ᐢ⸝⸝ɞ̴̶̷ ̫ ɞ̴̶̷⸝⸝ᐢ ✌)໒꒱",
+      "tags": ["innocent", "love", "rabbit", "shy", "wings"]
+    },
+    {
+      "id": "other_598",
+      "text": "ˁ˙͡˟˙ˀ",
+      "tags": ["cute", "x-mouth"]
+    },
+    {
+      "id": "other_599",
+      "text": "(*＾-‘) ",
+      "tags": ["cute", "wink"]
+    },
+    {
+      "id": "other_600",
+      "text": "o|∵o|",
+      "tags": ["neutral"]
+    },
+    {
+      "id": "other_601",
+      "text": "(・∧‐)ゞ",
+      "tags": ["displeased", "scratch", "wink"]
+    },
+    {
+      "id": "other_602",
+      "text": "(｡•ᴗ-)_",
+      "tags": ["smile", "wink"]
+    },
+    {
+      "id": "other_603",
+      "text": "⌯◕ᴗ<⌯ಣ",
+      "tags": ["big-eyes", "cute", "smile", "wink"]
+    },
+    {
+      "id": "other_604",
+      "text": "⌯>ᴗ•⌯ಣ",
+      "tags": ["smile", "wink"]
+    },
+    {
+      "id": "other_605",
+      "text": "⌯^ᴗ<⌯ಣ",
+      "tags": ["cute", "smile", "wink"]
+    },
+    {
+      "id": "other_606",
+      "text": "( • ᴗ - ) ✧",
+      "tags": ["smile", "sparkle", "wink"]
     }
   ]
 }

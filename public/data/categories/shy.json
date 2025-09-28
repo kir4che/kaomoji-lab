@@ -5,27 +5,17 @@
     "zh-tw": "害羞"
   },
   "preview": "(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄ ",
-  "lastUpdated": "2025-08-17",
+  "lastUpdated": "2025-09-28",
   "items": [
-    {
-      "id": "shy_001",
-      "text": "(ノωヽ)",
-      "tags": ["nervous", "shy"]
-    },
-    {
-      "id": "shy_002",
-      "text": "(/ω＼)",
-      "tags": ["nervous", "shy"]
-    },
     {
       "id": "shy_004",
       "text": "(*ꈍ꒙ꈍ*)",
-      "tags": ["happy", "shy", "thrilled"]
+      "tags": ["closed-eyes", "shy"]
     },
     {
       "id": "shy_005",
       "text": "(⸝⸝•‧̫•⸝⸝)",
-      "tags": ["shy"]
+      "tags": ["cute", "shy"]
     },
     {
       "id": "shy_006",
@@ -35,27 +25,27 @@
     {
       "id": "shy_008",
       "text": "˘͈ᵕ˘͈",
-      "tags": ["happiness", "shy", "smile"]
+      "tags": ["shy", "smile"]
     },
     {
       "id": "shy_009",
       "text": "(✿˘˘✿)",
-      "tags": ["cute", "flower", "shy"]
+      "tags": ["flower", "shy"]
     },
     {
       "id": "shy_011",
       "text": "૮₍❀ᴗ͈ . ᴗ͈ ₎ა",
-      "tags": ["animal", "cute", "flower", "shy"]
+      "tags": ["animal", "closed-eyes", "cute", "flower", "shy"]
     },
     {
       "id": "shy_012",
       "text": "₍ᐢ⸝⸝› ̫ ‹⸝⸝ᐢ₎",
-      "tags": ["animal", "cute", "shy"]
+      "tags": ["cute", "rabbit", "shy"]
     },
     {
       "id": "shy_013",
       "text": "ᴗ͈ˬᴗ͈",
-      "tags": ["shy"]
+      "tags": ["closed-eyes", "shy"]
     },
     {
       "id": "shy_014",
@@ -65,12 +55,7 @@
     {
       "id": "shy_015",
       "text": "(〃∀〃)ゞ",
-      "tags": ["salute", "shy"]
-    },
-    {
-      "id": "shy_016",
-      "text": "꒰ˆ⌯ ·̫ ⌯ก̀ˆ꒱",
-      "tags": ["shy"]
+      "tags": ["scratch", "shy"]
     },
     {
       "id": "shy_017",
@@ -78,29 +63,19 @@
       "tags": ["like", "shy", "sleepy"]
     },
     {
-      "id": "shy_018",
-      "text": "m(*- -*)m",
-      "tags": ["apologize", "please"]
-    },
-    {
       "id": "shy_019",
       "text": "<(*- -*)>",
       "tags": ["apologize"]
     },
     {
-      "id": "shy_020",
-      "text": "|･ω･｀)",
-      "tags": ["peeking", "shy"]
-    },
-    {
       "id": "shy_022",
       "text": "|*´ｪ｀ﾉ|ﾉ",
-      "tags": ["shy"]
+      "tags": ["hands-up", "shy"]
     },
     {
       "id": "shy_024",
       "text": "(＊･_･＊)ゞ",
-      "tags": ["salute", "shy"]
+      "tags": ["shy"]
     },
     {
       "id": "shy_025",
@@ -110,7 +85,7 @@
     {
       "id": "shy_026",
       "text": "ヾ(･ω･`｡)",
-      "tags": ["shy"]
+      "tags": ["cute", "shy"]
     },
     {
       "id": "shy_027",
@@ -118,24 +93,14 @@
       "tags": ["dancing", "flower", "shy"]
     },
     {
-      "id": "shy_028",
-      "text": "(.づ◡﹏◡)づ.",
-      "tags": ["comfort", "hug", "sad", "shy"]
-    },
-    {
-      "id": "shy_029",
-      "text": "⊂(・﹏・⊂)",
-      "tags": ["embarrassed", "hug", "shy"]
-    },
-    {
       "id": "shy_030",
       "text": "(〃ﾟ3ﾟ〃)",
-      "tags": ["kiss", "shy"]
+      "tags": ["shy", "pouting"]
     },
     {
       "id": "shy_031",
       "text": "(〃бзб`)",
-      "tags": ["kiss", "shy"]
+      "tags": ["shy", "pouting"]
     },
     {
       "id": "shy_032",
@@ -145,7 +110,7 @@
     {
       "id": "shy_033",
       "text": "♪ *ꈍ﹃ꈍ)ﾉ",
-      "tags": ["closed-eyes", "drooling", "music", "shy", "sleepy"]
+      "tags": ["closed-eyes", "drooling", "hands-up", "hungry", "music", "shy", "sleepy"]
     },
     {
       "id": "shy_034",
@@ -170,7 +135,7 @@
     {
       "id": "shy_038",
       "text": "（〃・ω・〃）",
-      "tags": ["shy"]
+      "tags": ["cute", "shy"]
     },
     {
       "id": "shy_039",
@@ -180,7 +145,7 @@
     {
       "id": "shy_040",
       "text": "(*ﾟｰﾟ)ゞ",
-      "tags": ["salute", "shy"]
+      "tags": ["scratch", "shy"]
     },
     {
       "id": "shy_041",
@@ -190,17 +155,12 @@
     {
       "id": "shy_042",
       "text": "(〃￣ω￣〃)ゞ",
-      "tags": ["salute", "shy"]
+      "tags": ["closed-eyes", "scratch", "shy"]
     },
     {
       "id": "shy_043",
       "text": "（//･_･//)",
       "tags": ["shy"]
-    },
-    {
-      "id": "shy_044",
-      "text": "(〃▽〃)",
-      "tags": ["happy", "shy"]
     },
     {
       "id": "shy_045",
@@ -235,27 +195,12 @@
     {
       "id": "shy_052",
       "text": "(⸝⸝⸝ ≧ㅿ＼⸝⸝⸝)/",
-      "tags": ["sad", "shy"]
-    },
-    {
-      "id": "shy_053",
-      "text": "⁽⁽ ◟(灬 ˊωˋ 灬)◞ ⁾⁾",
-      "tags": ["dancing", "hands-up", "happiness", "shy"]
+      "tags": ["cover-face", "shy"]
     },
     {
       "id": "shy_054",
       "text": "{•̴͈ ˔̇ •̴͈}",
       "tags": ["cute", "shy"]
-    },
-    {
-      "id": "shy_055",
-      "text": "ლ(///´◜⊜｀//////ლ)",
-      "tags": ["give-me", "shy"]
-    },
-    {
-      "id": "shy_056",
-      "text": "⁄(⁄ ⁄ˊૢ⁄ ⌑ ⁄ˋૢ⁄ ⁄)⁄",
-      "tags": ["shy"]
     },
     {
       "id": "shy_057",
@@ -270,22 +215,12 @@
     {
       "id": "shy_059",
       "text": "⁄(⁄ ⁄•⁄-⁄•⁄ ⁄)⁄",
-      "tags": ["angry", "shy"]
-    },
-    {
-      "id": "shy_060",
-      "text": "(∗∕ ∕•̥̥̥̥∕ω∕•̥̥̥̥∕)",
-      "tags": ["shy"]
+      "tags": ["neutral", "shy"]
     },
     {
       "id": "shy_061",
       "text": "(⸝⸝•́દ•̀⸝⸝)",
       "tags": ["helpless", "sad", "shy"]
-    },
-    {
-      "id": "shy_062",
-      "text": "・:*(〃・ｪ・〃人)*:・",
-      "tags": ["grateful", "please", "shy"]
     },
     {
       "id": "shy_063",
@@ -295,7 +230,7 @@
     {
       "id": "shy_064",
       "text": "⊂((〃’⊥’〃))⊃",
-      "tags": ["happy", "hug", "shy"]
+      "tags": ["hug", "shy"]
     },
     {
       "id": "shy_065",
@@ -308,14 +243,9 @@
       "tags": ["happy", "shy"]
     },
     {
-      "id": "shy_067",
-      "text": "(〃´Å｀〃)",
-      "tags": ["shy", "sigh"]
-    },
-    {
       "id": "shy_068",
       "text": "ヾ( 〃ω〃)ｯ",
-      "tags": ["shy"]
+      "tags": ["cheer-up", "shy"]
     },
     {
       "id": "shy_069",
@@ -325,27 +255,22 @@
     {
       "id": "shy_070",
       "text": "ヾ(〃ω〃ヾ))",
-      "tags": ["dancing", "shy"]
+      "tags": ["hands-up", "shy"]
     },
     {
       "id": "shy_071",
       "text": "((ﾉ〃ω〃)ﾉﾞ",
-      "tags": ["shy"]
+      "tags": ["hands-up", "shy"]
     },
     {
       "id": "shy_072",
       "text": "ヽ(〃v〃)ﾉ",
-      "tags": ["banzai", "happy", "shy"]
+      "tags": ["cheer-up", "happy", "shy"]
     },
     {
       "id": "shy_073",
       "text": "(〃´ﾉω`〃)",
-      "tags": ["peeking", "shy"]
-    },
-    {
-      "id": "shy_074",
-      "text": "・:*(〃∇〃人)*:・",
-      "tags": ["grateful", "please", "shy"]
+      "tags": ["shy"]
     },
     {
       "id": "shy_075",
@@ -355,17 +280,12 @@
     {
       "id": "shy_076",
       "text": "(*ﾉωヾ*)",
-      "tags": ["shy"]
+      "tags": ["hands-up", "shy"]
     },
     {
       "id": "shy_077",
       "text": "(*´ェ｀*)",
       "tags": ["cute", "shy"]
-    },
-    {
-      "id": "shy_078",
-      "text": "(/-(ｴ)-＼)",
-      "tags": ["animal", "bear", "shy"]
     },
     {
       "id": "shy_079",
@@ -380,7 +300,7 @@
     {
       "id": "shy_081",
       "text": "(⊃д⊂)",
-      "tags": ["shy"]
+      "tags": ["cover-face", "shy"]
     },
     {
       "id": "shy_082",
@@ -398,11 +318,6 @@
       "tags": ["happy", "shy"]
     },
     {
-      "id": "shy_085",
-      "text": "ꈍ .̮ ꈍ",
-      "tags": ["happiness", "shy", "smile"]
-    },
-    {
       "id": "shy_086",
       "text": "‘-’*",
       "tags": ["happy", "shy"]
@@ -415,37 +330,27 @@
     {
       "id": "shy_088",
       "text": "(ﾉ∇≦*)",
-      "tags": ["happy", "shy"]
+      "tags": ["hands-up", "happy", "shy"]
     },
     {
       "id": "shy_089",
       "text": "|▽//)ゝ",
-      "tags": ["peeking", "shy"]
+      "tags": ["peeking", "scratch", "shy"]
     },
     {
       "id": "shy_090",
       "text": "(^◇^；)",
-      "tags": ["embarrassed", "shy"]
-    },
-    {
-      "id": "shy_091",
-      "text": "(〃´∀｀)",
-      "tags": ["happy", "shy"]
+      "tags": ["embarrassed", "shy", "sweat-drop"]
     },
     {
       "id": "shy_092",
       "text": "(*ﾉヮﾉ)",
-      "tags": ["shy"]
-    },
-    {
-      "id": "shy_093",
-      "text": "(〃∀〃)",
-      "tags": ["shy"]
+      "tags": ["hands-up", "shy"]
     },
     {
       "id": "shy_094",
       "text": "(ﾉ∀`*)",
-      "tags": ["shy"]
+      "tags": ["hands-up", "shy"]
     },
     {
       "id": "shy_095",
@@ -460,7 +365,7 @@
     {
       "id": "shy_099",
       "text": "ଘ꒰⸝⸝›ତ ‹⸝⸝꒱",
-      "tags": ["cute", "shy"]
+      "tags": ["cute", "shy", "wings"]
     },
     {
       "id": "shy_101",
@@ -473,11 +378,6 @@
       "tags": ["shy"]
     },
     {
-      "id": "shy_103",
-      "text": "*⋆꒰ঌ(⁎ᴗ͈ˬᴗ͈⁎)໒꒱⋆*",
-      "tags": ["angel", "cute", "shy"]
-    },
-    {
       "id": "shy_104",
       "text": "٩(〃..〃)ว",
       "tags": ["dancing", "shy"]
@@ -485,7 +385,7 @@
     {
       "id": "shy_105",
       "text": "꒰ˆ‎꜆‪⸝⸝⸝⸝‎꜀ˆ꒱",
-      "tags": ["peeking", "shy"]
+      "tags": ["cat", "cover-face", "shy"]
     },
     {
       "id": "shy_106",
@@ -498,14 +398,9 @@
       "tags": ["shy"]
     },
     {
-      "id": "shy_108",
-      "text": "໒꒰ྀ ˶ • ༝ •˶ ꒱ྀིა",
-      "tags": ["animal", "cute", "shy"]
-    },
-    {
       "id": "shy_112",
       "text": "໒꒰ྀི ˶• ༝ •˶ ྀི১",
-      "tags": ["animal", "cute", "shy"]
+      "tags": ["animal", "cute", "shy", "x-mouth"]
     },
     {
       "id": "shy_113",
@@ -538,11 +433,6 @@
       "tags": ["happiness", "happy", "shy"]
     },
     {
-      "id": "shy_121",
-      "text": "(｡>ᴥ<｡)",
-      "tags": ["animal", "dog", "shy"]
-    },
-    {
       "id": "shy_123",
       "text": "(̨̡ ⸝⸝.ˬ.⸝⸝ )̧̢",
       "tags": ["shy"]
@@ -550,7 +440,7 @@
     {
       "id": "shy_125",
       "text": "ଘ꒰ྀི > ⸝⸝ິ < ྀི꒱",
-      "tags": ["shy"]
+      "tags": ["shy", "wings"]
     },
     {
       "id": "shy_126",
@@ -573,29 +463,24 @@
       "tags": ["shy"]
     },
     {
-      "id": "shy_134",
-      "text": "(uωu 人)",
-      "tags": ["grateful", "please", "shy"]
-    },
-    {
       "id": "shy_135",
       "text": "(≧U≦❁)β",
-      "tags": ["angel", "flower", "happy"]
+      "tags": ["flower", "happy", "wings"]
     },
     {
       "id": "shy_136",
       "text": "(≧.≦❁)β",
-      "tags": ["angel", "flower", "happy"]
+      "tags": ["flower", "happy", "wings"]
     },
     {
       "id": "shy_137",
       "text": "ଘ(✿˵•́ ᴗ •̀˵)",
-      "tags": ["angel", "flower", "happiness"]
+      "tags": ["flower", "happiness", "wings"]
     },
     {
       "id": "shy_138",
       "text": "(/‿＼✿)",
-      "tags": ["flower", "peeking", "shy"]
+      "tags": ["cover-face", "flower", "shy", "smile"]
     },
     {
       "id": "shy_139",
@@ -605,17 +490,12 @@
     {
       "id": "shy_140",
       "text": "(〃‿〃✿)",
-      "tags": ["flower", "happy", "shy"]
-    },
-    {
-      "id": "shy_141",
-      "text": "(っ´ω｀c)",
-      "tags": ["comfort", "happiness", "shy"]
+      "tags": ["flower", "shy", "smile"]
     },
     {
       "id": "shy_142",
       "text": "( ⸝⸝･̆⤚･̆⸝⸝)",
-      "tags": ["angry"]
+      "tags": ["angry", "shy"]
     },
     {
       "id": "shy_143",
@@ -625,7 +505,7 @@
     {
       "id": "shy_144",
       "text": "꒰ᐢ⸝⸝•༝•⸝⸝ᐢ꒱⸒⸒",
-      "tags": ["animal", "cute", "sheep", "shy"]
+      "tags": ["animal", "cute", "sheep", "shy", "x-mouth"]
     },
     {
       "id": "shy_145",
@@ -635,57 +515,52 @@
     {
       "id": "shy_146",
       "text": "ʕ ⸝⸝ ﻌ ⸝⸝ʔ",
-      "tags": ["animal", "bear", "cute", "shy"]
+      "tags": ["bear", "shy"]
     },
     {
       "id": "shy_147",
-      "text": "/ᐠ .⸝⸝⸝. ྀིﾏ",
-      "tags": ["animal", "cat", "cute", "shy"]
+      "text": "/ᐠ .⸝⸝⸝. ﾏ",
+      "tags": ["cat", "cute", "shy"]
     },
     {
       "id": "shy_148",
       "text": "ʕ̢̣⸝⸝·͡˔·Ɂིྀ̡̣ .ᐟ",
-      "tags": ["animal", "bear", "cute", "surprised"]
+      "tags": ["animal", "bear", "cute", "shy", "surprised"]
     },
     {
       "id": "shy_149",
       "text": "𐔌՞⸝⸝ʚ̴̶̷̷ · ʚ̴̶̷̷⸝⸝ ՞𐦯",
-      "tags": ["angel", "animal", "cute"]
+      "tags": ["animal", "cute", "shy", "innocent"]
     },
     {
       "id": "shy_150",
       "text": "ᐢ⸝⸝•⩊•⸝⸝ᐡ",
-      "tags": ["animal", "happy", "smile"]
-    },
-    {
-      "id": "shy_151",
-      "text": "՞⸝⸝> ༥ <⸝⸝՞",
-      "tags": ["animal", "eating", "happiness"]
+      "tags": ["animal", "cute", "shy"]
     },
     {
       "id": "shy_152",
       "text": "(⃔ ᴖ ·̫ ᴖ⸝⸝ )⃕",
-      "tags": ["animal", "confident", "devil"]
+      "tags": ["cute", "devil", "happy", "shy"]
     },
     {
       "id": "shy_153",
       "text": "՞⸝⸝'ᜊ'⸝⸝՞",
-      "tags": ["animal", "cute"]
+      "tags": ["animal", "cute", "shy"]
     },
     {
       "id": "shy_154",
       "text": "૮꒰ ⸝⸝´ ˘ ⸝⸝꒱ა",
-      "tags": ["animal", "happiness", "happy", "sheep", "smile"]
+      "tags": ["animal", "happiness", "happy", "sheep", "shy", "smile"]
     },
     {
       "id": "shy_155",
-      "text": "૮꒰ ྀི >⸝⸝⸝< ྀི꒱ა",
-      "tags": ["animal", "shy"]
+      "text": "૮꒰  >⸝⸝⸝< ꒱ა",
+      "tags": ["nervous", "sheep", "shy"]
     },
     {
       "id": "shy_156",
       "text": "꒰ᐢ๑⸝⸝˙‎‎‎‎ࠔ˙⸝⸝๑ᐢ꒱",
-      "tags": ["animal", "confident", "rabbit", "sheep", "smile"]
+      "tags": ["animal", "confident", "rabbit", "sheep", "shy", "smile"]
     },
     {
       "id": "shy_157",
@@ -693,14 +568,9 @@
       "tags": ["animal", "cute", "rabbit", "sheep", "shy"]
     },
     {
-      "id": "shy_158",
-      "text": "꒰ᐢ⸝⸝•༝•⸝⸝ᐢ꒱⸒⸒",
-      "tags": ["rabbit", "sheep", "shy"]
-    },
-    {
       "id": "shy_159",
       "text": "(̨̡ᐢ ⸝⸝o̴̶̷̤ ̫̭ o̴̶̷̤⸝⸝ ᐢ)̧̢",
-      "tags": ["animal", "crying", "rabbit"]
+      "tags": ["animal", "crying", "rabbit", "shy"]
     },
     {
       "id": "shy_160",
@@ -708,29 +578,24 @@
       "tags": ["animal", "cute", "rabbit", "shy"]
     },
     {
-      "id": "shy_161",
-      "text": "(ᐢ⸝⸝› ̫ ‹⸝⸝ᐢ)",
-      "tags": ["animal", "rabbit", "shy"]
-    },
-    {
       "id": "shy_162",
       "text": "/ᐠ⑅⸝⸝⸝⸝⑅ᐟ\\ฅ",
-      "tags": ["animal", "cat", "cute", "shy"]
+      "tags": ["cat", "cute", "hands-up", "shy"]
     },
     {
       "id": "shy_163",
       "text": "꒰˘⸝⸝ Ⅰ ⩊ Ⅰ ⸝⸝ ˘꒱੭",
-      "tags": ["confident", "serious"]
+      "tags": ["confident", "serious", "shy"]
     },
     {
       "id": "shy_164",
       "text": "(⸝⸝¯ᵕ¯⸝⸝)",
-      "tags": ["confident", "happiness"]
+      "tags": ["confident", "happiness", "shy"]
     },
     {
       "id": "shy_165",
       "text": "╰໒(⸝⸝⸝⚆Ĺ̯⚆⸝⸝⸝)७ノ",
-      "tags": ["confident"]
+      "tags": ["confused", "shy"]
     },
     {
       "id": "shy_166",
@@ -743,14 +608,9 @@
       "tags": ["embarrassed", "shy"]
     },
     {
-      "id": "shy_168",
-      "text": "(⸝⸝⸝>﹏<⸝⸝⸝)",
-      "tags": ["embarrassed", "nervous"]
-    },
-    {
       "id": "shy_169",
       "text": "૮₍ ⸝⸝´ ˘ `⸝⸝ ₎ა",
-      "tags": ["animal", "cute", "happiness", "smile"]
+      "tags": ["animal", "cute", "happiness", "shy", "smile"]
     },
     {
       "id": "shy_170",
@@ -760,22 +620,17 @@
     {
       "id": "shy_171",
       "text": "٩(⸝⸝⸝◕ั ௰ ◕ั⸝⸝⸝ )و",
-      "tags": ["big-eyes", "cheer-up", "cute", "happy", "shy"]
-    },
-    {
-      "id": "shy_172",
-      "text": "╰(⸝⸝⸝´꒳`⸝⸝⸝)╯",
-      "tags": ["banzai", "happy", "shy"]
+      "tags": ["big-eyes", "cheer-up", "cute", "shy"]
     },
     {
       "id": "shy_173",
       "text": "(⸝⸝⍢⸝⸝) ෆ",
-      "tags": ["happy", "love", "thrilled"]
+      "tags": ["happy", "love", "shy", "thrilled"]
     },
     {
       "id": "shy_174",
       "text": "՞⸝⸝ᵒ̴̶̷ 𓈞 ᵒ̴̶̷⸝⸝՞",
-      "tags": ["happy", "thrilled"]
+      "tags": ["happy", "shy", "thrilled"]
     },
     {
       "id": "shy_175",
@@ -783,19 +638,14 @@
       "tags": ["animal", "happy", "shy", "thrilled"]
     },
     {
-      "id": "shy_177",
-      "text": "ෆ.･ﾟ✌( ᐢ⸝⸝ɞ̴̶̷ ̫ ɞ̴̶̷⸝⸝ᐢ ✌)໒꒱",
-      "tags": ["angel", "happy", "love"]
-    },
-    {
       "id": "shy_178",
       "text": "( ⸝⸝⸝ᵔᵔ⸝⸝⸝ )",
-      "tags": ["happiness", "happy", "smile", "thrilled"]
+      "tags": ["happy", "shy", "smile"]
     },
     {
       "id": "shy_179",
       "text": "꒰՞⸝⸝⊃ ·̫ <՞꒱",
-      "tags": ["cute", "wink"]
+      "tags": ["cute", "shy", "wink"]
     },
     {
       "id": "shy_180",
@@ -805,17 +655,17 @@
     {
       "id": "shy_181",
       "text": "(⸝⸝◜~◝⸝⸝)",
-      "tags": ["happiness", "happy"]
+      "tags": ["happiness", "happy", "shy"]
     },
     {
       "id": "shy_182",
       "text": "໒꒰ྀི⸝⸝´ ˘ ⸝⸝꒱ྀིა",
-      "tags": ["cute", "happiness", "happy", "smile"]
+      "tags": ["cute", "happiness", "happy", "shy", "smile"]
     },
     {
       "id": "shy_183",
       "text": "ʋ ɞ̴̶̷⸝⸝●̫⸝⸝ɞ̴̶̷ ʋ",
-      "tags": ["angel", "cute", "happy"]
+      "tags": ["cute", "happy", "shy", "wings"]
     },
     {
       "id": "shy_184",
@@ -828,79 +678,49 @@
       "tags": ["happiness", "happy", "shy", "thrilled"]
     },
     {
-      "id": "shy_186",
-      "text": "໒꒰ྀི⸝⸝´ ∇ ⸝꒱ྀིა",
-      "tags": ["happy", "lol", "thrilled"]
-    },
-    {
       "id": "shy_187",
       "text": "( ⸝⸝⸝˙꒳˙ ⸝⸝⸝ )",
-      "tags": ["happiness", "happy", "shy"]
+      "tags": ["shy"]
     },
     {
       "id": "shy_188",
       "text": "(⦁⩊⦁⸝⸝)",
-      "tags": ["happiness", "happy", "smile"]
+      "tags": ["happiness", "happy", "shy", "smile"]
     },
     {
       "id": "shy_189",
       "text": "ᐢ⸝⸝⩌˷⩌⸝⸝ᐢ",
-      "tags": ["cute", "happiness", "happy", "smile"]
+      "tags": ["cute", "happiness", "happy", "shy", "smile"]
     },
     {
       "id": "shy_190",
       "text": "(⸝⸝⸝⁼̴́◡⁼̴̀⸝⸝⸝)",
-      "tags": ["happiness", "happy", "lol", "thrilled"]
-    },
-    {
-      "id": "shy_191",
-      "text": "₍₍ (̨̡⸝⸝´꒳`⸝⸝)̧̢ ₎₎",
-      "tags": ["happy", "shy"]
+      "tags": ["happy", "shy", "smile"]
     },
     {
       "id": "shy_192",
       "text": "( ⸝⸝ɞ̴̶̷ ｡ ɞ̴̶̷ ⸝⸝)",
-      "tags": ["angel", "crying", "happy"]
+      "tags": ["crying", "happy", "shy", "wings"]
     },
     {
       "id": "shy_193",
       "text": "❤\\(⸝⸝⸝°⁻̫° ⸝⸝⸝)",
-      "tags": ["cute", "shy"]
-    },
-    {
-      "id": "shy_194",
-      "text": "❣╰(⸝⸝⸝´꒳`⸝⸝⸝)╯❣",
-      "tags": ["banzai", "happy", "love", "thrilled"]
-    },
-    {
-      "id": "shy_195",
-      "text": "(⸝⸝⍢⸝⸝) ෆ",
-      "tags": ["happy", "love", "thrilled"]
+      "tags": ["love", "shy"]
     },
     {
       "id": "shy_196",
       "text": "𑙕ྀི ⸝⸝• ༝•⸝⸝ˆຽཾ ♡ྀི",
-      "tags": ["cute", "love", "shy"]
+      "tags": ["cute", "shy", "x-mouth"]
     },
     {
       "id": "shy_197",
       "text": "꒰ঌ❤︎⸝⸝ʚ̴̶̷̷ · ʚ̴̶̷̷⸝⸝໒꒱𓂃🎀𓈒𓏸",
-      "tags": ["angel", "love"]
-    },
-    {
-      "id": "shy_198",
-      "text": "૮꒰ ⊃ ⸝⸝ ⊂ ꒱ྀིა",
-      "tags": ["hug", "shy"]
-    },
-    {
-      "id": "shy_199",
-      "text": "૮꒰ྀི つ˘⸝⸝ ꒱ྀིა",
-      "tags": ["hug", "shy"]
+      "tags": ["love", "shy", "innocent", "wings"]
     },
     {
       "id": "shy_200",
       "text": "♡(͒ ᴖ ·̫ ᴖ⸝⸝ )͒♪♡",
-      "tags": ["cute", "happy", "love", "music"]
+      "tags": ["cute", "happy", "love", "music", "shy", "smile"]
     },
     {
       "id": "shy_201",
@@ -910,87 +730,67 @@
     {
       "id": "shy_202",
       "text": "(՞⸝⸝ᵒ̴̶̷᷄꒳ᵒ̴̶̷᷅⸝⸝՞)💕",
-      "tags": ["happy", "love"]
-    },
-    {
-      "id": "shy_203",
-      "text": "ς₍ᵔ⸝⸝ơ ·̫ ơᵔ₎🩵₍ᵔ› ·̫ ‹⸝⸝ᵔ₎੭",
-      "tags": ["cute", "friend", "happy", "love"]
+      "tags": ["love", "shy"]
     },
     {
       "id": "shy_204",
       "text": "(⸝⸝⸝ᵒ̴̶̷̥́ ᵕ ก̀⸝⸝⸝)ෆ",
-      "tags": ["crying", "love"]
+      "tags": ["cover-face", "crying", "love", "shy"]
     },
     {
       "id": "shy_205",
-      "text": "꒰ᐡ⸝⸝ʚ̴̶̷̷ · ʚ̴̶̷̷⸝⸝꒱♥",
-      "tags": ["angel", "animal", "crying", "cute", "love"]
+      "text": "꒰⸝⸝ʚ̴̶̷̷ · ʚ̴̶̷̷⸝⸝꒱♥",
+      "tags": ["cute", "love", "shy", "innocent"]
     },
     {
       "id": "shy_206",
       "text": "૮⸝⸝ᴗ͈ ‸ ᴗ͈⸝⸝ა",
-      "tags": ["animal", "helpless"]
+      "tags": ["animal", "helpless", "shy"]
     },
     {
       "id": "shy_207",
       "text": "(⸝⸝º ^ º⸝⸝ )",
-      "tags": ["helpless", "sad"]
+      "tags": ["helpless", "sad", "shy"]
     },
     {
       "id": "shy_208",
       "text": "(ᐢ⸝⸝>̶̥̥̥᷄ ·̫ <̶̥̥̥᷅⸝⸝ᐢ)꜆꜄💕",
-      "tags": ["crying", "love"]
+      "tags": ["crying", "hands-up", "love", "shy"]
     },
     {
       "id": "shy_209",
       "text": "(͒ ⸝⸝•̥𖥦•̥⸝⸝)͒♡",
-      "tags": ["crying", "helpless", "love", "sad"]
-    },
-    {
-      "id": "shy_210",
-      "text": "ʕ ྀི⸝⸝´˃ ˙̫ ˂ഃ⸝⸝ ྀིʔ",
-      "tags": ["animal", "crying", "helpless"]
+      "tags": ["crying", "helpless", "love", "shy"]
     },
     {
       "id": "shy_211",
       "text": "⸝⸝⸝ᵒ̴̶̷̥ ⌓ ᵒ̴̶̷̣̥̀⸝⸝⸝",
-      "tags": ["crying", "dazed"]
+      "tags": ["crying", "dazed", "shy"]
     },
     {
       "id": "shy_212",
       "text": "⸝⸝⸝ᵒ̴̶̷̥́ ⌑ ᵒ̴̶̷̣̥̀⸝⸝⸝",
-      "tags": ["crying", "sad"]
+      "tags": ["crying", "shy", "surprised"]
     },
     {
       "id": "shy_213",
       "text": "(⸝⸝o̴̶̷᷄ ·̭ o̴̶̷̥᷅⸝⸝)",
-      "tags": ["crying", "sad"]
-    },
-    {
-      "id": "shy_214",
-      "text": "໒꒰ྀི⸝⸝⸝ᵒ̴̶̷̥́ ⌑ ᵒ̴̶̷̣̥̀⸝⸝⸝꒱ྀི১",
-      "tags": ["animal", "crying", "sad", "sheep"]
+      "tags": ["crying", "shy"]
     },
     {
       "id": "shy_215",
       "text": "(՞⸝⸝´₢ω₢⸝⸝՞)",
-      "tags": ["crying", "helpless"]
-    },
-    {
-      "id": "shy_216",
-      "text": "՞⸝⸝ᵒ̴̶̷ 𓈞 ᵒ̴̶̷⸝⸝՞",
-      "tags": ["crying"]
+      "tags": ["crying", "helpless", "shy"]
     },
     {
       "id": "shy_217",
       "text": "⸝⸝ > ⌑ < ⸝⸝",
-      "tags": ["scared", "startled", "surprised"]
+      "tags": ["scared", "shy", "surprised"]
     },
     {
       "id": "shy_218",
       "text": "ʕ ⸝⸝⸝⁰⃚⃙̴ ༝ ⁰⃚⃙̴ ʔ",
-      "tags": ["animal", "startled", "surprised"]
+      "tags": ["cute", "innocent", "shy", "x-mouth"]
     },
     {
       "id": "shy_219",
@@ -998,24 +798,9 @@
       "tags": ["animal", "hands-up", "happy", "thrilled"]
     },
     {
-      "id": "shy_220",
-      "text": "ฅ(՞៸៸> ᗜ < Ḹ՞)ฅ",
-      "tags": ["animal", "hands-up", "happy", "thrilled"]
-    },
-    {
-      "id": "shy_221",
-      "text": "៸៸᳐⦁⩊⦁៸៸᳐ ੭",
-      "tags": ["animal", "cat", "cute", "happy"]
-    },
-    {
       "id": "shy_222",
       "text": "(៸៸᳐⦁⩊⦁៸៸᳐ )੭",
       "tags": ["animal", "cat", "happy"]
-    },
-    {
-      "id": "shy_223",
-      "text": "૮꒰ྀི ୨ ៸៸៸ ୧ ྀི꒱ა",
-      "tags": ["animal", "nervous", "scared", "sheep"]
     },
     {
       "id": "shy_224",
@@ -1028,54 +813,244 @@
       "tags": ["happiness", "happy", "smile"]
     },
     {
-      "id": "shy_227",
-      "text": "૮៸៸› ‹៸៸ྀིა",
-      "tags": ["animal", "nervous", "scared"]
-    },
-    {
-      "id": "shy_228",
-      "text": "<(〃´∀｀〃)>",
-      "tags": ["happy", "shy"]
-    },
-    {
       "id": "shy_229",
       "text": "(〃・ω・〃)ノ~☆",
-      "tags": ["shy", "star"]
+      "tags": ["shy", "star", "waving"]
     },
     {
       "id": "shy_230",
       "text": "o(〃’▽’〃)o",
-      "tags": ["dancing", "happy", "thrilled"]
-    },
-    {
-      "id": "shy_231",
-      "text": "(〃´3′〃)ゞ",
-      "tags": ["kiss", "love", "salute", "shy"]
-    },
-    {
-      "id": "shy_232",
-      "text": "(⸝⸝⸝´꒳`⸝⸝⸝)ﾃﾚｯ",
-      "tags": ["cute", "shy"]
-    },
-    {
-      "id": "shy_233",
-      "text": "(///ˊㅿˋ///)",
-      "tags": ["shy"]
-    },
-    {
-      "id": "shy_234",
-      "text": "σ(*´∀｀照)",
-      "tags": ["shy"]
-    },
-    {
-      "id": "shy_235",
-      "text": "₍₍ (̨̡⸝⸝´꒳`⸝⸝)̧̢ ₎₎ﾃﾚﾃﾚ…♡",
-      "tags": ["happy", "shy"]
+      "tags": ["happy", "shy", "thrilled"]
     },
     {
       "id": "shy_236",
       "text": "໒ ིྀ ᴗ͈ ,, ᴗ͈ ིྀა࣪",
       "tags": ["animal", "closed-eyes", "rabbit", "shy"]
+    },
+    {
+      "id": "shy_237",
+      "text": "( ⁎ᵕᴗᵕ⁎ )❤︎",
+      "tags": ["closed-eyes", "love", "shy"]
+    },
+    {
+      "id": "shy_240",
+      "text": "⁄(⁄ ⁄ ⁄ω⁄ ⁄ ⁄)⁄",
+      "tags": ["shy"]
+    },
+    {
+      "id": "shy_241",
+      "text": "(* ˊ͈ ᐞ ˋ͈ )✿.*・✿.*・",
+      "tags": ["cute", "flower", "shy"]
+    },
+    {
+      "id": "shy_242",
+      "text": "ʚ •͈˽•͈ ིྀɞ ‎",
+      "tags": ["cute", "shy", "wings"]
+    },
+    {
+      "id": "shy_243",
+      "text": "୧( ˵ ° ~ ° ˵ )",
+      "tags": ["scratch", "shy", "thinking"]
+    },
+    {
+      "id": "shy_244",
+      "text": "( ˶'-'˶)",
+      "tags": ["shy"]
+    },
+    {
+      "id": "shy_245",
+      "text": "(∗∕ ∕•̥̥̥̥∕ω∕•̥̥̥̥∕)",
+      "tags": ["crying", "shy"]
+    },
+    {
+      "id": "shy_247",
+      "text": "( ⸝⸝⸝- _- ⸝⸝⸝ )♡",
+      "tags": ["closed-eyes", "love", "shy"]
+    },
+    {
+      "id": "shy_248",
+      "text": "⸝⸝⸝˘◡˘♡",
+      "tags": ["happy", "love", "shy"]
+    },
+    {
+      "id": "shy_249",
+      "text": "(̨̡‎՞ ܸ. .ܸ՞)̧̢",
+      "tags": ["shy"]
+    },
+    {
+      "id": "shy_250",
+      "text": "˃̶͈̀ε ˂̶͈́",
+      "tags": ["pouting", "shy"]
+    },
+    {
+      "id": "shy_251",
+      "text": "⊹꒰ ⑅·͈·̮·͈꒱ ♡⊹",
+      "tags": ["cute", "love", "shy", "sparkle"]
+    },
+    {
+      "id": "shy_252",
+      "text": "ꨄ(◍′◡'◍)",
+      "tags": ["happiness", "love", "shy"]
+    },
+    {
+      "id": "shy_253",
+      "text": "(〃´3′〃)ゞ",
+      "tags": ["helpless", "pouting", "scratch", "shy"]
+    },
+    {
+      "id": "shy_257",
+      "text": "(ʃƪ〃ﾟ3ﾟ〃)",
+      "tags": ["please", "pouting", "shy"]
+    },
+    {
+      "id": "shy_258",
+      "text": "- ̗̀( ˶' ３'˶) ̖́-",
+      "tags": ["pouting", "shy", "sparkle"]
+    },
+    {
+      "id": "shy_259",
+      "text": "(⃔⁔•͈ ·̫ •͈⁔)⃕↝",
+      "tags": ["cute", "devil", "shy"]
+    },
+    {
+      "id": "shy_260",
+      "text": "( ՞ ܸ. .ܸ՞ )",
+      "tags": ["neutral", "shy"]
+    },
+    {
+      "id": "shy_261",
+      "text": "(⁄ ⁄>⁄ ▽ ⁄<⁄ ⁄)",
+      "tags": ["nervous", "shy", "thrilled"]
+    },
+    {
+      "id": "shy_262",
+      "text": "⌯•͈₃•͈⌯ಣ",
+      "tags": ["cute", "shy"]
+    },
+    {
+      "id": "shy_263",
+      "text": "╰(⸝⸝⸝´꒳`⸝⸝⸝)╯",
+      "tags": ["banzai", "happiness", "shy"]
+    },
+    {
+      "id": "shy_264",
+      "text": "(⸝⸝⸝´꒳`⸝⸝⸝)ﾃﾚｯ",
+      "tags": ["happiness", "shy", "text"]
+    },
+    {
+      "id": "shy_265",
+      "text": "❣╰(⸝⸝⸝´꒳`⸝⸝⸝)╯❣",
+      "tags": ["banzai", "happiness", "love", "shy"]
+    },
+    {
+      "id": "shy_266",
+      "text": "₍₍ (̨̡⸝⸝´꒳`⸝⸝)̧̢ ₎₎",
+      "tags": ["happiness", "nervous", "shy"]
+    },
+    {
+      "id": "shy_267",
+      "text": "٩(//̀Д/́/)۶",
+      "tags": ["angry", "cheer-up", "shout", "shy"]
+    },
+    {
+      "id": "shy_268",
+      "text": "˶•⩊•˶",
+      "tags": ["cute", "shy"]
+    },
+    {
+      "id": "shy_269",
+      "text": "˶⚈Ɛ⚈˵",
+      "tags": ["big-eyes", "cute", "pouting", "shy"]
+    },
+    {
+      "id": "shy_270",
+      "text": "Σ>―(〃°ω°〃)♡→",
+      "tags": ["love", "shy"]
+    },
+    {
+      "id": "shy_271",
+      "text": "ヾ(〃ﾟーﾟ〃)ノ",
+      "tags": ["dazed", "shy", "waving"]
+    },
+    {
+      "id": "shy_272",
+      "text": "・:*(〃∇〃人)*:・",
+      "tags": ["grateful", "please", "shy"]
+    },
+    {
+      "id": "shy_273",
+      "text": "・:*(〃・ｪ・〃人)*:・",
+      "tags": ["animal", "grateful", "please", "shy"]
+    },
+    {
+      "id": "shy_274",
+      "text": "…..φ(〃∇〃 ）",
+      "tags": ["shy", "writing"]
+    },
+    {
+      "id": "shy_275",
+      "text": "φ(ﾟ ωﾟ//）♡",
+      "tags": ["dazed", "love", "shy", "writing"]
+    },
+    {
+      "id": "shy_276",
+      "text": "ෆ•͈ ·̫ •͈ෆ",
+      "tags": ["love", "shy"]
+    },
+    {
+      "id": "shy_277",
+      "text": "‧˚₊*̥(っ˶ᵔөᵔ˶ )っ",
+      "tags": ["bird", "cute", "happy", "hug", "shy"]
+    },
+    {
+      "id": "shy_278",
+      "text": "( ˶'ᵕ'˶)ෆ",
+      "tags": ["cute", "happy", "love", "shy", "smile"]
+    },
+    {
+      "id": "shy_279",
+      "text": "(⸝⸝⸝>﹏<⸝⸝⸝)",
+      "tags": ["nervous", "shy", "trembling"]
+    },
+    {
+      "id": "shy_280",
+      "text": "(/ω＼)",
+      "tags": ["cover-face", "nervous", "shy"]
+    },
+    {
+      "id": "shy_281",
+      "text": "(˶ඕ ⌔ ඕ˶)",
+      "tags": ["shy", "teary"]
+    },
+    {
+      "id": "shy_282",
+      "text": "(ノωヽ)",
+      "tags": ["cover-face", "shy"]
+    },
+    {
+      "id": "shy_283",
+      "text": "( =ノωヽ=)",
+      "tags": ["cover-face", "shy"]
+    },
+    {
+      "id": "shy_284",
+      "text": "|▽//)",
+      "tags": ["peeking", "shy"]
+    },
+    {
+      "id": "shy_285",
+      "text": "(˶ҩᆺҩ˶)",
+      "tags": ["animal", "shy"]
+    },
+    {
+      "id": "shy_286",
+      "text": "(˶• ֊ •˶)",
+      "tags": ["shy", "smile"]
+    },
+    {
+      "id": "shy_287",
+      "text": "(՞˶･֊･˶՞)",
+      "tags": ["shy", "smile"]
     }
   ]
 }

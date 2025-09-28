@@ -5,311 +5,116 @@
     "zh-tw": "生氣"
   },
   "preview": "(*｀へ´*)",
-  "lastUpdated": "2025-08-17",
+  "lastUpdated": "2025-09-27",
   "items": [
     {
       "id": "angry_001",
       "text": "(๑⁼̴̀д⁼̴ ๑)",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_002",
-      "text": "o(´^｀)o",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_003",
-      "text": "ꐦ≖ ≖",
-      "tags": ["angry", "speechless"]
-    },
-    {
-      "id": "angry_004",
-      "text": "⎛ -᷄ ᴥ -᷅ ⎞೯",
-      "tags": ["angry", "animal"]
-    },
-    {
-      "id": "angry_005",
-      "text": "(҂`･ｪ･´)",
-      "tags": ["angry", "animal", "motivated"]
-    },
-    {
-      "id": "angry_006",
-      "text": "(ʘ̆ʚʘ̆)",
-      "tags": ["angry", "helpless"]
-    },
-    {
-      "id": "angry_007",
-      "text": "-⤙-",
-      "tags": ["angry", "helpless"]
-    },
-    {
-      "id": "angry_008",
-      "text": "᷄•̆₃•̑",
-      "tags": ["angry", "helpless"]
-    },
-    {
-      "id": "angry_009",
-      "text": "•᷄ ᯅ •᷅",
-      "tags": ["angry", "helpless"]
+      "tags": ["displeased"]
     },
     {
       "id": "angry_010",
       "text": "•︡ᯅ•︠",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_011",
-      "text": "૮₍ꐦ -᷅ ⤙ -᷄ ₎ა",
-      "tags": ["angry", "animal", "speechless"]
+      "tags": ["displeased"]
     },
     {
       "id": "angry_012",
       "text": "૮₍ ˃ ⤙ ˂ ₎ა",
-      "tags": ["angry", "animal"]
+      "tags": ["cute", "displeased"]
     },
     {
       "id": "angry_013",
       "text": "(๑`^´๑)",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_016",
-      "text": "ԅ( ͒ ۝ ͒ )ᕤ",
-      "tags": ["angry", "motivated"]
-    },
-    {
-      "id": "angry_017",
-      "text": "(*σ´益｀)σ",
-      "tags": ["angry", "pointing"]
+      "tags": ["angry", "displeased"]
     },
     {
       "id": "angry_018",
       "text": "☝(｀ط´≠)",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_019",
-      "text": "(ლ `Д ́)ლ",
-      "tags": ["angry", "breakdown"]
-    },
-    {
-      "id": "angry_020",
-      "text": "s( ^ ‸ ^)-p",
-      "tags": ["angry", "speechless"]
-    },
-    {
-      "id": "angry_032",
-      "text": "(ノ#-_-)ノ ミ　┴┴",
-      "tags": ["angry", "table-flip"]
-    },
-    {
-      "id": "angry_034",
-      "text": "(/｀ο´)/ ⌒ ┫:’ﾟ:｡･",
-      "tags": ["table-flip"]
-    },
-    {
-      "id": "angry_035",
-      "text": "｡゜(｀Д´)゜｡",
-      "tags": ["angry", "crying"]
-    },
-    {
-      "id": "angry_036",
-      "text": "｡･ﾟ’(*/益＼*) ‘ﾟ･｡",
-      "tags": ["angry", "breakdown", "crying"]
-    },
-    {
-      "id": "angry_037",
-      "text": "｡ﾟ(ﾟ`⊿゜)ﾟ｡",
-      "tags": ["angry", "crying", "shout"]
-    },
-    {
-      "id": "angry_038",
-      "text": "ﾟ｡･ﾟヾ(ﾟ｀ｪ´ﾟ)ﾉ｡ﾟ･｡",
-      "tags": ["angry", "crying"]
-    },
-    {
-      "id": "angry_039",
-      "text": "Q(｀⌒´Q)",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_040",
-      "text": "(ง ͠° ͟ʖ #)ง",
-      "tags": ["angry", "motivated"]
-    },
-    {
-      "id": "angry_041",
-      "text": "Q–(’̀-’̀Q )",
-      "tags": ["angry"]
+      "tags": ["angry", "pointing"]
     },
     {
       "id": "angry_042",
       "text": "|Д´)/",
-      "tags": ["angry", "peeking"]
+      "tags": ["angry", "hands-up", "peeking"]
     },
     {
       "id": "angry_043",
       "text": "|Д´)ﾉ",
-      "tags": ["angry", "peeking"]
+      "tags": ["angry", "hands-up", "peeking"]
     },
     {
       "id": "angry_044",
       "text": "ヽ(*｀Д´*||",
-      "tags": ["angry", "breakdown"]
+      "tags": ["angry", "breakdown", "shout", "waving"]
     },
     {
       "id": "angry_045",
       "text": "||*｀Д´*)ﾉ",
-      "tags": ["angry"]
+      "tags": ["angry", "hands-up", "shout"]
     },
     {
       "id": "angry_046",
       "text": "ᕙ( : ˘ ∧ ˘ : )ᕗ",
-      "tags": ["angry", "muscle"]
+      "tags": ["closed-eyes", "displeased", "hands-up", "muscle"]
     },
     {
       "id": "angry_047",
       "text": "ᕙ[ ・ ∧ ・ ]ᕗ",
-      "tags": ["angry", "muscle"]
+      "tags": ["displeased", "hands-up", "muscle"]
     },
     {
       "id": "angry_048",
       "text": "ᕙ[･۝･]ᕗ",
-      "tags": ["angry", "muscle", "shout"]
+      "tags": ["displeased", "hands-up", "muscle", "shout"]
     },
     {
       "id": "angry_049",
       "text": "୧( ಠ Д ಠ )୨",
-      "tags": ["angry", "motivated"]
+      "tags": ["angry", "confused", "hands-up", "motivated", "shout"]
     },
     {
       "id": "angry_050",
       "text": "ᕦ╏ ʘ̆ ‸ ʘ̆ ╏ᕤ",
-      "tags": ["angry", "muscle"]
+      "tags": ["displeased", "hands-up", "muscle"]
     },
     {
       "id": "angry_051",
       "text": "|･｀ヘ´･;|ゞ",
-      "tags": ["angry", "salute"]
+      "tags": ["displeased", "scratch", "sweat-drop"]
     },
     {
       "id": "angry_052",
       "text": "s(●｀ヘ´●;)ゞ",
-      "tags": ["angry", "salute"]
+      "tags": ["displeased", "scratch", "sweat-drop"]
     },
     {
       "id": "angry_053",
       "text": "（○｀ω´）ゞ",
-      "tags": ["angry", "salute"]
-    },
-    {
-      "id": "angry_054",
-      "text": "(`･ε´-ゞ)",
-      "tags": ["angry", "salute"]
-    },
-    {
-      "id": "angry_055",
-      "text": "(`Д´)ゞ",
-      "tags": ["angry", "salute"]
+      "tags": ["displeased", "scratch"]
     },
     {
       "id": "angry_056",
       "text": "(｀д´)ゝ",
-      "tags": ["angry", "salute"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_057",
       "text": "ｏ(･д´･+)ゞ",
-      "tags": ["angry", "salute"]
-    },
-    {
-      "id": "angry_058",
-      "text": "(＞Д＜)ゝ",
-      "tags": ["angry", "salute", "shout"]
-    },
-    {
-      "id": "angry_059",
-      "text": "（・д・ゝ）",
-      "tags": ["angry", "salute"]
-    },
-    {
-      "id": "angry_060",
-      "text": "∠(´д｀)",
-      "tags": ["angry", "helpless", "salute"]
-    },
-    {
-      "id": "angry_061",
-      "text": "(｀ﾟДﾟ´)ゞ",
-      "tags": ["angry", "salute"]
-    },
-    {
-      "id": "angry_062",
-      "text": "(●>д<●)ゞ",
-      "tags": ["angry", "nervous", "salute"]
-    },
-    {
-      "id": "angry_063",
-      "text": "＼|*≧Д≦|>",
-      "tags": ["angry", "breakdown", "salute"]
-    },
-    {
-      "id": "angry_064",
-      "text": "(｀・д・´)ゝ",
-      "tags": ["angry", "salute"]
+      "tags": ["displeased", "scratch"]
     },
     {
       "id": "angry_065",
       "text": "(｀･д´･ゞ)-☆",
-      "tags": ["angry", "salute", "star"]
-    },
-    {
-      "id": "angry_066",
-      "text": "(＞Д＜)ゝ”",
-      "tags": ["angry", "salute", "shout"]
-    },
-    {
-      "id": "angry_068",
-      "text": "(｡･Д･)ゞ",
-      "tags": ["angry", "salute"]
+      "tags": ["displeased", "scratch", "star"]
     },
     {
       "id": "angry_069",
       "text": "ヾ(●｀･△･´●)ゞ",
-      "tags": ["angry", "salute"]
-    },
-    {
-      "id": "angry_070",
-      "text": "(・∧‐)ゞ",
-      "tags": ["angry", "salute"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_071",
       "text": "(⌍་д་⌌)",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_072",
-      "text": "(￢ε￢　)",
-      "tags": ["angry", "speechless"]
-    },
-    {
-      "id": "angry_073",
-      "text": "(￢з￢)",
-      "tags": ["angry", "speechless"]
-    },
-    {
-      "id": "angry_074",
-      "text": "（￢з￢）",
-      "tags": ["angry", "speechless"]
-    },
-    {
-      "id": "angry_075",
-      "text": "( ੭눈 _ 눈 )੭",
-      "tags": ["angry", "speechless"]
-    },
-    {
-      "id": "angry_076",
-      "text": "（ ಠωಠ）",
       "tags": ["angry"]
     },
     {
@@ -318,24 +123,14 @@
       "tags": ["angry"]
     },
     {
-      "id": "angry_078",
-      "text": "(　`_ゝ´)",
-      "tags": ["angry", "speechless"]
-    },
-    {
       "id": "angry_079",
       "text": "(ඟ⍘ඟ)",
       "tags": ["angry"]
     },
     {
-      "id": "angry_080",
-      "text": "(๑≖ˇдˇ≖๑)",
-      "tags": ["angry", "speechless"]
-    },
-    {
       "id": "angry_081",
       "text": "ヾ(▼ﾍ▼；)",
-      "tags": ["angry"]
+      "tags": ["cool", "displeased", "sunglasses", "sweat-drop", "waving"]
     },
     {
       "id": "angry_082",
@@ -343,24 +138,9 @@
       "tags": ["angry"]
     },
     {
-      "id": "angry_083",
-      "text": "φ(●ﾟ益ﾟ)っ",
-      "tags": ["angry", "writing"]
-    },
-    {
-      "id": "angry_084",
-      "text": "φ(-｀Д´-*)",
-      "tags": ["angry", "writing"]
-    },
-    {
-      "id": "angry_085",
-      "text": "┗(｀O´)┛",
-      "tags": ["angry", "banzai", "shout"]
-    },
-    {
       "id": "angry_086",
       "text": "└｜゜ε゜｜┐",
-      "tags": ["angry"]
+      "tags": ["angry", "pouting"]
     },
     {
       "id": "angry_087",
@@ -368,98 +148,43 @@
       "tags": ["angry"]
     },
     {
-      "id": "angry_088",
-      "text": "“8-( ●｀ε´●)爻(●｀ε´● )-8”",
-      "tags": ["angry", "friend"]
-    },
-    {
-      "id": "angry_089",
-      "text": "“8-( ●｀・З・´)爻(｀・ε・´● )-8”",
-      "tags": ["angry", "friend"]
-    },
-    {
-      "id": "angry_090",
-      "text": "╏つ ͜ಠ ‸ ͜ಠ ╏つ",
-      "tags": ["angry", "hug"]
-    },
-    {
       "id": "angry_091",
       "text": "(っ⇀`皿′↼)っ",
-      "tags": ["angry", "hug"]
-    },
-    {
-      "id": "angry_092",
-      "text": "(つ◉益◉)つ",
-      "tags": ["angry", "hug"]
-    },
-    {
-      "id": "angry_093",
-      "text": "(/￣^￣)/￣ ＼(｡_｡＼)",
-      "tags": ["angry", "apologize"]
-    },
-    {
-      "id": "angry_094",
-      "text": "（。ˇ ⊖ˇ）",
       "tags": ["angry"]
     },
     {
       "id": "angry_095",
       "text": "o┤*｀3´*├o",
-      "tags": ["angry", "kiss"]
+      "tags": ["displeased", "pouting"]
     },
     {
       "id": "angry_096",
       "text": "(-ε- )",
-      "tags": ["angry"]
+      "tags": ["angry", "pouting"]
     },
     {
       "id": "angry_097",
       "text": "(‘ε’)",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_098",
-      "text": "（￣ε￣＠）",
-      "tags": ["angry"]
+      "tags": ["angry", "pouting"]
     },
     {
       "id": "angry_099",
       "text": "σ(≧ε≦ｏ)",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_100",
-      "text": "┌║ ຈ ε ຈ ║┐",
-      "tags": ["angry"]
+      "tags": ["angry", "pouting"]
     },
     {
       "id": "angry_101",
       "text": "(≧ε≦)))",
-      "tags": ["angry", "breakdown"]
+      "tags": ["pouting"]
     },
     {
       "id": "angry_102",
       "text": "(｀ε´#)",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_103",
-      "text": "(╯⊙ ⊱ ⊙╰ )",
-      "tags": ["angry", "dumbfounded", "speechless"]
-    },
-    {
-      "id": "angry_104",
-      "text": "（￣ε￣ʃƪ）",
-      "tags": ["angry", "kiss", "shy"]
+      "tags": ["angry", "pouting"]
     },
     {
       "id": "angry_105",
       "text": "(｡･ˇ_ˇ･｡)",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_106",
-      "text": "₍₍ ᕕ( ･᷄ὢ･᷅ )ᕗ⁾⁾",
       "tags": ["angry"]
     },
     {
@@ -473,11 +198,6 @@
       "tags": ["angry"]
     },
     {
-      "id": "angry_109",
-      "text": "（;≧皿≦）",
-      "tags": ["angry", "breakdown", "shout"]
-    },
-    {
       "id": "angry_110",
       "text": "(。-`ω´-)",
       "tags": ["angry"]
@@ -485,11 +205,6 @@
     {
       "id": "angry_111",
       "text": "( •̆௰•̆)",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_112",
-      "text": "ต(ꏿ᷅௰ꏿ᷄)ต",
       "tags": ["angry"]
     },
     {
@@ -505,22 +220,7 @@
     {
       "id": "angry_115",
       "text": "٩(╬ŏ3ŏ)و",
-      "tags": ["angry", "cheer-up", "kiss"]
-    },
-    {
-      "id": "angry_116",
-      "text": "Σ(`‐ｪ‐´)",
-      "tags": ["angry", "surprised"]
-    },
-    {
-      "id": "angry_117",
-      "text": "Σ(´д ` ﾒ)",
-      "tags": ["angry", "surprised"]
-    },
-    {
-      "id": "angry_118",
-      "text": "Σ(;･益･;;;)!!!",
-      "tags": ["angry", "startled", "surprised"]
+      "tags": ["angry", "excited", "hands-up", "pouting"]
     },
     {
       "id": "angry_119",
@@ -531,16 +231,6 @@
       "id": "angry_120",
       "text": "凸(｀0´)凸",
       "tags": ["angry", "shout"]
-    },
-    {
-      "id": "angry_121",
-      "text": "凸(-0-メ)",
-      "tags": ["angry", "closed-eyes", "speechless"]
-    },
-    {
-      "id": "angry_122",
-      "text": "凸(｀⌒´メ)凸",
-      "tags": ["angry", "speechless"]
     },
     {
       "id": "angry_123",
@@ -580,7 +270,7 @@
     {
       "id": "angry_130",
       "text": "(ꐦ°᷄д°᷅)",
-      "tags": ["angry"]
+      "tags": ["angry", "shout"]
     },
     {
       "id": "angry_131",
@@ -598,19 +288,9 @@
       "tags": ["angry"]
     },
     {
-      "id": "angry_134",
-      "text": "(ꐦ ಠ皿ಠ )",
-      "tags": ["angry"]
-    },
-    {
       "id": "angry_135",
       "text": "（｀Δ´）！",
       "tags": ["angry", "shout"]
-    },
-    {
-      "id": "angry_136",
-      "text": "(╬ಠ益ಠ)",
-      "tags": ["angry"]
     },
     {
       "id": "angry_137",
@@ -640,27 +320,17 @@
     {
       "id": "angry_142",
       "text": "-`д´-",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_143",
-      "text": "ಠ▃ಠ",
-      "tags": ["angry"]
+      "tags": ["angry", "shout"]
     },
     {
       "id": "angry_144",
       "text": "〴⋋_⋌〵",
-      "tags": ["angry", "wings"]
-    },
-    {
-      "id": "angry_145",
-      "text": "ఠ ͟ಠ",
       "tags": ["angry"]
     },
     {
       "id": "angry_146",
       "text": "૮( ᵒ̌皿ᵒ̌ )ა",
-      "tags": ["angry", "animal"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_147",
@@ -670,7 +340,7 @@
     {
       "id": "angry_148",
       "text": "(｡☉︵ ಠ╬)",
-      "tags": ["angry", "crying"]
+      "tags": ["displeased", "serious"]
     },
     {
       "id": "angry_149",
@@ -685,27 +355,22 @@
     {
       "id": "angry_151",
       "text": "⋌༼ •̀ ⌂ •́ ༽⋋",
-      "tags": ["angry", "wings"]
-    },
-    {
-      "id": "angry_152",
-      "text": "＼(・｀(ｪ)・)/",
-      "tags": ["angry", "animal", "banzai"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_153",
       "text": "ヽ(#`Д´)ﾉ",
-      "tags": ["angry", "shout"]
+      "tags": ["angry", "hands-up", "shout"]
     },
     {
       "id": "angry_154",
       "text": "ヽ(ｏ`皿′ｏ)ﾉ",
-      "tags": ["angry"]
+      "tags": ["angry", "hands-up"]
     },
     {
       "id": "angry_155",
       "text": "ヽ(´益`)ﾉ",
-      "tags": ["angry"]
+      "tags": ["angry", "hands-up"]
     },
     {
       "id": "angry_156",
@@ -715,12 +380,7 @@
     {
       "id": "angry_157",
       "text": "ヽ(｀⌒´)ﾉ",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_158",
-      "text": "＼`•̀益•́´／",
-      "tags": ["angry", "banzai"]
+      "tags": ["angry", "hands-up"]
     },
     {
       "id": "angry_159",
@@ -730,57 +390,47 @@
     {
       "id": "angry_160",
       "text": "ヽ(｀○´)/",
-      "tags": ["angry", "shout"]
+      "tags": ["displeased", "hands-up", "shout"]
     },
     {
       "id": "angry_161",
       "text": "ヽ(｀Д´)ノ",
-      "tags": ["angry", "banzai", "shout"]
+      "tags": ["angry", "shout"]
     },
     {
       "id": "angry_162",
       "text": "ヾ(*｀ｪ´*)ﾉ",
-      "tags": ["angry", "animal"]
+      "tags": ["animal", "displeased", "hands-up"]
     },
     {
       "id": "angry_163",
       "text": "ヾ(｀ε´)ﾉ",
-      "tags": ["angry"]
+      "tags": ["angry", "hands-up", "pouting"]
     },
     {
       "id": "angry_164",
       "text": "ヾ(ﾒ｀･д･´)ﾉﾞ",
-      "tags": ["angry"]
+      "tags": ["angry", "hands-up"]
     },
     {
       "id": "angry_165",
       "text": "ヾ(*｀⌒´*)ﾉ",
-      "tags": ["angry"]
+      "tags": ["angry", "hands-up"]
     },
     {
       "id": "angry_166",
       "text": "((ヾ(≧皿≦ﾒ)ﾉ))",
-      "tags": ["angry"]
+      "tags": ["angry", "hands-up"]
     },
     {
       "id": "angry_167",
       "text": "٩(╬ఠ༬ఠ)و",
-      "tags": ["angry", "cheer-up"]
-    },
-    {
-      "id": "angry_168",
-      "text": "٩(//̀Д/́/)۶",
-      "tags": ["angry", "cheer-up", "shy"]
-    },
-    {
-      "id": "angry_170",
-      "text": "(╬☉д⊙)",
-      "tags": ["angry", "dumbfounded", "surprised"]
+      "tags": ["cheer-up", "displeased"]
     },
     {
       "id": "angry_171",
       "text": "(#｀ﾟд´)ﾉ",
-      "tags": ["angry"]
+      "tags": ["angry", "hands-up"]
     },
     {
       "id": "angry_173",
@@ -790,17 +440,12 @@
     {
       "id": "angry_174",
       "text": "∩(￣□￣#)∩",
-      "tags": ["angry", "banzai", "hands-up", "surprised"]
+      "tags": ["closed-eyes", "displeased", "hands-up"]
     },
     {
       "id": "angry_175",
       "text": "(ૢ•᷄⊱•᷅ ╬)",
       "tags": ["angry"]
-    },
-    {
-      "id": "angry_176",
-      "text": "‷̗ↂ凸ↂ‴̖",
-      "tags": ["angry", "excited", "speechless"]
     },
     {
       "id": "angry_177",
@@ -815,7 +460,7 @@
     {
       "id": "angry_179",
       "text": "(﹡ˆ﹀ˆ﹡ )ꐦ",
-      "tags": ["angry"]
+      "tags": ["angry", "scheming", "smile"]
     },
     {
       "id": "angry_180",
@@ -828,19 +473,9 @@
       "tags": ["angry"]
     },
     {
-      "id": "angry_182",
-      "text": "(・-・ꐦ)",
-      "tags": ["angry", "speechless"]
-    },
-    {
       "id": "angry_183",
       "text": "(#`Д´)ﾉ",
-      "tags": ["angry", "shout"]
-    },
-    {
-      "id": "angry_184",
-      "text": "(`д´)",
-      "tags": ["angry"]
+      "tags": ["angry", "hands-up", "shout"]
     },
     {
       "id": "angry_185",
@@ -850,12 +485,7 @@
     {
       "id": "angry_186",
       "text": "( ｰ̀ ༥ ｰ́ )",
-      "tags": ["angry", "eating"]
-    },
-    {
-      "id": "angry_188",
-      "text": "٩(๑ò ༥ ó ๑)۶",
-      "tags": ["angry", "cheer-up", "eating"]
+      "tags": ["angry", "closed-eyes", "displeased", "eating"]
     },
     {
       "id": "angry_189",
@@ -870,7 +500,7 @@
     {
       "id": "angry_192",
       "text": "(ꐦ^^)",
-      "tags": ["angry"]
+      "tags": ["angry", "scheming"]
     },
     {
       "id": "angry_193",
@@ -883,11 +513,6 @@
       "tags": ["angry"]
     },
     {
-      "id": "angry_195",
-      "text": "(ꐦº-° )",
-      "tags": ["angry", "speechless"]
-    },
-    {
       "id": "angry_196",
       "text": "ღ ( ｰ̀ωｰ́ ღ )",
       "tags": ["angry", "love"]
@@ -895,12 +520,12 @@
     {
       "id": "angry_197",
       "text": "(▼皿▼ﾒ)ﾉ",
-      "tags": ["angry", "sunglasses"]
+      "tags": ["angry", "cool", "hands-up", "sunglasses"]
     },
     {
       "id": "angry_198",
       "text": "(`3´)",
-      "tags": ["angry"]
+      "tags": ["angry", "pouting"]
     },
     {
       "id": "angry_199",
@@ -908,19 +533,9 @@
       "tags": ["angry"]
     },
     {
-      "id": "angry_200",
-      "text": "(#`皿´)",
-      "tags": ["angry"]
-    },
-    {
       "id": "angry_201",
       "text": "(-`ェ´-╬)",
       "tags": ["angry", "animal"]
-    },
-    {
-      "id": "angry_203",
-      "text": "(≧д≦)",
-      "tags": ["nervous"]
     },
     {
       "id": "angry_204",
@@ -940,7 +555,7 @@
     {
       "id": "angry_207",
       "text": "(╬◣益◢)",
-      "tags": ["angry", "sunglasses"]
+      "tags": ["angry", "cool", "sunglasses"]
     },
     {
       "id": "angry_208",
@@ -953,26 +568,6 @@
       "tags": ["angry", "wink"]
     },
     {
-      "id": "angry_210",
-      "text": "૮ -‘๑’-ა",
-      "tags": ["angry", "animal", "speechless"]
-    },
-    {
-      "id": "angry_211",
-      "text": "ϵ(ò⥐ó)ͽﾌﾟｯ",
-      "tags": ["angry", "animal"]
-    },
-    {
-      "id": "angry_212",
-      "text": "⌯•͈₃•͈⌯ಣ",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_213",
-      "text": "(; ･`д･´)",
-      "tags": ["nervous", "serious", "surprised"]
-    },
-    {
       "id": "angry_215",
       "text": "ꉂ `o´ )",
       "tags": ["lol"]
@@ -980,47 +575,12 @@
     {
       "id": "angry_216",
       "text": "(◕ っ ◕✿)",
-      "tags": ["angry", "big-eyes", "flower"]
-    },
-    {
-      "id": "angry_217",
-      "text": "(◕ˉ◕✿)",
-      "tags": ["angry", "big-eyes", "flower", "speechless"]
-    },
-    {
-      "id": "angry_218",
-      "text": "(≖ ︿ ≖ ✿)",
-      "tags": ["angry", "flower", "speechless"]
-    },
-    {
-      "id": "angry_219",
-      "text": "(≖ ‸ ≖ ✿)",
-      "tags": ["angry", "flower", "speechless"]
-    },
-    {
-      "id": "angry_220",
-      "text": "(≖ Δ ≖ ✿)",
-      "tags": ["angry", "flower", "shout"]
-    },
-    {
-      "id": "angry_221",
-      "text": "(≖ ︿ ≖ ✿)ꐦꐦ",
-      "tags": ["angry", "flower"]
+      "tags": ["big-eyes", "displeased", "flower"]
     },
     {
       "id": "angry_223",
       "text": "(◢ д ◣)",
       "tags": ["angry"]
-    },
-    {
-      "id": "angry_224",
-      "text": "( ఠ్ఠᗣఠ్ఠ )",
-      "tags": ["angry", "surprised"]
-    },
-    {
-      "id": "angry_225",
-      "text": "(；¬д¬)",
-      "tags": ["angry", "speechless"]
     },
     {
       "id": "angry_226",
@@ -1030,16 +590,11 @@
     {
       "id": "angry_227",
       "text": "ヾ( ･`⌓´･)ﾉﾞ",
-      "tags": ["angry"]
+      "tags": ["displeased", "hands-up"]
     },
     {
       "id": "angry_228",
       "text": "(╯•ω•╰)",
-      "tags": ["angry", "animal"]
-    },
-    {
-      "id": "angry_229",
-      "text": "(･᷄ὢ･᷅)",
       "tags": ["angry"]
     },
     {
@@ -1048,14 +603,9 @@
       "tags": ["angry"]
     },
     {
-      "id": "angry_231",
-      "text": "(੭ु⍨)੭ु⁾⁾",
-      "tags": ["angry", "dancing", "helpless"]
-    },
-    {
       "id": "angry_232",
       "text": "( ° ^ ° )",
-      "tags": ["angry"]
+      "tags": ["dazed", "displeased"]
     },
     {
       "id": "angry_233",
@@ -1068,11 +618,6 @@
       "tags": ["angry"]
     },
     {
-      "id": "angry_236",
-      "text": "(-_-)",
-      "tags": ["angry", "helpless", "speechless"]
-    },
-    {
       "id": "angry_237",
       "text": "(°ㅂ°ꐦ)",
       "tags": ["angry"]
@@ -1080,12 +625,12 @@
     {
       "id": "angry_238",
       "text": "⁽⁽(੭ꐦ •̀Д•́ )੭*⁾⁾",
-      "tags": ["angry", "attack"]
+      "tags": ["angry", "attack", "displeased"]
     },
     {
       "id": "angry_239",
       "text": "ヽ(｀Д´#)ﾉ ﾑｷｰ!!",
-      "tags": ["angry", "shout"]
+      "tags": ["angry", "hands-up", "shout"]
     },
     {
       "id": "angry_240",
@@ -1095,22 +640,12 @@
     {
       "id": "angry_241",
       "text": "(｀ε´)ﾑｽｯ",
-      "tags": ["angry", "pout"]
-    },
-    {
-      "id": "angry_242",
-      "text": "(╬＾ω＾)むかつく",
-      "tags": ["angry"]
+      "tags": ["displeased", "pouting", "text"]
     },
     {
       "id": "angry_243",
       "text": "(ꐦ ‾᷄꒫‾᷅ )",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_246",
-      "text": "o(･`д´･ ｡)ｶﾞﾝﾊﾞ—!!!",
-      "tags": ["angry", "cheer-up"]
+      "tags": ["angry", "closed-eyes"]
     },
     {
       "id": "angry_247",
@@ -1118,43 +653,8 @@
       "tags": ["angry"]
     },
     {
-      "id": "angry_249",
-      "text": "(ノ-o-)ノ⌒┳ ┫┻┣",
-      "tags": ["table-flip"]
-    },
-    {
-      "id": "angry_250",
-      "text": "┬──┬◡ﾉ(° -°ﾉ)",
-      "tags": ["table-flip"]
-    },
-    {
       "id": "angry_251",
       "text": "(╬◣д◢)",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_252",
-      "text": "ಠﭛಠ",
-      "tags": ["angry", "speechless"]
-    },
-    {
-      "id": "angry_253",
-      "text": "(／‵Д′)／~ ╧╧",
-      "tags": ["angry", "table-flip"]
-    },
-    {
-      "id": "angry_254",
-      "text": "(╯‵□′)╯︵┴─┴",
-      "tags": ["angry", "table-flip"]
-    },
-    {
-      "id": "angry_255",
-      "text": "(◓Д◒)✄╰⋃╯",
-      "tags": ["angry", "attack"]
-    },
-    {
-      "id": "angry_256",
-      "text": "(ﾒﾟДﾟ)ﾒ",
       "tags": ["angry"]
     },
     {
@@ -1168,28 +668,8 @@
       "tags": ["angry"]
     },
     {
-      "id": "angry_259",
-      "text": "(╬▼дﾟ)",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_260",
-      "text": "( ° ͜ʖ͡°)╭∩╮",
-      "tags": ["angry", "goofy"]
-    },
-    {
-      "id": "angry_261",
-      "text": "(⌐▀͡ ̯ʖ▀)",
-      "tags": ["angry", "sunglasses"]
-    },
-    {
       "id": "angry_262",
       "text": "(#･∀･)",
-      "tags": ["angry"]
-    },
-    {
-      "id": "angry_263",
-      "text": "٩(๑`^´๑)۶",
       "tags": ["angry"]
     },
     {
@@ -1205,22 +685,12 @@
     {
       "id": "angry_266",
       "text": "╚|░☀▄☀░|╝",
-      "tags": ["angry", "goofy"]
-    },
-    {
-      "id": "angry_268",
-      "text": "/@ﾟﾍﾟ@/",
-      "tags": ["animal", "confused", "sheep", "thinking"]
+      "tags": ["angry"]
     },
     {
       "id": "angry_269",
       "text": "(ｏﾟﾛﾟ)=●)PC】･;’",
-      "tags": ["angry", "attack", "breakdown"]
-    },
-    {
-      "id": "angry_270",
-      "text": "☞๏็ັཪ๏็๎☞",
-      "tags": ["angry", "pointing", "serious"]
+      "tags": ["attack", "breakdown", "dazed", "displeased"]
     },
     {
       "id": "angry_271",
@@ -1229,8 +699,198 @@
     },
     {
       "id": "angry_272",
-      "text": "(┛◉Д◉)┛彡┻━┻",
-      "tags": ["angry", "displeased", "excited", "hands-up", "shout", "surprised", "table-flip"]
+      "text": "(=`ｪ´=；)ゞ",
+      "tags": ["angry", "scratch", "sweat-drop", "老虎"]
+    },
+    {
+      "id": "angry_273",
+      "text": "ε=ε=(怒ﾟДﾟ)ﾉ",
+      "tags": ["angry", "dazed", "hands-up", "running", "shout"]
+    },
+    {
+      "id": "angry_274",
+      "text": "(◞≼◉ื≽◟ ;益;◞≼◉ื≽◟)Ψ",
+      "tags": ["angry", "breakdown", "devil"]
+    },
+    {
+      "id": "angry_275",
+      "text": "( ▀ 益 ▀ )",
+      "tags": ["angry", "cool", "sunglasses"]
+    },
+    {
+      "id": "angry_276",
+      "text": "ヽ( `д´*)ノ",
+      "tags": ["angry", "hands-up", "shout"]
+    },
+    {
+      "id": "angry_277",
+      "text": "(┛`д´)┛",
+      "tags": ["angry", "hands-up", "shout"]
+    },
+    {
+      "id": "angry_280",
+      "text": "𝒱 \\ (ꐦ `Д´)ﾉ",
+      "tags": ["angry", "attack", "hands-up", "shout"]
+    },
+    {
+      "id": "angry_281",
+      "text": "ヽ(●-`Д´-)ノ",
+      "tags": ["angry", "hands-up", "shout"]
+    },
+    {
+      "id": "angry_282",
+      "text": "ᕙ(⇀‸↼‶)ᕗ",
+      "tags": ["displeased", "hands-up", "muscle"]
+    },
+    {
+      "id": "angry_283",
+      "text": "(　`_ゝ´)",
+      "tags": ["angry", "displeased"]
+    },
+    {
+      "id": "angry_284",
+      "text": "♒((⇀‸↼))♒",
+      "tags": ["displeased"]
+    },
+    {
+      "id": "angry_285",
+      "text": "(。ヘ°)",
+      "tags": ["dazed", "displeased"]
+    },
+    {
+      "id": "angry_286",
+      "text": "(⑉･̆⌓･̆⑉)",
+      "tags": ["displeased"]
+    },
+    {
+      "id": "angry_287",
+      "text": "(◔ヘ◔)",
+      "tags": ["displeased"]
+    },
+    {
+      "id": "angry_288",
+      "text": "(∩ ⌣̀_⌣́)",
+      "tags": ["closed-eyes", "displeased", "hands-up"]
+    },
+    {
+      "id": "angry_289",
+      "text": "(╬ﾟдﾟ)",
+      "tags": ["angry", "shout", "surprised"]
+    },
+    {
+      "id": "angry_290",
+      "text": "ヽ(#ﾟДﾟ)ﾉ",
+      "tags": ["angry", "hands-up", "shout", "surprised"]
+    },
+    {
+      "id": "angry_291",
+      "text": "(╬▼дﾟ)",
+      "tags": ["displeased", "shout", "surprised"]
+    },
+    {
+      "id": "angry_292",
+      "text": "(ﾒﾟДﾟ)ﾒ",
+      "tags": ["angry", "shout"]
+    },
+    {
+      "id": "angry_293",
+      "text": "ꐦ≖ ≖",
+      "tags": ["angry", "speechless"]
+    },
+    {
+      "id": "angry_294",
+      "text": "＼(｀0´)／",
+      "tags": ["angry", "hands-up", "shout"]
+    },
+    {
+      "id": "angry_295",
+      "text": "ヽ(｀⌒´メ)ノ",
+      "tags": ["angry", "hands-up"]
+    },
+    {
+      "id": "angry_298",
+      "text": "＼(`O´θ／",
+      "tags": ["angry", "hands-up", "shout"]
+    },
+    {
+      "id": "angry_299",
+      "text": "(╬ಠ益ಠ)",
+      "tags": ["angry", "confused"]
+    },
+    {
+      "id": "angry_300",
+      "text": "(ꐦ ಠ皿ಠ )",
+      "tags": ["angry", "confused"]
+    },
+    {
+      "id": "angry_302",
+      "text": "(/｀ο´)/ ⌒ ┫:’ﾟ:｡･",
+      "tags": ["angry", "table-flip"]
+    },
+    {
+      "id": "angry_303",
+      "text": "(# ﾟДﾟ)",
+      "tags": ["dazed", "displeased", "shout", "surprised"]
+    },
+    {
+      "id": "angry_304",
+      "text": "(╬＾ω＾)むかつく",
+      "tags": ["displeased", "scheming", "text"]
+    },
+    {
+      "id": "angry_305",
+      "text": "( ˋ Θ ´ )",
+      "tags": ["angry", "bird"]
+    },
+    {
+      "id": "angry_306",
+      "text": "＼( ˋ Θ ´ )／",
+      "tags": ["angry", "hands-up"]
+    },
+    {
+      "id": "angry_307",
+      "text": "（;≧皿≦）",
+      "tags": ["angry", "excited", "sweat-drop"]
+    },
+    {
+      "id": "angry_308",
+      "text": "o(･`д´･ ｡)ｶﾞﾝﾊﾞ—!!!",
+      "tags": ["angry", "excited", "shout", "text"]
+    },
+    {
+      "id": "angry_309",
+      "text": "( ง ᵒ̌皿ᵒ̌)ง⁼³₌₃",
+      "tags": ["angry"]
+    },
+    {
+      "id": "angry_310",
+      "text": "(ง ͠° ͟ʖ #)ง",
+      "tags": ["displeased", "motivated", "provoke", "serious"]
+    },
+    {
+      "id": "angry_311",
+      "text": "凸(｀⌒´メ)凸",
+      "tags": ["angry"]
+    },
+    {
+      "id": "angry_312",
+      "text": "૮₍ꐦ -᷅ ⤙ -᷄ ₎ა",
+      "tags": ["angry", "animal", "closed-eyes", "cute"]
+    },
+    {
+      "id": "angry_313",
+      "text": "(・-・ꐦ)",
+      "tags": ["angry", "neutral"]
+    },
+    {
+      "id": "angry_314",
+      "text": "(ꐦº-° )",
+      "tags": ["angry", "speechless"]
+    },
+    {
+      "id": "angry_315",
+      "text": "(ﾉꐦ ⊙曲ఠ)ﾉ彡┻━┻",
+      "tags": ["angry", "breakdown", "excited", "hands-up", "table-flip"]
     }
   ]
 }

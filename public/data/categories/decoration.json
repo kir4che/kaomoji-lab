@@ -5,12 +5,12 @@
     "zh-tw": "裝飾"
   },
   "preview": "♥･*:.｡ ｡.:*･ﾟ♡･*:.｡ ｡",
-  "lastUpdated": "2025-08-17",
+  "lastUpdated": "2025-09-27",
   "items": [
     {
       "id": "decoration_001",
       "text": "ଘ♡ଓ*:ﾟ+｡.໒꒱°*。⋈｡♡:* :ﾟ+｡ଘ☆:ﾟ+｡⋈｡",
-      "tags": ["decoration", "love"]
+      "tags": ["decoration", "love", "star"]
     },
     {
       "id": "decoration_002",
@@ -40,7 +40,7 @@
     {
       "id": "decoration_007",
       "text": "♡┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈♡",
-      "tags": ["love"]
+      "tags": ["decoration", "love"]
     },
     {
       "id": "decoration_008",
@@ -50,7 +50,7 @@
     {
       "id": "decoration_009",
       "text": "୨୧･･･････････････････････････････୨୧",
-      "tags": ["cute"]
+      "tags": ["decoration"]
     },
     {
       "id": "decoration_010",
@@ -65,7 +65,7 @@
     {
       "id": "decoration_012",
       "text": "୨୧┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈୨୧",
-      "tags": []
+      "tags": ["decoration"]
     },
     {
       "id": "decoration_013",
@@ -75,7 +75,7 @@
     {
       "id": "decoration_014",
       "text": "୨୧ ⑅ ୨୧ ⑅ ୨୧ ⑅ ୨୧ ⑅ ୨୧ ⑅ ୨୧ ⑅ ୨୧ ⑅ ୨୧ ⑅ ୨୧",
-      "tags": ["cute"]
+      "tags": ["cute", "decoration"]
     },
     {
       "id": "decoration_015",
@@ -95,12 +95,12 @@
     {
       "id": "decoration_018",
       "text": "*.゜｡:+*.゜｡:+*.゜｡:+*.゜*.゜｡:+*.゜｡:+*.゜｡:+*.゜",
-      "tags": ["decoration", "sparkle", "star"]
+      "tags": ["decoration"]
     },
     {
       "id": "decoration_019",
       "text": "＊.｡.＊ﾟ＊.｡.＊ﾟ＊.｡.＊ﾟ＊.｡.＊ﾟ＊.｡.＊ﾟ＊.｡.＊ﾟ",
-      "tags": ["decoration", "sparkle"]
+      "tags": ["decoration"]
     },
     {
       "id": "decoration_020",
@@ -120,12 +120,12 @@
     {
       "id": "decoration_023",
       "text": "*・。*・。*・。*・。*・。*・。*・。",
-      "tags": []
+      "tags": ["decoration"]
     },
     {
       "id": "decoration_024",
       "text": "⌒＊｡*ﾟ＊⌒＊ﾟ*｡＊⌒＊｡*ﾟ＊⌒＊ ﾟ*｡＊⌒＊｡*ﾟ",
-      "tags": ["sparkle"]
+      "tags": ["decoration"]
     },
     {
       "id": "decoration_025",
@@ -140,47 +140,77 @@
     {
       "id": "decoration_027",
       "text": "✰⋆｡:ﾟ･*☽:ﾟ･⋆｡✰⋆｡:ﾟ･*☽:ﾟ･⋆｡✰⋆｡:ﾟ･*☽",
-      "tags": []
+      "tags": ["decoration", "moon", "star"]
     },
     {
       "id": "decoration_028",
       "text": "✩ ⋆ ✩ ⋆ ✩ ⋆ ✩ ⋆ ✩ ⋆ ✩ ⋆ ✩",
-      "tags": ["decoration"]
+      "tags": ["decoration", "star"]
     },
     {
       "id": "decoration_029",
       "text": "*:ﾟ+｡.☆.+*✩⡱:ﾟ *:ﾟ+｡.☆.+*✩⡱:ﾟ",
-      "tags": []
+      "tags": ["decoration", "star"]
     },
     {
       "id": "decoration_030",
       "text": "❁.｡.:*:.｡.✽.｡.:*:.｡.❁.｡.:*:.｡.✽.｡.:*:.｡.❁.｡.",
-      "tags": ["decoration"]
+      "tags": ["decoration", "flower"]
     },
     {
       "id": "decoration_031",
       "text": "･*:.｡ ｡.:*･ﾟ✽.｡.:*・ﾟ･*:.｡ ｡.:*･ﾟ✽.｡.:*・ﾟ",
-      "tags": []
+      "tags": ["decoration", "flower"]
     },
     {
       "id": "decoration_032",
       "text": "┈┈┈┈┈┈┈ ❁ ❁ ❁ ┈┈┈┈┈┈┈┈",
-      "tags": []
+      "tags": ["decoration", "flower"]
     },
     {
       "id": "decoration_033",
       "text": "✄-  –  –  –  –  – ｷ ﾘ ﾄ ﾘ –  –  –  –  – ✄",
-      "tags": []
+      "tags": ["decoration", "scissors"]
     },
     {
       "id": "decoration_034",
       "text": "✁┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈",
-      "tags": []
+      "tags": ["decoration", "scissors"]
     },
     {
       "id": "decoration_035",
       "text": "✼••┈┈┈┈••✼••┈┈┈┈••✼",
-      "tags": []
+      "tags": ["decoration", "flower"]
+    },
+    {
+      "id": "decoration_036",
+      "text": "ᘏ⑅ᘏଓ˚",
+      "tags": ["cute", "decoration", "rabbit"]
+    },
+    {
+      "id": "decoration_037",
+      "text": "εïз ઇଓ ʚ ɞ",
+      "tags": ["wings"]
+    },
+    {
+      "id": "decoration_038",
+      "text": "˚ʚ♡ɞ˚",
+      "tags": ["love", "wings"]
+    },
+    {
+      "id": "decoration_039",
+      "text": "๑҉",
+      "tags": ["decoration"]
+    },
+    {
+      "id": "decoration_040",
+      "text": "♡⁼³₌₃",
+      "tags": ["decoration", "love"]
+    },
+    {
+      "id": "decoration_041",
+      "text": "ৎ୭",
+      "tags": ["decoration", "flower"]
     }
   ]
 }
