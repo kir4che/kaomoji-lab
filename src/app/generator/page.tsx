@@ -6,6 +6,8 @@ import { t } from '@/lib/i18n';
 
 import GeneratorPage from './client';
 
+export const dynamic = 'force-static';
+
 export async function generateMetadata(): Promise<Metadata> {
   const cookieStore = cookies();
   const lang = ((await cookieStore).get('app-language')?.value || 'zh-tw') as Language;

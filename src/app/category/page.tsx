@@ -8,6 +8,8 @@ import type { CategorySummary } from '@/types/Kaomoji';
 
 import CategoryListPage from './client';
 
+export const dynamic = 'force-static';
+
 export async function generateMetadata(): Promise<Metadata> {
   const cookieStore = cookies();
   const lang = ((await cookieStore).get('app-language')?.value || 'zh-tw') as Language;

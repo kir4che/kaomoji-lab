@@ -11,6 +11,8 @@ import type { CategoryData, IndexData, Tag } from '@/types/Kaomoji';
 
 import TagPage from './client';
 
+export const dynamic = 'force-static';
+
 interface TagInfo {
   tag: Tag;
   count: number;
@@ -42,6 +44,7 @@ const TagPageContainer = async () => {
 
   const dataDirectory = path.join(process.cwd(), 'public/data');
 
+  // 並行讀取所有分類檔案
   const categoryDataPromises = indexData.categories.map(async (category) => {
     const filePath = path.join(dataDirectory, 'categories', `${category.id}.json`);
     const res = await fs.readFile(filePath, 'utf8');

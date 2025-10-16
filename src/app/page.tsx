@@ -11,6 +11,8 @@ import type { CategorySummary, KaomojiItem, IndexData } from '@/types/Kaomoji';
 
 import HomeClient from './client';
 
+export const dynamic = 'force-static';
+
 export async function generateMetadata(): Promise<Metadata> {
   const cookieStore = cookies();
   const lang = ((await cookieStore).get('app-language')?.value || 'zh-tw') as Language;
@@ -40,6 +42,7 @@ const HomePage = async () => {
 
   const dataDirectory = path.join(process.cwd(), 'public/data');
 
+  // 並行讀取所有分類檔案，提升效能
   const categoryDataPromises = categories.map(async (category) => {
     const filePath = path.join(dataDirectory, 'categories', `${category.id}.json`);
     try {

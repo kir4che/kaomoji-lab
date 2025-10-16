@@ -9,6 +9,23 @@ import type { CategoryData } from '@/types/Kaomoji';
 
 import CategoryPageClient from './client';
 
+export const dynamic = 'force-static';
+
+export async function generateStaticParams() {
+  try {
+    const dataDirectory = path.join(process.cwd(), 'public/data');
+    const indexPath = path.join(dataDirectory, 'index.json');
+    const content = await fs.readFile(indexPath, 'utf-8');
+    const indexData = JSON.parse(content);
+
+    return (indexData?.categories || []).map((category: { id: string }) => ({
+      category: category.id,
+    }));
+  } catch {
+    return [];
+  }
+}
+
 interface CategoryPageProps {
   params: Promise<{ category: string }>;
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;

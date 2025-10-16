@@ -14,6 +14,44 @@ const STORAGE_DIR = path.join(process.cwd(), 'storage');
 const TEMP_CATEGORY_FILE = path.join(STORAGE_DIR, 'temporary-category.json');
 const CHECKED_KAOMOJI_FILE = path.join(STORAGE_DIR, 'checked-kaomoji.json');
 
+const CACHE_TTL = 60000; // 60 秒
+type CacheEntry<T> = {
+  data: T;
+  timestamp: number;
+};
+const memoryCache = new Map<string, CacheEntry<any>>();
+
+const getCached = <T>(key: string): T | null => {
+  const entry = memoryCache.get(key);
+  if (!entry) return null;
+
+  const isExpired = Date.now() - entry.timestamp > CACHE_TTL;
+  if (isExpired) {
+    memoryCache.delete(key);
+    return null;
+  }
+
+  return entry.data as T;
+};
+
+const setCache = <T>(key: string, data: T): void => {
+  memoryCache.set(key, {
+    data,
+    timestamp: Date.now(),
+  });
+};
+
+const invalidateCache = (pattern?: string): void => {
+  if (!pattern) {
+    memoryCache.clear();
+    return;
+  }
+
+  for (const key of memoryCache.keys()) {
+    if (key.includes(pattern)) memoryCache.delete(key);
+  }
+};
+
 const getIndexFilePath = () => path.join(DATA_DIR, 'index.json');
 const getCategoryFilePath = (id: string) => path.join(CATEGORIES_DIR, `${id}.json`);
 
@@ -22,12 +60,12 @@ const isTagObject = (val: unknown): val is Tag =>
 const isTagObjectArray = (arr: unknown): arr is Tag[] =>
   Array.isArray(arr) && arr.every(isTagObject);
 
-export const getTodayDateString = () => new Date().toISOString().split('T')[0];
+export const getTodayDateString = (): string => new Date().toISOString().split('T')[0];
 
 export const isValidCategoryId = (id?: string): id is string =>
   typeof id === 'string' && id !== 'undefined' && id.trim() !== '';
 
-const ensureStorageDir = async () => {
+const ensureStorageDir = async (): Promise<void> => {
   await fs.mkdir(STORAGE_DIR, { recursive: true });
 };
 
@@ -47,7 +85,7 @@ const sanitizeTemporaryCategory = (data?: Partial<CategoryData>): CategoryData =
   };
 };
 
-export async function readTemporaryCategory(): Promise<CategoryData> {
+export const readTemporaryCategory = async (): Promise<CategoryData> => {
   await ensureStorageDir();
   try {
     const content = await fs.readFile(TEMP_CATEGORY_FILE, 'utf-8');
@@ -58,34 +96,50 @@ export async function readTemporaryCategory(): Promise<CategoryData> {
     await writeTemporaryCategory(fallback);
     return fallback;
   }
-}
+};
 
-export async function writeTemporaryCategory(categoryData: Partial<CategoryData>): Promise<void> {
+export const writeTemporaryCategory = async (
+  categoryData: Partial<CategoryData>
+): Promise<void> => {
   await ensureStorageDir();
   const sanitized = sanitizeTemporaryCategory(categoryData);
   await fs.writeFile(TEMP_CATEGORY_FILE, JSON.stringify(sanitized, null, 2), 'utf-8');
-}
+};
 
-export async function readIndexFile(): Promise<IndexData> {
+export const readIndexFile = async (): Promise<IndexData> => {
+  const cacheKey = 'index.json';
+  const cached = getCached<IndexData>(cacheKey);
+  if (cached) return cached;
+
   const content = await fs.readFile(getIndexFilePath(), 'utf-8');
-  return JSON.parse(content) as IndexData;
-}
+  const data = JSON.parse(content) as IndexData;
+  setCache(cacheKey, data);
+  return data;
+};
 
-export async function updateIndexFile(indexData: IndexData): Promise<void> {
+export const updateIndexFile = async (indexData: IndexData): Promise<void> => {
   await fs.writeFile(getIndexFilePath(), JSON.stringify(indexData, null, 2), 'utf-8');
-}
+  invalidateCache('index.json');
+};
 
-export async function readCategoryFile(categoryId: string): Promise<CategoryData | null> {
+export const readCategoryFile = async (categoryId: string): Promise<CategoryData | null> => {
   if (!isValidCategoryId(categoryId)) return null;
+
+  const cacheKey = `category:${categoryId}`;
+  const cached = getCached<CategoryData>(cacheKey);
+  if (cached) return cached;
+
   try {
     const content = await fs.readFile(getCategoryFilePath(categoryId), 'utf-8');
-    return JSON.parse(content) as CategoryData;
+    const data = JSON.parse(content) as CategoryData;
+    setCache(cacheKey, data);
+    return data;
   } catch {
     return null;
   }
-}
+};
 
-export async function writeCategoryFile(categoryData: CategoryData): Promise<void> {
+export const writeCategoryFile = async (categoryData: CategoryData): Promise<void> => {
   if (!isValidCategoryId(categoryData.id))
     throw new Error('Invalid category ID, cannot write file.');
 
@@ -94,16 +148,18 @@ export async function writeCategoryFile(categoryData: CategoryData): Promise<voi
     JSON.stringify(categoryData, null, 2),
     'utf-8'
   );
-}
+  invalidateCache(`category:${categoryData.id}`);
+};
 
-export async function deleteCategoryFile(categoryId: string): Promise<void> {
+export const deleteCategoryFile = async (categoryId: string): Promise<void> => {
   if (!isValidCategoryId(categoryId)) throw new Error('Invalid category ID, cannot delete file.');
   await fs.unlink(getCategoryFilePath(categoryId));
-}
+  invalidateCache(`category:${categoryId}`);
+};
 
-const isLocalPersistenceEnabled = () => process.env.NODE_ENV !== 'production';
+const isLocalPersistenceEnabled = (): boolean => process.env.NODE_ENV !== 'production';
 
-const ensureCheckedKaomojiFile = async () => {
+const ensureCheckedKaomojiFile = async (): Promise<void> => {
   await ensureStorageDir();
   try {
     await fs.access(CHECKED_KAOMOJI_FILE);
@@ -112,34 +168,46 @@ const ensureCheckedKaomojiFile = async () => {
   }
 };
 
-export async function readCheckedKaomojiIds(): Promise<string[]> {
+export const readCheckedKaomojiIds = async (): Promise<string[]> => {
   if (!isLocalPersistenceEnabled()) return [];
   await ensureCheckedKaomojiFile();
   const content = await fs.readFile(CHECKED_KAOMOJI_FILE, 'utf-8');
   const parsed = JSON.parse(content);
   if (!Array.isArray(parsed)) return [];
   return parsed.filter((id): id is string => typeof id === 'string');
-}
+};
 
-export async function writeCheckedKaomojiIds(ids: string[]): Promise<void> {
+export const writeCheckedKaomojiIds = async (ids: string[]): Promise<void> => {
   if (!isLocalPersistenceEnabled()) return;
   await ensureCheckedKaomojiFile();
   const uniqueIds = Array.from(new Set(ids.filter((id): id is string => typeof id === 'string')));
   await fs.writeFile(CHECKED_KAOMOJI_FILE, JSON.stringify(uniqueIds, null, 2), 'utf-8');
-}
+};
 
-export async function getAllTags(): Promise<Tag[]> {
+export const getAllTags = async (): Promise<Tag[]> => {
+  const cacheKey = 'tags:all';
+  const cached = getCached<Tag[]>(cacheKey);
+  if (cached) return cached;
+
   const indexData = await readIndexFile();
   const { tags = [] } = indexData as IndexData;
   if (tags.length === 0) return [];
-  if (isTagObjectArray(tags)) return tags;
-  return (tags as unknown as string[]).map((tagId) => ({
-    id: tagId,
-    name: { en: tagId, 'zh-tw': tagId },
-  }));
-}
 
-export async function isTagInUse(tagId: string): Promise<boolean> {
+  let result: Tag[];
+  if (isTagObjectArray(tags)) {
+    result = tags;
+  } else {
+    result = (tags as unknown as string[]).map((tagId) => ({
+      id: tagId,
+      name: { en: tagId, 'zh-tw': tagId },
+    }));
+  }
+
+  setCache(cacheKey, result);
+  return result;
+};
+
+export const isTagInUse = async (tagId: string): Promise<boolean> => {
   const indexData = await readIndexFile();
   for (const category of indexData.categories) {
     const categoryData = await readCategoryFile(category.id);
@@ -148,9 +216,9 @@ export async function isTagInUse(tagId: string): Promise<boolean> {
     }
   }
   return false;
-}
+};
 
-export async function getUsedTags(): Promise<Set<string>> {
+export const getUsedTags = async (): Promise<Set<string>> => {
   const usedTags = new Set<string>();
   const indexData = await readIndexFile();
   for (const categorySummary of indexData.categories) {
@@ -163,9 +231,9 @@ export async function getUsedTags(): Promise<Set<string>> {
       });
   }
   return usedTags;
-}
+};
 
-export async function rebuildTagsFromCategories(): Promise<void> {
+export const rebuildTagsFromCategories = async (): Promise<void> => {
   const allTagIds = new Set<string>();
   const currentIndexData = await readIndexFile();
 
@@ -195,4 +263,5 @@ export async function rebuildTagsFromCategories(): Promise<void> {
   } else currentIndexData.tags = Array.from(allTagIds).sort() as any;
 
   await updateIndexFile(currentIndexData);
-}
+  invalidateCache('tags:');
+};

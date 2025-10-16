@@ -13,6 +13,19 @@ import { getAllTags } from '@/services/dataService';
 
 import TagPageClient from './client';
 
+export const dynamic = 'force-static';
+
+export async function generateStaticParams() {
+  try {
+    const allTags = await getAllTags();
+    return allTags.map((tag) => ({
+      tag: tag.id,
+    }));
+  } catch {
+    return [];
+  }
+}
+
 const dataDirectory = path.join(process.cwd(), 'public/data');
 
 interface Props {
@@ -41,6 +54,7 @@ const getKaomojisByTag = cache(async (tagId: string): Promise<KaomojiItem[]> => 
     const indexFile = await fs.readFile(path.join(dataDirectory, 'index.json'), 'utf8');
     const indexData: IndexData = JSON.parse(indexFile);
 
+    // 並行讀取所有分類檔案
     const categoryFilePromises = indexData.categories.map((category) => {
       const filePath = path.join(dataDirectory, 'categories', `${category.id}.json`);
       return fs.readFile(filePath, 'utf8');
