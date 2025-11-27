@@ -7,8 +7,8 @@
         "zh-tw": "動作"
       },
       "preview": "╰( ^o^)╮",
-      "lastUpdated": "2025-09-28",
-      "itemCount": 695
+      "lastUpdated": "2025-11-17",
+      "itemCount": 718
     },
     {
       "id": "angry",
@@ -17,8 +17,8 @@
         "zh-tw": "生氣"
       },
       "preview": "(*｀へ´*)",
-      "lastUpdated": "2025-09-27",
-      "itemCount": 177
+      "lastUpdated": "2025-11-17",
+      "itemCount": 178
     },
     {
       "id": "animal",
@@ -27,8 +27,8 @@
         "zh-tw": "動物"
       },
       "preview": "ʕ •ᴥ• ʔ",
-      "lastUpdated": "2025-09-28",
-      "itemCount": 407
+      "lastUpdated": "2025-11-17",
+      "itemCount": 396
     },
     {
       "id": "confident",
@@ -37,8 +37,8 @@
         "zh-tw": "自信"
       },
       "preview": "(｡•̀ᴗ-)✧",
-      "lastUpdated": "2025-09-28",
-      "itemCount": 177
+      "lastUpdated": "2025-11-17",
+      "itemCount": 158
     },
     {
       "id": "confused",
@@ -47,8 +47,8 @@
         "zh-tw": "困惑"
       },
       "preview": "( •᷄ὤ•᷅)？",
-      "lastUpdated": "2025-09-27",
-      "itemCount": 68
+      "lastUpdated": "2025-11-17",
+      "itemCount": 67
     },
     {
       "id": "decoration",
@@ -67,8 +67,8 @@
         "zh-tw": "尷尬"
       },
       "preview": "•﹏•",
-      "lastUpdated": "2025-09-28",
-      "itemCount": 37
+      "lastUpdated": "2025-11-17",
+      "itemCount": 47
     },
     {
       "id": "excited",
@@ -77,8 +77,8 @@
         "zh-tw": "興奮"
       },
       "preview": "(ﾉ≧∀≦)ﾉ",
-      "lastUpdated": "2025-09-27",
-      "itemCount": 87
+      "lastUpdated": "2025-11-17",
+      "itemCount": 86
     },
     {
       "id": "greeting",
@@ -87,7 +87,7 @@
         "zh-tw": "問候"
       },
       "preview": "(*・ω・)ﾉ",
-      "lastUpdated": "2025-09-27",
+      "lastUpdated": "2025-11-17",
       "itemCount": 81
     },
     {
@@ -97,8 +97,8 @@
         "zh-tw": "幸福"
       },
       "preview": "ᜊ(꒪ˊ꒳ˋ꒪)ᜊ",
-      "lastUpdated": "2025-09-28",
-      "itemCount": 96
+      "lastUpdated": "2025-11-17",
+      "itemCount": 103
     },
     {
       "id": "happy",
@@ -107,8 +107,8 @@
         "zh-tw": "開心"
       },
       "preview": "ᐠ( ᐢ ᵕ ᐢ )ᐟ",
-      "lastUpdated": "2025-09-28",
-      "itemCount": 521
+      "lastUpdated": "2025-11-17",
+      "itemCount": 472
     },
     {
       "id": "helpless",
@@ -117,8 +117,8 @@
         "zh-tw": "無奈"
       },
       "preview": "(๑•́₃ •̀๑)",
-      "lastUpdated": "2025-09-28",
-      "itemCount": 184
+      "lastUpdated": "2025-11-17",
+      "itemCount": 181
     },
     {
       "id": "love",
@@ -127,8 +127,8 @@
         "zh-tw": "愛心"
       },
       "preview": "(♥д♥)",
-      "lastUpdated": "2025-09-28",
-      "itemCount": 137
+      "lastUpdated": "2025-11-17",
+      "itemCount": 135
     },
     {
       "id": "other",
@@ -137,8 +137,8 @@
         "zh-tw": "其他"
       },
       "preview": "ʚ ɞ",
-      "lastUpdated": "2025-09-28",
-      "itemCount": 319
+      "lastUpdated": "2025-11-17",
+      "itemCount": 314
     },
     {
       "id": "sad",
@@ -147,8 +147,8 @@
         "zh-tw": "難過"
       },
       "preview": "( ´•̥̥̥ω•̥̥̥` )",
-      "lastUpdated": "2025-09-28",
-      "itemCount": 351
+      "lastUpdated": "2025-11-17",
+      "itemCount": 355
     },
     {
       "id": "shy",
@@ -157,8 +157,8 @@
         "zh-tw": "害羞"
       },
       "preview": "(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄ ",
-      "lastUpdated": "2025-09-28",
-      "itemCount": 209
+      "lastUpdated": "2025-11-17",
+      "itemCount": 211
     },
     {
       "id": "surprised",
@@ -167,8 +167,8 @@
         "zh-tw": "驚訝"
       },
       "preview": "Σ(°Д°;)",
-      "lastUpdated": "2025-09-28",
-      "itemCount": 247
+      "lastUpdated": "2025-11-17",
+      "itemCount": 251
     },
     {
       "id": "tired",
@@ -177,8 +177,8 @@
         "zh-tw": "累累"
       },
       "preview": "(ㅎ.ㅎ)",
-      "lastUpdated": "2025-09-28",
-      "itemCount": 44
+      "lastUpdated": "2025-11-17",
+      "itemCount": 45
     },
     {
       "id": "speechless",
@@ -187,8 +187,8 @@
         "zh-tw": "無言"
       },
       "preview": "無言",
-      "lastUpdated": "2025-09-28",
-      "itemCount": 105
+      "lastUpdated": "2025-11-17",
+      "itemCount": 156
     },
     {
       "id": "nervous",
@@ -197,8 +197,8 @@
         "zh-tw": "緊張"
       },
       "preview": "",
-      "lastUpdated": "2025-09-28",
-      "itemCount": 157
+      "lastUpdated": "2025-11-17",
+      "itemCount": 137
     },
     {
       "id": "fighting",
@@ -444,6 +444,13 @@
       }
     },
     {
+      "id": "fishing",
+      "name": {
+        "en": "Fishing",
+        "zh-tw": "釣魚"
+      }
+    },
+    {
       "id": "flower",
       "name": {
         "en": "Flower",
@@ -483,6 +490,13 @@
       "name": {
         "en": "Group",
         "zh-tw": "多人"
+      }
+    },
+    {
+      "id": "gun",
+      "name": {
+        "en": "Gun",
+        "zh-tw": "槍"
       }
     },
     {
@@ -745,6 +759,13 @@
       }
     },
     {
+      "id": "salute",
+      "name": {
+        "en": "Salute",
+        "zh-tw": "敬禮"
+      }
+    },
+    {
       "id": "scared",
       "name": {
         "en": "Scared",
@@ -871,6 +892,13 @@
       }
     },
     {
+      "id": "stretch",
+      "name": {
+        "en": "Stretch",
+        "zh-tw": "伸懶腰"
+      }
+    },
+    {
       "id": "sunglasses",
       "name": {
         "en": "Sunglasses",
@@ -973,6 +1001,34 @@
       "name": {
         "en": "X-mouth",
         "zh-tw": "X嘴"
+      }
+    },
+    {
+      "id": "章魚",
+      "name": {
+        "en": "章魚",
+        "zh-tw": "章魚"
+      }
+    },
+    {
+      "id": "老虎",
+      "name": {
+        "en": "老虎",
+        "zh-tw": "老虎"
+      }
+    },
+    {
+      "id": "舔",
+      "name": {
+        "en": "舔",
+        "zh-tw": "舔"
+      }
+    },
+    {
+      "id": "趴",
+      "name": {
+        "en": "趴",
+        "zh-tw": "趴"
       }
     }
   ],

@@ -5,412 +5,697 @@
     "zh-tw": "問候"
   },
   "preview": "(*・ω・)ﾉ",
-  "lastUpdated": "2025-09-27",
+  "lastUpdated": "2025-11-17",
   "items": [
     {
       "id": "greeting_004",
       "text": "|´▽｀●)ﾉ",
-      "tags": ["happiness", "happy", "peeking", "waving"]
+      "tags": [
+        "happiness",
+        "happy",
+        "peeking",
+        "waving"
+      ]
     },
     {
       "id": "greeting_005",
       "text": "|ｮ０ω０*)ﾉﾞ",
-      "tags": ["cute", "peeking", "waving"]
+      "tags": [
+        "cute",
+        "peeking",
+        "waving"
+      ]
     },
     {
       "id": "greeting_006",
       "text": "|ω・｀)ノ",
-      "tags": ["cute", "peeking", "waving"]
+      "tags": [
+        "cute",
+        "peeking",
+        "waving"
+      ]
     },
     {
       "id": "greeting_007",
       "text": "| 、ン、)ﾉ",
-      "tags": ["peeking", "smile", "waving"]
+      "tags": [
+        "peeking",
+        "smile",
+        "waving"
+      ]
     },
     {
       "id": "greeting_008",
       "text": "(′ω`)ﾉ",
-      "tags": ["helpless", "waving"]
+      "tags": [
+        "helpless",
+        "waving"
+      ]
     },
     {
       "id": "greeting_010",
       "text": "＼(^O^ )＞*",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_011",
       "text": "*＜( ^O^)／",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_012",
       "text": "ヽ|･з･|ゞ",
-      "tags": ["pouting", "waving"]
+      "tags": [
+        "pouting",
+        "waving"
+      ]
     },
     {
       "id": "greeting_013",
       "text": "*＜( ・∀・)ノ",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_014",
       "text": "ヽ(・∀・ )＞*",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_017",
       "text": "く(^ｰﾟ)ﾉ",
-      "tags": ["waving", "wink"]
+      "tags": [
+        "waving",
+        "wink"
+      ]
     },
     {
       "id": "greeting_018",
       "text": "( ･ω･)ﾉ",
-      "tags": ["cute", "waving"]
+      "tags": [
+        "cute",
+        "waving"
+      ]
     },
     {
       "id": "greeting_019",
       "text": "( ^_^)／",
-      "tags": ["smile", "waving"]
+      "tags": [
+        "smile",
+        "waving"
+      ]
     },
     {
       "id": "greeting_021",
       "text": "(^ Q ^)/",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_023",
       "text": "(｡･ω･)ﾉﾞ",
-      "tags": ["cute", "waving"]
+      "tags": [
+        "cute",
+        "waving"
+      ]
     },
     {
       "id": "greeting_025",
       "text": "(。･д･)ﾉﾞ",
-      "tags": ["shout", "waving"]
+      "tags": [
+        "shout",
+        "waving"
+      ]
     },
     {
       "id": "greeting_026",
       "text": "(。^_・)ノ",
-      "tags": ["waving", "wink"]
+      "tags": [
+        "waving",
+        "wink"
+      ]
     },
     {
       "id": "greeting_027",
       "text": "(´・ω・)ﾉ",
-      "tags": ["cute", "waving"]
+      "tags": [
+        "cute",
+        "waving"
+      ]
     },
     {
       "id": "greeting_028",
       "text": "(=ﾟωﾟ)ﾉ",
-      "tags": ["waving"]
+      "tags": [
+        "waving"
+      ]
     },
     {
       "id": "greeting_029",
       "text": "(*￣Ｏ￣)ノ",
-      "tags": ["closed-eyes", "shout", "waving"]
+      "tags": [
+        "closed-eyes",
+        "shout",
+        "waving"
+      ]
     },
     {
       "id": "greeting_030",
       "text": "( ・_・)ノ",
-      "tags": ["speechless", "waving"]
+      "tags": [
+        "speechless",
+        "waving"
+      ]
     },
     {
       "id": "greeting_031",
       "text": "(o・・o)/",
-      "tags": ["waving"]
+      "tags": [
+        "waving"
+      ]
     },
     {
       "id": "greeting_032",
       "text": "~(＾◇^)/",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_033",
       "text": "☆ﾐ(o*･ω･)ﾉ",
-      "tags": ["cute", "greeting", "star", "waving"]
+      "tags": [
+        "cute",
+        "greeting",
+        "star",
+        "waving"
+      ]
     },
     {
       "id": "greeting_034",
       "text": "o｜◕ˇ▽ˇ◕｜ツ",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_035",
       "text": "∪*ゝω･)ﾉ”",
-      "tags": ["cute", "dog", "waving", "wink"]
+      "tags": [
+        "cute",
+        "dog",
+        "waving",
+        "wink"
+      ]
     },
     {
       "id": "greeting_036",
       "text": "(ஐ╹◡╹)ノ",
-      "tags": ["smile", "waving"]
+      "tags": [
+        "smile",
+        "waving"
+      ]
     },
     {
       "id": "greeting_037",
       "text": "(*´･д･)ﾉ",
-      "tags": ["shout", "waving"]
+      "tags": [
+        "shout",
+        "waving"
+      ]
     },
     {
       "id": "greeting_038",
       "text": "(*ﾟ_っﾟ)ﾉﾞ",
-      "tags": ["dazed", "waving"]
+      "tags": [
+        "dazed",
+        "waving"
+      ]
     },
     {
       "id": "greeting_039",
       "text": "|。･ω･|ﾉ",
-      "tags": ["peeking", "waving"]
+      "tags": [
+        "peeking",
+        "waving"
+      ]
     },
     {
       "id": "greeting_040",
       "text": "~ヾ(＾∇＾)",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_041",
       "text": "ヾ( ‘ – ‘*)",
-      "tags": ["waving"]
+      "tags": [
+        "waving"
+      ]
     },
     {
       "id": "greeting_042",
       "text": "(/・・)ノ",
-      "tags": ["waving"]
+      "tags": [
+        "waving"
+      ]
     },
     {
       "id": "greeting_044",
       "text": "〈( ^.^)ノ",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_049",
       "text": "(ﾉ･ω･)ﾉﾞ",
-      "tags": ["cute", "waving"]
+      "tags": [
+        "cute",
+        "waving"
+      ]
     },
     {
       "id": "greeting_050",
       "text": "ヽ(･ω･ゞ)",
-      "tags": ["cute", "waving"]
+      "tags": [
+        "cute",
+        "waving"
+      ]
     },
     {
       "id": "greeting_051",
       "text": "ヾ(ｏ･ω･)ﾉ",
-      "tags": ["cute", "waving"]
+      "tags": [
+        "cute",
+        "waving"
+      ]
     },
     {
       "id": "greeting_052",
       "text": "ヽ(･ϖ･ゞ)",
-      "tags": ["waving"]
+      "tags": [
+        "waving"
+      ]
     },
     {
       "id": "greeting_053",
       "text": "(＠･０･)ﾉ",
-      "tags": ["shout", "waving"]
+      "tags": [
+        "shout",
+        "waving"
+      ]
     },
     {
       "id": "greeting_054",
       "text": "(•ㅂ•)/",
-      "tags": ["cute", "waving"]
+      "tags": [
+        "cute",
+        "waving"
+      ]
     },
     {
       "id": "greeting_055",
       "text": "(○︎´∀︎`○︎)ﾉ",
-      "tags": ["happiness", "happy", "waving"]
+      "tags": [
+        "happiness",
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_056",
       "text": "((*‧∀︎‧))ﾉ",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_058",
       "text": "(*・ω・)ﾉ",
-      "tags": ["cute", "waving"]
+      "tags": [
+        "cute",
+        "waving"
+      ]
     },
     {
       "id": "greeting_060",
       "text": "(°▽°)/",
-      "tags": ["dazed", "happy", "waving"]
+      "tags": [
+        "dazed",
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_061",
       "text": "( ´ ∀ ` )ﾉ",
-      "tags": ["happiness", "happy", "waving"]
+      "tags": [
+        "happiness",
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_062",
       "text": "(^-^*)/",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_063",
       "text": "(＠´ー`)ﾉﾞ",
-      "tags": ["helpless", "waving"]
+      "tags": [
+        "helpless",
+        "waving"
+      ]
     },
     {
       "id": "greeting_064",
       "text": "(´• ω •`)ﾉ",
-      "tags": ["cute", "waving"]
+      "tags": [
+        "cute",
+        "waving"
+      ]
     },
     {
       "id": "greeting_065",
       "text": "( ° ∀ ° )ﾉﾞ",
-      "tags": ["dazed", "waving"]
+      "tags": [
+        "dazed",
+        "waving"
+      ]
     },
     {
       "id": "greeting_067",
       "text": "(^０^)ノ",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_068",
       "text": "~ヾ(・ω・)",
-      "tags": ["cute", "waving"]
+      "tags": [
+        "cute",
+        "waving"
+      ]
     },
     {
       "id": "greeting_069",
       "text": "(・∀・)ノ",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_070",
       "text": "ヾ(・ω・*)",
-      "tags": ["cute", "waving"]
+      "tags": [
+        "cute",
+        "waving"
+      ]
     },
     {
       "id": "greeting_074",
       "text": "(o^ ^o)/",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_079",
       "text": "ⓗⓔⓛⓛⓞ",
-      "tags": ["text"]
+      "tags": [
+        "text"
+      ]
     },
     {
       "id": "greeting_080",
       "text": "ヾ(＾∇＾)",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_081",
       "text": "(ノ^∇^)",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_083",
       "text": "(≧∇≦)/",
-      "tags": ["thrilled", "waving"]
+      "tags": [
+        "thrilled",
+        "waving"
+      ]
     },
     {
       "id": "greeting_084",
       "text": "川o･-･)ﾉ",
-      "tags": ["peeking", "waving"]
+      "tags": [
+        "peeking",
+        "waving"
+      ]
     },
     {
       "id": "greeting_085",
       "text": "＼(￣O￣)",
-      "tags": ["closed-eyes", "shout", "waving"]
+      "tags": [
+        "closed-eyes",
+        "shout",
+        "waving"
+      ]
     },
     {
       "id": "greeting_086",
       "text": "（ ゜ρ゜)ノ",
-      "tags": ["dazed", "waving"]
+      "tags": [
+        "dazed",
+        "waving"
+      ]
     },
     {
       "id": "greeting_089",
       "text": "( ﾟ▽ﾟ)/",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_096",
       "text": "(。･∀･)ﾉ",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_098",
       "text": "(⌒ ̫⌒)/",
-      "tags": ["happy", "waving"]
+      "tags": [
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "greeting_101",
       "text": "(＊・ ﾜ・´＊)ノ",
-      "tags": ["waving"]
+      "tags": [
+        "waving"
+      ]
     },
     {
       "id": "greeting_110",
       "text": "ฅʕ,,- ꈊ- ,,ʔ おはよう✨ﾟ",
-      "tags": ["animal", "closed-eyes", "sparkle", "waving"]
+      "tags": [
+        "animal",
+        "closed-eyes",
+        "sparkle",
+        "waving"
+      ]
     },
     {
       "id": "greeting_111",
       "text": "٩(„❛ ֊ ❛„)*おはよ*❤︎",
-      "tags": ["cute", "greeting", "hands-up", "love", "text"]
+      "tags": [
+        "cute",
+        "greeting",
+        "hands-up",
+        "love",
+        "text"
+      ]
     },
     {
       "id": "greeting_112",
       "text": "(｡･д･)ﾉｵﾊﾖｰﾝ♪",
-      "tags": ["displeased", "greeting", "music", "shout", "text", "waving"]
+      "tags": [
+        "displeased",
+        "greeting",
+        "music",
+        "shout",
+        "text",
+        "waving"
+      ]
     },
     {
       "id": "greeting_113",
       "text": "ヾ(*´З`)ﾉ !ぉl￡ょぅ.+: !!",
-      "tags": ["greeting", "hands-up", "pouting"]
+      "tags": [
+        "greeting",
+        "hands-up",
+        "pouting"
+      ]
     },
     {
       "id": "greeting_116",
       "text": "«٩((๑- ̀᎑<๑)۶»ぉはょ⌒.°♪",
-      "tags": ["cute", "dancing", "greeting", "hands-up", "music"]
+      "tags": [
+        "cute",
+        "dancing",
+        "greeting",
+        "hands-up",
+        "music"
+      ]
     },
     {
       "id": "greeting_117",
       "text": "(*˘︶˘*)ｵﾔｽﾐﾅｻｨ.｡.:*♡",
-      "tags": ["closed-eyes", "cute", "greeting", "love", "smile"]
+      "tags": [
+        "closed-eyes",
+        "cute",
+        "greeting",
+        "love",
+        "smile"
+      ]
     },
     {
       "id": "greeting_118",
       "text": "(* ˘ ᵕ ˘*)☆*:.Ⴛ̅̀やਭみ",
-      "tags": ["closed-eyes", "greeting", "smile", "star"]
+      "tags": [
+        "closed-eyes",
+        "greeting",
+        "smile",
+        "star"
+      ]
     },
     {
       "id": "greeting_120",
       "text": "+。:.゜ｵﾔｽﾐヽ(´∀｀)ﾉ",
-      "tags": ["greeting", "hands-up", "happy"]
+      "tags": [
+        "greeting",
+        "hands-up",
+        "happy"
+      ]
     },
     {
       "id": "greeting_121",
       "text": "Good night (*˘︶˘*).｡.:*♡",
-      "tags": ["closed-eyes", "greeting", "love", "smile"]
+      "tags": [
+        "closed-eyes",
+        "greeting",
+        "love",
+        "smile"
+      ]
     },
     {
       "id": "greeting_122",
       "text": "(★ゝз･)ﾉ~*",
-      "tags": ["star", "waving", "wink", "pouting"]
+      "tags": [
+        "star",
+        "waving",
+        "wink",
+        "pouting"
+      ]
     },
     {
       "id": "greeting_123",
       "text": "|･ω･`*)ッ",
-      "tags": ["peeking", "waving"]
+      "tags": [
+        "peeking",
+        "waving"
+      ]
     },
     {
       "id": "greeting_124",
       "text": "|ʘ‿ʘ)╯",
-      "tags": ["big-eyes", "peeking", "smile", "waving"]
+      "tags": [
+        "big-eyes",
+        "peeking",
+        "smile",
+        "waving"
+      ]
     },
     {
       "id": "greeting_125",
       "text": "(ʘ‿ʘ)ノ✿",
-      "tags": ["big-eyes", "flower", "smile", "waving"]
+      "tags": [
+        "big-eyes",
+        "flower",
+        "smile",
+        "waving"
+      ]
     },
     {
       "id": "greeting_126",
       "text": "(｡･ω･｡)ﾉ♡",
-      "tags": ["cute", "love", "waving"]
+      "tags": [
+        "cute",
+        "love",
+        "waving"
+      ]
     },
     {
       "id": "greeting_127",
       "text": "٩(๑´0`๑)۶ｵｯﾊﾖｰｰ",
-      "tags": ["greeting", "shout", "text"]
+      "tags": [
+        "greeting",
+        "shout",
+        "text"
+      ]
     },
     {
       "id": "greeting_128",
       "text": "(*･ω･)/''' ｲﾃﾗｰ♪",
-      "tags": ["cute", "greeting", "music", "text", "waving"]
+<<<<<<< HEAD
+      "tags": ["greeting", "music", "text", "waving"]
+=======
+      "tags": [
+        "greeting",
+        "music",
+        "text",
+        "waving"
+      ]
+>>>>>>> bb71646 (chore: refresh JSON dataset)
     }
   ]
 }
