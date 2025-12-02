@@ -5,227 +5,385 @@
     "zh-tw": "累累"
   },
   "preview": "(ㅎ.ㅎ)",
-  "lastUpdated": "2025-09-28",
+  "lastUpdated": "2025-11-17",
   "items": [
     {
       "id": "tired_003",
       "text": "ʕ´-ก̀ʔᐝ",
-      "tags": ["sleepy"]
+      "tags": [
+        "sleepy"
+      ]
     },
     {
       "id": "tired_004",
       "text": "ᶻᶻᶻ",
-      "tags": ["sleepy", "text"]
+      "tags": [
+        "sleepy",
+        "text"
+      ]
     },
     {
       "id": "tired_005",
       "text": "ʕ⊝ᴥ⊝ʔ",
-      "tags": ["bear", "closed-eyes", "sleepy"]
+      "tags": [
+        "bear",
+        "closed-eyes",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_011",
       "text": "(*´Д｀)=з",
-      "tags": ["displeased", "sigh"]
+      "tags": [
+        "displeased",
+        "sigh"
+      ]
     },
     {
       "id": "tired_014",
       "text": "(´〜｀*) zzz",
-      "tags": ["sleepy"]
+      "tags": [
+        "sleepy"
+      ]
     },
     {
       "id": "tired_015",
       "text": "(-_-) zzz",
-      "tags": ["closed-eyes", "sleepy", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "sleepy",
+        "speechless"
+      ]
     },
     {
       "id": "tired_017",
       "text": "(-ｪ-)｡o",
-      "tags": ["closed-eyes", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_018",
       "text": "(。-ω-)zzz",
-      "tags": ["closed-eyes", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_021",
       "text": "(∪｡∪)｡｡｡zzz",
-      "tags": ["closed-eyes", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_022",
       "text": "(ᴗ˳ᴗ)",
-      "tags": ["closed-eyes", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_024",
       "text": "［(－－)］zzz",
-      "tags": ["closed-eyes", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_025",
       "text": "( ु⁎ᴗ_ᴗ⁎)ु.｡oO",
-      "tags": ["closed-eyes", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_028",
       "text": ".꒰ϱ﹏-๑꒱‧*Zz｡",
-      "tags": ["closed-eyes", "sheep", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "sheep",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_029",
       "text": "(- o – ) zzZ",
-      "tags": ["closed-eyes", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_030",
       "text": "[(－－)]..zzZ",
-      "tags": ["closed-eyes", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_031",
       "text": "(✿◡‿◡ฺ)zzz",
-      "tags": ["closed-eyes", "flower", "sleepy", "smile"]
+      "tags": [
+        "closed-eyes",
+        "flower",
+        "sleepy",
+        "smile"
+      ]
     },
     {
       "id": "tired_033",
       "text": "|[(*´ｪ`)]|zZＺ",
-      "tags": ["sleepy"]
+      "tags": [
+        "sleepy"
+      ]
     },
     {
       "id": "tired_035",
       "text": "_:(´ཀ`」 ∠):_ …",
-      "tags": ["sleepy", "vomiting-blood"]
+      "tags": [
+        "sleepy",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "tired_036",
       "text": "⋆｡˚ (¦3ꇤ[▓▓]⋆｡˚✩",
-      "tags": ["closed-eyes", "sleepy", "star"]
+      "tags": [
+        "closed-eyes",
+        "sleepy",
+        "star"
+      ]
     },
     {
       "id": "tired_037",
       "text": "＼(*-◇-)／｡ﾟоО",
-      "tags": ["closed-eyes", "hands-up", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "hands-up",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_038",
       "text": "(;´ρ`)",
-      "tags": ["sleepy", "sweat-drop"]
+      "tags": [
+        "sleepy",
+        "sweat-drop"
+      ]
     },
     {
       "id": "tired_041",
       "text": "ヽ( ´O｀)ゞ",
-      "tags": ["hands-up", "shout", "sleepy"]
+      "tags": [
+        "shout",
+        "sleepy",
+        "stretch"
+      ]
     },
     {
       "id": "tired_043",
       "text": "（´○｀）～ゝ",
-      "tags": ["shout", "sleepy"]
+      "tags": [
+        "shout",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_049",
       "text": "(ू′o‵ ू)*✲ﾟ",
-      "tags": ["flower", "grab", "sleepy"]
+      "tags": [
+        "flower",
+        "grab",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_056",
       "text": "( ᎔˘꒳˘᎔)",
-      "tags": ["closed-eyes", "cute", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "cute",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_061",
       "text": "(－‸ლ)",
-      "tags": ["closed-eyes", "sleepy", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "sleepy",
+        "speechless"
+      ]
     },
     {
       "id": "tired_065",
       "text": "(－ω－) zzZ",
-      "tags": ["closed-eyes", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_066",
       "text": "(￣o￣) zzZZzzZZ",
-      "tags": ["closed-eyes", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_067",
       "text": "(( _ _ ))..zzzZZ",
-      "tags": ["closed-eyes", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_069",
       "text": "(－.－)...zzz",
-      "tags": ["closed-eyes", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_070",
       "text": "(＿ ＿*) Z z z",
-      "tags": ["closed-eyes", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_071",
       "text": "(x . x) ~~zzZ",
-      "tags": ["sleepy"]
+      "tags": [
+        "sleepy"
+      ]
     },
     {
       "id": "tired_073",
       "text": "(⑅ ‘﹃’ )",
-      "tags": ["drooling", "sleepy"]
+      "tags": [
+        "drooling",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_075",
       "text": "（¯﹃¯）",
-      "tags": ["closed-eyes", "drooling", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "drooling",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_076",
       "text": "_(┐「﹃ﾟ｡)_",
-      "tags": ["drooling", "sleepy"]
+      "tags": [
+        "drooling",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_077",
       "text": "ԅ(¯﹃¯ԅ)",
-      "tags": ["closed-eyes", "grab", "hungry", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "grab",
+        "hungry",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_078",
       "text": "(*´﹃｀*)",
-      "tags": ["drooling", "hungry", "sleepy"]
+      "tags": [
+        "drooling",
+        "hungry",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_079",
       "text": "(-ω-ゞ",
-      "tags": ["closed-eyes", "scratch", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "scratch",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_080",
       "text": "(。-ω-)ﾉ",
-      "tags": ["closed-eyes", "hands-up", "sleepy", "sweat-drop"]
+      "tags": [
+        "closed-eyes",
+        "hands-up",
+        "sleepy",
+        "sweat-drop"
+      ]
     },
     {
       "id": "tired_081",
       "text": "(。´-ω-｀。).zZ",
-      "tags": ["closed-eyes", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_082",
       "text": "(*-ｪ-(-ｪ-*)o",
-      "tags": ["animal", "closed-eyes", "group", "sleepy"]
+      "tags": [
+        "animal",
+        "closed-eyes",
+        "group",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_083",
       "text": "꒰⑅ᵕ༚ᵕ꒱˖♡",
-      "tags": ["cute", "love", "sleepy"]
+      "tags": [
+        "cute",
+        "love",
+        "sleepy"
+      ]
     },
     {
       "id": "tired_084",
       "text": "(๑ᵕ⌓ᵕ̤)",
-      "tags": ["sleepy"]
+      "tags": [
+        "sleepy"
+      ]
     },
     {
       "id": "tired_085",
       "text": "꒰ˆ⌯ ·̫ ⌯ก̀ˆ꒱",
-      "tags": ["animal", "cute", "sleepy"]
+      "tags": [
+        "animal",
+        "cute",
+        "sleepy"
+      ]
+    },
+    {
+      "id": "tired_086",
+      "text": "(-ω-)ゝ",
+      "tags": [
+        "closed-eyes",
+        "scratch",
+        "sleepy"
+      ]
     }
   ]
 }

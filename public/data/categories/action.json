@@ -5,367 +5,627 @@
     "zh-tw": "動作"
   },
   "preview": "╰( ^o^)╮",
-  "lastUpdated": "2025-09-28",
+  "lastUpdated": "2025-11-17",
   "items": [
     {
       "id": "action_002",
       "text": "( *・ω・)✄╰ひ╯",
-      "tags": ["attack", "scheming", "scissors"]
+      "tags": [
+        "attack",
+        "scheming",
+        "scissors"
+      ]
     },
     {
       "id": "action_008",
       "text": "▄█▀█●",
-      "tags": ["apologize", "breakdown", "please"]
+      "tags": [
+        "apologize",
+        "breakdown",
+        "please"
+      ]
     },
     {
       "id": "action_020",
       "text": "ԅ╏ ˵ ⊚ ◡ ⊚ ˵ ╏┐",
-      "tags": ["grab"]
+      "tags": [
+        "grab"
+      ]
     },
     {
       "id": "action_023",
       "text": "ԅ( ˘ω˘ ԅ)",
-      "tags": ["closed-eyes", "grab"]
+      "tags": [
+        "closed-eyes",
+        "grab"
+      ]
     },
     {
       "id": "action_024",
       "text": "ԅ(´ڡ`ԅ)",
-      "tags": ["grab", "hungry", "舔"]
+      "tags": [
+        "grab",
+        "hungry",
+        "舔"
+      ]
     },
     {
       "id": "action_028",
       "text": "〈(•ˇ‿ˇ•)-→",
-      "tags": ["closed-eyes", "pointing", "smile"]
+      "tags": [
+        "closed-eyes",
+        "pointing",
+        "smile"
+      ]
     },
     {
       "id": "action_029",
       "text": "┗(•ˇ_ˇ•)―→",
-      "tags": ["closed-eyes", "pointing"]
+      "tags": [
+        "closed-eyes",
+        "pointing"
+      ]
     },
     {
       "id": "action_036",
       "text": "[☆ ｀･⊇･´]っ",
-      "tags": ["neutral", "star", "waving"]
+      "tags": [
+        "neutral",
+        "star",
+        "waving"
+      ]
     },
     {
       "id": "action_041",
       "text": "┻━┻ ︵ ლ(⌒-⌒ლ)",
-      "tags": ["displeased", "scheming", "table-flip"]
+      "tags": [
+        "displeased",
+        "scheming",
+        "table-flip"
+      ]
     },
     {
       "id": "action_042",
       "text": "(ʘ∇ʘ)ク 彡 ┻━┻",
-      "tags": ["displeased", "dumbfounded", "table-flip"]
+      "tags": [
+        "displeased",
+        "dumbfounded",
+        "table-flip"
+      ]
     },
     {
       "id": "action_044",
       "text": "(ノ ﾟДﾟ)ノ　＝＝＝＝　┻━━┻",
-      "tags": ["dazed", "displeased", "excited", "hands-up", "shout", "surprised", "table-flip"]
+      "tags": [
+        "dazed",
+        "displeased",
+        "excited",
+        "hands-up",
+        "shout",
+        "surprised",
+        "table-flip"
+      ]
     },
     {
       "id": "action_045",
       "text": "!!!!|┛*｀Д´|┛・・~~┻━┻　┳━┳",
-      "tags": ["angry", "excited", "hands-up", "shout", "table-flip"]
+      "tags": [
+        "angry",
+        "excited",
+        "hands-up",
+        "shout",
+        "table-flip"
+      ]
     },
     {
       "id": "action_048",
       "text": "┬─┬ノ(ಠ_ಠノ)",
-      "tags": ["confused", "displeased", "serious", "table-flip"]
+      "tags": [
+        "confused",
+        "displeased",
+        "serious",
+        "table-flip"
+      ]
     },
     {
       "id": "action_050",
       "text": "┳━┳ ヽ༼ಠل͜ಠ༽ﾉ",
-      "tags": ["confused", "hands-up", "scheming", "smile", "table-flip"]
+      "tags": [
+        "confused",
+        "hands-up",
+        "scheming",
+        "smile",
+        "table-flip"
+      ]
     },
     {
       "id": "action_051",
       "text": "(ヘ･_･)ヘ┳━┳",
-      "tags": ["speechless", "table-flip"]
+      "tags": [
+        "speechless",
+        "table-flip"
+      ]
     },
     {
       "id": "action_054",
       "text": "(￣^￣ﾒ)＼(_ _ ;)",
-      "tags": ["apologize", "closed-eyes", "comfort", "displeased", "sweat-drop"]
+      "tags": [
+        "apologize",
+        "closed-eyes",
+        "comfort",
+        "displeased",
+        "sweat-drop"
+      ]
     },
     {
       "id": "action_055",
       "text": "ヾ(_ _*)",
-      "tags": ["apologize", "closed-eyes", "comfort"]
+      "tags": [
+        "apologize",
+        "closed-eyes",
+        "comfort"
+      ]
     },
     {
       "id": "action_056",
       "text": "ヾ(_ _。）",
-      "tags": ["apologize", "closed-eyes", "comfort"]
+      "tags": [
+        "apologize",
+        "closed-eyes",
+        "comfort"
+      ]
     },
     {
       "id": "action_057",
       "text": "(m｡_ _)/",
-      "tags": ["apologize", "closed-eyes"]
+      "tags": [
+        "apologize",
+        "closed-eyes"
+      ]
     },
     {
       "id": "action_070",
       "text": "‾͟͟͞(((ꎤˋ⁻̫ˊ)—̳͟͞͞o",
-      "tags": ["attack", "confident", "running"]
+      "tags": [
+        "attack",
+        "confident",
+        "running"
+      ]
     },
     {
       "id": "action_072",
       "text": "(⋆ˋ⑉̈ˊ)൭൭⁼³₌₃",
-      "tags": ["motivated", "running"]
+      "tags": [
+        "motivated",
+        "running"
+      ]
     },
     {
       "id": "action_075",
       "text": "(∩`ω´)⊃))",
-      "tags": ["attack", "motivated"]
+      "tags": [
+        "attack",
+        "motivated"
+      ]
     },
     {
       "id": "action_078",
       "text": "((⊂(`ω´∩)",
-      "tags": ["attack", "motivated"]
+      "tags": [
+        "attack",
+        "motivated"
+      ]
     },
     {
       "id": "action_079",
       "text": "‾͟͟͞(((ꎤ๑‾᷅༬‾᷄๑)̂—̳͟͞͞o",
-      "tags": ["attack", "closed-eyes", "pouting", "running"]
+      "tags": [
+        "attack",
+        "closed-eyes",
+        "pouting",
+        "running"
+      ]
     },
     {
       "id": "action_084",
       "text": "|ω・）",
-      "tags": ["peeking"]
+      "tags": [
+        "peeking"
+      ]
     },
     {
       "id": "action_085",
       "text": "|ω･`)",
-      "tags": ["peeking"]
+      "tags": [
+        "peeking"
+      ]
     },
     {
       "id": "action_091",
       "text": "ε=ε=ε=┌(๑ʘ∀ʘ)┘",
-      "tags": ["dazed", "running"]
+      "tags": [
+        "dazed",
+        "running"
+      ]
     },
     {
       "id": "action_093",
       "text": "ε＝┏(･ω･)┛",
-      "tags": ["running"]
+      "tags": [
+        "running"
+      ]
     },
     {
       "id": "action_094",
       "text": "三┏ ( ˘ω˘ )┛",
-      "tags": ["closed-eyes", "running"]
+      "tags": [
+        "closed-eyes",
+        "running"
+      ]
     },
     {
       "id": "action_097",
       "text": "ε=ε=ε=ε=ε=ε=┌(￣ー￣)┘",
-      "tags": ["closed-eyes", "running", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "running",
+        "speechless"
+      ]
     },
     {
       "id": "action_098",
       "text": "└(>ω<。)┐-=≡",
-      "tags": ["crying", "running"]
+      "tags": [
+        "crying",
+        "running"
+      ]
     },
     {
       "id": "action_099",
       "text": "ᕕ( ◎_◎)ᕗ",
-      "tags": ["dazed", "running"]
+      "tags": [
+        "dazed",
+        "running"
+      ]
     },
     {
       "id": "action_100",
       "text": "ε=ε=ε=ε=ε=ε=┏(*´∀｀)┛",
-      "tags": ["happiness", "happy", "running"]
+      "tags": [
+        "happiness",
+        "happy",
+        "running"
+      ]
     },
     {
       "id": "action_101",
       "text": "┏( ゜)ਊ゜)┛",
-      "tags": ["dazed", "mock", "running"]
+      "tags": [
+        "dazed",
+        "mock",
+        "running"
+      ]
     },
     {
       "id": "action_103",
       "text": "・・・・・・・┌|*´∀｀|┘",
-      "tags": ["happiness", "happy", "running"]
+      "tags": [
+        "happiness",
+        "happy",
+        "running"
+      ]
     },
     {
       "id": "action_104",
       "text": "===≡≡≡｡ﾟ┌(ﾟ´Д`ﾟ)┘ﾟ｡",
-      "tags": ["breakdown", "crying", "running"]
+      "tags": [
+        "breakdown",
+        "crying",
+        "running"
+      ]
     },
     {
       "id": "action_106",
       "text": "─=≡Σ((( つ•̀ω•́)つ",
-      "tags": ["hug", "motivated", "running"]
+      "tags": [
+        "hug",
+        "motivated",
+        "running"
+      ]
     },
     {
       "id": "action_107",
       "text": "ε=ε=(っ*´□`)っ",
-      "tags": ["hug", "running", "sad", "shout"]
+      "tags": [
+        "hug",
+        "running",
+        "sad",
+        "shout"
+      ]
     },
     {
       "id": "action_108",
       "text": "─=≡Σ((( つ◕ل͜◕)つ",
-      "tags": ["big-eyes", "hug", "running", "smile"]
+      "tags": [
+        "big-eyes",
+        "hug",
+        "running",
+        "smile"
+      ]
     },
     {
       "id": "action_110",
       "text": "-=≡Σ(((⊃ﾟ∀ﾟ)つ",
-      "tags": ["happy", "hug", "mock", "running", "thrilled"]
+      "tags": [
+        "happy",
+        "hug",
+        "mock",
+        "running",
+        "thrilled"
+      ]
     },
     {
       "id": "action_111",
       "text": "!!Σ≡≡≡((っ`･Å･)っ",
-      "tags": ["dazed", "hug", "running"]
+      "tags": [
+        "dazed",
+        "hug",
+        "running"
+      ]
     },
     {
       "id": "action_112",
       "text": "⊂＝⊂＝⊂(┛ﾟΘﾟ)┛",
-      "tags": ["bird", "dazed", "running"]
+      "tags": [
+        "bird",
+        "dazed",
+        "running"
+      ]
     },
     {
       "id": "action_113",
       "text": "ε-ε-ヾ(o´∀)ノ",
-      "tags": ["hands-up", "happy", "running"]
+      "tags": [
+        "hands-up",
+        "happy",
+        "running"
+      ]
     },
     {
       "id": "action_114",
       "text": "ε=ε=ε=(#`・д・)/",
-      "tags": ["displeased", "running"]
+      "tags": [
+        "displeased",
+        "running"
+      ]
     },
     {
       "id": "action_116",
       "text": "٩(•౪•٩)三",
-      "tags": ["hands-up", "running"]
+      "tags": [
+        "hands-up",
+        "running"
+      ]
     },
     {
       "id": "action_117",
       "text": "☆ヾ(･ε･*)ﾉﾞ =з=з=з",
-      "tags": ["hands-up", "running", "star", "pouting"]
+      "tags": [
+        "hands-up",
+        "running",
+        "star",
+        "pouting"
+      ]
     },
     {
       "id": "action_118",
       "text": "─=≡Σ((((ó ì_í)=ó",
-      "tags": ["attack", "confident", "motivated", "running"]
+      "tags": [
+        "attack",
+        "confident",
+        "motivated",
+        "running"
+      ]
     },
     {
       "id": "action_119",
       "text": "ΣΣ≡≡≡ｰ(ｰ・ω･)ｰ",
-      "tags": ["running"]
+      "tags": [
+        "running"
+      ]
     },
     {
       "id": "action_120",
       "text": "｢(◔ω◔「)三",
-      "tags": ["naughty", "running"]
+      "tags": [
+        "naughty",
+        "running"
+      ]
     },
     {
       "id": "action_121",
       "text": "(’ω’ ⊃)⊃三二一",
-      "tags": ["running"]
+      "tags": [
+        "running"
+      ]
     },
     {
       "id": "action_123",
       "text": "(〃´・ω・`)ゝ",
-      "tags": ["cute", "scratch"]
+      "tags": [
+        "cute",
+        "salute"
+      ]
     },
     {
       "id": "action_125",
       "text": "o(*￣○￣)ゝ",
-      "tags": ["closed-eyes", "scratch", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "salute",
+        "scratch",
+        "speechless"
+      ]
     },
     {
       "id": "action_126",
       "text": "ヾ|*ﾟωﾟ|ゞ",
-      "tags": ["surprised"]
+      "tags": [
+        "dazed",
+        "stretch"
+      ]
     },
     {
       "id": "action_127",
       "text": "ヽ|･ω･|ゞ",
-      "tags": ["cute"]
+      "tags": [
+        "cute",
+        "waving"
+      ]
     },
     {
       "id": "action_128",
       "text": "┏( ﾟωﾟ)ゝ",
-      "tags": []
+      "tags": [
+        "dazed",
+        "running"
+      ]
     },
     {
       "id": "action_131",
       "text": "♪( ･ｪ･)ﾂ彡",
-      "tags": ["animal", "dancing", "dog", "happy", "music", "sheep"]
+      "tags": [
+        "animal",
+        "dancing",
+        "dog",
+        "happy",
+        "music",
+        "sheep"
+      ]
     },
     {
       "id": "action_134",
       "text": "“Σ⊂(☉ω☉∩ )",
-      "tags": ["attack", "dumbfounded", "surprised"]
+      "tags": [
+        "attack",
+        "dumbfounded",
+        "surprised"
+      ]
     },
     {
       "id": "action_136",
       "text": "(ヾﾉ･ω･`)",
-      "tags": ["cute", "hands-up"]
+      "tags": [
+        "cute",
+        "hands-up"
+      ]
     },
     {
       "id": "action_139",
       "text": "＼( ･_･)",
-      "tags": ["pointing"]
+      "tags": [
+        "hands-up",
+        "neutral"
+      ]
     },
     {
       "id": "action_140",
       "text": "*+( ๑´•ω•)۶”",
-      "tags": ["cute", "hands-up"]
-    },
-    {
-      "id": "action_143",
-      "text": "☆=(ゝω･)",
-      "tags": ["cute", "star", "wink"]
+      "tags": [
+        "cute",
+        "hands-up"
+      ]
     },
     {
       "id": "action_144",
       "text": "＿φ( °-°)/",
-      "tags": ["dazed", "hands-up", "writing"]
+      "tags": [
+        "dazed",
+        "hands-up",
+        "writing"
+      ]
     },
     {
       "id": "action_145",
       "text": "φ(￣￢￣ヾ)",
-      "tags": ["closed-eyes", "sleepy", "writing"]
+      "tags": [
+        "closed-eyes",
+        "sleepy",
+        "writing"
+      ]
     },
     {
       "id": "action_146",
       "text": "φ(´д｀ｏ)",
-      "tags": ["helpless", "writing"]
+      "tags": [
+        "helpless",
+        "writing"
+      ]
     },
     {
       "id": "action_147",
       "text": "_〆(。。)",
-      "tags": ["dazed", "writing"]
+      "tags": [
+        "dazed",
+        "writing"
+      ]
     },
     {
       "id": "action_148",
       "text": "…_〆(ﾟ▽ﾟ*)",
-      "tags": ["dazed", "writing"]
+      "tags": [
+        "dazed",
+        "writing"
+      ]
     },
     {
       "id": "action_150",
       "text": "＼_(･ω･｀)",
-      "tags": ["cute"]
+      "tags": [
+        "cute"
+      ]
     },
     {
       "id": "action_151",
       "text": "ヾ(⌐■_■)ノ♪",
-      "tags": ["cool", "dancing", "music", "sunglasses"]
+      "tags": [
+        "cool",
+        "dancing",
+        "music",
+        "sunglasses"
+      ]
     },
     {
       "id": "action_153",
       "text": "(｢･ω･)｢",
-      "tags": ["cute", "poke"]
+      "tags": [
+        "cute",
+        "poke"
+      ]
     },
     {
       "id": "action_155",
       "text": "(｢`･ω･)｢",
-      "tags": ["cute", "poke"]
+      "tags": [
+        "cute",
+        "poke"
+      ]
     },
     {
       "id": "action_156",
       "text": "(ノ〝∩｡∩)ﾉ",
-      "tags": ["hands-up", "happy", "shy"]
+      "tags": [
+        "hands-up",
+        "happy",
+        "shy"
+      ]
     },
     {
       "id": "action_157",
       "text": "┛´Д｀┃┛))",
-      "tags": ["angry", "running"]
+      "tags": [
+        "angry"
+      ]
     },
     {
       "id": "action_158",
@@ -380,37 +640,32 @@
     {
       "id": "action_162",
       "text": "＼(^ω^＼)",
-      "tags": ["hands-up", "happy"]
-    },
-    {
-      "id": "action_163",
-      "text": "ヾ(-_- )ゞ",
-      "tags": ["helpless"]
+      "tags": [
+        "hands-up",
+        "happy"
+      ]
     },
     {
       "id": "action_164",
       "text": "ヾ(^^ゞ)",
-      "tags": ["dancing", "happy", "waving"]
-    },
-    {
-      "id": "action_165",
-      "text": "ヾ(ﾟ∀ﾟゞ)",
-      "tags": ["mock", "thrilled"]
+      "tags": [
+        "dancing",
+        "happy",
+        "waving"
+      ]
     },
     {
       "id": "action_166",
       "text": "ヘ(^_^ヘ)",
-      "tags": ["dancing", "happy"]
+      "tags": [
+        "dancing",
+        "happy"
+      ]
     },
     {
       "id": "action_167",
       "text": "乁( ˙ ω˙乁)",
       "tags": []
-    },
-    {
-      "id": "action_168",
-      "text": "ゝ(▽｀*ゝ)",
-      "tags": ["cute", "happy"]
     },
     {
       "id": "action_170",
@@ -420,27 +675,42 @@
     {
       "id": "action_171",
       "text": "7(^-^7)",
-      "tags": ["dancing", "happy"]
+      "tags": [
+        "dancing",
+        "happy"
+      ]
     },
     {
       "id": "action_172",
       "text": "₍₍ ◝(・ω・)◟ ⁾⁾",
-      "tags": ["dancing", "happy"]
+      "tags": [
+        "dancing",
+        "happy"
+      ]
     },
     {
       "id": "action_173",
       "text": "₍₍ ◝( ･’ω’･ )◟ ⁾⁾",
-      "tags": ["confident", "dancing", "happy"]
+      "tags": [
+        "confident",
+        "dancing",
+        "happy"
+      ]
     },
     {
       "id": "action_174",
       "text": "┏(｀o´)┓",
-      "tags": ["angry", "shout"]
+      "tags": [
+        "angry",
+        "shout"
+      ]
     },
     {
       "id": "action_175",
       "text": "┏(｀ー´)┓",
-      "tags": ["confident"]
+      "tags": [
+        "confident"
+      ]
     },
     {
       "id": "action_178",
@@ -450,42 +720,64 @@
     {
       "id": "action_180",
       "text": "└|∵┌|",
-      "tags": ["dancing", "neutral"]
+      "tags": [
+        "dancing",
+        "neutral"
+      ]
     },
     {
       "id": "action_181",
       "text": "(（（（o┤｀･ｪ･´├o））））)",
-      "tags": ["angry", "animal"]
+      "tags": [
+        "angry",
+        "animal"
+      ]
     },
     {
       "id": "action_183",
       "text": "ʅ(◔౪◔ʅ)三(ʃ◔౪◔)ʃ",
-      "tags": ["confident", "naughty"]
+      "tags": [
+        "confident",
+        "naughty"
+      ]
     },
     {
       "id": "action_184",
       "text": "L(‘ω’)┘三└(‘ω’)」",
-      "tags": ["running"]
+      "tags": []
     },
     {
       "id": "action_185",
       "text": "┗( ^o^)┛≡┏( ^o^)┓≡┗( ^o^)┛",
-      "tags": ["dancing", "hands-up", "happy"]
+      "tags": [
+        "dancing",
+        "hands-up",
+        "happy"
+      ]
     },
     {
       "id": "action_190",
       "text": "(σ･з･)σ",
-      "tags": ["poke", "pouting"]
+      "tags": [
+        "poke",
+        "pouting"
+      ]
     },
     {
       "id": "action_191",
       "text": "(> ^_^ )>",
-      "tags": ["happy", "hug"]
+      "tags": [
+        "happy",
+        "hug"
+      ]
     },
     {
       "id": "action_192",
       "text": "ლ(́◉◞౪◟◉‵ლ)",
-      "tags": ["big-eyes", "give"]
+      "tags": [
+        "big-eyes",
+        "give"
+      ]
     },
     {
       "id": "action_193",
@@ -495,27 +787,36 @@
     {
       "id": "action_194",
       "text": "⊂(・▽・⊂)",
-      "tags": ["hug"]
+      "tags": [
+        "hug"
+      ]
     },
     {
       "id": "action_195",
       "text": "─=≡Σ((( つºل͜º)つ",
-      "tags": ["hug", "running", "smile"]
+      "tags": [
+        "hug",
+        "running",
+        "smile"
+      ]
     },
     {
       "id": "action_196",
       "text": "～～～～(/￣ｰ(･･｡)/",
-      "tags": ["closed-eyes", "comfort", "hands-up"]
+      "tags": [
+        "closed-eyes",
+        "comfort",
+        "hands-up"
+      ]
     },
     {
       "id": "action_197",
       "text": "～～(つˆДˆ)つﾉ>｡☆)ﾉ",
-      "tags": ["happy", "hug", "star"]
-    },
-    {
-      "id": "action_200",
-      "text": "(￣ー￣(｡-_-｡*)ゝ",
-      "tags": ["closed-eyes"]
+      "tags": [
+        "happy",
+        "hug",
+        "star"
+      ]
     },
     {
       "id": "action_201",
@@ -525,12 +826,22 @@
     {
       "id": "action_202",
       "text": "(/´-(~。~*)/",
-      "tags": ["comfort", "hug", "sleepy"]
+      "tags": [
+        "comfort",
+        "hug",
+        "sleepy"
+      ]
     },
     {
       "id": "action_203",
       "text": "♪((●>ω<)っ)))´、ゝ`)",
-      "tags": ["helpless", "music", "poke", "thrilled"]
+      "tags": [
+        "group",
+        "happy",
+        "helpless",
+        "music",
+        "poke"
+      ]
     },
     {
       "id": "action_205",
@@ -540,67 +851,99 @@
     {
       "id": "action_206",
       "text": "╰(*´︶`*)╯(´・ω・｀)",
-      "tags": ["comfort", "sad"]
+      "tags": [
+        "comfort",
+        "sad"
+      ]
     },
     {
       "id": "action_207",
       "text": "(ﾉ*’ω’*)ﾉ~~~~) ◜◡‾)",
-      "tags": ["attack", "hands-up"]
+      "tags": [
+        "attack",
+        "hands-up"
+      ]
     },
     {
       "id": "action_208",
       "text": "┐(・。・┐) ♪",
-      "tags": ["dancing", "music", "pointing"]
+      "tags": [
+        "dancing",
+        "music",
+        "pointing"
+      ]
     },
     {
       "id": "action_209",
       "text": "♬♫♪◖(●。●)◗♪♫♬",
-      "tags": ["music"]
+      "tags": [
+        "music"
+      ]
     },
     {
       "id": "action_210",
       "text": "ヾ(´〇｀)ﾉ",
-      "tags": ["hands-up", "shout"]
+      "tags": [
+        "hands-up",
+        "shout"
+      ]
     },
     {
       "id": "action_211",
       "text": "♪(*´○｀)o¶~~♪",
-      "tags": ["music", "sing"]
+      "tags": [
+        "music",
+        "sing"
+      ]
     },
     {
       "id": "action_212",
       "text": "◖ฺ|´⌣`*|◗·˳♪⁎˚♫",
-      "tags": ["happiness", "music"]
-    },
-    {
-      "id": "action_213",
-      "text": "ヾ(￣〓￣ヾ)",
-      "tags": ["closed-eyes"]
+      "tags": [
+        "happiness",
+        "music"
+      ]
     },
     {
       "id": "action_214",
       "text": "(☞ ՞ਊ ՞)☞",
-      "tags": ["mock", "pointing"]
+      "tags": [
+        "mock",
+        "pointing"
+      ]
     },
     {
       "id": "action_216",
       "text": "☚(ﾟヮﾟ☚)",
-      "tags": ["mock", "pointing"]
+      "tags": [
+        "mock",
+        "pointing"
+      ]
     },
     {
       "id": "action_217",
       "text": "川｡μ_μ)σ",
-      "tags": ["poke", "shy"]
+      "tags": [
+        "poke",
+        "shy"
+      ]
     },
     {
       "id": "action_220",
       "text": "(ノ￣ー￣)ノ ● ＼(^ω^＼)",
-      "tags": ["closed-eyes", "cute", "happy", "play", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "happy",
+        "play",
+        "speechless"
+      ]
     },
     {
       "id": "action_222",
       "text": "=͟͟͞͞⊂( ’ω’ )=͟͟͞͞⊃",
-      "tags": ["running"]
+      "tags": [
+        "running"
+      ]
     },
     {
       "id": "action_223",
@@ -610,42 +953,51 @@
     {
       "id": "action_225",
       "text": "( ＾◡＾)っ✂❤",
-      "tags": ["love", "scheming", "scissors", "smile"]
-    },
-    {
-      "id": "action_229",
-      "text": "(｀_´)ゞ",
-      "tags": ["scratch"]
+      "tags": [
+        "love",
+        "scheming",
+        "scissors",
+        "smile"
+      ]
     },
     {
       "id": "action_230",
       "text": "く（＾_・）ゝ",
-      "tags": ["cute"]
+      "tags": [
+        "dancing",
+        "happy"
+      ]
     },
     {
       "id": "action_234",
       "text": "(」・ω・)」",
-      "tags": ["shout"]
+      "tags": [
+        "shout"
+      ]
     },
     {
       "id": "action_236",
       "text": "(」ﾟﾛﾟ)｣",
-      "tags": ["shout"]
+      "tags": [
+        "shout"
+      ]
     },
     {
       "id": "action_237",
       "text": "(❀｣╹□╹)｣*･",
-      "tags": ["cute", "flower", "shout", "sparkle"]
+      "tags": [
+        "cute",
+        "flower",
+        "shout",
+        "sparkle"
+      ]
     },
     {
       "id": "action_242",
       "text": "(/●◔∀◐●)/",
-      "tags": ["naughty"]
-    },
-    {
-      "id": "action_243",
-      "text": "ゞ(ↂ ω ↂ)ゞ",
-      "tags": ["scratch"]
+      "tags": [
+        "naughty"
+      ]
     },
     {
       "id": "action_244",
@@ -655,227 +1007,352 @@
     {
       "id": "action_246",
       "text": "(「ఠωఠ)「",
-      "tags": ["animal"]
+      "tags": [
+        "animal"
+      ]
     },
     {
       "id": "action_247",
       "text": "乁( ◔ ౪◔)ㄏ",
-      "tags": ["confident", "helpless", "naughty", "shrug"]
+      "tags": [
+        "confident",
+        "helpless",
+        "naughty",
+        "shrug"
+      ]
     },
     {
       "id": "action_249",
       "text": "ʅ（´◔౪◔）ʃ",
-      "tags": ["confident", "helpless", "naughty", "shrug"]
+      "tags": [
+        "confident",
+        "helpless",
+        "naughty",
+        "shrug"
+      ]
     },
     {
       "id": "action_250",
       "text": "₍₍ (ง ˙ω˙)ว ⁾⁾",
-      "tags": ["cute", "dancing"]
+      "tags": [
+        "cute",
+        "dancing"
+      ]
     },
     {
       "id": "action_252",
       "text": "!!(⊃ Д)⊃≡ﾟ ﾟ",
-      "tags": ["surprised"]
+      "tags": [
+        "surprised"
+      ]
     },
     {
       "id": "action_253",
       "text": "L(・o・)」",
-      "tags": ["surprised"]
+      "tags": [
+        "surprised"
+      ]
     },
     {
       "id": "action_254",
       "text": "༼ つ ◕o◕ ༽つ",
-      "tags": ["big-eyes", "hug"]
+      "tags": [
+        "big-eyes",
+        "hug"
+      ]
     },
     {
       "id": "action_255",
       "text": "(ﾉﾟ0ﾟ)ﾉ~",
-      "tags": ["hands-up", "surprised"]
+      "tags": [
+        "hands-up",
+        "surprised"
+      ]
     },
     {
       "id": "action_256",
       "text": "(*0*)/",
-      "tags": ["surprised"]
+      "tags": [
+        "surprised"
+      ]
     },
     {
       "id": "action_257",
       "text": "o(｀O´)o",
-      "tags": ["angry"]
+      "tags": [
+        "angry"
+      ]
     },
     {
       "id": "action_259",
       "text": "=͟͟͞͞( •̀д•́)))",
-      "tags": ["excited", "motivated", "running"]
+      "tags": [
+        "excited",
+        "motivated",
+        "running"
+      ]
     },
     {
       "id": "action_262",
       "text": "₍₍ ◝(•̀ㅂ•́)◟ ⁾⁾",
-      "tags": ["confident", "dancing", "motivated"]
+      "tags": [
+        "confident",
+        "dancing",
+        "motivated"
+      ]
     },
     {
       "id": "action_270",
       "text": "┗|｀O´|┛",
-      "tags": ["angry", "shout"]
+      "tags": [
+        "angry",
+        "shout"
+      ]
     },
     {
       "id": "action_271",
       "text": "ヾ(｡｀Д´｡)ﾉ彡☆",
-      "tags": ["angry", "breakdown", "hands-up", "star"]
+      "tags": [
+        "angry",
+        "breakdown",
+        "hands-up",
+        "star"
+      ]
     },
     {
       "id": "action_272",
       "text": "ヽ(｀◇´)/",
-      "tags": ["displeased", "hands-up", "shout"]
+      "tags": [
+        "displeased",
+        "hands-up",
+        "shout"
+      ]
     },
     {
       "id": "action_273",
       "text": "┗(｀皿´)┛",
-      "tags": ["angry"]
+      "tags": [
+        "angry"
+      ]
     },
     {
       "id": "action_274",
       "text": "ヽ(｀δ´)ノ",
-      "tags": ["angry"]
+      "tags": [
+        "angry"
+      ]
     },
     {
       "id": "action_275",
       "text": "└(○｀ε´○)┘",
-      "tags": ["angry", "pouting"]
-    },
-    {
-      "id": "action_276",
-      "text": "ヾ(｀◇´)ﾉ彡",
-      "tags": ["angry", "hands-up"]
+      "tags": [
+        "angry",
+        "pouting"
+      ]
     },
     {
       "id": "action_277",
       "text": "(☝’益’☝)",
-      "tags": ["angry", "pointing"]
+      "tags": [
+        "displeased",
+        "pointing"
+      ]
     },
     {
       "id": "action_278",
       "text": "б(*｀・´)∂",
-      "tags": ["angry", "confident"]
+      "tags": [
+        "angry",
+        "confident"
+      ]
     },
     {
       "id": "action_279",
       "text": "(ﾉ｀Д´)ﾉ",
-      "tags": ["angry", "hands-up"]
+      "tags": [
+        "angry",
+        "hands-up"
+      ]
     },
     {
       "id": "action_280",
       "text": "∪ヽ(●-｀Д´-)ノ彡☆",
-      "tags": ["angry", "star"]
+      "tags": [
+        "angry",
+        "star"
+      ]
     },
     {
       "id": "action_282",
       "text": "(ヾﾉ•᷅ ༬•᷄ )",
-      "tags": ["hands-up"]
+      "tags": [
+        "hands-up"
+      ]
     },
     {
       "id": "action_283",
       "text": "v(｀皿´)ﾉ~",
-      "tags": ["angry", "hands-up"]
+      "tags": [
+        "angry",
+        "hands-up"
+      ]
     },
     {
       "id": "action_284",
       "text": "ι(｀ロ´)ノ",
-      "tags": ["angry", "shout"]
+      "tags": [
+        "angry",
+        "shout"
+      ]
     },
     {
       "id": "action_286",
       "text": "(o_ _）ノ彡☆",
-      "tags": ["star"]
+      "tags": [
+        "star"
+      ]
     },
     {
       "id": "action_287",
       "text": "ﾐ(ﾉ_ _)ﾉ=3",
-      "tags": ["hands-up", "running"]
+      "tags": [
+        "closed-eyes",
+        "hands-up",
+        "running"
+      ]
     },
     {
       "id": "action_289",
       "text": "ε=o(´ﾛ｀||)",
-      "tags": ["running", "shout", "surprised"]
+      "tags": [
+        "running",
+        "shout",
+        "surprised"
+      ]
     },
     {
       "id": "action_291",
       "text": "へ[ •́ ‸ •̀ ]ʋ",
-      "tags": ["sad"]
+      "tags": [
+        "sad"
+      ]
     },
     {
       "id": "action_292",
       "text": "ヾ( ๑´д`๑)ﾂ",
-      "tags": ["dancing", "sad"]
+      "tags": [
+        "dancing",
+        "sad"
+      ]
     },
     {
       "id": "action_293",
       "text": "゛(●ﾉ´・Д・｀)ﾉ",
-      "tags": ["hands-up", "sad"]
+      "tags": [
+        "hands-up",
+        "sad"
+      ]
     },
     {
       "id": "action_298",
       "text": "(｢⊙Д⊙)｢",
-      "tags": ["dumbfounded", "surprised"]
+      "tags": [
+        "dumbfounded",
+        "surprised"
+      ]
     },
     {
       "id": "action_299",
       "text": "（┛〃°　Д°）┛",
-      "tags": ["dumbfounded", "running", "surprised"]
-    },
-    {
-      "id": "action_301",
-      "text": "ヽ(￣д￣;)ノ=3=3=3",
-      "tags": ["closed-eyes", "helpless", "running"]
+      "tags": [
+        "dumbfounded",
+        "running",
+        "surprised"
+      ]
     },
     {
       "id": "action_304",
       "text": "ε＝ε＝ε＝(((((ﾉ｀･Д･)ﾉ",
-      "tags": ["displeased", "hands-up", "running"]
+      "tags": [
+        "displeased",
+        "hands-up",
+        "running"
+      ]
     },
     {
       "id": "action_305",
       "text": "(◞º❒º)◞₎₎(◟º❑º)◟⁾⁾➟➠➨",
-      "tags": ["running"]
+      "tags": [
+        "running"
+      ]
     },
     {
       "id": "action_306",
       "text": "ε=٩(●❛ö❛)۶",
-      "tags": ["hands-up", "running", "shout"]
+      "tags": [
+        "hands-up",
+        "running",
+        "shout"
+      ]
     },
     {
       "id": "action_308",
       "text": "(c=(c=(c=(c=(ﾟﾛﾟ;c=",
-      "tags": ["running", "surprised"]
+      "tags": [
+        "running",
+        "surprised"
+      ]
     },
     {
       "id": "action_311",
       "text": "≡≡≡=(ﾉTдT)ﾉ",
-      "tags": ["crying", "hands-up", "running"]
+      "tags": [
+        "crying",
+        "hands-up",
+        "running"
+      ]
     },
     {
       "id": "action_312",
       "text": "ε=ε=(⊃≧□≦)⊃",
-      "tags": ["hug", "running", "scared"]
+      "tags": [
+        "hug",
+        "running",
+        "scared"
+      ]
     },
     {
       "id": "action_314",
       "text": "┃ ु ⠁⃘ ⠁⃘ू┃⁼³₌₃",
-      "tags": ["running"]
+      "tags": [
+        "running"
+      ]
     },
     {
       "id": "action_315",
       "text": "ਭ३౽=͟͟͞͞(((ഽʻ⁸ʻ)ഽ",
-      "tags": ["running"]
+      "tags": [
+        "running"
+      ]
     },
     {
       "id": "action_319",
       "text": "～ε～ε～┌(|||´Д｀)ノ",
-      "tags": ["helpless", "running", "scared", "sweat-drop", "waving"]
+      "tags": [
+        "helpless",
+        "running",
+        "scared",
+        "sweat-drop",
+        "waving"
+      ]
     },
     {
       "id": "action_320",
       "text": "゛(ﾉ~o~)ﾉ",
-      "tags": ["hands-up", "sigh"]
+      "tags": [
+        "hands-up",
+        "sigh"
+      ]
     },
     {
       "id": "action_323",
@@ -885,92 +1362,151 @@
     {
       "id": "action_324",
       "text": "｡｡(ﾉ´д)ﾉ",
-      "tags": ["hands-up"]
+      "tags": [
+        "hands-up"
+      ]
     },
     {
       "id": "action_329",
       "text": "ε=ε=ε=(*ﾉ´Д｀)ﾉﾟ",
-      "tags": ["hands-up", "helpless", "running", "scared"]
+      "tags": [
+        "hands-up",
+        "helpless",
+        "running",
+        "scared"
+      ]
     },
     {
       "id": "action_330",
       "text": "ヾ(*゜、ω゜*)ﾉﾟ",
-      "tags": ["crying", "flower", "hands-up"]
+      "tags": [
+        "crying",
+        "flower",
+        "hands-up"
+      ]
     },
     {
       "id": "action_338",
       "text": "ヽ(≡ω≡;ヽ)",
-      "tags": ["dizzy"]
+      "tags": [
+        "dizzy"
+      ]
     },
     {
       "id": "action_339",
       "text": "(ﾉ;≡ω≡)ﾉ",
-      "tags": ["dizzy", "hands-up"]
+      "tags": [
+        "dizzy",
+        "hands-up"
+      ]
     },
     {
       "id": "action_340",
       "text": "ﾍ(;´o｀)ﾍ",
-      "tags": ["sigh", "sleepy"]
+      "tags": [
+        "sigh",
+        "sleepy"
+      ]
     },
     {
       "id": "action_348",
       "text": "┗┐ヽ(′Д、`*)ﾉ┌┛",
-      "tags": ["breakdown", "dancing", "hands-up", "sad"]
+      "tags": [
+        "breakdown",
+        "dancing",
+        "hands-up",
+        "sad"
+      ]
     },
     {
       "id": "action_350",
       "text": "=͟͟͞͞(꒪ᗜ꒪ ‧̣̥̇)",
-      "tags": ["running", "surprised"]
+      "tags": [
+        "running",
+        "surprised"
+      ]
     },
     {
       "id": "action_351",
       "text": "/･_･ヾ＼",
-      "tags": ["comfort"]
+      "tags": [
+        "comfort"
+      ]
     },
     {
       "id": "action_352",
       "text": "=͟͟͞͞( •̀д•́)",
-      "tags": ["running"]
+      "tags": [
+        "running"
+      ]
     },
     {
       "id": "action_359",
       "text": "ミ⁰̷̴͈ 。⁰̷̴͈ ミ",
-      "tags": ["running"]
+      "tags": [
+        "running"
+      ]
     },
     {
       "id": "action_363",
       "text": "ﾅﾂ (ง˘ω˘)วﾅﾂ",
-      "tags": ["dancing"]
+      "tags": [
+        "dancing"
+      ]
     },
     {
       "id": "action_364",
       "text": "\\(´ཀ` )/",
-      "tags": ["banzai", "helpless", "vomiting-blood"]
+      "tags": [
+        "banzai",
+        "helpless",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_365",
       "text": "(*꒪ཀ꒪)و",
-      "tags": ["dazed", "hands-up", "vomiting-blood"]
+      "tags": [
+        "dazed",
+        "hands-up",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_366",
       "text": "▒▓█▇▆▅▃▂ (¯ε¯＊)",
-      "tags": ["closed-eyes", "magic", "pouting"]
+      "tags": [
+        "closed-eyes",
+        "magic",
+        "pouting"
+      ]
     },
     {
       "id": "action_367",
       "text": "_ : (┐「꒪ཀ꒪) : __",
-      "tags": ["dazed", "vomiting-blood"]
+      "tags": [
+        "dazed",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_368",
       "text": "φ=͟͟͞͞φ : (´ཀ`」 ∠) : _",
-      "tags": ["helpless", "running", "vomiting-blood", "writing"]
+      "tags": [
+        "helpless",
+        "running",
+        "vomiting-blood",
+        "writing"
+      ]
     },
     {
       "id": "action_369",
       "text": "🌸\\(´ᗜˋ*)/››🌸‹‹\\( 　´)/››🌸‹‹\\(*´ᗜˋ)/››🌸",
-      "tags": ["dancing", "flower", "happy"]
+      "tags": [
+        "dancing",
+        "flower",
+        "happy"
+      ]
     },
     {
       "id": "action_370",
@@ -980,197 +1516,296 @@
     {
       "id": "action_371",
       "text": "(づ￣ ³￣)づ",
-      "tags": ["closed-eyes", "hug", "pouting"]
+      "tags": [
+        "closed-eyes",
+        "hug",
+        "pouting"
+      ]
     },
     {
       "id": "action_374",
       "text": "(づ ◕‿◕ )づ",
-      "tags": ["big-eyes", "cute", "hug", "smile"]
+      "tags": [
+        "big-eyes",
+        "cute",
+        "hug",
+        "smile"
+      ]
     },
     {
       "id": "action_379",
       "text": "⊂(´• ω •`⊂)",
-      "tags": ["cute", "hug"]
+      "tags": [
+        "cute",
+        "hug"
+      ]
     },
     {
       "id": "action_380",
       "text": "⊂(･ω･*⊂)",
-      "tags": ["cute", "hug"]
-    },
-    {
-      "id": "action_381",
-      "text": "⊂(￣▽￣)⊃",
-      "tags": ["closed-eyes", "confident", "happiness", "hug"]
+      "tags": [
+        "cute",
+        "hug"
+      ]
     },
     {
       "id": "action_382",
       "text": "⊂( ´ ▽ ` )⊃",
-      "tags": ["happy", "hug"]
+      "tags": [
+        "happy",
+        "hug"
+      ]
     },
     {
       "id": "action_383",
       "text": "( ~*-*)~",
-      "tags": ["dancing", "happy", "hug"]
+      "tags": [
+        "dancing",
+        "happy",
+        "hug"
+      ]
     },
     {
       "id": "action_384",
       "text": "m(_ _)m",
-      "tags": ["apologize", "closed-eyes", "please"]
+      "tags": [
+        "apologize",
+        "closed-eyes",
+        "please"
+      ]
     },
     {
       "id": "action_385",
       "text": "(シ_ _)シ",
-      "tags": ["apologize", "closed-eyes", "please"]
+      "tags": [
+        "apologize",
+        "closed-eyes",
+        "please"
+      ]
     },
     {
       "id": "action_386",
       "text": "m(. .)m",
-      "tags": ["apologize", "neutral", "please"]
+      "tags": [
+        "apologize",
+        "neutral",
+        "please"
+      ]
     },
     {
       "id": "action_387",
       "text": "<(_ _)>",
-      "tags": ["apologize"]
+      "tags": [
+        "apologize"
+      ]
     },
     {
       "id": "action_388",
       "text": "人(_ _*)",
-      "tags": ["apologize", "closed-eyes", "please"]
+      "tags": [
+        "apologize",
+        "closed-eyes",
+        "please"
+      ]
     },
     {
       "id": "action_389",
       "text": "(*_ _)人",
-      "tags": ["apologize", "closed-eyes", "please"]
+      "tags": [
+        "apologize",
+        "closed-eyes",
+        "please"
+      ]
     },
     {
       "id": "action_391",
       "text": "|･ω･)",
-      "tags": ["cute", "peeking"]
+      "tags": [
+        "cute",
+        "peeking"
+      ]
     },
     {
       "id": "action_392",
       "text": "ﾍ(･_|",
-      "tags": ["hands-up", "peeking"]
+      "tags": [
+        "hands-up",
+        "peeking"
+      ]
     },
     {
       "id": "action_393",
       "text": "|ω･)ﾉ",
-      "tags": ["cute", "peeking", "waving"]
+      "tags": [
+        "cute",
+        "peeking",
+        "waving"
+      ]
     },
     {
       "id": "action_394",
       "text": "ヾ(･|",
-      "tags": ["peeking", "waving"]
+      "tags": [
+        "peeking",
+        "waving"
+      ]
     },
     {
       "id": "action_395",
       "text": "|_￣))",
-      "tags": ["closed-eyes", "peeking", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "peeking",
+        "speechless"
+      ]
     },
     {
       "id": "action_397",
       "text": "┬┴┬┴┤(･_├┬┴┬┴",
-      "tags": ["peeking", "speechless"]
+      "tags": [
+        "peeking",
+        "speechless"
+      ]
     },
     {
       "id": "action_398",
       "text": "┬┴┬┴┤･ω･)ﾉ",
-      "tags": ["cute", "peeking", "waving"]
+      "tags": [
+        "cute",
+        "peeking",
+        "waving"
+      ]
     },
     {
       "id": "action_401",
       "text": "__φ(．．)",
-      "tags": ["neutral", "writing"]
-    },
-    {
-      "id": "action_402",
-      "text": "( ￣ー￣)φ__",
-      "tags": ["closed-eyes", "confident", "writing"]
+      "tags": [
+        "neutral",
+        "writing"
+      ]
     },
     {
       "id": "action_403",
       "text": "__φ(。。)",
-      "tags": ["writing"]
+      "tags": [
+        "writing"
+      ]
     },
     {
       "id": "action_405",
       "text": "ヾ( `ー´)シφ__",
-      "tags": ["angry", "writing"]
-    },
-    {
-      "id": "action_406",
-      "text": "__〆(￣ー￣ )",
-      "tags": ["closed-eyes", "confident", "writing"]
+      "tags": [
+        "angry",
+        "writing"
+      ]
     },
     {
       "id": "action_407",
       "text": "....φ(・∀・*)",
-      "tags": ["happy", "writing"]
+      "tags": [
+        "happy",
+        "writing"
+      ]
     },
     {
       "id": "action_408",
       "text": "___〆(・∀・)",
-      "tags": ["happy", "writing"]
+      "tags": [
+        "happy",
+        "writing"
+      ]
     },
     {
       "id": "action_409",
       "text": "( ^▽^)ψ__",
-      "tags": ["happy", "writing"]
+      "tags": [
+        "happy",
+        "writing"
+      ]
     },
     {
       "id": "action_410",
       "text": "....φ(︶▽︶)φ....",
-      "tags": ["happiness", "happy", "writing"]
+      "tags": [
+        "happiness",
+        "happy",
+        "writing"
+      ]
     },
     {
       "id": "action_411",
       "text": "__φ(◎◎ヘ)",
-      "tags": ["surprised", "writing"]
+      "tags": [
+        "surprised",
+        "writing"
+      ]
     },
     {
       "id": "action_415",
       "text": "ε=ε=ε=ε=┌(;￣▽￣)┘",
-      "tags": ["closed-eyes", "embarrassed", "running", "sweat-drop"]
+      "tags": [
+        "closed-eyes",
+        "embarrassed",
+        "running",
+        "sweat-drop"
+      ]
     },
     {
       "id": "action_417",
       "text": "C= C= C= C=┌( `ー´)┘",
-      "tags": ["angry", "running"]
+      "tags": [
+        "angry",
+        "running"
+      ]
     },
     {
       "id": "action_420",
       "text": "(ﾒ ﾟ皿ﾟ)ﾒ",
-      "tags": ["angry"]
+      "tags": [
+        "angry"
+      ]
     },
     {
       "id": "action_424",
       "text": "(／‵Д′)／~ ╧╧",
-      "tags": ["angry", "breakdown", "hands-up", "shout", "table-flip"]
-    },
-    {
-      "id": "action_426",
-      "text": "┏((＝￣(ｴ)￣=))┛",
-      "tags": ["bear", "closed-eyes", "confident"]
+      "tags": [
+        "angry",
+        "breakdown",
+        "hands-up",
+        "shout",
+        "table-flip"
+      ]
     },
     {
       "id": "action_427",
       "text": "( ఠൠఠ )ﾉ",
-      "tags": ["hands-up"]
+      "tags": [
+        "hands-up"
+      ]
     },
     {
       "id": "action_433",
       "text": "┌|◎o◎|┘",
-      "tags": ["dancing", "surprised"]
+      "tags": [
+        "dancing",
+        "surprised"
+      ]
     },
     {
       "id": "action_434",
       "text": "∑(ι´Дン)ノ",
-      "tags": ["pointing", "surprised"]
+      "tags": [
+        "pointing",
+        "surprised"
+      ]
     },
     {
       "id": "action_437",
       "text": "⊂彡☆))д`)",
-      "tags": ["attack", "star"]
+      "tags": [
+        "attack",
+        "star"
+      ]
     },
     {
       "id": "action_438",
@@ -1180,7 +1815,9 @@
     {
       "id": "action_440",
       "text": "((└(:3」┌)┘))",
-      "tags": ["dancing"]
+      "tags": [
+        "dancing"
+      ]
     },
     {
       "id": "action_441",
@@ -1195,17 +1832,26 @@
     {
       "id": "action_446",
       "text": "━(ﾟ∀ﾟ)━( ﾟ∀)━( ﾟ)━( )━( )━(ﾟ)━(∀ﾟ)━(ﾟ∀ﾟ)━",
-      "tags": ["mock"]
+      "tags": [
+        "mock"
+      ]
     },
     {
       "id": "action_447",
       "text": "ξ( ✿＞◡❛)▄︻▇▇〓▄︻┻┳═一",
-      "tags": ["attack", "cute", "flower"]
+      "tags": [
+        "attack",
+        "cute",
+        "flower"
+      ]
     },
     {
       "id": "action_448",
       "text": "ヽ(・×・´)ゞ",
-      "tags": []
+      "tags": [
+        "waving",
+        "x-mouth"
+      ]
     },
     {
       "id": "action_449",
@@ -1215,82 +1861,122 @@
     {
       "id": "action_450",
       "text": "˓˓ (̨̡› 𝅒 ‹ )̧̢ ˒˒",
-      "tags": ["dancing", "happy", "music"]
+      "tags": [
+        "dancing",
+        "happy",
+        "music"
+      ]
     },
     {
       "id": "action_451",
       "text": "( ੭ ･ ౩･ )੭",
-      "tags": ["cute", "pouting"]
+      "tags": [
+        "cute",
+        "pouting"
+      ]
     },
     {
       "id": "action_453",
       "text": "´๑・ڡ・๑｀",
-      "tags": ["eating", "舔"]
+      "tags": [
+        "eating",
+        "舔"
+      ]
     },
     {
       "id": "action_456",
       "text": "( 'ч' )",
-      "tags": ["eating", "happiness"]
+      "tags": [
+        "eating",
+        "happiness"
+      ]
     },
     {
       "id": "action_457",
       "text": "(っ* ॑꒳ ॑*)╮",
-      "tags": ["happy"]
+      "tags": [
+        "happy"
+      ]
     },
     {
       "id": "action_458",
       "text": "(*•؎ •*)",
-      "tags": ["eating", "happiness"]
+      "tags": [
+        "eating",
+        "happiness"
+      ]
     },
     {
       "id": "action_460",
       "text": "(｡・‧̫・｡)o🪄",
-      "tags": ["sparkle"]
+      "tags": [
+        "sparkle"
+      ]
     },
     {
       "id": "action_461",
       "text": "=͟͟͞͞ (˘▾˘)",
-      "tags": ["happiness", "running"]
+      "tags": [
+        "happiness",
+        "running"
+      ]
     },
     {
       "id": "action_466",
       "text": "(╭￣3￣)╭♡",
-      "tags": ["closed-eyes", "hands-up", "love", "pouting"]
+      "tags": [
+        "closed-eyes",
+        "hands-up",
+        "love",
+        "pouting"
+      ]
     },
     {
       "id": "action_469",
       "text": "ヾ(⌒(_´･ㅅ･`)_",
-      "tags": ["sad"]
+      "tags": [
+        "sad"
+      ]
     },
     {
       "id": "action_470",
       "text": "il||li _|￣|○ヽ(･ω･｀)",
-      "tags": ["breakdown", "comfort", "cute"]
+      "tags": [
+        "breakdown",
+        "comfort",
+        "cute"
+      ]
     },
     {
       "id": "action_472",
       "text": "(o´・ω・`)σ)Д`)",
-      "tags": ["poke"]
+      "tags": [
+        "poke"
+      ]
     },
     {
       "id": "action_473",
       "text": "ლ(・´ｪ`・ლ)",
-      "tags": ["give"]
-    },
-    {
-      "id": "action_475",
-      "text": "(ㄏ￣▽￣)ㄏ ㄟ(￣▽￣ㄟ)",
-      "tags": ["closed-eyes", "dancing", "happy"]
+      "tags": [
+        "give"
+      ]
     },
     {
       "id": "action_476",
       "text": "( ﾟ∀ﾟ)o彡ﾟ",
-      "tags": ["mock", "shout"]
+      "tags": [
+        "mock",
+        "shout"
+      ]
     },
     {
       "id": "action_477",
       "text": "ﾚ(ﾟ∀ﾟ;)ﾍ=З=З=З",
-      "tags": ["mock", "running", "surprised"]
+      "tags": [
+        "mock",
+        "running",
+        "surprised"
+      ]
     },
     {
       "id": "action_480",
@@ -1300,17 +1986,25 @@
     {
       "id": "action_482",
       "text": "..._〆(°▽°*)",
-      "tags": ["writing"]
+      "tags": [
+        "writing"
+      ]
     },
     {
       "id": "action_485",
       "text": "|Д`)ノ⌒●～*",
-      "tags": ["attack"]
+      "tags": [
+        "attack"
+      ]
     },
     {
       "id": "action_488",
       "text": "(´;ω;`)ヾ(･∀･`)",
-      "tags": ["comfort", "crying", "group"]
+      "tags": [
+        "comfort",
+        "crying",
+        "group"
+      ]
     },
     {
       "id": "action_491",
@@ -1320,57 +2014,88 @@
     {
       "id": "action_492",
       "text": "(:3っ)へ ヽ(´Д｀●ヽ)",
-      "tags": ["comfort"]
+      "tags": [
+        "comfort"
+      ]
     },
     {
       "id": "action_493",
       "text": "ヾ(◎´・ω・｀)ノ",
-      "tags": ["comfort", "sad"]
+      "tags": [
+        "comfort",
+        "sad"
+      ]
     },
     {
       "id": "action_494",
       "text": "ル||☛_☚|リ",
-      "tags": ["pointing"]
+      "tags": [
+        "pointing"
+      ]
     },
     {
       "id": "action_495",
       "text": "L(　；ω；)┘三└(；ω；　)」",
-      "tags": ["breakdown", "crying", "running", "sweat-drop"]
+      "tags": [
+        "breakdown",
+        "crying",
+        "running",
+        "sweat-drop"
+      ]
     },
     {
       "id": "action_502",
       "text": "ι(´Д`ι)",
-      "tags": ["please"]
+      "tags": [
+        "please"
+      ]
     },
     {
       "id": "action_505",
       "text": "(ㅅ˘ㅂ˘)",
-      "tags": ["happiness", "please"]
+      "tags": [
+        "happiness",
+        "please"
+      ]
     },
     {
       "id": "action_506",
       "text": "(｡-人-｡)",
-      "tags": ["apologize", "please"]
+      "tags": [
+        "apologize",
+        "please"
+      ]
     },
     {
       "id": "action_507",
       "text": "( ｣｡╹o╹｡)｣",
-      "tags": ["please", "shout"]
+      "tags": [
+        "please",
+        "shout"
+      ]
     },
     {
       "id": "action_508",
       "text": "(」｡≧□≦)」",
-      "tags": ["crying", "please"]
+      "tags": [
+        "crying",
+        "please"
+      ]
     },
     {
       "id": "action_512",
       "text": "(*ˇωˇ*人)",
-      "tags": ["please", "sleepy"]
+      "tags": [
+        "please",
+        "sleepy"
+      ]
     },
     {
       "id": "action_513",
       "text": "( ・∀・)・・・--------☆",
-      "tags": ["star"]
+      "tags": [
+        "star"
+      ]
     },
     {
       "id": "action_514",
@@ -1380,7 +2105,10 @@
     {
       "id": "action_515",
       "text": "(^ω^)ノﾞ(((((((((●～*",
-      "tags": ["happy", "play"]
+      "tags": [
+        "happy",
+        "play"
+      ]
     },
     {
       "id": "action_516",
@@ -1395,12 +2123,19 @@
     {
       "id": "action_518",
       "text": "―⊂|=0ヘ(^^ )",
-      "tags": ["attack", "happy"]
+      "tags": [
+        "attack",
+        "happy"
+      ]
     },
     {
       "id": "action_519",
       "text": "○∞∞∞∞ヽ(^ー^ )",
-      "tags": ["attack", "happy", "play"]
+      "tags": [
+        "attack",
+        "happy",
+        "play"
+      ]
     },
     {
       "id": "action_520",
@@ -1413,19 +2148,18 @@
       "tags": []
     },
     {
-      "id": "action_523",
-      "text": "￢o(￣-￣ﾒ)",
-      "tags": ["closed-eyes"]
-    },
-    {
       "id": "action_524",
       "text": "―(T_T)→",
-      "tags": ["crying"]
+      "tags": [
+        "crying"
+      ]
     },
     {
       "id": "action_525",
       "text": "((( ￣□)_／",
-      "tags": ["attack"]
+      "tags": [
+        "attack"
+      ]
     },
     {
       "id": "action_526",
@@ -1438,11 +2172,6 @@
       "tags": []
     },
     {
-      "id": "action_528",
-      "text": "(ﾒ￣▽￣)︻┳═一",
-      "tags": ["closed-eyes", "confident"]
-    },
-    {
       "id": "action_529",
       "text": "Q(`⌒´Q)",
       "tags": []
@@ -1450,217 +2179,302 @@
     {
       "id": "action_530",
       "text": "ଘ(੭ºัᴗºั)━☆ﾟ*:.",
-      "tags": ["star", "wings"]
+      "tags": [
+        "star",
+        "wings"
+      ]
     },
     {
       "id": "action_531",
       "text": "ଘ(ᵕ˵ ૩ᵕ)━☆ﾟ.*･｡ﾟ",
-      "tags": ["closed-eyes", "magic", "star", "pouting", "wings"]
+      "tags": [
+        "closed-eyes",
+        "magic",
+        "star",
+        "pouting",
+        "wings"
+      ]
     },
     {
       "id": "action_532",
       "text": "ଘ( ŎUŎ)━☆ﾟ.*･｡ﾟ",
-      "tags": ["star", "surprised", "wings"]
+      "tags": [
+        "star",
+        "surprised",
+        "wings"
+      ]
     },
     {
       "id": "action_533",
       "text": "（✿ ͡◕ ᴗ◕)つ━━✫・*。",
-      "tags": ["big-eyes", "flower"]
+      "tags": [
+        "big-eyes",
+        "flower"
+      ]
     },
     {
       "id": "action_535",
       "text": "(/￣ー￣)/~~☆’.･.･:★’.･.･:☆",
-      "tags": ["closed-eyes", "hands-up", "magic", "speechless", "star"]
+      "tags": [
+        "closed-eyes",
+        "hands-up",
+        "magic",
+        "speechless",
+        "star"
+      ]
     },
     {
       "id": "action_537",
       "text": "(ノ°∀°)ノ⌒･*:.｡. .｡.:*･゜ﾟ･*☆",
-      "tags": ["star"]
+      "tags": [
+        "star"
+      ]
     },
     {
       "id": "action_538",
       "text": "((ε(*´･ω･)っ†*ﾟ¨ﾟﾟ･*:..☆",
-      "tags": ["cute", "hug", "sparkle", "star", "wings"]
+      "tags": [
+        "cute",
+        "hug",
+        "sparkle",
+        "star",
+        "wings"
+      ]
     },
     {
       "id": "action_539",
       "text": "ヾ(´〇`)ﾉ♪♪♪",
-      "tags": ["hands-up", "happy", "music"]
+      "tags": [
+        "hands-up",
+        "happy",
+        "music"
+      ]
     },
     {
       "id": "action_540",
       "text": "ヘ(￣ω￣ヘ)",
-      "tags": ["closed-eyes", "dancing"]
-    },
-    {
-      "id": "action_541",
-      "text": "(〜￣▽￣)〜",
-      "tags": ["closed-eyes", "confident", "dancing", "happy"]
+      "tags": [
+        "closed-eyes",
+        "dancing"
+      ]
     },
     {
       "id": "action_543",
       "text": "♪ヽ(^^ヽ)♪",
-      "tags": ["dancing", "happy", "music"]
+      "tags": [
+        "dancing",
+        "happy",
+        "music"
+      ]
     },
     {
       "id": "action_544",
       "text": "♪(/_ _ )/♪",
-      "tags": ["dancing", "music", "sad"]
+      "tags": [
+        "dancing",
+        "music",
+        "sad"
+      ]
     },
     {
       "id": "action_545",
       "text": "♪♬((d⌒ω⌒b))♬♪",
-      "tags": ["dancing", "happy", "music"]
-    },
-    {
-      "id": "action_546",
-      "text": "└(￣-￣└))",
-      "tags": ["closed-eyes", "confident", "dancing"]
-    },
-    {
-      "id": "action_547",
-      "text": "((┘￣ω￣)┘",
-      "tags": ["closed-eyes", "confident", "dancing"]
-    },
-    {
-      "id": "action_548",
-      "text": "√(￣‥￣√)",
-      "tags": ["closed-eyes", "confident", "dancing"]
+      "tags": [
+        "dancing",
+        "happy",
+        "music"
+      ]
     },
     {
       "id": "action_549",
       "text": "└(＾＾)┐",
-      "tags": ["dancing", "happy"]
+      "tags": [
+        "dancing",
+        "happy"
+      ]
     },
     {
       "id": "action_550",
       "text": "┌(＾＾)┘",
-      "tags": ["dancing", "happy"]
-    },
-    {
-      "id": "action_551",
-      "text": "＼(￣▽￣)＼",
-      "tags": ["closed-eyes", "confident", "dancing", "happy"]
-    },
-    {
-      "id": "action_552",
-      "text": "／(￣▽￣)／",
-      "tags": ["closed-eyes", "confident", "dancing", "happy"]
+      "tags": [
+        "dancing",
+        "happy"
+      ]
     },
     {
       "id": "action_555",
       "text": "(~˘▽˘)~",
-      "tags": ["dancing", "happiness", "happy"]
+      "tags": [
+        "dancing",
+        "happiness",
+        "happy"
+      ]
     },
     {
       "id": "action_556",
       "text": "~(˘▽˘~)",
-      "tags": ["dancing", "happiness", "happy"]
-    },
-    {
-      "id": "action_558",
-      "text": "(〜￣△￣)〜",
-      "tags": ["closed-eyes", "dancing", "helpless"]
+      "tags": [
+        "dancing",
+        "happiness",
+        "happy"
+      ]
     },
     {
       "id": "action_559",
       "text": "(~‾▽‾)~",
-      "tags": ["dancing", "happy"]
+      "tags": [
+        "dancing",
+        "happy"
+      ]
     },
     {
       "id": "action_560",
       "text": "乁( • ω •乁)",
-      "tags": ["dancing", "happy"]
+      "tags": [
+        "dancing",
+        "happy"
+      ]
     },
     {
       "id": "action_561",
       "text": "(｢• ω •)｢",
-      "tags": ["dancing", "happy"]
+      "tags": [
+        "dancing",
+        "happy"
+      ]
     },
     {
       "id": "action_562",
       "text": "⁽⁽◝( • ω • )◜⁾⁾",
-      "tags": ["dancing", "happy"]
+      "tags": [
+        "dancing",
+        "happy"
+      ]
     },
     {
       "id": "action_563",
       "text": "✺◟( • ω • )◞✺",
-      "tags": ["dancing", "happy", "sparkle"]
+      "tags": [
+        "dancing",
+        "happy",
+        "sparkle"
+      ]
     },
     {
       "id": "action_566",
       "text": "♪♪♪ ヽ(ˇ∀ˇ )ゞ",
-      "tags": ["dancing", "happy", "music"]
+      "tags": [
+        "dancing",
+        "happy",
+        "music",
+        "waving"
+      ]
     },
     {
       "id": "action_567",
       "text": "(ˇ▽ˇ)ノ♪♬♫",
-      "tags": ["happy", "music"]
+      "tags": [
+        "happy",
+        "music"
+      ]
     },
     {
       "id": "action_569",
       "text": "( ´ཫ` )",
-      "tags": ["helpless", "vomiting-blood"]
+      "tags": [
+        "helpless",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_570",
       "text": "_(´ཀ`」 ∠)_",
-      "tags": ["helpless", "vomiting-blood"]
+      "tags": [
+        "helpless",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_571",
       "text": "(＾ཀ＾)",
-      "tags": ["happy", "vomiting-blood"]
+      "tags": [
+        "happy",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_572",
       "text": "( ´ཀ` )",
-      "tags": ["helpless", "vomiting-blood"]
+      "tags": [
+        "helpless",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_575",
       "text": "(´ཀ`///)",
-      "tags": ["helpless", "vomiting-blood"]
+      "tags": [
+        "helpless",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_576",
       "text": "(◜ཀ◝)",
-      "tags": ["happiness", "vomiting-blood"]
+      "tags": [
+        "happiness",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_578",
       "text": "(°ཀ°)",
-      "tags": ["dazed", "vomiting-blood"]
+      "tags": [
+        "dazed",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_580",
       "text": "( ° ཫ ° )･∵. ｸﾞﾊｯ!!",
-      "tags": ["dazed", "text", "vomiting-blood"]
+      "tags": [
+        "dazed",
+        "text",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_581",
       "text": "(っ^ཀ^c)",
-      "tags": ["happy", "hug", "vomiting-blood"]
+      "tags": [
+        "happy",
+        "hug",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_582",
       "text": "( ˘ཀ˘ )",
-      "tags": ["closed-eyes", "vomiting-blood"]
+      "tags": [
+        "closed-eyes",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_583",
       "text": "( ˙ཫ˙ )",
-      "tags": ["vomiting-blood"]
+      "tags": [
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_584",
       "text": "(꒪ཀ꒪*)ｸﾞﾌｯ💥",
-      "tags": ["dazed", "surprised", "vomiting-blood"]
-    },
-    {
-      "id": "action_587",
-      "text": "(　 ˆᴘˆ )ｫｪｯ❤",
-      "tags": ["love"]
+      "tags": [
+        "dazed",
+        "surprised",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_590",
@@ -1670,447 +2484,782 @@
     {
       "id": "action_592",
       "text": "ｸﾞﾊｯ‼(⑉°口°)･∵",
-      "tags": ["dumbfounded", "surprised", "text", "vomiting-blood"]
+      "tags": [
+        "dumbfounded",
+        "surprised",
+        "text",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_617",
       "text": "(｢• ω •)｢ (⌒ω⌒`)",
-      "tags": ["cute"]
+      "tags": [
+        "cute"
+      ]
     },
     {
       "id": "action_620",
       "text": "ミ=͟͟͞͞(✿ʘ ᴗʘ)っ",
-      "tags": ["big-eyes", "flower", "running", "smile", "waving"]
+      "tags": [
+        "big-eyes",
+        "flower",
+        "running",
+        "smile",
+        "waving"
+      ]
     },
     {
       "id": "action_621",
       "text": "且_(・-・)",
-      "tags": ["give", "neutral"]
+      "tags": [
+        "give",
+        "neutral"
+      ]
     },
     {
       "id": "action_623",
       "text": "ｍ（＿　＿；；ｍ",
-      "tags": ["apologize", "please", "sweat-drop"]
+      "tags": [
+        "apologize",
+        "please",
+        "sweat-drop"
+      ]
     },
     {
       "id": "action_625",
       "text": "m(._.)m",
-      "tags": ["apologize", "helpless", "neutral", "please"]
+      "tags": [
+        "apologize",
+        "helpless",
+        "neutral",
+        "please"
+      ]
     },
     {
       "id": "action_627",
       "text": "m(￢0￢)m",
-      "tags": ["angry", "apologize"]
+      "tags": [
+        "angry",
+        "apologize"
+      ]
     },
     {
       "id": "action_628",
       "text": "(*m＿　_)m",
-      "tags": ["apologize", "please"]
+      "tags": [
+        "apologize",
+        "please"
+      ]
     },
     {
       "id": "action_629",
       "text": "m(*-ω-)m",
-      "tags": ["closed-eyes", "please"]
+      "tags": [
+        "closed-eyes",
+        "please"
+      ]
     },
     {
       "id": "action_630",
       "text": "(m;_ _)m",
-      "tags": ["apologize", "please"]
+      "tags": [
+        "apologize",
+        "please"
+      ]
     },
     {
       "id": "action_631",
       "text": "(m。_。)m",
-      "tags": ["apologize", "please"]
+      "tags": [
+        "apologize",
+        "please"
+      ]
     },
     {
       "id": "action_635",
       "text": "<(￢0￢)>",
-      "tags": ["angry"]
+      "tags": [
+        "angry"
+      ]
     },
     {
       "id": "action_636",
       "text": "<(．＿．)>",
-      "tags": ["apologize", "please"]
+      "tags": [
+        "apologize",
+        "please"
+      ]
     },
     {
       "id": "action_637",
       "text": "(o_ _)o",
-      "tags": ["apologize", "please"]
+      "tags": [
+        "apologize",
+        "please"
+      ]
     },
     {
       "id": "action_638",
       "text": "(o。_。)o",
-      "tags": ["apologize", "please"]
+      "tags": [
+        "apologize",
+        "please"
+      ]
     },
     {
       "id": "action_640",
       "text": "(ᴗ͈ˬᴗ͈)ഒ",
-      "tags": ["apologize", "grateful", "shy"]
+      "tags": [
+        "apologize",
+        "grateful",
+        "shy"
+      ]
     },
     {
       "id": "action_641",
       "text": "*ᴗ ᴗ)⁾⁾♡",
-      "tags": ["grateful", "love"]
+      "tags": [
+        "grateful",
+        "love"
+      ]
     },
     {
       "id": "action_642",
       "text": "(˶ˆuˆ˵ )ഒ",
-      "tags": ["grateful"]
+      "tags": [
+        "grateful"
+      ]
     },
     {
       "id": "action_643",
       "text": "m(｡≧ｴ≦｡)m",
-      "tags": ["apologize", "please", "sad"]
-    },
-    {
-      "id": "action_645",
-      "text": "(；´д｀)ゞ",
-      "tags": ["scratch", "sweat-drop"]
+      "tags": [
+        "apologize",
+        "please",
+        "sad"
+      ]
     },
     {
       "id": "action_647",
       "text": "(ノಠ益ಠ)ノ彡┻━┻",
-      "tags": ["angry", "confused", "hands-up", "table-flip"]
+      "tags": [
+        "angry",
+        "confused",
+        "hands-up",
+        "table-flip"
+      ]
     },
     {
       "id": "action_650",
       "text": "（ノ♯｀△´）ノ~’┻━┻",
-      "tags": ["angry", "displeased", "excited", "hands-up", "shout", "table-flip"]
+      "tags": [
+        "angry",
+        "displeased",
+        "excited",
+        "hands-up",
+        "shout",
+        "table-flip"
+      ]
     },
     {
       "id": "action_651",
       "text": "(┛ಠДಠ)┛彡┻━┻",
-      "tags": ["displeased", "hands-up", "shout", "table-flip"]
+      "tags": [
+        "displeased",
+        "hands-up",
+        "shout",
+        "table-flip"
+      ]
     },
     {
       "id": "action_652",
       "text": "༼ ᕤ ºل͟º ༽ᕤ ︵┻━┻",
-      "tags": ["displeased", "hands-up", "speechless", "table-flip"]
+      "tags": [
+        "displeased",
+        "hands-up",
+        "speechless",
+        "table-flip"
+      ]
     },
     {
       "id": "action_653",
       "text": "༼ノಠل͟ಠ༽ノ ︵ ┻━┻",
-      "tags": ["confused", "displeased", "hands-up", "speechless", "table-flip"]
+      "tags": [
+        "confused",
+        "displeased",
+        "hands-up",
+        "speechless",
+        "table-flip"
+      ]
     },
     {
       "id": "action_654",
       "text": "(つ☢益☢)つ︵┻━┻",
-      "tags": ["displeased", "table-flip"]
+      "tags": [
+        "displeased",
+        "table-flip"
+      ]
     },
     {
       "id": "action_655",
       "text": "┻━┻ ︵ ლ(ಠ益ಠლ)",
-      "tags": ["angry", "confused", "table-flip"]
+      "tags": [
+        "angry",
+        "confused",
+        "table-flip"
+      ]
     },
     {
       "id": "action_656",
       "text": "/(ò.ó)┛彡┻━┻",
-      "tags": ["displeased", "table-flip"]
+      "tags": [
+        "displeased",
+        "table-flip"
+      ]
     },
     {
       "id": "action_657",
       "text": "(ﾉ｀Д)ﾉ:・’∵:.┻┻",
-      "tags": ["angry", "hands-up", "table-flip"]
+      "tags": [
+        "angry",
+        "hands-up",
+        "table-flip"
+      ]
     },
     {
       "id": "action_659",
       "text": "ʕ ⊃･ ◡ ･ ʔ⊃︵┻━┻",
-      "tags": ["scheming", "smile", "table-flip"]
+      "tags": [
+        "scheming",
+        "smile",
+        "table-flip"
+      ]
     },
     {
       "id": "action_660",
       "text": "(┛❍ᴥ❍)┛彡┻━┻",
-      "tags": ["animal", "dog", "hands-up", "table-flip"]
+      "tags": [
+        "animal",
+        "dog",
+        "hands-up",
+        "table-flip"
+      ]
     },
     {
       "id": "action_662",
       "text": "(╯ಠ_ರೃ)╯︵ ┻━┻",
-      "tags": ["confused", "displeased", "hands-up", "table-flip"]
+      "tags": [
+        "confused",
+        "displeased",
+        "hands-up",
+        "table-flip"
+      ]
     },
     {
       "id": "action_663",
       "text": "(ノ°▽°)ノ︵┻━┻",
-      "tags": ["hands-up", "scheming", "table-flip", "thrilled"]
+      "tags": [
+        "hands-up",
+        "scheming",
+        "table-flip",
+        "thrilled"
+      ]
     },
     {
       "id": "action_664",
       "text": "(ﾉ*’ω’*)ﾉ彡┻━┻",
-      "tags": ["hands-up", "table-flip"]
+      "tags": [
+        "hands-up",
+        "table-flip"
+      ]
     },
     {
       "id": "action_665",
       "text": "(ﾉ＾◡＾)ﾉ︵ ┻━┻",
-      "tags": ["hands-up", "scheming", "smile", "table-flip"]
+      "tags": [
+        "hands-up",
+        "scheming",
+        "smile",
+        "table-flip"
+      ]
     },
     {
       "id": "action_666",
       "text": "(╯ ･ ᗜ ･ )╯︵ ┻━┻",
-      "tags": ["hands-up", "scheming", "table-flip"]
+      "tags": [
+        "hands-up",
+        "scheming",
+        "table-flip"
+      ]
     },
     {
       "id": "action_667",
       "text": "(/¯◡ ‿ ◡)/¯ ~ ┻━┻",
-      "tags": ["closed-eyes", "hands-up", "helpless", "smile", "table-flip"]
+      "tags": [
+        "closed-eyes",
+        "hands-up",
+        "helpless",
+        "smile",
+        "table-flip"
+      ]
     },
     {
       "id": "action_670",
       "text": "ヽ༼ ツ ༽ﾉ ︵┻━┻",
-      "tags": ["displeased", "hands-up", "helpless", "smile", "table-flip"]
+      "tags": [
+        "displeased",
+        "hands-up",
+        "helpless",
+        "smile",
+        "table-flip"
+      ]
     },
     {
       "id": "action_671",
       "text": "(╯=▃=)╯︵┻━┻",
-      "tags": ["displeased", "hands-up", "speechless", "table-flip"]
+      "tags": [
+        "displeased",
+        "hands-up",
+        "speechless",
+        "table-flip"
+      ]
     },
     {
       "id": "action_673",
       "text": "ヽ(^o^)ρ┳┻┳°σ(^o^)ノ",
-      "tags": ["hands-up", "happy", "scheming", "table-flip"]
+      "tags": [
+        "hands-up",
+        "happy",
+        "scheming",
+        "table-flip"
+      ]
     },
     {
       "id": "action_674",
       "text": "(╯°益°)╯彡┻━┻",
-      "tags": ["displeased", "hands-up", "table-flip"]
+      "tags": [
+        "displeased",
+        "hands-up",
+        "table-flip"
+      ]
     },
     {
       "id": "action_675",
       "text": "(╮°-°)╮┳━━┳ ( ╯°□°)╯ ┻━━┻",
-      "tags": ["angry", "table-flip"]
+      "tags": [
+        "angry",
+        "table-flip"
+      ]
     },
     {
       "id": "action_676",
       "text": "(ﾉ；；)ﾉ~┻━┻",
-      "tags": ["crying", "hands-up", "sweat-drop", "table-flip"]
+      "tags": [
+        "crying",
+        "hands-up",
+        "sweat-drop",
+        "table-flip"
+      ]
     },
     {
       "id": "action_677",
       "text": "（ノT＿T)ノ ＾┻━┻",
-      "tags": ["crying", "hands-up", "table-flip"]
+      "tags": [
+        "crying",
+        "hands-up",
+        "table-flip"
+      ]
     },
     {
       "id": "action_678",
       "text": "‎(ﾉಥ益ಥ）ﾉ ┻━┻",
-      "tags": ["crying", "displeased", "hands-up", "table-flip"]
+      "tags": [
+        "crying",
+        "displeased",
+        "hands-up",
+        "table-flip"
+      ]
     },
     {
       "id": "action_679",
       "text": "(ﾉಥДಥ)ﾉ︵┻━┻･/",
-      "tags": ["crying", "displeased", "hands-up", "shout", "table-flip"]
+      "tags": [
+        "crying",
+        "displeased",
+        "hands-up",
+        "shout",
+        "table-flip"
+      ]
     },
     {
       "id": "action_680",
       "text": "(/ToT)/ ~┻┻",
-      "tags": ["crying", "table-flip"]
+      "tags": [
+        "crying",
+        "table-flip"
+      ]
     },
     {
       "id": "action_683",
       "text": "ฅʕ•̫͡•",
-      "tags": ["animal"]
+      "tags": [
+        "animal"
+      ]
     },
     {
       "id": "action_684",
       "text": "ฅ ฅ",
-      "tags": ["animal", "cute", "hands-up"]
+      "tags": [
+        "animal",
+        "cute",
+        "hands-up"
+      ]
     },
     {
       "id": "action_685",
       "text": "คค ฅ ฅ",
-      "tags": ["animal", "cute", "hands-up"]
+      "tags": [
+        "animal",
+        "cute",
+        "hands-up"
+      ]
     },
     {
       "id": "action_689",
       "text": "ฅ(ٛ•௰• ٛ )",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "action_690",
       "text": "ฅ(ٛ •௰•´ ٛ )꒭！",
-      "tags": ["angry", "animal"]
+      "tags": [
+        "angry",
+        "animal"
+      ]
     },
     {
       "id": "action_692",
       "text": "ೕ(⁍̴̀◊⁍̴́ฅ)",
-      "tags": ["animal"]
+      "tags": [
+        "animal"
+      ]
     },
     {
       "id": "action_693",
       "text": "ฅ(๑’Δ’๑)",
-      "tags": ["animal", "surprised"]
+      "tags": [
+        "animal",
+        "surprised"
+      ]
     },
     {
       "id": "action_694",
       "text": "ฅ=͟͟͞͞((꒪∆꒪;)ฅ",
-      "tags": ["animal", "hands-up", "running", "surprised"]
+      "tags": [
+        "animal",
+        "hands-up",
+        "running",
+        "surprised"
+      ]
     },
     {
       "id": "action_695",
       "text": "ฅ˙Ⱉ˙ฅ",
-      "tags": ["animal", "cute", "hands-up", "surprised"]
+      "tags": [
+        "animal",
+        "cute",
+        "hands-up",
+        "surprised"
+      ]
     },
     {
       "id": "action_697",
       "text": "ฅ⁽͑ ˚̀ ˙̭ ˚́ ⁾̉ฅ",
-      "tags": ["angry", "animal", "hands-up", "surprised"]
+      "tags": [
+        "angry",
+        "animal",
+        "hands-up",
+        "surprised"
+      ]
     },
     {
       "id": "action_698",
       "text": "ฅ(•ㅅ•❀)ฅ",
-      "tags": ["cute", "flower", "hands-up"]
+      "tags": [
+        "cute",
+        "flower",
+        "hands-up"
+      ]
     },
     {
       "id": "action_699",
       "text": "ฅ(• ɪ •)ฅ",
-      "tags": ["cute", "hands-up"]
-    },
-    {
-      "id": "action_701",
-      "text": "ฅ●ω●ฅ",
-      "tags": ["cute", "hands-up"]
+      "tags": [
+        "cute",
+        "hands-up"
+      ]
     },
     {
       "id": "action_704",
       "text": "(๑’ᗢ’๑)ฅ",
-      "tags": ["animal", "confident"]
+      "tags": [
+        "animal",
+        "confident"
+      ]
     },
     {
       "id": "action_706",
       "text": "•ฅ՞- ﻌ- ՞ฅ",
-      "tags": ["animal", "hands-up", "sad"]
+      "tags": [
+        "animal",
+        "hands-up",
+        "sad"
+      ]
     },
     {
       "id": "action_707",
       "text": "(ฅ• . •ฅ)",
-      "tags": ["cute", "hands-up"]
+      "tags": [
+        "cute",
+        "hands-up"
+      ]
     },
     {
       "id": "action_708",
       "text": "૮₍ ˃̵͈᷄ . ฅ ₎ა",
-      "tags": ["animal", "confident", "pointing"]
+      "tags": [
+        "animal",
+        "confident",
+        "pointing"
+      ]
     },
     {
       "id": "action_712",
       "text": "(๑́•∀•๑̀)ฅ",
-      "tags": ["animal", "happy"]
+      "tags": [
+        "animal",
+        "happy"
+      ]
     },
     {
       "id": "action_713",
       "text": "( ฅ˶˙ᴗ˙˶ ฅ ).ᐟ‪.ᐟ",
-      "tags": ["animal", "cute", "hands-up", "happy", "shy"]
+      "tags": [
+        "animal",
+        "cute",
+        "hands-up",
+        "happy",
+        "shy"
+      ]
     },
     {
       "id": "action_716",
       "text": "(ฅ’ω’ฅ)​♥",
-      "tags": ["animal", "cute", "hands-up", "love"]
+      "tags": [
+        "animal",
+        "cute",
+        "hands-up",
+        "love"
+      ]
     },
     {
       "id": "action_717",
       "text": "(ฅ•ω•ღ)ꕀ♡",
-      "tags": ["animal", "love"]
+      "tags": [
+        "animal",
+        "love"
+      ]
     },
     {
       "id": "action_720",
       "text": "(৹ᵒ̴̶̷᷄́ฅᵒ̴̶̷᷅)",
-      "tags": ["animal", "crying"]
+      "tags": [
+        "animal",
+        "crying"
+      ]
     },
     {
       "id": "action_722",
       "text": "ฅ(๑*д*๑)ฅ!!",
-      "tags": ["hands-up", "surprised"]
+      "tags": [
+        "hands-up",
+        "surprised"
+      ]
     },
     {
       "text": "♪٩(٩ •'ᵕ'• ) \"✧♪( •'ᵕ'•و(و \"✧,",
-      "tags": ["dancing", "hands-up", "happy", "music", "smile", "sparkle"],
+      "tags": [
+        "dancing",
+        "hands-up",
+        "happy",
+        "music",
+        "smile",
+        "sparkle"
+      ],
       "id": "action_724"
     },
     {
       "id": "action_725",
       "text": "٩(｡- ω- ｡*)",
-      "tags": ["closed-eyes", "sleepy"]
+      "tags": [
+        "closed-eyes",
+        "sleepy"
+      ]
     },
     {
       "id": "action_727",
       "text": "(•͈˽•͈)",
-      "tags": ["cute", "shy", "smile"]
+      "tags": [
+        "cute",
+        "shy",
+        "smile"
+      ]
     },
     {
       "id": "action_735",
       "text": "(m)(.__.)(m)",
-      "tags": ["apologize", "grateful", "please"]
+      "tags": [
+        "apologize",
+        "grateful",
+        "please"
+      ]
     },
     {
       "id": "action_736",
       "text": "ヾ( ´｡ •x• ｡` )ﾉ”",
-      "tags": ["hands-up", "waving", "x-mouth"]
+      "tags": [
+        "hands-up",
+        "waving",
+        "x-mouth"
+      ]
     },
     {
       "id": "action_738",
       "text": "ヾ(･ω･｀★)ゞ",
-      "tags": ["cute", "hands-up", "star"]
+      "tags": [
+        "cute",
+        "star",
+        "waving"
+      ]
     },
     {
       "id": "action_739",
       "text": "（★・л・★）ゝ",
-      "tags": ["star"]
+      "tags": [
+        "salute",
+        "scratch",
+        "star"
+      ]
     },
     {
       "id": "action_740",
       "text": "(★｀･ω･)ゞ",
-      "tags": ["scratch", "star"]
+      "tags": [
+        "scratch",
+        "star"
+      ]
     },
     {
       "id": "action_741",
       "text": "┻━┻ ヘ╰( •̀ε•́ ╰)",
-      "tags": ["displeased", "hands-up", "table-flip", "pouting"]
+      "tags": [
+        "displeased",
+        "hands-up",
+        "table-flip",
+        "pouting"
+      ]
     },
     {
       "id": "action_742",
       "text": "(╯°□°）╯︵ ┻━┻",
-      "tags": ["displeased", "dumbfounded", "hands-up", "shout", "table-flip"]
+      "tags": [
+        "displeased",
+        "dumbfounded",
+        "hands-up",
+        "shout",
+        "table-flip"
+      ]
     },
     {
       "id": "action_743",
       "text": "＼（´Ｏ｀）／",
-      "tags": ["hands-up", "shout"]
+      "tags": [
+        "hands-up",
+        "shout"
+      ]
     },
     {
       "id": "action_744",
       "text": "┬─┬ノ( º _ ºノ)",
-      "tags": ["displeased", "speechless", "table-flip"]
+      "tags": [
+        "displeased",
+        "speechless",
+        "table-flip"
+      ]
     },
     {
       "id": "action_745",
       "text": "(｡･x･)ゞ",
-      "tags": ["scratch", "x-mouth"]
+      "tags": [
+        "scratch",
+        "x-mouth"
+      ]
     },
     {
       "id": "action_746",
       "text": "(🎀•͈з•͈ ॣ)",
-      "tags": ["cute", "pouting"]
+      "tags": [
+        "cute",
+        "pouting"
+      ]
     },
     {
       "id": "action_747",
       "text": "（￣ε￣ʃƪ）",
-      "tags": ["closed-eyes", "please", "pouting"]
+      "tags": [
+        "closed-eyes",
+        "please",
+        "pouting"
+      ]
     },
     {
       "id": "action_748",
       "text": "┬──┬◡ﾉ(° -°ﾉ)",
-      "tags": ["displeased", "speechless", "table-flip"]
+      "tags": [
+        "displeased",
+        "speechless",
+        "table-flip"
+      ]
     },
     {
       "id": "action_749",
       "text": "(ノ#-_-)ノ ミ　┴┴",
-      "tags": ["closed-eyes", "displeased", "hands-up", "speechless", "table-flip"]
+      "tags": [
+        "closed-eyes",
+        "displeased",
+        "hands-up",
+        "speechless",
+        "table-flip"
+      ]
     },
     {
       "id": "action_751",
       "text": "(ノ-o-)ノ⌒┳ ┫┻┣",
-      "tags": ["table-flip"]
+      "tags": [
+        "table-flip"
+      ]
     },
     {
       "id": "action_753",
       "text": "(╯‵□′)╯︵┴─┴",
-      "tags": ["angry", "table-flip"]
+      "tags": [
+        "angry",
+        "table-flip"
+      ]
     },
     {
       "id": "action_754",
@@ -2129,1368 +3278,3028 @@
     {
       "id": "action_756",
       "text": "(ﾉ*’‐’)ﾉ ﾐ ┸┸",
-      "tags": ["hands-up", "table-flip", "thrilled"]
+      "tags": [
+        "hands-up",
+        "table-flip",
+        "thrilled"
+      ]
     },
     {
       "id": "action_758",
       "text": "( ﾉo|o)ﾉ ┫｡ﾟ:.:",
-      "tags": ["crying", "hands-up", "table-flip"]
-    },
-    {
-      "id": "action_759",
-      "text": "(-ω-)ゝ",
-      "tags": ["closed-eyes"]
+      "tags": [
+        "crying",
+        "hands-up",
+        "table-flip"
+      ]
     },
     {
       "id": "action_760",
       "text": "───==≡≡ΣΣ(づ￣ ³￣)づ",
-      "tags": ["closed-eyes", "hug", "pouting", "running"]
+      "tags": [
+        "closed-eyes",
+        "hug",
+        "pouting",
+        "running"
+      ]
     },
     {
       "id": "action_767",
       "text": "(◓Д◒)✄╰⋃╯",
-      "tags": ["attack", "dizzy", "scissors"]
+      "tags": [
+        "attack",
+        "dizzy",
+        "scissors"
+      ]
     },
     {
       "id": "action_768",
       "text": "(ΘεΘʃƪ)",
-      "tags": ["closed-eyes", "please", "pouting"]
+      "tags": [
+        "closed-eyes",
+        "please",
+        "pouting"
+      ]
     },
     {
       "id": "action_769",
       "text": "ლ(´ڡ`ლ)",
-      "tags": ["give", "hungry", "舔"]
+      "tags": [
+        "give",
+        "hungry",
+        "舔"
+      ]
     },
     {
       "id": "action_770",
       "text": "ᕙ། – ڡ – །ᕗ",
-      "tags": ["closed-eyes", "hands-up", "muscle", "舔"]
+      "tags": [
+        "closed-eyes",
+        "hands-up",
+        "muscle",
+        "舔"
+      ]
     },
     {
       "id": "action_771",
       "text": "(っ˘ڡ˘ς)",
-      "tags": ["closed-eyes", "eating", "舔"]
+      "tags": [
+        "closed-eyes",
+        "eating",
+        "舔"
+      ]
     },
     {
       "id": "action_773",
       "text": "ლ(▀̿̿Ĺ̯̿̿▀̿ლ)",
-      "tags": ["cool", "give", "serious", "sunglasses"]
+      "tags": [
+        "cool",
+        "give",
+        "serious",
+        "sunglasses"
+      ]
     },
     {
       "id": "action_774",
       "text": "ლ(́◕◞౪◟◕‵ლ)",
-      "tags": ["give", "helpless"]
+      "tags": [
+        "give",
+        "helpless"
+      ]
     },
     {
       "id": "action_775",
       "text": "ლ(・ヮ・ლ)",
-      "tags": ["give", "scheming"]
+      "tags": [
+        "give",
+        "scheming"
+      ]
     },
     {
       "id": "action_776",
       "text": "ლ(´ ❥ `ლ)",
-      "tags": ["give", "pouting"]
+      "tags": [
+        "give",
+        "pouting"
+      ]
     },
     {
       "id": "action_777",
       "text": "ლζ*♡ε♡*ζლ",
-      "tags": ["give", "love", "pouting"]
+      "tags": [
+        "give",
+        "love",
+        "pouting"
+      ]
     },
     {
       "id": "action_778",
       "text": "♡ლ(-‿-)ლ♡",
-      "tags": ["closed-eyes", "give", "love"]
+      "tags": [
+        "closed-eyes",
+        "give",
+        "love"
+      ]
     },
     {
       "id": "action_779",
       "text": "ლ(´◉❥◉｀ლ)",
-      "tags": ["big-eyes", "give", "love", "pouting"]
+      "tags": [
+        "big-eyes",
+        "give",
+        "love",
+        "pouting"
+      ]
     },
     {
       "id": "action_780",
       "text": "ლ(◉❥◉ ლ)",
-      "tags": ["big-eyes", "give", "pouting"]
+      "tags": [
+        "big-eyes",
+        "give",
+        "pouting"
+      ]
     },
     {
       "id": "action_783",
       "text": "ლ(´Д`ლ)",
-      "tags": ["give"]
+      "tags": [
+        "give"
+      ]
     },
     {
       "id": "action_784",
       "text": "ლ(ಥ Д ಥ )ლ",
-      "tags": ["crying", "give"]
+      "tags": [
+        "crying",
+        "give"
+      ]
     },
     {
       "id": "action_786",
       "text": "ლ(ﾟдﾟლ)",
-      "tags": ["dazed", "displeased", "give", "shout", "surprised"]
+      "tags": [
+        "dazed",
+        "displeased",
+        "give",
+        "shout",
+        "surprised"
+      ]
     },
     {
       "id": "action_787",
       "text": "(つ◉益◉)つ",
-      "tags": ["big-eyes", "hug"]
+      "tags": [
+        "big-eyes",
+        "hug"
+      ]
     },
     {
       "id": "action_788",
       "text": "♪ヽ(▽￣ )ﾉ/(＿△＿)ヽ( ￣▽)ﾉ",
-      "tags": ["dancing", "hands-up", "music"]
+      "tags": [
+        "dancing",
+        "hands-up",
+        "music"
+      ]
     },
     {
       "id": "action_789",
       "text": "ヽ(o♡o)/",
-      "tags": ["hands-up", "love"]
+      "tags": [
+        "hands-up",
+        "love"
+      ]
     },
     {
       "id": "action_790",
       "text": "ヾ(⌒(_๑˘ㅂ˘๑)_)",
-      "tags": ["closed-eyes", "hands-up"]
+      "tags": [
+        "closed-eyes",
+        "hands-up"
+      ]
     },
     {
       "id": "action_791",
       "text": "⊂(◉‿◉)つ",
-      "tags": ["big-eyes", "hug", "scheming", "smile"]
+      "tags": [
+        "big-eyes",
+        "hug",
+        "scheming",
+        "smile"
+      ]
     },
     {
       "id": "action_792",
       "text": "ヽ( ˘ω˘ )ゝ",
-      "tags": ["closed-eyes", "hands-up"]
+      "tags": [
+        "closed-eyes",
+        "stretch"
+      ]
     },
     {
       "id": "action_793",
       "text": "_(°ω°｣ ∠)_",
-      "tags": ["趴"]
+      "tags": [
+        "趴"
+      ]
     },
     {
       "id": "action_794",
       "text": "(､｡ ̫ ｡)､",
-      "tags": ["cute", "give"]
+      "tags": [
+        "cute",
+        "give"
+      ]
     },
     {
       "id": "action_795",
       "text": "٩(ˊ〇ˋ*)و",
-      "tags": ["hands-up", "shout"]
+      "tags": [
+        "hands-up",
+        "shout"
+      ]
     },
     {
       "id": "action_796",
       "text": "(つ▀¯▀ )つ",
-      "tags": ["cool", "hug", "sunglasses"]
+      "tags": [
+        "cool",
+        "hug",
+        "sunglasses"
+      ]
     },
     {
       "id": "action_797",
       "text": "⊂(▀¯▀⊂ )",
-      "tags": ["cool", "hug", "sunglasses"]
+      "tags": [
+        "cool",
+        "hug",
+        "sunglasses"
+      ]
     },
     {
       "id": "action_798",
       "text": "༼ つ ▀̿_▀̿ ༽つ",
-      "tags": ["cool", "hug", "sunglasses"]
+      "tags": [
+        "cool",
+        "hug",
+        "sunglasses"
+      ]
     },
     {
       "id": "action_799",
       "text": "ヽ(⌐■_■)ノ♪♬",
-      "tags": ["cool", "dancing", "music", "sunglasses"]
+      "tags": [
+        "cool",
+        "dancing",
+        "music",
+        "sunglasses"
+      ]
     },
     {
       "id": "action_800",
       "text": "┏(‘▀_▀’)ノ♬♪",
-      "tags": ["cool", "dancing", "music", "sunglasses"]
+      "tags": [
+        "cool",
+        "dancing",
+        "music",
+        "sunglasses"
+      ]
     },
     {
       "id": "action_801",
       "text": "ᕕ༼⌐■-■༽ᕗ",
-      "tags": ["cool", "running", "sunglasses"]
+      "tags": [
+        "cool",
+        "running",
+        "sunglasses"
+      ]
     },
     {
       "id": "action_802",
       "text": "ヾ(●ε●)ノ",
-      "tags": ["banzai", "big-eyes", "pouting", "waving"]
-    },
-    {
-      "id": "action_803",
-      "text": "ԅ(≖‿≖ ;ԅ)",
-      "tags": ["grab", "smile", "sweat-drop"]
-    },
-    {
-      "id": "action_804",
-      "text": "|；´・ω･｀|ゞ",
-      "tags": ["scratch", "sweat-drop"]
-    },
-    {
-      "id": "action_805",
-      "text": "(・・。)ゞ",
-      "tags": ["scratch"]
+      "tags": [
+        "banzai",
+        "big-eyes",
+        "pouting",
+        "waving"
+      ]
     },
     {
       "id": "action_806",
       "text": "*~ヽ(ゝз･☆)",
-      "tags": ["hands-up", "pouting", "sparkle", "wink"]
+      "tags": [
+        "hands-up",
+        "pouting",
+        "sparkle",
+        "wink"
+      ]
     },
     {
       "id": "action_807",
       "text": "(＞Д＜)ゝ",
-      "tags": ["excited", "shout"]
+      "tags": [
+        "excited",
+        "salute",
+        "shout"
+      ]
     },
     {
       "id": "action_808",
       "text": "（・д・ゝ）",
-      "tags": ["displeased"]
+      "tags": [
+        "displeased",
+        "salute"
+      ]
     },
     {
       "id": "action_809",
       "text": "(｀・д・´)ゝ",
-      "tags": ["displeased"]
-    },
-    {
-      "id": "action_810",
-      "text": "(＞Д＜)ゝ”",
-      "tags": ["excited", "shout"]
+      "tags": [
+        "displeased",
+        "salute"
+      ]
     },
     {
       "id": "action_811",
       "text": "(🖐🏻'-' )",
-      "tags": ["displeased"]
+      "tags": [
+        "displeased"
+      ]
     },
     {
       "id": "action_812",
       "text": "(୨୧•͈ᴗ•͈)◞︎ᵗʱᵃᵑᵏઽ*♡︎",
-      "tags": ["grateful", "love", "shy", "smile"]
+      "tags": [
+        "grateful",
+        "love",
+        "shy",
+        "smile"
+      ]
     },
     {
       "id": "action_813",
       "text": "(*ゝω・)ﾉThanks!",
-      "tags": ["grateful", "text", "waving", "wink"]
+      "tags": [
+        "grateful",
+        "text",
+        "waving",
+        "wink"
+      ]
     },
     {
       "id": "action_816",
       "text": "|ω･)و ̑̑༉",
-      "tags": ["cute", "peeking", "running"]
+      "tags": [
+        "cute",
+        "peeking",
+        "running"
+      ]
     },
     {
       "id": "action_817",
       "text": "(/・0・)",
-      "tags": ["shout"]
+      "tags": [
+        "shout"
+      ]
     },
     {
       "id": "action_818",
       "text": "(✿◠‿◠) GRACIAS (▰˘◡˘▰)",
-      "tags": ["cute", "flower", "grateful", "smile"]
+      "tags": [
+        "cute",
+        "flower",
+        "grateful",
+        "smile"
+      ]
     },
     {
       "id": "action_819",
       "text": "(⊃｡•́‿•̀｡)⊃━✿✿✿✿✿✿",
-      "tags": ["flower", "magic", "smile"]
+      "tags": [
+        "flower",
+        "magic",
+        "smile"
+      ]
     },
     {
       "id": "action_820",
       "text": "(`Д´)ゞ",
-      "tags": ["scratch", "shout"]
+      "tags": [
+        "scratch",
+        "shout"
+      ]
     },
     {
       "id": "action_822",
       "text": "₍₍ ᕕ(´◓ω◓)ᕗ⁾⁾",
-      "tags": ["running"]
+      "tags": [
+        "running"
+      ]
     },
     {
       "id": "action_823",
       "text": "＼`•̀益•́´／",
-      "tags": ["banzai", "motivated"]
+      "tags": [
+        "banzai",
+        "motivated"
+      ]
     },
     {
       "id": "action_824",
       "text": "ᕙ〳 ʘ – ʘ 〵ᕗ",
-      "tags": ["big-eyes", "dumbfounded", "hands-up", "muscle"]
+      "tags": [
+        "big-eyes",
+        "dumbfounded",
+        "hands-up",
+        "muscle"
+      ]
     },
     {
       "id": "action_825",
       "text": "ᕙ། ◕ – ◕ །ᕗ",
-      "tags": ["big-eyes", "cute", "hands-up", "muscle"]
+      "tags": [
+        "big-eyes",
+        "cute",
+        "hands-up",
+        "muscle"
+      ]
     },
     {
       "id": "action_828",
       "text": "ᕙ༼*◕_◕*༽ᕤ",
-      "tags": ["big-eyes", "cute", "hands-up", "muscle"]
+      "tags": [
+        "big-eyes",
+        "cute",
+        "hands-up",
+        "muscle"
+      ]
     },
     {
       "id": "action_829",
       "text": "ᕙ( ∗ σ Ĺ̯ σ ∗ )ᕗ",
-      "tags": ["displeased", "hands-up", "muscle", "serious"]
+      "tags": [
+        "displeased",
+        "hands-up",
+        "muscle",
+        "serious"
+      ]
     },
     {
       "id": "action_833",
       "text": "(╭☞´ิ∀´ิ)╭☞",
-      "tags": ["mock", "pointing"]
+      "tags": [
+        "mock",
+        "pointing"
+      ]
     },
     {
       "id": "action_834",
       "text": "☞๏็ັཪ๏็๎☞",
-      "tags": ["displeased", "pointing", "serious"]
+      "tags": [
+        "displeased",
+        "pointing",
+        "serious"
+      ]
     },
     {
       "id": "action_835",
       "text": "☞￣ᴥ￣☞",
-      "tags": ["bear", "closed-eyes", "dog", "pointing"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "bear",
+        "closed-eyes",
+        "dog",
+        "pointing"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "action_836",
       "text": "( ━☞´◔‿ゝ◔`)━☞",
-      "tags": ["naughty", "pointing", "smile"]
+      "tags": [
+        "naughty",
+        "pointing",
+        "smile"
+      ]
     },
     {
       "id": "action_837",
       "text": "(☞^o^) ☞",
-      "tags": ["happy", "pointing"]
+      "tags": [
+        "happy",
+        "pointing"
+      ]
     },
     {
       "id": "action_838",
       "text": "☜(⌒▽⌒)☞",
-      "tags": ["happy", "pointing"]
+      "tags": [
+        "happy",
+        "pointing"
+      ]
     },
     {
       "id": "action_839",
       "text": "(☞ﾟ∀ﾟ)☞",
-      "tags": ["happy", "mock", "pointing"]
+      "tags": [
+        "happy",
+        "mock",
+        "pointing"
+      ]
     },
     {
       "id": "action_840",
       "text": "(　･ω･)☞",
-      "tags": ["cute", "pointing"]
+      "tags": [
+        "cute",
+        "pointing"
+      ]
     },
     {
       "id": "action_842",
       "text": "(☞三☞ ఠ ਉ ఠ))☞三☞",
-      "tags": ["excited", "mock", "pointing"]
+      "tags": [
+        "excited",
+        "mock",
+        "pointing"
+      ]
     },
     {
       "id": "action_843",
       "text": "（☞´^ิ∀^ิ｀）☞",
-      "tags": ["mock", "pointing"]
+      "tags": [
+        "mock",
+        "pointing"
+      ]
     },
     {
       "id": "action_844",
       "text": "(╭☞•́⍛•̀)╭☞",
-      "tags": ["helpless", "pointing"]
+      "tags": [
+        "helpless",
+        "pointing"
+      ]
     },
     {
       "id": "action_845",
       "text": "_(꒪ཀ꒪」∠)_",
-      "tags": ["dazed", "vomiting-blood"]
+      "tags": [
+        "dazed",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_846",
       "text": "c⌒っ╹v╹ )っ",
-      "tags": ["cute", "hug"]
+      "tags": [
+        "cute",
+        "hug"
+      ]
     },
     {
       "id": "action_847",
       "text": "(っ ॑꒳ ॑c)",
-      "tags": ["cute", "hug"]
+      "tags": [
+        "cute",
+        "hug"
+      ]
     },
     {
       "id": "action_848",
       "text": "(.づ▣ ͜ʖ▣)づ.",
-      "tags": ["hug", "smile"]
+      "tags": [
+        "hug",
+        "smile"
+      ]
     },
     {
       "id": "action_862",
       "text": "ヽ(；^ ^)ノﾞ ．．．...___〇",
-      "tags": ["play", "hands-up", "happy", "neutral", "sweat-drop"]
+      "tags": [
+        "play",
+        "hands-up",
+        "happy",
+        "neutral",
+        "sweat-drop"
+      ]
     },
     {
       "id": "action_863",
       "text": "੧( ¯ε¯ํ)୨",
-      "tags": ["closed-eyes", "hands-up", "pouting"]
+      "tags": [
+        "closed-eyes",
+        "hands-up",
+        "pouting"
+      ]
     },
     {
       "id": "action_864",
       "text": "ヽ(*´з｀*)ﾉ",
-      "tags": ["happiness", "pouting", "waving"]
+      "tags": [
+        "happiness",
+        "pouting",
+        "waving"
+      ]
     },
     {
       "id": "action_866",
       "text": "ヽ( ˘з˘ )ゝ",
-      "tags": ["closed-eyes", "hands-up", "pouting"]
+      "tags": [
+        "closed-eyes",
+        "pouting",
+        "stretch"
+      ]
     },
     {
       "id": "action_867",
       "text": "ح˚௰˚づ",
-      "tags": ["cute", "hug"]
+      "tags": [
+        "cute",
+        "hug"
+      ]
     },
     {
       "id": "action_868",
       "text": "˓˓(ृ　 ु ॑꒳’)ु(ृ’꒳ ॑ ृ　)ु˒˒˒",
-      "tags": ["cute", "hug"]
+      "tags": [
+        "cute",
+        "hug"
+      ]
     },
     {
       "id": "action_869",
       "text": "(ʃƪ˘ﻬ˘)",
-      "tags": ["closed-eyes", "please"]
+      "tags": [
+        "closed-eyes",
+        "please"
+      ]
     },
     {
       "id": "action_870",
       "text": "。゜+.(人-ω◕)゜+.゜",
-      "tags": ["big-eyes", "please", "sparkle", "wink"]
+      "tags": [
+        "big-eyes",
+        "please",
+        "sparkle",
+        "wink"
+      ]
     },
     {
       "id": "action_871",
       "text": "(･ω･`U)ｸｰﾝ…",
-      "tags": ["animal", "cute", "dog", "please"]
+      "tags": [
+        "animal",
+        "cute",
+        "dog",
+        "please"
+      ]
     },
     {
       "id": "action_873",
       "text": "(o´д｀)o",
-      "tags": ["please"]
+      "tags": [
+        "please"
+      ]
     },
     {
       "id": "action_874",
       "text": "へ(´д｀へ)",
-      "tags": ["please"]
+      "tags": [
+        "please"
+      ]
     },
     {
       "id": "action_875",
       "text": "(o˘д˘)o",
-      "tags": ["please"]
+      "tags": [
+        "please"
+      ]
     },
     {
       "id": "action_880",
       "text": "♡(ŐωŐ人)",
-      "tags": ["grateful", "happy", "love", "please"]
+      "tags": [
+        "grateful",
+        "happy",
+        "love",
+        "please"
+      ]
     },
     {
       "id": "action_882",
       "text": "(｡•ㅅ•｡)♡",
-      "tags": ["animal", "love", "please"]
+      "tags": [
+        "animal",
+        "love",
+        "please"
+      ]
     },
     {
       "id": "action_884",
       "text": "( m-ｪ-)m))",
-      "tags": ["apologize", "helpless", "please"]
+      "tags": [
+        "apologize",
+        "helpless",
+        "please"
+      ]
     },
     {
       "id": "action_885",
       "text": "(ノ_．)ノ",
-      "tags": ["crying", "please"]
+      "tags": [
+        "crying",
+        "please"
+      ]
     },
     {
       "id": "action_886",
       "text": "（｡≧◇≦）ﾉ",
-      "tags": ["crying", "please"]
+      "tags": [
+        "crying",
+        "please"
+      ]
     },
     {
       "id": "action_887",
       "text": "щ(´Д｀щ)",
-      "tags": ["please"]
+      "tags": [
+        "please"
+      ]
     },
     {
       "id": "action_888",
       "text": "p(´⌒｀｡q)",
-      "tags": ["helpless", "please", "sad"]
+      "tags": [
+        "helpless",
+        "please",
+        "sad"
+      ]
     },
     {
       "id": "action_889",
       "text": "｡ﾟﾟ(」｡≧□≦)」",
-      "tags": ["crying", "please", "shout"]
+      "tags": [
+        "crying",
+        "please",
+        "shout"
+      ]
     },
     {
       "id": "action_890",
       "text": "Щ(º̩̩́Дº̩̩̀щ)",
-      "tags": ["crying", "please"]
+      "tags": [
+        "crying",
+        "please"
+      ]
     },
     {
       "id": "action_891",
       "text": "m(*- -*)m",
-      "tags": ["apologize", "please"]
+      "tags": [
+        "apologize",
+        "please"
+      ]
     },
     {
       "id": "action_894",
       "text": "(uωu 人)",
-      "tags": ["grateful", "please", "shy"]
+      "tags": [
+        "grateful",
+        "please",
+        "shy"
+      ]
     },
     {
       "id": "action_895",
       "text": "щ(ºДºщ)",
-      "tags": ["please", "surprised"]
+      "tags": [
+        "please",
+        "surprised"
+      ]
     },
     {
       "id": "action_896",
       "text": "џ(ºДºџ)",
-      "tags": ["surprised"]
+      "tags": [
+        "surprised"
+      ]
     },
     {
       "id": "action_897",
       "text": "(屮゜Д゜)屮",
-      "tags": ["please"]
+      "tags": [
+        "please"
+      ]
     },
     {
       "id": "action_898",
       "text": "щ(゜ロ゜щ)",
-      "tags": ["dazed", "surprised"]
+      "tags": [
+        "dazed",
+        "surprised"
+      ]
     },
     {
       "id": "action_899",
       "text": "(๑•̑з•̑๑)੭ु⁾⁾ ༘",
-      "tags": ["cute", "dancing", "pouting"]
+      "tags": [
+        "cute",
+        "dancing",
+        "pouting"
+      ]
     },
     {
       "id": "action_900",
       "text": "🌸( '-' 🍡）",
-      "tags": ["dango", "eating", "flower", "neutral"]
+      "tags": [
+        "dango",
+        "eating",
+        "flower",
+        "neutral"
+      ]
     },
     {
       "id": "action_901",
       "text": "｡･ﾟ･(ﾉД`)ヽ(ﾟДﾟ )秀秀",
-      "tags": ["comfort", "crying", "dazed", "hands-up", "shout", "surprised"]
+      "tags": [
+        "comfort",
+        "crying",
+        "dazed",
+        "hands-up",
+        "shout",
+        "surprised"
+      ]
     },
     {
       "id": "action_902",
       "text": "(=ﾟДﾟ=) ▄︻┻┳━ ·.`.`.`.",
-      "tags": ["attack", "dazed", "displeased", "shout", "surprised"]
+      "tags": [
+        "attack",
+        "dazed",
+        "displeased",
+        "shout",
+        "surprised"
+      ]
     },
     {
       "id": "action_904",
       "text": "(ʃƪΦзΦ)",
-      "tags": ["cat", "please", "pouting"]
+      "tags": [
+        "cat",
+        "please",
+        "pouting"
+      ]
     },
     {
       "id": "action_908",
       "text": "（ʃƪ๑・౩・๑）",
-      "tags": ["cute", "please", "pouting"]
+      "tags": [
+        "cute",
+        "please",
+        "pouting"
+      ]
     },
     {
       "id": "action_909",
       "text": "(ʃƪ ˘ ³˘)",
-      "tags": ["closed-eyes", "please", "pouting"]
+      "tags": [
+        "closed-eyes",
+        "please",
+        "pouting"
+      ]
     },
     {
       "id": "action_910",
       "text": "|人°з°|",
-      "tags": ["dazed", "please", "pouting"]
+      "tags": [
+        "dazed",
+        "please",
+        "pouting"
+      ]
     },
     {
       "id": "action_912",
       "text": "ヾ(*❦ω❦)ノ",
-      "tags": ["cute", "hands-up", "waving"]
+      "tags": [
+        "cute",
+        "hands-up",
+        "waving"
+      ]
     },
     {
       "id": "action_951",
       "text": "（*’∀’人）♥",
-      "tags": ["grateful", "happy", "love"]
+      "tags": [
+        "grateful",
+        "happy",
+        "love"
+      ]
     },
     {
       "id": "action_953",
       "text": "∋━━o(｀∀´oメ）～→",
-      "tags": ["attack", "confident", "devil"]
+      "tags": [
+        "attack",
+        "confident",
+        "devil"
+      ]
     },
     {
       "id": "action_954",
       "text": "(งಠ_ಠ)ง　σ( •̀ ω •́ σ)",
-      "tags": ["attack", "confused", "displeased", "group"]
+      "tags": [
+        "attack",
+        "confused",
+        "displeased",
+        "group"
+      ]
     },
     {
       "id": "action_955",
       "text": "╭∩╮(⋋‿⋌ )ᕗ",
-      "tags": ["attack", "smile"]
+      "tags": [
+        "attack",
+        "smile"
+      ]
     },
     {
       "id": "action_956",
       "text": "(⑅∫°ਊ°)∫",
-      "tags": ["dancing", "mock"]
+      "tags": [
+        "dancing",
+        "mock"
+      ]
     },
     {
       "id": "action_957",
       "text": "(*￣▽￣)旦 且(´∀`*)",
-      "tags": ["cheers", "closed-eyes", "group", "happiness", "happy"]
+      "tags": [
+        "cheers",
+        "closed-eyes",
+        "group",
+        "happiness",
+        "happy"
+      ]
     },
     {
       "id": "action_958",
       "text": "(ﾟДﾟ)σ━00000000000━●",
-      "tags": ["attack", "dazed", "displeased", "shout", "surprised"]
+      "tags": [
+        "attack",
+        "dazed",
+        "displeased",
+        "shout",
+        "surprised"
+      ]
     },
     {
       "id": "action_959",
       "text": "( ＾▽＾)っ✂╰⋃╯",
-      "tags": ["happy", "scheming", "scissors"]
+      "tags": [
+        "happy",
+        "scheming",
+        "scissors"
+      ]
     },
     {
       "id": "action_960",
       "text": "ヘ(^0^)ヘ",
-      "tags": ["dancing", "happy"]
+      "tags": [
+        "dancing",
+        "happy"
+      ]
     },
     {
       "id": "action_961",
       "text": "ヘ(>_<ヘ) ￢o(￣‿￣ﾒ)",
-      "tags": ["attack", "closed-eyes", "group", "nervous", "smile"]
+      "tags": [
+        "attack",
+        "closed-eyes",
+        "group",
+        "gun",
+        "nervous",
+        "scheming",
+        "smile"
+      ]
     },
     {
       "id": "action_962",
       "text": "ヘ（。□°）ヘ",
-      "tags": ["dancing", "surprised"]
+      "tags": [
+        "dancing",
+        "surprised"
+      ]
     },
     {
       "id": "action_963",
       "text": "ヘ(>_<ヘ)",
-      "tags": ["dancing", "nervous"]
+      "tags": [
+        "dancing",
+        "nervous"
+      ]
     },
     {
       "id": "action_964",
       "text": "♪┏(・o･)┛♪",
-      "tags": ["dancing", "music"]
+      "tags": [
+        "dancing",
+        "music"
+      ]
     },
     {
       "id": "action_965",
       "text": "(ﾉ> ◇ <)ﾉ♪",
-      "tags": ["dancing", "music", "shout", "thrilled"]
+      "tags": [
+        "dancing",
+        "music",
+        "shout",
+        "thrilled"
+      ]
     },
     {
       "id": "action_966",
       "text": "♪♪(o*゜∇゜)o～♪♪",
-      "tags": ["dancing", "happy", "music"]
+      "tags": [
+        "dancing",
+        "happy",
+        "music"
+      ]
     },
     {
       "id": "action_967",
       "text": "ᒄ₍⁽ˆ⁰ˆ⁾₎ᒃ♪♬",
-      "tags": ["dancing", "happy", "music"]
+      "tags": [
+        "dancing",
+        "happy",
+        "music"
+      ]
     },
     {
       "id": "action_968",
       "text": "꒰๑˃꒵˂꒱◞ ♪⋆ฺ｡",
-      "tags": ["cute", "dancing", "happy", "music"]
+      "tags": [
+        "cute",
+        "dancing",
+        "happy",
+        "music"
+      ]
     },
     {
       "id": "action_969",
       "text": "φ(●ﾟ益ﾟ)っ",
-      "tags": ["displeased", "writing"]
+      "tags": [
+        "displeased",
+        "writing"
+      ]
     },
     {
       "id": "action_970",
       "text": "φ(-｀Д´-*)",
-      "tags": ["angry", "shout", "writing"]
+      "tags": [
+        "angry",
+        "shout",
+        "writing"
+      ]
     },
     {
       "id": "action_971",
       "text": "ԅ( ͒ ۝ ͒ )ᕤ",
-      "tags": ["eating", "hands-up"]
+      "tags": [
+        "eating"
+      ]
     },
     {
       "id": "action_974",
       "text": "(((p(>o<)q)))",
-      "tags": ["excited", "shout"]
+      "tags": [
+        "excited",
+        "shout"
+      ]
     },
     {
       "id": "action_975",
       "text": "{{|└(>o< )┘|}}",
-      "tags": ["dancing", "excited", "hands-up", "shout"]
+      "tags": [
+        "dancing",
+        "excited",
+        "hands-up",
+        "shout"
+      ]
     },
     {
       "id": "action_976",
       "text": "ヾʕ･⺲･ʔﾉ",
-      "tags": ["animal", "banzai"]
+      "tags": [
+        "animal",
+        "banzai"
+      ]
     },
     {
       "id": "action_977",
       "text": "ʕ ⊃･ ◡ ･ ʔ⊃",
-      "tags": ["hug", "smile"]
+      "tags": [
+        "hug",
+        "smile"
+      ]
     },
     {
       "id": "action_979",
       "text": "((┌|o^▽^o|┘))♪",
-      "tags": ["dancing", "happy", "music"]
+      "tags": [
+        "dancing",
+        "happy",
+        "music"
+      ]
     },
     {
       "id": "action_980",
       "text": "(　’ω’)旦~~",
-      "tags": ["cheers"]
+      "tags": [
+        "cheers"
+      ]
     },
     {
       "id": "action_981",
       "text": "(*´ー`)旦 旦(￣ω￣*)",
-      "tags": ["cheers", "closed-eyes", "group", "helpless"]
+      "tags": [
+        "cheers",
+        "closed-eyes",
+        "group",
+        "helpless"
+      ]
     },
     {
       "id": "action_982",
       "text": "( ^^)_旦~~　 ~~U_(^^ )",
-      "tags": ["cheers", "group", "happy"]
+      "tags": [
+        "cheers",
+        "group",
+        "happy"
+      ]
     },
     {
       "id": "action_984",
       "text": "(　￣▽)爻(▽￣　)",
-      "tags": ["closed-eyes", "group", "hug"]
+      "tags": [
+        "closed-eyes",
+        "group",
+        "hug"
+      ]
     },
     {
       "id": "action_985",
       "text": "“8-(*･x･)爻(･x･*)-8”",
-      "tags": ["group", "hug", "x-mouth"]
+      "tags": [
+        "group",
+        "hug",
+        "x-mouth"
+      ]
     },
     {
       "id": "action_986",
       "text": "(✿ʘ‿ʘ)爻(ʘ‿ʘ✿)",
-      "tags": ["big-eyes", "dumbfounded", "flower", "group", "hug", "smile"]
+      "tags": [
+        "big-eyes",
+        "dumbfounded",
+        "flower",
+        "group",
+        "hug",
+        "smile"
+      ]
     },
     {
       "id": "action_987",
       "text": "“8-( ●｀ε´●)爻(●｀ε´● )-8”",
-      "tags": ["attack", "displeased", "group", "pouting"]
+      "tags": [
+        "attack",
+        "displeased",
+        "group",
+        "pouting"
+      ]
     },
     {
       "id": "action_988",
       "text": "“8-( ●｀・З・´)爻(｀・ε・´● )-8”",
-      "tags": ["group", "hug", "pouting"]
+      "tags": [
+        "group",
+        "hug",
+        "pouting"
+      ]
     },
     {
       "id": "action_989",
       "text": "(☆⊙∇⊙)爻(⊙∇⊙☆)",
-      "tags": ["big-eyes", "dumbfounded", "group", "hug", "star", "thrilled"]
+      "tags": [
+        "big-eyes",
+        "dumbfounded",
+        "group",
+        "hug",
+        "star",
+        "thrilled"
+      ]
     },
     {
       "id": "action_990",
       "text": "(＾O＾)爻(◕▿◕✿)",
-      "tags": ["big-eyes", "flower", "group", "happy", "hug"]
+      "tags": [
+        "big-eyes",
+        "flower",
+        "group",
+        "happy",
+        "hug"
+      ]
     },
     {
       "id": "action_991",
       "text": "(((●´Ｕ｀)爻(´Ｕ｀●))))",
-      "tags": ["excited", "group", "happiness", "happy", "hug", "smile"]
+      "tags": [
+        "excited",
+        "group",
+        "happiness",
+        "happy",
+        "hug",
+        "smile"
+      ]
     },
     {
       "id": "action_992",
       "text": "(❀◕∇◕)爻(◕∇◕❀)",
-      "tags": ["big-eyes", "cute", "flower", "group", "happy", "hug"]
+      "tags": [
+        "big-eyes",
+        "cute",
+        "flower",
+        "group",
+        "happy",
+        "hug"
+      ]
     },
     {
       "id": "action_993",
       "text": "((( *~∇~)爻(~∇~* )))",
-      "tags": ["group", "happy", "hug"]
+      "tags": [
+        "group",
+        "happy",
+        "hug"
+      ]
     },
     {
       "id": "action_996",
       "text": "(*・∀・)爻(・∀・*)",
-      "tags": ["cute", "group", "hug"]
+      "tags": [
+        "cute",
+        "group",
+        "hug"
+      ]
     },
     {
       "id": "action_997",
       "text": "( ;_;)爻(-“-;)",
-      "tags": ["closed-eyes", "comfort", "crying", "group", "hug", "speechless", "sweat-drop"]
+      "tags": [
+        "closed-eyes",
+        "comfort",
+        "crying",
+        "group",
+        "hug",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "action_998",
       "text": "(っ˘зʕ•̫͡•ʔ",
-      "tags": ["closed-eyes", "group", "hug", "peeking", "pouting"]
+      "tags": [
+        "closed-eyes",
+        "group",
+        "hug",
+        "peeking",
+        "pouting"
+      ]
     },
     {
       "id": "action_999",
       "text": "(っ˘▽˘)(˘▽˘)˘▽˘ς)",
-      "tags": ["group", "happy", "hug"]
+      "tags": [
+        "group",
+        "happy",
+        "hug"
+      ]
     },
     {
       "id": "action_1000",
       "text": "(ˆ꜆ . ̫ . ). ̫ . ꜀ˆ)",
-      "tags": ["group", "hug"]
+      "tags": [
+        "group",
+        "hug"
+      ]
     },
     {
       "id": "action_1001",
       "text": "（⊃≧ω≦(´ω｀*⊂)",
-      "tags": ["group", "happiness", "helpless", "hug", "thrilled"]
+      "tags": [
+        "group",
+        "happiness",
+        "helpless",
+        "hug",
+        "thrilled"
+      ]
     },
     {
       "id": "action_1002",
       "text": "(っ˘з(˘⌣˘ )",
-      "tags": ["closed-eyes", "group", "happiness", "hug", "pouting", "smile"]
+      "tags": [
+        "closed-eyes",
+        "group",
+        "happiness",
+        "hug",
+        "pouting",
+        "smile"
+      ]
     },
     {
       "id": "action_1003",
       "text": "(*^^）爻（^^*)",
-      "tags": ["group", "happy", "hug"]
+      "tags": [
+        "group",
+        "happy",
+        "hug"
+      ]
     },
     {
       "id": "action_1004",
       "text": "(Ɔ˘⌣˘)(˘⌣˘)˘⌣˘ C)",
-      "tags": ["closed-eyes", "group", "happy", "hug", "smile"]
+      "tags": [
+        "closed-eyes",
+        "group",
+        "happy",
+        "hug",
+        "smile"
+      ]
     },
     {
       "id": "action_1005",
       "text": "(ɔˆ ³(ˆ⌣ˆc)",
-      "tags": ["group", "happy", "hug", "pouting", "smile"]
+      "tags": [
+        "group",
+        "happy",
+        "hug",
+        "pouting",
+        "smile"
+      ]
     },
     {
       "id": "action_1006",
       "text": "(>^_^)><(^o^<)",
-      "tags": ["group", "happy", "hug"]
+      "tags": [
+        "group",
+        "happy",
+        "hug"
+      ]
     },
     {
       "id": "action_1007",
       "text": "(●´Д｀)⊃⊂(´Д｀○)",
-      "tags": ["comfort", "group", "helpless", "hug", "sad"]
+      "tags": [
+        "comfort",
+        "group",
+        "helpless",
+        "hug",
+        "sad"
+      ]
     },
     {
       "id": "action_1008",
       "text": "( 'ᵕ' و(و ♪‪( 'o' و(و ♪‪",
-      "tags": ["dancing", "group", "music", "smile"]
+      "tags": [
+        "dancing",
+        "group",
+        "music",
+        "smile"
+      ]
     },
     {
       "id": "action_1009",
       "text": "(“￣▽￣)-o█ █o-(￣▽￣”)/",
-      "tags": ["cheers", "closed-eyes", "group"]
+      "tags": [
+        "cheers",
+        "closed-eyes",
+        "group"
+      ]
     },
     {
       "id": "action_1010",
       "text": "＼(＾∀＾)メ(＾∀＾)ノ",
-      "tags": ["group", "happy", "holding-hands", "waving"]
+      "tags": [
+        "group",
+        "happy",
+        "holding-hands",
+        "waving"
+      ]
     },
     {
       "id": "action_1011",
       "text": "( ‘д‘⊂彡☆))Д´)",
-      "tags": ["angry", "attack", "group", "star"]
+      "tags": [
+        "angry",
+        "attack",
+        "group",
+        "star"
+      ]
     },
     {
       "id": "action_1013",
       "text": "(　′∀`)σ≡σ☆))Д′)",
-      "tags": ["attack", "displeased", "group", "star"]
+      "tags": [
+        "attack",
+        "displeased",
+        "group",
+        "star"
+      ]
     },
     {
       "id": "action_1014",
       "text": "ヽ( ･∀･)ﾉ┌┛Σ(ノ `Д´)ノ",
-      "tags": ["angry", "attack", "group", "scheming", "shout"]
+      "tags": [
+        "angry",
+        "attack",
+        "group",
+        "scheming",
+        "shout"
+      ]
     },
     {
       "id": "action_1015",
       "text": "♪o(*´∇｀)┌θ☆(ﾉ>_<)ﾉ",
-      "tags": ["attack", "group", "hands-up", "happy", "music", "scheming", "star"]
+      "tags": [
+        "attack",
+        "group",
+        "hands-up",
+        "happy",
+        "music",
+        "scheming",
+        "star"
+      ]
     },
     {
       "id": "action_1016",
       "text": "ヽ( ￣∀￣)ﾉ┌┛Σ(ノ ・Д・)ノ",
-      "tags": ["attack", "closed-eyes", "dazed", "group", "hands-up", "shout"]
+      "tags": [
+        "attack",
+        "closed-eyes",
+        "dazed",
+        "group",
+        "hands-up",
+        "shout"
+      ]
     },
     {
       "id": "action_1017",
       "text": "!ヾ(▼皿▼ﾒ)┌θ☆(ﾉ □ )ﾉ ﾟ ﾟ",
-      "tags": ["angry", "attack", "excited", "group", "hands-up", "star"]
+      "tags": [
+        "angry",
+        "attack",
+        "excited",
+        "group",
+        "hands-up",
+        "star"
+      ]
     },
     {
       "id": "action_1018",
       "text": "ヽ(*´ｪ｀)ﾉ┌┛Σ(ﾉ´ｪ｀)ﾉ",
-      "tags": ["animal", "attack", "group", "hands-up", "helpless"]
+      "tags": [
+        "animal",
+        "attack",
+        "group",
+        "hands-up",
+        "helpless"
+      ]
     },
     {
       "id": "action_1019",
       "text": "ﾍ(*ﾟｰﾟ)┌θ)ﾟﾛﾟ)ﾉ",
-      "tags": ["attack", "dazed", "group", "hands-up", "surprised"]
+      "tags": [
+        "attack",
+        "dazed",
+        "group",
+        "hands-up",
+        "surprised"
+      ]
     },
     {
       "id": "action_1020",
       "text": "( ･´Д｀･)┌θ☆(ﾉ´>ω<)ﾉ",
-      "tags": ["attack", "group", "hands-up", "happy", "helpless", "star"]
+      "tags": [
+        "attack",
+        "group",
+        "hands-up",
+        "happy",
+        "helpless",
+        "star"
+      ]
     },
     {
       "id": "action_1021",
       "text": "(ｏﾟﾛﾟ)┌┛Σ(ﾉ´*ω*｀)ﾉ",
-      "tags": ["attack", "displeased", "dizzy", "excited", "group", "hands-up", "surprised"]
+      "tags": [
+        "attack",
+        "displeased",
+        "dizzy",
+        "excited",
+        "group",
+        "hands-up",
+        "surprised"
+      ]
     },
     {
       "id": "action_1022",
       "text": "ヽ(#ﾟДﾟ)ﾉ┌┛(ﾉ´Д｀)ﾉ",
-      "tags": ["angry", "attack", "dazed", "excited", "group", "hands-up", "helpless", "shout"]
+      "tags": [
+        "angry",
+        "attack",
+        "dazed",
+        "excited",
+        "group",
+        "hands-up",
+        "helpless",
+        "shout"
+      ]
     },
     {
       "id": "action_1023",
       "text": "( ◞•̀д•́)◞⚔◟(•̀д•́◟ )",
-      "tags": ["angry", "attack", "excited", "group", "shout"]
+      "tags": [
+        "angry",
+        "attack",
+        "excited",
+        "group",
+        "shout"
+      ]
     },
     {
       "id": "action_1024",
       "text": "(´◉◞౪◟◉)⊃))⊙ω⊙)",
-      "tags": ["attack", "big-eyes", "dumbfounded", "group"]
+      "tags": [
+        "attack",
+        "big-eyes",
+        "dumbfounded",
+        "group"
+      ]
     },
     {
       "id": "action_1025",
       "text": "⊂´⌒つ ﾟ∀ﾟ)つ━⊂(ﾟ∀ﾟ⊂⌒｀つ",
-      "tags": ["attack", "group", "mock"]
+      "tags": [
+        "attack",
+        "group",
+        "mock"
+      ]
     },
     {
       "id": "action_1027",
       "text": "ヽ( ･∀･)ﾉ_θ彡☆Σ(ノ `Д´)ノ",
-      "tags": ["angry", "attack", "group", "hands-up", "scheming", "star"]
+      "tags": [
+        "angry",
+        "attack",
+        "group",
+        "hands-up",
+        "scheming",
+        "star"
+      ]
     },
     {
       "id": "action_1028",
       "text": "( ￣ω￣)ノﾞ⌒☆ﾐ(o _ _)o",
-      "tags": ["attack", "closed-eyes", "dizzy", "group", "star"]
+      "tags": [
+        "attack",
+        "closed-eyes",
+        "dizzy",
+        "group",
+        "star"
+      ]
     },
     {
       "id": "action_1029",
       "text": "(*`0´)θ☆(メ°皿°)ﾉ",
-      "tags": ["angry", "attack", "group", "hands-up", "star"]
+      "tags": [
+        "angry",
+        "attack",
+        "group",
+        "hands-up",
+        "star"
+      ]
     },
     {
       "id": "action_1030",
       "text": "(o¬‿¬o )...☆ﾐ(*x_x)",
-      "tags": ["attack", "dizzy", "group", "smile", "star"]
+      "tags": [
+        "attack",
+        "dizzy",
+        "group",
+        "smile",
+        "star"
+      ]
     },
     {
       "id": "action_1031",
       "text": "(╬￣皿￣)=○＃(￣#)３￣)",
-      "tags": ["angry", "attack", "closed-eyes", "group", "pouting"]
+      "tags": [
+        "angry",
+        "attack",
+        "closed-eyes",
+        "group",
+        "pouting"
+      ]
     },
     {
       "id": "action_1032",
       "text": "(; -_-)――――――C<―_-)",
-      "tags": ["attack", "closed-eyes", "group", "pinch", "sweat-drop"]
+      "tags": [
+        "attack",
+        "closed-eyes",
+        "group",
+        "pinch",
+        "sweat-drop"
+      ]
     },
     {
       "id": "action_1033",
       "text": "(￣ε(#￣)☆╰╮o(￣▽￣///)",
-      "tags": ["attack", "closed-eyes", "group", "pouting", "star"]
+      "tags": [
+        "attack",
+        "closed-eyes",
+        "group",
+        "pouting",
+        "star"
+      ]
     },
     {
       "id": "action_1034",
       "text": "ヽ(>_<ヽ) ―⊂|=0ヘ(^‿^ )",
-      "tags": ["attack", "group", "hands-up", "happy", "running", "scared", "scheming", "smile"]
+      "tags": [
+        "attack",
+        "group",
+        "hands-up",
+        "happy",
+        "running",
+        "scared",
+        "scheming",
+        "smile"
+      ]
     },
     {
       "id": "action_1035",
       "text": "(¬_¬'')ԅ(￣ε￣ԅ)",
-      "tags": ["attack", "closed-eyes", "displeased", "grab", "group", "pouting", "sweat-drop"]
+      "tags": [
+        "attack",
+        "closed-eyes",
+        "displeased",
+        "grab",
+        "group",
+        "pouting",
+        "sweat-drop"
+      ]
     },
     {
       "id": "action_1036",
       "text": "/( .□.)＼ ︵╰(°益°)╯︵ /(.□. /)",
-      "tags": ["angry", "attack", "group"]
+      "tags": [
+        "angry",
+        "attack",
+        "group"
+      ]
     },
     {
       "id": "action_1037",
       "text": "!!(ﾒ￣ ￣)_θ☆°0°)/",
-      "tags": ["attack", "closed-eyes", "cool", "group", "star", "surprised"]
+      "tags": [
+        "attack",
+        "closed-eyes",
+        "cool",
+        "group",
+        "star",
+        "surprised"
+      ]
     },
     {
       "id": "action_1038",
       "text": "(`⌒*)O-(`⌒´Q)",
-      "tags": ["angry", "attack", "group"]
+      "tags": [
+        "angry",
+        "attack",
+        "group"
+      ]
     },
     {
       "id": "action_1040",
       "text": "Ｏ( ｀_´)乂(｀_´ )Ｏ",
-      "tags": ["attack", "displeased", "group"]
+      "tags": [
+        "attack",
+        "displeased",
+        "group"
+      ]
     },
     {
       "id": "action_1041",
       "text": "( ｀▽´)Ψミ(/・ω・)/",
-      "tags": ["attack", "devil", "group", "hands-up"]
+      "tags": [
+        "attack",
+        "devil",
+        "group",
+        "hands-up"
+      ]
     },
     {
       "id": "action_1042",
       "text": "^(#｀∀´)_ Ψ････・･†_(ﾟｰﾟ*)β",
-      "tags": ["attack", "dazed", "devil", "group"]
+      "tags": [
+        "attack",
+        "dazed",
+        "devil",
+        "group"
+      ]
     },
     {
       "id": "action_1043",
       "text": "#ﾟÅﾟ）⊂彡☆))ﾟДﾟ)･∵.",
-      "tags": ["attack", "dazed", "displeased", "group", "shout", "star", "surprised"]
+      "tags": [
+        "attack",
+        "dazed",
+        "displeased",
+        "group",
+        "shout",
+        "star",
+        "surprised"
+      ]
     },
     {
       "id": "action_1044",
       "text": "(っ•﹏•)っ ✴==≡눈٩(`皿´҂)ง",
-      "tags": ["angry", "attack", "group", "hands-up", "nervous", "trembling"]
+      "tags": [
+        "angry",
+        "attack",
+        "group",
+        "hands-up",
+        "nervous",
+        "trembling"
+      ]
     },
     {
       "id": "action_1045",
       "text": "(*´∇`)┌θ☆(ﾉ>_<)ﾉ",
-      "tags": ["attack", "group", "hands-up", "scared", "scheming", "star"]
+      "tags": [
+        "attack",
+        "group",
+        "hands-up",
+        "scared",
+        "scheming",
+        "star"
+      ]
     },
     {
       "id": "action_1046",
       "text": "＜( ￣︿￣)︵θ︵θ︵☆(＞口＜－)",
-      "tags": ["attack", "closed-eyes", "group", "scared", "star"]
+      "tags": [
+        "attack",
+        "closed-eyes",
+        "group",
+        "scared",
+        "star"
+      ]
     },
     {
       "id": "action_1047",
       "text": "(ﾉ-.-)ﾉ….((((((((((((●~* ( >_<)",
-      "tags": ["attack", "closed-eyes", "group", "hands-up", "scared"]
+      "tags": [
+        "attack",
+        "closed-eyes",
+        "group",
+        "hands-up",
+        "scared"
+      ]
     },
     {
       "id": "action_1048",
       "text": "(˙ω˙)🎮(˙∀˙)🎮",
-      "tags": ["cute", "group", "play"]
+      "tags": [
+        "cute",
+        "group",
+        "play"
+      ]
     },
     {
       "id": "action_1049",
       "text": "( ￣▽￣)[] [](≧▽≦ )",
-      "tags": ["cheers", "closed-eyes", "group", "thrilled"]
+      "tags": [
+        "cheers",
+        "closed-eyes",
+        "group",
+        "thrilled"
+      ]
     },
     {
       "id": "action_1050",
       "text": "ヾ(￣ー￣(≧ω≦*)ゝ",
-      "tags": ["closed-eyes", "group", "speechless", "thrilled", "waving"]
+      "tags": [
+        "closed-eyes",
+        "group",
+        "speechless",
+        "thrilled",
+        "waving"
+      ]
     },
     {
       "id": "action_1051",
       "text": "(¬_¬”)-cԅ(‾⌣‾ԅ)",
-      "tags": ["closed-eyes", "group", "pinch", "smile", "speechless", "sweat-drop"]
+      "tags": [
+        "closed-eyes",
+        "group",
+        "pinch",
+        "smile",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "action_1052",
       "text": "(☞°ヮ°)☞ ☜(°ヮ°☜)",
-      "tags": ["group", "mock", "pointing"]
+      "tags": [
+        "group",
+        "mock",
+        "pointing"
+      ]
     },
     {
       "id": "action_1053",
       "text": "(/￣^￣)/￣ ＼(｡_｡＼)",
-      "tags": ["closed-eyes", "displeased", "group", "hands-up"]
+      "tags": [
+        "closed-eyes",
+        "displeased",
+        "group",
+        "hands-up"
+      ]
     },
     {
       "id": "action_1054",
       "text": "ヽ(*ﾟ｀∀´ﾟ)乂(´ﾟ∀ﾟ｀*)ﾉ",
-      "tags": ["banzai", "group", "happy", "holding-hands"]
+      "tags": [
+        "banzai",
+        "group",
+        "happy",
+        "holding-hands"
+      ]
     },
     {
       "id": "action_1055",
       "text": "ヽ(￣ω￣(￣ω￣〃)ゝ",
-      "tags": ["closed-eyes", "group", "scratch", "waving"]
+      "tags": [
+        "closed-eyes",
+        "group",
+        "waving"
+      ]
     },
     {
       "id": "action_1056",
       "text": "ヾ(・ω・)メ(・ω・)ノ",
-      "tags": ["cute", "group", "holding-hands", "waving"]
+      "tags": [
+        "cute",
+        "group",
+        "holding-hands",
+        "waving"
+      ]
     },
     {
       "id": "action_1057",
       "text": "ヽ(∀° )人( °∀)ノ",
-      "tags": ["banzai", "dazed", "group", "holding-hands"]
+      "tags": [
+        "banzai",
+        "dazed",
+        "group",
+        "holding-hands"
+      ]
     },
     {
       "id": "action_1058",
       "text": "ヽ( ⌒o⌒)人(⌒-⌒ )ﾉ",
-      "tags": ["banzai", "group", "happy", "holding-hands"]
+      "tags": [
+        "banzai",
+        "group",
+        "happy",
+        "holding-hands"
+      ]
     },
     {
       "id": "action_1059",
       "text": "ヽ(≧◡≦)八(o^ ^o)ノ",
-      "tags": ["group", "happy", "holding-hands", "smile", "thrilled"]
+      "tags": [
+        "group",
+        "happy",
+        "holding-hands",
+        "smile",
+        "thrilled"
+      ]
     },
     {
       "id": "action_1060",
       "text": "｡*:☆(・ω・人・ω・)｡:゜☆｡",
-      "tags": ["cute", "group", "holding-hands", "star"]
+      "tags": [
+        "cute",
+        "group",
+        "holding-hands",
+        "star"
+      ]
     },
     {
       "id": "action_1061",
       "text": "(((*°▽°*)八(*°▽°*)))",
-      "tags": ["dazed", "group", "holding-hands", "thrilled"]
+      "tags": [
+        "dazed",
+        "group",
+        "holding-hands",
+        "thrilled"
+      ]
     },
     {
       "id": "action_1062",
       "text": "☆ヾ(*´・∀・)ﾉヾ(・∀・`*)ﾉ☆",
-      "tags": ["cute", "group", "holding-hands", "sparkle", "star"]
+      "tags": [
+        "cute",
+        "group",
+        "holding-hands",
+        "sparkle",
+        "star"
+      ]
     },
     {
       "id": "action_1063",
       "text": "＼(▽￣ \\ (￣▽￣) / ￣▽)／",
-      "tags": ["closed-eyes", "dancing", "group", "happy"]
+      "tags": [
+        "closed-eyes",
+        "dancing",
+        "group",
+        "happy"
+      ]
     },
     {
       "id": "action_1065",
       "text": "(´>∀)人(´・ω・)ﾉヽ(・ε・*)人(-д-`)",
-      "tags": ["cute", "group", "holding-hands", "pouting", "thrilled"]
+      "tags": [
+        "cute",
+        "group",
+        "holding-hands",
+        "pouting",
+        "thrilled"
+      ]
     },
     {
       "id": "action_1066",
       "text": "♪( ´θ｀)ノ",
-      "tags": ["bird", "happy", "music", "sing", "waving"]
+      "tags": [
+        "bird",
+        "happy",
+        "music",
+        "sing",
+        "waving"
+      ]
     },
     {
       "id": "action_1068",
       "text": "(*￣0￣)θ～♪",
-      "tags": ["closed-eyes", "music", "shout"]
+      "tags": [
+        "closed-eyes",
+        "music",
+        "shout"
+      ]
     },
     {
       "id": "action_1069",
       "text": "(っ●ω●)っ",
-      "tags": ["cute", "hug"]
+      "tags": [
+        "cute",
+        "hug"
+      ]
     },
     {
       "id": "action_1070",
       "text": "( ˚ཫ˚ )",
-      "tags": ["dazed", "vomiting-blood"]
+      "tags": [
+        "dazed",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_1071",
       "text": "(╯°Д°)╯︵ /(.□ . ＼)",
-      "tags": ["angry", "attack", "group"]
+      "tags": [
+        "angry",
+        "attack",
+        "group"
+      ]
     },
     {
       "id": "action_1072",
       "text": "₍₍ ᕕ(´◔⌓◔)ᕗ⁾⁾",
-      "tags": ["running"]
+      "tags": [
+        "running"
+      ]
     },
     {
       "id": "action_1074",
       "text": "੭ ˙ᗜ˙ )੭",
-      "tags": ["happy", "hug"]
+      "tags": [
+        "happy",
+        "hug"
+      ]
     },
     {
       "id": "action_1075",
       "text": "(੭ु˙꒳​˙)੭ु⁾⁾",
-      "tags": ["cute", "please"]
+      "tags": [
+        "cute",
+        "please"
+      ]
     },
     {
       "id": "action_1076",
       "text": "(੭ु˙꒳˙)੭ु⁾⁾*✭",
-      "tags": ["cute", "please", "star"]
+      "tags": [
+        "cute",
+        "please",
+        "star"
+      ]
     },
     {
       "id": "action_1077",
       "text": "(੭ु´･ω･`)੭ु⁾⁾",
-      "tags": ["cute", "please"]
+      "tags": [
+        "cute",
+        "please"
+      ]
     },
     {
       "id": "action_1078",
       "text": "(੭ु ´͈꒳​`͈)੭ु⁾⁾",
-      "tags": ["cute", "please", "shy"]
+      "tags": [
+        "cute",
+        "please",
+        "shy"
+      ]
     },
     {
       "id": "action_1079",
       "text": "( ੭˙ᗜ˙)੭",
-      "tags": ["happy", "hug"]
+      "tags": [
+        "happy",
+        "hug"
+      ]
     },
     {
       "id": "action_1080",
       "text": "꙳꒰ ੭⑅•͈ ·̮ •͈꒱੭ ☀︎",
-      "tags": ["hug", "shy"]
+      "tags": [
+        "hug",
+        "shy"
+      ]
     },
     {
       "id": "action_1081",
       "text": "(੭ु⍨)੭ु⁾⁾",
-      "tags": ["displeased", "helpless", "please"]
+      "tags": [
+        "displeased",
+        "helpless",
+        "please"
+      ]
     },
     {
       "id": "action_1082",
       "text": "ଘ(੭ˊ◕ᵕ◕ˋ)੭†",
-      "tags": ["big-eyes", "cute", "hug", "smile", "wings"]
+      "tags": [
+        "big-eyes",
+        "cute",
+        "hug",
+        "smile",
+        "wings"
+      ]
     },
     {
       "id": "action_1083",
       "text": "ଘ(੭ˊ꒳​ˋ)੭✧",
-      "tags": ["cute", "happiness", "hug", "sparkle", "wings"]
+      "tags": [
+        "cute",
+        "happiness",
+        "hug",
+        "sparkle",
+        "wings"
+      ]
     },
     {
       "id": "action_1084",
       "text": "(੭ु ‾᷄ᗣ‾᷅ )੭ु⁾⁾",
-      "tags": ["breakdown", "please", "sad"]
+      "tags": [
+        "breakdown",
+        "please",
+        "sad"
+      ]
     },
     {
       "id": "action_1085",
       "text": "(੭ु´͈ ᐜ `͈)੭ु⁾⁾",
-      "tags": ["cute", "happiness", "please", "shy"]
+      "tags": [
+        "cute",
+        "happiness",
+        "please",
+        "shy"
+      ]
     },
     {
       "id": "action_1086",
       "text": "(̥ ̥এ́ ̼ এ̥̀)̥̥੭ੇʓ ੭ੇʓ",
-      "tags": ["comfort", "crying", "group", "teary"]
+      "tags": [
+        "comfort",
+        "crying",
+        "group",
+        "teary"
+      ]
     },
     {
       "id": "action_1087",
       "text": "( ´•̥̥̥o•̥̥̥`)♡(˘̩̩̩̩̩̩ ⌂ ˘̩̩̩̩̩̩)",
-      "tags": ["comfort", "crying", "group", "love"]
+      "tags": [
+        "comfort",
+        "crying",
+        "group",
+        "love"
+      ]
     },
     {
       "id": "action_1088",
       "text": "(˘▼˘>ԅ( ˘⌣ƪ)",
-      "tags": ["closed-eyes", "comfort", "grab", "group", "smile"]
+      "tags": [
+        "closed-eyes",
+        "comfort",
+        "grab",
+        "group",
+        "smile"
+      ]
     },
     {
       "id": "action_1089",
       "text": "(⁎·́௰·̀)◞ ͂͂(˒̩̩̥́௰˓̩̩̥̀⁎)",
-      "tags": ["comfort", "group", "helpless"]
+      "tags": [
+        "comfort",
+        "group",
+        "helpless"
+      ]
     },
     {
       "id": "action_1090",
       "text": "( ‘́⌣’̀)/(˘̩̩ε˘̩ƪ)",
-      "tags": ["comfort", "group", "pouting", "smile"]
+      "tags": [
+        "comfort",
+        "group",
+        "pouting",
+        "smile"
+      ]
     },
     {
       "id": "action_1091",
       "text": "ヽ(ω；`ヽ))…((ﾉ´；ω)ﾉ",
-      "tags": ["comfort", "crying", "group", "hands-up", "scared", "sweat-drop"]
+      "tags": [
+        "comfort",
+        "crying",
+        "group",
+        "hands-up",
+        "scared",
+        "sweat-drop"
+      ]
     },
     {
       "id": "action_1092",
       "text": "( ´•̥̥̥o•̥̥̥`)(˃̣̣̥╭╮˂̣̣̥)‧º·˚",
-      "tags": ["comfort", "crying", "group"]
+      "tags": [
+        "comfort",
+        "crying",
+        "group"
+      ]
     },
     {
       "id": "action_1093",
       "text": "(*´Д`)つ))´∀`)",
-      "tags": ["comfort", "group", "happiness", "helpless", "poke"]
+      "tags": [
+        "comfort",
+        "group",
+        "happiness",
+        "helpless",
+        "poke"
+      ]
     },
     {
       "id": "action_1094",
       "text": "(∩ᄑ_ᄑ)⊃━☆ﾟ*･｡*･:≡( ε:)",
-      "tags": ["attack", "group", "magic", "speechless", "star"]
+      "tags": [
+        "attack",
+        "group",
+        "magic",
+        "speechless",
+        "star"
+      ]
     },
     {
       "id": "action_1095",
       "text": "Q–(’̀-’̀Q )",
-      "tags": ["attack", "displeased"]
+      "tags": [
+        "attack",
+        "displeased"
+      ]
     },
     {
       "id": "action_1096",
       "text": "(`･ε´-ゞ)",
-      "tags": ["pouting", "scratch", "wink"]
+      "tags": [
+        "pouting",
+        "scratch",
+        "wink"
+      ]
     },
     {
       "id": "action_1097",
       "text": "ｍ(｡≧Д≦｡)ｍ",
-      "tags": ["apologize", "excited", "please"]
+      "tags": [
+        "apologize",
+        "excited",
+        "please"
+      ]
     },
     {
       "id": "action_1098",
       "text": "(꒪ཀ꒪*)ｸﾞﾌｯ",
-      "tags": ["dazed", "vomiting-blood"]
+      "tags": [
+        "dazed",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_1099",
       "text": "Σ(ﾟﾛ､ﾟ;)",
-      "tags": ["dazed", "surprised", "sweat-drop"]
+      "tags": [
+        "dazed",
+        "surprised",
+        "sweat-drop"
+      ]
     },
     {
       "id": "action_1100",
       "text": "( ´͈ཀ`͈ )ｺﾞﾌｯ",
-      "tags": ["helpless", "text", "vomiting-blood"]
+      "tags": [
+        "helpless",
+        "text",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "action_1101",
       "text": "─=≡Σ((( つ＞＜)つ",
-      "tags": ["hug", "running", "scared"]
+      "tags": [
+        "hug",
+        "running",
+        "scared"
+      ]
     },
     {
       "id": "action_1102",
       "text": "╏つ” ⊡ 〜 ⊡ ” ╏つ",
-      "tags": ["hug", "speechless"]
+      "tags": [
+        "hug",
+        "speechless"
+      ]
     },
     {
       "id": "action_1103",
       "text": "༼つ . •́ _ʖ •̀ . ༽つ",
-      "tags": ["comfort", "helpless", "hug"]
+      "tags": [
+        "comfort",
+        "helpless",
+        "hug"
+      ]
     },
     {
       "id": "action_1104",
       "text": "༼つ ் ▽ ் ༽つ",
-      "tags": ["happy", "hug"]
+      "tags": [
+        "happy",
+        "hug"
+      ]
     },
     {
       "id": "action_1105",
       "text": "༼ つ ◕_◕ ༽つ",
-      "tags": ["big-eyes", "hug"]
+      "tags": [
+        "big-eyes",
+        "hug"
+      ]
     },
     {
       "id": "action_1116",
       "text": "( •̀ᴗ•́ ) ̖́-",
-      "tags": ["confident", "smile"]
+      "tags": [
+        "confident",
+        "smile"
+      ]
     },
     {
       "id": "action_1117",
       "text": "╰(✿´⌣`✿)╯♡",
-      "tags": ["banzai", "flower", "happy", "love", "smile"]
+      "tags": [
+        "banzai",
+        "flower",
+        "happy",
+        "love",
+        "smile"
+      ]
     },
     {
       "id": "action_1118",
       "text": "╰(*°▽°*)╯",
-      "tags": ["banzai", "dazed", "happy", "thrilled"]
+      "tags": [
+        "banzai",
+        "dazed",
+        "happy",
+        "thrilled"
+      ]
     },
     {
       "id": "action_1140",
       "text": "╭( ･ㅂ･)و ̑̑ ˂ᵒ͜͡ᵏᵎ⁾✩",
-      "tags": ["hands-up", "star", "text"]
+      "tags": [
+        "hands-up",
+        "star",
+        "text"
+      ]
     },
     {
       "id": "action_1145",
       "text": "୧( ⁼̴̶̤̀ω⁼̴̶̤́ )૭",
-      "tags": ["confident"]
+      "tags": [
+        "confident"
+      ]
     },
     {
       "id": "action_1156",
       "text": "༼ ᕤ◕◡◕ ༽ᕤ",
-      "tags": ["big-eyes", "cute", "happy", "motivated"]
+      "tags": [
+        "big-eyes",
+        "cute",
+        "happy",
+        "motivated"
+      ]
     },
     {
       "id": "action_1159",
       "text": "ଘ꒰ ๑ ˃̶ ᴗ ᵒ̴̶̷๑꒱و ̑̑",
-      "tags": ["cute", "happy", "thrilled", "wings", "wink"]
+      "tags": [
+        "cute",
+        "happy",
+        "thrilled",
+        "wings",
+        "wink"
+      ]
     },
     {
       "id": "action_1165",
       "text": "٩̋(ˊ•͈ ꇴ •͈ˋ)و",
-      "tags": ["cheer-up", "happy", "shy"]
+      "tags": [
+        "cheer-up",
+        "happy",
+        "shy"
+      ]
     },
     {
       "id": "action_1166",
       "text": "(((ง’ω’)و三 ง’ω’)ڡ≡　☆⌒ﾐ((x_x)",
-      "tags": ["attack", "dizzy", "star"]
+      "tags": [
+        "attack",
+        "dizzy",
+        "star"
+      ]
     },
     {
       "id": "action_1167",
       "text": "(((ง’ω’)و三 ง’ω’)ڡ≡",
-      "tags": ["attack"]
+      "tags": [
+        "attack"
+      ]
     },
     {
       "id": "action_1168",
       "text": "(ง ˙o˙)ว",
-      "tags": ["dancing"]
+      "tags": [
+        "dancing"
+      ]
     },
     {
       "id": "action_1169",
       "text": "(((c=(ﾟﾛﾟ;q)",
-      "tags": ["attack", "running", "scared", "surprised", "sweat-drop"]
+      "tags": [
+        "attack",
+        "running",
+        "scared",
+        "surprised",
+        "sweat-drop"
+      ]
     },
     {
       "id": "action_1170",
       "text": "ε=ε=ε=ε=┏(;￣▽￣)┛",
-      "tags": ["closed-eyes", "embarrassed", "nervous", "running"]
+      "tags": [
+        "closed-eyes",
+        "embarrassed",
+        "nervous",
+        "running"
+      ]
     },
     {
       "id": "action_1171",
       "text": "ｽｷｽｷﾋﾞｰﾑ!!(ﾉ*´з｀)ﾉ・‥…━━━★",
-      "tags": ["cute", "hands-up", "helpless", "magic", "pouting", "star", "text"]
+      "tags": [
+        "cute",
+        "hands-up",
+        "helpless",
+        "magic",
+        "pouting",
+        "star",
+        "text"
+      ]
     },
     {
       "id": "action_1172",
       "text": "m(_ _;m)",
-      "tags": ["apologize", "closed-eyes", "nervous", "please", "sweat-drop"]
+      "tags": [
+        "apologize",
+        "closed-eyes",
+        "nervous",
+        "please",
+        "sweat-drop"
+      ]
     },
     {
       "id": "action_1173",
       "text": "(#‵)3′)▂▂▂▃▄▅～～～嗡嗡嗡嗡嗡",
-      "tags": ["attack", "displeased", "pouting", "text"]
+      "tags": [
+        "attack",
+        "displeased",
+        "pouting",
+        "text"
+      ]
     },
     {
       "id": "action_1174",
       "text": "ε≡≡ﾍ( ´Д`)ﾉ",
-      "tags": ["hands-up", "helpless", "nervous", "running", "shout"]
+      "tags": [
+        "hands-up",
+        "helpless",
+        "nervous",
+        "running",
+        "shout"
+      ]
     },
     {
       "id": "action_1175",
       "text": "♪└|∵|┘♪",
-      "tags": ["dancing", "music", "neutral"]
+      "tags": [
+        "dancing",
+        "music",
+        "neutral"
+      ]
     },
     {
       "id": "action_1176",
       "text": "└| ∵ |┘",
-      "tags": ["hands-up", "neutral"]
+      "tags": [
+        "hands-up",
+        "neutral"
+      ]
     },
     {
       "id": "action_1177",
       "text": "┐( ∵ )┌",
-      "tags": ["neutral", "shrug"]
+      "tags": [
+        "neutral",
+        "shrug"
+      ]
     },
     {
       "id": "action_1178",
       "text": "|･ω･｀)",
-      "tags": ["cute", "peeking"]
+      "tags": [
+        "cute",
+        "peeking"
+      ]
     },
     {
       "id": "action_1179",
       "text": "|*´・Д・)r))ﾟ",
-      "tags": ["displeased", "peeking"]
+      "tags": [
+        "displeased",
+        "peeking"
+      ]
+    },
+    {
+      "id": "action_1180",
+      "text": "ԅ(≖‿≖ԅ)",
+      "tags": [
+        "grab",
+        "scheming",
+        "smile"
+      ]
+    },
+    {
+      "id": "action_1181",
+      "text": "( • )( • ) ԅ(‾⌣‾ԅ)",
+      "tags": [
+        "closed-eyes",
+        "grab",
+        "smile"
+      ]
+    },
+    {
+      "id": "action_1182",
+      "text": "( • )( • )ԅ(≖‿≖ԅ)",
+      "tags": [
+        "grab",
+        "scheming",
+        "smile"
+      ]
+    },
+    {
+      "id": "action_1183",
+      "text": "Σ(￣。￣ノ)ノ",
+      "tags": [
+        "closed-eyes",
+        "dancing",
+        "sleepy"
+      ]
+    },
+    {
+      "id": "action_1184",
+      "text": "ヽ(￣д￣;)ノ=3=3=3",
+      "tags": [
+        "closed-eyes",
+        "helpless",
+        "running",
+        "sweat-drop"
+      ]
+    },
+    {
+      "id": "action_1185",
+      "text": "⊂(￣▽￣)⊃",
+      "tags": [
+        "closed-eyes",
+        "hug"
+      ]
+    },
+    {
+      "id": "action_1186",
+      "text": "( ￣ー￣)φ__",
+      "tags": [
+        "closed-eyes",
+        "speechless",
+        "writing"
+      ]
+    },
+    {
+      "id": "action_1187",
+      "text": "__〆(￣ー￣ )",
+      "tags": [
+        "closed-eyes",
+        "speechless",
+        "writing"
+      ]
+    },
+    {
+      "id": "action_1188",
+      "text": "(ㄏ￣▽￣)ㄏ ㄟ(￣▽￣ㄟ)",
+      "tags": [
+        "closed-eyes",
+        "dancing",
+        "group",
+        "happy"
+      ]
+    },
+    {
+      "id": "action_1189",
+      "text": "￢o(￣-￣ﾒ)",
+      "tags": [
+        "attack",
+        "closed-eyes",
+        "gun",
+        "speechless"
+      ]
+    },
+    {
+      "id": "action_1190",
+      "text": "ε≡Ξ≡Ξ≡ヽ( ;￣〇￣)ﾉ",
+      "tags": [
+        "closed-eyes",
+        "hands-up",
+        "nervous",
+        "pouting",
+        "running",
+        "sweat-drop"
+      ]
+    },
+    {
+      "id": "action_1191",
+      "text": "Ю　○三　＼(￣^￣＼)",
+      "tags": [
+        "closed-eyes",
+        "displeased",
+        "hands-up",
+        "play"
+      ]
+    },
+    {
+      "id": "action_1192",
+      "text": "_〆((ﾐ￣ｴ￣ﾐ))",
+      "tags": [
+        "animal",
+        "closed-eyes",
+        "writing"
+      ]
+    },
+    {
+      "id": "action_1193",
+      "text": "(ﾒ￣▽￣)︻┳═一",
+      "tags": [
+        "attack",
+        "closed-eyes",
+        "gun",
+        "scheming"
+      ]
+    },
+    {
+      "id": "action_1194",
+      "text": "!(;ﾟoﾟ)o/￣￣￣￣￣￣￣~ >ﾟ))))彡",
+      "tags": [
+        "closed-eyes",
+        "dumbfounded",
+        "fishing",
+        "surprised",
+        "sweat-drop"
+      ]
+    },
+    {
+      "id": "action_1195",
+      "text": "☆(･ω･*)ゞ",
+      "tags": [
+        "cute",
+        "scratch",
+        "star"
+      ]
+    },
+    {
+      "id": "action_1196",
+      "text": "(｡･ω･)ゞ",
+      "tags": [
+        "cute",
+        "scratch"
+      ]
+    },
+    {
+      "id": "action_1197",
+      "text": "(＊･_･＊)ゞ",
+      "tags": [
+        "dazed",
+        "scratch"
+      ]
+    },
+    {
+      "id": "action_1198",
+      "text": "(●｀･ω･)ゞ＜ok！",
+      "tags": [
+        "cute",
+        "scratch",
+        "text"
+      ]
+    },
+    {
+      "id": "action_1199",
+      "text": "ヽ(｡ゝω・｡)ﾉ",
+      "tags": [
+        "banzai",
+        "cheer-up",
+        "cute",
+        "wink"
+      ]
+    },
+    {
+      "id": "action_1200",
+      "text": "( ゜ω゜)ゝ",
+      "tags": [
+        "dazed",
+        "salute"
+      ]
+    },
+    {
+      "id": "action_1201",
+      "text": "₍₍⁽⁽(ી(^‿ゝ^)ʃ)₎₎⁾⁾",
+      "tags": [
+        "dancing",
+        "happy",
+        "smile"
+      ]
+    },
+    {
+      "id": "action_1202",
+      "text": "(●ゝ∀･)ﾉ",
+      "tags": [
+        "waving",
+        "wink"
+      ]
+    },
+    {
+      "id": "action_1203",
+      "text": "(ゝ∀･)b",
+      "tags": [
+        "like",
+        "wink"
+      ]
+    },
+    {
+      "id": "action_1204",
+      "text": "(ゝω･)ﾉ",
+      "tags": [
+        "waving",
+        "wink"
+      ]
+    },
+    {
+      "id": "action_1205",
+      "text": "(oゝ∀・o)ゞ",
+      "tags": [
+        "scratch",
+        "wink"
+      ]
+    },
+    {
+      "id": "action_1206",
+      "text": "(￣^￣)ゞ",
+      "tags": [
+        "closed-eyes",
+        "displeased",
+        "salute",
+        "scratch"
+      ]
+    },
+    {
+      "id": "action_1207",
+      "text": "(。・ω・。)ゞ",
+      "tags": [
+        "cute",
+        "salute",
+        "scratch"
+      ]
+    },
+    {
+      "id": "action_1208",
+      "text": "v(*’-^*)ゞ・’ﾟ☆",
+      "tags": [
+        "salute",
+        "scratch",
+        "star",
+        "wink"
+      ]
+    },
+    {
+      "id": "action_1209",
+      "text": "(･ω´-ゞ)^☆",
+      "tags": [
+        "salute",
+        "scratch",
+        "star",
+        "wink"
+      ]
+    },
+    {
+      "id": "action_1210",
+      "text": "（*｀・ω・*）ゞ",
+      "tags": [
+        "cute",
+        "salute",
+        "scratch"
+      ]
+    },
+    {
+      "id": "action_1211",
+      "text": "(・ω・｀=)ゞ",
+      "tags": [
+        "scratch"
+      ]
+    },
+    {
+      "id": "action_1212",
+      "text": "(･∀･´*)ゞ",
+      "tags": [
+        "scratch"
+      ]
+    },
+    {
+      "id": "action_1213",
+      "text": "(`･ω･)ゞ",
+      "tags": [
+        "cute",
+        "scratch"
+      ]
+    },
+    {
+      "id": "action_1214",
+      "text": "ヾ(☆´･ω･)ゞ",
+      "tags": [
+        "cute",
+        "star",
+        "waving"
+      ]
+    },
+    {
+      "id": "action_1215",
+      "text": "ヾ(●｀･△･´●)ゞ",
+      "tags": [
+        "shout",
+        "waving"
+      ]
+    },
+    {
+      "id": "action_1216",
+      "text": "♪♪♪ ヽ(･ˇ∀ˇ･ゞ)",
+      "tags": [
+        "happy",
+        "music",
+        "waving"
+      ]
+    },
+    {
+      "id": "action_1217",
+      "text": "⋆ᙏ *",
+      "tags": [
+        "decoration",
+        "please",
+        "rabbit",
+        "star"
+      ]
+    },
+    {
+      "id": "action_1218",
+      "text": "ｰ(☆∀☆)/”",
+      "tags": [
+        "happy",
+        "star",
+        "waving"
+      ]
+    },
+    {
+      "id": "action_1219",
+      "text": "o(*’▽’*)/☆ﾟ’",
+      "tags": [
+        "happy",
+        "sparkle",
+        "star",
+        "waving"
+      ]
+    },
+    {
+      "id": "action_1220",
+      "text": "ヾ(☆▽☆)",
+      "tags": [
+        "star",
+        "thrilled",
+        "waving"
+      ]
+    },
+    {
+      "id": "action_1221",
+      "text": "└（★ｏ★）┐",
+      "tags": [
+        "dancing",
+        "star",
+        "thrilled"
+      ]
+    },
+    {
+      "id": "action_1222",
+      "text": "(*゜▽゜ノノ゛☆",
+      "tags": [
+        "dancing",
+        "dazed",
+        "star",
+        "thrilled"
+      ]
+    },
+    {
+      "id": "action_1223",
+      "text": "(ﾉ>ω<)ﾉ :｡･:*:･ﾟ’★",
+      "tags": [
+        "hands-up",
+        "magic",
+        "star",
+        "thrilled"
+      ]
+    },
+    {
+      "id": "action_1224",
+      "text": "。。。ミヽ(。＞＜)ノ",
+      "tags": [
+        "nervous",
+        "running"
+      ]
+    },
+    {
+      "id": "action_1225",
+      "text": "ε=ε=┌( >_<)┘",
+      "tags": [
+        "nervous",
+        "running"
+      ]
+    },
+    {
+      "id": "action_1226",
+      "text": "C= C= C= C= C=┌(;・ω・)┘",
+      "tags": [
+        "nervous",
+        "running",
+        "sweat-drop"
+      ]
+    },
+    {
+      "id": "action_1227",
+      "text": "｡｡゛(ﾉ><)ﾉ",
+      "tags": [
+        "hands-up",
+        "nervous",
+        "running"
+      ]
+    },
+    {
+      "id": "action_1228",
+      "text": "٩(´Д` ;)۶:.*",
+      "tags": [
+        "nervous",
+        "running",
+        "sweat-drop"
+      ]
+    },
+    {
+      "id": "action_1229",
+      "text": "((( +д+)o=3=3",
+      "tags": [
+        "dizzy",
+        "nervous",
+        "running"
+      ]
+    },
+    {
+      "id": "action_1230",
+      "text": "ε=┌(;･_･)┘",
+      "tags": [
+        "nervous",
+        "running",
+        "sweat-drop"
+      ]
+    },
+    {
+      "id": "action_1231",
+      "text": "ღ ( ｰ̀ωｰ́ ღ )",
+      "tags": [
+        "angry",
+        "closed-eyes",
+        "give",
+        "love"
+      ]
+    },
+    {
+      "id": "action_1232",
+      "text": "(*･ω･)✎",
+      "tags": [
+        "cute",
+        "writing"
+      ]
+    },
+    {
+      "id": "action_1233",
+      "text": "(‘•̀ ▽ •́ )✎",
+      "tags": [
+        "confident",
+        "writing"
+      ]
+    },
+    {
+      "id": "action_1234",
+      "text": "໒(⊙ᴗ⊙)७✎▤",
+      "tags": [
+        "dazed",
+        "smile",
+        "writing"
+      ]
     }
   ]
 }

@@ -5,564 +5,942 @@
     "zh-tw": "動物"
   },
   "preview": "ʕ •ᴥ• ʔ",
-  "lastUpdated": "2025-09-28",
+  "lastUpdated": "2025-11-17",
   "items": [
     {
       "id": "animal_002",
       "text": "✧ʕ̢̣̣̣̣̩̩̩̩·͡˔· Ɂ̡̣̣̣̣̩̩̩̩✧",
-      "tags": ["bear", "cute", "sparkle"]
+      "tags": [
+        "bear",
+        "cute",
+        "sparkle"
+      ]
     },
     {
       "id": "animal_004",
       "text": "ʕ•ﻌ•ʔ",
-      "tags": ["bear", "cute"]
+      "tags": [
+        "bear",
+        "cute"
+      ]
     },
     {
       "id": "animal_005",
       "text": "/ᐠ｡ꞈ｡ᐟ\\",
-      "tags": ["animal", "cat", "cute"]
+      "tags": [
+        "animal",
+        "cat",
+        "cute"
+      ]
     },
     {
       "id": "animal_007",
       "text": "ᶘ ᵒᴥᵒᶅ",
-      "tags": ["animal", "bear", "cute", "surprised"]
+      "tags": [
+        "animal",
+        "bear",
+        "cute",
+        "surprised"
+      ]
     },
     {
       "id": "animal_011",
       "text": "̑̑ᗦ↞◃",
-      "tags": ["animal"]
+      "tags": [
+        "animal"
+      ]
     },
     {
       "id": "animal_012",
       "text": "૮ ・ﻌ・ა",
-      "tags": ["animal", "cute", "dog"]
+      "tags": [
+        "animal",
+        "cute",
+        "dog"
+      ]
     },
     {
       "id": "animal_013",
       "text": "´•ᴥ•",
-      "tags": ["animal", "bear", "cute", "dog"]
+      "tags": [
+        "animal",
+        "bear",
+        "cute",
+        "dog"
+      ]
     },
     {
       "id": "animal_014",
       "text": "･ᴥ･",
-      "tags": ["animal", "bear", "cute", "dog"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "animal",
+        "bear",
+        "cute",
+        "dog"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_015",
       "text": "₍ᐢ..ᐢ₎",
-      "tags": ["cute", "neutral", "rabbit"]
+      "tags": [
+        "cute",
+        "neutral",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_019",
       "text": "ʕ·͡ˑ·ཻʔ",
-      "tags": ["animal", "neutral"]
+      "tags": [
+        "animal",
+        "neutral"
+      ]
     },
     {
       "id": "animal_021",
       "text": "^•ﻌ•^",
-      "tags": ["cat", "cute"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "cat",
+        "cute"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_027",
       "text": "(´･ᆺ･`)",
-      "tags": ["animal", "helpless"]
+      "tags": [
+        "animal",
+        "helpless"
+      ]
     },
     {
       "id": "animal_029",
       "text": "꒰✩˙˟˙✩꒱",
-      "tags": ["animal", "cute", "sparkle", "star"]
+      "tags": [
+        "animal",
+        "cute",
+        "sparkle",
+        "star"
+      ]
     },
     {
       "id": "animal_030",
       "text": "(●´∞`●)",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_031",
       "text": "ʕ˙Ⱉ˙ʔ ♡",
-      "tags": ["animal", "bear", "cute", "eating", "love"]
+      "tags": [
+        "animal",
+        "bear",
+        "cute",
+        "eating",
+        "love"
+      ]
     },
     {
       "id": "animal_033",
       "text": "(:◎)≡",
-      "tags": ["章魚"]
+      "tags": [
+        "章魚"
+      ]
     },
     {
       "id": "animal_034",
       "text": "🐾",
-      "tags": ["animal"]
+      "tags": [
+        "animal"
+      ]
     },
     {
       "id": "animal_035",
       "text": "(๑⚈ ᴥ ⚈๑)",
-      "tags": ["bear", "big-eyes", "cute"]
+      "tags": [
+        "bear",
+        "big-eyes",
+        "cute"
+      ]
     },
     {
       "id": "animal_040",
       "text": "0( =^･_･^)=〇",
-      "tags": ["attack", "cat"]
+      "tags": [
+        "attack",
+        "cat"
+      ]
     },
     {
       "id": "animal_042",
       "text": "ᕙ༼◕ ᴥ ◕༽ᕗ",
-      "tags": ["bear", "big-eyes", "cute", "dog", "muscle"]
+      "tags": [
+        "bear",
+        "big-eyes",
+        "cute",
+        "dog",
+        "muscle"
+      ]
     },
     {
       "id": "animal_043",
       "text": "୧ʕ•̀ᴥ•́ʔ୨",
-      "tags": ["bear", "cheer-up", "confident", "motivated"]
+      "tags": [
+        "bear",
+        "cheer-up",
+        "confident",
+        "motivated"
+      ]
     },
     {
       "id": "animal_044",
       "text": "ᕙ[ ˵ ͡’ ω ͡’ ˵ ]ᕗ",
-      "tags": ["animal", "confident", "muscle"]
+      "tags": [
+        "animal",
+        "confident",
+        "muscle"
+      ]
     },
     {
       "id": "animal_046",
       "text": "(=(=(=(=(=(／(ｴ)￣)／",
-      "tags": ["animal", "bear", "running"]
+      "tags": [
+        "animal",
+        "bear",
+        "running"
+      ]
     },
     {
       "id": "animal_047",
       "text": "C= C= C= C=@(/o･ｪ･o)@/",
-      "tags": ["running", "sheep"]
+      "tags": [
+        "running",
+        "sheep"
+      ]
     },
     {
       "id": "animal_048",
       "text": "꜏˔꜊",
-      "tags": ["animal"]
+      "tags": [
+        "animal"
+      ]
     },
     {
       "id": "animal_049",
       "text": "“(`(エ)´)ノ",
-      "tags": ["angry", "bear"]
+      "tags": [
+        "angry",
+        "bear"
+      ]
     },
     {
       "id": "animal_050",
       "text": "(￣(oo)￣)ﾉ",
-      "tags": ["closed-eyes", "pig", "waving"]
-    },
-    {
-      "id": "animal_051",
-      "text": "(￣(ｴ)￣)ﾉ",
-      "tags": ["animal", "bear"]
+      "tags": [
+        "closed-eyes",
+        "pig",
+        "waving"
+      ]
     },
     {
       "id": "animal_052",
       "text": "(*^･ｪ･)ﾉ",
-      "tags": ["dog", "waving"]
+      "tags": [
+        "dog",
+        "waving"
+      ]
     },
     {
       "id": "animal_053",
       "text": "@(o・ェ・)@ノ",
-      "tags": ["animal", "sheep"]
+      "tags": [
+        "animal",
+        "sheep"
+      ]
     },
     {
       "id": "animal_054",
       "text": "ヾ(･ω･*∪",
-      "tags": ["animal", "cute", "dog", "happy"]
+      "tags": [
+        "animal",
+        "cute",
+        "dog",
+        "happy"
+      ]
     },
     {
       "id": "animal_055",
       "text": "ヾ(=´･∀･｀=)",
-      "tags": ["animal", "happiness", "happy"]
+      "tags": [
+        "animal",
+        "happiness",
+        "happy"
+      ]
     },
     {
       "id": "animal_057",
       "text": "ヾ(˹ᆺ˺✿)ﾉﾞ",
-      "tags": ["animal", "cute", "flower"]
+      "tags": [
+        "animal",
+        "cute",
+        "flower"
+      ]
     },
     {
       "id": "animal_058",
       "text": "ヾ(・ᆺ・✿)ﾉﾞ",
-      "tags": ["animal", "cute", "flower"]
-    },
-    {
-      "id": "animal_059",
-      "text": "_〆((ﾐ￣ｴ￣ﾐ))",
-      "tags": ["animal", "writing"]
+      "tags": [
+        "animal",
+        "cute",
+        "flower"
+      ]
     },
     {
       "id": "animal_060",
       "text": "ʕo•ᴥ•ʔ✎",
-      "tags": ["bear", "cute", "writing"]
+      "tags": [
+        "bear",
+        "cute",
+        "writing"
+      ]
     },
     {
       "id": "animal_061",
       "text": "ヽ(^‥^=ゞ)",
-      "tags": ["cat", "neutral", "waving"]
+      "tags": [
+        "cat",
+        "neutral",
+        "waving"
+      ]
     },
     {
       "id": "animal_062",
       "text": "┌U･ｪ･U┘",
-      "tags": ["dancing", "dog"]
+      "tags": [
+        "dancing",
+        "dog"
+      ]
     },
     {
       "id": "animal_063",
       "text": "└(=^‥^=)┐",
-      "tags": ["cat", "dancing", "neutral"]
+      "tags": [
+        "cat",
+        "dancing",
+        "neutral"
+      ]
     },
     {
       "id": "animal_064",
       "text": "└@(･ｪ･)@┐",
-      "tags": ["dancing", "sheep"]
+      "tags": [
+        "dancing",
+        "sheep"
+      ]
     },
     {
       "id": "animal_066",
       "text": "ʕっ•ᴥ•ʔっ",
-      "tags": ["bear", "comfort", "cute", "hug"]
+      "tags": [
+        "bear",
+        "comfort",
+        "cute",
+        "hug"
+      ]
     },
     {
       "id": "animal_071",
       "text": "ϵ( ‘Θ’ )϶",
-      "tags": ["bird", "wings"]
+      "tags": [
+        "bird",
+        "wings"
+      ]
     },
     {
       "id": "animal_072",
       "text": "(≚ᄌ≚)ƶƵ",
-      "tags": ["animal", "sleepy"]
+      "tags": [
+        "animal",
+        "sleepy"
+      ]
     },
     {
       "id": "animal_073",
       "text": "꒰◍ᐡᐤᐡ◍꒱",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_074",
       "text": "꒰◍ᐡᐤᐡ◍꒱ᐝ.∗̥✩⁺˚⑅",
-      "tags": ["animal", "cute", "star"]
+      "tags": [
+        "animal",
+        "cute",
+        "star"
+      ]
     },
     {
       "id": "animal_077",
       "text": "(ᵔᴥᵔ)",
-      "tags": ["animal", "bear", "cute", "dog", "smile"]
+      "tags": [
+        "animal",
+        "bear",
+        "cute",
+        "dog",
+        "smile"
+      ]
     },
     {
       "id": "animal_078",
       "text": "(◕ᴥ◕)",
-      "tags": ["bear", "big-eyes", "cute", "dog"]
+      "tags": [
+        "bear",
+        "big-eyes",
+        "cute",
+        "dog"
+      ]
     },
     {
       "id": "animal_079",
       "text": "ᵔᴥᵔ",
-      "tags": ["animal", "bear", "cute", "dog", "smile"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "animal",
+        "bear",
+        "cute",
+        "dog",
+        "smile"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_080",
       "text": "◕ᴥ◕",
-      "tags": ["bear", "big-eyes", "cute", "dog"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "bear",
+        "big-eyes",
+        "cute",
+        "dog"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_081",
       "text": "^ᴥ^",
-      "tags": ["dog", "happy"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "dog",
+        "happy"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_084",
       "text": ":: (•ᴥ• )́`́’́`́’⻍",
-      "tags": ["animal"]
+      "tags": [
+        "animal"
+      ]
     },
     {
       "id": "animal_085",
       "text": "(:ᘌꇤ⁐ꃳ 三",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_086",
       "text": "( θ ϖ θ )",
-      "tags": ["animal", "dazed"]
+      "tags": [
+        "animal",
+        "dazed"
+      ]
     },
     {
       "id": "animal_088",
       "text": "٩(｡•ㅅ•｡)و",
-      "tags": ["animal", "cheer-up", "cute"]
-    },
-    {
-      "id": "animal_090",
-      "text": "(￣(エ)￣)ゞ",
-      "tags": ["animal", "bear", "salute"]
+      "tags": [
+        "animal",
+        "cheer-up",
+        "cute"
+      ]
     },
     {
       "id": "animal_091",
       "text": "Σʕﾟᴥﾟﾉʔﾉ",
-      "tags": ["bear", "hands-up", "surprised"]
+      "tags": [
+        "bear",
+        "hands-up",
+        "surprised"
+      ]
     },
     {
       "id": "animal_092",
       "text": "¯\\_ȌᴥȌ_/¯",
-      "tags": ["animal", "cute", "shrug"]
+      "tags": [
+        "animal",
+        "cute",
+        "shrug"
+      ]
     },
     {
       "id": "animal_093",
       "text": "(´⊙ω⊙`)！",
-      "tags": ["animal", "surprised"]
+      "tags": [
+        "animal",
+        "surprised"
+      ]
     },
     {
       "id": "animal_103",
       "text": "૮꒰ ˶• ༝ •˶꒱ა",
-      "tags": ["animal", "cute", "shy"]
+      "tags": [
+        "animal",
+        "cute",
+        "shy"
+      ]
     },
     {
       "id": "animal_107",
       "text": "•͈ ༝ •͈",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_108",
       "text": "ᐡ( ᵒ̴̶̷̥́ × ᵒ̴̶̷̣̥̀ )ᐡ",
-      "tags": ["animal", "crying", "dog"]
+      "tags": [
+        "animal",
+        "crying",
+        "dog"
+      ]
     },
     {
       "id": "animal_109",
       "text": "(՞ •̥㉦•̥՞)",
-      "tags": ["animal", "crying", "helpless"]
-    },
-    {
-      "id": "animal_110",
-      "text": "₍ᐢ o̴̶̷᷄ ̫ o̴̶̷̥᷅ ᐢ₎",
-      "tags": ["animal", "crying", "rabbit"]
+      "tags": [
+        "animal",
+        "crying",
+        "helpless"
+      ]
     },
     {
       "id": "animal_113",
       "text": "UʘᴥʘU",
-      "tags": ["big-eyes", "dog"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "big-eyes",
+        "dog"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_114",
       "text": "((=’오’=))",
-      "tags": ["animal", "cat"]
+      "tags": [
+        "animal",
+        "cat"
+      ]
     },
     {
       "id": "animal_115",
       "text": "ˎ₍•ʚ•₎ˏ",
-      "tags": ["bird", "cute"]
+      "tags": [
+        "bird",
+        "cute"
+      ]
     },
     {
       "id": "animal_116",
       "text": "･ꈊ･",
-      "tags": ["animal", "cute", "dog", "sheep"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "animal",
+        "cute",
+        "dog",
+        "sheep"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_117",
       "text": "໒꒰ྀིっ˕ -｡꒱ྀི১",
-      "tags": ["animal", "cute", "sad", "sheep"]
+      "tags": [
+        "animal",
+        "cute",
+        "sad",
+        "sheep"
+      ]
     },
     {
       "id": "animal_118",
       "text": "੯‧̀͡u\\",
-      "tags": ["animal", "cute", "dog", "sheep"]
+      "tags": [
+        "animal",
+        "cute",
+        "dog",
+        "sheep"
+      ]
     },
     {
       "id": "animal_119",
       "text": "✧੯•́໒꒱",
-      "tags": ["animal", "cute", "dog", "sheep", "sparkle"]
+      "tags": [
+        "animal",
+        "cute",
+        "dog",
+        "sheep",
+        "sparkle"
+      ]
     },
     {
       "id": "animal_120",
       "text": "੯‧̀͡₎᭄ྀ",
-      "tags": ["animal", "cute", "dog"]
+      "tags": [
+        "animal",
+        "cute",
+        "dog"
+      ]
     },
     {
       "id": "animal_123",
       "text": "/•᷅‎‎•᷄\\୭",
-      "tags": ["animal", "sad"]
+      "tags": [
+        "animal",
+        "sad"
+      ]
     },
     {
       "id": "animal_124",
       "text": "/ᐠ – ˕ -マ Ⳋ",
-      "tags": ["animal", "cat", "helpless", "sleepy"]
+      "tags": [
+        "animal",
+        "cat",
+        "helpless",
+        "sleepy"
+      ]
     },
     {
       "id": "animal_125",
       "text": "/˃̵ ֊ ˂̵ マ Ⳋ",
-      "tags": ["animal", "cute", "happy"]
+      "tags": [
+        "animal",
+        "cute",
+        "happy"
+      ]
     },
     {
       "id": "animal_126",
       "text": "₍˄•༝•˄₎◞✩︎",
-      "tags": ["animal", "star"]
+      "tags": [
+        "animal",
+        "star"
+      ]
     },
     {
       "id": "animal_127",
       "text": "^•𖥦•^.ᐟ",
-      "tags": ["cat", "cute", "surprised"]
+      "tags": [
+        "cat",
+        "cute",
+        "surprised"
+      ]
     },
     {
       "id": "animal_128",
       "text": "^›⩊‹^ ੭",
-      "tags": ["cat", "thrilled"]
+      "tags": [
+        "cat",
+        "thrilled"
+      ]
     },
     {
       "id": "animal_129",
       "text": "^⦁᎑-^ ੭",
-      "tags": ["cat", "smile", "wink"]
+      "tags": [
+        "cat",
+        "smile",
+        "wink"
+      ]
     },
     {
       "id": "animal_131",
       "text": "^๑_๑^ ੭",
-      "tags": ["cat", "dizzy", "nervous"]
+      "tags": [
+        "cat",
+        "dizzy",
+        "nervous"
+      ]
     },
     {
       "id": "animal_132",
       "text": "^⌯𖥦⌯^ ੭",
-      "tags": ["cat", "happiness"]
+      "tags": [
+        "cat",
+        "happiness"
+      ]
     },
     {
       "id": "animal_133",
       "text": "^•͈ᴗ•͈^ ੭",
-      "tags": ["cat", "shy", "smile"]
+      "tags": [
+        "cat",
+        "shy",
+        "smile"
+      ]
     },
     {
       "id": "animal_134",
       "text": "^･ｪ･^ ੭",
-      "tags": ["cat", "cute"]
+      "tags": [
+        "cat",
+        "cute"
+      ]
     },
     {
       "id": "animal_135",
       "text": "^◜ω◝^ ੭",
-      "tags": ["cat", "happiness"]
+      "tags": [
+        "cat",
+        "happiness"
+      ]
     },
     {
       "id": "animal_136",
       "text": "^• ᵕ •^ ੭",
-      "tags": ["cat", "cute"]
+      "tags": [
+        "cat",
+        "cute"
+      ]
     },
     {
       "id": "animal_137",
       "text": "^•ㅁ•^ ੭",
-      "tags": ["cat", "speechless"]
+      "tags": [
+        "cat",
+        "speechless"
+      ]
     },
     {
       "id": "animal_138",
       "text": "^⑉･-･⑉^ ੭",
-      "tags": ["cat", "speechless"]
+      "tags": [
+        "cat",
+        "speechless"
+      ]
     },
     {
       "id": "animal_139",
       "text": "^･֊･^ ੭",
-      "tags": ["cat", "smile"]
+      "tags": [
+        "cat",
+        "smile"
+      ]
     },
     {
       "id": "animal_140",
       "text": "^=⦁𖥦⦁=^ ੭",
-      "tags": ["cat", "cute"]
+      "tags": [
+        "cat",
+        "cute"
+      ]
     },
     {
       "id": "animal_141",
       "text": "₍˄·͈༝·͈˄*₎◞ ̑̑",
-      "tags": ["animal", "cat", "cute"]
+      "tags": [
+        "animal",
+        "cat",
+        "cute"
+      ]
     },
     {
       "id": "animal_142",
       "text": "^ >𖥦< ^ ੭",
-      "tags": ["cat", "thrilled"]
+      "tags": [
+        "cat",
+        "thrilled"
+      ]
     },
     {
       "id": "animal_143",
       "text": "^●ᴗ●^ ੭",
-      "tags": ["cat", "smile"]
+      "tags": [
+        "cat",
+        "smile"
+      ]
     },
     {
       "id": "animal_144",
       "text": "^◕‿◕^ ੭",
-      "tags": ["big-eyes", "cat", "smile"]
+      "tags": [
+        "big-eyes",
+        "cat",
+        "smile"
+      ]
     },
     {
       "id": "animal_145",
       "text": "૮꒰˶´ᜊ`˶꒱ა",
-      "tags": ["animal", "cute", "sheep", "shy"]
+      "tags": [
+        "animal",
+        "cute",
+        "sheep",
+        "shy"
+      ]
     },
     {
       "id": "animal_147",
       "text": "-̗̀꒰ᐢ•˕•ᐢ꒱̖́-",
-      "tags": ["animal", "cute", "sheep"]
+      "tags": [
+        "animal",
+        "cute",
+        "sheep"
+      ]
     },
     {
       "id": "animal_149",
       "text": "໒꒰ྀི꒰ྀི∩˃ ᵕ ˂∩꒱ྀི꒱ྀི১",
-      "tags": ["animal", "hands-up", "happy", "sheep", "thrilled"]
+      "tags": [
+        "animal",
+        "hands-up",
+        "happy",
+        "sheep",
+        "thrilled"
+      ]
     },
     {
       "id": "animal_150",
       "text": "૮꒰ིྀᐡ•͈ ·̭ •͈ᐡ꒱ིྀა",
-      "tags": ["animal", "cute", "sheep"]
+      "tags": [
+        "animal",
+        "cute",
+        "sheep"
+      ]
     },
     {
       "id": "animal_151",
       "text": "໒꒰ྀི๑⃙⃘• ·̫ •๑⃙⃘꒱ྀི১",
-      "tags": ["animal", "cute", "sheep"]
-    },
-    {
-      "id": "animal_153",
-      "text": "໒꒰ ྀི ′̥̥̥ ᵔ ‵̥̥̥ ꒱ྀིა",
-      "tags": ["animal", "crying", "sheep"]
+      "tags": [
+        "animal",
+        "cute",
+        "sheep"
+      ]
     },
     {
       "id": "animal_154",
       "text": "໒꒰ྀི ⌯’ㅅ’⌯ ꒱ྀིა",
-      "tags": ["animal", "cute", "sheep"]
+      "tags": [
+        "animal",
+        "cute",
+        "sheep"
+      ]
     },
     {
       "id": "animal_156",
       "text": "( ∵ •ө• ∵ )",
-      "tags": ["bird"]
+      "tags": [
+        "bird"
+      ]
     },
     {
       "id": "animal_158",
       "text": "(=^･ω･^=)",
-      "tags": ["cat", "cute"]
+      "tags": [
+        "cat",
+        "cute"
+      ]
     },
     {
       "id": "animal_159",
       "text": "(=^･ｪ･^=)",
-      "tags": ["cat", "cute"]
+      "tags": [
+        "cat",
+        "cute"
+      ]
     },
     {
       "id": "animal_160",
       "text": "(=①ω①=)",
-      "tags": ["cat", "cute"]
+      "tags": [
+        "cat",
+        "cute"
+      ]
     },
     {
       "id": "animal_161",
       "text": "( =ω=)..nyaa",
-      "tags": ["cute"]
+      "tags": [
+        "cute"
+      ]
     },
     {
       "id": "animal_163",
       "text": "(=`ω´=)",
-      "tags": ["cat", "confident"]
+      "tags": [
+        "cat",
+        "confident"
+      ]
     },
     {
       "id": "animal_165",
       "text": "(=⌒‿‿⌒=)",
-      "tags": ["happy", "smile"]
+      "tags": [
+        "happy",
+        "smile"
+      ]
     },
     {
       "id": "animal_166",
       "text": "(=^ ◡ ^=)",
-      "tags": ["cat", "happy", "smile"]
+      "tags": [
+        "cat",
+        "happy",
+        "smile"
+      ]
     },
     {
       "id": "animal_167",
       "text": "(=^-ω-^=)",
-      "tags": ["cat", "closed-eyes", "sleepy"]
+      "tags": [
+        "cat",
+        "closed-eyes",
+        "sleepy"
+      ]
     },
     {
       "id": "animal_168",
       "text": "ヾ(=`ω´=)ノ”",
-      "tags": ["angry", "cat"]
+      "tags": [
+        "angry",
+        "cat"
+      ]
     },
     {
       "id": "animal_169",
       "text": "(＾• ω •＾)",
-      "tags": ["cute", "happy"]
+      "tags": [
+        "cute",
+        "happy"
+      ]
     },
     {
       "id": "animal_172",
@@ -572,200 +950,279 @@
     {
       "id": "animal_173",
       "text": "(^=◕ᴥ◕=^)",
-      "tags": ["big-eyes", "cute", "dog"]
+      "tags": [
+        "big-eyes",
+        "cute",
+        "dog"
+      ]
     },
     {
       "id": "animal_174",
       "text": "( =ω= )",
-      "tags": ["helpless"]
+      "tags": [
+        "helpless"
+      ]
     },
     {
       "id": "animal_175",
       "text": "(^˵◕ω◕˵^)",
-      "tags": ["big-eyes", "cat", "cute", "shy"]
+      "tags": [
+        "big-eyes",
+        "cat",
+        "cute",
+        "shy"
+      ]
     },
     {
       "id": "animal_176",
       "text": "(^◔ᴥ◔^)",
-      "tags": ["cute", "dog", "naughty"]
+      "tags": [
+        "cute",
+        "dog",
+        "naughty"
+      ]
     },
     {
       "id": "animal_177",
       "text": "ต(=ω=)ต",
-      "tags": ["cute"]
+      "tags": [
+        "cute"
+      ]
     },
     {
       "id": "animal_180",
       "text": "( ´(ｴ)ˋ )",
-      "tags": ["bear", "cute", "sad"]
-    },
-    {
-      "id": "animal_181",
-      "text": "(*￣(ｴ)￣*)",
-      "tags": ["bear", "confident", "happiness"]
-    },
-    {
-      "id": "animal_182",
-      "text": "ヽ(￣(ｴ)￣)ﾉ",
-      "tags": ["bear"]
-    },
-    {
-      "id": "animal_183",
-      "text": "(／￣(ｴ)￣)／",
-      "tags": ["bear"]
-    },
-    {
-      "id": "animal_184",
-      "text": "(￣(ｴ)￣)",
-      "tags": ["bear", "cute"]
+      "tags": [
+        "bear",
+        "cute",
+        "sad"
+      ]
     },
     {
       "id": "animal_185",
       "text": "ヽ( ˋ(ｴ)´ )ﾉ",
-      "tags": ["angry", "bear"]
-    },
-    {
-      "id": "animal_186",
-      "text": "⊂(￣(ｴ)￣)⊃",
-      "tags": ["bear", "happiness", "hug"]
+      "tags": [
+        "angry",
+        "bear"
+      ]
     },
     {
       "id": "animal_187",
       "text": "(／(ｴ)＼)",
-      "tags": ["bear", "shy"]
+      "tags": [
+        "bear",
+        "shy"
+      ]
     },
     {
       "id": "animal_188",
       "text": "⊂(´(ェ)ˋ)⊃",
-      "tags": ["bear", "hug", "sad"]
+      "tags": [
+        "bear",
+        "hug",
+        "sad"
+      ]
     },
     {
       "id": "animal_189",
       "text": "(/-(ｴ)-＼)",
-      "tags": ["bear", "shy"]
+      "tags": [
+        "bear",
+        "shy"
+      ]
     },
     {
       "id": "animal_190",
       "text": "(/°(ｴ)°)/",
-      "tags": ["bear", "surprised"]
+      "tags": [
+        "bear",
+        "surprised"
+      ]
     },
     {
       "id": "animal_191",
       "text": "ʕ ᵔᴥᵔ ʔ",
-      "tags": ["bear", "cute", "happy", "smile"]
+      "tags": [
+        "bear",
+        "cute",
+        "happy",
+        "smile"
+      ]
     },
     {
       "id": "animal_192",
       "text": "ʕ •ᴥ• ʔ",
-      "tags": ["bear", "cute"]
+      "tags": [
+        "bear",
+        "cute"
+      ]
     },
     {
       "id": "animal_196",
       "text": "∪＾ェ＾∪",
-      "tags": ["dog", "happy", "smile"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "dog",
+        "happy",
+        "smile"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_197",
       "text": "∪･ω･∪",
-      "tags": ["cute", "dog"],
-      "similarityDetails": ["字元分佈相似"]
-    },
-    {
-      "id": "animal_198",
-      "text": "∪￣-￣∪",
-      "tags": ["confident", "dog"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "cute",
+        "dog"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_199",
       "text": "∪･ｪ･∪",
-      "tags": ["cute", "dog"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "cute",
+        "dog"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_200",
       "text": "Ｕ^皿^Ｕ",
-      "tags": ["dog", "happy"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "dog",
+        "happy"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_201",
       "text": "ＵＴｪＴＵ",
-      "tags": ["crying", "dog", "sheep"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "crying",
+        "dog",
+        "sheep"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_202",
       "text": "V●ᴥ●V",
-      "tags": ["bear", "cute", "dog"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "bear",
+        "cute",
+        "dog"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_203",
       "text": "U・ᴥ・U",
-      "tags": ["bear", "cute", "dog"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "bear",
+        "cute",
+        "dog"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_205",
       "text": "／(･ × ･)＼",
-      "tags": ["cute"]
+      "tags": [
+        "cute"
+      ]
     },
     {
       "id": "animal_211",
       "text": "( ´(00)ˋ )",
-      "tags": ["cute", "helpless", "pig"]
-    },
-    {
-      "id": "animal_212",
-      "text": "(￣(ω)￣)",
-      "tags": ["cute", "happiness"]
+      "tags": [
+        "cute",
+        "helpless",
+        "pig"
+      ]
     },
     {
       "id": "animal_213",
       "text": "ヽ( ˋ(00)´ )ノ",
-      "tags": ["displeased", "hands-up", "pig", "shout"]
+      "tags": [
+        "displeased",
+        "hands-up",
+        "pig",
+        "shout"
+      ]
     },
     {
       "id": "animal_214",
       "text": "＼(￣(oo)￣)／",
-      "tags": ["banzai", "closed-eyes", "pig", "speechless"]
+      "tags": [
+        "banzai",
+        "closed-eyes",
+        "pig",
+        "speechless"
+      ]
     },
     {
       "id": "animal_215",
       "text": "｡ﾟ(ﾟ´(00)`ﾟ)ﾟ｡",
-      "tags": ["crying", "helpless", "pig"]
+      "tags": [
+        "crying",
+        "helpless",
+        "pig"
+      ]
     },
     {
       "id": "animal_216",
       "text": "(￣(00)￣)",
-      "tags": ["closed-eyes", "pig", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "pig",
+        "speechless"
+      ]
     },
     {
       "id": "animal_217",
       "text": "(ˆ(oo)ˆ)",
-      "tags": ["happy", "pig"]
+      "tags": [
+        "happy",
+        "pig"
+      ]
     },
     {
       "id": "animal_219",
       "text": "(`･Θ･´)",
-      "tags": ["bird", "cute"]
+      "tags": [
+        "bird",
+        "cute"
+      ]
     },
     {
       "id": "animal_221",
       "text": "(◉Θ◉)",
-      "tags": ["big-eyes", "bird"]
+      "tags": [
+        "big-eyes",
+        "bird"
+      ]
     },
     {
       "id": "animal_224",
       "text": "(・Θ・)",
-      "tags": ["bird", "cute"]
-    },
-    {
-      "id": "animal_225",
-      "text": "ヾ(￣◇￣)ノ〃",
-      "tags": ["surprised"]
+      "tags": [
+        "bird",
+        "cute"
+      ]
     },
     {
       "id": "animal_226",
@@ -780,37 +1237,47 @@
     {
       "id": "animal_231",
       "text": "≧( ° ° )≦",
-      "tags": ["cute", "surprised"]
+      "tags": [
+        "cute",
+        "surprised"
+      ]
     },
     {
       "id": "animal_232",
       "text": "/╲/\\╭(ఠఠ益ఠఠ)╮/\\╱\\",
-      "tags": ["angry"]
-    },
-    {
-      "id": "animal_234",
-      "text": "/╲/\\╭༼ ººل͟ºº ༽╮/\\╱\\",
-      "tags": ["surprised"]
+      "tags": [
+        "angry"
+      ]
     },
     {
       "id": "animal_236",
       "text": "/╲/\\╭[ ᴼᴼ ౪ ᴼᴼ]╮/\\╱\\",
-      "tags": ["confident"]
+      "tags": [
+        "confident"
+      ]
     },
     {
       "id": "animal_237",
       "text": "/╲/\\( •̀ ω •́ )/\\╱\\",
-      "tags": ["confident"]
+      "tags": [
+        "confident"
+      ]
     },
     {
       "id": "animal_239",
       "text": "(●｀･(ｴ)･´●)",
-      "tags": ["angry", "bear"]
+      "tags": [
+        "angry",
+        "bear"
+      ]
     },
     {
       "id": "animal_240",
       "text": "(ó㉨ò)",
-      "tags": ["bear", "cute"]
+      "tags": [
+        "bear",
+        "cute"
+      ]
     },
     {
       "id": "animal_242",
@@ -820,1258 +1287,2305 @@
     {
       "id": "animal_244",
       "text": "ヾ(；ﾟ(OO)ﾟ)ﾉ",
-      "tags": ["hands-up", "nervous", "pig", "sweat-drop"]
+      "tags": [
+        "hands-up",
+        "nervous",
+        "pig",
+        "sweat-drop"
+      ]
     },
     {
       "id": "animal_245",
       "text": "(❍ᴥ❍ʋ)",
-      "tags": ["cute", "dog"]
+      "tags": [
+        "cute",
+        "dog"
+      ]
     },
     {
       "id": "animal_246",
       "text": "(•ө•)",
-      "tags": ["cute"]
+      "tags": [
+        "cute"
+      ]
     },
     {
       "id": "animal_247",
       "text": "(o･e･)",
-      "tags": ["cute"]
+      "tags": [
+        "cute"
+      ]
     },
     {
       "id": "animal_248",
       "text": "( ิ◕㉨◕ ิ)",
-      "tags": ["bear", "big-eyes", "cute"]
+      "tags": [
+        "bear",
+        "big-eyes",
+        "cute"
+      ]
     },
     {
       "id": "animal_249",
       "text": "(ΦωΦ)",
-      "tags": ["cat"]
+      "tags": [
+        "cat"
+      ]
     },
     {
       "id": "animal_250",
       "text": "(｡･㉨･｡)",
-      "tags": ["bear", "cute"]
+      "tags": [
+        "bear",
+        "cute"
+      ]
     },
     {
       "id": "animal_251",
       "text": "ก็ʕ•͡ᴥ•ʔ ก้",
-      "tags": ["bear", "cute", "hands-up"]
+      "tags": [
+        "bear",
+        "cute",
+        "hands-up"
+      ]
     },
     {
       "id": "animal_253",
       "text": "(⁰⊖⁰)",
-      "tags": ["dazed", "penguin"]
+      "tags": [
+        "dazed",
+        "penguin"
+      ]
     },
     {
       "id": "animal_255",
       "text": "(´;;◉;⊖;◉;;｀)",
-      "tags": ["big-eyes", "sweat-drop", "bird"]
+      "tags": [
+        "big-eyes",
+        "sweat-drop",
+        "bird"
+      ]
     },
     {
       "id": "animal_256",
       "text": "(=´ᴥ`)",
-      "tags": ["dog", "happiness", "smile"]
+      "tags": [
+        "dog",
+        "happiness",
+        "smile"
+      ]
     },
     {
       "id": "animal_257",
       "text": "Φ౪Φ",
-      "tags": ["cat", "confident"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "cat",
+        "confident"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_259",
       "text": "(･8･)",
-      "tags": ["cute"]
+      "tags": [
+        "cute"
+      ]
     },
     {
       "id": "animal_260",
       "text": "Ꮚ･ꈊ･Ꮚ",
-      "tags": ["cute", "sheep"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "cute",
+        "sheep"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_262",
       "text": "▼・ᴥ・▼",
-      "tags": ["cute", "dog"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "cute",
+        "dog"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_265",
       "text": "૮꒰ྀི⁔• ༝ •⁔꒱ྀིა",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_266",
       "text": "⌯⦁⩊⦁⌯ಣ",
-      "tags": ["animal", "happiness", "smile"]
+      "tags": [
+        "animal",
+        "happiness",
+        "smile"
+      ]
     },
     {
       "id": "animal_268",
       "text": "𐔌՞⁔•͈ ·̫ •͈⁔՞𐦯",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_269",
       "text": "🍼ヾ꒰´๑ ⑅꒱",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_273",
       "text": "/ᐠ ᴗ ̫ ᴗ ᐟ\\ꕀෆ",
-      "tags": ["animal", "cat", "cute", "happy", "love"]
+      "tags": [
+        "animal",
+        "cat",
+        "cute",
+        "happy",
+        "love"
+      ]
     },
     {
       "id": "animal_274",
       "text": "₍̫̫ᵔ ˲ ̫ ˱ ᵔ₎ ̫̫",
-      "tags": ["animal", "happy"]
+      "tags": [
+        "animal",
+        "happy"
+      ]
     },
     {
       "id": "animal_275",
       "text": "ᶘᵔᵌᵔᶅ",
-      "tags": ["animal", "cute", "smile"]
+      "tags": [
+        "animal",
+        "cute",
+        "smile"
+      ]
     },
     {
       "id": "animal_276",
       "text": "ෆ⸒⸒ᐡ•͈ ·̭ •͈ᐡෆ⸒⸒",
-      "tags": ["animal", "dog", "helpless", "love", "sad"]
+      "tags": [
+        "animal",
+        "dog",
+        "helpless",
+        "love",
+        "sad"
+      ]
     },
     {
       "id": "animal_277",
       "text": "꒰՞ɞ̴̶̷̥⩊ɞ̴̶̷̥꒱֯🍼",
-      "tags": ["animal", "crying", "cute", "wings"]
+      "tags": [
+        "animal",
+        "crying",
+        "cute",
+        "wings"
+      ]
     },
     {
       "id": "animal_282",
       "text": "૮₍ྀི ੑ𐬎 ݂. ٜ .݂ୄྀིა ̥ﾟ☘.⋆",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_283",
       "text": "꒰ᐡ⸝ɞ̴̶̷ 𞥙 ɞ̴̶̷⸝ᐡ꒱ ׁ ₊",
-      "tags": ["animal", "cute", "sparkle", "wings"]
+      "tags": [
+        "animal",
+        "cute",
+        "sparkle",
+        "wings"
+      ]
     },
     {
       "id": "animal_285",
       "text": "̗  ̗꤮︠  ̫꤮︡ ̗  ̗",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_287",
       "text": "₍ᐢ• ᴗ⁠ •ᐢ₎",
-      "tags": ["animal", "cute", "happy", "rabbit"]
+      "tags": [
+        "animal",
+        "cute",
+        "happy",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_288",
       "text": "ˁˆˑˆˀ",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_289",
       "text": "(˶• ﻌ •˶)",
-      "tags": ["bear", "cute", "shy"]
+      "tags": [
+        "bear",
+        "cute",
+        "shy"
+      ]
     },
     {
       "id": "animal_290",
       "text": "ᐢ ̳ᴗ ̫ ᴗ ̳ᐢ",
-      "tags": ["cute", "happiness", "smile"]
+      "tags": [
+        "cute",
+        "happiness",
+        "smile"
+      ]
     },
     {
       "id": "animal_292",
       "text": "૮꒰•༝ •。꒱ა",
-      "tags": ["animal", "cute", "thinking"]
+      "tags": [
+        "animal",
+        "cute",
+        "thinking"
+      ]
     },
     {
       "id": "animal_293",
       "text": "૮꒰ིྀ˶꜆´˘꜀˶꒱ིྀა",
-      "tags": ["animal", "happiness", "happy", "shy"]
+      "tags": [
+        "animal",
+        "happiness",
+        "happy",
+        "shy"
+      ]
     },
     {
       "id": "animal_294",
       "text": "꒰✿ᐡ⸝ɞ̴̶̷ ·̮ ɞ̴̶̷⸝ᐡ꒱",
-      "tags": ["animal", "cute", "flower", "wings"]
+      "tags": [
+        "animal",
+        "cute",
+        "flower",
+        "wings"
+      ]
     },
     {
       "id": "animal_295",
       "text": "(ᐡᵕ̤ ·̫ ᵕ̤ᐡ)",
-      "tags": ["animal", "cute", "happiness"]
+      "tags": [
+        "animal",
+        "cute",
+        "happiness"
+      ]
     },
     {
       "id": "animal_296",
       "text": "₍ᐢ·͈●̫·͈⑅ᐢ₎ ୭",
-      "tags": ["animal", "cute", "rabbit"]
+      "tags": [
+        "animal",
+        "cute",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_297",
       "text": "-૮.◜o◝ ა",
-      "tags": ["animal", "happiness"]
+      "tags": [
+        "animal",
+        "happiness"
+      ]
     },
     {
       "id": "animal_299",
       "text": "ᡣ 𓈒⋅ ⩊ ⋅𓈒ྀིა",
-      "tags": ["animal", "happiness", "happy", "smile"]
+      "tags": [
+        "animal",
+        "happiness",
+        "happy",
+        "smile"
+      ]
     },
     {
       "id": "animal_300",
       "text": "⌯ᵔ⩊ᵔ⌯ಣ",
-      "tags": ["animal", "happy", "smile"]
+      "tags": [
+        "animal",
+        "happy",
+        "smile"
+      ]
     },
     {
       "id": "animal_301",
       "text": "⌯>ㅅ•⌯ಣ",
-      "tags": ["animal", "cute", "wink"]
+      "tags": [
+        "animal",
+        "cute",
+        "wink"
+      ]
     },
     {
       "id": "animal_302",
       "text": "⌯･ㅅ･⌯ಣ",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_303",
       "text": "⌯•ᗢ•⌯ಣ",
-      "tags": ["animal", "confident"]
+      "tags": [
+        "animal",
+        "confident"
+      ]
     },
     {
       "id": "animal_306",
       "text": "/ᐠ ᴗ ·̫ ᴗ ྀིマ",
-      "tags": ["animal", "cat", "happiness"]
+      "tags": [
+        "animal",
+        "cat",
+        "happiness"
+      ]
     },
     {
       "id": "animal_307",
       "text": "(˶ᐢ. .ᐢ˵)",
-      "tags": ["animal", "cute", "neutral", "rabbit", "shy"]
+      "tags": [
+        "animal",
+        "cute",
+        "neutral",
+        "rabbit",
+        "shy"
+      ]
     },
     {
       "id": "animal_309",
       "text": "꒰͡ 𐙚 ˶´･.･˶ ͡꒱ ु",
-      "tags": ["animal", "cute", "shy"]
+      "tags": [
+        "animal",
+        "cute",
+        "shy"
+      ]
     },
     {
       "id": "animal_310",
       "text": "/ᐠ ིྀ ˶꜆´˘꜀˶マ",
-      "tags": ["cat", "cute", "shy", "smile"]
+      "tags": [
+        "cat",
+        "cute",
+        "shy",
+        "smile"
+      ]
     },
     {
       "id": "animal_311",
       "text": "૮₍ . ̫ .⑅₎ა",
-      "tags": ["animal", "cute", "shy"]
+      "tags": [
+        "animal",
+        "cute",
+        "shy"
+      ]
     },
     {
       "id": "animal_313",
       "text": "꜀( ՞ . ̫ . ՞ ꜀ ) ꜆",
-      "tags": ["animal"]
+      "tags": [
+        "animal"
+      ]
     },
     {
       "id": "animal_314",
       "text": "𐔌ᵔ꜆ ܸ•⩊•ᵔ 𐦯꜆",
-      "tags": ["cute", "sheep"]
+      "tags": [
+        "cute",
+        "sheep"
+      ]
     },
     {
       "id": "animal_315",
       "text": "ᨳ 𑙕 ᦲ ᆺ ᦲ 𑁬 ഒ",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_316",
       "text": "≽^•༚• ྀི≼",
-      "tags": ["cat", "cute", "neutral"]
+      "tags": [
+        "cat",
+        "cute",
+        "neutral"
+      ]
     },
     {
       "id": "animal_318",
       "text": "ʕ๑'ㅅ'๑ʔ‧˚",
-      "tags": ["animal", "bear", "cute"]
+      "tags": [
+        "animal",
+        "bear",
+        "cute"
+      ]
     },
     {
       "id": "animal_319",
       "text": "૮𐔌՞ơ ·̮ ơ ՞𐦯ა",
-      "tags": ["animal", "cute", "happy"]
+      "tags": [
+        "animal",
+        "cute",
+        "happy"
+      ]
     },
     {
       "id": "animal_322",
       "text": "^꜆. ̫.꜀^",
-      "tags": ["cat", "hug"]
+      "tags": [
+        "cat",
+        "hug"
+      ]
     },
     {
       "id": "animal_325",
       "text": "ᐢ꜆. ̫.꜀ᐢ",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_326",
       "text": "( ՞꜆. ̫.꜀ ՞)",
-      "tags": ["animal"]
+      "tags": [
+        "animal"
+      ]
     },
     {
       "id": "animal_328",
       "text": "𐔌՞꜆. ̫.꜀՞𐦯",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_329",
       "text": "₍ᐡ꜆. ̫.꜀ᐡ₎",
-      "tags": ["animal", "cute", "dog"]
+      "tags": [
+        "animal",
+        "cute",
+        "dog"
+      ]
     },
     {
       "id": "animal_330",
       "text": "( U ꜆. ̫.꜀ )",
-      "tags": ["animal", "helpless"]
+      "tags": [
+        "animal",
+        "helpless"
+      ]
     },
     {
       "id": "animal_331",
       "text": "υ ꜆. ̫.꜀ υ",
-      "tags": ["animal", "cute", "shy"]
+      "tags": [
+        "animal",
+        "cute",
+        "shy"
+      ]
     },
     {
       "id": "animal_332",
       "text": "໒ִ 𓈒ིྀ. ̫ . ིྀაഒ",
-      "tags": ["animal", "cute", "shy"]
+      "tags": [
+        "animal",
+        "cute",
+        "shy"
+      ]
     },
     {
       "id": "animal_333",
       "text": "/ᐠ ꤮ ̫꤮マ",
-      "tags": ["animal", "cat", "cute"]
+      "tags": [
+        "animal",
+        "cat",
+        "cute"
+      ]
     },
     {
       "id": "animal_334",
       "text": "ꉂ ˘ ᵜ ˘ 🦴",
-      "tags": ["animal", "dog", "happy", "lol"]
+      "tags": [
+        "animal",
+        "dog",
+        "happy",
+        "lol"
+      ]
     },
     {
       "id": "animal_335",
       "text": "ϵ(っꈍᗜꈍς)϶",
-      "tags": ["animal", "happy", "hug"]
+      "tags": [
+        "animal",
+        "happy",
+        "hug"
+      ]
     },
     {
       "id": "animal_336",
       "text": "ϵ(っꈍ~ꈍς)϶3",
-      "tags": ["animal", "hug"]
+      "tags": [
+        "animal",
+        "hug"
+      ]
     },
     {
       "id": "animal_337",
       "text": "₍ᐢ⑅•ω•⑅ᐢ₎ദ⸒⸒",
-      "tags": ["animal", "cute", "rabbit", "running"]
+      "tags": [
+        "animal",
+        "cute",
+        "rabbit",
+        "running"
+      ]
     },
     {
       "id": "animal_338",
       "text": "٩(ᐢ⓿ᴥ⓿ᐢ)۶",
-      "tags": ["bear", "cheer-up"]
+      "tags": [
+        "bear",
+        "cheer-up"
+      ]
     },
     {
       "id": "animal_343",
       "text": "•𐔌՞꜆. ̫.꜀՞𐦯",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_344",
       "text": "•/ᐠ. ᴗ.ᐟ\\",
-      "tags": ["animal", "cat", "happiness"]
+      "tags": [
+        "animal",
+        "cat",
+        "happiness"
+      ]
     },
     {
       "id": "animal_346",
       "text": "₍ᐢ. ̫ .ᐢ₎",
-      "tags": ["cute", "rabbit"]
+      "tags": [
+        "cute",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_347",
       "text": "₍ᐢᐢ₎",
-      "tags": ["cute", "rabbit"]
+      "tags": [
+        "cute",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_349",
       "text": "₍⑅ᐢ..ᐢ₎",
-      "tags": ["cute", "neutral", "rabbit"]
+      "tags": [
+        "cute",
+        "neutral",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_350",
       "text": "꒰ᐢ. ̫ .ᐢ꒱",
-      "tags": ["cute", "rabbit"]
+      "tags": [
+        "cute",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_351",
       "text": "₍ᐢ◌•ㅅ•◌ᐢ₎",
-      "tags": ["cute", "rabbit"]
+      "tags": [
+        "cute",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_352",
       "text": "₍ᐢ⑅• ω •⑅ᐢ₎",
-      "tags": ["cute", "happy", "rabbit"]
+      "tags": [
+        "cute",
+        "happy",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_353",
       "text": "₍ ᐢ. ̫ .⑅ᐢ ₎",
-      "tags": ["cute", "rabbit"]
+      "tags": [
+        "cute",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_354",
       "text": "૮₍ • ᴥ • ₎ა",
-      "tags": ["bear", "cute", "dog"]
+      "tags": [
+        "bear",
+        "cute",
+        "dog"
+      ]
     },
     {
       "id": "animal_355",
       "text": "૮₍ ⑅ • ᵜ • ⑅ ₎ა",
-      "tags": ["cute", "dog"]
+      "tags": [
+        "cute",
+        "dog"
+      ]
     },
     {
       "id": "animal_356",
       "text": "₍ᐢ•ﻌ•ᐢ₎",
-      "tags": ["cute", "rabbit"]
+      "tags": [
+        "cute",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_357",
       "text": "/ᐠ. ｡.ᐟ\\ᵐᵉᵒʷˎˊ˗",
-      "tags": ["cat", "cute"]
+      "tags": [
+        "cat",
+        "cute"
+      ]
     },
     {
       "id": "animal_358",
       "text": "૮₍ ´˶• ᴥ •˶` ₎ა",
-      "tags": ["cute", "dog", "shy"]
+      "tags": [
+        "cute",
+        "dog",
+        "shy"
+      ]
     },
     {
       "id": "animal_359",
       "text": "૮₍ ˵ • ꤮ ก ˵ ₎ა",
-      "tags": ["cute", "happiness"]
+      "tags": [
+        "cute",
+        "happiness"
+      ]
     },
     {
       "id": "animal_361",
       "text": "₍ᐢ⑅• ̫•⑅ᐢ₎ദ⸒⸒",
-      "tags": ["cute", "rabbit"]
+      "tags": [
+        "cute",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_363",
       "text": "ʕTᴥT ʔ",
-      "tags": ["bear", "crying"]
+      "tags": [
+        "bear",
+        "crying"
+      ]
     },
     {
       "id": "animal_364",
       "text": "•૮꒰˶ - ˕ -꒱ა",
-      "tags": ["animal", "closed-eyes", "cute", "displeased", "sheep"]
+      "tags": [
+        "animal",
+        "closed-eyes",
+        "cute",
+        "displeased",
+        "sheep"
+      ]
     },
     {
       "id": "animal_365",
       "text": "•≽^- ˕- ≼",
-      "tags": ["cat", "helpless", "sleepy"]
+      "tags": [
+        "cat",
+        "helpless",
+        "sleepy"
+      ]
     },
     {
       "id": "animal_367",
       "text": "₍=୪ Ⱉ ୪=₎",
-      "tags": ["angry", "animal"]
+      "tags": [
+        "angry",
+        "animal"
+      ]
     },
     {
       "id": "animal_368",
       "text": "૮꒰˶ฅ́˘ฅ̀˶꒱ა",
-      "tags": ["animal", "cute", "hands-up", "sheep", "shy"]
+      "tags": [
+        "animal",
+        "cute",
+        "hands-up",
+        "sheep",
+        "shy"
+      ]
     },
     {
       "id": "animal_370",
       "text": "໒꒰՞ ܸ. .ܸ՞꒱ა",
-      "tags": ["animal", "confused", "dazed", "sheep"]
+      "tags": [
+        "animal",
+        "confused",
+        "dazed",
+        "sheep"
+      ]
     },
     {
       "id": "animal_371",
       "text": "૮꒰ ྀི◜๑◝ ꒱ა",
-      "tags": ["animal", "happiness", "sheep", "smile"]
+      "tags": [
+        "animal",
+        "happiness",
+        "sheep",
+        "smile"
+      ]
     },
     {
       "id": "animal_373",
       "text": "૮꒰˶ ･֊･ ˶꒱ა",
-      "tags": ["sheep", "shy", "smile"]
+      "tags": [
+        "sheep",
+        "shy",
+        "smile"
+      ]
     },
     {
       "id": "animal_374",
       "text": "૮꒰˶ ᷇ 𖥦 ᷆ ˵꒱ა",
-      "tags": ["happiness", "sheep", "shy", "smile"]
+      "tags": [
+        "happiness",
+        "sheep",
+        "shy",
+        "smile"
+      ]
     },
     {
       "id": "animal_375",
       "text": "૮꒰ ᴗ . ᴗྀི ꒱ა",
-      "tags": ["animal", "happiness", "sheep", "smile"]
+      "tags": [
+        "animal",
+        "happiness",
+        "sheep",
+        "smile"
+      ]
     },
     {
       "id": "animal_377",
       "text": "₊⁺ ૮꒰ •͈ ·̭ •͈ ꒱ა ⁺₊",
-      "tags": ["animal", "helpless", "sad", "sheep"]
+      "tags": [
+        "animal",
+        "helpless",
+        "sad",
+        "sheep"
+      ]
     },
     {
       "id": "animal_378",
       "text": "•૮꒰◞ ˕ ◟ ꒱ა",
-      "tags": ["animal", "helpless", "sad", "sheep"]
+      "tags": [
+        "animal",
+        "helpless",
+        "sad",
+        "sheep"
+      ]
     },
     {
       "id": "animal_381",
       "text": "૮Ꮚ⑅˵ᴗ͈ . ᴗ͈꒱ა",
-      "tags": ["animal", "cute", "sheep", "shy"]
+      "tags": [
+        "animal",
+        "cute",
+        "sheep",
+        "shy"
+      ]
     },
     {
       "id": "animal_382",
       "text": "૮꒰ ྀི˶• ๑ •˶ ྀི꒱ა",
-      "tags": ["cute", "sheep", "shy"]
+      "tags": [
+        "cute",
+        "sheep",
+        "shy"
+      ]
     },
     {
       "id": "animal_386",
       "text": "૮꒰˵ꈍ .̮ ꈍ˵꒱ა",
-      "tags": ["animal", "happiness", "happy", "shy"]
+      "tags": [
+        "animal",
+        "happiness",
+        "happy",
+        "shy"
+      ]
     },
     {
       "id": "animal_387",
       "text": "•૮꒰ ˶- ༝ - ˶꒱ა ♡",
-      "tags": ["closed-eyes", "cute", "love", "sheep", "shy", "sleepy", "x-mouth"]
+      "tags": [
+        "closed-eyes",
+        "cute",
+        "love",
+        "sheep",
+        "shy",
+        "sleepy",
+        "x-mouth"
+      ]
     },
     {
       "id": "animal_389",
       "text": "꒰ᐢɞ̴̶̷ ·̫ ɞ̴̶̷ᐢ꒱",
-      "tags": ["animal", "cute", "love", "sheep", "wings"]
+      "tags": [
+        "animal",
+        "cute",
+        "love",
+        "sheep",
+        "wings"
+      ]
     },
     {
       "id": "animal_394",
       "text": "₍ᐢ •͈ ༝ •͈ ᐢ₎♡",
-      "tags": ["animal", "cute", "love", "rabbit"]
+      "tags": [
+        "animal",
+        "cute",
+        "love",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_395",
       "text": "ʜɪ⚞ ᕬᕬ ෆ",
-      "tags": ["animal", "cute", "love", "rabbit"]
+      "tags": [
+        "animal",
+        "cute",
+        "love",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_396",
       "text": "(っ˶ᐢ. .ᐢ˵)っ",
-      "tags": ["cute", "hug", "neutral", "rabbit", "shy"]
+      "tags": [
+        "cute",
+        "hug",
+        "neutral",
+        "rabbit",
+        "shy"
+      ]
     },
     {
       "id": "animal_397",
       "text": "₍ᐢ ๑ • 𖥦 • ๑ ᐢ₎ ♡",
-      "tags": ["animal", "cute", "love", "rabbit"]
+      "tags": [
+        "animal",
+        "cute",
+        "love",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_398",
       "text": "₍ᐢ._.ᐢ₎♡ ༘",
-      "tags": ["love", "neutral", "rabbit"]
+      "tags": [
+        "love",
+        "neutral",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_400",
       "text": "ル ˖ ♡ ₍ ᐢ..ᐢ ₎ 📍 ࣪ . ›",
-      "tags": ["cute", "love", "neutral", "rabbit", "text"]
+      "tags": [
+        "cute",
+        "love",
+        "neutral",
+        "rabbit",
+        "text"
+      ]
     },
     {
       "id": "animal_405",
       "text": "ʚ₍ᐢ ›̥̥̥ ༝ ‹̥̥̥ ᐢ₎ɞ",
-      "tags": ["crying", "rabbit", "wings", "x-mouth"]
+      "tags": [
+        "crying",
+        "rabbit",
+        "wings",
+        "x-mouth"
+      ]
     },
     {
       "id": "animal_406",
       "text": "ᐢ× ༝ ×ᐢ",
-      "tags": ["animal", "dizzy", "rabbit"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "animal",
+        "dizzy",
+        "rabbit"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_407",
       "text": "₍ᐢ  ›  ̫ ‹ ᐢ₎",
-      "tags": ["helpless", "rabbit", "sad", "shy"]
+      "tags": [
+        "helpless",
+        "rabbit",
+        "sad",
+        "shy"
+      ]
     },
     {
       "id": "animal_409",
       "text": "₍ᐢ.ˬ.⑅ᐢ₎",
-      "tags": ["cute", "rabbit", "smile"]
+      "tags": [
+        "cute",
+        "rabbit",
+        "smile"
+      ]
     },
     {
       "id": "animal_413",
       "text": "꜀(^. .^꜀ )꜆੭",
-      "tags": ["cat", "hug", "neutral"]
+      "tags": [
+        "cat",
+        "hug",
+        "neutral"
+      ]
     },
     {
       "id": "animal_414",
       "text": "ฅ(´꒳ `ฅ)ꪆ",
-      "tags": ["animal", "cat", "hands-up", "happy"]
+      "tags": [
+        "animal",
+        "cat",
+        "hands-up",
+        "happy"
+      ]
     },
     {
       "id": "animal_415",
       "text": "ヽ(=^･ω･^=)丿",
-      "tags": ["banzai", "cat", "cheer-up"]
+      "tags": [
+        "banzai",
+        "cat",
+        "cheer-up"
+      ]
     },
     {
       "id": "animal_416",
       "text": "ヾ(*ΦωΦ)ツ",
-      "tags": ["cat"]
+      "tags": [
+        "cat"
+      ]
     },
     {
       "id": "animal_417",
       "text": "/ᐠ .ᆺ. ᐟ\\ﾉ",
-      "tags": ["cat", "cute"]
+      "tags": [
+        "cat",
+        "cute"
+      ]
     },
     {
       "id": "animal_419",
       "text": "—ฅ/ᐠ. ̫ .ᐟ\\ฅ —",
-      "tags": ["animal", "cat", "hands-up"]
+      "tags": [
+        "animal",
+        "cat",
+        "hands-up"
+      ]
     },
     {
       "id": "animal_420",
       "text": "₍˄.͡˳̫.˄₎ฅ˒˒",
-      "tags": ["animal", "cat", "cute"]
+      "tags": [
+        "animal",
+        "cat",
+        "cute"
+      ]
     },
     {
       "id": "animal_421",
       "text": "ฅ^•ﻌ•^ฅ",
-      "tags": ["cat", "cute", "hands-up"],
-      "similarityDetails": ["字元分佈相似"]
-    },
-    {
-      "id": "animal_423",
-      "text": "ฅ/ᐠ灬. ̫ .灬ᐟ\\ฅ",
-      "tags": ["animal", "cat", "hands-up", "shy"]
+      "tags": [
+        "cat",
+        "cute",
+        "hands-up"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_424",
       "text": "Ψ(Φ皿Φ)))～††",
-      "tags": ["angry", "cat", "devil"]
+      "tags": [
+        "angry",
+        "cat",
+        "devil"
+      ]
     },
     {
       "id": "animal_425",
       "text": "ψ(^Ф∀Ф^)ψ",
-      "tags": ["cat", "devil", "scheming"]
+      "tags": [
+        "cat",
+        "devil",
+        "scheming"
+      ]
     },
     {
       "id": "animal_426",
       "text": "↑_(ΦwΦ;)Ψ",
-      "tags": ["cat", "cute", "devil"]
+      "tags": [
+        "cat",
+        "cute",
+        "devil"
+      ]
     },
     {
       "id": "animal_427",
       "text": "(˄·͈༝·͈˄₎.｡oO",
-      "tags": ["cat", "shy", "thinking", "x-mouth"]
+      "tags": [
+        "cat",
+        "shy",
+        "thinking",
+        "x-mouth"
+      ]
     },
     {
       "id": "animal_428",
       "text": "☆^(ｏ´Ф∇Ф)o",
-      "tags": ["star", "thrilled"]
+      "tags": [
+        "star",
+        "thrilled"
+      ]
     },
     {
       "id": "animal_430",
       "text": "/ᐠ. ᴗ.ᐟ\\",
-      "tags": ["cat", "happiness", "happy", "smile"]
+      "tags": [
+        "cat",
+        "happiness",
+        "happy",
+        "smile"
+      ]
     },
     {
       "id": "animal_432",
       "text": "(ΦзΦ)",
-      "tags": ["animal", "cat", "pouting"]
+      "tags": [
+        "animal",
+        "cat",
+        "pouting"
+      ]
     },
     {
       "id": "animal_435",
       "text": "/ᐠ . ֑ . ᐟ\\ﾉ",
-      "tags": ["cat", "crying"]
+      "tags": [
+        "cat",
+        "crying"
+      ]
     },
     {
       "id": "animal_436",
       "text": "/ᐠ۪. ̱ . ۪ᐟ\\ﾉ",
-      "tags": ["cat", "crying"]
+      "tags": [
+        "cat",
+        "crying"
+      ]
     },
     {
       "id": "animal_438",
       "text": "(#´∞｀∫)∫",
-      "tags": ["animal", "running"]
+      "tags": [
+        "animal",
+        "running"
+      ]
     },
     {
       "id": "animal_439",
       "text": "(=\\`•ω•´)",
-      "tags": ["animal", "cat", "confident", "cute"]
+      "tags": [
+        "animal",
+        "cat",
+        "confident",
+        "cute"
+      ]
     },
     {
       "id": "animal_440",
       "text": "(=^•ω•)",
-      "tags": ["animal", "cat", "cute"]
+      "tags": [
+        "animal",
+        "cat",
+        "cute"
+      ]
     },
     {
       "id": "animal_441",
       "text": "(^•x•^)",
-      "tags": ["animal", "cat", "x-mouth"]
+      "tags": [
+        "animal",
+        "cat",
+        "x-mouth"
+      ]
     },
     {
       "id": "animal_442",
       "text": "ฅ(=･ω･=)ฅ",
-      "tags": ["animal", "cat", "cute", "hands-up"]
+      "tags": [
+        "animal",
+        "cat",
+        "cute",
+        "hands-up"
+      ]
     },
     {
       "id": "animal_443",
       "text": "(ฅ'ω'ฅ)",
-      "tags": ["animal", "cat", "cute", "hands-up", "shy"]
+      "tags": [
+        "animal",
+        "cat",
+        "cute",
+        "hands-up",
+        "shy"
+      ]
     },
     {
       "id": "animal_444",
       "text": "ฅ^•ω•^ฅ",
-      "tags": ["animal", "cat", "cute", "hands-up"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "animal",
+        "cat",
+        "cute",
+        "hands-up"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_446",
       "text": "₍˄·͈༝·͈˄₎♡",
-      "tags": ["animal", "cat", "cute", "love"]
+      "tags": [
+        "animal",
+        "cat",
+        "cute",
+        "love"
+      ]
     },
     {
       "id": "animal_447",
       "text": "ᐞ•༝•ᐞ₎◞ ̑̑",
-      "tags": ["animal", "cat", "cute"]
+      "tags": [
+        "animal",
+        "cat",
+        "cute"
+      ]
     },
     {
       "id": "animal_448",
       "text": "( =•ω• =)",
-      "tags": ["animal", "cat", "cute", "smile"]
+      "tags": [
+        "animal",
+        "cat",
+        "cute",
+        "smile"
+      ]
     },
     {
       "id": "animal_449",
       "text": "ฅ(`•ᆺ•´)ฅ",
-      "tags": ["angry", "animal", "cat", "hands-up"]
+      "tags": [
+        "angry",
+        "animal",
+        "cat",
+        "hands-up"
+      ]
     },
     {
       "id": "animal_450",
       "text": "ฅ^•ω•^ฅ♡",
-      "tags": ["cat", "cute", "hands-up", "love"]
+      "tags": [
+        "cat",
+        "cute",
+        "hands-up",
+        "love"
+      ]
     },
     {
       "id": "animal_451",
       "text": "ฅ^•ﻌ•^ฅ♡",
-      "tags": ["cute", "dog", "hands-up", "love"]
+      "tags": [
+        "cute",
+        "dog",
+        "hands-up",
+        "love"
+      ]
     },
     {
       "id": "animal_452",
       "text": "ฅ•ω•ฅﾆｬﾆｬｰﾝ✧",
-      "tags": ["animal", "cat", "cute", "hands-up", "shout", "sparkle"]
+      "tags": [
+        "animal",
+        "cat",
+        "cute",
+        "hands-up",
+        "shout",
+        "sparkle"
+      ]
     },
     {
       "id": "animal_453",
       "text": "๑•̀ㅁ•́ฅ✧にゃ!!",
-      "tags": ["animal", "cat", "cute", "shout", "sparkle"]
+      "tags": [
+        "animal",
+        "cat",
+        "cute",
+        "shout",
+        "sparkle"
+      ]
     },
     {
       "id": "animal_454",
       "text": "(▼・ᴥ・▼)",
-      "tags": ["animal", "cute", "dog"]
+      "tags": [
+        "animal",
+        "cute",
+        "dog"
+      ]
     },
     {
       "id": "animal_455",
       "text": "(U・ᴥ・U)",
-      "tags": ["animal", "cute", "dog", "smile"]
+      "tags": [
+        "animal",
+        "cute",
+        "dog",
+        "smile"
+      ]
     },
     {
       "id": "animal_456",
       "text": "(υ´•ﻌ•`υ)",
-      "tags": ["animal", "dog", "sad"]
+      "tags": [
+        "animal",
+        "dog",
+        "sad"
+      ]
     },
     {
       "id": "animal_457",
       "text": "ᐡ• ˕ •ᐡ",
-      "tags": ["animal", "cute"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "animal",
+        "cute"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_458",
       "text": "υ´• ﻌ •`υ",
-      "tags": ["animal", "dog"]
+      "tags": [
+        "animal",
+        "dog"
+      ]
     },
     {
       "id": "animal_459",
       "text": "꒰ ՞•ﻌ•՞ ꒱",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_460",
       "text": "ฅᐡ•ﻌ•ᐡฅ",
-      "tags": ["animal", "cute", "dog", "hands-up"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "animal",
+        "cute",
+        "dog",
+        "hands-up"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_461",
       "text": "(ᐡ- ﻌ •ᐡ)",
-      "tags": ["animal", "cute", "dog", "shy"]
+      "tags": [
+        "animal",
+        "cute",
+        "dog",
+        "shy"
+      ]
     },
     {
       "id": "animal_463",
       "text": "ｏᐡ - ﻌ • ᐡฅ❤︎",
-      "tags": ["animal", "cute", "dog", "love", "wink"]
+      "tags": [
+        "animal",
+        "cute",
+        "dog",
+        "love",
+        "wink"
+      ]
     },
     {
       "id": "animal_464",
       "text": "(ᐡ •͈ ·̫ •͈ ᐡ)",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_467",
       "text": "ᵕ•ᴥ•ʾ",
-      "tags": ["animal", "bear", "cute"]
+      "tags": [
+        "animal",
+        "bear",
+        "cute"
+      ]
     },
     {
       "id": "animal_468",
       "text": "ฅʕ •ﻌ• ʔฅ♬*ﾟ",
-      "tags": ["bear", "cute", "hands-up", "music"]
+      "tags": [
+        "bear",
+        "cute",
+        "hands-up",
+        "music"
+      ]
     },
     {
       "id": "animal_469",
       "text": "ʕ　·ᴥ·ʔ",
-      "tags": ["bear", "cute"]
+      "tags": [
+        "bear",
+        "cute"
+      ]
     },
     {
       "id": "animal_470",
       "text": "ʕ•ﻌ•ʔฅ",
-      "tags": ["bear", "cute", "hands-up"]
+      "tags": [
+        "bear",
+        "cute",
+        "hands-up"
+      ]
     },
     {
       "id": "animal_471",
       "text": "ʕ´•ᴥ•`ʔ",
-      "tags": ["bear", "cute"]
+      "tags": [
+        "bear",
+        "cute"
+      ]
     },
     {
       "id": "animal_472",
       "text": "ʕ •ɷ• ʔ",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_474",
       "text": "ʕ•ﻌ•ʔ♡",
-      "tags": ["bear", "cute", "love"]
+      "tags": [
+        "bear",
+        "cute",
+        "love"
+      ]
     },
     {
       "id": "animal_475",
       "text": "ʕ ´ᴥ` ʔ",
-      "tags": ["bear", "cute", "helpless"]
+      "tags": [
+        "bear",
+        "cute",
+        "helpless"
+      ]
     },
     {
       "id": "animal_476",
       "text": "ʕ ›ᴥ‹ ʔ",
-      "tags": ["bear", "cute", "thrilled"]
+      "tags": [
+        "bear",
+        "cute",
+        "thrilled"
+      ]
     },
     {
       "id": "animal_478",
       "text": "ᕱ⑅ᕱﾞ",
-      "tags": ["animal", "cute", "rabbit"]
+      "tags": [
+        "animal",
+        "cute",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_480",
       "text": "✿♡*.ᕱ⋈ᕱ",
-      "tags": ["animal", "cute", "flower", "love", "rabbit"]
+      "tags": [
+        "animal",
+        "cute",
+        "flower",
+        "love",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_481",
       "text": "∩• ௰ •∩ ੈ♡",
-      "tags": ["animal", "cute", "hands-up", "love", "rabbit"]
+      "tags": [
+        "animal",
+        "cute",
+        "hands-up",
+        "love",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_482",
       "text": "₍ᐢ｡•༝•｡ᐢ₎",
-      "tags": ["animal", "cute", "rabbit"]
+      "tags": [
+        "animal",
+        "cute",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_483",
       "text": "❤︎₍ᐢ·͈༝·͈ᐢ₎",
-      "tags": ["animal", "cute", "love", "rabbit", "x-mouth"]
+      "tags": [
+        "animal",
+        "cute",
+        "love",
+        "rabbit",
+        "x-mouth"
+      ]
     },
     {
       "id": "animal_484",
       "text": "(ᐢ⑅•௰•⑅ᐢ)",
-      "tags": ["animal", "cute", "rabbit", "shy"]
+      "tags": [
+        "animal",
+        "cute",
+        "rabbit",
+        "shy"
+      ]
     },
     {
       "id": "animal_485",
       "text": "ᙏ",
-      "tags": ["animal", "cute", "rabbit"]
+      "tags": [
+        "animal",
+        "cute",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_487",
       "text": "c(U*･×･)U",
-      "tags": ["animal", "cute", "dog"]
+      "tags": [
+        "animal",
+        "cute",
+        "dog"
+      ]
     },
     {
       "id": "animal_488",
       "text": "( ∪･ω･∪ )♡",
-      "tags": ["animal", "cute", "dog", "love"]
+      "tags": [
+        "animal",
+        "cute",
+        "dog",
+        "love"
+      ]
     },
     {
       "id": "animal_489",
       "text": "₍ᐢ‥ᐢ₎ ♡",
-      "tags": ["animal", "cute", "love"]
+      "tags": [
+        "animal",
+        "cute",
+        "love"
+      ]
     },
     {
       "id": "animal_491",
       "text": "(・‘‘∪",
-      "tags": ["animal", "dog", "snoopy"]
+      "tags": [
+        "animal",
+        "dog",
+        "snoopy"
+      ]
     },
     {
       "id": "animal_492",
       "text": "●“・)",
-      "tags": ["animal", "dog", "snoopy"]
+      "tags": [
+        "animal",
+        "dog",
+        "snoopy"
+      ]
     },
     {
       "id": "animal_493",
       "text": "(・‘‘(●)",
-      "tags": ["animal", "dog", "snoopy"]
+      "tags": [
+        "animal",
+        "dog",
+        "snoopy"
+      ]
     },
     {
       "id": "animal_494",
       "text": "(●)´｀・)",
-      "tags": ["animal", "dog", "snoopy"]
+      "tags": [
+        "animal",
+        "dog",
+        "snoopy"
+      ]
     },
     {
       "id": "animal_495",
       "text": "（･´`(●)*",
-      "tags": ["animal", "dog", "snoopy"]
+      "tags": [
+        "animal",
+        "dog",
+        "snoopy"
+      ]
     },
     {
       "id": "animal_496",
       "text": "(・´`(○)",
-      "tags": ["animal", "dog", "snoopy"]
+      "tags": [
+        "animal",
+        "dog",
+        "snoopy"
+      ]
     },
     {
       "id": "animal_497",
       "text": "Ｕ´`・）",
-      "tags": ["animal", "dog", "snoopy"]
+      "tags": [
+        "animal",
+        "dog",
+        "snoopy"
+      ]
     },
     {
       "id": "animal_498",
       "text": "(･¨ ●)sɴᴏᴏᴘʏ♡",
-      "tags": ["animal", "dog", "love", "snoopy"]
+      "tags": [
+        "animal",
+        "dog",
+        "love",
+        "snoopy"
+      ]
     },
     {
       "id": "animal_499",
       "text": "(●)´｀・)♡",
-      "tags": ["animal", "dog", "love", "snoopy"]
+      "tags": [
+        "animal",
+        "dog",
+        "love",
+        "snoopy"
+      ]
     },
     {
       "id": "animal_500",
       "text": "(・×・)",
-      "tags": ["animal", "cute", "rabbit"]
+      "tags": [
+        "animal",
+        "cute",
+        "rabbit"
+      ]
     },
     {
       "id": "animal_502",
       "text": "(*´×`*)",
-      "tags": ["animal", "cute", "rabbit", "shy"]
+      "tags": [
+        "animal",
+        "cute",
+        "rabbit",
+        "shy"
+      ]
     },
     {
       "id": "animal_503",
       "text": "(´・×・｀)",
-      "tags": ["animal", "rabbit", "sad"]
+      "tags": [
+        "animal",
+        "rabbit",
+        "sad"
+      ]
     },
     {
       "id": "animal_504",
       "text": "ฅ՞••՞ฅ",
-      "tags": ["animal", "hands-up"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "animal",
+        "hands-up",
+        "neutral"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_508",
       "text": "ᘳᗒ.ᗕᘰ",
-      "tags": ["animal"]
+      "tags": [
+        "animal"
+      ]
     },
     {
       "id": "animal_509",
       "text": "ᶘ ᵒ㉨ᵒᶅ",
-      "tags": ["animal", "bear"]
+      "tags": [
+        "animal",
+        "bear"
+      ]
     },
     {
       "id": "animal_511",
       "text": "ʕ·͡ᴥ·ʔ",
-      "tags": ["bear", "cute"]
+      "tags": [
+        "bear",
+        "cute"
+      ]
     },
     {
       "id": "animal_513",
       "text": "ʢٛ•ꇵٛ•ʡ",
-      "tags": ["animal", "bear"]
+      "tags": [
+        "animal",
+        "bear"
+      ]
     },
     {
       "id": "animal_515",
       "text": "ʕ◉ᴥ◉ʔ",
-      "tags": ["bear", "big-eyes", "cute"]
+      "tags": [
+        "bear",
+        "big-eyes",
+        "cute"
+      ]
     },
     {
       "id": "animal_516",
       "text": "(✪㉨✪)",
-      "tags": ["animal", "bear"]
+      "tags": [
+        "animal",
+        "bear"
+      ]
     },
     {
       "id": "animal_517",
       "text": "（・⊝・）",
-      "tags": ["animal"]
+      "tags": [
+        "animal"
+      ]
     },
     {
       "id": "animal_521",
       "text": "^ↀᴥↀ^",
-      "tags": ["cat"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "cat"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_522",
       "text": "(๑ↀᆺↀ๑)✧",
-      "tags": ["animal", "cat", "sparkle"]
+      "tags": [
+        "animal",
+        "cat",
+        "sparkle"
+      ]
     },
     {
       "id": "animal_523",
       "text": "◖⚆ᴥ⚆◗",
-      "tags": ["animal", "cat"]
+      "tags": [
+        "animal",
+        "cat"
+      ]
     },
     {
       "id": "animal_524",
       "text": "-ᄒᴥᄒ-",
-      "tags": ["animal"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "animal"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_525",
       "text": "▽・ω・▽",
-      "tags": ["animal", "dog"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "animal",
+        "dog"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_526",
       "text": "▼･。･▼",
-      "tags": ["animal", "dog"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "animal",
+        "dog"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_527",
       "text": "q(￣(●●)￣)p",
-      "tags": ["closed-eyes", "hands-up", "pig"]
+      "tags": [
+        "closed-eyes",
+        "hands-up",
+        "pig"
+      ]
     },
     {
       "id": "animal_528",
       "text": "༼ つ◕(oo)◕༽つ",
-      "tags": ["big-eyes", "hug", "pig"]
+      "tags": [
+        "big-eyes",
+        "hug",
+        "pig"
+      ]
     },
     {
       "id": "animal_529",
       "text": "／(=๏ x ๏=)＼",
-      "tags": ["animal", "cat"]
+      "tags": [
+        "animal",
+        "cat"
+      ]
     },
     {
       "id": "animal_530",
       "text": "Ꮚˊ•⌔•ˋᏊ",
-      "tags": ["animal", "dog"]
+      "tags": [
+        "animal",
+        "dog"
+      ]
     },
     {
       "id": "animal_531",
       "text": "Ꮚ^ꈊ^Ꮚ",
-      "tags": ["happy", "sheep"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "happy",
+        "sheep"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_532",
       "text": "Ꮚ˘ꍓ˘Ꮚ",
-      "tags": ["animal", "dog"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "animal",
+        "dog"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_533",
       "text": "Ꮚ˟ꈊ˟Ꮚ",
-      "tags": ["animal", "dog"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "animal",
+        "dog"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "animal_534",
       "text": "꒰๑>ᴗ•๑꒱っ",
-      "tags": ["cute", "love", "wink"]
+      "tags": [
+        "cute",
+        "love",
+        "wink"
+      ]
     },
     {
       "id": "animal_535",
       "text": "(៸៸᳐>⩊<៸៸᳐)♪",
-      "tags": ["cat", "happy", "music", "thrilled"]
+      "tags": [
+        "cat",
+        "happy",
+        "music",
+        "thrilled"
+      ]
     },
     {
       "id": "animal_536",
       "text": "(◍◕ܫ◕◍)ฅ ⚡️",
-      "tags": ["animal", "big-eyes", "cute", "dog", "lightning", "smile"]
+      "tags": [
+        "animal",
+        "big-eyes",
+        "cute",
+        "dog",
+        "lightning",
+        "smile"
+      ]
     },
     {
       "id": "animal_537",
       "text": "ฅ՞•ﻌ•՞ฅ",
-      "tags": ["cute", "dog", "hands-up"]
+      "tags": [
+        "cute",
+        "dog",
+        "hands-up"
+      ]
     },
     {
       "id": "animal_538",
       "text": "( ;-(ｴ)-)ゞ",
-      "tags": ["bear", "closed-eyes", "salute", "sweat-drop"]
+      "tags": [
+        "bear",
+        "closed-eyes",
+        "scratch",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "animal_539",
       "text": "(ﾉ･ｪ･)ﾉ",
-      "tags": ["animal", "hands-up"]
+      "tags": [
+        "animal",
+        "hands-up"
+      ]
     },
     {
       "id": "animal_541",
       "text": "( - ω- ฅ）ｵﾊﾖ.｡.:*♡",
-      "tags": ["animal", "closed-eyes", "love"]
+      "tags": [
+        "animal",
+        "closed-eyes",
+        "love"
+      ]
     },
     {
       "id": "animal_542",
       "text": "ฅ'ω'ฅ",
-      "tags": ["animal", "cute", "hands-up"]
+      "tags": [
+        "animal",
+        "cute",
+        "hands-up"
+      ]
     },
     {
       "id": "animal_543",
       "text": "☆(*･ｪ･*)＞｡",
-      "tags": ["animal", "salute", "star"]
+      "tags": [
+        "animal",
+        "salute",
+        "star"
+      ]
     },
     {
       "id": "animal_544",
       "text": "(‘⁾ʚ’⁾*)ू",
-      "tags": ["bird", "surprised"]
+      "tags": [
+        "bird",
+        "surprised"
+      ]
     },
     {
       "id": "animal_545",
       "text": "(ʘ̆ʚʘ̆)",
-      "tags": ["big-eyes", "bird", "confused"]
+      "tags": [
+        "big-eyes",
+        "bird",
+        "confused"
+      ]
     },
     {
       "id": "animal_547",
       "text": "＼(・｀(ｪ)・)/",
-      "tags": ["animal"]
+      "tags": [
+        "animal"
+      ]
     },
     {
       "id": "animal_548",
       "text": "₍˄•͈⚇•͈˄₎",
-      "tags": ["cute", "pig", "shy"]
+      "tags": [
+        "cute",
+        "pig",
+        "shy"
+      ]
     },
     {
       "id": "animal_549",
       "text": "ฅ •ﻌ•♡",
-      "tags": ["animal", "cute", "love"]
+      "tags": [
+        "animal",
+        "cute",
+        "love"
+      ]
     },
     {
       "id": "animal_550",
       "text": "(⁽͈˙̑⁾˔̉⁽˙̑⁾͈)˚º꒰꒱",
-      "tags": ["animal", "shy"]
+      "tags": [
+        "animal",
+        "shy"
+      ]
     },
     {
       "id": "animal_552",
       "text": "₍ᐢ∵•ᴗ•∵ᐢ₎",
-      "tags": ["rabbit", "smile"]
+      "tags": [
+        "rabbit",
+        "smile"
+      ]
     },
     {
       "id": "animal_553",
       "text": "꜆₍ᐢ˶•ᴗ•˶ᐢ₎꜆",
-      "tags": ["rabbit", "shy", "smile"]
+      "tags": [
+        "rabbit",
+        "shy",
+        "smile"
+      ]
     },
     {
       "id": "animal_554",
       "text": "(ᐢ⑅•ᴗ•⑅ᐢ)",
-      "tags": ["cute", "rabbit", "smile"]
+      "tags": [
+        "cute",
+        "rabbit",
+        "smile"
+      ]
     },
     {
       "id": "animal_555",
       "text": "꒰ঌ₍^._.^₎໒꒱",
-      "tags": ["cat", "neutral", "wings"]
+      "tags": [
+        "cat",
+        "neutral",
+        "wings"
+      ]
     },
     {
       "id": "animal_556",
       "text": "(` . .̫ . `)",
-      "tags": ["animal", "cute"]
+      "tags": [
+        "animal",
+        "cute"
+      ]
     },
     {
       "id": "animal_557",
       "text": "૮ ・・აིྀ",
-      "tags": ["animal", "neutral"]
+      "tags": [
+        "animal",
+        "neutral"
+      ]
     },
     {
       "id": "animal_558",
       "text": "૮꒰ ྀི . . ꒱ა",
-      "tags": ["neutral", "sheep"]
+      "tags": [
+        "neutral",
+        "sheep"
+      ]
     },
     {
       "id": "animal_559",
       "text": "( ╹ਊ╹)",
-      "tags": ["bird"]
+      "tags": [
+        "bird"
+      ]
     },
     {
       "id": "animal_560",
       "text": "ʕノ•ᴥ•ʔノ ︵ ┻━┻",
-      "tags": ["bear", "hands-up", "table-flip"]
+      "tags": [
+        "bear",
+        "hands-up",
+        "table-flip"
+      ]
     },
     {
       "id": "animal_562",
       "text": "ʕT//ᴥ//T ʔ",
-      "tags": ["bear", "crying", "shy"]
+      "tags": [
+        "bear",
+        "crying",
+        "shy"
+      ]
     },
     {
       "id": "animal_563",
       "text": "ଘʕ੭·͡ᴥ·ʔ﻿ ੭",
-      "tags": ["bear", "cute", "hug", "wings"]
+      "tags": [
+        "bear",
+        "cute",
+        "hug",
+        "wings"
+      ]
     },
     {
       "id": "animal_564",
       "text": "ʕ；ᴥ；ʔ",
-      "tags": ["bear", "crying", "cute"]
+      "tags": [
+        "bear",
+        "crying",
+        "cute"
+      ]
     },
     {
       "id": "animal_565",
       "text": "ฅ(^◕ᴥ◕^)ฅ",
-      "tags": ["big-eyes", "cute", "dog", "hands-up"]
+      "tags": [
+        "big-eyes",
+        "cute",
+        "dog",
+        "hands-up"
+      ]
     },
     {
       "id": "animal_566",
       "text": "(^+.+^)",
-      "tags": ["cat", "neutral"]
+      "tags": [
+        "cat",
+        "neutral"
+      ]
     },
     {
       "id": "animal_567",
       "text": "ː̗̀٩꒰ꋃ꒱وː̖́",
-      "tags": ["banzai", "cheer-up", "confident", "motivated", "sheep"]
+      "tags": [
+        "banzai",
+        "cheer-up",
+        "confident",
+        "motivated",
+        "sheep"
+      ]
     },
     {
       "id": "animal_568",
       "text": "(◔⊖◔)つ",
-      "tags": ["penguin", "waving"]
+      "tags": [
+        "penguin",
+        "waving"
+      ]
     },
     {
       "id": "animal_569",
       "text": "ლ(◉◞⊖◟◉｀ლ)",
-      "tags": ["big-eyes", "bird", "give"]
+      "tags": [
+        "big-eyes",
+        "bird",
+        "give"
+      ]
     },
     {
       "id": "animal_570",
       "text": "（。ˇ ⊖ˇ）",
-      "tags": ["displeased", "penguin"]
+      "tags": [
+        "displeased",
+        "penguin"
+      ]
     },
     {
       "id": "animal_571",
       "text": "(ง °Θ°)ว",
-      "tags": ["dancing", "dazed", "penguin"]
+      "tags": [
+        "dancing",
+        "dazed",
+        "penguin"
+      ]
     },
     {
       "id": "animal_572",
       "text": "₍⸍⸌̣ʷ̣̫⸍̣⸌₎ﾉ♡",
-      "tags": ["cat", "love", "waving"]
+      "tags": [
+        "cat",
+        "love",
+        "waving"
+      ]
     },
     {
       "id": "animal_573",
       "text": "(•̆ꈊ•̆;;)ꋧ",
-      "tags": ["animal", "sweat-drop"]
+      "tags": [
+        "animal",
+        "sweat-drop"
+      ]
     },
     {
       "id": "animal_574",
       "text": "▼o'ᆺ'o▼⚡️",
-      "tags": ["animal", "cute", "lightning"]
+      "tags": [
+        "animal",
+        "cute",
+        "lightning"
+      ]
     },
     {
       "id": "animal_575",
       "text": ";ↀ⌓ↀ",
-      "tags": ["cat", "dazed", "sweat-drop"]
+      "tags": [
+        "cat",
+        "dazed",
+        "sweat-drop"
+      ]
     },
     {
       "id": "animal_576",
       "text": "(｡>ᴥ<｡)",
-      "tags": ["crying", "dog"]
+      "tags": [
+        "crying",
+        "dog"
+      ]
     },
     {
       "id": "animal_577",
       "text": "°꒰๑'ꀾ'๑꒱°",
-      "tags": ["cute", "sheep"]
+      "tags": [
+        "cute",
+        "sheep"
+      ]
     },
     {
       "id": "animal_578",
       "text": "~(˶‾᷄ꈊ‾᷅˵)~",
-      "tags": ["animal", "closed-eyes", "shy"]
+      "tags": [
+        "animal",
+        "closed-eyes",
+        "shy"
+      ]
     },
     {
       "id": "animal_579",
       "text": "૮₍˶ᵔ ᵕ ᵔ˶ ₎ა",
-      "tags": ["animal", "cute", "shy", "smile"]
+      "tags": [
+        "animal",
+        "cute",
+        "shy",
+        "smile"
+      ]
     },
     {
       "id": "animal_580",
       "text": "૮₍ ˶•⤙•˶ ₎ა",
-      "tags": ["animal", "displeased", "helpless", "shy"]
+      "tags": [
+        "animal",
+        "displeased",
+        "helpless",
+        "shy"
+      ]
+    },
+    {
+      "id": "animal_581",
+      "text": "ฅ/ᐠ灬. ̫ .灬ᐟ\\ฅ",
+      "tags": [
+        "animal",
+        "cat",
+        "cute",
+        "hands-up",
+        "shy"
+      ]
+    },
+    {
+      "id": "animal_582",
+      "text": "┏((＝￣(ｴ)￣=))┛",
+      "tags": [
+        "animal",
+        "bear",
+        "closed-eyes",
+        "dancing",
+        "speechless"
+      ]
+    },
+    {
+      "id": "animal_583",
+      "text": "(ↂ ω ↂ)ゞ",
+      "tags": [
+        "animal",
+        "cat",
+        "scratch"
+      ]
+    },
+    {
+      "id": "animal_584",
+      "text": "ฅ●ω●ฅ",
+      "tags": [
+        "animal",
+        "big-eyes",
+        "cat",
+        "cute",
+        "hands-up"
+      ]
     }
   ]
 }
