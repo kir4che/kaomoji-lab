@@ -377,6 +377,14 @@ const translations: Translations = {
     'zh-tw': '透過標籤探索 {count} 種不同風格的顏文字',
     en: 'Explore {count} different styles of kaomoji through tags',
   },
+  comingSoonTitle: {
+    'zh-tw': '功能暫不開放',
+    en: 'Feature Temporarily Unavailable',
+  },
+  comingSoonDescription: {
+    'zh-tw': '我們正在優化此功能，敬請期待！',
+    en: 'We are currently optimizing this feature. Stay tuned!',
+  },
 };
 
 export const t = (
