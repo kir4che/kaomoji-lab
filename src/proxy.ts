@@ -1,7 +1,7 @@
-import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
+import { NextResponse } from 'next/server';
 
-export function middleware(req: NextRequest) {
+export function proxy(req: NextRequest) {
   const nodeEnv = process.env.NEXT_PUBLIC_NODE_ENV || 'production';
 
   if (nodeEnv !== 'development') return NextResponse.redirect(new URL('/', req.url));
