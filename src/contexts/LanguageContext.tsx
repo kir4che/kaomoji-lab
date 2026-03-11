@@ -1,7 +1,6 @@
 'use client';
 
-import { createContext, useContext, useState, ReactNode, useMemo, useEffect } from 'react';
-import Cookies from 'js-cookie';
+import { createContext, ReactNode, useContext, useEffect, useMemo, useState } from 'react';
 
 import type { Language } from '@/types/Language';
 
@@ -21,23 +20,30 @@ interface LanguageProviderProps {
   children: ReactNode;
 }
 
+// 取得瀏覽器語言或預設語言
+function getInitialLanguage(): Language {
+  if (typeof window === 'undefined') return 'zh-tw';
+
+  const stored = localStorage.getItem('app-language');
+  if (stored === 'en' || stored === 'zh-tw') return stored;
+
+  const browserLang = navigator.language.toLowerCase();
+  if (browserLang.startsWith('zh')) return 'zh-tw';
+  return 'zh-tw';
+}
+
 export function LanguageProvider({ children }: LanguageProviderProps) {
-  const [lang, setLang] = useState<Language>(() => {
-    const cookieLang = Cookies.get('app-language') as Language | undefined;
-    return cookieLang && ['en', 'zh-tw'].includes(cookieLang) ? cookieLang : 'zh-tw';
-  });
+  const [lang, setLang] = useState<Language>('zh-tw');
+  const [isInitialized, setIsInitialized] = useState(false);
 
   useEffect(() => {
-    const cookieLang = Cookies.get('app-language') as Language | undefined;
-    if (cookieLang && ['en', 'zh-tw'].includes(cookieLang)) {
-      setLang(cookieLang);
-    }
+    setLang(getInitialLanguage());
+    setIsInitialized(true);
   }, []);
 
   const handleSetLang = (newLang: Language) => {
-    Cookies.set('app-language', newLang, { expires: 365 });
+    localStorage.setItem('app-language', newLang);
     setLang(newLang);
-    window.location.reload();
   };
 
   const contextValue = useMemo(
@@ -47,6 +53,9 @@ export function LanguageProvider({ children }: LanguageProviderProps) {
     }),
     [lang]
   );
+
+  // 語言初始化前先不渲染子組件，避免閃爍。
+  if (!isInitialized) return null;
 
   return <LanguageContext.Provider value={contextValue}>{children}</LanguageContext.Provider>;
 }

@@ -1,13 +1,12 @@
-import path from 'path';
 import { promises as fs } from 'fs';
+import path from 'path';
 
 import type { Metadata } from 'next';
-import { cookies } from 'next/headers';
 
-import type { Language } from '@/types/Language';
 import { t } from '@/lib/i18n';
 import { getAllTags, readIndexFile } from '@/services/dataService';
 import type { CategoryData, IndexData, Tag } from '@/types/Kaomoji';
+import type { Language } from '@/types/Language';
 
 import TagPage from './client';
 
@@ -19,8 +18,7 @@ interface TagInfo {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  const cookieStore = cookies();
-  const lang = ((await cookieStore).get('app-language')?.value || 'zh-tw') as Language;
+  const lang: Language = 'zh-tw';
 
   return {
     title: t('metaTagTitle', lang),

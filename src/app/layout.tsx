@@ -1,16 +1,15 @@
 import type { Metadata, Viewport } from 'next';
-import { cookies } from 'next/headers';
-import { Noto_Sans_TC, Noto_Color_Emoji } from 'next/font/google';
+import { Noto_Color_Emoji, Noto_Sans_TC } from 'next/font/google';
 import Script from 'next/script';
 
-import { getValidLanguage } from '@/utils/getValidLanguage';
-import { t } from '@/lib/i18n';
-import { LanguageProvider } from '@/contexts/LanguageContext';
-import { ToastProvider } from '@/contexts/ToastContext';
-import Header from '@/components/organisms/Header';
+import ScrollToTopBtn from '@/components/atoms/ScrollToTopBtn';
 import ExploreMoreSection from '@/components/organisms/ExploreMoreSection';
 import Footer from '@/components/organisms/Footer';
-import ScrollToTopBtn from '@/components/atoms/ScrollToTopBtn';
+import Header from '@/components/organisms/Header';
+import { LanguageProvider } from '@/contexts/LanguageContext';
+import { ToastProvider } from '@/contexts/ToastContext';
+import { t } from '@/lib/i18n';
+import type { Language } from '@/types/Language';
 
 import './globals.css';
 
@@ -32,8 +31,7 @@ const siteUrl = new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://kaomojilab.
 const ogImageUrl = new URL('/images/og-image.png', siteUrl).toString();
 
 export async function generateMetadata(): Promise<Metadata> {
-  const cookieStore = cookies();
-  const lang = getValidLanguage((await (await cookieStore).get('app-language'))?.value) || 'zh-tw';
+  const lang: Language = 'zh-tw';
 
   const keywords = t('metaKeywords', lang) || '';
 
@@ -90,8 +88,7 @@ interface RootLayoutProps {
 
 export default async function RootLayout({ children }: RootLayoutProps) {
   const fontClasses = [notoSansTC.variable, notoColorEmoji.variable].join(' ');
-  const cookieStore = cookies();
-  const lang = getValidLanguage((await (await cookieStore).get('app-language'))?.value);
+  const lang: Language = 'zh-tw';
 
   return (
     <html lang={lang} className="scroll-smooth">

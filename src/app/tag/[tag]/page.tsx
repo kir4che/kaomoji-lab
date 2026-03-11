@@ -1,15 +1,14 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 
-import { cache } from 'react';
 import type { Metadata } from 'next';
-import { cookies } from 'next/headers';
 import { notFound } from 'next/navigation';
+import { cache } from 'react';
 
-import type { Language } from '@/types/Language';
-import type { KaomojiItem, CategoryData, IndexData, Tag } from '@/types/Kaomoji';
 import { t } from '@/lib/i18n';
 import { getAllTags } from '@/services/dataService';
+import type { CategoryData, IndexData, KaomojiItem, Tag } from '@/types/Kaomoji';
+import type { Language } from '@/types/Language';
 
 import TagPageClient from './client';
 
@@ -74,8 +73,7 @@ const getKaomojisByTag = cache(async (tagId: string): Promise<KaomojiItem[]> => 
 });
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const cookieStore = await cookies();
-  const lang = (cookieStore.get('app-language')?.value || 'zh-tw') as Language;
+  const lang: Language = 'zh-tw';
   const { tag: slug } = await params;
   const canonicalPath = `/tag/${encodeURIComponent(slug)}`;
 
@@ -110,8 +108,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 const TagPage = async ({ params }: Props) => {
-  const cookieStore = await cookies();
-  const lang = (cookieStore.get('app-language')?.value || 'zh-tw') as Language;
+  const lang: Language = 'zh-tw';
   const { tag: slug } = await params;
 
   const tag = await getTagBySlugOrId(slug);

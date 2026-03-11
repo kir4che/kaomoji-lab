@@ -14,12 +14,10 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
-    "@types/js-cookie": "^3.0.6",
     "@upstash/ratelimit": "^2.0.6",
     "@upstash/redis": "^1.35.3",
     "clsx": "^2.1.1",
     "csv-parser": "^3.2.0",
-    "js-cookie": "^3.0.5",
     "next": "^16.0.10",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",

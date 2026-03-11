@@ -2,12 +2,12 @@
 
 import Link from 'next/link';
 
-import { useLanguage } from '@/contexts/LanguageContext';
-import { t } from '@/lib/i18n';
-import HomeIcon from '@/assets/icons/home.svg';
 import CategoryIcon from '@/assets/icons/category.svg';
 import HashIcon from '@/assets/icons/hash.svg';
+import HomeIcon from '@/assets/icons/home.svg';
 import SparkleIcon from '@/assets/icons/sparkle.svg';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { t } from '@/lib/i18n';
 
 type IconComponent = React.FC<React.SVGProps<SVGSVGElement>>;
 

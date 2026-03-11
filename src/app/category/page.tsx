@@ -1,18 +1,16 @@
 import type { Metadata } from 'next';
-import { cookies } from 'next/headers';
 
-import type { Language } from '@/types/Language';
 import { t } from '@/lib/i18n';
 import { readIndexFile } from '@/services/dataService';
 import type { CategorySummary } from '@/types/Kaomoji';
+import type { Language } from '@/types/Language';
 
 import CategoryListPage from './client';
 
 export const dynamic = 'force-static';
 
 export async function generateMetadata(): Promise<Metadata> {
-  const cookieStore = cookies();
-  const lang = ((await cookieStore).get('app-language')?.value || 'zh-tw') as Language;
+  const lang: Language = 'zh-tw';
 
   return {
     title: t('metaCategoryTitle', lang),

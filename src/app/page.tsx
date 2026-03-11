@@ -1,21 +1,19 @@
-import path from 'path';
 import { promises as fs } from 'fs';
+import path from 'path';
 
-import { cookies } from 'next/headers';
 import type { Metadata } from 'next';
 
 import { t } from '@/lib/i18n';
-import type { Language } from '@/types/Language';
 import { readIndexFile } from '@/services/dataService';
-import type { CategorySummary, KaomojiItem, IndexData } from '@/types/Kaomoji';
+import type { CategorySummary, IndexData, KaomojiItem } from '@/types/Kaomoji';
+import type { Language } from '@/types/Language';
 
 import HomeClient from './client';
 
 export const dynamic = 'force-static';
 
 export async function generateMetadata(): Promise<Metadata> {
-  const cookieStore = cookies();
-  const lang = ((await cookieStore).get('app-language')?.value || 'zh-tw') as Language;
+  const lang: Language = 'zh-tw';
 
   return {
     title: t('metaHomeTitle', lang),
