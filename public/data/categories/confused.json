@@ -5,575 +5,352 @@
     "zh-tw": "困惑"
   },
   "preview": "( •᷄ὤ•᷅)？",
-  "lastUpdated": "2025-11-17",
+  "lastUpdated": "2026-04-15",
   "items": [
     {
       "id": "confused_001",
       "text": "(՞• •՞)",
-      "tags": [
-        "confused",
-        "question"
-      ]
+      "tags": ["confused", "question"]
     },
     {
       "id": "confused_005",
       "text": "( •︠ˍ•︡ )",
-      "tags": [
-        "confused"
-      ]
+      "tags": ["confused"]
     },
     {
       "id": "confused_012",
       "text": "•︠ˍ•︡",
-      "tags": [
-        "confused",
-        "thinking"
-      ]
+      "tags": ["confused", "thinking"]
     },
     {
       "id": "confused_013",
       "text": "(?・・)σ",
-      "tags": [
-        "poke",
-        "question"
-      ]
+      "tags": ["poke", "question"]
     },
     {
       "id": "confused_015",
       "text": "ᕙ (° ~ ° ~)",
-      "tags": [
-        "confused",
-        "dazed",
-        "hands-up",
-        "muscle",
-        "trembling"
-      ]
+      "tags": ["confused", "dazed", "hands-up", "muscle", "trembling"]
     },
     {
       "id": "confused_017",
       "text": "‹(•¿•)›",
-      "tags": [
-        "question"
-      ]
+      "tags": ["question"]
     },
     {
       "id": "confused_018",
       "text": "⎰≀.⺤_⺤≀⎰",
-      "tags": [
-        "closed-eyes",
-        "confused",
-        "serious"
-      ]
+      "tags": ["closed-eyes", "confused", "serious"]
     },
     {
       "id": "confused_021",
       "text": "｢(ﾟﾍﾟ)",
-      "tags": [
-        "dazed",
-        "scratch",
-        "thinking"
-      ]
+      "tags": ["dazed", "scratch", "thinking"]
     },
     {
       "id": "confused_022",
       "text": "〈(゜。゜)",
-      "tags": [
-        "dazed",
-        "scratch",
-        "thinking"
-      ]
+      "tags": ["dazed", "scratch", "thinking"]
     },
     {
       "id": "confused_023",
       "text": "「(°ヘ°)",
-      "tags": [
-        "dazed",
-        "scratch",
-        "thinking"
-      ]
+      "tags": ["dazed", "scratch", "thinking"]
     },
     {
       "id": "confused_024",
       "text": "｢(ﾟ<ﾟ)ﾞ??",
-      "tags": [
-        "confused",
-        "dazed",
-        "question"
-      ]
+      "tags": ["confused", "dazed", "question"]
     },
     {
       "id": "confused_025",
       "text": "?(ﾉ)・´ω・(ヾ)",
-      "tags": [
-        "confused",
-        "cute",
-        "question"
-      ]
+      "tags": ["confused", "cute", "question"]
     },
     {
       "id": "confused_027",
       "text": "(‘◇’)?",
-      "tags": [
-        "question"
-      ]
+      "tags": ["question"]
     },
     {
       "id": "confused_029",
       "text": "( ・◇・)？",
-      "tags": [
-        "question"
-      ]
+      "tags": ["question"]
     },
     {
       "id": "confused_030",
       "text": "【・_・?】",
-      "tags": [
-        "question",
-        "speechless"
-      ]
+      "tags": ["question", "speechless"]
     },
     {
       "id": "confused_031",
       "text": "(ﾒ・ん・)？",
-      "tags": [
-        "question",
-        "speechless"
-      ]
+      "tags": ["question", "speechless"]
     },
     {
       "id": "confused_032",
       "text": "(・・？)",
-      "tags": [
-        "question",
-        "speechless"
-      ]
+      "tags": ["question", "speechless"]
     },
     {
       "id": "confused_033",
       "text": "(o゜ー゜o)??",
-      "tags": [
-        "dazed",
-        "question"
-      ]
+      "tags": ["dazed", "question"]
     },
     {
       "id": "confused_034",
       "text": "（・∩・）？",
-      "tags": [
-        "displeased",
-        "question"
-      ]
+      "tags": ["displeased", "question"]
     },
     {
       "id": "confused_035",
       "text": "??(･x･｡)???",
-      "tags": [
-        "confused",
-        "question",
-        "x-mouth"
-      ]
+      "tags": ["confused", "question", "x-mouth"]
     },
     {
       "id": "confused_036",
       "text": "(｡・ω・｡)?",
-      "tags": [
-        "cute",
-        "question"
-      ]
+      "tags": ["cute", "question"]
     },
     {
       "id": "confused_037",
       "text": "（*・∧・*）?",
-      "tags": [
-        "displeased",
-        "question"
-      ]
+      "tags": ["displeased", "question"]
     },
     {
       "id": "confused_038",
       "text": "（●´・×・｀●）？",
-      "tags": [
-        "question",
-        "x-mouth"
-      ]
+      "tags": ["question", "x-mouth"]
     },
     {
       "id": "confused_039",
       "text": "?(ο´･д･)??",
-      "tags": [
-        "confused",
-        "question"
-      ]
+      "tags": ["confused", "question"]
     },
     {
       "id": "confused_040",
       "text": "(。「´-ω・)ﾝ？",
-      "tags": [
-        "cute",
-        "question",
-        "sleepy"
-      ]
+      "tags": ["cute", "question", "sleepy"]
     },
     {
       "id": "confused_041",
       "text": "(*「･ω･)ﾝ？",
-      "tags": [
-        "cute",
-        "question"
-      ]
+      "tags": ["cute", "question"]
     },
     {
       "id": "confused_042",
       "text": "( •᷄ὤ•᷅)？",
-      "tags": [
-        "confused",
-        "helpless",
-        "question"
-      ]
+      "tags": ["confused", "helpless", "question"]
     },
     {
       "id": "confused_055",
       "text": "( •́ὤ•̀)",
-      "tags": [
-        "confused",
-        "cute"
-      ]
+      "tags": ["confused", "cute"]
     },
     {
       "id": "confused_060",
       "text": "૮( ᵒ̌▱๋ᵒ̌ )ა",
-      "tags": [
-        "confused",
-        "displeased"
-      ]
+      "tags": ["confused", "displeased"]
     },
     {
       "id": "confused_073",
       "text": "(.•̵̑⌓•̵̑ )",
-      "tags": [
-        "confused",
-        "dazed"
-      ]
+      "tags": ["confused", "dazed"]
     },
     {
       "id": "confused_077",
       "text": "٩◔̯◔۶",
-      "tags": [
-        "hands-up",
-        "thinking"
-      ]
+      "tags": ["hands-up", "thinking"]
     },
     {
       "id": "confused_087",
       "text": "(●･̆⍛･̆●)",
-      "tags": [
-        "confused",
-        "helpless"
-      ]
+      "tags": ["confused", "helpless"]
     },
     {
       "id": "confused_091",
       "text": "Σ(-᷅_-᷄ ๑)",
-      "tags": [
-        "closed-eyes",
-        "confused",
-        "displeased"
-      ]
+      "tags": ["closed-eyes", "confused", "displeased"]
     },
     {
       "id": "confused_093",
       "text": "(◔_◔)🍔🍕",
-      "tags": [
-        "eating",
-        "thinking"
-      ]
+      "tags": ["eating", "thinking"]
     },
     {
       "id": "confused_104",
       "text": "(❛ัॢᵕ❛ั ॢ)✩ *ೃ.⋆",
-      "tags": [
-        "smile",
-        "sparkle",
-        "star",
-        "thinking"
-      ]
+      "tags": ["smile", "sparkle", "star", "thinking"]
     },
     {
       "id": "confused_108",
       "text": "( ´･ω･)…｡oо○",
-      "tags": [
-        "cute",
-        "thinking"
-      ]
+      "tags": ["cute", "thinking"]
     },
     {
       "id": "confused_114",
       "text": "( ఠ ͟ʖ ఠ)",
-      "tags": [
-        "confused",
-        "speechless"
-      ]
+      "tags": ["confused", "speechless"]
     },
     {
       "id": "confused_115",
       "text": "( ͡ಠ ʖ̯ ͡ಠ)",
-      "tags": [
-        "confused",
-        "displeased"
-      ]
+      "tags": ["confused", "displeased"]
     },
     {
       "id": "confused_116",
       "text": "( ಠ ʖ̯ ಠ)",
-      "tags": [
-        "confused",
-        "displeased"
-      ]
+      "tags": ["confused", "displeased"]
     },
     {
       "id": "confused_117",
       "text": "( ಠ ͜ʖ ಠ)",
-      "tags": [
-        "confused",
-        "smile"
-      ]
+      "tags": ["confused", "smile"]
     },
     {
       "id": "confused_128",
       "text": "(◕⍸ ◕✿)",
-      "tags": [
-        "big-eyes",
-        "confused",
-        "flower",
-        "serious"
-      ]
+      "tags": ["big-eyes", "confused", "flower", "serious"]
     },
     {
       "id": "confused_136",
       "text": "(@_@)",
-      "tags": [
-        "confused",
-        "dizzy"
-      ]
+      "tags": ["confused", "dizzy"]
     },
     {
       "id": "confused_138",
       "text": "(*´･д･)",
-      "tags": [
-        "confused",
-        "displeased"
-      ]
+      "tags": ["confused", "displeased"]
     },
     {
       "id": "confused_139",
       "text": "(꒪ȏ꒪)ｴｯ?",
-      "tags": [
-        "question",
-        "surprised"
-      ]
+      "tags": ["question", "surprised"]
     },
     {
       "id": "confused_140",
       "text": "(ﾟ▽ﾟ｀*)?",
-      "tags": [
-        "dazed",
-        "question"
-      ]
+      "tags": ["dazed", "question"]
     },
     {
       "id": "confused_143",
       "text": "¯\\_( ͠° ͟ʖ °͠ )_/¯",
-      "tags": [
-        "confused",
-        "serious",
-        "shrug"
-      ]
+      "tags": ["confused", "serious", "shrug"]
     },
     {
       "id": "confused_144",
       "text": "(◕ ᄋ ◕✿)",
-      "tags": [
-        "big-eyes",
-        "confused",
-        "flower"
-      ]
+      "tags": ["big-eyes", "confused", "flower"]
     },
     {
       "id": "confused_145",
       "text": "¯\\_ಠ_ಠ_/¯",
-      "tags": [
-        "confused",
-        "displeased",
-        "serious",
-        "shrug"
-      ]
+      "tags": ["confused", "displeased", "serious", "shrug"]
     },
     {
       "id": "confused_146",
       "text": "(ᓄಠ_ಠ)ᓄ",
-      "tags": [
-        "confused",
-        "displeased",
-        "serious"
-      ]
+      "tags": ["confused", "displeased", "serious"]
     },
     {
       "id": "confused_147",
       "text": "(งಠ_ಠ)ง",
-      "tags": [
-        "confused",
-        "displeased",
-        "motivated",
-        "serious"
-      ]
+      "tags": ["confused", "displeased", "motivated", "serious"]
     },
     {
       "id": "confused_149",
       "text": "ಠ_ಠ",
-      "tags": [
-        "confused",
-        "displeased",
-        "serious",
-        "speechless"
-      ]
+      "tags": ["confused", "displeased", "serious", "speechless"]
     },
     {
       "id": "confused_150",
       "text": "(ಠ_ಠ)",
-      "tags": [
-        "confused",
-        "displeased",
-        "serious",
-        "speechless"
-      ]
+      "tags": ["confused", "displeased", "serious", "speechless"]
     },
     {
       "id": "confused_151",
       "text": "ಠ▃ಠ",
-      "tags": [
-        "confused",
-        "displeased"
-      ]
+      "tags": ["confused", "displeased"]
     },
     {
       "id": "confused_152",
       "text": "(ಠ o ಠ)¤=[]:::::>",
-      "tags": [
-        "attack",
-        "confused"
-      ]
+      "tags": ["attack", "confused"]
     },
     {
       "id": "confused_153",
       "text": "（ ಠωಠ）",
-      "tags": [
-        "confused"
-      ]
+      "tags": ["confused"]
     },
     {
       "id": "confused_154",
       "text": "╏つ ͜ಠ ‸ ͜ಠ ╏つ",
-      "tags": [
-        "confused",
-        "displeased",
-        "hug"
-      ]
+      "tags": ["confused", "displeased", "hug"]
     },
     {
       "id": "confused_157",
       "text": "ఠ ͟ಠ",
-      "tags": [
-        "confused",
-        "displeased"
-      ]
+      "tags": ["confused", "displeased"]
     },
     {
       "id": "confused_158",
       "text": "ヽ༼ ಠ益ಠ ༽ﾉ",
-      "tags": [
-        "confused",
-        "displeased",
-        "hands-up"
-      ]
+      "tags": ["confused", "displeased", "hands-up"]
     },
     {
       "id": "confused_159",
       "text": "(ノಠ益ಠ)ノ",
-      "tags": [
-        "confused",
-        "displeased",
-        "hands-up"
-      ]
+      "tags": ["confused", "displeased", "hands-up"]
     },
     {
       "id": "confused_160",
       "text": "ʕಠᴥಠʔ",
-      "tags": [
-        "bear",
-        "confused",
-        "displeased"
-      ]
+      "tags": ["bear", "confused", "displeased"]
     },
     {
       "id": "confused_161",
       "text": "(っಠ‿ಠ)っ",
-      "tags": [
-        "confused",
-        "hug",
-        "smile"
-      ]
+      "tags": ["confused", "hug", "smile"]
     },
     {
       "id": "confused_162",
       "text": "ಠﭛಠ",
-      "tags": [
-        "confused",
-        "smile"
-      ]
+      "tags": ["confused", "smile"]
     },
     {
       "id": "confused_163",
       "text": "╰༼=ಠਊಠ=༽╯",
-      "tags": [
-        "confused",
-        "displeased",
-        "hands-up",
-        "mock"
-      ]
+      "tags": ["confused", "displeased", "hands-up", "mock"]
     },
     {
       "id": "confused_165",
       "text": "( ಠ ಠ )",
-      "tags": [
-        "confused",
-        "neutral"
-      ]
+      "tags": ["confused", "neutral"]
     },
     {
       "id": "confused_166",
       "text": "Ծ‸Ծ",
-      "tags": [
-        "confused",
-        "displeased"
-      ]
+      "tags": ["confused", "displeased"]
     },
     {
       "id": "confused_167",
       "text": "/@ﾟﾍﾟ@/",
-      "tags": [
-        "confused",
-        "dazed",
-        "sheep",
-        "thinking"
-      ]
+      "tags": ["confused", "dazed", "sheep", "thinking"]
     },
     {
       "id": "confused_168",
       "text": "░ ര Ĺ̯ ര ░",
-      "tags": [
-        "confused",
-        "displeased"
-      ]
+      "tags": ["confused", "displeased"]
+    },
+    {
+      "id": "confused_169",
+      "text": "(；゜゜)ｲﾔﾔﾔﾔﾔ...",
+      "tags": ["confused", "displeased"]
+    },
+    {
+      "id": "confused_170",
+      "text": "˵ •̀ ل͟ •́ ˵",
+      "tags": ["thinking", "confused"]
     }
   ]
 }

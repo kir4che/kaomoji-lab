@@ -5,7 +5,7 @@
     "zh-tw": "裝飾"
   },
   "preview": "♥･*:.｡ ｡.:*･ﾟ♡･*:.｡ ｡",
-  "lastUpdated": "2025-09-27",
+  "lastUpdated": "2026-04-15",
   "items": [
     {
       "id": "decoration_001",
@@ -211,6 +211,181 @@
       "id": "decoration_041",
       "text": "ৎ୭",
       "tags": ["decoration", "flower"]
+    },
+    {
+      "id": "decoration_042",
+      "text": "˗ˏˋ ˎˊ˗",
+      "tags": ["decoration", "sparkle"]
+    },
+    {
+      "id": "decoration_043",
+      "text": "\\  /",
+      "tags": ["decoration", "sparkle"]
+    },
+    {
+      "id": "decoration_044",
+      "text": "⋆⸜  ⸝⋆",
+      "tags": ["decoration", "sparkle"]
+    },
+    {
+      "id": "decoration_045",
+      "text": "𓊆  𓊇",
+      "tags": ["decoration", "sparkle"]
+    },
+    {
+      "id": "decoration_047",
+      "text": ".｡oO(♡)",
+      "tags": ["decoration", "sparkle"]
+    },
+    {
+      "id": "decoration_048",
+      "text": "◎",
+      "tags": ["decoration", "sparkle"]
+    },
+    {
+      "id": "decoration_049",
+      "text": "⑅",
+      "tags": ["decoration", "sparkle"]
+    },
+    {
+      "id": "decoration_050",
+      "text": "⑅ ◎",
+      "tags": ["decoration", "sparkle"]
+    },
+    {
+      "id": "decoration_053",
+      "text": ".｡oO( {…",
+      "tags": ["decoration", "sparkle"]
+    },
+    {
+      "id": "decoration_054",
+      "text": "♫꒰･‿･๑꒱",
+      "tags": ["decoration", "music"]
+    },
+    {
+      "id": "decoration_055",
+      "text": "˚✧₊⁎❝᷀ົཽ≀ˍ̮ ❝᷀ົཽ⁎⁺˳✧༚",
+      "tags": ["decoration", "sparkle"]
+    },
+    {
+      "id": "decoration_056",
+      "text": "🐹ྀི",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_057",
+      "text": "𛰙᭜𖫴𖫰𖫱𖫳𖫲𖫲𖫳𖫴𖫰𖫱꛰ ᭜𖫴𖫰𖫱𖫳𖫲𖫲𖫳𖫴𖫰𖫱꛰ಣ",
+      "tags": ["decoration", "pattern"]
+    },
+    {
+      "id": "decoration_058",
+      "text": "✿𓂃 ⸜₍ ᐢ. ̫ .ᐢ₎⸝⸜₍ᐢ. ̫ .ᐢ ₎⸝⸜₍ᐢ. ̫ .ᐢ ₎⸝ ☆",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_059",
+      "text": "｡꒰ˆִっ. ɞ̴̶̷̥ˆ꒱֯♡⃟",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_060",
+      "text": "✧ ݂Ꮚ݁ ⷭ⸝⸝ʚ̴̶̷̷ · ʚ̴̶̷̷⸝⸝՞𐦯˚ ݂𓂂",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_061",
+      "text": "⊚⃝⸜(｡∵｡) ⋆｡°✩",
+      "tags": ["decoration", "sparkle"]
+    },
+    {
+      "id": "decoration_062",
+      "text": "˳໒ ͚.ིྀ ݂ . ͚১֯݀♡⃟",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_063",
+      "text": "ഒٜ ྀི ͚ɞ̴̶̷ ·̮ ɞ̴̶̷ ͚ ྀིᡘ݂❤︎",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_064",
+      "text": "しྀིʚ̴̶̷ .̥ ʚ̴̶̷♡֯১יִ",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_065",
+      "text": "‎໒꒰ྀི ॱ꒳ॱ ִ❀ ꒱ྀི১",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_066",
+      "text": "יִ ᱒ᐢ ܸ. . .ྀིܸ ᐢ১ཾ♡",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_067",
+      "text": "𝄞 ૮ੑ𓈒 ᩙ𑁦 𑁦ୄྀི𑁬֯♡",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_068",
+      "text": "♡ཾֻ𑙕 . ᩙ.𓈒ꛒྀི۶ৎ יִ",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_069",
+      "text": "♡ྀི՞𓈒. .𓈒՞𑁩۶ৎ",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_070",
+      "text": "໒݂𓍼ིྀ݀𓈒݂. .݂𓈒𓍼ིྀ݀১֯♡",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_071",
+      "text": ".ﾟ*♡ꕤ⸜(⸝⸝º ^ º⸝⸝ )⸝ꕤ♡*.ﾟ",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_072",
+      "text": "めƷɭ ɿ ㄘゅ ₹ ㄘゅ💋",
+      "tags": ["decoration", "cute", "kiss"]
+    },
+    {
+      "id": "decoration_073",
+      "text": "ⳣ₹ⳣ₹ †=ﾞ⇂ι",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_074",
+      "text": "Ⳣ ₹ ㄘょーかわƖ ıƖ ıー ιϯ⊃こխ𐒿꒭",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_075",
+      "text": "క”ꌧゅꩢ💘",
+      "tags": ["decoration", "cute", "love"]
+    },
+    {
+      "id": "decoration_076",
+      "text": "めƷ Ⴑゅ₹ ₹ゅƕ",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_077",
+      "text": "ゎ‹ゎ‹ゎ‹",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_078",
+      "text": "₺ƾ₺ƾ",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "decoration_079",
+      "text": "ㄑƕ ㄘゃƕ",
+      "tags": ["decoration", "cute"]
     }
   ]
 }

@@ -5,7 +5,7 @@
     "zh-tw": "加油"
   },
   "preview": "",
-  "lastUpdated": "2025-09-27",
+  "lastUpdated": "2026-04-15",
   "items": [
     {
       "id": "fighting_001",
@@ -391,6 +391,11 @@
       "id": "fighting_082",
       "text": "٩(✪ꀾ⍟༶)و",
       "tags": ["cheer-up"]
+    },
+    {
+      "id": "fighting_083",
+      "text": "꒰𑁬👊⸝⸝＞ヮ＜)꒱",
+      "tags": ["fighting", "attack"]
     }
   ]
 }

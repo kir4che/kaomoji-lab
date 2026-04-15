@@ -5,693 +5,937 @@
     "zh-tw": "問候"
   },
   "preview": "(*・ω・)ﾉ",
-  "lastUpdated": "2025-11-17",
+  "lastUpdated": "2026-04-15",
   "items": [
     {
       "id": "greeting_004",
       "text": "|´▽｀●)ﾉ",
-      "tags": [
-        "happiness",
-        "happy",
-        "peeking",
-        "waving"
-      ]
+      "tags": ["happiness", "happy", "peeking", "waving"]
     },
     {
       "id": "greeting_005",
       "text": "|ｮ０ω０*)ﾉﾞ",
-      "tags": [
-        "cute",
-        "peeking",
-        "waving"
-      ]
+      "tags": ["cute", "peeking", "waving"]
     },
     {
       "id": "greeting_006",
       "text": "|ω・｀)ノ",
-      "tags": [
-        "cute",
-        "peeking",
-        "waving"
-      ]
+      "tags": ["cute", "peeking", "waving"]
     },
     {
       "id": "greeting_007",
       "text": "| 、ン、)ﾉ",
-      "tags": [
-        "peeking",
-        "smile",
-        "waving"
-      ]
+      "tags": ["peeking", "smile", "waving"]
     },
     {
       "id": "greeting_008",
       "text": "(′ω`)ﾉ",
-      "tags": [
-        "helpless",
-        "waving"
-      ]
+      "tags": ["helpless", "waving"]
     },
     {
       "id": "greeting_010",
       "text": "＼(^O^ )＞*",
-      "tags": [
-        "happy",
-        "waving"
-      ]
+      "tags": ["happy", "waving"]
     },
     {
       "id": "greeting_011",
       "text": "*＜( ^O^)／",
-      "tags": [
-        "happy",
-        "waving"
-      ]
+      "tags": ["happy", "waving"]
     },
     {
       "id": "greeting_012",
       "text": "ヽ|･з･|ゞ",
-      "tags": [
-        "pouting",
-        "waving"
-      ]
+      "tags": ["pouting", "waving"]
     },
     {
       "id": "greeting_013",
       "text": "*＜( ・∀・)ノ",
-      "tags": [
-        "happy",
-        "waving"
-      ]
+      "tags": ["happy", "waving"]
     },
     {
       "id": "greeting_014",
       "text": "ヽ(・∀・ )＞*",
-      "tags": [
-        "happy",
-        "waving"
-      ]
+      "tags": ["happy", "waving"]
     },
     {
       "id": "greeting_017",
       "text": "く(^ｰﾟ)ﾉ",
-      "tags": [
-        "waving",
-        "wink"
-      ]
+      "tags": ["waving", "wink"]
     },
     {
       "id": "greeting_018",
       "text": "( ･ω･)ﾉ",
-      "tags": [
-        "cute",
-        "waving"
-      ]
+      "tags": ["cute", "waving"]
     },
     {
       "id": "greeting_019",
       "text": "( ^_^)／",
-      "tags": [
-        "smile",
-        "waving"
-      ]
+      "tags": ["smile", "waving"]
     },
     {
       "id": "greeting_021",
       "text": "(^ Q ^)/",
-      "tags": [
-        "happy",
-        "waving"
-      ]
+      "tags": ["happy", "waving"]
     },
     {
       "id": "greeting_023",
       "text": "(｡･ω･)ﾉﾞ",
-      "tags": [
-        "cute",
-        "waving"
-      ]
+      "tags": ["cute", "waving"]
     },
     {
       "id": "greeting_025",
       "text": "(。･д･)ﾉﾞ",
-      "tags": [
-        "shout",
-        "waving"
-      ]
+      "tags": ["shout", "waving"]
     },
     {
       "id": "greeting_026",
       "text": "(。^_・)ノ",
-      "tags": [
-        "waving",
-        "wink"
-      ]
+      "tags": ["waving", "wink"]
     },
     {
       "id": "greeting_027",
       "text": "(´・ω・)ﾉ",
-      "tags": [
-        "cute",
-        "waving"
-      ]
+      "tags": ["cute", "waving"]
     },
     {
       "id": "greeting_028",
       "text": "(=ﾟωﾟ)ﾉ",
-      "tags": [
-        "waving"
-      ]
+      "tags": ["waving"]
     },
     {
       "id": "greeting_029",
       "text": "(*￣Ｏ￣)ノ",
-      "tags": [
-        "closed-eyes",
-        "shout",
-        "waving"
-      ]
+      "tags": ["closed-eyes", "shout", "waving"]
     },
     {
       "id": "greeting_030",
       "text": "( ・_・)ノ",
-      "tags": [
-        "speechless",
-        "waving"
-      ]
+      "tags": ["speechless", "waving"]
     },
     {
       "id": "greeting_031",
       "text": "(o・・o)/",
-      "tags": [
-        "waving"
-      ]
+      "tags": ["waving"]
     },
     {
       "id": "greeting_032",
       "text": "~(＾◇^)/",
-      "tags": [
-        "happy",
-        "waving"
-      ]
+      "tags": ["happy", "waving"]
     },
     {
       "id": "greeting_033",
       "text": "☆ﾐ(o*･ω･)ﾉ",
-      "tags": [
-        "cute",
-        "greeting",
-        "star",
-        "waving"
-      ]
+      "tags": ["cute", "greeting", "star", "waving"]
     },
     {
       "id": "greeting_034",
       "text": "o｜◕ˇ▽ˇ◕｜ツ",
-      "tags": [
-        "happy",
-        "waving"
-      ]
+      "tags": ["happy", "waving"]
     },
     {
       "id": "greeting_035",
       "text": "∪*ゝω･)ﾉ”",
-      "tags": [
-        "cute",
-        "dog",
-        "waving",
-        "wink"
-      ]
+      "tags": ["cute", "dog", "waving", "wink"]
     },
     {
       "id": "greeting_036",
       "text": "(ஐ╹◡╹)ノ",
-      "tags": [
-        "smile",
-        "waving"
-      ]
+      "tags": ["smile", "waving"]
     },
     {
       "id": "greeting_037",
       "text": "(*´･д･)ﾉ",
-      "tags": [
-        "shout",
-        "waving"
-      ]
+      "tags": ["shout", "waving"]
     },
     {
       "id": "greeting_038",
       "text": "(*ﾟ_っﾟ)ﾉﾞ",
-      "tags": [
-        "dazed",
-        "waving"
-      ]
+      "tags": ["dazed", "waving"]
     },
     {
       "id": "greeting_039",
       "text": "|。･ω･|ﾉ",
-      "tags": [
-        "peeking",
-        "waving"
-      ]
+      "tags": ["peeking", "waving"]
     },
     {
       "id": "greeting_040",
       "text": "~ヾ(＾∇＾)",
-      "tags": [
-        "happy",
-        "waving"
-      ]
+      "tags": ["happy", "waving"]
     },
     {
       "id": "greeting_041",
       "text": "ヾ( ‘ – ‘*)",
-      "tags": [
-        "waving"
-      ]
+      "tags": ["waving"]
     },
     {
       "id": "greeting_042",
       "text": "(/・・)ノ",
-      "tags": [
-        "waving"
-      ]
+      "tags": ["waving"]
     },
     {
       "id": "greeting_044",
       "text": "〈( ^.^)ノ",
-      "tags": [
-        "happy",
-        "waving"
-      ]
+      "tags": ["happy", "waving"]
     },
     {
       "id": "greeting_049",
       "text": "(ﾉ･ω･)ﾉﾞ",
-      "tags": [
-        "cute",
-        "waving"
-      ]
+      "tags": ["cute", "waving"]
     },
     {
       "id": "greeting_050",
       "text": "ヽ(･ω･ゞ)",
-      "tags": [
-        "cute",
-        "waving"
-      ]
+      "tags": ["cute", "waving"]
     },
     {
       "id": "greeting_051",
       "text": "ヾ(ｏ･ω･)ﾉ",
-      "tags": [
-        "cute",
-        "waving"
-      ]
+      "tags": ["cute", "waving"]
     },
     {
       "id": "greeting_052",
       "text": "ヽ(･ϖ･ゞ)",
-      "tags": [
-        "waving"
-      ]
+      "tags": ["waving"]
     },
     {
       "id": "greeting_053",
       "text": "(＠･０･)ﾉ",
-      "tags": [
-        "shout",
-        "waving"
-      ]
+      "tags": ["shout", "waving"]
     },
     {
       "id": "greeting_054",
       "text": "(•ㅂ•)/",
-      "tags": [
-        "cute",
-        "waving"
-      ]
+      "tags": ["cute", "waving"]
     },
     {
       "id": "greeting_055",
       "text": "(○︎´∀︎`○︎)ﾉ",
-      "tags": [
-        "happiness",
-        "happy",
-        "waving"
-      ]
+      "tags": ["happiness", "happy", "waving"]
     },
     {
       "id": "greeting_056",
       "text": "((*‧∀︎‧))ﾉ",
-      "tags": [
-        "happy",
-        "waving"
-      ]
+      "tags": ["happy", "waving"]
     },
     {
       "id": "greeting_058",
       "text": "(*・ω・)ﾉ",
-      "tags": [
-        "cute",
-        "waving"
-      ]
+      "tags": ["cute", "waving"]
     },
     {
       "id": "greeting_060",
       "text": "(°▽°)/",
-      "tags": [
-        "dazed",
-        "happy",
-        "waving"
-      ]
+      "tags": ["dazed", "happy", "waving"]
     },
     {
       "id": "greeting_061",
       "text": "( ´ ∀ ` )ﾉ",
-      "tags": [
-        "happiness",
-        "happy",
-        "waving"
-      ]
+      "tags": ["happiness", "happy", "waving"]
     },
     {
       "id": "greeting_062",
       "text": "(^-^*)/",
-      "tags": [
-        "happy",
-        "waving"
-      ]
+      "tags": ["happy", "waving"]
     },
     {
       "id": "greeting_063",
       "text": "(＠´ー`)ﾉﾞ",
-      "tags": [
-        "helpless",
-        "waving"
-      ]
+      "tags": ["helpless", "waving"]
     },
     {
       "id": "greeting_064",
       "text": "(´• ω •`)ﾉ",
-      "tags": [
-        "cute",
-        "waving"
-      ]
+      "tags": ["cute", "waving"]
     },
     {
       "id": "greeting_065",
       "text": "( ° ∀ ° )ﾉﾞ",
-      "tags": [
-        "dazed",
-        "waving"
-      ]
+      "tags": ["dazed", "waving"]
     },
     {
       "id": "greeting_067",
       "text": "(^０^)ノ",
-      "tags": [
-        "happy",
-        "waving"
-      ]
+      "tags": ["happy", "waving"]
     },
     {
       "id": "greeting_068",
       "text": "~ヾ(・ω・)",
-      "tags": [
-        "cute",
-        "waving"
-      ]
+      "tags": ["cute", "waving"]
     },
     {
       "id": "greeting_069",
       "text": "(・∀・)ノ",
-      "tags": [
-        "happy",
-        "waving"
-      ]
+      "tags": ["happy", "waving"]
     },
     {
       "id": "greeting_070",
       "text": "ヾ(・ω・*)",
-      "tags": [
-        "cute",
-        "waving"
-      ]
+      "tags": ["cute", "waving"]
     },
     {
       "id": "greeting_074",
       "text": "(o^ ^o)/",
-      "tags": [
-        "happy",
-        "waving"
-      ]
+      "tags": ["happy", "waving"]
     },
     {
       "id": "greeting_079",
       "text": "ⓗⓔⓛⓛⓞ",
-      "tags": [
-        "text"
-      ]
+      "tags": ["text"]
     },
     {
       "id": "greeting_080",
       "text": "ヾ(＾∇＾)",
-      "tags": [
-        "happy",
-        "waving"
-      ]
+      "tags": ["happy", "waving"]
     },
     {
       "id": "greeting_081",
       "text": "(ノ^∇^)",
-      "tags": [
-        "happy",
-        "waving"
-      ]
+      "tags": ["happy", "waving"]
     },
     {
       "id": "greeting_083",
       "text": "(≧∇≦)/",
-      "tags": [
-        "thrilled",
-        "waving"
-      ]
+      "tags": ["thrilled", "waving"]
     },
     {
       "id": "greeting_084",
       "text": "川o･-･)ﾉ",
-      "tags": [
-        "peeking",
-        "waving"
-      ]
+      "tags": ["peeking", "waving"]
     },
     {
       "id": "greeting_085",
       "text": "＼(￣O￣)",
-      "tags": [
-        "closed-eyes",
-        "shout",
-        "waving"
-      ]
+      "tags": ["closed-eyes", "shout", "waving"]
     },
     {
       "id": "greeting_086",
       "text": "（ ゜ρ゜)ノ",
-      "tags": [
-        "dazed",
-        "waving"
-      ]
+      "tags": ["dazed", "waving"]
     },
     {
       "id": "greeting_089",
       "text": "( ﾟ▽ﾟ)/",
-      "tags": [
-        "happy",
-        "waving"
-      ]
+      "tags": ["happy", "waving"]
     },
     {
       "id": "greeting_096",
       "text": "(。･∀･)ﾉ",
-      "tags": [
-        "happy",
-        "waving"
-      ]
+      "tags": ["happy", "waving"]
     },
     {
       "id": "greeting_098",
       "text": "(⌒ ̫⌒)/",
+      "tags": ["happy", "waving"]
+    },
+    {
+      "id": "greeting_101",
+      "text": "(＊・ ﾜ・´＊)ノ",
+      "tags": ["waving"]
+    },
+    {
+      "id": "greeting_110",
+      "text": "ฅʕ,,- ꈊ- ,,ʔ おはよう✨ﾟ",
+      "tags": ["animal", "closed-eyes", "sparkle", "waving"]
+    },
+    {
+      "id": "greeting_111",
+      "text": "٩(„❛ ֊ ❛„)*おはよ*❤︎",
+      "tags": ["cute", "greeting", "hands-up", "love", "text"]
+    },
+    {
+      "id": "greeting_112",
+      "text": "(｡･д･)ﾉｵﾊﾖｰﾝ♪",
+      "tags": ["displeased", "greeting", "music", "shout", "text", "waving"]
+    },
+    {
+      "id": "greeting_113",
+      "text": "ヾ(*´З`)ﾉ !ぉl￡ょぅ.+: !!",
+      "tags": ["greeting", "hands-up", "pouting"]
+    },
+    {
+      "id": "greeting_116",
+      "text": "«٩((๑- ̀᎑<๑)۶»ぉはょ⌒.°♪",
+      "tags": ["cute", "dancing", "greeting", "hands-up", "music"]
+    },
+    {
+      "id": "greeting_117",
+      "text": "(*˘︶˘*)ｵﾔｽﾐﾅｻｨ.｡.:*♡",
+      "tags": ["closed-eyes", "cute", "greeting", "love", "smile"]
+    },
+    {
+      "id": "greeting_118",
+      "text": "(* ˘ ᵕ ˘*)☆*:.Ⴛ̅̀やਭみ",
+      "tags": ["closed-eyes", "greeting", "smile", "star"]
+    },
+    {
+      "id": "greeting_120",
+      "text": "+。:.゜ｵﾔｽﾐヽ(´∀｀)ﾉ",
+      "tags": ["greeting", "hands-up", "happy"]
+    },
+    {
+      "id": "greeting_121",
+      "text": "Good night (*˘︶˘*).｡.:*♡",
+      "tags": ["closed-eyes", "greeting", "love", "smile"]
+    },
+    {
+      "id": "greeting_122",
+      "text": "(★ゝз･)ﾉ~*",
+      "tags": ["star", "waving", "wink", "pouting"]
+    },
+    {
+      "id": "greeting_123",
+      "text": "|･ω･`*)ッ",
+      "tags": ["peeking", "waving"]
+    },
+    {
+      "id": "greeting_124",
+      "text": "|ʘ‿ʘ)╯",
+      "tags": ["big-eyes", "peeking", "smile", "waving"]
+    },
+    {
+      "id": "greeting_125",
+      "text": "(ʘ‿ʘ)ノ✿",
+      "tags": ["big-eyes", "flower", "smile", "waving"]
+    },
+    {
+      "id": "greeting_126",
+      "text": "(｡･ω･｡)ﾉ♡",
+      "tags": ["cute", "love", "waving"]
+    },
+    {
+      "id": "greeting_127",
+      "text": "٩(๑´0`๑)۶ｵｯﾊﾖｰｰ",
+      "tags": ["greeting", "shout", "text"]
+    },
+    {
+      "id": "greeting_128",
+      "text": "(*･ω･)/''' ｲﾃﾗｰ♪",
+      "tags": ["greeting", "music", "text", "waving"]
+    },
+    {
+      "id": "greeting_129",
+      "text": "おはよう(*´・ω・)ノ",
+      "tags": ["greeting", "waving"]
+    },
+    {
+      "id": "greeting_130",
+      "text": "٩ (* ˊ︶ `*)۶ おはよ〜♬",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_131",
+      "text": "(*´ ∀ `*) ﾉ \"♡",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_132",
+      "text": "*´ ･ ω ヾ)",
+      "tags": ["greeting"]
+    },
+    {
+      "id": "greeting_133",
+      "text": "ｵﾊｮ━━ ( ｡･∀･ ) ﾉﾞ━━ｩ",
+      "tags": ["greeting", "waving"]
+    },
+    {
+      "id": "greeting_134",
+      "text": "( ๑ ˊ͈ ꇴ ˋ͈ ) ꕤ おはよー ꕤ",
+      "tags": ["greeting", "happy", "flower"]
+    },
+    {
+      "id": "greeting_135",
+      "text": "٩ (ˆ ˆ ๑) ۶ おはよー ♡",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_136",
+      "text": "ｵﾊﾖ─ヽ ( ◍ ˃ ᗜ ˂ ◍ ) ﾉ─ｯｯ !!",
+      "tags": ["greeting", "excited"]
+    },
+    {
+      "id": "greeting_137",
+      "text": "(*Ü*) ﾉ \" おは Yoϋ♡",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_138",
+      "text": "« ٩ (( ๑ •̀ ᎑ < ๑ ) ۶ » ぉはょ⌒ 🌟 .° ♪",
+      "tags": ["greeting", "excited", "star"]
+    },
+    {
+      "id": "greeting_139",
+      "text": "ｫ'`ｫ'`( ｏ 'д') 从 ('д' ｏ )ｫ'`ｫ'` ♪",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_140",
+      "text": "( ฅ • ㅅ •) おはょ",
+      "tags": ["greeting", "cat"]
+    },
+    {
+      "id": "greeting_141",
+      "text": "おはよーっ : *ﾟ ✲ ฺ ٩ ( ˊᗜ ˋ *) و ✲ ฺ ﾟ *:",
+      "tags": ["greeting", "happy", "sparkle"]
+    },
+    {
+      "id": "greeting_142",
+      "text": "٩ („❛ ֊ ❛„)* おはよ * ❤︎",
+      "tags": ["greeting", "happy", "love"]
+    },
+    {
+      "id": "greeting_143",
+      "text": "･ *•(* ･ ω ･ *).•*¨*",
+      "tags": ["greeting", "cute"]
+    },
+    {
+      "id": "greeting_144",
+      "text": "おはよー !!",
+      "tags": ["greeting", "excited"]
+    },
+    {
+      "id": "greeting_145",
+      "text": "おはよ～ ( ๑ ơ ₃ ơ) ﻌﻌﻌ ♥!!!",
+      "tags": ["greeting", "happy", "love"]
+    },
+    {
+      "id": "greeting_146",
+      "text": "おは є( ･ Θ ･｡ )э››~ ♬",
+      "tags": ["greeting", "bird", "music"]
+    },
+    {
+      "id": "greeting_147",
+      "text": "(○´ ∀ `) ﾉｵﾊｰﾖｩ !!",
+      "tags": ["greeting", "waving"]
+    },
+    {
+      "id": "greeting_148",
+      "text": "‎( ୨୧ •͈ᴗ•͈ ) ◞ ｵﾊﾖｳ♪",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_149",
+      "text": "ฅ ʕ",
+      "tags": [",• ꈊ •,,ʔ おはよう ✨ ﾟ,greeting", "animal", "bear"]
+    },
+    {
+      "id": "greeting_150",
+      "text": "°(´- ㅁ ก `) ｵﾊﾖｰ",
+      "tags": ["greeting", "sad"]
+    },
+    {
+      "id": "greeting_151",
+      "text": "ε( ｡ •ө• ｡ )з\" ｵﾊﾋﾟﾖ ♡",
+      "tags": ["greeting", "cute"]
+    },
+    {
+      "id": "greeting_152",
+      "text": "(〃'▽'〃) ﾉおはよー",
+      "tags": ["greeting", "shy"]
+    },
+    {
+      "id": "greeting_153",
+      "text": "٩ ( ๑ ´0` ๑ ) ۶ おはよう",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_154",
+      "text": "( •ω• ฅ ）ｵﾊﾖ . ｡ .:*♡",
+      "tags": ["greeting", "cat", "cute"]
+    },
+    {
+      "id": "greeting_155",
+      "text": "(o´ ∀ `o) ﾉｵﾊﾖ ~♡",
+      "tags": ["greeting", "waving"]
+    },
+    {
+      "id": "greeting_156",
+      "text": "ʕ ๑ •ω• ฅ ʔ ＊おはよっ ❤",
+      "tags": ["greeting", "cat", "happy"]
+    },
+    {
+      "id": "greeting_157",
+      "text": "( ฅ • ㅅ •) おはよ",
+      "tags": ["greeting", "cat"]
+    },
+    {
+      "id": "greeting_158",
+      "text": "ฅ ۶ • ﻌ •♡ おは Yoϋ♡ *ﾟ",
+      "tags": ["greeting", "cat", "happy"]
+    },
+    {
+      "id": "greeting_159",
+      "text": "( ｡･ д ･) ﾉｵﾊﾖｰﾝ♪",
+      "tags": ["greeting", "waving"]
+    },
+    {
+      "id": "greeting_160",
+      "text": "ღ ｵｯ ⊹⊱✲ (o ☻ ܫ ☻ o) ✲⊰⊹ ﾊﾖｰ ღ",
+      "tags": ["greeting", "happy", "decoration"]
+    },
+    {
+      "id": "greeting_161",
+      "text": "ヽ (ω ･",
       "tags": [
+        ", ヽ ) ｵｯﾊ !! ( ﾉ ,, ･ ω ) ﾉｵﾊｵﾊ !! . ｡ﾟ +.(,, ･ ω ･ ,,) ﾉ｡ + .ﾟｵﾊﾖｳｻﾝ !!,greeting",
+        "excited",
         "happy",
         "waving"
       ]
     },
     {
-      "id": "greeting_101",
-      "text": "(＊・ ﾜ・´＊)ノ",
-      "tags": [
-        "waving"
-      ]
+      "id": "greeting_162",
+      "text": "* ✲ ﾟ *( ❁ ´ ︶ ` ❁ )* ✲ ﾟ *",
+      "tags": ["greeting", "decoration", "flower"]
     },
     {
-      "id": "greeting_110",
-      "text": "ฅʕ,,- ꈊ- ,,ʔ おはよう✨ﾟ",
-      "tags": [
-        "animal",
-        "closed-eyes",
-        "sparkle",
-        "waving"
-      ]
+      "id": "greeting_163",
+      "text": "ぉはょ！",
+      "tags": ["greeting"]
     },
     {
-      "id": "greeting_111",
-      "text": "٩(„❛ ֊ ❛„)*おはよ*❤︎",
-      "tags": [
-        "cute",
-        "greeting",
-        "hands-up",
-        "love",
-        "text"
-      ]
+      "id": "greeting_164",
+      "text": "[ ▓▓] ᐖ ) ﾊﾟﾁｯ",
+      "tags": ["greeting", "surprised"]
     },
     {
-      "id": "greeting_112",
-      "text": "(｡･д･)ﾉｵﾊﾖｰﾝ♪",
-      "tags": [
-        "displeased",
-        "greeting",
-        "music",
-        "shout",
-        "text",
-        "waving"
-      ]
+      "id": "greeting_165",
+      "text": "三 ( ۶ ᐛ ) ۶ ｵﾊﾖｰ",
+      "tags": ["greeting", "waving"]
     },
     {
-      "id": "greeting_113",
-      "text": "ヾ(*´З`)ﾉ !ぉl￡ょぅ.+: !!",
-      "tags": [
-        "greeting",
-        "hands-up",
-        "pouting"
-      ]
+      "id": "greeting_166",
+      "text": "(*´ω`*) ﾉおはおは",
+      "tags": ["greeting", "happy"]
     },
     {
-      "id": "greeting_116",
-      "text": "«٩((๑- ̀᎑<๑)۶»ぉはょ⌒.°♪",
-      "tags": [
-        "cute",
-        "dancing",
-        "greeting",
-        "hands-up",
-        "music"
-      ]
+      "id": "greeting_167",
+      "text": "(´ω｀＝´ω｀ ) ﾉ",
+      "tags": ["greeting", "happy"]
     },
     {
-      "id": "greeting_117",
-      "text": "(*˘︶˘*)ｵﾔｽﾐﾅｻｨ.｡.:*♡",
-      "tags": [
-        "closed-eyes",
-        "cute",
-        "greeting",
-        "love",
-        "smile"
-      ]
+      "id": "greeting_168",
+      "text": "ｵﾊﾖォ",
+      "tags": ["greeting"]
     },
     {
-      "id": "greeting_118",
-      "text": "(* ˘ ᵕ ˘*)☆*:.Ⴛ̅̀やਭみ",
-      "tags": [
-        "closed-eyes",
-        "greeting",
-        "smile",
-        "star"
-      ]
+      "id": "greeting_169",
+      "text": "お〜 \\(´ω` )/ は～ ( ´)/ よ～ \\( ´ω`)/ 〜！",
+      "tags": ["greeting", "excited", "waving"]
     },
     {
-      "id": "greeting_120",
-      "text": "+。:.゜ｵﾔｽﾐヽ(´∀｀)ﾉ",
-      "tags": [
-        "greeting",
-        "hands-up",
-        "happy"
-      ]
+      "id": "greeting_170",
+      "text": "(*˙˘˙*) おはよ〜",
+      "tags": ["greeting", "happy"]
     },
     {
-      "id": "greeting_121",
-      "text": "Good night (*˘︶˘*).｡.:*♡",
-      "tags": [
-        "closed-eyes",
-        "greeting",
-        "love",
-        "smile"
-      ]
+      "id": "greeting_171",
+      "text": "❀ .(*´▽`*) ❀ . ｵﾊﾖｳ",
+      "tags": ["greeting", "happy", "flower"]
     },
     {
-      "id": "greeting_122",
-      "text": "(★ゝз･)ﾉ~*",
-      "tags": [
-        "star",
-        "waving",
-        "wink",
-        "pouting"
-      ]
+      "id": "greeting_172",
+      "text": "おっ ( ๑ • ㅁ • ๑ ) はよー！",
+      "tags": ["greeting", "happy"]
     },
     {
-      "id": "greeting_123",
-      "text": "|･ω･`*)ッ",
-      "tags": [
-        "peeking",
-        "waving"
-      ]
+      "id": "greeting_173",
+      "text": "(*Ü*) ﾉ \"\" おは Yoϋ♡",
+      "tags": ["greeting", "happy"]
     },
     {
-      "id": "greeting_124",
-      "text": "|ʘ‿ʘ)╯",
-      "tags": [
-        "big-eyes",
-        "peeking",
-        "smile",
-        "waving"
-      ]
+      "id": "greeting_174",
+      "text": "(*´ ･ ω ･ ) ﾉ",
+      "tags": ["greeting", "waving"]
     },
     {
-      "id": "greeting_125",
-      "text": "(ʘ‿ʘ)ノ✿",
-      "tags": [
-        "big-eyes",
-        "flower",
-        "smile",
-        "waving"
-      ]
+      "id": "greeting_175",
+      "text": "･ﾟ :* :ﾟおはｮ～ ☆ ･ﾟ :* :ﾟ",
+      "tags": ["greeting", "decoration"]
     },
     {
-      "id": "greeting_126",
-      "text": "(｡･ω･｡)ﾉ♡",
-      "tags": [
-        "cute",
-        "love",
-        "waving"
-      ]
+      "id": "greeting_176",
+      "text": "ｵﾊﾖｳ",
+      "tags": ["greeting"]
     },
     {
-      "id": "greeting_127",
-      "text": "٩(๑´0`๑)۶ｵｯﾊﾖｰｰ",
-      "tags": [
-        "greeting",
-        "shout",
-        "text"
-      ]
+      "id": "greeting_177",
+      "text": "ヾ ( ｡・ ω ・｡ ) ｀ *:;",
+      "tags": ["｡･ ★,greeting", "happy", "decoration"]
     },
     {
-      "id": "greeting_128",
-      "text": "(*･ω･)/''' ｲﾃﾗｰ♪",
-      "tags": [
-        "greeting",
-        "music",
-        "text",
-        "waving"
-      ]
+      "id": "greeting_178",
+      "text": "٩ ( ๑ ´0` ๑ ) ۶ ｵｯﾊﾖｰｰ",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_179",
+      "text": "\" ｫ'`ｫ'`(o´ ∀ `) ﾉ゛ｫ'`ｫ'` ｮｩ \"",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_180",
+      "text": "(o´Д`o) ﾉﾞ オハｮｮﾖﾖ∃ｩ",
+      "tags": ["greeting", "surprised", "waving"]
+    },
+    {
+      "id": "greeting_181",
+      "text": "٩ (˘◊˘) ۶ ｵｯﾊﾖｰｰｰﾝ !!!",
+      "tags": ["greeting", "excited"]
+    },
+    {
+      "id": "greeting_182",
+      "text": "お o('∇'* ✿ ) は ( ✿ *'∇')o よっ♪",
+      "tags": ["greeting", "happy", "flower"]
+    },
+    {
+      "id": "greeting_183",
+      "text": "٩ ( ๑ ´0` ๑ ) ۶ おはよぉ",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_184",
+      "text": "ʕ ๑ •ω• ฅ ʔ ✧ { ぉはょｯ ♡",
+      "tags": ["greeting", "cat", "happy"]
+    },
+    {
+      "id": "greeting_185",
+      "text": "(*˙˘˙) おはよ ♡",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_186",
+      "text": "( ｡･ ω ･) ﾉﾞ ｵﾊﾖｰ",
+      "tags": ["greeting", "waving"]
+    },
+    {
+      "id": "greeting_187",
+      "text": "٩ ( ˊﾛ ˋ *) و おはよーさーん",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_188",
+      "text": "٩ (●˙ ▿ ˙●) ۶ おはよ ♡",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_189",
+      "text": "ଘ ꒰ ⑅ • ᴗ • ꒱ ◞ ぉはょ •*¨*•.¸¸ 🌼",
+      "tags": ["greeting", "happy", "flower"]
+    },
+    {
+      "id": "greeting_190",
+      "text": "ｫ'`(σ ･ ω ･ )σYO ♪",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_191",
+      "text": "✿ * おはよぅ ~₍₍ ٩ ( ･ ω ･ ) و ⁾⁾ * ✿",
+      "tags": ["greeting", "happy", "flower"]
+    },
+    {
+      "id": "greeting_192",
+      "text": "( ⊃ д ⊂ ) ｵｯ･･･∩･ д ･∩ ﾊｧｰ",
+      "tags": ["greeting", "tired"]
+    },
+    {
+      "id": "greeting_193",
+      "text": "‪ ฅ ˆ• ﻌ •ˆ ฅ ♡ Ⴛ ̅̀ ∣ժ ̅ ꒭ ~੭ੇ ♡‬",
+      "tags": ["greeting", "cat", "cute"]
+    },
+    {
+      "id": "greeting_194",
+      "text": "( ｣ ´□`) ｣ ｵﾊﾖｰｺﾞｻﾞｲﾏｽｯｯｯ !!!!!",
+      "tags": ["greeting", "shout", "excited"]
+    },
+    {
+      "id": "greeting_195",
+      "text": "( ๑ ˊ͈ ꇴ ˋ͈ ) ꕤ おはようございます ꕤ",
+      "tags": ["greeting", "happy", "flower"]
+    },
+    {
+      "id": "greeting_196",
+      "text": "ｵﾊﾖｰｺｻﾞｲﾏｽ(*´ ꒳ ` ฅ ﾞ",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_197",
+      "text": "| ｮ ''ω''〃) おはようございます♪",
+      "tags": ["greeting", "shy"]
+    },
+    {
+      "id": "greeting_198",
+      "text": "| ｮ 'ω'〃) おはようございます♪",
+      "tags": ["greeting", "shy"]
+    },
+    {
+      "id": "greeting_199",
+      "text": "おはようございます ٩ ( *´ ꒳ `*) ۶",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_200",
+      "text": ". *ﾟ +.*( ｣･ ω ･ ) ｣ *. ｵﾊﾖｵｫｫｺﾞｻﾞｲﾏｽ☆ﾟ･ :*☆",
+      "tags": ["greeting", "shout", "excited"]
+    },
+    {
+      "id": "greeting_201",
+      "text": "+.(",
+      "tags": [", ･ ω ･ ,,) ﾉ｡ + .ﾟｵﾊﾖｳｺﾞｻﾞｲﾏｽ !!,greeting", "happy", "waving"]
+    },
+    {
+      "id": "greeting_202",
+      "text": "ｵﾊﾖ━━ ( ｡･∀･ ) ﾉ━━ｺﾞｻﾞｲﾏｽ",
+      "tags": ["greeting", "waving"]
+    },
+    {
+      "id": "greeting_203",
+      "text": "おはようございます (´∇｀ *) ﾉ",
+      "tags": ["greeting", "waving"]
+    },
+    {
+      "id": "greeting_204",
+      "text": "٩ ( ˊﾛ ˋ *) و ｵﾊﾖｰ ✮ ｺﾞｻﾞﾏｽ ♡",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_205",
+      "text": "おはござ ⸜ ( ˙ ꒳ ˙ ) ⸝ ☀",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_206",
+      "text": ". ꒰ ෆ ᵉ̷͈ ◡ ᵉ̷͈ ෆ ꒱ .‎ ˖ ٭ ⓄⒽⒶⓎⓄ‪ ண ෆ⃛",
+      "tags": ["greeting", "happy", "cute"]
+    },
+    {
+      "id": "greeting_207",
+      "text": "( 🎀 •͈ᴗ•͈ ) ❊ Öʱ ᵃᵞ ৹ ϋ ❊ ｡ *",
+      "tags": ["greeting", "happy", "decoration"]
+    },
+    {
+      "id": "greeting_208",
+      "text": "🌈 ( ๑ ơ ᴗ ơ) ੭ \"♡Öʱ ᵃᵞ ৹ ϋ♡",
+      "tags": ["greeting", "happy", "rainbow"]
+    },
+    {
+      "id": "greeting_209",
+      "text": "٩ ( ๑ • ᎑ < ๑ ) ۶ ❊ Öʱ ᵃᵞ ৹ ϋ ❊ ｡ *",
+      "tags": ["greeting", "happy", "decoration"]
+    },
+    {
+      "id": "greeting_210",
+      "text": "(*Ü*) ٥ hayoϋ☆",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_211",
+      "text": "( ๑ ت ๑ ) ﾉ \" ٥ hayoϋ♡",
+      "tags": ["greeting", "happy", "waving"]
+    },
+    {
+      "id": "greeting_212",
+      "text": "ପ ꒰ ᐢ ⑅ • ༝ • ᐢ ꒱ ෆ Öʱ ᵃᵞ ෆ ϋ♡",
+      "tags": ["greeting", "happy", "cute"]
+    },
+    {
+      "id": "greeting_213",
+      "text": "( ๑ ˙˘˙)/{Good morning",
+      "tags": ["greeting", "happy", "waving"]
+    },
+    {
+      "id": "greeting_214",
+      "text": "(*´ ꒳ ｀ ) ɢ ० ᵒ ᒄ ʍ ᵒ ~ ʳ ᐢ ⁱ ᐢ ᵍ 🌤 ･ *: ⋆ ゜",
+      "tags": ["greeting", "happy", "decoration"]
+    },
+    {
+      "id": "greeting_215",
+      "text": "(*´ ꒳ `) ɢ ० ᵒ ᒄ ʍ ᵒ ~ ʳ ᐢ ⁱ ᐢ ᵍ ･ *: ⋆ ゜",
+      "tags": ["greeting", "happy", "decoration"]
+    },
+    {
+      "id": "greeting_216",
+      "text": "( * ॑ ꒳ ॑ * ) ﾉ ᵍᵒᵒᵈ ᵐᵒʳ ᐢ ⁱ ᐢ ᵍ !",
+      "tags": ["greeting", "happy", "waving"]
+    },
+    {
+      "id": "greeting_217",
+      "text": "ցօօժ ʍ օ ɾ ղ í ղց ( ｡ • ◡ • ｡ ) ⸝ ⋆",
+      "tags": ["greeting", "happy", "cute"]
+    },
+    {
+      "id": "greeting_218",
+      "text": "(*Ü*) ﾉ \"good morning",
+      "tags": ["greeting", "happy", "waving"]
+    },
+    {
+      "id": "greeting_219",
+      "text": "good( ｡･ ω ･｡ )morning ♪",
+      "tags": ["greeting", "happy"]
+    },
+    {
+      "id": "greeting_220",
+      "text": "( *˘o˘) ☆ﾟ｡ + ｡ Good★Morning ｡ + ｡ﾟ ☆",
+      "tags": ["greeting", "happy", "decoration"]
+    },
+    {
+      "id": "greeting_221",
+      "text": "ɢ ० ᵒ ᒄ ʍ ᵒʳ ᐢ ⁱ ᐢ ᵍ ☀︎ (* ˊᵕˋ *) ੭ ⁾⁾",
+      "tags": ["greeting", "happy", "star", "waving"]
+    },
+    {
+      "id": "greeting_222",
+      "text": ".*( ｡ • ◡ • ｡ ) ⸝ ⋆ ᵍᵒᵒᵈ ᵐᵒʳ ᐢ ⁱ ᐢ ᵍ ⛅",
+      "tags": ["greeting", "happy", "cute", "cloud"]
+    },
+    {
+      "id": "greeting_223",
+      "text": "(*ˊᵕˋ*)ﾉ",
+      "tags": ["greeting", "waving"]
+    },
+    {
+      "id": "greeting_224",
+      "text": "ヽ(｡◕ܫ◕)人(◕ܫ◕｡)ﾉ",
+      "tags": ["greeting", "group", "holding-hands"]
+    },
+    {
+      "id": "greeting_225",
+      "text": "꒰ ; > ·̫ 人 ꒱",
+      "tags": ["greeting", "cute"]
+    },
+    {
+      "id": "greeting_226",
+      "text": "(୨୧ ❛ᴗ❛)✧",
+      "tags": ["greeting", "cute", "cool"]
+    },
+    {
+      "id": "greeting_227",
+      "text": "(人>ω•*)",
+      "tags": ["greeting", "cute"]
+    },
+    {
+      "id": "greeting_228",
+      "text": "( ᴗ ᴗ)",
+      "tags": ["greeting", "cute"]
+    },
+    {
+      "id": "greeting_229",
+      "text": "(･ω-人) っ <｡🎶",
+      "tags": ["greeting", "cute", "music"]
+    },
+    {
+      "id": "greeting_230",
+      "text": "(人 •͈ᴗ•͈)",
+      "tags": ["greeting", "cute"]
+    },
+    {
+      "id": "greeting_231",
+      "text": "(人〃ω〃)",
+      "tags": ["greeting", "cute"]
+    },
+    {
+      "id": "greeting_232",
+      "text": "(୨୧ ơ ᴗ ơ)",
+      "tags": ["greeting", "cute"]
     }
   ]
 }

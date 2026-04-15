@@ -5,952 +5,852 @@
     "zh-tw": "幸福"
   },
   "preview": "ᜊ(꒪ˊ꒳ˋ꒪)ᜊ",
-  "lastUpdated": "2025-11-17",
+  "lastUpdated": "2026-04-15",
   "items": [
     {
       "id": "happiness_001",
       "text": "ᜊ(꒪ˊ꒳ˋ꒪)ᜊ",
-      "tags": [
-        "happiness",
-        "wings"
-      ]
+      "tags": ["happiness", "wings"]
     },
     {
       "id": "happiness_002",
       "text": "꒰ঌ*´◒`*໒꒱",
-      "tags": [
-        "happiness",
-        "wings"
-      ]
+      "tags": ["happiness", "wings"]
     },
     {
       "id": "happiness_006",
       "text": "´༥`",
-      "tags": [
-        "cute",
-        "happiness"
-      ]
+      "tags": ["cute", "happiness"]
     },
     {
       "id": "happiness_007",
       "text": "（๑⃙⃘´༥`๑⃙⃘)",
-      "tags": [
-        "cute",
-        "eating",
-        "happiness",
-        "shy"
-      ]
+      "tags": ["cute", "eating", "happiness", "shy"]
     },
     {
       "id": "happiness_008",
       "text": "(๑´ڡ`๑)",
-      "tags": [
-        "eating",
-        "happiness",
-        "舔"
-      ]
+      "tags": ["eating", "happiness", "舔"]
     },
     {
       "id": "happiness_010",
       "text": "“:♡.•♬✧⁽⁽ଘ( ˊᵕˋ )ଓ⁾⁾*+:•*∴",
-      "tags": [
-        "happiness",
-        "love",
-        "music",
-        "smile",
-        "sparkle",
-        "wings"
-      ]
+      "tags": ["happiness", "love", "music", "smile", "sparkle", "wings"]
     },
     {
       "id": "happiness_011",
       "text": "ପ(꒪ˊ꒳ˋ꒪)ଓ",
-      "tags": [
-        "happiness",
-        "wings"
-      ]
+      "tags": ["happiness", "wings"]
     },
     {
       "id": "happiness_012",
       "text": "⁽⁽ଘ( ˊωˋ )ଓ⁾⁾",
-      "tags": [
-        "happiness",
-        "wings"
-      ]
+      "tags": ["happiness", "wings"]
     },
     {
       "id": "happiness_013",
       "text": "♥(✿ฺ´∀`✿ฺ)ﾉ",
-      "tags": [
-        "flower",
-        "happiness",
-        "love",
-        "waving"
-      ]
+      "tags": ["flower", "happiness", "love", "waving"]
     },
     {
       "id": "happiness_014",
       "text": "(✿´꒳`)ﾉ°",
-      "tags": [
-        "cute",
-        "flower",
-        "happiness",
-        "waving"
-      ]
+      "tags": ["cute", "flower", "happiness", "waving"]
     },
     {
       "id": "happiness_015",
       "text": "ღ˘◡˘ற♡.｡oO",
-      "tags": [
-        "closed-eyes",
-        "happiness",
-        "love",
-        "smile",
-        "thinking"
-      ]
+      "tags": ["closed-eyes", "happiness", "love", "smile", "thinking"]
     },
     {
       "id": "happiness_016",
       "text": "*｡٩(ˊωˋ*)و✧*｡",
-      "tags": [
-        "banzai",
-        "cheer-up",
-        "happiness",
-        "sparkle"
-      ]
+      "tags": ["banzai", "cheer-up", "happiness", "sparkle"]
     },
     {
       "id": "happiness_017",
       "text": "⁽⁽◟(∗ ˊωˋ ∗)◞ ⁾⁾",
-      "tags": [
-        "dancing",
-        "happiness"
-      ]
+      "tags": ["dancing", "happiness"]
     },
     {
       "id": "happiness_018",
       "text": "✧٩(ˊωˋ*)و✧",
-      "tags": [
-        "banzai",
-        "cheer-up",
-        "happiness",
-        "sparkle"
-      ]
+      "tags": ["banzai", "cheer-up", "happiness", "sparkle"]
     },
     {
       "id": "happiness_020",
       "text": "( ˶ˊᵕˋ˶)",
-      "tags": [
-        "happiness",
-        "shy",
-        "smile"
-      ]
+      "tags": ["happiness", "shy", "smile"]
     },
     {
       "id": "happiness_021",
       "text": "(˶ˊᵕˋ˵)",
-      "tags": [
-        "happiness",
-        "shy",
-        "smile"
-      ]
+      "tags": ["happiness", "shy", "smile"]
     },
     {
       "id": "happiness_023",
       "text": "꒰՞˶ˊᵕˋ˶՞꒱",
-      "tags": [
-        "cute",
-        "happiness",
-        "shy",
-        "smile"
-      ]
+      "tags": ["cute", "happiness", "shy", "smile"]
     },
     {
       "id": "happiness_024",
       "text": "G͜͡o͜͡o͜͡d͜͡(*ˊᵕˋ*)੭ ੈ❤︎",
-      "tags": [
-        "happiness",
-        "love",
-        "smile",
-        "waving"
-      ]
+      "tags": ["happiness", "love", "smile", "waving"]
     },
     {
       "id": "happiness_025",
       "text": "( ˊᵕˋ )♡.°⑅",
-      "tags": [
-        "happiness",
-        "love",
-        "smile"
-      ]
+      "tags": ["happiness", "love", "smile"]
     },
     {
       "id": "happiness_026",
       "text": "ଘ(੭*ˊᵕˋ)੭* ̀ˋ",
-      "tags": [
-        "happy",
-        "hug",
-        "smile",
-        "wings"
-      ]
+      "tags": ["happy", "hug", "smile", "wings"]
     },
     {
       "id": "happiness_027",
       "text": "ଘ(੭ˊᵕˋ)੭",
-      "tags": [
-        "happiness",
-        "hug",
-        "smile",
-        "wings"
-      ]
+      "tags": ["happiness", "hug", "smile", "wings"]
     },
     {
       "id": "happiness_028",
       "text": "ଘ(੭ˊᵕˋ)੭* ੈ✩‧₊˚",
-      "tags": [
-        "happiness",
-        "hug",
-        "smile",
-        "sparkle",
-        "star",
-        "wings"
-      ]
+      "tags": ["happiness", "hug", "smile", "sparkle", "star", "wings"]
     },
     {
       "id": "happiness_029",
       "text": "(*ˊᗜˋ*)/ᵗᑋᵃᐢᵏ ᵞᵒᵘ*",
-      "tags": [
-        "grateful",
-        "happiness",
-        "happy",
-        "waving"
-      ]
+      "tags": ["grateful", "happiness", "happy", "waving"]
     },
     {
       "id": "happiness_030",
       "text": "٩(ˊᗜˋ*)و",
-      "tags": [
-        "cheer-up",
-        "happiness",
-        "happy"
-      ]
+      "tags": ["cheer-up", "happiness", "happy"]
     },
     {
       "id": "happiness_032",
       "text": "✧*｡٩(ˊᗜˋ*)و✧*｡",
-      "tags": [
-        "banzai",
-        "cheer-up",
-        "happiness",
-        "sparkle",
-        "thrilled"
-      ]
+      "tags": ["banzai", "cheer-up", "happiness", "sparkle", "thrilled"]
     },
     {
       "id": "happiness_033",
       "text": "ꉂ(ˊᗜˋ*)",
-      "tags": [
-        "happiness",
-        "happy",
-        "lol"
-      ]
+      "tags": ["happiness", "happy", "lol"]
     },
     {
       "id": "happiness_034",
       "text": "૮₍ ˊᗜˋ₎ა",
-      "tags": [
-        "animal",
-        "happiness",
-        "happy"
-      ]
+      "tags": ["animal", "happiness", "happy"]
     },
     {
       "id": "happiness_036",
       "text": "(*ˊᗜˋ*)",
-      "tags": [
-        "happiness",
-        "happy"
-      ]
+      "tags": ["happiness", "happy"]
     },
     {
       "id": "happiness_037",
       "text": "\\(*ˊᗜˋ*)/",
-      "tags": [
-        "banzai",
-        "cheer-up",
-        "happiness",
-        "thrilled"
-      ]
+      "tags": ["banzai", "cheer-up", "happiness", "thrilled"]
     },
     {
       "id": "happiness_038",
       "text": "(ˊᗜˋ*)",
-      "tags": [
-        "happiness",
-        "happy"
-      ]
+      "tags": ["happiness", "happy"]
     },
     {
       "id": "happiness_039",
       "text": "(♡´❍`♡)*✧ ✰ ｡*",
-      "tags": [
-        "happiness",
-        "love",
-        "shout",
-        "sparkle",
-        "star"
-      ]
+      "tags": ["happiness", "love", "shout", "sparkle", "star"]
     },
     {
       "id": "happiness_040",
       "text": "(♡´͈༝`͈)ฅ˒˒",
-      "tags": [
-        "animal",
-        "cute",
-        "happiness",
-        "love",
-        "shy",
-        "x-mouth"
-      ]
+      "tags": ["animal", "cute", "happiness", "love", "shy", "x-mouth"]
     },
     {
       "id": "happiness_041",
       "text": "(♡´౪`♡)",
-      "tags": [
-        "happiness",
-        "love"
-      ]
+      "tags": ["happiness", "love"]
     },
     {
       "id": "happiness_042",
       "text": "(♡´艸`)",
-      "tags": [
-        "happiness",
-        "love",
-        "shy"
-      ]
+      "tags": ["happiness", "love", "shy"]
     },
     {
       "id": "happiness_043",
       "text": "(♡ˊ͈ ꒳ ˋ͈)",
-      "tags": [
-        "happiness",
-        "love",
-        "shy"
-      ]
+      "tags": ["happiness", "love", "shy"]
     },
     {
       "id": "happiness_044",
       "text": "₍₍ (̨̡⸝⸝´꒳`⸝⸝)̧̢ ₎₎ﾃﾚﾃﾚ…♡",
-      "tags": [
-        "happiness",
-        "love",
-        "shy",
-        "text",
-        "trembling"
-      ]
+      "tags": ["happiness", "love", "shy", "text", "trembling"]
     },
     {
       "id": "happiness_045",
       "text": "(っ´ω｀c)",
-      "tags": [
-        "happiness",
-        "hug"
-      ]
+      "tags": ["happiness", "hug"]
     },
     {
       "id": "happiness_046",
       "text": "(ɔ ˘⌣˘)˘⌣˘ c)",
-      "tags": [
-        "closed-eyes",
-        "happiness",
-        "hug",
-        "smile"
-      ]
+      "tags": ["closed-eyes", "happiness", "hug", "smile"]
     },
     {
       "id": "happiness_047",
       "text": "（人*´∀｀）",
-      "tags": [
-        "grateful",
-        "happiness",
-        "happy",
-        "please"
-      ]
+      "tags": ["grateful", "happiness", "happy", "please"]
     },
     {
       "id": "happiness_049",
       "text": "(✿´꒳`)ﾉ°*❀",
-      "tags": [
-        "flower",
-        "hands-up",
-        "happiness"
-      ]
+      "tags": ["flower", "hands-up", "happiness"]
     },
     {
       "id": "happiness_050",
       "text": "🌸:*:･:*:❀(*´ω`*)❀:*:･:*:🌸",
-      "tags": [
-        "flower",
-        "happiness"
-      ]
+      "tags": ["flower", "happiness"]
     },
     {
       "id": "happiness_051",
       "text": "(*´д`)~♥",
-      "tags": [
-        "happiness",
-        "helpless",
-        "love"
-      ]
+      "tags": ["happiness", "helpless", "love"]
     },
     {
       "id": "happiness_052",
       "text": "(๛ ˘ ³˘)۶",
-      "tags": [
-        "closed-eyes",
-        "hands-up",
-        "pouting"
-      ]
+      "tags": ["closed-eyes", "hands-up", "pouting"]
     },
     {
       "id": "happiness_053",
       "text": "ヾ(◍’౪`◍)ﾉﾞ♡",
-      "tags": [
-        "banzai",
-        "cute",
-        "happiness",
-        "happy",
-        "love"
-      ]
+      "tags": ["banzai", "cute", "happiness", "happy", "love"]
     },
     {
       "id": "happiness_054",
       "text": "( ◜◒◝ )♡",
-      "tags": [
-        "happiness",
-        "happy",
-        "love"
-      ]
+      "tags": ["happiness", "happy", "love"]
     },
     {
       "id": "happiness_055",
       "text": "σ(´∀｀*)",
-      "tags": [
-        "happiness",
-        "happy"
-      ]
+      "tags": ["happiness", "happy"]
     },
     {
       "id": "happiness_056",
       "text": "(´∀｀σ)σ",
-      "tags": [
-        "happiness",
-        "happy",
-        "pointing"
-      ]
+      "tags": ["happiness", "happy", "pointing"]
     },
     {
       "id": "happiness_057",
       "text": "|´∀｀●)",
-      "tags": [
-        "happiness",
-        "happy",
-        "peeking"
-      ]
+      "tags": ["happiness", "happy", "peeking"]
     },
     {
       "id": "happiness_058",
       "text": "(*´∀｀*)ゞ",
-      "tags": [
-        "happiness",
-        "happy",
-        "scratch"
-      ]
+      "tags": ["happiness", "happy", "scratch"]
     },
     {
       "id": "happiness_059",
       "text": "(´∀｀ゞ",
-      "tags": [
-        "happiness",
-        "happy",
-        "scratch"
-      ]
+      "tags": ["happiness", "happy", "scratch"]
     },
     {
       "id": "happiness_060",
       "text": "(｡´∀｀)ﾉ",
-      "tags": [
-        "happiness",
-        "happy",
-        "waving"
-      ]
+      "tags": ["happiness", "happy", "waving"]
     },
     {
       "id": "happiness_061",
       "text": "ヾ(*●´∀｀●*）",
-      "tags": [
-        "banzai",
-        "happiness",
-        "happy"
-      ]
+      "tags": ["banzai", "happiness", "happy"]
     },
     {
       "id": "happiness_062",
       "text": "ヾ(*´∀｀*)ﾉ",
-      "tags": [
-        "banzai",
-        "happiness",
-        "happy",
-        "thrilled"
-      ]
+      "tags": ["banzai", "happiness", "happy", "thrilled"]
     },
     {
       "id": "happiness_063",
       "text": "ﾍ(´∀｀ﾍ)",
-      "tags": [
-        "happiness",
-        "happy"
-      ]
+      "tags": ["happiness", "happy"]
     },
     {
       "id": "happiness_064",
       "text": "(つ´∀｀)つ",
-      "tags": [
-        "happiness",
-        "happy",
-        "hug"
-      ]
+      "tags": ["happiness", "happy", "hug"]
     },
     {
       "id": "happiness_065",
       "text": "♪(ﾉ´∀｀*)ﾉ",
-      "tags": [
-        "dancing",
-        "hands-up",
-        "happiness",
-        "happy",
-        "music"
-      ]
+      "tags": ["dancing", "hands-up", "happiness", "happy", "music"]
     },
     {
       "id": "happiness_066",
       "text": "（　´∀｀）",
-      "tags": [
-        "happiness",
-        "happy"
-      ]
+      "tags": ["happiness", "happy"]
     },
     {
       "id": "happiness_067",
       "text": "(〃´∀｀)",
-      "tags": [
-        "happiness",
-        "happy",
-        "shy"
-      ]
+      "tags": ["happiness", "happy", "shy"]
     },
     {
       "id": "happiness_068",
       "text": "(*´∀｀)",
-      "tags": [
-        "happiness",
-        "happy"
-      ]
+      "tags": ["happiness", "happy"]
     },
     {
       "id": "happiness_069",
       "text": "♪|´∀｀)ノ",
-      "tags": [
-        "happiness",
-        "happy",
-        "music",
-        "peeking",
-        "waving"
-      ]
+      "tags": ["happiness", "happy", "music", "peeking", "waving"]
     },
     {
       "id": "happiness_070",
       "text": "┐(´∀｀)┌",
-      "tags": [
-        "happiness",
-        "happy",
-        "shrug"
-      ]
+      "tags": ["happiness", "happy", "shrug"]
     },
     {
       "id": "happiness_071",
       "text": "(´∀｀)♡",
-      "tags": [
-        "happiness",
-        "happy",
-        "love"
-      ]
+      "tags": ["happiness", "happy", "love"]
     },
     {
       "id": "happiness_072",
       "text": "<(〃´∀｀〃)>",
-      "tags": [
-        "happiness",
-        "happy",
-        "shy"
-      ]
+      "tags": ["happiness", "happy", "shy"]
     },
     {
       "id": "happiness_073",
       "text": "(( へ(へ´∀`)へ",
-      "tags": [
-        "dancing",
-        "happiness",
-        "happy"
-      ]
+      "tags": ["dancing", "happiness", "happy"]
     },
     {
       "id": "happiness_075",
       "text": "ε≡ﾍ( ´∀`)ﾉ",
-      "tags": [
-        "hands-up",
-        "happiness",
-        "happy",
-        "running"
-      ]
+      "tags": ["hands-up", "happiness", "happy", "running"]
     },
     {
       "id": "happiness_076",
       "text": "ヽ(o´∀`)ﾉ♪♬",
-      "tags": [
-        "banzai",
-        "happiness",
-        "happy",
-        "music"
-      ]
+      "tags": ["banzai", "happiness", "happy", "music"]
     },
     {
       "id": "happiness_077",
       "text": "(○$´∀`)ゞ",
-      "tags": [
-        "happiness",
-        "happy",
-        "scratch"
-      ]
+      "tags": ["happiness", "happy", "scratch"]
     },
     {
       "id": "happiness_078",
       "text": "d(´∀`)b",
-      "tags": [
-        "happiness",
-        "happy",
-        "like"
-      ]
+      "tags": ["happiness", "happy", "like"]
     },
     {
       "id": "happiness_079",
       "text": "ヽ(○´∀`)ﾉ♪",
-      "tags": [
-        "banzai",
-        "dancing",
-        "happiness",
-        "happy",
-        "music"
-      ]
+      "tags": ["banzai", "dancing", "happiness", "happy", "music"]
     },
     {
       "id": "happiness_080",
       "text": "(*´∀`*)",
-      "tags": [
-        "happiness",
-        "happy"
-      ]
+      "tags": ["happiness", "happy"]
     },
     {
       "id": "happiness_081",
       "text": "(*´∀`艸)",
-      "tags": [
-        "happiness",
-        "happy",
-        "shy"
-      ]
+      "tags": ["happiness", "happy", "shy"]
     },
     {
       "id": "happiness_082",
       "text": "ヽ(●´∀`●)ﾉ",
-      "tags": [
-        "banzai",
-        "happiness",
-        "happy"
-      ]
+      "tags": ["banzai", "happiness", "happy"]
     },
     {
       "id": "happiness_083",
       "text": "｡:.ﾟヽ(*´∀`)ﾉﾟ.:｡",
-      "tags": [
-        "banzai",
-        "happiness",
-        "happy"
-      ]
+      "tags": ["banzai", "happiness", "happy"]
     },
     {
       "id": "happiness_084",
       "text": "(人´∀`)",
-      "tags": [
-        "grateful",
-        "happiness",
-        "happy",
-        "please"
-      ]
+      "tags": ["grateful", "happiness", "happy", "please"]
     },
     {
       "id": "happiness_085",
       "text": "♥（ﾉ´∀`）",
-      "tags": [
-        "hands-up",
-        "happiness",
-        "happy",
-        "love"
-      ]
+      "tags": ["hands-up", "happiness", "happy", "love"]
     },
     {
       "id": "happiness_086",
       "text": "(*´∀`)~♥",
-      "tags": [
-        "happiness",
-        "happy",
-        "love"
-      ]
+      "tags": ["happiness", "happy", "love"]
     },
     {
       "id": "happiness_087",
       "text": "＊´꒳`ฅ",
-      "tags": [
-        "animal",
-        "cat",
-        "cute",
-        "happiness",
-        "shy"
-      ]
+      "tags": ["animal", "cat", "cute", "happiness", "shy"]
     },
     {
       "id": "happiness_088",
       "text": "(◍ ´꒳` ◍)b",
-      "tags": [
-        "happiness",
-        "like"
-      ]
+      "tags": ["happiness", "like"]
     },
     {
       "id": "happiness_089",
       "text": "♪.*⁽⁽ ◝꒰´꒳`∗꒱◟ ₎₎₊·*",
-      "tags": [
-        "cute",
-        "dancing",
-        "happiness",
-        "music"
-      ]
+      "tags": ["cute", "dancing", "happiness", "music"]
     },
     {
       "id": "happiness_090",
       "text": "(´꒳`∗)",
-      "tags": [
-        "happiness",
-        "happy"
-      ]
+      "tags": ["happiness", "happy"]
     },
     {
       "id": "happiness_091",
       "text": "(´꒳`)",
-      "tags": [
-        "happiness",
-        "happy"
-      ]
+      "tags": ["happiness", "happy"]
     },
     {
       "id": "happiness_092",
       "text": "(∗´꒳`)",
-      "tags": [
-        "happiness",
-        "happy"
-      ]
+      "tags": ["happiness", "happy"]
     },
     {
       "id": "happiness_093",
       "text": "(*´꒳`*)",
-      "tags": [
-        "happiness",
-        "happy"
-      ]
+      "tags": ["happiness", "happy"]
     },
     {
       "id": "happiness_094",
       "text": "ღ(●´꒳`●)",
-      "tags": [
-        "happiness",
-        "happy",
-        "love"
-      ]
+      "tags": ["happiness", "happy", "love"]
     },
     {
       "id": "happiness_095",
       "text": "(❁´ω`❁)*✲ﾟ*",
-      "tags": [
-        "flower",
-        "happiness"
-      ]
+      "tags": ["flower", "happiness"]
     },
     {
       "id": "happiness_096",
       "text": "(❁´ω`❁)",
-      "tags": [
-        "cute",
-        "flower",
-        "happiness"
-      ]
+      "tags": ["cute", "flower", "happiness"]
     },
     {
       "id": "happiness_097",
       "text": "(o´ω`o)ﾉ",
-      "tags": [
-        "happiness",
-        "waving"
-      ]
+      "tags": ["happiness", "waving"]
     },
     {
       "id": "happiness_098",
       "text": "(๑´ω`๑)",
-      "tags": [
-        "cute",
-        "happiness"
-      ]
+      "tags": ["cute", "happiness"]
     },
     {
       "id": "happiness_099",
       "text": "(●´ω`●)",
-      "tags": [
-        "cute",
-        "happiness"
-      ]
+      "tags": ["cute", "happiness"]
     },
     {
       "id": "happiness_100",
       "text": "ʕっꈍ~ꈍςʔ",
-      "tags": [
-        "closed-eyes",
-        "happiness",
-        "hug",
-        "shy"
-      ]
+      "tags": ["closed-eyes", "happiness", "hug", "shy"]
     },
     {
       "id": "happiness_101",
       "text": "ʕっꈍᗜꈍςʔ",
-      "tags": [
-        "closed-eyes",
-        "happiness",
-        "happy",
-        "hug",
-        "shy"
-      ]
+      "tags": ["closed-eyes", "happiness", "happy", "hug", "shy"]
     },
     {
       "id": "happiness_102",
       "text": "(ó ꒳ ò✿)",
-      "tags": [
-        "flower",
-        "happiness",
-        "happy"
-      ]
+      "tags": ["flower", "happiness", "happy"]
     },
     {
       "id": "happiness_103",
       "text": "૮꒰ ྀི〃´꒳〃꒱ა",
-      "tags": [
-        "happiness",
-        "sheep",
-        "shy"
-      ]
+      "tags": ["happiness", "sheep", "shy"]
     },
     {
       "id": "happiness_104",
       "text": "（´ω｀♡%）",
-      "tags": [
-        "happiness",
-        "love"
-      ]
+      "tags": ["happiness", "love"]
     },
     {
       "id": "happiness_105",
       "text": "(๑ˊ͈ ॢꇴ ˋ͈)〜♡॰ॱ",
-      "tags": [
-        "happiness",
-        "happy",
-        "love"
-      ]
+      "tags": ["happiness", "happy", "love"]
     },
     {
       "id": "happiness_106",
       "text": "⁽⁽ ◟(灬 ˊωˋ 灬)◞ ⁾⁾",
-      "tags": [
-        "dancing",
-        "happiness",
-        "shy"
-      ]
+      "tags": ["dancing", "happiness", "shy"]
     },
     {
       "id": "happiness_107",
       "text": "(★´ω｀★)ゞ",
-      "tags": [
-        "happiness",
-        "scratch",
-        "star"
-      ]
+      "tags": ["happiness", "scratch", "star"]
     },
     {
       "id": "happiness_108",
       "text": "（*＾～＾*）ゝ",
-      "tags": [
-        "happiness",
-        "happy",
-        "salute"
-      ]
+      "tags": ["happiness", "happy", "salute"]
     },
     {
       "id": "happiness_109",
       "text": "(●´ω｀●)ゞ",
-      "tags": [
-        "happiness",
-        "scratch"
-      ]
+      "tags": ["happiness", "scratch"]
     },
     {
       "id": "happiness_110",
       "text": "（＊´ω｀）ゞ",
-      "tags": [
-        "happiness",
-        "scratch"
-      ]
+      "tags": ["happiness", "scratch"]
     },
     {
       "id": "happiness_111",
       "text": "（´ω｀◎）ゞ",
-      "tags": [
-        "happiness",
-        "scratch"
-      ]
+      "tags": ["happiness", "scratch"]
     },
     {
       "id": "happiness_112",
       "text": "(=´▽｀)ゞ",
-      "tags": [
-        "happiness",
-        "scratch"
-      ]
+      "tags": ["happiness", "scratch"]
     },
     {
       "id": "happiness_113",
       "text": "(*´◒`*)",
-      "tags": [
-        "happiness",
-        "happy"
-      ]
+      "tags": ["happiness", "happy"]
+    },
+    {
+      "id": "happiness_114",
+      "text": "ヾ(´∀`♡)ﾉ♬",
+      "tags": ["happiness", "cheers"]
+    },
+    {
+      "id": "happiness_115",
+      "text": "(♡'ᵕ'♡)らん",
+      "tags": ["happiness", "cheers"]
+    },
+    {
+      "id": "happiness_116",
+      "text": "ヽ( ・▽・ )ﾉ ﾗｧｰﾝ♪",
+      "tags": ["happiness", "cheers"]
+    },
+    {
+      "id": "happiness_117",
+      "text": "(♡'ᵕ'♡)ʖˋƕʖˋƕ✩⃛˖°",
+      "tags": ["happiness", "cheers"]
+    },
+    {
+      "id": "happiness_118",
+      "text": "ヾ(´︶`♡)ﾉ ʖˋƕʖˋƕ~✩⃛˖°",
+      "tags": ["happiness", "cheers"]
+    },
+    {
+      "id": "happiness_119",
+      "text": "˛˛ꉂ ೭(˵¯̴͒ꇴ¯̴͒˵)౨” ʖˋƕʖˋƕʓ~✩⃛˖°",
+      "tags": ["happiness", "cheers"]
+    },
+    {
+      "id": "happiness_120",
+      "text": "( ˙³˙)ﾗﾝﾗﾝ( ˙³˙)ﾙｰ",
+      "tags": ["happiness", "cheers"]
+    },
+    {
+      "id": "happiness_121",
+      "text": "(∩*｡･∀･)∩ﾗｧｰﾝ",
+      "tags": ["happiness", "cheers"]
+    },
+    {
+      "id": "happiness_122",
+      "text": "(*'∀'*)ﾗﾝ🎶",
+      "tags": ["happiness", "cheers"]
+    },
+    {
+      "id": "happiness_123",
+      "text": "ʖˋƕ⸜(☆'ᵕ'☆)⸝ʖˋƕ~✩⃛˖°♪",
+      "tags": ["happiness", "cheers"]
+    },
+    {
+      "id": "happiness_124",
+      "text": "⌒Y⌒Y⌒Y⌒ヾ(´ω` )ﾉ ﾗﾝﾗﾝ♪",
+      "tags": ["happiness", "cheers"]
+    },
+    {
+      "id": "happiness_125",
+      "text": "( ・▽・ ) ﾗﾝ🎶",
+      "tags": ["happiness", "cheers"]
+    },
+    {
+      "id": "happiness_126",
+      "text": "(´・ω・｀)らんらん♪",
+      "tags": ["happiness", "cheers"]
+    },
+    {
+      "id": "happiness_127",
+      "text": "ヽ(o･ω･o)ﾉ ﾗﾝﾗﾝ♪",
+      "tags": ["happiness", "cheers"]
+    },
+    {
+      "id": "happiness_128",
+      "text": "(乂'ω')ﾗﾝ (〈'ω')〉ﾗﾝ ＼( 'ω')／ ﾙ-",
+      "tags": ["happiness", "cheers"]
+    },
+    {
+      "id": "happiness_129",
+      "text": "\"(♪(o´v'o)♪)ﾗﾝﾗﾝ♪\"",
+      "tags": ["happiness", "cheers"]
+    },
+    {
+      "id": "happiness_130",
+      "text": "♬*(*'v'*)ﾗﾝﾗﾝ♪",
+      "tags": ["happiness", "cheers"]
+    },
+    {
+      "id": "happiness_131",
+      "text": "_(´･ω･`)_",
+      "tags": ["happy", "smile"]
+    },
+    {
+      "id": "happiness_132",
+      "text": "m(´・ω・｀)m",
+      "tags": ["happy", "smile"]
+    },
+    {
+      "id": "happiness_133",
+      "text": "(o_ _)",
+      "tags": ["happy", "smile"]
+    },
+    {
+      "id": "happiness_134",
+      "text": "m(❁_ _)",
+      "tags": ["happy", "smile"]
+    },
+    {
+      "id": "happiness_135",
+      "text": "(o_ _))))",
+      "tags": ["happy", "smile"]
+    },
+    {
+      "id": "happiness_136",
+      "text": "_(;ω;`」_)",
+      "tags": ["sad", "crying"]
+    },
+    {
+      "id": "happiness_137",
+      "text": "┏○┓",
+      "tags": ["happy", "smile"]
+    },
+    {
+      "id": "happiness_138",
+      "text": "(*´∪`)",
+      "tags": ["happy", "smile"]
+    },
+    {
+      "id": "happiness_139",
+      "text": "(´∪`)",
+      "tags": ["happy", "smile"]
+    },
+    {
+      "id": "happiness_140",
+      "text": "꒰՞⸝⸝ᴗ ·̫ ⊂՞꒱♩♡",
+      "tags": ["happy", "cute", "sparkle"]
+    },
+    {
+      "id": "happiness_141",
+      "text": "っ ᴗ^❤",
+      "tags": ["happy", "cute"]
+    },
+    {
+      "id": "happiness_142",
+      "text": "ᖛ ᖛ )⟡",
+      "tags": ["decoration", "cute"]
+    },
+    {
+      "id": "happiness_143",
+      "text": "꒰՞⸝⸝ᴗ ·̫ ⊂՞꒱◝✩",
+      "tags": ["happy", "cute", "sparkle"]
+    },
+    {
+      "id": "happiness_144",
+      "text": "＞ω＜🍒",
+      "tags": ["happy", "cute", "cherry"]
+    },
+    {
+      "id": "happiness_145",
+      "text": "Ò ·̫ Ó",
+      "tags": ["happy", "cute"]
+    },
+    {
+      "id": "happiness_146",
+      "text": "(ˆ꜆ᵒ̴̷͈ · ᵒ̴̷͈ )♡",
+      "tags": ["happy", "love", "cute"]
+    },
+    {
+      "id": "happiness_147",
+      "text": "è ·̫ é",
+      "tags": ["happy", "cute"]
+    },
+    {
+      "id": "happiness_148",
+      "text": "꒰՞⸝⸝⊃ ·̫ <՞꒱❤",
+      "tags": ["happy", "cute", "love"]
+    },
+    {
+      "id": "happiness_149",
+      "text": "ⁿ›̥̥̥ ⩊ ‹ⁿ♥",
+      "tags": ["happy", "cute"]
+    },
+    {
+      "id": "happiness_150",
+      "text": "^ っ <^⊃━♡.*･ﾟ",
+      "tags": ["happy", "cute", "love"]
+    },
+    {
+      "id": "happiness_151",
+      "text": "‎｡꒰ˆִっ. ɞ̴̶̷̥ˆ꒱֯♡⃟",
+      "tags": ["happy", "cute", "love"]
+    },
+    {
+      "id": "happiness_152",
+      "text": "( ៸៸ › ⩊ ‹ ៸៸)♡",
+      "tags": ["happy", "cute", "love"]
+    },
+    {
+      "id": "happiness_153",
+      "text": "ᐢɞ̴̶̷ ·̫ ɞ̴̶̷ᐢ⊃━💕",
+      "tags": ["happy", "cute", "love"]
+    },
+    {
+      "id": "happiness_154",
+      "text": "꒰ᐢ っ· ᴗ⸝⸝ᐢ꒱",
+      "tags": ["happy", "cute"]
+    },
+    {
+      "id": "happiness_155",
+      "text": "ᖛ ᖛ )⟡💕",
+      "tags": ["decoration", "cute", "love"]
+    },
+    {
+      "id": "happiness_156",
+      "text": "(ˆ⩌⩊⩌ˆ)💘★",
+      "tags": ["happy", "cute", "love"]
+    },
+    {
+      "id": "happiness_157",
+      "text": "( ^ > < )b♡",
+      "tags": ["happy", "cute", "cool"]
+    },
+    {
+      "id": "happiness_158",
+      "text": "( ú ·̫ ù )💘",
+      "tags": ["happy", "cute", "love"]
+    },
+    {
+      "id": "happiness_159",
+      "text": "(´ര ര )",
+      "tags": ["happy", "cute"]
+    },
+    {
+      "id": "happiness_160",
+      "text": "( ᴖ ·̫ ᴖ )💮",
+      "tags": ["happy", "cute", "cool"]
+    },
+    {
+      "id": "happiness_161",
+      "text": "𐐃 ·̫ 𐐃",
+      "tags": ["happy", "cute"]
+    },
+    {
+      "id": "happiness_162",
+      "text": "´ᴗ⸝⸝⸝ᴗ`):",
+      "tags": ["happy", "cute"]
+    },
+    {
+      "id": "happiness_163",
+      "text": "っ ᴗ⸝⸝˘ ⸝⸝",
+      "tags": ["happy", "cute"]
+    },
+    {
+      "id": "happiness_164",
+      "text": "> ·̫ <⸝⸝",
+      "tags": ["happy", "cute"]
+    },
+    {
+      "id": "happiness_165",
+      "text": "꒰՞っ· ᴗ⸝⸝՞꒱",
+      "tags": ["happy", "cute"]
+    },
+    {
+      "id": "happiness_166",
+      "text": "(⌯⩌˛⩌⌯)",
+      "tags": ["happy", "cute"]
+    },
+    {
+      "id": "happiness_167",
+      "text": "꒰ᐡ-⸝⸝-ᐡ꒱",
+      "tags": ["happy", "cute"]
+    },
+    {
+      "id": "happiness_168",
+      "text": "(ᐢ∩ <ᐢ)❤",
+      "tags": ["happy", "cute", "love"]
+    },
+    {
+      "id": "happiness_169",
+      "text": "(՞っ _՞)♡",
+      "tags": ["happy", "cute", "love"]
+    },
+    {
+      "id": "happiness_170",
+      "text": "(ˆ╷ ╷ˆ)🎵💕",
+      "tags": ["happy", "cute", "music", "love"]
+    },
+    {
+      "id": "happiness_171",
+      "text": "꒰՞⸝⸝ᴗ ·̫ ⊂՞꒱♩",
+      "tags": ["happy", "cute", "sparkle"]
+    },
+    {
+      "id": "happiness_172",
+      "text": "ˆ⸝⸝> ·̫ <⸝⸝ˆ",
+      "tags": ["happy", "cute"]
+    },
+    {
+      "id": "happiness_173",
+      "text": "꒰∪ɞ̴̶̷ ·̫ ɞ̴̶̷ ꒱💘⭐",
+      "tags": ["happy", "cute", "love", "star"]
+    },
+    {
+      "id": "happiness_174",
+      "text": "♡ ·̫ ♡",
+      "tags": ["happy", "cute", "love"]
+    },
+    {
+      "id": "happiness_175",
+      "text": "꒰ᐡ⸝⸝ᴗ̤ ɞ̴̶̷⸝⸝꒱♡",
+      "tags": ["happy", "cute", "love"]
+    },
+    {
+      "id": "happiness_176",
+      "text": "( σ̴̶̷̤ . σ̴̶̷̤ )💘",
+      "tags": ["happy", "cute", "love"]
+    },
+    {
+      "id": "happiness_177",
+      "text": "⊂˙꒳​˙)💕💕",
+      "tags": ["happy", "cute", "love"]
+    },
+    {
+      "id": "happiness_178",
+      "text": "＞₃＜",
+      "tags": ["happy", "cute"]
+    },
+    {
+      "id": "happiness_179",
+      "text": "＞ ·̫ ｑ",
+      "tags": ["happy", "cute"]
     }
   ]
 }
