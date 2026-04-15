@@ -10,7 +10,7 @@
     "format": "prettier --write .",
     "add:kaomoji": "tsx scripts/addKaomoji.ts kaomoji.csv",
     "sort:kaomoji": "tsx scripts/sortKaomoji.ts",
-    "merge:json": "tsx scripts/mergeJson.ts"
+    "scrape:kaomoji": "tsx --env-file=.env scripts/scrapeKaomoji.ts"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
@@ -38,6 +38,7 @@
     "eslint-config-prettier": "^10.1.8",
     "globals": "^16.3.0",
     "prettier": "^3.6.2",
+    "puppeteer": "^24.40.0",
     "tailwindcss": "^4",
     "tsx": "^4.20.3",
     "typescript": "^5.9.2",
