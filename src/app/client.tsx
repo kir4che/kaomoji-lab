@@ -35,7 +35,7 @@ const Home = ({ categories, allKaomojis: initialAllKaomojis }: HomeClientProps) 
 
   return (
     <>
-      <Hexo />
+      <Hexo totalKaomojis={allKaomojis.length} />
       <div className="w-full max-w-96 mx-auto my-6" role="search">
         <Input
           value={searchTerm}

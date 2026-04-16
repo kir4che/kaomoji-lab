@@ -3,7 +3,11 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { t } from '@/lib/i18n';
 
-const Hexo = () => {
+interface HexoProps {
+  totalKaomojis: number;
+}
+
+const Hexo = ({ totalKaomojis }: HexoProps) => {
   const { lang } = useLanguage();
   return (
     <section className="text-center">
@@ -13,7 +17,7 @@ const Hexo = () => {
         <span className="text-xl sm:hidden"> ♥</span>
       </h1>
       <p className="text-sm text-gray-400 sm:text-base">
-        {t('siteDescription', lang, { count: process.env.NEXT_PUBLIC_TOTAL_KAOMOJIS || 5000 })}
+        {t('siteDescription', lang, { count: totalKaomojis.toLocaleString() })}
       </p>
     </section>
   );

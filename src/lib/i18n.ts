@@ -124,7 +124,7 @@ const translations: Translations = {
     en: 'Kaomoji Lab',
   },
   siteDescription: {
-    'zh-tw': '收藏過 {count}+ 顏文字，一鍵複製輕鬆使用！',
+    'zh-tw': '收藏過 {count} + 顏文字，一鍵複製輕鬆使用！',
     en: 'A collection of {count}+ kaomojis, copy and paste with one click!',
   },
   footerText: {
