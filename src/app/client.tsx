@@ -1,23 +1,23 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 
-import type { KaomojiItem, CategorySummary } from '@/types/Kaomoji';
-import { useLanguage } from '@/contexts/LanguageContext';
-import { useFilteredKaomoji } from '@/hooks/useFilteredKaomoji';
-import { useCopyToClipboard } from '@/hooks/useCopyToClipboard';
-import { t } from '@/lib/i18n';
-import Hexo from '@/components/organisms/Hexo';
-import KaomojiList from '@/components/molecules/KaomojiList';
 import Input from '@/components/atoms/Input';
+import KaomojiList from '@/components/molecules/KaomojiList';
+import Hexo from '@/components/organisms/Hexo';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { useCopyToClipboard } from '@/hooks/useCopyToClipboard';
+import { useFilteredKaomoji } from '@/hooks/useFilteredKaomoji';
+import { t } from '@/lib/i18n';
+import type { CategorySummary, KaomojiItem } from '@/types/Kaomoji';
 
 interface HomeClientProps {
   categories: CategorySummary[];
   allKaomojis: KaomojiItem[];
 }
 
-const Home: React.FC<HomeClientProps> = ({ categories, allKaomojis: initialAllKaomojis }) => {
+const Home = ({ categories, allKaomojis: initialAllKaomojis }: HomeClientProps) => {
   const { lang } = useLanguage();
   const { copiedId, copyToClipboard } = useCopyToClipboard();
 

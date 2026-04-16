@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import { cn } from '@/utils/cn';
 import ArrowRightIcon from '@/assets/icons/arrow-right.svg';
 
-const ScrollToTopBtn: React.FC = () => {
+const ScrollToTopBtn = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {

@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes, ReactNode, cloneElement, isValidElement, ReactElement } from 'react';
+import { ButtonHTMLAttributes, cloneElement, isValidElement, ReactElement, ReactNode } from 'react';
 
 import { cn } from '@/utils/cn';
 
@@ -10,14 +10,7 @@ interface IconBtnProps extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'on
   className?: string;
 }
 
-const IconBtn: React.FC<IconBtnProps> = ({
-  icon,
-  onClick,
-  label,
-  size = 'medium',
-  className,
-  ...props
-}) => {
+const IconBtn = ({ icon, onClick, label, size = 'medium', className, ...props }: IconBtnProps) => {
   const sizeStyles = {
     small: 'size-6 border-[1.25px]',
     medium: 'size-8.5 border-[1.5px]',
@@ -42,7 +35,7 @@ const IconBtn: React.FC<IconBtnProps> = ({
       type="button"
       onClick={onClick}
       className={cn(
-        'flex-center flex-shrink-0 rounded-full transition-colors focus:outline-none bg-white text-primary-600 hover:text-white border-primary-600 hover:bg-primary-600 focus:ring-primary-500',
+        'flex-center shrink-0 rounded-full transition-colors focus:outline-none bg-white text-primary-600 hover:text-white border-primary-600 hover:bg-primary-600 focus:ring-primary-500',
         sizeStyles[size],
         className
       )}

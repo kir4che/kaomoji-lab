@@ -10,14 +10,14 @@ interface SortingDropdownProps {
   className?: string;
 }
 
-const SortingDropdown: React.FC<SortingDropdownProps> = ({
+const SortingDropdown = ({
   sortBy,
   sortOrder,
   options,
   onSortByChange,
   onSortOrderChange,
   className,
-}) => (
+}: SortingDropdownProps) => (
   <div className={cn('flex items-center gap-x-0.5', className)}>
     <button
       type="button"

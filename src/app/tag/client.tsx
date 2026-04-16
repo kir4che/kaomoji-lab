@@ -2,9 +2,9 @@
 
 import { useRouter } from 'next/navigation';
 
-import type { Tag } from '@/types/Kaomoji';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { t } from '@/lib/i18n';
+import type { Tag } from '@/types/Kaomoji';
 import { cn } from '@/utils/cn';
 
 interface TagInfo {
@@ -16,7 +16,7 @@ interface TagPageProps {
   allTags: TagInfo[];
 }
 
-const TagPage: React.FC<TagPageProps> = ({ allTags }) => {
+const TagPage = ({ allTags }: TagPageProps) => {
   const router = useRouter();
   const { lang } = useLanguage();
   const getTagColor = (count: number) => {
@@ -35,7 +35,7 @@ const TagPage: React.FC<TagPageProps> = ({ allTags }) => {
         <h1>{t('tagPageH1', lang)}</h1>
         <p className="text-sm text-gray-500">{t('tagPageP', lang, { count: allTags.length })}</p>
       </section>
-      <section className="flex-center flex-1 max-w-screen-lg mx-auto pt-6 pb-8">
+      <section className="flex-center flex-1 max-w-5xl mx-auto pt-6 pb-8">
         <ul className="flex-center flex-wrap gap-x-2 gap-y-3 -mx-4 sm:mx-0">
           {allTags.map(({ tag, count }) => (
             <li key={tag.id}>

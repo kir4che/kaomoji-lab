@@ -17,7 +17,7 @@ interface InputProps extends Omit<InputHTMLAttributes<HTMLInputElement>, 'onChan
   helperText?: string;
 }
 
-const Input: React.FC<InputProps> = ({
+const Input = ({
   title,
   type = 'text',
   name,
@@ -30,7 +30,7 @@ const Input: React.FC<InputProps> = ({
   focusEffect = false,
   helperText,
   ...props
-}) => {
+}: InputProps) => {
   const id = useId();
 
   const handleClear = () => {

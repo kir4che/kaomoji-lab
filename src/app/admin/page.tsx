@@ -31,7 +31,7 @@ const TABS = [
   { id: 'duplicates', label: '重複排查' },
 ];
 
-const AdminPage: React.FC = () => {
+const AdminPage = () => {
   const { showToast } = useToast();
 
   const [isLoading, setIsLoading] = useState(true);

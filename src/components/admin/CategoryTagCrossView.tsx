@@ -36,13 +36,13 @@ interface CategoryTagCrossViewProps {
 
 const TOP_TAG_LIMIT = 6;
 
-const CategoryTagCrossView: React.FC<CategoryTagCrossViewProps> = ({
+const CategoryTagCrossView = ({
   categories,
   tagNameMap,
   checkedKaomojiIds,
   onCategoryClick,
   onTagClick,
-}) => {
+}: CategoryTagCrossViewProps) => {
   const selectedTag = '';
   const categoryKeyword = '';
   const statusFilter: StatusFilter = 'unchecked';

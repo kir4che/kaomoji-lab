@@ -15,7 +15,7 @@ interface CategoryListPageProps {
   totalKaomojis: number;
 }
 
-const CategoryListPage: React.FC<CategoryListPageProps> = ({ categories, totalKaomojis }) => {
+const CategoryListPage = ({ categories, totalKaomojis }: CategoryListPageProps) => {
   const { lang } = useLanguage();
 
   const [sortBy, setSortBy] = useState<'name' | 'count'>('count');

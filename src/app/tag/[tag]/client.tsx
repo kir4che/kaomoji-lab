@@ -16,7 +16,7 @@ interface TagPageClientProps {
   tagName: string;
 }
 
-const TagPageClient: React.FC<TagPageClientProps> = ({ kaomojis, tagName }) => {
+const TagPageClient = ({ kaomojis, tagName }: TagPageClientProps) => {
   const { lang } = useLanguage();
   const { copiedId, copyToClipboard } = useCopyToClipboard();
   const [searchTerm, setSearchTerm] = useState('');

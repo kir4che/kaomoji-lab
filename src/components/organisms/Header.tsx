@@ -9,7 +9,7 @@ import SparkleIcon from '@/assets/icons/sparkle.svg';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { t } from '@/lib/i18n';
 
-type IconComponent = React.FC<React.SVGProps<SVGSVGElement>>;
+type IconComponent = React.ComponentType<React.SVGProps<SVGSVGElement>>;
 
 const navLinks = [
   { href: '/', textKey: 'navHome', Icon: HomeIcon },
@@ -24,7 +24,7 @@ interface NavItemProps {
   Icon: IconComponent;
 }
 
-const NavItem: React.FC<NavItemProps> = ({ href, text, Icon }) => (
+const NavItem = ({ href, text, Icon }: NavItemProps) => (
   <Link
     href={href}
     className="group inline-flex items-center gap-x-1 text-sm font-medium text-primary-500"
@@ -34,7 +34,7 @@ const NavItem: React.FC<NavItemProps> = ({ href, text, Icon }) => (
   </Link>
 );
 
-const Header: React.FC = () => {
+const Header = () => {
   const { lang, setLang } = useLanguage();
 
   const toggleLanguage = () => {

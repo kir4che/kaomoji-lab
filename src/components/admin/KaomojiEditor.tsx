@@ -1,19 +1,19 @@
 'use client';
 
-import { memo, useState, useCallback } from 'react';
-import type { KeyboardEvent, CompositionEvent } from 'react';
+import type { CompositionEvent, KeyboardEvent } from 'react';
+import { memo, useCallback, useState } from 'react';
 
-import type { KaomojiItem, CategoryData, Tag } from '@/types/Kaomoji';
-import { useLanguage } from '@/contexts/LanguageContext';
-import { useKaomojiForm } from '@/hooks/useKaomojiForm';
-import { cn } from '@/utils/cn';
-import AvailableTagList from '@/components/organisms/AvailableTagList';
-import IconBtn from '@/components/atoms/IconBtn';
-import Input from '@/components/atoms/Input';
 import CloseIcon from '@/assets/icons/close.svg';
 import MoveRightIcon from '@/assets/icons/move-right.svg';
 import PlusIcon from '@/assets/icons/plus.svg';
 import SparkleIcon from '@/assets/icons/sparkle.svg';
+import IconBtn from '@/components/atoms/IconBtn';
+import Input from '@/components/atoms/Input';
+import AvailableTagList from '@/components/organisms/AvailableTagList';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { useKaomojiForm } from '@/hooks/useKaomojiForm';
+import type { CategoryData, KaomojiItem, Tag } from '@/types/Kaomoji';
+import { cn } from '@/utils/cn';
 
 interface KaomojiEditorProps {
   kaomoji: KaomojiItem;
@@ -27,7 +27,7 @@ interface KaomojiEditorProps {
   onTagCreated?: (tag: Tag) => void;
 }
 
-const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
+const KaomojiEditor = ({
   kaomoji,
   categories,
   allTags = [],
@@ -37,7 +37,7 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
   isChecked,
   onToggleChecked,
   onTagCreated,
-}) => {
+}: KaomojiEditorProps) => {
   const [isComposing, setIsComposing] = useState(false);
   const { lang } = useLanguage();
 
@@ -189,7 +189,7 @@ const KaomojiEditor: React.FC<KaomojiEditorProps> = ({
               移動到
             </p>
             <div className="flex-center gap-x-3">
-              <MoveRightIcon className="size-5 flex-shrink-0" />
+              <MoveRightIcon className="size-5 shrink-0" />
               <select
                 value={selectedMoveCategory}
                 onChange={(e) => {

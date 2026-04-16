@@ -15,7 +15,7 @@ interface TabMenuProps {
   setActiveTab: (tabId: string) => void;
 }
 
-const TabMenu: React.FC<TabMenuProps> = ({ tabs, activeTab, setActiveTab }) => (
+const TabMenu = ({ tabs, activeTab, setActiveTab }: TabMenuProps) => (
   <div className="mb-4 border-b border-gray-200 bg-white rounded-t-lg px-4">
     <nav
       className="-mb-px flex flex-nowrap space-x-6 overflow-x-auto scrollbar-hide whitespace-nowrap min-w-0"

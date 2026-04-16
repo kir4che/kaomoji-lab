@@ -9,7 +9,7 @@ interface KaomojiBtnProps {
   className?: string;
 }
 
-const KaomojiBtn: React.FC<KaomojiBtnProps> = ({ text, onCopy, isCopied, className }) => {
+const KaomojiBtn = ({ text, onCopy, isCopied, className }: KaomojiBtnProps) => {
   const [showCopyText, setShowCopyText] = useState(false);
   const [minWidth, setMinWidth] = useState<number>(0);
   const btnRef = useRef<HTMLButtonElement>(null);

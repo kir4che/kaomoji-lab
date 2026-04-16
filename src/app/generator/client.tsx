@@ -182,7 +182,7 @@ import { t } from '@/lib/i18n';
 //   );
 // };
 
-const GeneratorPage: React.FC = () => {
+const GeneratorPage = () => {
   const { lang } = useLanguage();
 
   return (

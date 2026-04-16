@@ -22,13 +22,13 @@ interface CategoryModalProps {
   onSubmit: (e: React.FormEvent) => void;
 }
 
-const CategoryModal: React.FC<CategoryModalProps> = ({
+const CategoryModal = ({
   modalState,
   formData,
   onFormChange,
   onCancel,
   onSubmit,
-}) => {
+}: CategoryModalProps) => {
   const isCreateMode = modalState.mode === 'create';
   const isOpen = modalState.mode !== 'closed';
 

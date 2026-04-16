@@ -23,10 +23,7 @@ const EMPTY_FORM: FormState = {
   preview: '',
 };
 
-const CategoryManager: React.FC<CategoryManagerProps> = ({
-  categories: initialCategories,
-  onDataChange,
-}) => {
+const CategoryManager = ({ categories: initialCategories, onDataChange }: CategoryManagerProps) => {
   const { showToast } = useToast();
 
   const [categories, setCategories] = useState<CategoryData[]>(initialCategories);

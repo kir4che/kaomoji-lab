@@ -1,24 +1,21 @@
 'use client';
 
-import { useState, useMemo, useCallback } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 
-import type { CategoryData } from '@/types/Kaomoji';
-import { findDuplicateGroups, type DuplicateGroup } from '@/utils/kaomojiDuplicates';
-import { cn } from '@/utils/cn';
-import IconBtn from '@/components/atoms/IconBtn';
-import DeleteIcon from '@/assets/icons/delete.svg';
 import CheckIcon from '@/assets/icons/check.svg';
+import DeleteIcon from '@/assets/icons/delete.svg';
 import MinusIcon from '@/assets/icons/minus.svg';
+import IconBtn from '@/components/atoms/IconBtn';
+import type { CategoryData } from '@/types/Kaomoji';
+import { cn } from '@/utils/cn';
+import { findDuplicateGroups, type DuplicateGroup } from '@/utils/kaomojiDuplicates';
 
 interface DuplicateKaomojiManagerProps {
   categories: CategoryData[];
   onBulkDelete: (kaomojiIds: Set<string>) => Promise<void | null>;
 }
 
-const DuplicateKaomojiManager: React.FC<DuplicateKaomojiManagerProps> = ({
-  categories,
-  onBulkDelete,
-}) => {
+const DuplicateKaomojiManager = ({ categories, onBulkDelete }: DuplicateKaomojiManagerProps) => {
   const [duplicateThreshold, setDuplicateThreshold] = useState<number>(1);
   const [duplicateStrict, setDuplicateStrict] = useState(true);
   const [duplicateFingerprint, setDuplicateFingerprint] = useState(true);
@@ -129,7 +126,7 @@ const DuplicateKaomojiManager: React.FC<DuplicateKaomojiManagerProps> = ({
         </div>
       )}
 
-      <div className="mt-4 max-h-[480px] overflow-y-auto pr-1">
+      <div className="mt-4 max-h-120 overflow-y-auto pr-1">
         {duplicateGroups.length === 0 ? (
           <div className="rounded-md border border-dashed border-amber-200 bg-amber-50 px-4 py-6 text-center text-sm text-amber-600">
             目前沒有符合條件的重複顏文字。

@@ -3,11 +3,11 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { t } from '@/lib/i18n';
 
-const Hexo: React.FC = () => {
+const Hexo = () => {
   const { lang } = useLanguage();
   return (
     <section className="text-center">
-      <h1 className="gradient-text mb-3 leading-[1.5]">
+      <h1 className="gradient-text mb-3 leading-normal">
         {t('siteTitle', lang)}
         <span className="hidden sm:inline"> *｡٩(ˊᗜˋ*)و✦*｡</span>
         <span className="text-xl sm:hidden"> ♥</span>

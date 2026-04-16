@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { t } from '@/lib/i18n';
 
-const ExploreMoreSection: React.FC = () => {
+const ExploreMoreSection = () => {
   const pathname = usePathname();
   const { lang } = useLanguage();
 

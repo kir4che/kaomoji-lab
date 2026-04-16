@@ -15,7 +15,7 @@ interface CategoryPageClientProps {
   categoryData: CategoryData;
 }
 
-const CategoryPageClient: React.FC<CategoryPageClientProps> = ({ categoryData }) => {
+const CategoryPageClient = ({ categoryData }: CategoryPageClientProps) => {
   const { lang } = useLanguage();
   const { copiedId, copyToClipboard } = useCopyToClipboard();
   const [searchTerm, setSearchTerm] = useState('');

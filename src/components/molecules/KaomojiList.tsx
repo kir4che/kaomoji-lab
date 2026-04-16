@@ -11,14 +11,14 @@ interface KaomojiListProps extends React.HTMLAttributes<HTMLUListElement> {
   itemClassName?: string;
 }
 
-const KaomojiList: React.FC<KaomojiListProps> = ({
+const KaomojiList = ({
   kaomojis,
   onKaomojiCopy,
   copiedId,
   className,
   itemClassName,
   ...rest
-}) => {
+}: KaomojiListProps) => {
   return (
     <ul
       role="list"

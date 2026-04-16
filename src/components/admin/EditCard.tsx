@@ -19,7 +19,7 @@ interface EditCardProps {
   className?: string;
 }
 
-const EditCard: React.FC<EditCardProps> = ({
+const EditCard = ({
   type,
   title,
   titleEn,
@@ -32,7 +32,7 @@ const EditCard: React.FC<EditCardProps> = ({
   isDeleteDisabled,
   extraContent,
   className,
-}) => {
+}: EditCardProps) => {
   return (
     <div
       onClick={onClick}

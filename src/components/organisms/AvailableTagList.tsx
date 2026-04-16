@@ -11,12 +11,7 @@ interface AvailableTagListProps {
   className?: string;
 }
 
-const AvailableTagList: React.FC<AvailableTagListProps> = ({
-  tags,
-  selectedTags,
-  onSelect,
-  className,
-}) => {
+const AvailableTagList = ({ tags, selectedTags, onSelect, className }: AvailableTagListProps) => {
   const { lang } = useLanguage();
   const availableTags = tags.filter((tag) => !selectedTags.includes(tag.id));
 

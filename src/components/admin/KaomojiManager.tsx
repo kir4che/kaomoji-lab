@@ -1,10 +1,22 @@
 'use client';
 
-import { useState, useEffect, useMemo, useCallback, useRef, type SetStateAction } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState, type SetStateAction } from 'react';
 
-import type { KaomojiItem, CategoryData, IndexData } from '@/types/Kaomoji';
+import ArrowDownIcon from '@/assets/icons/arrow-down.svg';
+import CheckIcon from '@/assets/icons/check.svg';
+import CloseIcon from '@/assets/icons/close.svg';
+import DeleteIcon from '@/assets/icons/delete.svg';
+import MinusIcon from '@/assets/icons/minus.svg';
+import PlusIcon from '@/assets/icons/plus.svg';
+import ResetIcon from '@/assets/icons/reset.svg';
+import CategoryTagCrossView from '@/components/admin/CategoryTagCrossView';
+import KaomojiEditor from '@/components/admin/KaomojiEditor';
+import IconBtn from '@/components/atoms/IconBtn';
+import Input from '@/components/atoms/Input';
+import Loading from '@/components/atoms/Loading';
+import SelectAllBtn from '@/components/atoms/SelectAllBtn';
+import { TEMP_CATEGORY_ID, createDefaultTemporaryCategory } from '@/constants/tempCategory';
 import { useToast } from '@/contexts/ToastContext';
-import { cn } from '@/utils/cn';
 import { useFilteredKaomoji } from '@/hooks/useFilteredKaomoji';
 import { useKaomojiMutations } from '@/hooks/useKaomojiMutations';
 import {
@@ -12,20 +24,8 @@ import {
   getTemporaryCategory,
   saveCheckedKaomojiIds,
 } from '@/services/adminService';
-import { TEMP_CATEGORY_ID, createDefaultTemporaryCategory } from '@/constants/tempCategory';
-import KaomojiEditor from '@/components/admin/KaomojiEditor';
-import CategoryTagCrossView from '@/components/admin/CategoryTagCrossView';
-import Input from '@/components/atoms/Input';
-import IconBtn from '@/components/atoms/IconBtn';
-import SelectAllBtn from '@/components/atoms/SelectAllBtn';
-import Loading from '@/components/atoms/Loading';
-import PlusIcon from '@/assets/icons/plus.svg';
-import MinusIcon from '@/assets/icons/minus.svg';
-import DeleteIcon from '@/assets/icons/delete.svg';
-import CloseIcon from '@/assets/icons/close.svg';
-import CheckIcon from '@/assets/icons/check.svg';
-import ResetIcon from '@/assets/icons/reset.svg';
-import ArrowDownIcon from '@/assets/icons/arrow-down.svg';
+import type { CategoryData, IndexData, KaomojiItem } from '@/types/Kaomoji';
+import { cn } from '@/utils/cn';
 
 interface KaomojiManagerProps {
   categories: CategoryData[];
@@ -89,7 +89,7 @@ const updateCheckedIdsWithMapping = (
   });
 };
 
-const KaomojiManager: React.FC<KaomojiManagerProps> = ({
+const KaomojiManager = ({
   categories: initialCategories,
   indexData,
   onDataChange,
@@ -625,7 +625,7 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
                 <div
                   className={cn(
                     'flex items-center justify-between border border-gray-300 rounded-md px-2 text-xs cursor-pointer focus:outline-none bg-white appearance-none w-full',
-                    filterTags.length === 0 ? 'py-2.5' : 'h-[38px]'
+                    filterTags.length === 0 ? 'py-2.5' : 'h-9.5'
                   )}
                   onClick={() => setShowTagDropdown((prev) => !prev)}
                 >
@@ -808,7 +808,7 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
                 onClick={onBulkDelete}
                 label="批量刪除"
                 size="medium"
-                className="size-fit ml-1 text-rose-600 !border-transparent hover:!bg-white hover:!text-rose-600 hover:!border-transparent"
+                className="size-fit ml-1 text-rose-600 border-transparent! hover:bg-white! hover:text-rose-600! hover:border-transparent!"
                 disabled={isLoading}
               />
             )}
@@ -864,7 +864,7 @@ const KaomojiManager: React.FC<KaomojiManagerProps> = ({
               />
             </div>
           )}
-          <div className="grid max-h-48 md:max-h-[420px] gap-2 overflow-x-hidden overflow-y-auto grid-cols-2 sm:grid-cols-3 xl:grid-cols-4">
+          <div className="grid max-h-48 md:max-h-105 gap-2 overflow-x-hidden overflow-y-auto grid-cols-2 sm:grid-cols-3 xl:grid-cols-4">
             {filteredKaomoji.map((kaomoji) => {
               const isSelected = selectedKaomojiIds.has(kaomoji.id);
               return (

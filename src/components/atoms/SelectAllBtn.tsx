@@ -11,7 +11,7 @@ interface SelectAllBtnProps {
   countClassName?: string;
 }
 
-const SelectAllBtn: React.FC<SelectAllBtnProps> = ({
+const SelectAllBtn = ({
   selectedCount,
   totalCount,
   showCount = true,
@@ -19,7 +19,7 @@ const SelectAllBtn: React.FC<SelectAllBtnProps> = ({
   onDeselectAll,
   className,
   countClassName,
-}) => {
+}: SelectAllBtnProps) => {
   const isAllSelected = selectedCount === totalCount;
   const hasSelection = selectedCount > 0;
 
