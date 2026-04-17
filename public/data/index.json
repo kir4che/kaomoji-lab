@@ -7,8 +7,8 @@
         "zh-tw": "動作"
       },
       "preview": "╰( ^o^)╮",
-      "lastUpdated": "2026-04-15",
-      "itemCount": 1281
+      "lastUpdated": "2026-04-17",
+      "itemCount": 1698
     },
     {
       "id": "angry",
@@ -17,8 +17,8 @@
         "zh-tw": "生氣"
       },
       "preview": "(*｀へ´*)",
-      "lastUpdated": "2025-11-17",
-      "itemCount": 178
+      "lastUpdated": "2026-04-17",
+      "itemCount": 188
     },
     {
       "id": "animal",
@@ -27,8 +27,8 @@
         "zh-tw": "動物"
       },
       "preview": "ʕ •ᴥ• ʔ",
-      "lastUpdated": "2026-04-15",
-      "itemCount": 523
+      "lastUpdated": "2026-04-17",
+      "itemCount": 669
     },
     {
       "id": "confident",
@@ -37,8 +37,8 @@
         "zh-tw": "自信"
       },
       "preview": "(｡•̀ᴗ-)✧",
-      "lastUpdated": "2025-11-17",
-      "itemCount": 158
+      "lastUpdated": "2026-04-17",
+      "itemCount": 159
     },
     {
       "id": "confused",
@@ -57,8 +57,8 @@
         "zh-tw": "裝飾"
       },
       "preview": "♥･*:.｡ ｡.:*･ﾟ♡･*:.｡ ｡",
-      "lastUpdated": "2026-04-15",
-      "itemCount": 76
+      "lastUpdated": "2026-04-17",
+      "itemCount": 119
     },
     {
       "id": "embarrassed",
@@ -67,8 +67,8 @@
         "zh-tw": "尷尬"
       },
       "preview": "•﹏•",
-      "lastUpdated": "2026-04-15",
-      "itemCount": 51
+      "lastUpdated": "2026-04-17",
+      "itemCount": 57
     },
     {
       "id": "excited",
@@ -77,8 +77,8 @@
         "zh-tw": "興奮"
       },
       "preview": "(ﾉ≧∀≦)ﾉ",
-      "lastUpdated": "2026-04-15",
-      "itemCount": 89
+      "lastUpdated": "2026-04-17",
+      "itemCount": 151
     },
     {
       "id": "greeting",
@@ -97,8 +97,8 @@
         "zh-tw": "幸福"
       },
       "preview": "ᜊ(꒪ˊ꒳ˋ꒪)ᜊ",
-      "lastUpdated": "2026-04-15",
-      "itemCount": 169
+      "lastUpdated": "2026-04-17",
+      "itemCount": 270
     },
     {
       "id": "happy",
@@ -107,8 +107,8 @@
         "zh-tw": "開心"
       },
       "preview": "ᐠ( ᐢ ᵕ ᐢ )ᐟ",
-      "lastUpdated": "2026-04-15",
-      "itemCount": 521
+      "lastUpdated": "2026-04-17",
+      "itemCount": 1223
     },
     {
       "id": "helpless",
@@ -127,8 +127,8 @@
         "zh-tw": "愛心"
       },
       "preview": "(♥д♥)",
-      "lastUpdated": "2026-04-15",
-      "itemCount": 158
+      "lastUpdated": "2026-04-17",
+      "itemCount": 167
     },
     {
       "id": "other",
@@ -137,8 +137,8 @@
         "zh-tw": "其他"
       },
       "preview": "ʚ ɞ",
-      "lastUpdated": "2026-04-15",
-      "itemCount": 336
+      "lastUpdated": "2026-04-17",
+      "itemCount": 346
     },
     {
       "id": "sad",
@@ -147,8 +147,8 @@
         "zh-tw": "難過"
       },
       "preview": "( ´•̥̥̥ω•̥̥̥` )",
-      "lastUpdated": "2026-04-15",
-      "itemCount": 379
+      "lastUpdated": "2026-04-17",
+      "itemCount": 515
     },
     {
       "id": "shy",
@@ -157,8 +157,8 @@
         "zh-tw": "害羞"
       },
       "preview": "(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄ ",
-      "lastUpdated": "2026-04-15",
-      "itemCount": 213
+      "lastUpdated": "2026-04-17",
+      "itemCount": 341
     },
     {
       "id": "surprised",
@@ -167,8 +167,8 @@
         "zh-tw": "驚訝"
       },
       "preview": "Σ(°Д°;)",
-      "lastUpdated": "2026-04-15",
-      "itemCount": 258
+      "lastUpdated": "2026-04-17",
+      "itemCount": 268
     },
     {
       "id": "tired",
@@ -1032,6 +1032,6 @@
       }
     }
   ],
-  "totalItems": 5242,
-  "lastUpdated": "2026-04-15"
+  "totalItems": 7023,
+  "lastUpdated": "2026-04-17"
 }

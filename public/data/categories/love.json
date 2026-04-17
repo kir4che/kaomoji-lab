@@ -5,797 +5,1487 @@
     "zh-tw": "愛心"
   },
   "preview": "(♥д♥)",
-  "lastUpdated": "2026-04-15",
+  "lastUpdated": "2026-04-17",
   "items": [
     {
       "id": "love_001",
       "text": "つ♡⊂",
-      "tags": ["hug", "love"]
+      "tags": [
+        "hug",
+        "love"
+      ]
     },
     {
       "id": "love_006",
       "text": "̑̑ෆ",
-      "tags": ["decoration", "love"]
+      "tags": [
+        "decoration",
+        "love"
+      ]
     },
     {
       "id": "love_028",
       "text": "⊂（♡⌂♡）⊃",
-      "tags": ["hug", "love"]
+      "tags": [
+        "hug",
+        "love"
+      ]
     },
     {
       "id": "love_043",
       "text": "( ˘ ³˘)♥",
-      "tags": ["love", "pouting"]
+      "tags": [
+        "love",
+        "pouting"
+      ]
     },
     {
       "id": "love_050",
       "text": "(๑ơ ₃ ơ)♥",
-      "tags": ["cute", "love", "pouting"]
+      "tags": [
+        "cute",
+        "love",
+        "pouting"
+      ]
     },
     {
       "id": "love_054",
       "text": "(๑♡3♡๑)",
-      "tags": ["love", "pouting"]
+      "tags": [
+        "love",
+        "pouting"
+      ]
     },
     {
       "id": "love_058",
       "text": "(´ε｀ )♡",
-      "tags": ["happiness", "love", "pouting"]
+      "tags": [
+        "happiness",
+        "love",
+        "pouting"
+      ]
     },
     {
       "id": "love_061",
       "text": "(๑˙❥˙๑)",
-      "tags": ["love", "pouting"]
+      "tags": [
+        "love",
+        "pouting"
+      ]
     },
     {
       "id": "love_072",
       "text": "（´・｀ ）♡",
-      "tags": ["helpless", "love"]
+      "tags": [
+        "helpless",
+        "love"
+      ]
     },
     {
       "id": "love_095",
       "text": "(●♡∀♡)",
-      "tags": ["love", "thrilled"]
+      "tags": [
+        "love",
+        "thrilled"
+      ]
     },
     {
       "id": "love_096",
       "text": "(♥ω♥ ) ~♪",
-      "tags": ["love", "music"]
+      "tags": [
+        "love",
+        "music"
+      ]
     },
     {
       "id": "love_097",
       "text": "(✿ ♥‿♥)",
-      "tags": ["flower", "love", "smile"]
+      "tags": [
+        "flower",
+        "love",
+        "smile"
+      ]
     },
     {
       "id": "love_100",
       "text": "(๑♡⌓♡๑)",
-      "tags": ["dazed", "love"]
+      "tags": [
+        "dazed",
+        "love"
+      ]
     },
     {
       "id": "love_102",
       "text": "໒( ♥ ◡ ♥ )७",
-      "tags": ["animal", "cute", "love", "smile"]
+      "tags": [
+        "animal",
+        "cute",
+        "love",
+        "smile"
+      ]
     },
     {
       "id": "love_111",
       "text": "(๑・ω-)～♥”",
-      "tags": ["love", "wink"]
+      "tags": [
+        "love",
+        "wink"
+      ]
     },
     {
       "id": "love_112",
       "text": "(๑°꒵°๑)･*♡",
-      "tags": ["love", "smile", "thrilled"]
+      "tags": [
+        "love",
+        "smile",
+        "thrilled"
+      ]
     },
     {
       "id": "love_113",
       "text": "～(^з^)-♡",
-      "tags": ["happy", "love", "pouting"]
+      "tags": [
+        "happy",
+        "love",
+        "pouting"
+      ]
     },
     {
       "id": "love_115",
       "text": "(ෆ ͒•∘̬• ͒)◞",
-      "tags": ["cute", "love"]
+      "tags": [
+        "cute",
+        "love"
+      ]
     },
     {
       "id": "love_117",
       "text": "( •ॢ◡-ॢ)-♡",
-      "tags": ["cute", "love", "smile", "wink"]
+      "tags": [
+        "cute",
+        "love",
+        "smile",
+        "wink"
+      ]
     },
     {
       "id": "love_118",
       "text": "(●’ᴗ’σ)σணღ*",
-      "tags": ["love", "pointing", "smile"]
+      "tags": [
+        "love",
+        "pointing",
+        "smile"
+      ]
     },
     {
       "id": "love_121",
       "text": "(⁎⁍̴̛͂▿⁍̴̛͂⁎)*✲ﾟ*｡⋆♡ོ",
-      "tags": ["flower", "happy", "love", "sparkle"]
+      "tags": [
+        "flower",
+        "happy",
+        "love",
+        "sparkle"
+      ]
     },
     {
       "id": "love_122",
       "text": "(*´o`*)ʖˋʖˋʖˋ～♡",
-      "tags": ["helpless", "love"]
+      "tags": [
+        "helpless",
+        "love"
+      ]
     },
     {
       "id": "love_123",
       "text": "ღゝ◡╹)ノ♡",
-      "tags": ["cute", "love", "smile", "waving", "wink"]
+      "tags": [
+        "cute",
+        "love",
+        "smile",
+        "waving",
+        "wink"
+      ]
     },
     {
       "id": "love_124",
       "text": "♡✧( ु•⌄• )",
-      "tags": ["cute", "love", "sparkle"]
+      "tags": [
+        "cute",
+        "love",
+        "sparkle"
+      ]
     },
     {
       "id": "love_125",
       "text": "(∗ᵒ̶̶̷̀ω˂̶́∗)੭₎₎̊₊♡",
-      "tags": ["happy", "love", "thrilled"]
+      "tags": [
+        "happy",
+        "love",
+        "thrilled"
+      ]
     },
     {
       "id": "love_126",
       "text": "(๑╹ڡ╹)╭ ～ ♡",
-      "tags": ["cute", "love", "舔"]
+      "tags": [
+        "cute",
+        "love",
+        "舔"
+      ]
     },
     {
       "id": "love_129",
       "text": "(⋈◍＞◡＜◍)。✧♡",
-      "tags": ["happy", "love", "sparkle", "thrilled"]
+      "tags": [
+        "happy",
+        "love",
+        "sparkle",
+        "thrilled"
+      ]
     },
     {
       "id": "love_130",
       "text": "ε=(｡♡ˇд ˇ♡｡）",
-      "tags": ["closed-eyes", "love", "running"]
+      "tags": [
+        "closed-eyes",
+        "love",
+        "running"
+      ]
     },
     {
       "id": "love_132",
       "text": "♡(.◜ω◝.)♡",
-      "tags": ["happiness", "happy", "love"]
+      "tags": [
+        "happiness",
+        "happy",
+        "love"
+      ]
     },
     {
       "id": "love_133",
       "text": "♡〜٩(^▿^)۶〜♡",
-      "tags": ["dancing", "happy", "love", "thrilled"]
+      "tags": [
+        "dancing",
+        "happy",
+        "love",
+        "thrilled"
+      ]
     },
     {
       "id": "love_136",
       "text": "(｡・‧̫・｡).*＊♡",
-      "tags": ["cute", "love", "sparkle"]
+      "tags": [
+        "cute",
+        "love",
+        "sparkle"
+      ]
     },
     {
       "id": "love_137",
       "text": "(´•ω•｀)♡",
-      "tags": ["cute", "love"]
+      "tags": [
+        "cute",
+        "love"
+      ]
     },
     {
       "id": "love_139",
       "text": "ෆ╹ .̮ ╹ෆ",
-      "tags": ["love", "smile"]
+      "tags": [
+        "love",
+        "smile"
+      ]
     },
     {
       "id": "love_142",
       "text": "(´∩｡• ᵕ •｡∩`) ♡",
-      "tags": ["cute", "hands-up", "happiness", "love", "shy"]
+      "tags": [
+        "cute",
+        "hands-up",
+        "happiness",
+        "love",
+        "shy"
+      ]
     },
     {
       "id": "love_145",
       "text": "( ๑ ❛ ڡ ❛ ๑ )❤",
-      "tags": ["cute", "love", "舔"]
+      "tags": [
+        "cute",
+        "love",
+        "舔"
+      ]
     },
     {
       "id": "love_146",
       "text": "（♥￫ｏ￩♥）",
-      "tags": ["love", "shout", "shy"]
+      "tags": [
+        "love",
+        "shout",
+        "shy"
+      ]
     },
     {
       "id": "love_154",
       "text": "(⺣◡⺣)♡*",
-      "tags": ["happiness", "love", "shy"]
+      "tags": [
+        "happiness",
+        "love",
+        "shy"
+      ]
     },
     {
       "id": "love_156",
       "text": "♡(｡￫ˇ艸￩)",
-      "tags": ["love", "shy"]
+      "tags": [
+        "love",
+        "shy"
+      ]
     },
     {
       "id": "love_158",
       "text": "꒰⁎˃ ॢꇴ ॢ˂⁎꒱➴ෆ⃛",
-      "tags": ["cute", "happy", "love", "thrilled"]
+      "tags": [
+        "cute",
+        "happy",
+        "love",
+        "thrilled"
+      ]
     },
     {
       "id": "love_159",
       "text": "٩(*❛⊰❛)ʓਡ～❤",
-      "tags": ["hands-up", "love", "pouting"]
+      "tags": [
+        "hands-up",
+        "love",
+        "pouting"
+      ]
     },
     {
       "id": "love_163",
       "text": "(´ ▽｀).。ｏ♡",
-      "tags": ["happiness", "love", "thinking"]
+      "tags": [
+        "happiness",
+        "love",
+        "thinking"
+      ]
     },
     {
       "id": "love_166",
       "text": "(ღ˘⌣˘ღ)",
-      "tags": ["happiness", "happy"]
+      "tags": [
+        "happiness",
+        "happy"
+      ]
     },
     {
       "id": "love_169",
       "text": "´͈ ᵕ `͈ ♡°◌̊",
-      "tags": ["cute", "happiness", "happy", "love"]
+      "tags": [
+        "cute",
+        "happiness",
+        "happy",
+        "love"
+      ]
     },
     {
       "id": "love_170",
       "text": "(*˘︶˘*).｡.:*♡",
-      "tags": ["happiness", "love"]
+      "tags": [
+        "happiness",
+        "love"
+      ]
     },
     {
       "id": "love_171",
       "text": "( ∩ˇωˇ∩)♡",
-      "tags": ["cute", "hands-up", "happiness", "love", "shy"]
+      "tags": [
+        "cute",
+        "hands-up",
+        "happiness",
+        "love",
+        "shy"
+      ]
     },
     {
       "id": "love_173",
       "text": "( ˘ ³˘)❤",
-      "tags": ["closed-eyes", "love", "pouting"]
+      "tags": [
+        "closed-eyes",
+        "love",
+        "pouting"
+      ]
     },
     {
       "id": "love_176",
       "text": "♡(˃͈ દ ˂͈ ༶ )",
-      "tags": ["happy", "love", "thrilled"]
+      "tags": [
+        "happy",
+        "love",
+        "thrilled"
+      ]
     },
     {
       "id": "love_178",
       "text": "৲( ᵒ ૩ᵕ )৴♡*৹",
-      "tags": ["cute", "love", "pouting"]
+      "tags": [
+        "cute",
+        "love",
+        "pouting"
+      ]
     },
     {
       "id": "love_185",
       "text": "⋆͛♥︎⋆͛",
-      "tags": ["decoration", "love"]
+      "tags": [
+        "decoration",
+        "love"
+      ]
     },
     {
       "id": "love_186",
       "text": "-ˋˏ ♡ ˎˊ-",
-      "tags": ["decoration", "love", "sparkle"]
+      "tags": [
+        "decoration",
+        "love",
+        "sparkle"
+      ]
     },
     {
       "id": "love_187",
       "text": "♡̷",
-      "tags": ["decoration", "love"]
+      "tags": [
+        "decoration",
+        "love"
+      ]
     },
     {
       "id": "love_188",
       "text": "꙳⸌♡⸍꙳",
-      "tags": ["decoration", "love"]
+      "tags": [
+        "decoration",
+        "love"
+      ]
     },
     {
       "id": "love_189",
       "text": "˚ෆ",
-      "tags": ["decoration", "love"]
+      "tags": [
+        "decoration",
+        "love"
+      ]
     },
     {
       "id": "love_192",
       "text": "♡⃛",
-      "tags": ["decoration", "love"]
+      "tags": [
+        "decoration",
+        "love"
+      ]
     },
     {
       "id": "love_193",
       "text": "ෆ˙ᵕ˙ෆ",
-      "tags": ["cute", "love", "smile"]
+      "tags": [
+        "cute",
+        "love",
+        "smile"
+      ]
     },
     {
       "id": "love_194",
       "text": "♡̶",
-      "tags": ["decoration", "love"]
+      "tags": [
+        "decoration",
+        "love"
+      ]
     },
     {
       "id": "love_195",
       "text": "⋆͛♡⋆͛",
-      "tags": ["decoration", "love"]
+      "tags": [
+        "decoration",
+        "love"
+      ]
     },
     {
       "id": "love_196",
       "text": "༝༚༝༚♡ﾞ",
-      "tags": ["cute", "decoration", "love", "x-mouth"]
+      "tags": [
+        "cute",
+        "decoration",
+        "love",
+        "x-mouth"
+      ]
     },
     {
       "id": "love_197",
       "text": "˙˚♡̤̮˚˙",
-      "tags": ["decoration", "love"]
+      "tags": [
+        "decoration",
+        "love"
+      ]
     },
     {
       "id": "love_198",
       "text": "♡゚゚゚̥̥̊",
-      "tags": ["decoration", "love"]
+      "tags": [
+        "decoration",
+        "love"
+      ]
     },
     {
       "id": "love_200",
       "text": "໊♡ͥ♡ͦ♡ͮ♡ͤ ໊",
-      "tags": ["decoration", "love"]
+      "tags": [
+        "decoration",
+        "love"
+      ]
     },
     {
       "id": "love_201",
       "text": "˖ ִֶָᶤ ᶫᵒᵛᵉᵧₒᵤ ִֶָ✿ˊ˗",
-      "tags": ["flower", "love", "text"]
+      "tags": [
+        "flower",
+        "love",
+        "text"
+      ]
     },
     {
       "id": "love_204",
       "text": "♡ ᩚ",
-      "tags": ["decoration", "love"]
+      "tags": [
+        "decoration",
+        "love"
+      ]
     },
     {
       "id": "love_205",
       "text": "꒒ ০ ⌵ ୧ ♡",
-      "tags": ["love", "text"]
+      "tags": [
+        "love",
+        "text"
+      ]
     },
     {
       "id": "love_207",
       "text": "(´▽`ʃ♡ƪ)",
-      "tags": ["happy", "love"]
+      "tags": [
+        "happy",
+        "love"
+      ]
     },
     {
       "id": "love_210",
       "text": "(🌸˙˘˙)♡(˙˘˙🌸)",
-      "tags": ["displeased", "flower", "group", "love"]
+      "tags": [
+        "displeased",
+        "flower",
+        "group",
+        "love"
+      ]
     },
     {
       "id": "love_220",
       "text": "𑙕ྀི♡︎݂⺣̥̫♡݂ჹ",
-      "tags": ["decoration", "love"]
+      "tags": [
+        "decoration",
+        "love"
+      ]
     },
     {
       "id": "love_226",
       "text": "(🫰🏻‪'-' )",
-      "tags": ["grateful", "love", "neutral"]
+      "tags": [
+        "grateful",
+        "love",
+        "neutral"
+      ]
     },
     {
       "id": "love_227",
       "text": "⸜(ꢭ͈ ᢐ ෆ͈)⸝",
-      "tags": ["happy", "love"]
+      "tags": [
+        "happy",
+        "love"
+      ]
     },
     {
       "id": "love_228",
       "text": "(🫶🏻 ' ')",
-      "tags": ["grateful", "love", "neutral"]
+      "tags": [
+        "grateful",
+        "love",
+        "neutral"
+      ]
     },
     {
       "id": "love_230",
       "text": "(ㅅ´ ˘ )♡",
-      "tags": ["grateful", "love"]
+      "tags": [
+        "grateful",
+        "love"
+      ]
     },
     {
       "id": "love_231",
       "text": "(՞•͈ᴥ•͈՞)♡⃛",
-      "tags": ["animal", "bear", "cute", "dog", "love"]
+      "tags": [
+        "animal",
+        "bear",
+        "cute",
+        "dog",
+        "love"
+      ]
     },
     {
       "id": "love_233",
       "text": "( *´ ‪ཫ)♡",
-      "tags": ["love"]
+      "tags": [
+        "love"
+      ]
     },
     {
       "id": "love_235",
       "text": "(´｡• ◡ •｡) ♡",
-      "tags": ["cute", "happiness", "happy", "love"]
+      "tags": [
+        "cute",
+        "happiness",
+        "happy",
+        "love"
+      ]
     },
     {
       "id": "love_236",
       "text": "(* ॑ᵕ ॑* )♡",
-      "tags": ["happiness", "happy", "love"]
+      "tags": [
+        "happiness",
+        "happy",
+        "love"
+      ]
     },
     {
       "id": "love_238",
       "text": "꒰ ᐡᴗ͈ ·̫ ᴗ͈ ꒱♡",
-      "tags": ["cute", "happiness", "happy", "love"]
+      "tags": [
+        "cute",
+        "happiness",
+        "happy",
+        "love"
+      ]
     },
     {
       "id": "love_239",
       "text": "\\- ̗̀ෆ⎛˶'ᵕ'˶ ⎞ෆ ̖́-",
-      "tags": ["cute", "happiness", "happy", "love", "shy"]
+      "tags": [
+        "cute",
+        "happiness",
+        "happy",
+        "love",
+        "shy"
+      ]
     },
     {
       "id": "love_245",
       "text": "꙳ ꒰ ö ꒱ ͟͟͞͞♡",
-      "tags": ["love", "pouting"]
+      "tags": [
+        "love",
+        "pouting"
+      ]
     },
     {
       "id": "love_246",
       "text": "۪ ꒰ㅣ̆̈꒱ ♡",
-      "tags": ["happy", "love", "smile"]
+      "tags": [
+        "happy",
+        "love",
+        "smile"
+      ]
     },
     {
       "id": "love_248",
       "text": "ᡣ˶ᵔ ᵕ ᵔ˶𐭩 ♡",
-      "tags": ["animal", "cute", "happy", "love", "shy"]
+      "tags": [
+        "animal",
+        "cute",
+        "happy",
+        "love",
+        "shy"
+      ]
     },
     {
       "id": "love_249",
       "text": "ᡣ • . • 𐭩 ♡",
-      "tags": ["cute", "love"]
+      "tags": [
+        "cute",
+        "love"
+      ]
     },
     {
       "id": "love_257",
       "text": "( ՞ෆ ෆ՞ )",
-      "tags": ["decoration", "love"]
+      "tags": [
+        "decoration",
+        "love"
+      ]
     },
     {
       "id": "love_258",
       "text": "(๑ºั╰╯ºั๑)♡",
-      "tags": ["happiness", "happy", "love"]
+      "tags": [
+        "happiness",
+        "happy",
+        "love"
+      ]
     },
     {
       "id": "love_264",
       "text": "(❀❛ ֊ ❛„)♡",
-      "tags": ["flower", "happy", "love", "shy"]
+      "tags": [
+        "flower",
+        "happy",
+        "love",
+        "shy"
+      ]
     },
     {
       "id": "love_265",
       "text": "ς(*˙3˙*)♡̷",
-      "tags": ["cute", "love", "pouting"]
+      "tags": [
+        "cute",
+        "love",
+        "pouting"
+      ]
     },
     {
       "id": "love_271",
       "text": "ヾ(●゜▽゜●)♡",
-      "tags": ["happy", "love"]
+      "tags": [
+        "happy",
+        "love"
+      ]
     },
     {
       "id": "love_272",
       "text": "( శ 3ੜ)～♥",
-      "tags": ["love", "pouting"]
+      "tags": [
+        "love",
+        "pouting"
+      ]
     },
     {
       "id": "love_273",
       "text": "( ♥д♥)",
-      "tags": ["love"]
+      "tags": [
+        "love"
+      ]
     },
     {
       "id": "love_276",
       "text": "( *¯ ³¯*)♡ㄘゅ",
-      "tags": ["love", "pouting"]
+      "tags": [
+        "love",
+        "pouting"
+      ]
     },
     {
       "id": "love_279",
       "text": ": ♡｡ﾟ.(*♡´◡` 人´◡` ♡*)ﾟ♡ °・",
-      "tags": ["group", "happiness", "holding-hands", "love", "smile"]
+      "tags": [
+        "group",
+        "happiness",
+        "holding-hands",
+        "love",
+        "smile"
+      ]
     },
     {
       "id": "love_282",
       "text": "૮₍˶ •. • ⑅₎ა ♡",
-      "tags": ["animal", "cute", "love", "neutral", "shy"]
+      "tags": [
+        "animal",
+        "cute",
+        "love",
+        "neutral",
+        "shy"
+      ]
     },
     {
       "id": "love_285",
       "text": "♡ॢ₍⸍⸌̣ʷ̣̫⸍̣⸌₎",
-      "tags": ["love"]
+      "tags": [
+        "love"
+      ]
     },
     {
       "id": "love_292",
       "text": "( ෆຶдෆຶ)",
-      "tags": ["crying", "love"]
+      "tags": [
+        "crying",
+        "love"
+      ]
     },
     {
       "id": "love_293",
       "text": "ʕ•̫͡•ʔ♡*:",
-      "tags": ["animal", "cute", "love"]
+      "tags": [
+        "animal",
+        "cute",
+        "love"
+      ]
     },
     {
       "id": "love_294",
       "text": "( ´x` )♡",
-      "tags": ["happiness", "helpless", "love", "x-mouth"]
+      "tags": [
+        "happiness",
+        "helpless",
+        "love",
+        "x-mouth"
+      ]
     },
     {
       "id": "love_296",
       "text": "♡(。☌ᴗ☌｡)",
-      "tags": ["love"]
+      "tags": [
+        "love"
+      ]
     },
     {
       "id": "love_297",
       "text": "(*๓´╰╯`๓)♡",
-      "tags": ["happy", "love"]
+      "tags": [
+        "happy",
+        "love"
+      ]
     },
     {
       "id": "love_300",
       "text": "(♡˙³˙)ᴅᴀɪsᴜᴋɪ♡",
-      "tags": ["love", "pouting", "text"]
+      "tags": [
+        "love",
+        "pouting",
+        "text"
+      ]
     },
     {
       "id": "love_302",
       "text": "₍ᐢ⑅- ω- ⑅ᐢ₎ദ⸒⸒すき♡",
-      "tags": ["cute", "love"]
+      "tags": [
+        "cute",
+        "love"
+      ]
     },
     {
       "id": "love_304",
       "text": "♡ｼｭｷ(⁎>ᴗ<⁎)ｼｭｷ",
-      "tags": ["love", "smile", "text", "thrilled"]
+      "tags": [
+        "love",
+        "smile",
+        "text",
+        "thrilled"
+      ]
     },
     {
       "id": "love_308",
       "text": "( ૢ⁼̴̤̆ ꇴ ⁼̴̤̆ ૢ)~ෆ",
-      "tags": ["cute", "love", "sparkle"]
+      "tags": [
+        "cute",
+        "love",
+        "sparkle"
+      ]
     },
     {
       "id": "love_309",
       "text": "ღ(๑╯◡╰๑ღ",
-      "tags": ["hug", "love"]
+      "tags": [
+        "hug",
+        "love"
+      ]
     },
     {
       "id": "love_313",
       "text": "(•ө•)♡",
-      "tags": ["bird", "cute", "love"]
+      "tags": [
+        "bird",
+        "cute",
+        "love"
+      ]
     },
     {
       "id": "love_316",
       "text": "(　ﾟ∀ﾟ) ﾉ♡",
-      "tags": ["dazed", "love", "mock", "waving"]
+      "tags": [
+        "dazed",
+        "love",
+        "mock",
+        "waving"
+      ]
     },
     {
       "id": "love_317",
       "text": "( '༥' )♥",
-      "tags": ["cute", "love"]
+      "tags": [
+        "cute",
+        "love"
+      ]
     },
     {
       "text": "(̨̡ ¨̮ )̧̢(̨̡ ¨̮ )̧̢↬❥",
-      "tags": ["love", "smile"],
+      "tags": [
+        "love",
+        "smile"
+      ],
       "id": "love_319"
     },
     {
       "id": "love_321",
       "text": "ヾ(♡ơ ₃ơ)ﾉ",
-      "tags": ["hands-up", "love", "pouting"]
+      "tags": [
+        "hands-up",
+        "love",
+        "pouting"
+      ]
     },
     {
       "id": "love_322",
       "text": "⁽⁽ପ( •ु﹃ •ु)​.⑅*♡",
-      "tags": ["drooling", "love", "wings"]
+      "tags": [
+        "drooling",
+        "love",
+        "wings"
+      ]
     },
     {
       "id": "love_323",
       "text": "(✽︎´ཫ`✽︎)ｸﾞﾊｯ💕💕",
-      "tags": ["flower", "love", "vomiting-blood"]
+      "tags": [
+        "flower",
+        "love",
+        "vomiting-blood"
+      ]
     },
     {
       "id": "love_326",
       "text": "(´ε｀ ʃƪ)♡",
-      "tags": ["happiness", "love", "please", "pouting"]
+      "tags": [
+        "happiness",
+        "love",
+        "please",
+        "pouting"
+      ]
     },
     {
       "id": "love_327",
       "text": "(`▽`ʃƪ)♡",
-      "tags": ["happy", "love", "please"]
+      "tags": [
+        "happy",
+        "love",
+        "please"
+      ]
     },
     {
       "id": "love_328",
       "text": "\\(-ㅂ-)/ ♥ ♥ ♥",
-      "tags": ["cheer-up", "closed-eyes", "helpless", "love"]
+      "tags": [
+        "cheer-up",
+        "closed-eyes",
+        "helpless",
+        "love"
+      ]
     },
     {
       "id": "love_329",
       "text": "♥(ˆ⌣ˆԅ)",
-      "tags": ["grab", "happy", "love", "smile"]
+      "tags": [
+        "grab",
+        "happy",
+        "love",
+        "smile"
+      ]
     },
     {
       "id": "love_330",
       "text": "♥～(‘▽‘人)",
-      "tags": ["grateful", "happy", "love", "please"]
+      "tags": [
+        "grateful",
+        "happy",
+        "love",
+        "please"
+      ]
     },
     {
       "id": "love_331",
       "text": "(♥Ő‿Ő)爻(Ő‿Ő♥)",
-      "tags": ["group", "happy", "hug", "love", "smile"]
+      "tags": [
+        "group",
+        "happy",
+        "hug",
+        "love",
+        "smile"
+      ]
     },
     {
       "id": "love_332",
       "text": "(˶′◡‵˶)爻(♥ O ♥)",
-      "tags": ["group", "hug", "love", "shy", "smile"]
+      "tags": [
+        "group",
+        "hug",
+        "love",
+        "shy",
+        "smile"
+      ]
     },
     {
       "id": "love_334",
       "text": "(　ﾟ∀ﾟ)つ≡≡≡♡♡♡)`ν゜)ｸﾞｼｬ",
-      "tags": ["attack", "dazed", "group", "love", "mock", "scheming"]
+      "tags": [
+        "attack",
+        "dazed",
+        "group",
+        "love",
+        "mock",
+        "scheming"
+      ]
     },
     {
       "id": "love_335",
       "text": "웃♥유",
-      "tags": ["group", "happiness", "love"]
+      "tags": [
+        "group",
+        "happiness",
+        "love"
+      ]
     },
     {
       "id": "love_336",
       "text": "｡ﾟ.(*♡´◡` 人´◡` ♡*)ﾟ °・",
-      "tags": ["group", "happiness", "holding-hands", "love", "smile"]
+      "tags": [
+        "group",
+        "happiness",
+        "holding-hands",
+        "love",
+        "smile"
+      ]
     },
     {
       "id": "love_337",
       "text": "♥(´∀` )人( ´∀`)♥",
-      "tags": ["group", "happiness", "holding-hands", "love"]
+      "tags": [
+        "group",
+        "happiness",
+        "holding-hands",
+        "love"
+      ]
     },
     {
       "id": "love_338",
       "text": "♡(*´∀｀*)人(*´∀｀*)♡",
-      "tags": ["group", "happiness", "happy", "holding-hands", "love"]
+      "tags": [
+        "group",
+        "happiness",
+        "happy",
+        "holding-hands",
+        "love"
+      ]
     },
     {
       "id": "love_339",
       "text": "(ღ˘⌣˘)❛ั◡❛ัღ)",
-      "tags": ["closed-eyes", "group", "love", "smile"]
+      "tags": [
+        "closed-eyes",
+        "group",
+        "love",
+        "smile"
+      ]
     },
     {
       "id": "love_340",
       "text": "( ๑ ᴖ ᴈ ᴖ)ᴖ ᴑ ᴖ๑)❣",
-      "tags": ["group", "happy", "love"]
+      "tags": [
+        "group",
+        "happy",
+        "love"
+      ]
     },
     {
       "id": "love_341",
       "text": "ʕ•̫͡•ʔ❤ʕ•̫͡•ʔ",
-      "tags": ["cute", "group", "love"]
+      "tags": [
+        "cute",
+        "group",
+        "love"
+      ]
     },
     {
       "id": "love_342",
       "text": "･:*:･(✿◕3◕)❤(◕ε◕✿)･:*:･。",
-      "tags": ["big-eyes", "cute", "flower", "group", "love", "pouting"]
+      "tags": [
+        "big-eyes",
+        "cute",
+        "flower",
+        "group",
+        "love",
+        "pouting"
+      ]
     },
     {
       "id": "love_343",
       "text": "⁽ ¨̮⁾⁽¨̮ ⁾*˚‧♡",
-      "tags": ["group", "love", "smile"]
+      "tags": [
+        "group",
+        "love",
+        "smile"
+      ]
     },
     {
       "id": "love_344",
       "text": "ς₍ᵔ⸝⸝ơ ·̫ ơᵔ₎🩵₍ᵔ› ·̫ ‹⸝⸝ᵔ₎੭",
-      "tags": ["animal", "cute", "group", "love", "shy"]
+      "tags": [
+        "animal",
+        "cute",
+        "group",
+        "love",
+        "shy"
+      ]
     },
     {
       "id": "love_345",
       "text": "(๑✧ ³✧) ♥ (⌐■_■)",
-      "tags": ["group", "love", "pouting", "sparkle", "sunglasses"]
+      "tags": [
+        "group",
+        "love",
+        "pouting",
+        "sparkle",
+        "sunglasses"
+      ]
     },
     {
       "id": "love_346",
       "text": "₍ ᐢ. ༝ .ᐢ₎♡꒰>﹏< ꒱",
-      "tags": ["group", "love", "nervous", "rabbit", "trembling", "x-mouth"]
+      "tags": [
+        "group",
+        "love",
+        "nervous",
+        "rabbit",
+        "trembling",
+        "x-mouth"
+      ]
     },
     {
       "id": "love_347",
       "text": "(◦˘ З(◦’ںˉ◦)♡",
-      "tags": ["group", "happy", "love", "pouting", "smile", "wink"]
+      "tags": [
+        "group",
+        "happy",
+        "love",
+        "pouting",
+        "smile",
+        "wink"
+      ]
     },
     {
       "id": "love_348",
       "text": "જ⁀➴♡",
-      "tags": ["decoration", "love"]
+      "tags": [
+        "decoration",
+        "love"
+      ]
     },
     {
       "id": "love_349",
       "text": "୨ ♡ ୧",
-      "tags": ["decoration", "love"]
+      "tags": [
+        "decoration",
+        "love"
+      ]
     },
     {
       "id": "love_350",
       "text": "⑉♥",
-      "tags": ["decoration", "love"]
+      "tags": [
+        "decoration",
+        "love"
+      ]
     },
     {
       "id": "love_351",
       "text": "ᨼ ᩚ",
-      "tags": ["decoration", "love"]
+      "tags": [
+        "decoration",
+        "love"
+      ]
     },
     {
       "id": "love_352",
       "text": "(　 ˆᴘˆ )ｫｪｯ❤",
-      "tags": ["happy", "love", "text"]
+      "tags": [
+        "happy",
+        "love",
+        "text"
+      ]
     },
     {
       "id": "love_353",
       "text": "♡(*>ω<)ω<*)♡",
-      "tags": ["love", "cute"]
+      "tags": [
+        "love",
+        "cute"
+      ]
     },
     {
       "id": "love_354",
       "text": "(๑>ᴗ<)ω・๑)♡",
-      "tags": ["love", "cute"]
+      "tags": [
+        "love",
+        "cute"
+      ]
     },
     {
       "id": "love_355",
       "text": "♡(´｡•ω(•ω•｡`)♡",
-      "tags": ["love", "cute"]
+      "tags": [
+        "love",
+        "cute"
+      ]
     },
     {
       "id": "love_356",
       "text": "❤(*>ω<)ω<*)ｷﾞｭ～ｯ❤",
-      "tags": ["hug", "love", "action"]
+      "tags": [
+        "hug",
+        "love",
+        "action"
+      ]
     },
     {
       "id": "love_357",
       "text": "♡(๑´>᎑<)>᎑<`๑)ぎゅ〜♡",
-      "tags": ["love", "cute"]
+      "tags": [
+        "love",
+        "cute"
+      ]
     },
     {
       "id": "love_358",
       "text": "(´｡-ω(-ω-｡`)♡",
-      "tags": ["love", "cute"]
+      "tags": [
+        "love",
+        "cute"
+      ]
     },
     {
       "id": "love_359",
       "text": "♡(๑´>᎑<)>᎑<`๑)ぎゅ〜💗",
-      "tags": ["love", "cute"]
+      "tags": [
+        "love",
+        "cute"
+      ]
     },
     {
       "id": "love_360",
       "text": "♡(੭❛▿❛(❛▿❛ॢ๑)♡",
-      "tags": ["love", "cute"]
+      "tags": [
+        "love",
+        "cute"
+      ]
     },
     {
       "id": "love_361",
       "text": "❤️((*",
-      "tags": [",>ω(ω<,,✱))ぎゅ～っ❤,hug", "love", "action"]
+      "tags": [
+        ",>ω(ω<,,✱))ぎゅ～っ❤,hug",
+        "love",
+        "action"
+      ]
     },
     {
       "id": "love_362",
       "text": "♡(๑´>᎑<)>᎑<`๑)ぎゅ〜❤",
-      "tags": ["love", "cute"]
+      "tags": [
+        "love",
+        "cute"
+      ]
     },
     {
       "id": "love_363",
       "text": "❤️(*´>ω<))ω`๑)❤️",
-      "tags": ["love", "cute"]
+      "tags": [
+        "love",
+        "cute"
+      ]
     },
     {
       "id": "love_364",
       "text": "♡((੭˃̶͈ ⁻̫ (ᵕ ˂̶͈ ))ｷﾞｭ♡",
-      "tags": ["love", "action", "cute"]
+      "tags": [
+        "love",
+        "action",
+        "cute"
+      ]
     },
     {
       "id": "love_365",
       "text": "♡(๑´>᎑<)>᎑<`๑)",
-      "tags": ["love", "cute"]
+      "tags": [
+        "love",
+        "cute"
+      ]
     },
     {
       "id": "love_366",
       "text": "*:(♡˘͈ ᵕ˘͈)(˘͈ᵕ ˘͈♡):*",
-      "tags": ["love", "cute"]
+      "tags": [
+        "love",
+        "cute"
+      ]
     },
     {
       "id": "love_367",
       "text": "♡((´｡•ω(•ω•｡`)‥ぎゅ💚❤",
-      "tags": ["love", "hug", "action"]
+      "tags": [
+        "love",
+        "hug",
+        "action"
+      ]
     },
     {
       "id": "love_368",
       "text": "❤(〃˘˘(˘˘〃)❤",
-      "tags": ["love", "cute"]
+      "tags": [
+        "love",
+        "cute"
+      ]
     },
     {
       "id": "love_369",
       "text": "ぎゅぅ♡(๑>ᴗ<)ω • ๑)♡",
-      "tags": ["hug", "love", "cute"]
+      "tags": [
+        "hug",
+        "love",
+        "cute"
+      ]
     },
     {
       "id": "love_370",
       "text": "♡ｽｷｽｷ♡(ﾉ>∀<)ﾉ♡ฅ(>ω<*ฅ)♡",
-      "tags": ["love", "cute"]
+      "tags": [
+        "love",
+        "cute"
+      ]
     },
     {
       "id": "love_371",
       "text": "💖(๑>ᴗ<)ᴗ<๑)ぎゅ〜💖",
-      "tags": ["hug", "love", "action"]
+      "tags": [
+        "hug",
+        "love",
+        "action"
+      ]
     },
     {
       "id": "love_372",
       "text": "(｡♥‿♥｡)",
-      "tags": ["love", "happy"]
+      "tags": [
+        "love",
+        "happy"
+      ]
     },
     {
       "id": "love_373",
       "text": "♡(˃͈ ˂͈ )",
-      "tags": ["love", "happy"]
+      "tags": [
+        "love",
+        "happy"
+      ]
     },
     {
       "id": "love_374",
       "text": "꒰♡˃̶̤́ ꒳ ˂̶̤̀ ꒱",
-      "tags": ["love", "cute"]
+      "tags": [
+        "love",
+        "cute"
+      ]
     },
     {
       "id": "love_375",
       "text": "(❛ᴗ❛(❛ᴗ❛♡",
-      "tags": ["love", "happy"]
+      "tags": [
+        "love",
+        "happy"
+      ]
+    },
+    {
+      "id": "love_376",
+      "text": "(｡&#x2665;‿&#x2665;｡)",
+      "tags": [
+        "love",
+        "cute"
+      ]
+    },
+    {
+      "id": "love_377",
+      "text": "(♡╹ω╹♡)",
+      "tags": [
+        "love",
+        "cute"
+      ]
+    },
+    {
+      "id": "love_378",
+      "text": "ヾ( 〃∇〃)ﾂ ♡",
+      "tags": [
+        "love",
+        "cute"
+      ]
+    },
+    {
+      "id": "love_379",
+      "text": "(⸝⸝⸝♡∀♡)━━━♡",
+      "tags": [
+        "love",
+        "cute"
+      ]
+    },
+    {
+      "id": "love_380",
+      "text": "(&#x2665;ω&#x2665;*)",
+      "tags": [
+        "love",
+        "cute"
+      ]
+    },
+    {
+      "id": "love_381",
+      "text": "( •ॢ◡-ॢ)",
+      "tags": [
+        "love",
+        "cute"
+      ]
+    },
+    {
+      "id": "love_382",
+      "text": "（*’ч’人）&#x2665;*",
+      "tags": [
+        "love",
+        "eating"
+      ]
+    },
+    {
+      "id": "love_383",
+      "text": "(♡(｡￫ˇ艸￩))",
+      "tags": [
+        "love",
+        "cute"
+      ]
+    },
+    {
+      "id": "love_384",
+      "text": "(&#x2665;ˊ艸ˋ&#x2665;)♬*",
+      "tags": [
+        "love",
+        "music"
+      ]
     }
   ]
 }
