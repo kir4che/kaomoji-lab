@@ -42,7 +42,7 @@ const Header = () => {
   };
 
   return (
-    <header className="container flex-between mx-auto p-2 md:px-4">
+    <header className="container flex-between mx-auto py-2">
       <nav className="flex-center gap-x-3">
         {navLinks.map(({ href, textKey, Icon }) => (
           <NavItem key={href} href={href} text={t(textKey, lang)} Icon={Icon} />

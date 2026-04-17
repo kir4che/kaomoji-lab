@@ -1,7 +1,7 @@
-import { useId, ChangeEvent, InputHTMLAttributes } from 'react';
+import { ChangeEvent, InputHTMLAttributes, useId } from 'react';
 
-import { cn } from '@/utils/cn';
 import CloseIcon from '@/assets/icons/close.svg';
+import { cn } from '@/utils/cn';
 
 interface InputProps extends Omit<InputHTMLAttributes<HTMLInputElement>, 'onChange' | 'type'> {
   title?: string;
@@ -61,8 +61,7 @@ const Input = ({
           className={cn(
             'w-full p-3 rounded-full bg-white border-2 border-gray-200 focus:outline-none',
             {
-              'pl-4 pr-12 focus:scale-105 focus:-translate-y-1 focus:border-primary-400 transition-all duration-300':
-                focusEffect,
+              'pl-4 pr-12 focus:border-primary-400 transition-all duration-300': focusEffect,
               'cursor-not-allowed opacity-80 bg-gray-100': disabled,
             },
             className

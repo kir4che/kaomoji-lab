@@ -27,8 +27,13 @@ const Home = ({ categories, allKaomojis: initialAllKaomojis }: HomeClientProps) 
 
   useEffect(() => {
     const shuffled = [...initialAllKaomojis].sort(() => Math.random() - 0.5);
-    setRandomKaomojis(shuffled.slice(0, 50));
+    setRandomKaomojis(shuffled.slice(0, 80));
   }, [initialAllKaomojis]);
+
+  const handleRefresh = () => {
+    const shuffled = [...initialAllKaomojis].sort(() => Math.random() - 0.5);
+    setRandomKaomojis(shuffled.slice(0, 85));
+  };
 
   const filteredInput = searchTerm ? allKaomojis : randomKaomojis;
   const filteredKaomojis = useFilteredKaomoji({ sourceKaomojis: filteredInput, searchTerm });
@@ -36,7 +41,15 @@ const Home = ({ categories, allKaomojis: initialAllKaomojis }: HomeClientProps) 
   return (
     <>
       <Hexo totalKaomojis={allKaomojis.length} />
-      <div className="w-full max-w-96 mx-auto my-6" role="search">
+      <div className="w-full max-w-96 mx-auto my-6 flex items-center gap-2" role="search">
+        <button
+          onClick={() => !searchTerm && handleRefresh()}
+          disabled={!!searchTerm}
+          className="size-8 rounded-full bg-primary-400 text-white font-medium hover:bg-primary-500 transition-colors shrink-0 disabled:opacity-50 disabled:cursor-not-allowed"
+          aria-label="Refresh random kaomojis"
+        >
+          ↻
+        </button>
         <Input
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
