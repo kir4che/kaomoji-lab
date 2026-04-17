@@ -38,7 +38,7 @@ const ExploreMoreSection = () => {
   if (pathname === '/admin') return null;
 
   return (
-    <section className="container mx-auto px-4 pb-8 text-center">
+    <section className="container mx-auto px-2 md:px-4 pb-8 text-center">
       <div className="px-8 py-6 bg-white rounded-lg shadow-md">
         <h3 className="text-xl font-bold mb-4">{t('exploreMore', lang)}</h3>
         <div className={`flex-between flex-col md:flex-row gap-x-4 gap-y-3`}>

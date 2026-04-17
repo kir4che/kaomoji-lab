@@ -101,12 +101,12 @@ export default async function RootLayout({ children }: RootLayoutProps) {
         />
       </head>
       <body
-        className={`${fontClasses} font-sans relative antialiased flex flex-col min-h-screen [&:not(#admin)]:no-select`}
+        className={`${fontClasses} font-sans mx-auto lg:container relative antialiased flex flex-col min-h-screen [&:not(#admin)]:no-select`}
       >
         <LanguageProvider>
           <ToastProvider>
             <Header />
-            <main className="flex flex-col flex-1 container mx-auto px-4 pt-6">{children}</main>
+            <main className="flex flex-col flex-1 px-4 pt-6">{children}</main>
             <ExploreMoreSection />
             <Footer />
             <ScrollToTopBtn />

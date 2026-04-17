@@ -1,7 +1,7 @@
 'use client';
 
-import type { KaomojiItem } from '@/types/Kaomoji';
 import KaomojiBtn from '@/components/atoms/KaomojiBtn';
+import type { KaomojiItem } from '@/types/Kaomoji';
 import { cn } from '@/utils/cn';
 
 interface KaomojiListProps extends React.HTMLAttributes<HTMLUListElement> {
