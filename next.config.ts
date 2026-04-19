@@ -1,6 +1,20 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          {
+            key: 'Link',
+            value: '</rss.xml>; rel="alternate"; type="application/rss+xml"',
+          },
+        ],
+      },
+    ];
+  },
+
   webpack(config) {
     const fileLoaderRule = config.module.rules.find(
       (rule: { test: { test: (arg0: string) => any } }) => rule?.test?.test?.('.svg')
