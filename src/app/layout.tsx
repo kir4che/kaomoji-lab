@@ -48,7 +48,7 @@ export async function generateMetadata(): Promise<Metadata> {
     publisher: t('metaDefaultTitle', lang),
     robots: 'index, follow',
     icons: {
-      icon: '/favicon.ico',
+      icon: [{ url: '/favicon.png', type: 'image/png' }],
     },
     openGraph: {
       title: t('metaDefaultTitle', lang),
