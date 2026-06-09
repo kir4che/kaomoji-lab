@@ -49,7 +49,9 @@ export async function generateMetadata(): Promise<Metadata> {
     robots: 'index, follow',
     icons: {
       icon: [{ url: '/favicon.png', type: 'image/png' }],
+      apple: [{ url: '/icons/icon-192x192.png' }],
     },
+    manifest: '/manifest.json',
     openGraph: {
       title: t('metaDefaultTitle', lang),
       description: t('metaOgDescription', lang),
