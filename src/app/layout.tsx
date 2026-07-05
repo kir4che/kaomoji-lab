@@ -94,7 +94,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
   const lang: Language = 'zh-tw';
 
   return (
-    <html lang={lang} className="scroll-smooth">
+    <html lang={lang} className="scroll-smooth" data-scroll-behavior="smooth">
       <head>
         <Script
           async
