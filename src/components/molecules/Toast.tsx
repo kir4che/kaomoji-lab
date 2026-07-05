@@ -3,6 +3,8 @@
 import { useEffect } from 'react';
 
 import { cn } from '@/utils/cn';
+import { t } from '@/lib/i18n';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 interface ToastProps {
   message: string;
@@ -11,6 +13,7 @@ interface ToastProps {
 }
 
 const Toast = ({ message, type, onClose }: ToastProps) => {
+  const { lang } = useLanguage();
   useEffect(() => {
     const timer = setTimeout(onClose, 3000);
     return () => clearTimeout(timer);
@@ -40,7 +43,7 @@ const Toast = ({ message, type, onClose }: ToastProps) => {
         type="button"
         onClick={onClose}
         className="ml-4 text-lg font-semibold"
-        aria-label="關閉通知"
+        aria-label={t('a11yToastClose', lang)}
       >
         &times;
       </button>

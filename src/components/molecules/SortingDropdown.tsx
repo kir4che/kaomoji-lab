@@ -1,4 +1,6 @@
 import { cn } from '@/utils/cn';
+import { t } from '@/lib/i18n';
+import { useLanguage } from '@/contexts/LanguageContext';
 import ArrowDownIcon from '@/assets/icons/arrow-down.svg';
 
 interface SortingDropdownProps {
@@ -17,14 +19,20 @@ const SortingDropdown = ({
   onSortByChange,
   onSortOrderChange,
   className,
-}: SortingDropdownProps) => (
+}: SortingDropdownProps) => {
+  const { lang } = useLanguage();
+  return (
   <div className={cn('flex items-center gap-x-0.5', className)}>
     <button
       type="button"
       onClick={() => onSortOrderChange(sortOrder === 'asc' ? 'desc' : 'asc')}
       className="-space-y-1.5"
-      aria-label={sortOrder === 'asc' ? '切換倒序' : '切換正序'}
-      title={sortOrder === 'asc' ? '切換倒序' : '切換正序'}
+      aria-label={
+        sortOrder === 'asc' ? t('a11ySortDesc', lang) : t('a11ySortAsc', lang)
+      }
+      title={
+        sortOrder === 'asc' ? t('a11ySortDesc', lang) : t('a11ySortAsc', lang)
+      }
       aria-pressed={sortOrder === 'desc'}
     >
       <ArrowDownIcon
@@ -41,7 +49,7 @@ const SortingDropdown = ({
     <select
       value={sortBy}
       onChange={(e) => onSortByChange(e.target.value)}
-      className={cn('pr-1.5 cursor-pointer', 'focus:outline-none')}
+      className={cn('pr-1.5 cursor-pointer')}
     >
       {options.map(({ value, label }) => (
         <option key={value} value={value}>
@@ -50,6 +58,7 @@ const SortingDropdown = ({
       ))}
     </select>
   </div>
-);
+  );
+};
 
 export default SortingDropdown;

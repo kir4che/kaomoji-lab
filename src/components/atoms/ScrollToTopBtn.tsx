@@ -3,10 +3,13 @@
 import { useState, useEffect } from 'react';
 
 import { cn } from '@/utils/cn';
+import { t } from '@/lib/i18n';
+import { useLanguage } from '@/contexts/LanguageContext';
 import ArrowRightIcon from '@/assets/icons/arrow-right.svg';
 
 const ScrollToTopBtn = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const { lang } = useLanguage();
 
   const toggleVisibility = () => {
     setIsVisible(window.scrollY > 300);
@@ -35,7 +38,7 @@ const ScrollToTopBtn = () => {
         'transition-all',
         isVisible ? 'opacity-100 visible' : 'opacity-0 invisible'
       )}
-      aria-label="置頂"
+      aria-label={t('a11yScrollToTop', lang)}
     >
       <ArrowRightIcon className="size-8 -rotate-90" />
     </button>

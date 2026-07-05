@@ -46,7 +46,7 @@ const Home = ({ categories, allKaomojis: initialAllKaomojis }: HomeClientProps) 
           onClick={() => !searchTerm && handleRefresh()}
           disabled={!!searchTerm}
           className="size-8 rounded-full bg-primary-400 text-white font-medium hover:bg-primary-500 transition-colors shrink-0 disabled:opacity-50 disabled:cursor-not-allowed"
-          aria-label="Refresh random kaomojis"
+          aria-label={t('a11yRefreshRandom', lang)}
         >
           ↻
         </button>

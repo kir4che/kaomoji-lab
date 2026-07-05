@@ -2,6 +2,8 @@ import { ChangeEvent, InputHTMLAttributes, useId } from 'react';
 
 import CloseIcon from '@/assets/icons/close.svg';
 import { cn } from '@/utils/cn';
+import { t } from '@/lib/i18n';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 interface InputProps extends Omit<InputHTMLAttributes<HTMLInputElement>, 'onChange' | 'type'> {
   title?: string;
@@ -32,6 +34,7 @@ const Input = ({
   ...props
 }: InputProps) => {
   const id = useId();
+  const { lang } = useLanguage();
 
   const handleClear = () => {
     onChange({
@@ -73,7 +76,7 @@ const Input = ({
             type="button"
             onClick={handleClear}
             className="absolute inset-y-0 right-0 flex items-center pr-4 text-gray-400 hover:text-gray-600"
-            aria-label="清除內容"
+              aria-label={t('a11yInputClear', lang)}
           >
             <CloseIcon className="size-5" />
           </button>

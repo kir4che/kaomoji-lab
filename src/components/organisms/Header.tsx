@@ -51,6 +51,7 @@ const Header = () => {
       <div className="flex-center gap-x-3">
         <button
           onClick={toggleLanguage}
+          aria-label={t('a11yToggleLanguage', lang)}
           className="text-sm text-primary-400 hover:text-primary-500 hover:underline hover:underline-offset-2"
         >
           {lang === 'en' ? t('traditionalChinese', lang) : t('english', lang)}
@@ -59,6 +60,7 @@ const Header = () => {
           href="https://forms.gle/xFU2z2p6yr8Hww2A7"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label={`${t('feedback', lang)}${t('a11yOpenInNewTab', lang)}`}
           className="text-sm text-primary-400 hover:text-primary-500 hover:underline hover:underline-offset-2"
         >
           {t('feedback', lang)}

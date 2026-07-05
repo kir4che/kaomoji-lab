@@ -37,7 +37,7 @@ const KaomojiBtn = ({ text, onCopy, isCopied, className }: KaomojiBtnProps) => {
       aria-label={`${text}（點擊複製）`}
       aria-live="polite"
       className={cn(
-        'bg-white rounded-lg p-2 shadow text-sm sm:text-base font-medium text-nowrap border-2 border-transparent hover:border-primary-500/25 hover:text-pink-500 focus:border-transparent transition-colors duration-300',
+        'bg-white rounded-lg p-2 shadow text-sm sm:text-base font-medium text-nowrap border-2 border-transparent hover:border-primary-500/25 hover:text-pink-500 focus-visible:ring-2 focus-visible:ring-primary-400 focus-visible:border-transparent transition-colors duration-300',
         {
           'text-primary-500 font-medium': showCopyText,
           'shake-animation pulse-glow': isCopied,

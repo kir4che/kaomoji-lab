@@ -10,6 +10,7 @@ import { LanguageProvider } from '@/contexts/LanguageContext';
 import { ToastProvider } from '@/contexts/ToastContext';
 import { t } from '@/lib/i18n';
 import type { Language } from '@/types/Language';
+import { HtmlLangSync } from '@/components/atoms/HtmlLangSync';
 
 import './globals.css';
 
@@ -106,6 +107,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
         className={`${fontClasses} font-sans mx-auto lg:container relative antialiased flex flex-col min-h-screen [&:not(#admin)]:no-select`}
       >
         <LanguageProvider>
+          <HtmlLangSync />
           <ToastProvider>
             <Header />
             <main className="flex flex-col flex-1 px-4 pt-6">{children}</main>

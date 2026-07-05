@@ -417,6 +417,17 @@ const translations: Translations = {
     'zh-tw': '透過標籤探索 {count} 種不同風格的顏文字',
     en: 'Explore {count} different styles of kaomoji through tags',
   },
+  a11yInputClear: { 'zh-tw': '清除內容', en: 'Clear input' },
+  a11yScrollToTop: { 'zh-tw': '置頂', en: 'Back to top' },
+  a11yRefreshRandom: { 'zh-tw': '重新隨機', en: 'Refresh random kaomojis' },
+  a11yToastClose: { 'zh-tw': '關閉通知', en: 'Close notification' },
+  a11yModalClose: { 'zh-tw': '關閉視窗', en: 'Close window' },
+  a11ySelectAll: { 'zh-tw': '全選', en: 'Select all' },
+  a11yDeselectAll: { 'zh-tw': '取消全選', en: 'Deselect all' },
+  a11ySortAsc: { 'zh-tw': '切換正序', en: 'Sort ascending' },
+  a11ySortDesc: { 'zh-tw': '切換倒序', en: 'Sort descending' },
+  a11yToggleLanguage: { 'zh-tw': '切換語言', en: 'Toggle language' },
+  a11yOpenInNewTab: { 'zh-tw': '（在新分頁開啟）', en: ' (opens in new tab)' },
 };
 
 export const t = (
