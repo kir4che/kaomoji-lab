@@ -244,9 +244,49 @@ const translations: Translations = {
     en: 'Kaomoji Generator',
   },
   generatorSubtitle: {
-    'zh-tw': '輸入你的靈感，AI 將為你創造 3 個獨一無二的顏文字！',
-    en: 'Enter your inspiration and AI will create 3 unique kaomojis for you!',
+    'zh-tw': '輸入心情或點擊下方情緒標籤，立即找到專屬顏文字！',
+    en: 'Type a mood or click an emotion chip below to find matching kaomojis!',
   },
+  generatorFallbackPlaceholder: {
+    'zh-tw': '輸入心情，例如：開心、貓咪、吃飯...',
+    en: 'Type a mood, e.g. happy, cat, eating...',
+  },
+  generatorClear: {
+    'zh-tw': '清除',
+    en: 'Clear',
+  },
+  generatorNoResults: {
+    'zh-tw': '沒有找到匹配的顏文字',
+    en: 'No matching kaomojis found',
+  },
+  generatorNoResultsHint: {
+    'zh-tw': '試試看其他關鍵字，例如：開心、驚訝、可愛',
+    en: 'Try other keywords, e.g. happy, surprised, cute',
+  },
+  generatorInitialHint: {
+    'zh-tw': '點擊上方情緒標籤，或直接輸入心情關鍵字',
+    en: 'Click an emotion chip above, or type a mood keyword',
+  },
+  emotionChip_happy: { 'zh-tw': '開心', en: 'Happy' },
+  emotionChip_love: { 'zh-tw': '愛心', en: 'Love' },
+  emotionChip_cute: { 'zh-tw': '可愛', en: 'Cute' },
+  emotionChip_sad: { 'zh-tw': '傷心', en: 'Sad' },
+  emotionChip_angry: { 'zh-tw': '生氣', en: 'Angry' },
+  emotionChip_surprised: { 'zh-tw': '驚訝', en: 'Surprised' },
+  emotionChip_shy: { 'zh-tw': '害羞', en: 'Shy' },
+  emotionChip_tired: { 'zh-tw': '疲憊', en: 'Tired' },
+  emotionChip_thinking: { 'zh-tw': '思考', en: 'Thinking' },
+  emotionChip_cool: { 'zh-tw': '耍酷', en: 'Cool' },
+  emotionChip_food: { 'zh-tw': '食物', en: 'Food' },
+  emotionChip_greeting: { 'zh-tw': '打招呼', en: 'Greeting' },
+  emotionChip_sparkly: { 'zh-tw': '閃亮', en: 'Sparkly' },
+  emotionChip_peeking: { 'zh-tw': '偷看', en: 'Peeking' },
+  emotionChip_praying: { 'zh-tw': '祈禱', en: 'Praying' },
+  emotionChip_scared: { 'zh-tw': '害怕', en: 'Scared' },
+  emotionChip_fighting: { 'zh-tw': '加油', en: 'Fighting' },
+  emotionChip_guilty: { 'zh-tw': '心虛', en: 'Guilty' },
+  emotionChip_cat: { 'zh-tw': '貓咪', en: 'Cat' },
+  emotionChip_dog: { 'zh-tw': '狗狗', en: 'Dog' },
   yourKaomojis: {
     'zh-tw': '✨ 屬於你的顏文字 ✨',
     en: '✨ Your Own Kaomojis ✨',
@@ -281,24 +321,24 @@ const translations: Translations = {
     en: 'A collection of 6000+ cute Kaomoji, one-click copy, and easily find your favorite Kaomoji (｡◕‿◕｡)',
   },
   metaGeneratorTitle: {
-    'zh-tw': 'AI 顏文字產生器',
-    en: 'AI Kaomoji Generator',
+    'zh-tw': '顏文字產生器',
+    en: 'Kaomoji Generator',
   },
   metaGeneratorDescription: {
-    'zh-tw': '輸入你的靈感或心情，讓 AI 為你生成獨一無二的客製化顏文字！簡單、快速，立即複製使用。',
-    en: 'Enter your inspiration or mood, and let AI generate unique custom Kaomoji for you! Simple, fast, and ready to copy and use.',
+    'zh-tw': '輸入心情或關鍵字，立即找到專屬顏文字！支援一鍵複製，快速又簡單。',
+    en: 'Type a mood or keyword to find matching kaomojis instantly! One-click copy, fast and easy.',
   },
   metaGeneratorKeywords: {
-    'zh-tw': '顏文字,AI產生器,表情符號,Kaomoji,客製化表情,客製化顏文字,Japanese Emoticons',
-    en: 'Kaomoji,AI Generator,emoticon,custom emoji,custom kaomoji,Japanese Emoticons',
+    'zh-tw': '顏文字,產生器,表情符號,Kaomoji,可愛顏文字,Japanese Emoticons',
+    en: 'Kaomoji,generator,emoticon,cute kaomoji,Japanese Emoticons',
   },
   metaGeneratorOgTitle: {
-    'zh-tw': 'AI 顏文字產生器',
-    en: 'AI Kaomoji Generator',
+    'zh-tw': '顏文字產生器',
+    en: 'Kaomoji Generator',
   },
   metaGeneratorOgDescription: {
-    'zh-tw': '輸入你的靈感或心情，讓 AI 為你生成獨一無二的客製化顏文字！簡單、快速，立即複製使用。',
-    en: 'Enter your inspiration or mood, and let AI generate unique custom Kaomoji for you! Simple, fast, and ready to copy and use.',
+    'zh-tw': '輸入心情或關鍵字，立即找到專屬顏文字！支援一鍵複製，快速又簡單。',
+    en: 'Type a mood or keyword to find matching kaomojis instantly! One-click copy, fast and easy.',
   },
   metaCategoryTitle: {
     'zh-tw': '分類一覽',
@@ -376,14 +416,6 @@ const translations: Translations = {
   tagPageP: {
     'zh-tw': '透過標籤探索 {count} 種不同風格的顏文字',
     en: 'Explore {count} different styles of kaomoji through tags',
-  },
-  comingSoonTitle: {
-    'zh-tw': '功能暫不開放',
-    en: 'Feature Temporarily Unavailable',
-  },
-  comingSoonDescription: {
-    'zh-tw': '我們正在優化此功能，敬請期待！',
-    en: 'We are currently optimizing this feature. Stay tuned!',
   },
 };
 
