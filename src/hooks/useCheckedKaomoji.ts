@@ -3,16 +3,19 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 import { useToast } from '@/contexts/ToastContext';
-import { getCheckedKaomojiIds, saveCheckedKaomojiIds } from '@/services/adminService';
+import { getCheckedKaomojiIds } from '@/services/adminService';
 
 const CHECKED_STORAGE_KEY = 'checkedKaomojiIds';
 
 // 管理「已檢查」狀態：瀏覽器端即時回應，同時同步到後端檔案儲存。
-export const useCheckedKaomoji = () => {
+interface UseCheckedKaomojiOptions {
+  onChange?: () => void;
+}
+
+export const useCheckedKaomoji = ({ onChange }: UseCheckedKaomojiOptions = {}) => {
   const { showToast } = useToast();
   const [checkedKaomojiIds, setCheckedKaomojiIds] = useState<Set<string>>(new Set());
   const loadErrorNotifiedRef = useRef(false);
-  const persistErrorNotifiedRef = useRef(false);
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -62,26 +65,14 @@ export const useCheckedKaomoji = () => {
   }, [showToast]);
 
   const persistCheckedKaomojiIds = useCallback(
-    async (ids: Set<string>) => {
+    (ids: Set<string>) => {
       if (typeof window !== 'undefined') {
         const idsArray = Array.from(ids);
         window.localStorage.setItem(CHECKED_STORAGE_KEY, JSON.stringify(idsArray));
-
-        try {
-          await saveCheckedKaomojiIds(idsArray);
-          persistErrorNotifiedRef.current = false;
-        } catch (err) {
-          if (err instanceof Error && err.message === 'Checked kaomoji persistence disabled')
-            return;
-
-          if (!persistErrorNotifiedRef.current) {
-            persistErrorNotifiedRef.current = true;
-            showToast('儲存檢查狀態到本機檔案時發生錯誤，只會保留瀏覽器資料。', 'error');
-          }
-        }
       }
+      onChange?.();
     },
-    [showToast]
+    [onChange]
   );
 
   const toggleKaomojiChecked = useCallback(

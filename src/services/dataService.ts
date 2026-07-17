@@ -12,6 +12,7 @@ import {
   deleteGitHubFile,
   isGitHubContentsEnabled,
   readGitHubTextFile,
+  writeGitHubTextFiles,
   writeGitHubTextFile,
 } from '@/services/githubContentsService';
 
@@ -68,6 +69,19 @@ const getCategoryFilePath = (id: string) => path.join(CATEGORIES_DIR, `${id}.jso
 const serializeJson = (data: unknown) => JSON.stringify(data, null, 2);
 const isProductionRuntime = () => process.env.NODE_ENV === 'production';
 
+export interface AdminSnapshotInput {
+  categories: CategoryData[];
+  tags: Tag[];
+  checkedKaomojiIds?: string[];
+  previousCategoryIds?: string[];
+}
+
+export interface AdminSnapshotFile {
+  localPath: string;
+  repoPath: string;
+  content: string | null;
+}
+
 const assertWritablePersistence = () => {
   if (isProductionRuntime() && !isGitHubContentsEnabled())
     throw new Error('GitHub contents persistence is not configured');
@@ -97,6 +111,109 @@ const writeJsonFile = async (
 
   assertWritablePersistence();
   await fs.writeFile(localPath, content, 'utf-8');
+};
+
+export const buildAdminSnapshotFiles = ({
+  categories,
+  tags,
+  checkedKaomojiIds,
+  previousCategoryIds = [],
+}: AdminSnapshotInput): AdminSnapshotFile[] => {
+  const regularCategories = categories.filter((category) => category.id !== TEMP_CATEGORY_ID);
+  const temporaryCategory = categories.find((category) => category.id === TEMP_CATEGORY_ID);
+  const currentCategoryIds = new Set(regularCategories.map((category) => category.id));
+  const deletedCategoryIds = previousCategoryIds.filter((id) => !currentCategoryIds.has(id));
+
+  const indexData: IndexData = {
+    categories: regularCategories.map((category) => ({
+      id: category.id,
+      name: category.name,
+      preview: category.preview,
+      lastUpdated: category.lastUpdated,
+      itemCount: category.items.length,
+    })),
+    totalItems: regularCategories.reduce((count, category) => count + category.items.length, 0),
+    lastUpdated: getTodayDateString(),
+    tags,
+  };
+
+  return [
+    {
+      localPath: getIndexFilePath(),
+      repoPath: INDEX_REPO_PATH,
+      content: serializeJson(indexData),
+    },
+    ...regularCategories.map((category) => ({
+      localPath: getCategoryFilePath(category.id),
+      repoPath: getCategoryRepoPath(category.id),
+      content: serializeJson(category),
+    })),
+    ...deletedCategoryIds.map((id) => ({
+      localPath: getCategoryFilePath(id),
+      repoPath: getCategoryRepoPath(id),
+      content: null,
+    })),
+    ...(temporaryCategory
+      ? [
+          {
+            localPath: TEMP_CATEGORY_FILE,
+            repoPath: TEMP_CATEGORY_REPO_PATH,
+            content: serializeJson(sanitizeTemporaryCategory(temporaryCategory)),
+          },
+        ]
+      : []),
+    ...(checkedKaomojiIds
+      ? [
+          {
+            localPath: CHECKED_KAOMOJI_FILE,
+            repoPath: CHECKED_KAOMOJI_REPO_PATH,
+            content: serializeJson(Array.from(new Set(checkedKaomojiIds)).sort()),
+          },
+        ]
+      : []),
+  ];
+};
+
+export const saveAdminSnapshot = async ({
+  categories,
+  tags,
+  checkedKaomojiIds,
+}: AdminSnapshotInput) => {
+  await ensureStorageDir();
+  const currentIndex = await readIndexFile();
+  const files = buildAdminSnapshotFiles({
+    categories,
+    tags,
+    checkedKaomojiIds,
+    previousCategoryIds: currentIndex.categories.map((category) => category.id),
+  });
+
+  if (isGitHubContentsEnabled()) {
+    await writeGitHubTextFiles(
+      files.map((file) => ({ path: file.repoPath, content: file.content })),
+      'chore(admin): save admin session'
+    );
+  } else {
+    assertWritablePersistence();
+    await fs.mkdir(CATEGORIES_DIR, { recursive: true });
+    await ensureStorageDir();
+    await Promise.all(
+      files.map(async (file) => {
+        if (file.content === null) {
+          await fs.rm(file.localPath, { force: true });
+          return;
+        }
+        await fs.mkdir(path.dirname(file.localPath), { recursive: true });
+        await fs.writeFile(file.localPath, file.content, 'utf-8');
+      })
+    );
+  }
+
+  invalidateCache();
+  return {
+    changedFileCount: files.length,
+    indexData: JSON.parse(files[0].content ?? '{}') as IndexData,
+  };
 };
 
 const isTagObject = (val: unknown): val is Tag =>

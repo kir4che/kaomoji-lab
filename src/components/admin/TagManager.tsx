@@ -2,7 +2,7 @@
 
 import { FC, FormEvent } from 'react';
 
-import type { CategoryData, KaomojiItem } from '@/types/Kaomoji';
+import type { CategoryData, KaomojiItem, Tag } from '@/types/Kaomoji';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useTagManager } from '@/hooks/useTagManager';
 import { cn } from '@/utils/cn';
@@ -20,7 +20,9 @@ import TagModal from './TagModal';
 interface TagManagerProps {
   categories: CategoryData[];
   allKaomoji: KaomojiItem[];
-  onDataChange: () => void;
+  tags: Tag[];
+  onTagsChange: (updatedTags: Tag[]) => void;
+  onCategoriesChange: (updatedCategories: CategoryData[]) => void;
 }
 
 const SORT_OPTIONS = [
@@ -28,7 +30,13 @@ const SORT_OPTIONS = [
   { value: 'name', label: '名稱' },
 ];
 
-const TagManager: FC<TagManagerProps> = ({ categories, allKaomoji, onDataChange }) => {
+const TagManager: FC<TagManagerProps> = ({
+  categories,
+  allKaomoji,
+  tags,
+  onTagsChange,
+  onCategoriesChange,
+}) => {
   const { lang } = useLanguage();
   const {
     isLoading,
@@ -78,7 +86,7 @@ const TagManager: FC<TagManagerProps> = ({ categories, allKaomoji, onDataChange 
     isDeleteConfirmModalOpen,
     confirmDeleteTag,
     cancelDeleteTag,
-  } = useTagManager({ categories, allKaomoji, onDataChange });
+  } = useTagManager({ categories, allKaomoji, tags, onTagsChange, onCategoriesChange });
 
   const expandedTagData = expandedTag ? processedTags.find((t) => t.id === expandedTag) : null;
   const filteredKaomojis = expandedTag ? filteredExpandedTagKaomojis : [];

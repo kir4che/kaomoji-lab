@@ -2,7 +2,6 @@ import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 
 import { useToast } from '@/contexts/ToastContext';
 import type { KaomojiItem, Tag } from '@/types/Kaomoji';
-import * as adminService from '@/services/adminService';
 
 const isEnglish = (text: string) => /^[\x20-\x7E]+$/.test(text);
 
@@ -182,17 +181,10 @@ export const useKaomojiForm = ({
         },
       };
 
-      try {
-        await adminService.createTag(newTag);
-        setCustomTags((prev) => [...prev, newTag]);
-        if (onTagCreated) await onTagCreated(newTag);
-        showToast(`已建立標籤「${zhName}」`, 'success');
-        return newTag;
-      } catch (err) {
-        const message = err instanceof Error ? err.message : '建立標籤失敗，請稍後再試。';
-        showToast(message, 'error');
-        return null;
-      }
+      setCustomTags((prev) => [...prev, newTag]);
+      if (onTagCreated) await onTagCreated(newTag);
+      showToast(`標籤「${zhName}」已加入本次更新`, 'success');
+      return newTag;
     },
     [combinedTags, onTagCreated, showToast]
   );

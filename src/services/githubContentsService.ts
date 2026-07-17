@@ -8,6 +8,32 @@ interface GitHubErrorResponse {
   message?: string;
 }
 
+interface GitHubRefResponse {
+  object?: {
+    sha?: string;
+  };
+}
+
+interface GitHubCommitResponse {
+  sha?: string;
+  tree?: {
+    sha?: string;
+  };
+}
+
+interface GitHubBlobResponse {
+  sha?: string;
+}
+
+interface GitHubTreeResponse {
+  sha?: string;
+}
+
+export interface GitHubTextFileWrite {
+  path: string;
+  content: string | null;
+}
+
 const GITHUB_API_VERSION = '2022-11-28';
 
 const getRequiredEnv = (name: string) => {
@@ -29,6 +55,11 @@ const getContentUrl = (filePath: string) => {
     .split('/')
     .map(encodeURIComponent)
     .join('/')}`;
+};
+
+const getRepoUrl = (pathName: string) => {
+  const { owner, repo } = getRepoConfig();
+  return `https://api.github.com/repos/${owner}/${repo}/${pathName}`;
 };
 
 const getHeaders = () => ({
@@ -85,6 +116,99 @@ export const writeGitHubTextFile = async (
   });
 
   if (!res.ok) throw new Error(await parseGitHubError(res));
+};
+
+export const writeGitHubTextFiles = async (
+  files: GitHubTextFileWrite[],
+  message: string
+): Promise<void> => {
+  if (files.length === 0) return;
+
+  const { branch } = getRepoConfig();
+  const refName = `heads/${branch}`;
+
+  const refRes = await fetch(getRepoUrl(`git/ref/${refName}`), {
+    headers: getHeaders(),
+    cache: 'no-store',
+  });
+  if (!refRes.ok) throw new Error(await parseGitHubError(refRes));
+
+  const refData = (await refRes.json()) as GitHubRefResponse;
+  const baseCommitSha = refData.object?.sha;
+  if (!baseCommitSha) throw new Error('GitHub ref response did not include a commit SHA');
+
+  const commitRes = await fetch(getRepoUrl(`git/commits/${baseCommitSha}`), {
+    headers: getHeaders(),
+    cache: 'no-store',
+  });
+  if (!commitRes.ok) throw new Error(await parseGitHubError(commitRes));
+
+  const commitData = (await commitRes.json()) as GitHubCommitResponse;
+  const baseTreeSha = commitData.tree?.sha;
+  if (!baseTreeSha) throw new Error('GitHub commit response did not include a tree SHA');
+
+  const blobs = await Promise.all(
+    files.map(async (file) => {
+      if (file.content === null) return { path: file.path, sha: null };
+
+      const blobRes = await fetch(getRepoUrl('git/blobs'), {
+        method: 'POST',
+        headers: getHeaders(),
+        body: JSON.stringify({
+          content: file.content,
+          encoding: 'utf-8',
+        }),
+      });
+      if (!blobRes.ok) throw new Error(await parseGitHubError(blobRes));
+
+      const blobData = (await blobRes.json()) as GitHubBlobResponse;
+      if (!blobData.sha)
+        throw new Error(`GitHub blob response did not include a SHA: ${file.path}`);
+      return { path: file.path, sha: blobData.sha };
+    })
+  );
+
+  const treeRes = await fetch(getRepoUrl('git/trees'), {
+    method: 'POST',
+    headers: getHeaders(),
+    body: JSON.stringify({
+      base_tree: baseTreeSha,
+      tree: blobs.map((blob) => ({
+        path: blob.path,
+        mode: '100644',
+        type: 'blob',
+        sha: blob.sha,
+      })),
+    }),
+  });
+  if (!treeRes.ok) throw new Error(await parseGitHubError(treeRes));
+
+  const treeData = (await treeRes.json()) as GitHubTreeResponse;
+  if (!treeData.sha) throw new Error('GitHub tree response did not include a SHA');
+
+  const newCommitRes = await fetch(getRepoUrl('git/commits'), {
+    method: 'POST',
+    headers: getHeaders(),
+    body: JSON.stringify({
+      message,
+      tree: treeData.sha,
+      parents: [baseCommitSha],
+    }),
+  });
+  if (!newCommitRes.ok) throw new Error(await parseGitHubError(newCommitRes));
+
+  const newCommitData = (await newCommitRes.json()) as GitHubCommitResponse;
+  if (!newCommitData.sha) throw new Error('GitHub commit response did not include a SHA');
+
+  const updateRefRes = await fetch(getRepoUrl(`git/refs/${refName}`), {
+    method: 'PATCH',
+    headers: getHeaders(),
+    body: JSON.stringify({
+      sha: newCommitData.sha,
+      force: false,
+    }),
+  });
+  if (!updateRefRes.ok) throw new Error(await parseGitHubError(updateRefRes));
 };
 
 export const deleteGitHubFile = async (filePath: string, message: string): Promise<void> => {

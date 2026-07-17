@@ -2,9 +2,8 @@
 
 import { useState, useEffect, useCallback } from 'react';
 
-import type { CategoryData, IndexData } from '@/types/Kaomoji';
+import type { CategoryData, IndexData, Tag } from '@/types/Kaomoji';
 import { normalizeTemporaryCategory } from '@/utils/tempCategory';
-import { getTodayDateString } from '@/utils/date';
 import {
   normalizePlans,
   computeDuplicateCleanup,
@@ -19,8 +18,11 @@ export const useAdminData = () => {
 
   const [isLoading, setIsLoading] = useState(true);
   const [categories, setCategories] = useState<CategoryData[]>([]);
+  const [tags, setTags] = useState<Tag[]>([]);
   const [indexData, setIndexData] = useState<IndexData | null>(null);
   const [activeTab, setActiveTab] = useState<string>('kaomoji');
+  const [dirtyVersion, setDirtyVersion] = useState(0);
+  const [isSaving, setIsSaving] = useState(false);
 
   const allKaomoji = categories.flatMap((c) => c.items);
 
@@ -36,6 +38,7 @@ export const useAdminData = () => {
         if (!idxRes.ok) throw new Error('無法載入索引資料！');
         const idxData: IndexData = await idxRes.json();
         setIndexData(idxData);
+        setTags(idxData.tags ?? []);
 
         const catData = await Promise.all(
           idxData.categories.map(async (cat) => {
@@ -60,6 +63,7 @@ export const useAdminData = () => {
         }
 
         setCategories(catData);
+        setDirtyVersion(0);
       } catch (err) {
         showToast(err instanceof Error ? err.message : '載入時發生未知錯誤！', 'error');
       } finally {
@@ -73,6 +77,56 @@ export const useAdminData = () => {
     loadData();
   }, [loadData]);
 
+  useEffect(() => {
+    if (dirtyVersion === 0) return;
+
+    const handleBeforeUnload = (event: BeforeUnloadEvent) => {
+      event.preventDefault();
+      event.returnValue = '';
+    };
+
+    window.addEventListener('beforeunload', handleBeforeUnload);
+    return () => window.removeEventListener('beforeunload', handleBeforeUnload);
+  }, [dirtyVersion]);
+
+  const markDirty = useCallback(() => {
+    setDirtyVersion((current) => current + 1);
+  }, []);
+
+  const updateCategoriesDraft = useCallback(
+    (updatedCategories: CategoryData[]) => {
+      setCategories(updatedCategories);
+      markDirty();
+    },
+    [markDirty]
+  );
+
+  const updateTagsDraft = useCallback(
+    (updatedTags: Tag[]) => {
+      setTags(updatedTags);
+      markDirty();
+    },
+    [markDirty]
+  );
+
+  const saveSession = useCallback(
+    async (checkedKaomojiIds?: string[]) => {
+      try {
+        setIsSaving(true);
+        const result = await adminService.saveAdminSession({ categories, tags, checkedKaomojiIds });
+        if (result?.indexData) setIndexData(result.indexData as IndexData);
+        setDirtyVersion(0);
+        showToast('本次更新已儲存！', 'success');
+      } catch (err) {
+        showToast(err instanceof Error ? err.message : '儲存失敗，請稍後再試。', 'error');
+        throw err;
+      } finally {
+        setIsSaving(false);
+      }
+    },
+    [categories, tags, showToast]
+  );
+
   // 從 DuplicateKaomojiManager 來的批量刪除
   const handleBulkDelete = useCallback(
     async (kaomojiIds: Set<string>): Promise<void | null> => {
@@ -84,27 +138,21 @@ export const useAdminData = () => {
         }
         if (!window.confirm(`確定要刪除選中的 ${itemsToDelete.length} 個顏文字嗎？`)) return null;
 
-        const { deletedCount, updatedCategories, updatesByCategory } = computeCategoryItemRemoval(
+        const { deletedCount, updatedCategories } = computeCategoryItemRemoval(
           categories,
           kaomojiIds
         );
 
         setCategories(updatedCategories);
-
-        await Promise.all(
-          Array.from(updatesByCategory.entries()).map(([catId, items]) =>
-            adminService.updateCategoryItems(catId, { items, lastUpdated: getTodayDateString() })
-          )
-        );
+        markDirty();
 
         showToast(`成功刪除 ${deletedCount} 個顏文字！`, 'success');
       } catch (err) {
         showToast(err instanceof Error ? err.message : '批量刪除失敗', 'error');
-        await loadData(true);
         throw err;
       }
     },
-    [allKaomoji, categories, showToast, loadData]
+    [allKaomoji, categories, showToast, markDirty]
   );
 
   // 智慧清理重複：標籤合併後刪除
@@ -135,13 +183,9 @@ export const useAdminData = () => {
       }
 
       setCategories(updatedCategories);
+      markDirty();
 
       try {
-        await Promise.all(
-          Array.from(updatesByCategory.entries()).map(([catId, items]) =>
-            adminService.updateCategoryItems(catId, { items, lastUpdated: getTodayDateString() })
-          )
-        );
         showToast(`成功智慧清理 ${duplicateIds.size} 個重複顏文字！`, 'success');
       } catch (err) {
         setCategories(original);
@@ -150,13 +194,15 @@ export const useAdminData = () => {
         throw err;
       }
     },
-    [categories, showToast, loadData]
+    [categories, showToast, loadData, markDirty]
   );
 
   return {
     isLoading,
     categories,
-    setCategories,
+    setCategories: updateCategoriesDraft,
+    tags,
+    setTags: updateTagsDraft,
     indexData,
     activeTab,
     setActiveTab,
@@ -164,5 +210,10 @@ export const useAdminData = () => {
     loadData,
     handleBulkDelete,
     handleSmartDuplicateCleanup,
+    hasUnsavedChanges: dirtyVersion > 0,
+    dirtyCount: dirtyVersion,
+    isSaving,
+    saveSession,
+    markDirty,
   };
 };

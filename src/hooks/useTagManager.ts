@@ -2,10 +2,10 @@ import { useState, useEffect, useMemo, useCallback } from 'react';
 
 import type { CategoryData, KaomojiItem, Tag } from '@/types/Kaomoji';
 import { useToast } from '@/contexts/ToastContext';
-import * as adminService from '@/services/adminService';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { computeTagRemovalFromSelectedKaomoji } from '@/utils/duplicateCleanup';
 import { buildTagSynonymMap } from '@/utils/tagUtils';
+import { getTodayDateString } from '@/utils/date';
 
 export interface TagUsage extends Tag {
   count: number;
@@ -15,14 +15,22 @@ export interface TagUsage extends Tag {
 interface UseTagManagerProps {
   categories: CategoryData[];
   allKaomoji: KaomojiItem[];
-  onDataChange: () => void;
+  tags: Tag[];
+  onTagsChange: (updatedTags: Tag[]) => void;
+  onCategoriesChange: (updatedCategories: CategoryData[]) => void;
 }
 
 // 標籤管理功能
-export const useTagManager = ({ categories, allKaomoji, onDataChange }: UseTagManagerProps) => {
+export const useTagManager = ({
+  categories,
+  allKaomoji,
+  tags: initialTags,
+  onTagsChange,
+  onCategoriesChange,
+}: UseTagManagerProps) => {
   const { showToast } = useToast();
   const { lang } = useLanguage();
-  const [tags, setTags] = useState<Tag[]>([]);
+  const [tags, setTags] = useState<Tag[]>(initialTags);
   const [isLoading, setIsLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
   const [sortBy, setSortBy] = useState<'name' | 'count'>('count');
@@ -58,21 +66,26 @@ export const useTagManager = ({ categories, allKaomoji, onDataChange }: UseTagMa
     return map;
   }, [allKaomoji]);
 
-  const fetchData = useCallback(async () => {
-    try {
-      setIsLoading(true);
-      const fetchedTags = await adminService.getTags();
-      setTags(fetchedTags);
-    } catch {
-      showToast('無法載入標籤，請重試！', 'error');
-    } finally {
-      setIsLoading(false);
-    }
-  }, [showToast]);
-
   useEffect(() => {
-    fetchData();
-  }, [fetchData]);
+    setTags(initialTags);
+    setIsLoading(false);
+  }, [initialTags]);
+
+  const updateTagsDraft = useCallback(
+    (updatedTags: Tag[]) => {
+      const sortedTags = [...updatedTags].sort((a, b) => a.id.localeCompare(b.id));
+      setTags(sortedTags);
+      onTagsChange(sortedTags);
+    },
+    [onTagsChange]
+  );
+
+  const updateCategoriesDraft = useCallback(
+    (updatedCategories: CategoryData[]) => {
+      onCategoriesChange(updatedCategories);
+    },
+    [onCategoriesChange]
+  );
 
   const tagUsageMap = useMemo(() => {
     const usageMap = new Map<string, TagUsage>();
@@ -210,15 +223,26 @@ export const useTagManager = ({ categories, allKaomoji, onDataChange }: UseTagMa
     )
       return;
 
-    try {
-      await adminService.mergeTags(Array.from(tagsToMerge), finalMergeTarget.id);
-      showToast('標籤合併成功！', 'success');
-      fetchData();
-      onDataChange();
-      closeModal();
-    } catch (err) {
-      showToast(err instanceof Error ? err.message : '合併標籤時發生未知錯誤！', 'error');
-    }
+    const mergeSet = new Set(tagsToMerge);
+    const today = getTodayDateString();
+    const updatedCategories = categories.map((category) => {
+      let changed = false;
+      const items = category.items.map((item) => {
+        if (!item.tags.some((tag) => mergeSet.has(tag))) return item;
+        changed = true;
+        return {
+          ...item,
+          tags: Array.from(
+            new Set(item.tags.map((tag) => (mergeSet.has(tag) ? finalMergeTarget.id : tag)))
+          ).sort(),
+        };
+      });
+      return changed ? { ...category, items, lastUpdated: today } : category;
+    });
+    updateCategoriesDraft(updatedCategories);
+    updateTagsDraft(tags.filter((tag) => !mergeSet.has(tag.id) || tag.id === finalMergeTarget.id));
+    showToast('標籤合併已加入本次更新！', 'success');
+    closeModal();
   };
 
   const handleBulkDeleteTags = async () => {
@@ -231,15 +255,21 @@ export const useTagManager = ({ categories, allKaomoji, onDataChange }: UseTagMa
     )
       return;
 
-    try {
-      await adminService.bulkRemoveTags(tagsArray);
-      showToast(`已成功從相關顏文字中移除 ${tagsArray.length} 個標籤！`, 'success');
-      fetchData();
-      onDataChange();
-      toggleDeleteMode();
-    } catch (err) {
-      showToast(err instanceof Error ? err.message : '刪除時發生未知錯誤！', 'error');
-    }
+    const removeSet = new Set(tagsArray);
+    const today = getTodayDateString();
+    const updatedCategories = categories.map((category) => {
+      let changed = false;
+      const items = category.items.map((item) => {
+        const nextTags = item.tags.filter((tag) => !removeSet.has(tag));
+        if (nextTags.length === item.tags.length) return item;
+        changed = true;
+        return { ...item, tags: nextTags.sort() };
+      });
+      return changed ? { ...category, items, lastUpdated: today } : category;
+    });
+    updateCategoriesDraft(updatedCategories);
+    showToast(`已將 ${tagsArray.length} 個標籤移除加入本次更新！`, 'success');
+    toggleDeleteMode();
   };
 
   const handleRemoveTagFromSelected = useCallback(
@@ -253,7 +283,7 @@ export const useTagManager = ({ categories, allKaomoji, onDataChange }: UseTagMa
         return;
 
       try {
-        const { updatedItemCount, updatesByCategory } = computeTagRemovalFromSelectedKaomoji({
+        const { updatedItemCount, updatedCategories } = computeTagRemovalFromSelectedKaomoji({
           categories,
           selectedKaomojiIds,
           tagInputs: [tagToRemove],
@@ -265,20 +295,14 @@ export const useTagManager = ({ categories, allKaomoji, onDataChange }: UseTagMa
           return;
         }
 
-        const updatePromises = Array.from(updatesByCategory.entries()).map(([catId, items]) =>
-          adminService.bulkUpdateCategoryItems(catId, items)
-        );
-
-        await Promise.all(updatePromises);
-
-        showToast('標籤移除成功！', 'success');
-        onDataChange();
+        updateCategoriesDraft(updatedCategories);
+        showToast('標籤移除已加入本次更新！', 'success');
         setSelectedKaomojiIds(new Set());
       } catch (err) {
         showToast(err instanceof Error ? err.message : '更新失敗！', 'error');
       }
     },
-    [selectedKaomojiIds, categories, tagSynonymMap, onDataChange, showToast]
+    [selectedKaomojiIds, categories, tagSynonymMap, updateCategoriesDraft, showToast]
   );
 
   const filteredExpandedTagKaomojis = useMemo(() => {
@@ -311,32 +335,27 @@ export const useTagManager = ({ categories, allKaomoji, onDataChange }: UseTagMa
   }, [expandedTag, filteredExpandedTagKaomojis]);
 
   const handleSave = async (tagData: Tag) => {
-    try {
-      if (editingTag) {
-        await adminService.updateTag(tagData);
-        showToast('標籤更新成功！', 'success');
-      } else {
-        await adminService.createTag(tagData);
-        showToast('標籤新增成功！', 'success');
-      }
-      fetchData();
-      onDataChange();
-      closeModal();
-    } catch (err) {
-      const message = err instanceof Error ? err.message : '操作失敗，請重試！';
-      showToast(message, 'error');
-    }
+    const nextTags = editingTag
+      ? tags.map((tag) => (tag.id === editingTag.id ? tagData : tag))
+      : [...tags, tagData];
+    updateTagsDraft(nextTags);
+    showToast(`標籤${editingTag ? '更新' : '新增'}已加入本次更新！`, 'success');
+    closeModal();
   };
 
   const executeDelete = async (tagId: string) => {
-    try {
-      await adminService.deleteTag(tagId);
-      showToast('標籤刪除成功！', 'success');
-      fetchData();
-      onDataChange();
-    } catch (err) {
-      showToast(err instanceof Error ? err.message : '刪除失敗，請重試！', 'error');
-    }
+    const usedTags = new Set<string>();
+    const today = getTodayDateString();
+    const updatedCategories = categories.map((category) => {
+      const keptItems = category.items.filter((item) => !item.tags.includes(tagId));
+      keptItems.forEach((item) => item.tags.forEach((tag) => usedTags.add(tag)));
+      if (keptItems.length === category.items.length) return category;
+      return { ...category, items: keptItems, lastUpdated: today };
+    });
+
+    updateCategoriesDraft(updatedCategories);
+    updateTagsDraft(tags.filter((tag) => usedTags.has(tag.id)));
+    showToast('標籤刪除已加入本次更新！', 'success');
   };
 
   const handleDelete = async (tagId: string) => {
