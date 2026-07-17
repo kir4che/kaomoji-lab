@@ -5,29 +5,31 @@ import { useCallback, useMemo, useState } from 'react';
 import type { KaomojiItem, CategoryData, Tag } from '@/types/Kaomoji';
 import { useToast } from '@/contexts/ToastContext';
 import * as adminService from '@/services/adminService';
-
-const getTodayDateString = () => new Date().toISOString().split('T')[0];
-
-const sanitizeTagToken = (value: string) =>
-  value
-    .normalize('NFKC')
-    .replace(/^[\s"'`“”‘’「」『』《》〈〉﹁﹂﹃﹄()（）\[\]{}【】<>]+/, '')
-    .replace(/[\s"'`“”‘’「」『』《》〈〉﹁﹂﹃﹄()（）\[\]{}【】<>]+$/, '')
-    .trim();
+import {
+  sanitizeTagToken,
+  normalizeTag,
+  buildTagLookup,
+  buildTagSynonymMap,
+} from '@/utils/tagUtils';
+import { getTodayDateString } from '@/utils/date';
+import {
+  computeCategoryItemRemoval,
+  computeTagRemovalFromSelectedKaomoji,
+} from '@/utils/duplicateCleanup';
 
 interface BulkTagUpdateResult {
   updatedItemCount: number;
   skippedForDuplicate: number;
 }
 
+// 生成下一個顏文字 ID，格式「分類ID_數字」。
 const generateNextKaomojiId = (category: CategoryData) => {
   const maxId = Math.max(
     0,
     ...category.items
       .map((item) => {
         const segments = item.id.split('_');
-        const lastSegment = segments[segments.length - 1] || '0';
-        return parseInt(lastSegment, 10);
+        return parseInt(segments[segments.length - 1] || '0', 10);
       })
       .filter((n) => !Number.isNaN(n))
   );
@@ -42,52 +44,18 @@ interface UseKaomojiMutationsParams {
   availableTags?: Tag[];
 }
 
-export function useKaomojiMutations({
+export const useKaomojiMutations = ({
   categories,
   onDataChange,
   setCategories,
   kaomojiToCategoryMap,
   availableTags = [],
-}: UseKaomojiMutationsParams) {
+}: UseKaomojiMutationsParams) => {
   const { showToast } = useToast();
   const [isLoading, setIsLoading] = useState(false);
 
-  const normalizeTag = useCallback((tag: string) => {
-    return tag.normalize('NFKC').trim().replace(/\s+/g, ' ').toLowerCase();
-  }, []);
-
-  const tagLookup = useMemo(() => {
-    const map = new Map<string, string>();
-
-    availableTags.forEach((tag) => {
-      const candidates = [tag.id, tag.name?.en, tag.name?.['zh-tw']].filter(
-        (value): value is string => Boolean(value)
-      );
-
-      candidates.forEach((value) => {
-        const normalized = normalizeTag(value);
-        if (!normalized) return;
-        if (!map.has(normalized)) map.set(normalized, tag.id);
-      });
-    });
-
-    return map;
-  }, [availableTags, normalizeTag]);
-
-  const tagSynonymMap = useMemo(() => {
-    const map = new Map<string, Set<string>>();
-
-    availableTags.forEach((tag) => {
-      if (!tag?.id) return;
-      const synonyms = new Set<string>();
-      synonyms.add(tag.id.trim());
-      if (tag.name?.en) synonyms.add(tag.name.en.trim());
-      if (tag.name?.['zh-tw']) synonyms.add(tag.name['zh-tw'].trim());
-      map.set(tag.id, synonyms);
-    });
-
-    return map;
-  }, [availableTags]);
+  const tagLookup = useMemo(() => buildTagLookup(availableTags), [availableTags]);
+  const tagSynonymMap = useMemo(() => buildTagSynonymMap(availableTags), [availableTags]);
 
   const resolveTagId = useCallback(
     (tagInput: string) => {
@@ -95,32 +63,29 @@ export function useKaomojiMutations({
       if (!normalized) return '';
       return tagLookup.get(normalized) ?? tagInput.trim();
     },
-    [normalizeTag, tagLookup]
+    [tagLookup]
   );
 
+  // 更新單一分類的資料
   const updateCategoryData = useCallback(
     async (categoryName: string, updatedData: Partial<CategoryData>, showError = true) => {
       const originalCategories = categories;
       const nextCategories = originalCategories.map((cat) =>
         cat.id === categoryName ? { ...cat, ...updatedData } : cat
       );
-
-      const hasTargetCategory = nextCategories.some((cat) => cat.id === categoryName);
-      if (!hasTargetCategory) {
+      if (!nextCategories.some((cat) => cat.id === categoryName)) {
         if (showError) showToast('找不到分類！', 'error');
         return;
       }
-
+      // 樂觀更新：先讓 UI 看到結果
       setCategories(nextCategories);
       onDataChange(nextCategories);
-
       try {
         await adminService.updateCategory(categoryName, updatedData);
       } catch (err) {
-        if (showError) {
-          const errMsg = err instanceof Error ? err.message : '更新時發生未知錯誤！';
-          showToast(errMsg, 'error');
-        }
+        // API 失敗 → 還原
+        if (showError)
+          showToast(err instanceof Error ? err.message : '更新時發生未知錯誤！', 'error');
         setCategories(originalCategories);
         onDataChange(originalCategories);
         throw err;
@@ -128,6 +93,8 @@ export function useKaomojiMutations({
     },
     [categories, onDataChange, setCategories, showToast]
   );
+
+  // ─── 單筆操作 ───
 
   const addKaomoji = useCallback(
     async (categoryName: string, kaomoji: Omit<KaomojiItem, 'id'>): Promise<KaomojiItem | null> => {
@@ -141,14 +108,9 @@ export function useKaomojiMutations({
         return null;
       }
       const newId = generateNextKaomojiId(category);
-      if (category.items.some((item) => item.id === newId)) {
-        showToast(`ID 衝突！${newId} 已存在。`, 'error');
-        return null;
-      }
       const newKaomoji: KaomojiItem = { ...kaomoji, id: newId };
-      const updatedItems = [...category.items, newKaomoji];
       await updateCategoryData(categoryName, {
-        items: updatedItems,
+        items: [...category.items, newKaomoji],
         lastUpdated: getTodayDateString(),
       });
       return newKaomoji;
@@ -171,28 +133,24 @@ export function useKaomojiMutations({
       const updatedItems = category.items.map((item) =>
         item.id === kaomojiId ? { ...item, ...updates } : item
       );
-
-      const optimisticCategories = categories.map((cat) =>
+      const optimistic = categories.map((cat) =>
         cat.id === categoryName
           ? { ...cat, items: updatedItems, lastUpdated: getTodayDateString() }
           : cat
       );
-      setCategories(optimisticCategories);
-      onDataChange(optimisticCategories);
+      setCategories(optimistic);
+      onDataChange(optimistic);
 
       try {
         await adminService.updateCategory(categoryName, {
           items: updatedItems,
           lastUpdated: getTodayDateString(),
         });
-
-        const updatedKaomoji = updatedItems.find((item) => item.id === kaomojiId);
-        return updatedKaomoji || null;
+        return updatedItems.find((item) => item.id === kaomojiId) || null;
       } catch (err) {
         setCategories(categories);
         onDataChange(categories);
-        const errMsg = err instanceof Error ? err.message : '更新時發生未知錯誤！';
-        showToast(errMsg, 'error');
+        showToast(err instanceof Error ? err.message : '更新時發生未知錯誤！', 'error');
         return null;
       }
     },
@@ -207,9 +165,8 @@ export function useKaomojiMutations({
         showToast(`找不到分類「${categoryName}」！`, 'error');
         return false;
       }
-      const updatedItems = category.items.filter((item) => item.id !== kaomojiId);
       await updateCategoryData(categoryName, {
-        items: updatedItems,
+        items: category.items.filter((item) => item.id !== kaomojiId),
         lastUpdated: getTodayDateString(),
       });
       return true;
@@ -221,65 +178,64 @@ export function useKaomojiMutations({
     async (fromCategoryId: string, toCategoryId: string, kaomojiToMove: KaomojiItem) => {
       const fromCategory = categories.find((c) => c.id === fromCategoryId);
       const toCategory = categories.find((c) => c.id === toCategoryId);
-
       if (!fromCategory || !toCategory) {
         showToast('來源或目標分類不存在！', 'error');
         return { kaomoji: null, idMapping: new Map() };
       }
 
       const oldId = kaomojiToMove.id;
-      const updatedFromItems = fromCategory.items.filter((item) => item.id !== oldId);
       const newId = generateNextKaomojiId(toCategory);
       const newKaomoji: KaomojiItem = { ...kaomojiToMove, id: newId };
-      const updatedToItems = [...toCategory.items, newKaomoji];
-
       const idMapping = new Map<string, string>([[oldId, newId]]);
-
       const updatedCategories = categories.map((cat) => {
         if (cat.id === fromCategoryId)
-          return { ...cat, items: updatedFromItems, lastUpdated: getTodayDateString() };
-        else if (cat.id === toCategoryId)
-          return { ...cat, items: updatedToItems, lastUpdated: getTodayDateString() };
-
+          return {
+            ...cat,
+            items: cat.items.filter((i) => i.id !== oldId),
+            lastUpdated: getTodayDateString(),
+          };
+        if (cat.id === toCategoryId)
+          return {
+            ...cat,
+            items: [...toCategory.items, newKaomoji],
+            lastUpdated: getTodayDateString(),
+          };
         return cat;
       });
-
-      const originalCategories = categories;
-
+      const original = categories;
+      setCategories(updatedCategories);
+      onDataChange(updatedCategories);
       try {
-        setCategories(updatedCategories);
-        onDataChange(updatedCategories);
-
         await adminService.updateCategory(fromCategoryId, {
-          items: updatedFromItems,
+          items: fromCategory.items.filter((i) => i.id !== oldId),
           lastUpdated: getTodayDateString(),
         });
         await adminService.updateCategory(toCategoryId, {
-          items: updatedToItems,
+          items: [...toCategory.items, newKaomoji],
           lastUpdated: getTodayDateString(),
         });
-
         showToast(`顏文字「${kaomojiToMove.text}」已成功移動！`, 'success');
         return { kaomoji: newKaomoji, idMapping };
       } catch {
         showToast('移動時發生錯誤！', 'error');
-        setCategories(originalCategories);
-        onDataChange(originalCategories);
+        setCategories(original);
+        onDataChange(original);
         return { kaomoji: null, idMapping: new Map() };
       }
     },
     [categories, showToast, setCategories, onDataChange]
   );
 
+  // ─── 批量操作 ───
+
   const handleBulkAction = useCallback(
     async <T>(
-      selectedKaomojiIds: Set<string>,
+      selectedIds: Set<string>,
       action: (items: KaomojiItem[]) => Promise<T>
     ): Promise<T | null> => {
       setIsLoading(true);
       try {
-        const allKaomoji = categories.flatMap((c) => c.items);
-        const items = allKaomoji.filter((k) => selectedKaomojiIds.has(k.id));
+        const items = categories.flatMap((c) => c.items).filter((k) => selectedIds.has(k.id));
         if (items.length === 0) {
           showToast('請先選擇顏文字！', 'error');
           return null;
@@ -292,78 +248,42 @@ export function useKaomojiMutations({
     [categories, showToast]
   );
 
-  const getCategorizedUpdatesForTagging = useCallback(
-    (items: KaomojiItem[]) => {
-      const updates = new Map<string, KaomojiItem[]>();
-      items.forEach((item) => {
-        const catId = kaomojiToCategoryMap.get(item.id)!;
-        if (!updates.has(catId)) {
-          const originalItems = categories.find((c) => c.id === catId)?.items || [];
-          updates.set(catId, JSON.parse(JSON.stringify(originalItems)));
-        }
-      });
-      return updates;
-    },
-    [categories, kaomojiToCategoryMap]
-  );
-
   const handleBulkDelete = useCallback(
-    (selectedKaomojiIds: Set<string>) =>
-      handleBulkAction(selectedKaomojiIds, async (items) => {
+    (selectedIds: Set<string>) =>
+      handleBulkAction(selectedIds, async (items) => {
         if (!window.confirm(`確定要刪除選中的 ${items.length} 個顏文字嗎？`)) return;
-
-        const originalCategories = categories;
-
-        const nextCategories = originalCategories.map((category) => {
-          const idsToDelete = new Set<string>();
-          items.forEach((item) => {
-            if (kaomojiToCategoryMap.get(item.id) === category.id) {
-              idsToDelete.add(item.id);
-            }
-          });
-
-          if (idsToDelete.size === 0) return category;
-
-          const updatedItems = category.items.filter((item) => !idsToDelete.has(item.id));
-          return { ...category, items: updatedItems, lastUpdated: getTodayDateString() };
-        });
+        const original = categories;
+        const {
+          deletedCount,
+          updatedCategories: nextCategories,
+          updatesByCategory,
+        } = computeCategoryItemRemoval(categories, new Set(items.map((item) => item.id)));
 
         setCategories(nextCategories);
         onDataChange(nextCategories);
 
-        const updatesByCat = new Map<string, { items: KaomojiItem[]; lastUpdated: string }>();
-        items.forEach((item) => {
-          const catId = kaomojiToCategoryMap.get(item.id);
-          if (catId) {
-            if (!updatesByCat.has(catId)) {
-              const updatedCategory = nextCategories.find((c) => c.id === catId)!;
-              updatesByCat.set(catId, {
-                items: updatedCategory.items,
-                lastUpdated: updatedCategory.lastUpdated,
-              });
-            }
-          }
-        });
-
-        const updatePromises = Array.from(updatesByCat.entries()).map(([catId, data]) =>
-          adminService.updateCategory(catId, data)
-        );
-
         try {
-          await Promise.all(updatePromises);
-          showToast(`成功刪除 ${items.length} 個顏文字！`, 'success');
+          await Promise.all(
+            Array.from(updatesByCategory.entries()).map(([cid, updatedItems]) =>
+              adminService.updateCategory(cid, {
+                items: updatedItems,
+                lastUpdated: getTodayDateString(),
+              })
+            )
+          );
+          showToast(`成功刪除 ${deletedCount} 個顏文字！`, 'success');
         } catch {
           showToast('批量刪除時發生錯誤', 'error');
-          setCategories(originalCategories);
-          onDataChange(originalCategories);
+          setCategories(original);
+          onDataChange(original);
         }
       }),
-    [handleBulkAction, kaomojiToCategoryMap, categories, setCategories, onDataChange, showToast]
+    [handleBulkAction, categories, setCategories, onDataChange, showToast]
   );
 
   const handleBulkMove = useCallback(
-    (selectedKaomojiIds: Set<string>, targetCategoryId: string) =>
-      handleBulkAction(selectedKaomojiIds, async (items) => {
+    (selectedIds: Set<string>, targetCategoryId: string) =>
+      handleBulkAction(selectedIds, async (items) => {
         const targetCategory = categories.find((c) => c.id === targetCategoryId);
         if (
           !targetCategory ||
@@ -373,90 +293,83 @@ export function useKaomojiMutations({
         )
           return;
 
-        const originalCategories = JSON.parse(JSON.stringify(categories));
+        const original = JSON.parse(JSON.stringify(categories));
         const updates = new Map<string, KaomojiItem[]>();
-        const itemsToMoveByCat = new Map<string, KaomojiItem[]>();
         const idMapping = new Map<string, string>();
 
+        // 按來源分類分組
+        const byFromCat = new Map<string, KaomojiItem[]>();
         items.forEach((item) => {
-          const fromId = kaomojiToCategoryMap.get(item.id)!;
-          if (fromId !== targetCategoryId) {
-            if (!itemsToMoveByCat.has(fromId)) itemsToMoveByCat.set(fromId, []);
-            itemsToMoveByCat.get(fromId)!.push(item);
+          const fromId = kaomojiToCategoryMap.get(item.id);
+          if (fromId && fromId !== targetCategoryId) {
+            if (!byFromCat.has(fromId)) byFromCat.set(fromId, []);
+            byFromCat.get(fromId)!.push(item);
           }
         });
 
-        itemsToMoveByCat.forEach((itemsInCat, fromId) => {
+        byFromCat.forEach((itemsInCat, fromId) => {
+          const ids = new Set(itemsInCat.map((i) => i.id));
           const fromCat = categories.find((c) => c.id === fromId)!;
-          const idsToMove = new Set(itemsInCat.map((i) => i.id));
           updates.set(
             fromId,
-            fromCat.items.filter((i) => !idsToMove.has(i.id))
+            fromCat.items.filter((i) => !ids.has(i.id))
           );
         });
 
-        const newItemsInTarget = [...targetCategory.items];
-        let nextIdCounter =
+        const newItems = [...targetCategory.items];
+        let nextId =
           Math.max(
             0,
-            ...newItemsInTarget
-              .map((item) => parseInt(item.id.split('_')[1] || '0'))
-              .filter((n) => !isNaN(n))
+            ...newItems.map((i) => parseInt(i.id.split('_')[1] || '0', 10)).filter((n) => !isNaN(n))
           ) + 1;
-
         for (const item of items) {
           if (kaomojiToCategoryMap.get(item.id) !== targetCategoryId) {
-            const newId = `${targetCategoryId}_${String(nextIdCounter++).padStart(3, '0')}`;
-            newItemsInTarget.push({
-              ...item,
-              id: newId,
-            });
-            idMapping.set(item.id, newId);
+            const newKaomojiId = `${targetCategoryId}_${String(nextId++).padStart(3, '0')}`;
+            newItems.push({ ...item, id: newKaomojiId });
+            idMapping.set(item.id, newKaomojiId);
           }
         }
-        updates.set(targetCategoryId, newItemsInTarget);
+        updates.set(targetCategoryId, newItems);
 
-        const updatedCategories = categories.map((cat) => {
-          if (updates.has(cat.id))
-            return {
-              ...cat,
-              items: updates.get(cat.id)!,
-              lastUpdated: getTodayDateString(),
-            };
-          return cat;
-        });
+        const updatedCategories = categories.map((cat) =>
+          updates.has(cat.id)
+            ? { ...cat, items: updates.get(cat.id)!, lastUpdated: getTodayDateString() }
+            : cat
+        );
 
         setCategories(updatedCategories);
         onDataChange(updatedCategories);
 
-        const apiCalls = Array.from(updates.keys()).map((catId) =>
-          adminService.updateCategory(catId, {
-            items: updates.get(catId)!,
-            lastUpdated: getTodayDateString(),
-          })
-        );
-
         try {
-          await Promise.all(apiCalls);
+          await Promise.all(
+            Array.from(updates.keys()).map((cid) =>
+              adminService.updateCategory(cid, {
+                items: updates.get(cid)!,
+                lastUpdated: getTodayDateString(),
+              })
+            )
+          );
           showToast(`成功移動 ${items.length} 個顏文字！`, 'success');
           return { idMapping };
         } catch {
           showToast('批量移動時發生未知錯誤！', 'error');
-          setCategories(originalCategories);
-          onDataChange(originalCategories);
-          return { idMapping: new Map<string, string>() };
+          setCategories(original);
+          onDataChange(original);
+          return { idMapping: new Map() };
         }
       }),
     [handleBulkAction, categories, kaomojiToCategoryMap, onDataChange, setCategories, showToast]
   );
 
+  // 批量新增或移除標籤：使用者輸入「happy, cute」或「sad, angry」等文字，系統會自動比對正式 ID、別名、同義詞，然後對選中的顏文字增減標籤。
   const bulkUpdateTags = useCallback(
     async (
-      selectedKaomojiIds: Set<string>,
+      selectedIds: Set<string>,
       items: KaomojiItem[],
       tags: string,
       mode: 'add' | 'remove'
     ): Promise<BulkTagUpdateResult> => {
+      // 把使用者輸入的文字切開、去重、篩掉空白
       const rawInputs = Array.from(
         new Set(
           tags
@@ -470,28 +383,16 @@ export function useKaomojiMutations({
         return { updatedItemCount: 0, skippedForDuplicate: 0 };
       }
 
+      // 解析每個輸入：可能是標籤 ID、英文名、中文名，全部轉成正式 ID。
       const tagsToAddMap = new Map<string, string>();
-      const removalLookup = new Set<string>();
-
       rawInputs.forEach((input) => {
         const resolved = resolveTagId(input);
         if (resolved) {
-          const normalizedResolved = normalizeTag(resolved);
-          if (normalizedResolved) {
-            removalLookup.add(normalizedResolved);
-            const synonyms = tagSynonymMap.get(resolved);
-            if (synonyms) {
-              synonyms.forEach((value) => {
-                const normalized = normalizeTag(value);
-                if (normalized) removalLookup.add(normalized);
-              });
-            }
-            if (mode === 'add') tagsToAddMap.set(normalizedResolved, resolved.trim());
+          const nr = normalizeTag(resolved);
+          if (nr) {
+            if (mode === 'add') tagsToAddMap.set(nr, resolved.trim());
           }
         }
-
-        const normalizedInput = normalizeTag(input);
-        if (normalizedInput) removalLookup.add(normalizedInput);
       });
 
       if (mode === 'add' && tagsToAddMap.size === 0) {
@@ -499,106 +400,117 @@ export function useKaomojiMutations({
         return { updatedItemCount: 0, skippedForDuplicate: 0 };
       }
 
-      const categorizedClones = getCategorizedUpdatesForTagging(items);
       const updatesToApply: Array<[string, KaomojiItem[]]> = [];
       let updatedItemCount = 0;
 
-      for (const [catId, currentItems] of categorizedClones.entries()) {
-        let categoryChanged = false;
-        const updatedItems = currentItems.map((item) => {
-          if (!selectedKaomojiIds.has(item.id)) return item;
-
-          const tagMap = new Map<string, string>();
-          item.tags
-            .map((tag) => tag.trim())
-            .filter((tag) => tag.length > 0)
-            .forEach((tag) => {
-              const normalized = normalizeTag(tag);
-              if (!normalized) return;
-              if (!tagMap.has(normalized)) tagMap.set(normalized, tag);
-            });
-
-          if (mode === 'add') {
-            let addedCount = 0;
-            tagsToAddMap.forEach((tagId, normalizedTag) => {
-              if (tagMap.has(normalizedTag)) return;
-              tagMap.set(normalizedTag, tagId);
-              addedCount += 1;
-            });
-            if (addedCount === 0) return item;
-          } else {
-            let removed = false;
-            const keysToDelete = Array.from(tagMap.keys()).filter((key) => removalLookup.has(key));
-            if (keysToDelete.length > 0) {
-              removed = true;
-              keysToDelete.forEach((key) => tagMap.delete(key));
-            }
-            if (!removed) return item;
+      // ─── 新增標籤 ───
+      if (mode === 'add') {
+        const categorizedClones = new Map<string, KaomojiItem[]>();
+        items.forEach((item) => {
+          const cid = kaomojiToCategoryMap.get(item.id);
+          if (cid && !categorizedClones.has(cid)) {
+            categorizedClones.set(
+              cid,
+              structuredClone(categories.find((c) => c.id === cid)?.items || [])
+            );
           }
-
-          categoryChanged = true;
-          updatedItemCount += 1;
-          return { ...item, tags: Array.from(tagMap.values()).sort() };
         });
 
-        if (categoryChanged) updatesToApply.push([catId, updatedItems]);
+        // 依分類處理：把每個被選中的顏文字加上新標籤
+        for (const [catId, currentItems] of categorizedClones.entries()) {
+          let categoryChanged = false;
+          const updatedItems = currentItems.map((item) => {
+            // 只處理被選中的顏文字
+            if (!selectedIds.has(item.id)) return item;
+
+            // 把顏文字現有的標籤轉成 Map（key=正規化名稱，value=原始 ID）
+            const tagMap = new Map<string, string>();
+            item.tags.forEach((tag) => {
+              const n = normalizeTag(tag);
+              if (n && !tagMap.has(n)) tagMap.set(n, tag);
+            });
+
+            // 把要新增的標籤加進去（若還沒有的話）
+            let added = 0;
+            tagsToAddMap.forEach((tid, nt) => {
+              if (!tagMap.has(nt)) {
+                tagMap.set(nt, tid);
+                added++;
+              }
+            });
+            // 這個顏文字已經有全部要新增的標籤了，跳過
+            if (added === 0) return item;
+
+            categoryChanged = true;
+            updatedItemCount += 1;
+            // 轉回陣列、排序，保持欄位一致性
+            return { ...item, tags: Array.from(tagMap.values()).sort() };
+          });
+          if (categoryChanged) updatesToApply.push([catId, updatedItems]);
+        }
+      } else {
+        const { updatedItemCount: removedItemCount, updatesByCategory } =
+          computeTagRemovalFromSelectedKaomoji({
+            categories,
+            selectedKaomojiIds: selectedIds,
+            tagInputs: rawInputs.map(resolveTagId),
+            tagSynonymMap,
+          });
+        updatedItemCount = removedItemCount;
+        updatesToApply.push(...updatesByCategory.entries());
       }
 
-      const skippedForDuplicate = items.length - updatedItemCount;
+      const skipped = items.length - updatedItemCount;
 
       if (updatedItemCount === 0) {
-        if (mode === 'add') {
-          const message =
-            skippedForDuplicate > 0
+        showToast(
+          mode === 'add'
+            ? skipped > 0
               ? '選取的顏文字都已包含這些標籤，無需新增。'
-              : '沒有符合條件的顏文字可新增標籤。';
-          showToast(message, 'info');
-        } else showToast('沒有符合的標籤可移除。', 'info');
-
-        return { updatedItemCount: 0, skippedForDuplicate };
+              : '沒有符合條件的顏文字可新增標籤。'
+            : '沒有符合的標籤可移除。',
+          'info'
+        );
+        return { updatedItemCount: 0, skippedForDuplicate: skipped };
       }
 
-      const updatePromises = updatesToApply.map(([catId, updatedItems]) =>
-        updateCategoryData(catId, { items: updatedItems, lastUpdated: getTodayDateString() }, false)
-      );
-
       try {
-        await Promise.all(updatePromises);
+        await Promise.all(
+          updatesToApply.map(([cid, updatedItems]) =>
+            updateCategoryData(
+              cid,
+              { items: updatedItems, lastUpdated: getTodayDateString() },
+              false
+            )
+          )
+        );
         showToast(
           `成功為 ${updatedItemCount} 個顏文字${mode === 'add' ? '新增' : '移除'}標籤！`,
           'success'
         );
-        if (mode === 'add' && skippedForDuplicate > 0)
-          showToast(`有 ${skippedForDuplicate} 個顏文字已擁有這些標籤，未重複新增。`, 'info');
-
-        return { updatedItemCount, skippedForDuplicate };
-      } catch (err) {
+        if (mode === 'add' && skipped > 0)
+          showToast(`有 ${skipped} 個顏文字已擁有這些標籤，未重複新增。`, 'info');
+        return { updatedItemCount, skippedForDuplicate: skipped };
+      } catch {
         showToast('批次標籤更新時發生錯誤！', 'error');
-        throw err;
+        return { updatedItemCount: 0, skippedForDuplicate: 0 };
       }
     },
-    [
-      getCategorizedUpdatesForTagging,
-      resolveTagId,
-      showToast,
-      updateCategoryData,
-      tagSynonymMap,
-      normalizeTag,
-    ]
+    [kaomojiToCategoryMap, categories, resolveTagId, showToast, updateCategoryData, tagSynonymMap]
   );
 
   const handleBulkAddTags = useCallback(
-    (selectedKaomojiIds: Set<string>, tagsToAdd: string) =>
-      handleBulkAction(selectedKaomojiIds, (items) =>
-        bulkUpdateTags(selectedKaomojiIds, items, tagsToAdd, 'add')
+    (selectedIds: Set<string>, tagsToAdd: string) =>
+      handleBulkAction(selectedIds, (items) =>
+        bulkUpdateTags(selectedIds, items, tagsToAdd, 'add')
       ),
     [handleBulkAction, bulkUpdateTags]
   );
 
   const handleBulkRemoveTags = useCallback(
-    (selectedKaomojiIds: Set<string>, tagsToRemove: string) =>
-      handleBulkAction(selectedKaomojiIds, (items) =>
-        bulkUpdateTags(selectedKaomojiIds, items, tagsToRemove, 'remove')
+    (selectedIds: Set<string>, tagsToRemove: string) =>
+      handleBulkAction(selectedIds, (items) =>
+        bulkUpdateTags(selectedIds, items, tagsToRemove, 'remove')
       ),
     [handleBulkAction, bulkUpdateTags]
   );
@@ -614,4 +526,4 @@ export function useKaomojiMutations({
     handleBulkAddTags,
     handleBulkRemoveTags,
   };
-}
+};

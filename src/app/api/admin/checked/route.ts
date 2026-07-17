@@ -2,12 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 import { readCheckedKaomojiIds, writeCheckedKaomojiIds } from '@/services/dataService';
 
-const isLocalPersistenceEnabled = () => process.env.NODE_ENV !== 'production';
-
 export async function GET() {
-  if (!isLocalPersistenceEnabled())
-    return NextResponse.json({ error: 'Checked kaomoji persistence disabled' }, { status: 501 });
-
   try {
     const ids = await readCheckedKaomojiIds();
     return NextResponse.json({ ids });
@@ -17,9 +12,6 @@ export async function GET() {
 }
 
 export async function PUT(request: NextRequest) {
-  if (!isLocalPersistenceEnabled())
-    return NextResponse.json({ error: 'Checked kaomoji persistence disabled' }, { status: 501 });
-
   try {
     const { ids } = await request.json();
 

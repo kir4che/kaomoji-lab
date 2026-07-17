@@ -5,7 +5,7 @@
     "zh-tw": "其他"
   },
   "preview": "ʚ ɞ",
-  "lastUpdated": "2026-04-17",
+  "lastUpdated": "2026-07-17",
   "items": [
     {
       "id": "other_001",
@@ -873,7 +873,10 @@
     {
       "id": "other_221",
       "text": "_(:3 」∠)_",
-      "tags": []
+      "tags": [
+        "action",
+        "lying-down"
+      ]
     },
     {
       "id": "other_223",
@@ -933,7 +936,7 @@
       "id": "other_272",
       "text": "( ・・)つ―●○◎-",
       "tags": [
-        "dango",
+        "cute",
         "eating"
       ]
     },
@@ -1344,14 +1347,6 @@
       "text": "༼ つ ͡ ͡° ͜ ʖ ͡ ͡° ༽つ",
       "tags": [
         "hug",
-        "lenny-face",
-        "smile"
-      ]
-    },
-    {
-      "id": "other_354",
-      "text": "（͡°͜ʖ͡°）",
-      "tags": [
         "lenny-face",
         "smile"
       ]
@@ -2510,15 +2505,13 @@
       "id": "other_617",
       "text": "~(^∇^〜）",
       "tags": [
-        "dancing",
-        "hula"
+        "dancing"
       ]
     },
     {
       "id": "other_618",
       "text": "( ˘•灬•˘ )",
       "tags": [
-        "old",
         "tired"
       ]
     },
@@ -2526,8 +2519,7 @@
       "id": "other_619",
       "text": "◝(⑅•ᴗ•⑅)◜",
       "tags": [
-        "other",
-        "pick"
+        "other"
       ]
     },
     {
@@ -2542,8 +2534,7 @@
       "id": "other_621",
       "text": "(*͛ •-• )•-• ͙͛( •-• ꙳)",
       "tags": [
-        "other",
-        "playful"
+        "other"
       ]
     },
     {
@@ -2655,7 +2646,8 @@
       "text": "( -_•)╦̵̵̿╤─",
       "tags": [
         "other",
-        "weapon"
+        "attack",
+        "gun"
       ]
     },
     {
@@ -2720,9 +2712,8 @@
       "id": "other_643",
       "text": "😛 <3",
       "tags": [
-        "other",
         "love",
-        "playful"
+        "other"
       ]
     },
     {

@@ -1,9 +1,9 @@
-export function sortList<T, U extends string | number>(
+export const sortList = <T, U extends string | number>(
   list: T[],
   key: keyof T,
   order: 'asc' | 'desc' = 'asc',
   getValue?: (item: T) => U
-): T[] {
+): T[] => {
   return [...list].sort((a, b) => {
     const aVal = getValue ? getValue(a) : (a[key] as U);
     const bVal = getValue ? getValue(b) : (b[key] as U);
@@ -15,4 +15,4 @@ export function sortList<T, U extends string | number>(
 
     return order === 'asc' ? result : -result;
   });
-}
+};

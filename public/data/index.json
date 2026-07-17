@@ -7,8 +7,8 @@
         "zh-tw": "動作"
       },
       "preview": "╰( ^o^)╮",
-      "lastUpdated": "2026-04-17",
-      "itemCount": 1698
+      "lastUpdated": "2026-07-17",
+      "itemCount": 1652
     },
     {
       "id": "angry",
@@ -57,7 +57,7 @@
         "zh-tw": "裝飾"
       },
       "preview": "♥･*:.｡ ｡.:*･ﾟ♡･*:.｡ ｡",
-      "lastUpdated": "2026-04-17",
+      "lastUpdated": "2026-07-17",
       "itemCount": 119
     },
     {
@@ -67,8 +67,8 @@
         "zh-tw": "尷尬"
       },
       "preview": "•﹏•",
-      "lastUpdated": "2026-04-17",
-      "itemCount": 57
+      "lastUpdated": "2026-07-17",
+      "itemCount": 56
     },
     {
       "id": "excited",
@@ -77,7 +77,7 @@
         "zh-tw": "興奮"
       },
       "preview": "(ﾉ≧∀≦)ﾉ",
-      "lastUpdated": "2026-04-17",
+      "lastUpdated": "2026-07-17",
       "itemCount": 151
     },
     {
@@ -87,8 +87,8 @@
         "zh-tw": "問候"
       },
       "preview": "(*・ω・)ﾉ",
-      "lastUpdated": "2026-04-15",
-      "itemCount": 185
+      "lastUpdated": "2026-07-17",
+      "itemCount": 175
     },
     {
       "id": "happiness",
@@ -107,8 +107,8 @@
         "zh-tw": "開心"
       },
       "preview": "ᐠ( ᐢ ᵕ ᐢ )ᐟ",
-      "lastUpdated": "2026-04-17",
-      "itemCount": 1223
+      "lastUpdated": "2026-07-17",
+      "itemCount": 1203
     },
     {
       "id": "helpless",
@@ -177,8 +177,8 @@
         "zh-tw": "累累"
       },
       "preview": "(ㅎ.ㅎ)",
-      "lastUpdated": "2026-04-15",
-      "itemCount": 46
+      "lastUpdated": "2026-07-17",
+      "itemCount": 44
     },
     {
       "id": "speechless",
@@ -197,8 +197,8 @@
         "zh-tw": "緊張"
       },
       "preview": "",
-      "lastUpdated": "2025-11-17",
-      "itemCount": 137
+      "lastUpdated": "2026-07-17",
+      "itemCount": 136
     },
     {
       "id": "fighting",
@@ -212,6 +212,13 @@
     }
   ],
   "tags": [
+    {
+      "id": "action",
+      "name": {
+        "en": "Action",
+        "zh-tw": "動作"
+      }
+    },
     {
       "id": "angry",
       "name": {
@@ -234,6 +241,13 @@
       }
     },
     {
+      "id": "arms-up",
+      "name": {
+        "en": "Arms Up",
+        "zh-tw": "舉手"
+      }
+    },
+    {
       "id": "attack",
       "name": {
         "en": "Attack",
@@ -241,10 +255,24 @@
       }
     },
     {
+      "id": "ball",
+      "name": {
+        "en": "Ball",
+        "zh-tw": "球"
+      }
+    },
+    {
       "id": "banzai",
       "name": {
         "en": "Banzai",
         "zh-tw": "萬歲"
+      }
+    },
+    {
+      "id": "beam",
+      "name": {
+        "en": "Beam",
+        "zh-tw": "光束"
       }
     },
     {
@@ -269,6 +297,13 @@
       }
     },
     {
+      "id": "bowing",
+      "name": {
+        "en": "Bowing",
+        "zh-tw": "鞠躬"
+      }
+    },
+    {
       "id": "breakdown",
       "name": {
         "en": "Breakdown",
@@ -283,10 +318,24 @@
       }
     },
     {
+      "id": "catching",
+      "name": {
+        "en": "Catching",
+        "zh-tw": "接住"
+      }
+    },
+    {
       "id": "cheer-up",
       "name": {
         "en": "Cheer up",
         "zh-tw": "加油"
+      }
+    },
+    {
+      "id": "cheering",
+      "name": {
+        "en": "Cheering",
+        "zh-tw": "應援"
       }
     },
     {
@@ -353,17 +402,17 @@
       }
     },
     {
-      "id": "dancing",
+      "id": "dance",
       "name": {
-        "en": "Dancing",
+        "en": "Dance",
         "zh-tw": "跳舞"
       }
     },
     {
-      "id": "dango",
+      "id": "dancing",
       "name": {
-        "en": "Dango",
-        "zh-tw": "丸子"
+        "en": "Dancing",
+        "zh-tw": "跳舞"
       }
     },
     {
@@ -444,10 +493,17 @@
       }
     },
     {
-      "id": "fishing",
+      "id": "fast",
       "name": {
-        "en": "Fishing",
-        "zh-tw": "釣魚"
+        "en": "Fast",
+        "zh-tw": "快速"
+      }
+    },
+    {
+      "id": "fighting",
+      "name": {
+        "en": "Fighting",
+        "zh-tw": "戰鬥"
       }
     },
     {
@@ -455,6 +511,13 @@
       "name": {
         "en": "Flower",
         "zh-tw": "花"
+      }
+    },
+    {
+      "id": "gift",
+      "name": {
+        "en": "Gift",
+        "zh-tw": "禮物"
       }
     },
     {
@@ -535,6 +598,20 @@
       }
     },
     {
+      "id": "holding",
+      "name": {
+        "en": "Holding",
+        "zh-tw": "拿著"
+      }
+    },
+    {
+      "id": "holding-hand",
+      "name": {
+        "en": "Holding Hand",
+        "zh-tw": "牽手"
+      }
+    },
+    {
       "id": "holding-hands",
       "name": {
         "en": "Holding Hands",
@@ -584,6 +661,13 @@
       }
     },
     {
+      "id": "line",
+      "name": {
+        "en": "Line",
+        "zh-tw": "線條"
+      }
+    },
+    {
       "id": "lol",
       "name": {
         "en": "Laughing out loud",
@@ -595,6 +679,13 @@
       "name": {
         "en": "Love",
         "zh-tw": "愛心"
+      }
+    },
+    {
+      "id": "lying-down",
+      "name": {
+        "en": "Lying Down",
+        "zh-tw": "趴下"
       }
     },
     {
@@ -612,10 +703,10 @@
       }
     },
     {
-      "id": "moon",
+      "id": "money",
       "name": {
-        "en": "Moon",
-        "zh-tw": "月亮"
+        "en": "Money",
+        "zh-tw": "錢"
       }
     },
     {
@@ -661,6 +752,27 @@
       }
     },
     {
+      "id": "nodding",
+      "name": {
+        "en": "Nodding",
+        "zh-tw": "點頭"
+      }
+    },
+    {
+      "id": "other",
+      "name": {
+        "en": "Other",
+        "zh-tw": "其他"
+      }
+    },
+    {
+      "id": "patting",
+      "name": {
+        "en": "Patting",
+        "zh-tw": "拍拍"
+      }
+    },
+    {
       "id": "peeking",
       "name": {
         "en": "Peeking",
@@ -682,13 +794,6 @@
       }
     },
     {
-      "id": "pinch",
-      "name": {
-        "en": "Pinch",
-        "zh-tw": "捏"
-      }
-    },
-    {
       "id": "play",
       "name": {
         "en": "Play",
@@ -696,10 +801,24 @@
       }
     },
     {
+      "id": "pleading",
+      "name": {
+        "en": "Pleading",
+        "zh-tw": "懇求"
+      }
+    },
+    {
       "id": "please",
       "name": {
         "en": "Please",
         "zh-tw": "拜託"
+      }
+    },
+    {
+      "id": "poi",
+      "name": {
+        "en": "Poi",
+        "zh-tw": "拋擲"
       }
     },
     {
@@ -724,10 +843,10 @@
       }
     },
     {
-      "id": "provoke",
+      "id": "praise",
       "name": {
-        "en": "Provoke",
-        "zh-tw": "挑釁"
+        "en": "Praise",
+        "zh-tw": "稱讚"
       }
     },
     {
@@ -742,6 +861,27 @@
       "name": {
         "en": "Rabbit",
         "zh-tw": "兔子"
+      }
+    },
+    {
+      "id": "rejecting",
+      "name": {
+        "en": "Rejecting",
+        "zh-tw": "拒絕"
+      }
+    },
+    {
+      "id": "repetition",
+      "name": {
+        "en": "Repetition",
+        "zh-tw": "重複"
+      }
+    },
+    {
+      "id": "rubbing",
+      "name": {
+        "en": "Rubbing",
+        "zh-tw": "揉搓"
       }
     },
     {
@@ -794,6 +934,13 @@
       }
     },
     {
+      "id": "secret",
+      "name": {
+        "en": "Secret",
+        "zh-tw": "秘密"
+      }
+    },
+    {
       "id": "serious",
       "name": {
         "en": "Serious",
@@ -812,6 +959,13 @@
       "name": {
         "en": "Shiver",
         "zh-tw": "ぞくぞく"
+      }
+    },
+    {
+      "id": "shocked",
+      "name": {
+        "en": "Shocked",
+        "zh-tw": "震驚"
       }
     },
     {
@@ -913,6 +1067,20 @@
       }
     },
     {
+      "id": "sushi",
+      "name": {
+        "en": "Sushi",
+        "zh-tw": "壽司"
+      }
+    },
+    {
+      "id": "suspicious",
+      "name": {
+        "en": "Suspicious",
+        "zh-tw": "可疑"
+      }
+    },
+    {
       "id": "sweat-drop",
       "name": {
         "en": "Sweat drop",
@@ -924,6 +1092,13 @@
       "name": {
         "en": "Table flip",
         "zh-tw": "翻桌"
+      }
+    },
+    {
+      "id": "tea",
+      "name": {
+        "en": "Tea",
+        "zh-tw": "茶"
       }
     },
     {
@@ -955,6 +1130,27 @@
       }
     },
     {
+      "id": "throw",
+      "name": {
+        "en": "Throw",
+        "zh-tw": "丟"
+      }
+    },
+    {
+      "id": "throwing",
+      "name": {
+        "en": "Throwing",
+        "zh-tw": "丟擲"
+      }
+    },
+    {
+      "id": "tired",
+      "name": {
+        "en": "Tired",
+        "zh-tw": "累"
+      }
+    },
+    {
       "id": "trembling",
       "name": {
         "en": "Trembling",
@@ -966,6 +1162,20 @@
       "name": {
         "en": "Vomiting blood",
         "zh-tw": "吐血"
+      }
+    },
+    {
+      "id": "wall",
+      "name": {
+        "en": "Wall",
+        "zh-tw": "牆壁"
+      }
+    },
+    {
+      "id": "watching",
+      "name": {
+        "en": "Watching",
+        "zh-tw": "觀看"
       }
     },
     {
@@ -1004,31 +1214,10 @@
       }
     },
     {
-      "id": "章魚",
-      "name": {
-        "en": "章魚",
-        "zh-tw": "章魚"
-      }
-    },
-    {
-      "id": "老虎",
-      "name": {
-        "en": "老虎",
-        "zh-tw": "老虎"
-      }
-    },
-    {
       "id": "舔",
       "name": {
-        "en": "舔",
+        "en": "Lick",
         "zh-tw": "舔"
-      }
-    },
-    {
-      "id": "趴",
-      "name": {
-        "en": "趴",
-        "zh-tw": "趴"
       }
     }
   ],

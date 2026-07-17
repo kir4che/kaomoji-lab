@@ -2,7 +2,7 @@
 
 import { FC, FormEvent } from 'react';
 
-import type { KaomojiItem } from '@/types/Kaomoji';
+import type { CategoryData, KaomojiItem } from '@/types/Kaomoji';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useTagManager } from '@/hooks/useTagManager';
 import { cn } from '@/utils/cn';
@@ -11,15 +11,14 @@ import SortingDropdown from '@/components/molecules/SortingDropdown';
 import IconBtn from '@/components/atoms/IconBtn';
 import EditCard from '@/components/admin/EditCard';
 import Loading from '@/components/atoms/Loading';
-import CheckIcon from '@/assets/icons/check.svg';
-import CloseIcon from '@/assets/icons/close.svg';
-import DeleteIcon from '@/assets/icons/delete.svg';
+import { Icon } from '@/components/atoms/Icon';
 import SelectAllBtn from '@/components/atoms/SelectAllBtn';
 import Modal from '@/components/molecules/Modal';
 
 import TagModal from './TagModal';
 
 interface TagManagerProps {
+  categories: CategoryData[];
   allKaomoji: KaomojiItem[];
   onDataChange: () => void;
 }
@@ -29,7 +28,7 @@ const SORT_OPTIONS = [
   { value: 'name', label: '名稱' },
 ];
 
-const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
+const TagManager: FC<TagManagerProps> = ({ categories, allKaomoji, onDataChange }) => {
   const { lang } = useLanguage();
   const {
     isLoading,
@@ -75,7 +74,11 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
     crossFilterTagIds,
     setCrossFilterTagIds,
     filteredExpandedTagKaomojis,
-  } = useTagManager({ allKaomoji, onDataChange });
+    deleteConfirmTag,
+    isDeleteConfirmModalOpen,
+    confirmDeleteTag,
+    cancelDeleteTag,
+  } = useTagManager({ categories, allKaomoji, onDataChange });
 
   const expandedTagData = expandedTag ? processedTags.find((t) => t.id === expandedTag) : null;
   const filteredKaomojis = expandedTag ? filteredExpandedTagKaomojis : [];
@@ -117,7 +120,7 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
               )}
               aria-label={isDeleteTagsMode ? '退出多選模式' : '多選模式'}
             >
-              {isDeleteTagsMode ? <CloseIcon className="size-5" /> : '多選模式'}
+              {isDeleteTagsMode ? <Icon name="close" className="size-5" /> : '多選模式'}
             </button>
             <button
               type="button"
@@ -144,7 +147,7 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
               />
               {lowUsageCount > 0 && (
                 <IconBtn
-                  icon={showLowUsageOnly ? <CloseIcon /> : <CheckIcon />}
+                  icon={showLowUsageOnly ? <Icon name="close" /> : <Icon name="check" />}
                   onClick={() => setShowLowUsageOnly(!showLowUsageOnly)}
                   label={showLowUsageOnly ? '顯示所有' : `只顯示低頻 (${lowUsageCount})`}
                   size="small"
@@ -182,7 +185,7 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
                     aria-label="刪除標籤"
                     title="刪除標籤"
                   >
-                    <DeleteIcon className="size-5" />
+                    <Icon name="delete" className="size-5" />
                   </button>
                 </div>
               )
@@ -211,7 +214,7 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
           <div
             className={cn(
               'grid grid-cols-1 gap-3 overflow-y-auto xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5',
-              expandedTag ? 'max-h-[240px]' : 'max-h-[480px]'
+              expandedTag ? 'max-h-60' : 'max-h-120'
             )}
           >
             {processedTags.map((tag) => {
@@ -247,7 +250,7 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
                                 isSelectedForDelete && 'bg-rose-500'
                               )}
                             >
-                              <CheckIcon className="size-3" />
+                              <Icon name="check" className="size-3" />
                             </div>
                           </div>
                         )}
@@ -287,7 +290,7 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
                   aria-label="刪除"
                   title="刪除"
                 >
-                  <DeleteIcon className="size-5" />
+                  <Icon name="delete" className="size-5" />
                 </button>
               </div>
             </div>
@@ -347,7 +350,8 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
                           : 'border border-gray-300'
                       )}
                     >
-                      <CheckIcon
+                      <Icon
+                        name="check"
                         className={cn(
                           'size-3',
                           selectedKaomojiIds.has(kaomoji.id) ? 'text-white' : 'text-transparent'
@@ -424,6 +428,37 @@ const TagManager: FC<TagManagerProps> = ({ allKaomoji, onDataChange }) => {
             </button>
           </div>
         </form>
+      </Modal>
+      <Modal isOpen={isDeleteConfirmModalOpen} onClose={cancelDeleteTag} title="刪除標籤">
+        {deleteConfirmTag && (
+          <div className="space-y-4">
+            <p>
+              即將永久刪除標籤「<span className="font-semibold">{deleteConfirmTag.name}</span>」，
+              該標籤目前被用於{' '}
+              <span className="font-semibold text-rose-600">{deleteConfirmTag.count}</span>{' '}
+              個顏文字。
+            </p>
+            <p className="text-sm text-gray-500">
+              刪除後這些顏文字的該標籤將一併移除，此操作無法復原。
+            </p>
+            <div className="flex justify-end space-x-3 pt-4">
+              <button
+                type="button"
+                onClick={cancelDeleteTag}
+                className="rounded-md border border-gray-300 px-4 py-2 text-gray-700 hover:bg-gray-50"
+              >
+                取消
+              </button>
+              <button
+                type="button"
+                onClick={confirmDeleteTag}
+                className="rounded-md bg-rose-500 px-4 py-2 text-white hover:bg-rose-600"
+              >
+                確認刪除
+              </button>
+            </div>
+          </div>
+        )}
       </Modal>
     </>
   );

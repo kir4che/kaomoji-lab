@@ -5,788 +5,1314 @@
     "zh-tw": "無言"
   },
   "preview": "無言",
-  "lastUpdated": "2025-11-17",
+  "lastUpdated": "2026-07-17",
   "items": [
     {
       "id": "speechless_002",
       "text": "<(¬＿¬<)",
-      "tags": ["pointing", "speechless"]
+      "tags": [
+        "pointing",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_003",
       "text": "(¬_¬)ﾉ",
-      "tags": ["speechless", "waving"]
+      "tags": [
+        "speechless",
+        "waving"
+      ]
     },
     {
       "id": "speechless_006",
       "text": "(ノ-_-)ノ ~┻━┻",
-      "tags": ["closed-eyes", "hands-up", "speechless", "table-flip"]
+      "tags": [
+        "closed-eyes",
+        "hands-up",
+        "speechless",
+        "table-flip"
+      ]
     },
     {
       "id": "speechless_007",
       "text": "(._.) ~ ︵ ┻━┻",
-      "tags": ["neutral", "speechless", "table-flip"]
+      "tags": [
+        "neutral",
+        "speechless",
+        "table-flip"
+      ]
     },
     {
       "id": "speechless_008",
       "text": "(/#-_-)/~┻┻〃",
-      "tags": ["closed-eyes", "displeased", "hands-up", "speechless", "table-flip"]
+      "tags": [
+        "closed-eyes",
+        "displeased",
+        "hands-up",
+        "speechless",
+        "table-flip"
+      ]
     },
     {
       "id": "speechless_011",
       "text": "s( ^ ‸ ^)-p",
-      "tags": ["displeased", "speechless"]
+      "tags": [
+        "displeased",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_015",
       "text": "( ੭눈 _ 눈 )੭",
-      "tags": ["displeased", "hands-up", "speechless"]
+      "tags": [
+        "displeased",
+        "hands-up",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_017",
       "text": "(๑≖ˇдˇ≖๑)",
-      "tags": ["displeased", "speechless"]
+      "tags": [
+        "displeased",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_018",
       "text": "(╯⊙ ⊱ ⊙╰ )",
-      "tags": ["confused", "dumbfounded", "speechless"]
+      "tags": [
+        "confused",
+        "dumbfounded",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_019",
       "text": "凸(-0-メ)",
-      "tags": ["closed-eyes", "displeased", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "displeased",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_025",
       "text": "(◕ˉ◕✿)",
-      "tags": ["big-eyes", "flower", "speechless"]
+      "tags": [
+        "big-eyes",
+        "flower",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_026",
       "text": "(≖ ︿ ≖ ✿)",
-      "tags": ["displeased", "flower", "speechless"]
+      "tags": [
+        "displeased",
+        "flower",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_027",
       "text": "(≖ ‸ ≖ ✿)",
-      "tags": ["displeased", "flower", "speechless"]
+      "tags": [
+        "displeased",
+        "flower",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_028",
       "text": "(；¬д¬)",
-      "tags": ["sigh", "speechless", "sweat-drop"]
+      "tags": [
+        "sigh",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_029",
       "text": "(-_-)",
-      "tags": ["closed-eyes", "displeased", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "displeased",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_031",
       "text": "/╲/\\╭(ರ⌓ರ)╮/\\╱\\",
-      "tags": ["confused", "speechless"]
+      "tags": [
+        "confused",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_032",
       "text": "( ﾟ Χ ﾟ)",
-      "tags": ["dazed", "speechless", "x-mouth"]
+      "tags": [
+        "dazed",
+        "speechless",
+        "x-mouth"
+      ]
     },
     {
       "id": "speechless_036",
       "text": "ᕦ( ⇀ ل ↼ )ᕤ",
-      "tags": ["hands-up", "muscle", "serious", "speechless"]
+      "tags": [
+        "hands-up",
+        "muscle",
+        "serious",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_040",
       "text": "( ་ ⍸ ་ )",
-      "tags": ["confused", "serious", "speechless"]
+      "tags": [
+        "confused",
+        "serious",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_042",
       "text": "눈_눈",
-      "tags": ["displeased", "speechless"]
+      "tags": [
+        "displeased",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_044",
       "text": "(●´⌓`●)",
-      "tags": ["cute", "dazed", "speechless"]
+      "tags": [
+        "cute",
+        "dazed",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_046",
       "text": "(ᇂ_Jᇂ )",
-      "tags": ["displeased", "speechless"]
+      "tags": [
+        "displeased",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_047",
       "text": "(ᇂ_ᇂ |||)",
-      "tags": ["speechless", "sweat-drop"]
+      "tags": [
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_049",
       "text": "ತ_ತ",
-      "tags": ["confused", "speechless"]
+      "tags": [
+        "confused",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_050",
       "text": "(´･Д･lll)ゞ",
-      "tags": ["scratch", "speechless", "sweat-drop"]
+      "tags": [
+        "scratch",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_053",
       "text": "（；¬＿¬)",
-      "tags": ["speechless", "sweat-drop"]
-    },
-    {
-      "id": "speechless_054",
-      "text": "(¬_¬)",
-      "tags": ["displeased", "speechless"]
+      "tags": [
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_055",
       "text": "(¬ω¬)",
-      "tags": ["sleepy", "speechless"]
+      "tags": [
+        "sleepy",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_058",
       "text": "(눈_눈)",
-      "tags": ["displeased", "speechless"]
+      "tags": [
+        "displeased",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_062",
       "text": "(눈_눈;)",
-      "tags": ["displeased", "speechless", "sweat-drop"]
+      "tags": [
+        "displeased",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_063",
       "text": "( ¬ _ ¬ ;)",
-      "tags": ["embarrassed", "speechless", "sweat-drop"]
+      "tags": [
+        "embarrassed",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_079",
       "text": "(・ε・`*) …",
-      "tags": ["pouting", "speechless"]
+      "tags": [
+        "pouting",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_080",
       "text": "(´❛-❛)",
-      "tags": ["speechless"]
+      "tags": [
+        "speechless"
+      ]
     },
     {
       "id": "speechless_081",
       "text": "(◕_ゝ ◕✿)",
-      "tags": ["big-eyes", "flower", "speechless"]
+      "tags": [
+        "big-eyes",
+        "flower",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_087",
       "text": "(ーー;)",
-      "tags": ["closed-eyes", "speechless", "sweat-drop"]
+      "tags": [
+        "closed-eyes",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_091",
       "text": "( ˇ÷ˇ　 )",
-      "tags": ["closed-eyes", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_094",
       "text": "(खਉख)",
-      "tags": ["speechless"]
+      "tags": [
+        "speechless"
+      ]
     },
     {
       "id": "speechless_095",
       "text": "( :: °_° :: )",
-      "tags": ["dazed", "speechless"]
+      "tags": [
+        "dazed",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_098",
       "text": "(◕__◕✿)",
-      "tags": ["big-eyes", "dazed", "flower", "speechless"]
+      "tags": [
+        "big-eyes",
+        "dazed",
+        "flower",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_102",
       "text": "(◔ д◔)",
-      "tags": ["speechless"]
+      "tags": [
+        "speechless"
+      ]
     },
     {
       "id": "speechless_109",
       "text": "⊙︿⊙",
-      "tags": ["dumbfounded", "speechless"]
+      "tags": [
+        "dumbfounded",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_110",
       "text": "ਉ_ਉ",
-      "tags": ["speechless"]
+      "tags": [
+        "speechless"
+      ]
     },
     {
       "id": "speechless_111",
       "text": "（；￣д￣）",
-      "tags": ["closed-eyes", "sigh", "speechless", "sweat-drop"]
+      "tags": [
+        "closed-eyes",
+        "sigh",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_112",
       "text": "…(ﾟⅩﾟ)…",
-      "tags": ["speechless"]
+      "tags": [
+        "speechless"
+      ]
     },
     {
       "id": "speechless_113",
       "text": "(´･⊥･｀)",
-      "tags": ["speechless"]
+      "tags": [
+        "speechless"
+      ]
     },
     {
       "id": "speechless_115",
       "text": "(∥￣■￣∥)",
-      "tags": ["closed-eyes", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_116",
       "text": "( ´･仝･｀)",
-      "tags": ["dazed", "speechless"]
+      "tags": [
+        "dazed",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_118",
       "text": "(ーー゛)",
-      "tags": ["speechless"]
+      "tags": [
+        "speechless"
+      ]
     },
     {
       "id": "speechless_119",
       "text": "(；一_一)",
-      "tags": ["closed-eyes", "speechless", "sweat-drop"]
+      "tags": [
+        "closed-eyes",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_120",
       "text": "(－－〆)",
-      "tags": ["speechless"]
+      "tags": [
+        "speechless"
+      ]
     },
     {
       "id": "speechless_121",
       "text": "(๑ ꒪ꌂ꒪๑)",
-      "tags": ["speechless", "surprised"]
+      "tags": [
+        "speechless",
+        "surprised"
+      ]
     },
     {
       "id": "speechless_122",
       "text": "ƪ(ƪ꒪ৱ৹)ᵒʰ˵˵",
-      "tags": ["speechless", "surprised"]
+      "tags": [
+        "speechless",
+        "surprised"
+      ]
     },
     {
       "id": "speechless_124",
       "text": "Σ(๛д๛)",
-      "tags": ["speechless", "surprised"]
+      "tags": [
+        "speechless",
+        "surprised"
+      ]
     },
     {
       "id": "speechless_126",
       "text": "＼(●o○;)ノ",
-      "tags": ["speechless", "surprised"]
+      "tags": [
+        "speechless",
+        "surprised"
+      ]
     },
     {
       "id": "speechless_127",
       "text": "◑.◑",
-      "tags": ["speechless"]
+      "tags": [
+        "speechless"
+      ]
     },
     {
       "id": "speechless_129",
       "text": "δ△δ",
-      "tags": ["speechless", "surprised"]
+      "tags": [
+        "speechless",
+        "surprised"
+      ]
     },
     {
       "id": "speechless_131",
       "text": "(꒪⌓꒪)",
-      "tags": ["dazed", "speechless"]
+      "tags": [
+        "dazed",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_134",
       "text": "(´๑・⌓・｀)",
-      "tags": ["cute", "dazed", "speechless"]
+      "tags": [
+        "cute",
+        "dazed",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_135",
       "text": "( ³⌓³)",
-      "tags": ["speechless"]
+      "tags": [
+        "speechless"
+      ]
     },
     {
       "id": "speechless_138",
       "text": "(ὀ⌓ὀ⑅)",
-      "tags": ["cute", "dazed", "speechless"]
+      "tags": [
+        "cute",
+        "dazed",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_139",
       "text": "˛˛૧(˵¯͒▱¯͒˵)",
-      "tags": ["dazed", "speechless"]
+      "tags": [
+        "dazed",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_140",
       "text": "˚▱˚",
-      "tags": ["dazed", "speechless"]
+      "tags": [
+        "dazed",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_142",
       "text": "(⌯꒪͒ .̼ ꒪͒)",
-      "tags": ["dazed", "speechless"]
+      "tags": [
+        "dazed",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_143",
       "text": "(⊙…⊙ )",
-      "tags": ["dazed", "speechless"]
+      "tags": [
+        "dazed",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_144",
       "text": "( ‘-’ )",
-      "tags": ["speechless"]
+      "tags": [
+        "speechless"
+      ]
     },
     {
       "id": "speechless_145",
       "text": "( ´ㅁ` ;)",
-      "tags": ["embarrassed", "speechless", "sweat-drop"]
+      "tags": [
+        "embarrassed",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_146",
       "text": "( ꒪꒫꒪)",
-      "tags": ["dazed", "speechless"]
+      "tags": [
+        "dazed",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_147",
       "text": "꒰•⌓•꒱",
-      "tags": ["dazed", "speechless"]
+      "tags": [
+        "dazed",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_148",
       "text": "(￣ ￣|||)",
-      "tags": ["closed-eyes", "embarrassed", "neutral", "speechless", "sweat-drop"]
+      "tags": [
+        "closed-eyes",
+        "embarrassed",
+        "neutral",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_156",
       "text": "⊙△⊙",
-      "tags": ["dumbfounded", "speechless", "surprised"]
+      "tags": [
+        "dumbfounded",
+        "speechless",
+        "surprised"
+      ]
     },
     {
       "id": "speechless_157",
       "text": "(＝ω＝.)",
-      "tags": ["closed-eyes", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_159",
       "text": "(-_-)ゞ゛",
-      "tags": ["closed-eyes", "scratch", "sleepy", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "scratch",
+        "sleepy",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_160",
       "text": "（￣ー￣；）",
-      "tags": ["closed-eyes", "speechless", "sweat-drop"]
+      "tags": [
+        "closed-eyes",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_162",
       "text": "(~_~;)",
-      "tags": ["closed-eyes", "speechless", "sweat-drop"]
+      "tags": [
+        "closed-eyes",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_163",
       "text": "( ｡_｡)",
-      "tags": ["dazed", "speechless"]
+      "tags": [
+        "dazed",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_164",
       "text": "( ﾟｰﾟ)",
-      "tags": ["dazed", "speechless"]
+      "tags": [
+        "dazed",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_168",
       "text": "(¯―¯٥)",
-      "tags": ["closed-eyes", "embarrassed", "speechless", "sweat-drop"]
+      "tags": [
+        "closed-eyes",
+        "embarrassed",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_170",
       "text": "(ﾟｰﾟ;)",
-      "tags": ["embarrassed", "speechless", "sweat-drop"]
+      "tags": [
+        "embarrassed",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_172",
       "text": "(⚭-⚭ ) ੭",
-      "tags": ["cat", "speechless", "waving"]
+      "tags": [
+        "cat",
+        "speechless",
+        "waving"
+      ]
     },
     {
       "id": "speechless_173",
       "text": "(ʘ ʖ̯ ʘ)",
-      "tags": ["big-eyes", "dazed", "displeased"]
+      "tags": [
+        "big-eyes",
+        "dazed",
+        "displeased"
+      ]
     },
     {
       "id": "speechless_174",
       "text": "(ʘ ͟ʖ ʘ)",
-      "tags": ["big-eyes", "dazed", "speechless"]
+      "tags": [
+        "big-eyes",
+        "dazed",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_175",
       "text": "(ー_ーゞ",
-      "tags": ["closed-eyes", "scratch", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "scratch",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_177",
       "text": "( ⚆ _ ⚆ )",
-      "tags": ["dumbfounded", "speechless"]
+      "tags": [
+        "dumbfounded",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_178",
       "text": "՞• •՞",
-      "tags": ["neutral", "speechless"]
+      "tags": [
+        "neutral",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_183",
       "text": "⚆_⚆",
-      "tags": ["dumbfounded", "speechless"]
+      "tags": [
+        "dumbfounded",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_185",
       "text": "Σ(`‐ｪ‐´)",
-      "tags": ["animal", "closed-eyes", "displeased", "speechless"]
+      "tags": [
+        "animal",
+        "closed-eyes",
+        "displeased",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_186",
       "text": "(゜-゜)",
-      "tags": ["dazed", "speechless"]
+      "tags": [
+        "dazed",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_188",
       "text": "(՞•-•՞)",
-      "tags": ["neutral", "speechless"]
+      "tags": [
+        "neutral",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_189",
       "text": "( ⌓̈ ).｡oO",
-      "tags": ["speechless"]
+      "tags": [
+        "speechless"
+      ]
     },
     {
       "id": "speechless_190",
       "text": "(≖ Δ ≖ ✿)",
-      "tags": ["displeased", "flower", "speechless"]
+      "tags": [
+        "displeased",
+        "flower",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_191",
       "text": "(ಠ.ಠ)",
-      "tags": ["confused", "speechless"]
-    },
-    {
-      "id": "speechless_192",
-      "text": "|_・)",
-      "tags": ["peeking", "speechless"]
+      "tags": [
+        "confused",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_193",
       "text": "..･ヾ(。￣□￣)ﾂ",
-      "tags": ["closed-eyes", "hands-up", "running", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "hands-up",
+        "running",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_194",
       "text": "(＃￣□￣)o━∈・・━━━━☆",
-      "tags": ["attack", "closed-eyes", "speechless"]
+      "tags": [
+        "attack",
+        "closed-eyes",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_195",
       "text": "ヾ(。￣□￣)ﾂ",
-      "tags": ["closed-eyes", "hands-up", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "hands-up",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_196",
       "text": "ヾ(￣□￣;)ﾉ",
-      "tags": ["closed-eyes", "hands-up", "speechless", "sweat-drop"]
+      "tags": [
+        "closed-eyes",
+        "hands-up",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_197",
       "text": "∑(￣□￣)",
-      "tags": ["closed-eyes", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_198",
       "text": "(￣□￣)",
-      "tags": ["closed-eyes", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_199",
       "text": "∑(￣□￣;)",
-      "tags": ["closed-eyes", "speechless", "sweat-drop"]
+      "tags": [
+        "closed-eyes",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_200",
       "text": "（￣□￣；）",
-      "tags": ["closed-eyes", "speechless", "sweat-drop"]
+      "tags": [
+        "closed-eyes",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_201",
       "text": "……..(((((￢￣▽￣)￢",
-      "tags": ["closed-eyes", "peeking", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "peeking",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_202",
       "text": "(￣Θ￣)",
-      "tags": ["closed-eyes", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_203",
       "text": "θ＼(；￢_￢)",
-      "tags": ["speechless", "sweat-drop"]
+      "tags": [
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_204",
       "text": "ˣ ˷ ˣ",
-      "tags": ["dizzy", "speechless"]
-    },
-    {
-      "id": "speechless_205",
-      "text": "(￣ ;￣)",
-      "tags": ["closed-eyes", "speechless"]
+      "tags": [
+        "dizzy",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_206",
       "text": "ヾ(￣〓￣ヾ)",
-      "tags": ["closed-eyes", "hands-up"]
+      "tags": [
+        "closed-eyes",
+        "hands-up"
+      ]
     },
     {
       "id": "speechless_215",
       "text": "(〜￣▽￣)〜",
-      "tags": ["closed-eyes", "confident", "dancing", "happy"]
+      "tags": [
+        "closed-eyes",
+        "confident",
+        "dancing",
+        "happy"
+      ]
     },
     {
       "id": "speechless_216",
       "text": "└(￣-￣└))",
-      "tags": ["closed-eyes", "confident", "dancing"]
+      "tags": [
+        "closed-eyes",
+        "confident",
+        "dancing"
+      ]
     },
     {
       "id": "speechless_217",
       "text": "((┘￣ω￣)┘",
-      "tags": ["closed-eyes", "confident", "dancing"]
+      "tags": [
+        "closed-eyes",
+        "confident",
+        "dancing"
+      ]
     },
     {
       "id": "speechless_218",
       "text": "√(￣‥￣√)",
-      "tags": ["closed-eyes", "confident", "dancing"]
+      "tags": [
+        "closed-eyes",
+        "confident",
+        "dancing"
+      ]
     },
     {
       "id": "speechless_219",
       "text": "＼(￣▽￣)＼",
-      "tags": ["closed-eyes", "confident", "dancing", "happy"]
+      "tags": [
+        "closed-eyes",
+        "confident",
+        "dancing",
+        "happy"
+      ]
     },
     {
       "id": "speechless_220",
       "text": "／(￣▽￣)／",
-      "tags": ["closed-eyes", "confident", "dancing", "happy"]
+      "tags": [
+        "closed-eyes",
+        "confident",
+        "dancing",
+        "happy"
+      ]
     },
     {
       "id": "speechless_221",
       "text": "(〜￣△￣)〜",
-      "tags": ["closed-eyes", "dancing", "helpless"]
+      "tags": [
+        "closed-eyes",
+        "dancing",
+        "helpless"
+      ]
     },
     {
       "id": "speechless_222",
       "text": "(￣(ｴ)￣)ﾉ",
-      "tags": ["animal", "bear"]
+      "tags": [
+        "animal",
+        "bear"
+      ]
     },
     {
       "id": "speechless_224",
       "text": "(￣(エ)￣)ゞ",
-      "tags": ["animal", "bear", "closed-eyes", "scratch", "speechless"]
+      "tags": [
+        "animal",
+        "bear",
+        "closed-eyes",
+        "scratch",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_225",
       "text": "(*￣(ｴ)￣*)",
-      "tags": ["bear", "confident", "happiness"]
+      "tags": [
+        "bear",
+        "confident",
+        "happiness"
+      ]
     },
     {
       "id": "speechless_226",
       "text": "ヽ(￣(ｴ)￣)ﾉ",
-      "tags": ["bear"]
+      "tags": [
+        "bear"
+      ]
     },
     {
       "id": "speechless_227",
       "text": "(／￣(ｴ)￣)／",
-      "tags": ["bear"]
+      "tags": [
+        "bear"
+      ]
     },
     {
       "id": "speechless_228",
       "text": "(￣(ｴ)￣)",
-      "tags": ["bear", "cute"]
+      "tags": [
+        "bear",
+        "cute"
+      ]
     },
     {
       "id": "speechless_229",
       "text": "⊂(￣(ｴ)￣)⊃",
-      "tags": ["bear", "happiness", "hug"]
+      "tags": [
+        "bear",
+        "happiness",
+        "hug"
+      ]
     },
     {
       "id": "speechless_230",
       "text": "∪￣-￣∪",
-      "tags": ["confident", "dog"],
-      "similarityDetails": ["字元分佈相似"]
+      "tags": [
+        "confident",
+        "dog"
+      ],
+      "similarityDetails": [
+        "字元分佈相似"
+      ]
     },
     {
       "id": "speechless_231",
       "text": "(￣(ω)￣)",
-      "tags": ["cute", "happiness"]
+      "tags": [
+        "cute",
+        "happiness"
+      ]
     },
     {
       "id": "speechless_232",
       "text": "ヾ(￣◇￣)ノ〃",
-      "tags": ["surprised"]
+      "tags": [
+        "surprised"
+      ]
     },
     {
       "id": "speechless_233",
       "text": "√(￣‥￣√",
-      "tags": ["confident"]
+      "tags": [
+        "confident"
+      ]
     },
     {
       "id": "speechless_234",
       "text": "m(￣ｰ￣)m",
-      "tags": ["confident", "grateful"]
+      "tags": [
+        "confident",
+        "grateful"
+      ]
     },
     {
       "id": "speechless_235",
       "text": "（*￣‥￣*）ゝ",
-      "tags": ["closed-eyes", "scratch"]
+      "tags": [
+        "closed-eyes",
+        "scratch"
+      ]
     },
     {
       "id": "speechless_237",
       "text": "(￣ー￣)ゞ",
-      "tags": ["closed-eyes", "scratch", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "scratch",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_238",
       "text": "(ノ￣ー￣)ノ",
-      "tags": ["closed-eyes", "hands-up", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "hands-up",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_239",
       "text": "“Φ(￣▽￣Φ)",
-      "tags": ["confident", "dancing"]
+      "tags": [
+        "confident",
+        "dancing"
+      ]
     },
     {
       "id": "speechless_243",
       "text": "(￣▽￣)ノ",
-      "tags": ["confident", "happy"]
+      "tags": [
+        "confident",
+        "happy"
+      ]
     },
     {
       "id": "speechless_244",
       "text": "(￣▽￣)/",
-      "tags": ["happy", "smile"]
+      "tags": [
+        "happy",
+        "smile"
+      ]
     },
     {
       "id": "speechless_245",
       "text": "＼(o￣∇￣o)/",
-      "tags": ["closed-eyes"]
+      "tags": [
+        "closed-eyes"
+      ]
     },
     {
       "id": "speechless_246",
       "text": "ヾ｜￣ー￣｜ﾉ",
-      "tags": ["closed-eyes", "speechless", "waving"]
+      "tags": [
+        "closed-eyes",
+        "speechless",
+        "waving"
+      ]
     },
     {
       "id": "speechless_247",
       "text": "(ﾉ￣〓￣)ﾉ",
-      "tags": ["closed-eyes", "hands-up", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "hands-up",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_248",
       "text": "ƪ(‾￣o￣”)ʃ",
-      "tags": ["helpless", "shrug"]
+      "tags": [
+        "helpless",
+        "shrug"
+      ]
     },
     {
       "id": "speechless_249",
       "text": "┐(￣ー￣)┌",
-      "tags": ["closed-eyes", "shrug", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "shrug",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_250",
       "text": "┐(￣ヮ￣)┌",
-      "tags": ["helpless", "shrug"]
+      "tags": [
+        "helpless",
+        "shrug"
+      ]
     },
     {
       "id": "speechless_251",
       "text": "┐(￣ヘ￣)┌",
-      "tags": ["angry", "helpless", "shrug"]
+      "tags": [
+        "angry",
+        "helpless",
+        "shrug"
+      ]
     },
     {
       "id": "speechless_252",
       "text": "┐|￣ρ￣✿|┌",
-      "tags": ["flower", "helpless", "shrug"]
+      "tags": [
+        "flower",
+        "helpless",
+        "shrug"
+      ]
     },
     {
       "id": "speechless_253",
       "text": "ヽ(　￣д￣;)ノ",
-      "tags": ["embarrassed", "helpless"]
+      "tags": [
+        "embarrassed",
+        "helpless"
+      ]
     },
     {
       "id": "speechless_254",
       "text": "（￣ε￣＠）",
-      "tags": ["closed-eyes", "displeased", "helpless", "pouting"]
+      "tags": [
+        "closed-eyes",
+        "displeased",
+        "helpless",
+        "pouting"
+      ]
     },
     {
       "id": "speechless_255",
       "text": "|(￣3￣)|",
-      "tags": ["closed-eyes", "helpless", "pouting"]
+      "tags": [
+        "closed-eyes",
+        "helpless",
+        "pouting"
+      ]
     },
     {
       "id": "speechless_256",
       "text": "(~￣³￣)~",
-      "tags": ["closed-eyes", "dancing", "helpless", "pouting"]
+      "tags": [
+        "closed-eyes",
+        "dancing",
+        "helpless",
+        "pouting"
+      ]
     },
     {
       "id": "speechless_257",
       "text": "(*￣ii￣)",
-      "tags": ["closed-eyes", "thrilled"]
+      "tags": [
+        "closed-eyes",
+        "thrilled"
+      ]
     },
     {
       "id": "speechless_258",
       "text": "(￣ ¨ヽ￣)",
-      "tags": ["closed-eyes", "thrilled"]
+      "tags": [
+        "closed-eyes",
+        "thrilled"
+      ]
     },
     {
       "id": "speechless_259",
       "text": "(￣ﾊ￣*)",
-      "tags": ["closed-eyes", "thrilled"]
+      "tags": [
+        "closed-eyes",
+        "thrilled"
+      ]
     },
     {
       "id": "speechless_260",
       "text": "(\\(￣ﾊ￣))",
-      "tags": ["closed-eyes", "thrilled"]
+      "tags": [
+        "closed-eyes",
+        "thrilled"
+      ]
     },
     {
       "id": "speechless_263",
       "text": "(((￣(￣(￣▽￣)￣)￣)))",
-      "tags": ["closed-eyes", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_264",
       "text": "ヾ(￣0￣； )ノ",
-      "tags": ["closed-eyes", "hands-up", "speechless", "sweat-drop"]
+      "tags": [
+        "closed-eyes",
+        "hands-up",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_266",
       "text": "／(￣ロ￣;)＼",
-      "tags": ["closed-eyes", "speechless", "sweat-drop"]
+      "tags": [
+        "closed-eyes",
+        "speechless",
+        "sweat-drop"
+      ]
     },
     {
       "id": "speechless_267",
       "text": "♪～(￣、￣ )",
-      "tags": ["closed-eyes", "music", "speechless"]
+      "tags": [
+        "closed-eyes",
+        "music",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_268",
       "text": "(*ﾟｰﾟ)ゞ⌒☆",
-      "tags": ["dazed", "scratch", "speechless", "star"]
+      "tags": [
+        "dazed",
+        "scratch",
+        "speechless",
+        "star"
+      ]
     },
     {
       "id": "speechless_269",
       "text": "(・・。)ゞ",
-      "tags": ["helpless", "salute", "scratch", "speechless"]
+      "tags": [
+        "helpless",
+        "salute",
+        "scratch",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_270",
       "text": "(‘ – ‘ *)ゞ",
-      "tags": ["salute", "scratch", "speechless"]
+      "tags": [
+        "salute",
+        "scratch",
+        "speechless"
+      ]
     },
     {
       "id": "speechless_271",
       "text": "ヾ(-_- )ゞ",
-      "tags": ["closed-eyes", "speechless", "waving"]
+      "tags": [
+        "closed-eyes",
+        "speechless",
+        "waving"
+      ]
     },
     {
       "id": "speechless_272",
       "text": "(ꉺ⍸ꉺ)",
-      "tags": ["dazed", "serious", "speechless"]
+      "tags": [
+        "dazed",
+        "serious",
+        "speechless"
+      ]
     }
   ]
 }

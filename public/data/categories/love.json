@@ -5,7 +5,7 @@
     "zh-tw": "愛心"
   },
   "preview": "(♥д♥)",
-  "lastUpdated": "2026-04-17",
+  "lastUpdated": "2026-07-17",
   "items": [
     {
       "id": "love_001",
@@ -362,20 +362,14 @@
       ]
     },
     {
-      "id": "love_163",
-      "text": "(´ ▽｀).。ｏ♡",
-      "tags": [
-        "happiness",
-        "love",
-        "thinking"
-      ]
-    },
-    {
       "id": "love_166",
       "text": "(ღ˘⌣˘ღ)",
       "tags": [
         "happiness",
-        "happy"
+        "happy",
+        "action",
+        "holding",
+        "love"
       ]
     },
     {
@@ -887,15 +881,6 @@
       ]
     },
     {
-      "id": "love_308",
-      "text": "( ૢ⁼̴̤̆ ꇴ ⁼̴̤̆ ૢ)~ෆ",
-      "tags": [
-        "cute",
-        "love",
-        "sparkle"
-      ]
-    },
-    {
       "id": "love_309",
       "text": "ღ(๑╯◡╰๑ღ",
       "tags": [
@@ -1291,15 +1276,6 @@
       ]
     },
     {
-      "id": "love_361",
-      "text": "❤️((*",
-      "tags": [
-        ",>ω(ω<,,✱))ぎゅ～っ❤,hug",
-        "love",
-        "action"
-      ]
-    },
-    {
       "id": "love_362",
       "text": "♡(๑´>᎑<)>᎑<`๑)ぎゅ〜❤",
       "tags": [
@@ -1381,14 +1357,6 @@
         "hug",
         "love",
         "action"
-      ]
-    },
-    {
-      "id": "love_372",
-      "text": "(｡♥‿♥｡)",
-      "tags": [
-        "love",
-        "happy"
       ]
     },
     {

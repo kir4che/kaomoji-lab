@@ -32,7 +32,7 @@ function getInitialLanguage(): Language {
   return 'zh-tw';
 }
 
-export function LanguageProvider({ children }: LanguageProviderProps) {
+export const LanguageProvider = ({ children }: LanguageProviderProps) => {
   const [lang, setLang] = useState<Language>('zh-tw');
   const [isInitialized, setIsInitialized] = useState(false);
 
@@ -58,10 +58,10 @@ export function LanguageProvider({ children }: LanguageProviderProps) {
   if (!isInitialized) return null;
 
   return <LanguageContext.Provider value={contextValue}>{children}</LanguageContext.Provider>;
-}
+};
 
-export function useLanguage() {
+export const useLanguage = () => {
   const context = useContext(LanguageContext);
   if (!context) throw new Error('useLanguage must be used within a LanguageProvider!');
   return context;
-}
+};

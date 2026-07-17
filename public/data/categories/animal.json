@@ -5,7 +5,7 @@
     "zh-tw": "動物"
   },
   "preview": "ʕ •ᴥ• ʔ",
-  "lastUpdated": "2026-04-17",
+  "lastUpdated": "2026-07-17",
   "items": [
     {
       "id": "animal_002",
@@ -151,7 +151,8 @@
       "id": "animal_033",
       "text": "(:◎)≡",
       "tags": [
-        "章魚"
+        "animal",
+        "surprised"
       ]
     },
     {
@@ -1329,7 +1330,8 @@
       "id": "animal_249",
       "text": "(ΦωΦ)",
       "tags": [
-        "cat"
+        "cat",
+        "animal"
       ]
     },
     {
@@ -2943,15 +2945,6 @@
       ]
     },
     {
-      "id": "animal_500",
-      "text": "(・×・)",
-      "tags": [
-        "animal",
-        "cute",
-        "rabbit"
-      ]
-    },
-    {
       "id": "animal_502",
       "text": "(*´×`*)",
       "tags": [
@@ -3317,15 +3310,6 @@
       ]
     },
     {
-      "id": "animal_554",
-      "text": "(ᐢ⑅•ᴗ•⑅ᐢ)",
-      "tags": [
-        "cute",
-        "rabbit",
-        "smile"
-      ]
-    },
-    {
       "id": "animal_555",
       "text": "꒰ঌ₍^._.^₎໒꒱",
       "tags": [
@@ -3596,14 +3580,6 @@
       ]
     },
     {
-      "id": "animal_586",
-      "text": "（ΦωΦ）",
-      "tags": [
-        "cat",
-        "animal"
-      ]
-    },
-    {
       "id": "animal_587",
       "text": "₍•̀ ⚇•́ ₎",
       "tags": [
@@ -3623,7 +3599,6 @@
       "id": "animal_589",
       "text": "•᷅ ʚ •᷄",
       "tags": [
-        "duck",
         "animal"
       ]
     },
@@ -3639,7 +3614,6 @@
       "id": "animal_591",
       "text": "є(･Θ･｡)э››~",
       "tags": [
-        "sea-creature",
         "animal"
       ]
     },
@@ -3647,7 +3621,6 @@
       "id": "animal_592",
       "text": "⁷₍⁽՚ᵕ՝⁾₎₇",
       "tags": [
-        "snowman",
         "animal"
       ]
     },
@@ -3748,14 +3721,6 @@
       ]
     },
     {
-      "id": "animal_605",
-      "text": "ฅʕ",
-      "tags": [
-        ",•ᴥ•,,ʔฅ,animal",
-        "cat"
-      ]
-    },
-    {
       "id": "animal_606",
       "text": "꒰՞ ꈍ ̠ ꈍ ՞꒱",
       "tags": [
@@ -3768,7 +3733,8 @@
       "text": "ᔦ๑ ˭̴̵̶́ ꄱ ˭̴̵̶̀ ᔨ🎤✨",
       "tags": [
         "animal",
-        "singing"
+        "cute",
+        "music"
       ]
     },
     {
@@ -3896,7 +3862,9 @@
       "text": "(᎔˘꒳˘᎔)",
       "tags": [
         "animal",
-        "cute"
+        "cute",
+        "closed-eyes",
+        "sleepy"
       ]
     },
     {
@@ -4110,14 +4078,6 @@
     {
       "id": "animal_650",
       "text": "ᐡ⌯◜ㅅ◝⌯ᐡ",
-      "tags": [
-        "animal",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_651",
-      "text": "( ᐢᗜᐢ )",
       "tags": [
         "animal",
         "cute"
@@ -4561,15 +4521,6 @@
       ]
     },
     {
-      "id": "animal_704",
-      "text": "ᐡ",
-      "tags": [
-        ",Ò ·̫ Ó,,ᐡ,animal",
-        "dog",
-        "cute"
-      ]
-    },
-    {
       "id": "animal_705",
       "text": "( U ·̫ )ﾉ♡♡",
       "tags": [
@@ -4753,534 +4704,11 @@
       ]
     },
     {
-      "id": "animal_726",
-      "text": "₍ᐢ ̥ ̞ ̥ᐢ₎",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_727",
-      "text": "( ･×･ )",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_728",
-      "text": "(=‘ｘ‘=)",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_729",
-      "text": "(๑´×`๑)",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_730",
-      "text": "U・x・U♡♡",
-      "tags": [
-        "rabbit",
-        "cute",
-        "love"
-      ]
-    },
-    {
-      "id": "animal_731",
-      "text": "(ᐢ._.ᐢ;)՞ ՞",
-      "tags": [
-        "rabbit",
-        "cute",
-        "sad"
-      ]
-    },
-    {
-      "id": "animal_732",
-      "text": "⌒(=⌒x⌒=)⌒",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_733",
-      "text": "(｡•ㅅ•｡)",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_734",
-      "text": "￣(〃ﾟｏ ﾟ〃)￣",
-      "tags": [
-        "rabbit",
-        "cute",
-        "surprised"
-      ]
-    },
-    {
-      "id": "animal_735",
-      "text": "_(˘×˘_∪⌒)ο",
-      "tags": [
-        "rabbit",
-        "cute",
-        "tired"
-      ]
-    },
-    {
-      "id": "animal_736",
-      "text": "（≡・ x ・≡）",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_737",
-      "text": "⌒(≧ x ≦)⌒",
-      "tags": [
-        "rabbit",
-        "cute",
-        "angry"
-      ]
-    },
-    {
-      "id": "animal_738",
-      "text": "(/* °×° *\\",
-      "tags": [
-        "rabbit",
-        "cute",
-        "surprised"
-      ]
-    },
-    {
-      "id": "animal_739",
-      "text": "( ∪･ω･∪ )",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_740",
-      "text": "(Ｕ｡･×･｡Ｕ)",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_741",
-      "text": "￣(=⌒・⌒=)￣",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_742",
-      "text": "￣(•ㅅ•)￣",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_743",
-      "text": "⌒(=∵=)⌒",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_744",
-      "text": "￣( ´•̥×•̥` )￣",
-      "tags": [
-        "rabbit",
-        "cute",
-        "sad"
-      ]
-    },
-    {
-      "id": "animal_745",
-      "text": "￣ (⁎˃ᆺ˂)￣",
-      "tags": [
-        "rabbit",
-        "cute",
-        "surprised"
-      ]
-    },
-    {
-      "id": "animal_746",
-      "text": "( っᐢ. .ᐢ ) .ᐡ ⊂)",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_747",
-      "text": "(ᐢ∩ ‹ᐢ)",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_748",
-      "text": "(ᐡ. .ᐡ )",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_749",
-      "text": "（ ÒㅅÓ)",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_750",
-      "text": "(๑╹ᆺ╹)",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_751",
-      "text": "U｡･.･｡U",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_752",
-      "text": "⌒(・x・)⌒",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_753",
-      "text": "˚ᆺ˚",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_754",
-      "text": "／(◕ x ≦ )＼",
-      "tags": [
-        "rabbit",
-        "cute",
-        "surprised"
-      ]
-    },
-    {
-      "id": "animal_755",
-      "text": "(乂☉ｪ☉=)",
-      "tags": [
-        "rabbit",
-        "cute",
-        "surprised"
-      ]
-    },
-    {
-      "id": "animal_756",
-      "text": "/ (•ㅅ•)＼",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_757",
-      "text": "c( Uò×ò)U",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_758",
-      "text": "ᐢ.ˬ.ᐢ",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_759",
-      "text": "ପ₍ᐢ｡•༝•｡ᐢ₎ଓ",
-      "tags": [
-        "rabbit",
-        "cute",
-        "love"
-      ]
-    },
-    {
-      "id": "animal_760",
-      "text": "ᜊ(˶ᐢ. .ᐢ˵)ᜊ",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_761",
-      "text": "ᐢᴗ͈ ᴗ͈ᐢ",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
       "id": "animal_762",
       "text": "₍ᐡ• ·̫ •ᐡ₎⊃",
       "tags": [
         "rabbit",
         "cute"
-      ]
-    },
-    {
-      "id": "animal_763",
-      "text": "(՞ ܸ.ˬ.ܸ)੭”",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_764",
-      "text": "₍ᐢ•ᴗ•⑅ᐢ₎ദ⸒⸒❦ʾʾ",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_765",
-      "text": "/(•ㅅ•)\\",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_766",
-      "text": "₍ᐢ⑅•ᴗ•⑅ᐢ₎",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_767",
-      "text": "₍ᐢ..ᐢ₎⊹",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_768",
-      "text": "U(⁎˃ᆺ˂)U",
-      "tags": [
-        "rabbit",
-        "cute",
-        "surprised"
-      ]
-    },
-    {
-      "id": "animal_769",
-      "text": "૮(ྀི´ ˟ `♡)ྀིა",
-      "tags": [
-        "rabbit",
-        "cute",
-        "love"
-      ]
-    },
-    {
-      "id": "animal_770",
-      "text": "(๑òᆺó๑)",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_771",
-      "text": "₍՞ ̳ ̫ ̳ ՞₎",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_772",
-      "text": "(*❛ｘ❛*)",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_773",
-      "text": "ᐢ. ֑ .ᐢ",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_774",
-      "text": "(⸝⸝ᐡ. ̫ .ᐡ⸝⸝)",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_775",
-      "text": "♡₍ᐢ⑅•ω•⑅ᐢ₎ദ⸒⸒",
-      "tags": [
-        "rabbit",
-        "cute",
-        "love"
-      ]
-    },
-    {
-      "id": "animal_776",
-      "text": "(´･×･`)♡♩",
-      "tags": [
-        "rabbit",
-        "cute",
-        "love"
-      ]
-    },
-    {
-      "id": "animal_777",
-      "text": "(๑˙ϖ˙๑ )",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_778",
-      "text": "/) /) ｡･×･)",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_779",
-      "text": "(° x °||)",
-      "tags": [
-        "rabbit",
-        "cute",
-        "surprised"
-      ]
-    },
-    {
-      "id": "animal_780",
-      "text": "｡₍ᐢᐢ*´༥`*₎",
-      "tags": [
-        "rabbit",
-        "cute",
-        "eating"
-      ]
-    },
-    {
-      "id": "animal_781",
-      "text": "｡₍ᐢᐢ›ω‹ ₎",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_782",
-      "text": "｡₍ᐢᐢ❛ัᴗ❛ั∗₎",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_783",
-      "text": "₍ᐢ – ̫ – ᐢ₎",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_784",
-      "text": "₍ᐢ.ˬ.ᐢ₎",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_785",
-      "text": "( ՞ ´◜ ·̫̮ ◝` ՞)",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_786",
-      "text": "( ･̀ꈊ･́ )",
-      "tags": [
-        "rabbit",
-        "cute",
-        "angry"
-      ]
-    },
-    {
-      "id": "animal_787",
-      "text": "₍ᐢ•௰•ᐢ₎",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_788",
-      "text": "₍ᐢ⌯௰⌯ᐢ₎",
-      "tags": [
-        "rabbit",
-        "cute"
-      ]
-    },
-    {
-      "id": "animal_789",
-      "text": "ᕱ⑅ᕱ♥",
-      "tags": [
-        "rabbit",
-        "cute",
-        "love"
       ]
     },
     {
@@ -5791,15 +5219,6 @@
       "tags": [
         "rabbit",
         "cute"
-      ]
-    },
-    {
-      "id": "animal_852",
-      "text": "/ (",
-      "tags": [
-        ",Ő ｘ Ő,,)＼,rabbit",
-        "cute",
-        "surprised"
       ]
     },
     {

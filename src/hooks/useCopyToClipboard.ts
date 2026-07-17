@@ -2,7 +2,8 @@ import { useState } from 'react';
 
 import { useToast } from '@/contexts/ToastContext';
 
-export function useCopyToClipboard() {
+// 處理剪貼簿複製的回饋
+export const useCopyToClipboard = () => {
   const { showToast } = useToast();
   const [copiedId, setCopiedId] = useState<string | null>(null);
 
@@ -19,4 +20,4 @@ export function useCopyToClipboard() {
   };
 
   return { copiedId, copyToClipboard };
-}
+};

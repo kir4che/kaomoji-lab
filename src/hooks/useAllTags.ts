@@ -7,11 +7,17 @@ interface UseAllTagsReturn {
   isLoading: boolean;
 }
 
-export function useAllTags(): UseAllTagsReturn {
+// 取得所有標籤列表，提供給不需要自己管理標籤狀態的唯讀 UI 用。
+export const useAllTags = (enabled = true): UseAllTagsReturn => {
   const [tags, setTags] = useState<Tag[]>([]);
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [isLoading, setIsLoading] = useState<boolean>(enabled);
 
   useEffect(() => {
+    if (!enabled) {
+      setIsLoading(false);
+      return;
+    }
+
     const fetchTags = async () => {
       setIsLoading(true);
 
@@ -28,7 +34,7 @@ export function useAllTags(): UseAllTagsReturn {
     };
 
     fetchTags();
-  }, []);
+  }, [enabled]);
 
   return { tags, isLoading };
-}
+};

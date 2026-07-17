@@ -7,12 +7,23 @@ import {
   TEMP_CATEGORY_NAME,
   createDefaultTemporaryCategory,
 } from '@/constants/tempCategory';
+import { getTodayDateString } from '@/utils/date';
+import {
+  deleteGitHubFile,
+  isGitHubContentsEnabled,
+  readGitHubTextFile,
+  writeGitHubTextFile,
+} from '@/services/githubContentsService';
 
 const DATA_DIR = path.join(process.cwd(), 'public', 'data');
 const CATEGORIES_DIR = path.join(DATA_DIR, 'categories');
 const STORAGE_DIR = path.join(process.cwd(), 'storage');
 const TEMP_CATEGORY_FILE = path.join(STORAGE_DIR, 'temporary-category.json');
 const CHECKED_KAOMOJI_FILE = path.join(STORAGE_DIR, 'checked-kaomoji.json');
+const INDEX_REPO_PATH = 'public/data/index.json';
+const getCategoryRepoPath = (id: string) => `public/data/categories/${id}.json`;
+const TEMP_CATEGORY_REPO_PATH = 'storage/temporary-category.json';
+const CHECKED_KAOMOJI_REPO_PATH = 'storage/checked-kaomoji.json';
 
 const CACHE_TTL = 60000; // 60 秒
 type CacheEntry<T> = {
@@ -54,18 +65,50 @@ const invalidateCache = (pattern?: string): void => {
 
 const getIndexFilePath = () => path.join(DATA_DIR, 'index.json');
 const getCategoryFilePath = (id: string) => path.join(CATEGORIES_DIR, `${id}.json`);
+const serializeJson = (data: unknown) => JSON.stringify(data, null, 2);
+const isProductionRuntime = () => process.env.NODE_ENV === 'production';
+
+const assertWritablePersistence = () => {
+  if (isProductionRuntime() && !isGitHubContentsEnabled())
+    throw new Error('GitHub contents persistence is not configured');
+};
+
+const readJsonFile = async <T>(localPath: string, repoPath: string): Promise<T> => {
+  if (isGitHubContentsEnabled()) {
+    const content = await readGitHubTextFile(repoPath);
+    if (content !== null) return JSON.parse(content) as T;
+  }
+
+  const content = await fs.readFile(localPath, 'utf-8');
+  return JSON.parse(content) as T;
+};
+
+const writeJsonFile = async (
+  localPath: string,
+  repoPath: string,
+  data: unknown,
+  message: string
+): Promise<void> => {
+  const content = serializeJson(data);
+  if (isGitHubContentsEnabled()) {
+    await writeGitHubTextFile(repoPath, content, message);
+    return;
+  }
+
+  assertWritablePersistence();
+  await fs.writeFile(localPath, content, 'utf-8');
+};
 
 const isTagObject = (val: unknown): val is Tag =>
   typeof val === 'object' && val !== null && 'id' in val;
 const isTagObjectArray = (arr: unknown): arr is Tag[] =>
   Array.isArray(arr) && arr.every(isTagObject);
 
-export const getTodayDateString = (): string => new Date().toISOString().split('T')[0];
-
 export const isValidCategoryId = (id?: string): id is string =>
   typeof id === 'string' && id !== 'undefined' && id.trim() !== '';
 
 const ensureStorageDir = async (): Promise<void> => {
+  if (isGitHubContentsEnabled()) return;
   await fs.mkdir(STORAGE_DIR, { recursive: true });
 };
 
@@ -88,8 +131,10 @@ const sanitizeTemporaryCategory = (data?: Partial<CategoryData>): CategoryData =
 export const readTemporaryCategory = async (): Promise<CategoryData> => {
   await ensureStorageDir();
   try {
-    const content = await fs.readFile(TEMP_CATEGORY_FILE, 'utf-8');
-    const parsed = JSON.parse(content) as Partial<CategoryData>;
+    const parsed = await readJsonFile<Partial<CategoryData>>(
+      TEMP_CATEGORY_FILE,
+      TEMP_CATEGORY_REPO_PATH
+    );
     return sanitizeTemporaryCategory(parsed);
   } catch {
     const fallback = sanitizeTemporaryCategory();
@@ -103,7 +148,12 @@ export const writeTemporaryCategory = async (
 ): Promise<void> => {
   await ensureStorageDir();
   const sanitized = sanitizeTemporaryCategory(categoryData);
-  await fs.writeFile(TEMP_CATEGORY_FILE, JSON.stringify(sanitized, null, 2), 'utf-8');
+  await writeJsonFile(
+    TEMP_CATEGORY_FILE,
+    TEMP_CATEGORY_REPO_PATH,
+    sanitized,
+    'chore(admin): update temporary category'
+  );
 };
 
 export const readIndexFile = async (): Promise<IndexData> => {
@@ -111,15 +161,20 @@ export const readIndexFile = async (): Promise<IndexData> => {
   const cached = getCached<IndexData>(cacheKey);
   if (cached) return cached;
 
-  const content = await fs.readFile(getIndexFilePath(), 'utf-8');
-  const data = JSON.parse(content) as IndexData;
+  const data = await readJsonFile<IndexData>(getIndexFilePath(), INDEX_REPO_PATH);
   setCache(cacheKey, data);
   return data;
 };
 
 export const updateIndexFile = async (indexData: IndexData): Promise<void> => {
-  await fs.writeFile(getIndexFilePath(), JSON.stringify(indexData, null, 2), 'utf-8');
+  await writeJsonFile(
+    getIndexFilePath(),
+    INDEX_REPO_PATH,
+    indexData,
+    'chore(admin): update data index'
+  );
   invalidateCache('index.json');
+  invalidateCache('tags:');
 };
 
 export const readCategoryFile = async (categoryId: string): Promise<CategoryData | null> => {
@@ -130,8 +185,10 @@ export const readCategoryFile = async (categoryId: string): Promise<CategoryData
   if (cached) return cached;
 
   try {
-    const content = await fs.readFile(getCategoryFilePath(categoryId), 'utf-8');
-    const data = JSON.parse(content) as CategoryData;
+    const data = await readJsonFile<CategoryData>(
+      getCategoryFilePath(categoryId),
+      getCategoryRepoPath(categoryId)
+    );
     setCache(cacheKey, data);
     return data;
   } catch {
@@ -143,23 +200,33 @@ export const writeCategoryFile = async (categoryData: CategoryData): Promise<voi
   if (!isValidCategoryId(categoryData.id))
     throw new Error('Invalid category ID, cannot write file.');
 
-  await fs.writeFile(
+  await writeJsonFile(
     getCategoryFilePath(categoryData.id),
-    JSON.stringify(categoryData, null, 2),
-    'utf-8'
+    getCategoryRepoPath(categoryData.id),
+    categoryData,
+    `chore(admin): update ${categoryData.id} category`
   );
   invalidateCache(`category:${categoryData.id}`);
 };
 
 export const deleteCategoryFile = async (categoryId: string): Promise<void> => {
   if (!isValidCategoryId(categoryId)) throw new Error('Invalid category ID, cannot delete file.');
+  if (isGitHubContentsEnabled()) {
+    await deleteGitHubFile(
+      getCategoryRepoPath(categoryId),
+      `chore(admin): delete ${categoryId} category`
+    );
+    invalidateCache(`category:${categoryId}`);
+    return;
+  }
+
+  assertWritablePersistence();
   await fs.unlink(getCategoryFilePath(categoryId));
   invalidateCache(`category:${categoryId}`);
 };
 
-const isLocalPersistenceEnabled = (): boolean => process.env.NODE_ENV !== 'production';
-
 const ensureCheckedKaomojiFile = async (): Promise<void> => {
+  if (isGitHubContentsEnabled()) return;
   await ensureStorageDir();
   try {
     await fs.access(CHECKED_KAOMOJI_FILE);
@@ -169,19 +236,21 @@ const ensureCheckedKaomojiFile = async (): Promise<void> => {
 };
 
 export const readCheckedKaomojiIds = async (): Promise<string[]> => {
-  if (!isLocalPersistenceEnabled()) return [];
   await ensureCheckedKaomojiFile();
-  const content = await fs.readFile(CHECKED_KAOMOJI_FILE, 'utf-8');
-  const parsed = JSON.parse(content);
+  const parsed = await readJsonFile<unknown>(CHECKED_KAOMOJI_FILE, CHECKED_KAOMOJI_REPO_PATH);
   if (!Array.isArray(parsed)) return [];
   return parsed.filter((id): id is string => typeof id === 'string');
 };
 
 export const writeCheckedKaomojiIds = async (ids: string[]): Promise<void> => {
-  if (!isLocalPersistenceEnabled()) return;
   await ensureCheckedKaomojiFile();
   const uniqueIds = Array.from(new Set(ids.filter((id): id is string => typeof id === 'string')));
-  await fs.writeFile(CHECKED_KAOMOJI_FILE, JSON.stringify(uniqueIds, null, 2), 'utf-8');
+  await writeJsonFile(
+    CHECKED_KAOMOJI_FILE,
+    CHECKED_KAOMOJI_REPO_PATH,
+    uniqueIds,
+    'chore(admin): update checked kaomoji'
+  );
 };
 
 export const getAllTags = async (): Promise<Tag[]> => {

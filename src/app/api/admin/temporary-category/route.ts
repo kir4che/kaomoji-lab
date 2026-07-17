@@ -1,11 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-import {
-  readTemporaryCategory,
-  writeTemporaryCategory,
-  getTodayDateString,
-} from '@/services/dataService';
+import { readTemporaryCategory, writeTemporaryCategory } from '@/services/dataService';
 import { TEMP_CATEGORY_ID, TEMP_CATEGORY_NAME } from '@/constants/tempCategory';
+import { getTodayDateString } from '@/utils/date';
 
 export async function GET() {
   try {

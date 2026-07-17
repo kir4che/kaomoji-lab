@@ -2,10 +2,10 @@
 
 import { useState, useEffect } from 'react';
 
+import { Icon } from '@/components/atoms/Icon';
 import { cn } from '@/utils/cn';
 import { t } from '@/lib/i18n';
 import { useLanguage } from '@/contexts/LanguageContext';
-import ArrowRightIcon from '@/assets/icons/arrow-right.svg';
 
 const ScrollToTopBtn = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -40,7 +40,7 @@ const ScrollToTopBtn = () => {
       )}
       aria-label={t('a11yScrollToTop', lang)}
     >
-      <ArrowRightIcon className="size-8 -rotate-90" />
+      <Icon name="arrow-right" className="size-8 -rotate-90" />
     </button>
   );
 };
