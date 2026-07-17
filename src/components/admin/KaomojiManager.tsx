@@ -8,7 +8,6 @@ import KaomojiGrid from '@/components/admin/KaomojiGrid';
 import Loading from '@/components/atoms/Loading';
 import { useToast } from '@/contexts/ToastContext';
 import { useAdminFilterState } from '@/hooks/useAdminFilterState';
-import { useCheckedKaomoji } from '@/hooks/useCheckedKaomoji';
 import { useFilteredKaomoji } from '@/hooks/useFilteredKaomoji';
 import { useKaomojiMutations } from '@/hooks/useKaomojiMutations';
 import type { CategoryData, IndexData, KaomojiItem } from '@/types/Kaomoji';
@@ -18,14 +17,20 @@ interface KaomojiManagerProps {
   categories: CategoryData[];
   indexData: IndexData;
   onDataChange: (updatedCategories: CategoryData[]) => void;
-  onRefreshIndexData?: () => void;
+  onTagsChange: (updatedTags: IndexData['tags']) => void;
+  checkedKaomojiIds: Set<string>;
+  onToggleKaomojiChecked: (kaomojiId: string) => void;
+  onUpdateCheckedIdsWithMapping: (idMapping?: Map<string, string>) => void;
 }
 
 const KaomojiManager = ({
   categories: initialCategories,
   indexData,
   onDataChange,
-  onRefreshIndexData,
+  onTagsChange,
+  checkedKaomojiIds,
+  onToggleKaomojiChecked,
+  onUpdateCheckedIdsWithMapping,
 }: KaomojiManagerProps) => {
   const { showToast } = useToast();
 
@@ -37,9 +42,6 @@ const KaomojiManager = ({
   const deferredSearchTerm = useDeferredValue(searchTerm);
 
   const [selectedKaomojiIds, setSelectedKaomojiIds] = useState<Set<string>>(new Set());
-  const { checkedKaomojiIds, toggleKaomojiChecked, updateCheckedIdsWithMapping } =
-    useCheckedKaomoji();
-
   // 用於「篩選後保持選取」
   const lastSelectedIdRef = useRef<string | null>(null);
   const lastSelectedIndexRef = useRef<number | null>(null);
@@ -196,7 +198,7 @@ const KaomojiManager = ({
       }
       const result = await moveKaomoji(fromCategoryId, toCategoryId, kaomojiToProcess);
       if (result?.idMapping && result.kaomoji) {
-        updateCheckedIdsWithMapping(result.idMapping);
+        onUpdateCheckedIdsWithMapping(result.idMapping);
         setSelectedKaomoji(result.kaomoji);
       } else clearSelectedKaomoji();
     },
@@ -206,7 +208,7 @@ const KaomojiManager = ({
       showToast,
       moveKaomoji,
       clearSelectedKaomoji,
-      updateCheckedIdsWithMapping,
+      onUpdateCheckedIdsWithMapping,
     ]
   );
 
@@ -253,7 +255,7 @@ const KaomojiManager = ({
 
   const onBulkMove = (targetCategoryId: string) => {
     handleBulkMove(selectedKaomojiIds, targetCategoryId).then((result) => {
-      updateCheckedIdsWithMapping(result?.idMapping);
+      onUpdateCheckedIdsWithMapping(result?.idMapping);
       setSelectedKaomojiIds(new Set());
     });
   };
@@ -353,8 +355,11 @@ const KaomojiManager = ({
           onSave={handleSave}
           onMove={handleMoveFromEditor}
           isChecked={selectedKaomoji && checkedKaomojiIds.has(selectedKaomoji.id)}
-          onToggleChecked={toggleKaomojiChecked}
-          onTagCreated={() => onRefreshIndexData?.()}
+          onToggleChecked={onToggleKaomojiChecked}
+          onTagCreated={(tag) => {
+            if (indexData.tags.some((existing) => existing.id === tag.id)) return;
+            onTagsChange([...indexData.tags, tag].sort((a, b) => a.id.localeCompare(b.id)));
+          }}
         />
       )}
     </div>

@@ -3,6 +3,7 @@
 import dynamic from 'next/dynamic';
 
 import { useAdminData } from '@/hooks/useAdminData';
+import { useCheckedKaomoji } from '@/hooks/useCheckedKaomoji';
 import TabMenu from '@/components/admin/TabMenu';
 import Loading from '@/components/atoms/Loading';
 
@@ -32,29 +33,50 @@ const AdminPage = () => {
     isLoading,
     categories,
     setCategories,
+    tags,
+    setTags,
     indexData,
     activeTab,
     setActiveTab,
     allKaomoji,
-    loadData,
     handleBulkDelete,
     handleSmartDuplicateCleanup,
+    hasUnsavedChanges,
+    dirtyCount,
+    isSaving,
+    saveSession,
+    markDirty,
   } = useAdminData();
+  const { checkedKaomojiIds, toggleKaomojiChecked, updateCheckedIdsWithMapping } =
+    useCheckedKaomoji({ onChange: markDirty });
 
   if (isLoading) return <Loading />;
+
+  const draftIndexData = indexData ? { ...indexData, tags } : null;
 
   return (
     <div id="admin" className="w-full mx-auto py-4">
       <h1 className="mb-8 text-center">管理後台</h1>
-      {indexData && (
+      {draftIndexData && (
         <div className="max-w-6xl w-full min-w-0 mx-auto space-y-4">
-          <TabMenu tabs={TABS} activeTab={activeTab} setActiveTab={setActiveTab} />
+          <TabMenu
+            tabs={TABS}
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
+            hasUnsavedChanges={hasUnsavedChanges}
+            dirtyCount={dirtyCount}
+            isSaving={isSaving}
+            onSave={() => saveSession(Array.from(checkedKaomojiIds))}
+          />
           {activeTab === 'kaomoji' && (
             <KaomojiManager
               categories={categories}
-              indexData={indexData}
+              indexData={draftIndexData}
               onDataChange={setCategories}
-              onRefreshIndexData={() => loadData(true)}
+              onTagsChange={setTags}
+              checkedKaomojiIds={checkedKaomojiIds}
+              onToggleKaomojiChecked={toggleKaomojiChecked}
+              onUpdateCheckedIdsWithMapping={updateCheckedIdsWithMapping}
             />
           )}
           {activeTab === 'category' && (
@@ -64,7 +86,9 @@ const AdminPage = () => {
             <TagManager
               categories={categories}
               allKaomoji={allKaomoji}
-              onDataChange={() => loadData(true)}
+              tags={tags}
+              onTagsChange={setTags}
+              onCategoriesChange={setCategories}
             />
           )}
           {activeTab === 'duplicates' && (

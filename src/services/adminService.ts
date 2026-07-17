@@ -2,7 +2,7 @@ import type { CategoryData, KaomojiItem, Tag } from '@/types/Kaomoji';
 import { TEMP_CATEGORY_ID } from '@/constants/tempCategory';
 import { getTodayDateString } from '@/utils/date';
 
-async function fetchAPI(endpoint: string, options?: RequestInit) {
+async function fetchAPI(endpoint: string, options?: globalThis.RequestInit) {
   const headers = new Headers(options?.headers);
 
   const getBaseUrl = () => {
@@ -96,6 +96,18 @@ export const updateTemporaryCategory = (data: Partial<CategoryData>) => {
 
 export const getTags = (): Promise<Tag[]> => {
   return fetchAPI('/tags');
+};
+
+export const saveAdminSession = (data: {
+  categories: CategoryData[];
+  tags: Tag[];
+  checkedKaomojiIds?: string[];
+}) => {
+  return fetchAPI('/save-session', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(data),
+  });
 };
 
 export const createTag = (tag: Tag) => {

@@ -4,7 +4,6 @@ import { useState, useEffect, useCallback } from 'react';
 
 import type { CategoryData } from '@/types/Kaomoji';
 import { useToast } from '@/contexts/ToastContext';
-import * as adminService from '@/services/adminService';
 import { cn } from '@/utils/cn';
 import { getTodayDateString } from '@/utils/date';
 import CategoryModal, { type FormState, type ModalState } from '@/components/admin/CategoryModal';
@@ -78,10 +77,16 @@ const CategoryManager = ({ categories: initialCategories, onDataChange }: Catego
         showToast('該分類 ID 已存在！', 'error');
         return;
       }
+      if (
+        modalState.mode === 'edit' &&
+        modalState.category?.id !== category &&
+        categories.some((cat) => cat.id === category)
+      ) {
+        showToast('該分類 ID 已存在！', 'error');
+        return;
+      }
 
       const isCreating = modalState.mode === 'create';
-      const originalCategories = categories;
-
       const updatedCategories = isCreating
         ? [
             ...categories,
@@ -97,6 +102,7 @@ const CategoryManager = ({ categories: initialCategories, onDataChange }: Catego
             cat.id === modalState.category?.id
               ? {
                   ...cat,
+                  id: trimmed.category,
                   name: { en: trimmed.nameEn.toLowerCase(), 'zh-tw': trimmed.nameZhTw },
                   preview: trimmed.preview,
                   lastUpdated: getTodayDateString(),
@@ -106,27 +112,8 @@ const CategoryManager = ({ categories: initialCategories, onDataChange }: Catego
       setCategories(updatedCategories);
       onDataChange(updatedCategories);
 
-      try {
-        const apiData = {
-          id: trimmed.nameEn.toLowerCase(),
-          category: trimmed.category,
-          name: { en: trimmed.nameEn.toLowerCase(), 'zh-tw': trimmed.nameZhTw },
-          preview: trimmed.preview,
-          lastUpdated: getTodayDateString(),
-          items: [],
-        };
-
-        if (isCreating) await adminService.createCategory(apiData);
-        else await adminService.updateCategoryInfo(modalState.category!.id, apiData);
-
-        resetModal();
-        showToast(`分類${isCreating ? '創建' : '更新'}成功！`, 'success');
-      } catch (err) {
-        const errMsg = err instanceof Error ? err.message : '操作失敗，請稍後再試。';
-        showToast(errMsg, 'error');
-        setCategories(originalCategories);
-        onDataChange(originalCategories);
-      }
+      resetModal();
+      showToast(`分類${isCreating ? '創建' : '更新'}已加入本次更新！`, 'success');
     },
     [modalState, formData, categories, showToast, onDataChange]
   );
@@ -146,21 +133,11 @@ const CategoryManager = ({ categories: initialCategories, onDataChange }: Catego
 
       if (!confirm(`確定要刪除「${category.name['zh-tw']}」嗎？`)) return;
 
-      const originalCategories = categories;
       const updatedCategories = categories.filter((cat) => cat.id !== id);
 
       setCategories(updatedCategories);
       onDataChange(updatedCategories);
-
-      try {
-        await adminService.deleteCategory(id);
-        showToast('分類刪除成功！', 'success');
-      } catch (err) {
-        const errMsg = err instanceof Error ? err.message : '刪除時發生未知錯誤！';
-        showToast(errMsg, 'error');
-        setCategories(originalCategories);
-        onDataChange(originalCategories);
-      }
+      showToast('分類刪除已加入本次更新！', 'success');
     },
     [categories, showToast, onDataChange]
   );
