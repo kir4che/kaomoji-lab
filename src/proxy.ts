@@ -1,14 +1,19 @@
 import type { NextRequest } from 'next/server';
 import { NextResponse } from 'next/server';
 
-export function proxy(req: NextRequest) {
-  const nodeEnv = process.env.NEXT_PUBLIC_NODE_ENV || 'production';
+import { isAdminRequest } from '@/lib/adminAuth';
 
-  if (nodeEnv !== 'development') return NextResponse.redirect(new URL('/', req.url));
+export const proxy = async (req: NextRequest) => {
+  if (process.env.NODE_ENV !== 'production') return NextResponse.next();
 
-  return NextResponse.next();
-}
+  if (await isAdminRequest(req)) return NextResponse.next();
+
+  if (req.nextUrl.pathname.startsWith('/api/admin/'))
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+
+  return NextResponse.redirect(new URL('/api/auth/github/start', req.url));
+};
 
 export const config = {
-  matcher: ['/admin/:path*'],
+  matcher: ['/admin/:path*', '/api/admin/:path*'],
 };

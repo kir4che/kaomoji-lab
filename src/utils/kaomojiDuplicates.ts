@@ -13,6 +13,14 @@ export interface DuplicateItem {
   id: string;
   categoryId: string;
   categoryName: string;
+  tags: string[];
+}
+
+export type DuplicateConfidence = 'safe' | 'review';
+
+export interface DuplicateCleanupPlan {
+  keeperId: string;
+  duplicateIds: string[];
 }
 
 export interface DuplicateGroup {
@@ -21,6 +29,9 @@ export interface DuplicateGroup {
   items: DuplicateItem[];
   keeper: DuplicateItem;
   duplicates: DuplicateItem[];
+  confidence: DuplicateConfidence;
+  reasons: string[];
+  suggestedDeleteIds: string[];
 }
 
 const DEFAULT_PRIORITY = ['happy', 'love', 'greeting', 'confident', 'excited', 'other'];
@@ -50,15 +61,20 @@ const normalize = (text: string, preserveSymbols: boolean) => {
     .replace(/[^(){}\[\]a-z0-9ぁ-んァ-ン一-龥]/g, '');
 };
 
+const collapseConsecutiveChars = (text: string) =>
+  Array.from(text)
+    .filter((char, index, chars) => index === 0 || char !== chars[index - 1])
+    .join('');
+
 const buildFingerprint = (text: string) => {
   const normalized = normalize(text, true);
 
   const parens = normalized.replace(/[^(){}\[\]]/g, '');
-  const core = normalized.replace(/[(){}\[\]]/g, '');
+  const coreShape = collapseConsecutiveChars(normalized.replace(/[(){}\[\]]/g, ''));
   const hands = /(?:゛|ゞ|ゝ|゜|✋|ﾉ|ง|╯|ヾ|ㄟ|ლ)/.test(normalized) ? 'hand' : 'nohand';
   const stars = /[*✱✲✧☆★✶✷✴✵✺✹✳✿❀❁❂❃❊❋❉❈❇❆❅]/.test(normalized) ? 'star' : 'nostar';
 
-  return `${parens}|${hands}|${stars}|${core}`;
+  return `${parens}|${hands}|${stars}|${coreShape}`;
 };
 
 const levenshtein = (a: string, b: string, max: number): number => {
@@ -117,6 +133,28 @@ const compareByPriority = (
   return a.categoryId.localeCompare(b.categoryId, 'zh-TW') || a.id.localeCompare(b.id, 'zh-TW');
 };
 
+const assessDuplicateConfidence = (
+  items: DuplicateItem[],
+  entryGroup: Entry[],
+  fingerprint: boolean
+): { confidence: DuplicateConfidence; reasons: string[] } => {
+  const reasons: string[] = [];
+  const symbolPreservedKeys = new Set(items.map((item) => normalize(item.text, true)));
+
+  if (symbolPreservedKeys.size === 1) {
+    reasons.push('符號保留後仍完全相同');
+    return { confidence: 'safe', reasons };
+  }
+
+  if (entryGroup.length > 1) reasons.push('相似但不是完全相同');
+  if (!fingerprint) reasons.push('未比較手勢與星號特徵');
+
+  return {
+    confidence: 'review',
+    reasons: reasons.length > 0 ? reasons : ['符號或文字細節不同'],
+  };
+};
+
 export const findDuplicateGroups = (
   categories: CategoryData[],
   options: DuplicateOptions = {}
@@ -140,6 +178,7 @@ export const findDuplicateGroups = (
         id: item.id,
         categoryId,
         categoryName,
+        tags: item.tags,
       };
       if (!keyMap.has(key))
         keyMap.set(key, {
@@ -196,12 +235,16 @@ export const findDuplicateGroups = (
     );
     const keeper = sorted[0];
     const duplicates = sorted.slice(1);
+    const { confidence, reasons } = assessDuplicateConfidence(sorted, entryGroup, fingerprint);
     groups.push({
       id: `dup-${idx}`,
       key: entryGroup[0].key,
       items: sorted,
       keeper,
       duplicates,
+      confidence,
+      reasons,
+      suggestedDeleteIds: confidence === 'safe' ? duplicates.map((duplicate) => duplicate.id) : [],
     });
   });
 

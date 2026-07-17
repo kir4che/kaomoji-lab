@@ -3,10 +3,7 @@
 import type { CompositionEvent, KeyboardEvent } from 'react';
 import { memo, useCallback, useState } from 'react';
 
-import CloseIcon from '@/assets/icons/close.svg';
-import MoveRightIcon from '@/assets/icons/move-right.svg';
-import PlusIcon from '@/assets/icons/plus.svg';
-import SparkleIcon from '@/assets/icons/sparkle.svg';
+import { Icon } from '@/components/atoms/Icon';
 import IconBtn from '@/components/atoms/IconBtn';
 import Input from '@/components/atoms/Input';
 import AvailableTagList from '@/components/organisms/AvailableTagList';
@@ -93,12 +90,12 @@ const KaomojiEditor = ({
               )}
               aria-label={`${isChecked ? '取消' : '標記'}已檢查`}
             >
-              <SparkleIcon className="size-4" />
+              <Icon name="sparkle" className="size-4" />
             </button>
           )}
           {!isEditMode && (
             <IconBtn
-              icon={<PlusIcon />}
+              icon={<Icon name="plus" />}
               onClick={() => {
                 if (!formData.id && formData.text.trim()) {
                   handleSubmit({ preventDefault: () => {} } as React.FormEvent);
@@ -148,7 +145,7 @@ const KaomojiEditor = ({
                   className="ml-2 text-primary-400 text-xs font-bold hover:text-primary-600 transition-colors"
                   aria-label={`刪除標籤 ${getTagName(tagId)}`}
                 >
-                  <CloseIcon className="size-5" />
+                  <Icon name="close" className="size-5" />
                 </button>
               </span>
             ))
@@ -175,7 +172,7 @@ const KaomojiEditor = ({
             aria-label="新增標籤"
             className="px-3 py-2 border rounded-md border-gray-300"
           />
-          <IconBtn icon={<PlusIcon />} onClick={() => addTags(newTag)} label="新增標籤" />
+          <IconBtn icon={<Icon name="plus" />} onClick={() => addTags(newTag)} label="新增標籤" />
         </div>
         <AvailableTagList
           tags={availableTagOptions}
@@ -189,7 +186,7 @@ const KaomojiEditor = ({
               移動到
             </p>
             <div className="flex-center gap-x-3">
-              <MoveRightIcon className="size-5 shrink-0" />
+              <Icon name="move-right" className="size-5 shrink-0" />
               <select
                 value={selectedMoveCategory}
                 onChange={(e) => {

@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 import type { CategoryData, CategorySummary, IndexData, Tag } from '@/types/Kaomoji';
+import { getTodayDateString } from '@/utils/date';
 
 function sortItemsById(data: CategoryData): CategoryData {
   data.items.sort((a, b) => {
@@ -60,7 +61,7 @@ function sortAndCleanIndex(): void {
     categories,
     tags,
     totalItems: categories.reduce((sum, c) => sum + c.itemCount, 0),
-    lastUpdated: new Date().toISOString().split('T')[0],
+    lastUpdated: getTodayDateString(),
   };
 
   fs.writeFileSync(indexPath, JSON.stringify(indexData, null, 2) + '\n', 'utf-8');

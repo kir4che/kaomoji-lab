@@ -5,7 +5,7 @@
     "zh-tw": "害羞"
   },
   "preview": "(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄ ",
-  "lastUpdated": "2026-04-17",
+  "lastUpdated": "2026-07-17",
   "items": [
     {
       "id": "shy_004",
@@ -219,7 +219,8 @@
       "text": "(*´ｪ｀*)",
       "tags": [
         "love",
-        "shy"
+        "shy",
+        "cute"
       ]
     },
     {
@@ -267,13 +268,6 @@
       "text": "(灬ºωº灬)",
       "tags": [
         "dazed",
-        "shy"
-      ]
-    },
-    {
-      "id": "shy_049",
-      "text": "(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄",
-      "tags": [
         "shy"
       ]
     },
@@ -434,14 +428,6 @@
       "text": "(*ﾉωヾ*)",
       "tags": [
         "hands-up",
-        "shy"
-      ]
-    },
-    {
-      "id": "shy_077",
-      "text": "(*´ェ｀*)",
-      "tags": [
-        "cute",
         "shy"
       ]
     },
@@ -1870,32 +1856,8 @@
       ]
     },
     {
-      "id": "shy_297",
-      "text": "チラッ|´-`)",
-      "tags": [
-        "shy",
-        "peeking"
-      ]
-    },
-    {
       "id": "shy_298",
       "text": "ﾁﾗｯ|´-`)",
-      "tags": [
-        "shy",
-        "peeking"
-      ]
-    },
-    {
-      "id": "shy_299",
-      "text": "|⌔•..)",
-      "tags": [
-        "shy",
-        "peeking"
-      ]
-    },
-    {
-      "id": "shy_300",
-      "text": "| ×˘ )",
       "tags": [
         "shy",
         "peeking"
@@ -2109,14 +2071,6 @@
       ]
     },
     {
-      "id": "shy_325",
-      "text": "( ˙꒳っ|",
-      "tags": [
-        "shy",
-        "peeking"
-      ]
-    },
-    {
       "id": "shy_326",
       "text": "(/・。＼）",
       "tags": [
@@ -2141,15 +2095,6 @@
         "shy",
         "peeking",
         "surprised"
-      ]
-    },
-    {
-      "id": "shy_329",
-      "text": "(´∩ω•｀)",
-      "tags": [
-        "shy",
-        "peeking",
-        "cute"
       ]
     },
     {
@@ -2209,7 +2154,8 @@
       "text": "|_･)",
       "tags": [
         "shy",
-        "peeking"
+        "peeking",
+        "speechless"
       ]
     },
     {
@@ -2245,14 +2191,6 @@
         "shy",
         "peeking",
         "embarrassed"
-      ]
-    },
-    {
-      "id": "shy_341",
-      "text": "|ω・`)",
-      "tags": [
-        "shy",
-        "peeking"
       ]
     },
     {
@@ -2328,10 +2266,9 @@
       "id": "shy_350",
       "text": "[壁]ω👁)ﾁﾗﾘ…",
       "tags": [
-        "shy",
         "peeking",
-        "wall",
-        "eyes"
+        "shy",
+        "wall"
       ]
     },
     {
@@ -2369,10 +2306,9 @@
       "id": "shy_354",
       "text": "┬┴┬┴┤(・_├┬┴┬┴壁チラッ",
       "tags": [
-        "shy",
         "peeking",
-        "wall",
-        "fence"
+        "shy",
+        "wall"
       ]
     },
     {
@@ -2404,15 +2340,6 @@
       ]
     },
     {
-      "id": "shy_358",
-      "text": "|qд･",
-      "tags": [
-        ",),shy",
-        "peeking",
-        "cute"
-      ]
-    },
-    {
       "id": "shy_359",
       "text": "͒•·̫|",
       "tags": [
@@ -2430,28 +2357,11 @@
       ]
     },
     {
-      "id": "shy_361",
-      "text": "|ｮ･ω･`)",
-      "tags": [
-        "shy",
-        "peeking"
-      ]
-    },
-    {
       "id": "shy_362",
       "text": "|ﾟーﾟ)",
       "tags": [
         "shy",
         "peeking"
-      ]
-    },
-    {
-      "id": "shy_363",
-      "text": "|дﾟ)",
-      "tags": [
-        "shy",
-        "peeking",
-        "surprised"
       ]
     },
     {
@@ -2461,23 +2371,6 @@
         "shy",
         "peeking",
         "cool"
-      ]
-    },
-    {
-      "id": "shy_365",
-      "text": "(￢_￢)",
-      "tags": [
-        "shy",
-        "peeking",
-        "suspicious"
-      ]
-    },
-    {
-      "id": "shy_366",
-      "text": "|ω･)",
-      "tags": [
-        "shy",
-        "peeking"
       ]
     },
     {
@@ -2652,14 +2545,6 @@
       ]
     },
     {
-      "id": "shy_386",
-      "text": "ｮω･｡)",
-      "tags": [
-        "shy",
-        "peeking"
-      ]
-    },
-    {
       "id": "shy_387",
       "text": "(´ฅω•ฅ`)",
       "tags": [
@@ -2724,9 +2609,8 @@
       "id": "shy_394",
       "text": "┬┴|ω･`)",
       "tags": [
-        "shy",
         "peeking",
-        "fence"
+        "shy"
       ]
     },
     {
@@ -2818,17 +2702,6 @@
       ]
     },
     {
-      "id": "shy_404",
-      "text": "|•",
-      "tags": [
-        ",)♡,shy",
-        "peeking",
-        "wall",
-        "love",
-        "cute"
-      ]
-    },
-    {
       "id": "shy_405",
       "text": "|||ω`)<",
       "tags": [
@@ -2897,15 +2770,6 @@
     {
       "id": "shy_412",
       "text": "|ω゜○）",
-      "tags": [
-        "shy",
-        "peeking",
-        "wall"
-      ]
-    },
-    {
-      "id": "shy_413",
-      "text": "|qω・´)",
       "tags": [
         "shy",
         "peeking",

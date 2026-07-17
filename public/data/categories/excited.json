@@ -5,7 +5,7 @@
     "zh-tw": "興奮"
   },
   "preview": "(ﾉ≧∀≦)ﾉ",
-  "lastUpdated": "2026-04-17",
+  "lastUpdated": "2026-07-17",
   "items": [
     {
       "id": "excited_001",
@@ -773,16 +773,7 @@
       "id": "excited_180",
       "text": "⸜(๑'8'๑)⸝",
       "tags": [
-        "excited",
-        "cheer"
-      ]
-    },
-    {
-      "id": "excited_181",
-      "text": "ヾ(*´∀`*)ﾉ",
-      "tags": [
-        "excited",
-        "cheers"
+        "excited"
       ]
     },
     {
@@ -978,14 +969,6 @@
       ]
     },
     {
-      "id": "excited_206",
-      "text": "٩꒰｡•◡•。꒱۶",
-      "tags": [
-        "excited",
-        "cheers"
-      ]
-    },
-    {
       "id": "excited_207",
       "text": "(๑•̀∀•́)و✧",
       "tags": [
@@ -1079,14 +1062,6 @@
     {
       "id": "excited_218",
       "text": "ʬʬ (｡ﾉω<｡)ﾉ))",
-      "tags": [
-        "excited",
-        "lol"
-      ]
-    },
-    {
-      "id": "excited_219",
-      "text": "ꉂꉂ(ﾉ∀≦｡)σ",
       "tags": [
         "excited",
         "lol"
@@ -1201,16 +1176,6 @@
       ]
     },
     {
-      "id": "excited_232",
-      "text": "ｱﾊﾊ(//≧∇≦)ﾉ .`",
-      "tags": [
-        "ﾊﾞﾝﾊﾞﾝｯ!!,excited",
-        "attack",
-        "shout",
-        "lol"
-      ]
-    },
-    {
       "id": "excited_233",
       "text": "ξ＼(^。^ ))）））",
       "tags": [
@@ -1255,7 +1220,6 @@
       "id": "excited_238",
       "text": "(ゝc_",
       "tags": [
-        "´･)ﾌﾟﾌﾟﾌﾟｯ,excited",
         "lol"
       ]
     },
@@ -1281,14 +1245,6 @@
       "tags": [
         "excited",
         "lol"
-      ]
-    },
-    {
-      "id": "excited_242",
-      "text": "Σ(ﾉ≧︎ڡ≦︎)てへぺろ",
-      "tags": [
-        "excited",
-        "surprised"
       ]
     }
   ]

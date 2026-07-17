@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 import type { CategoryData, IndexData, KaomojiItem } from '@/types/Kaomoji';
+import { getTodayDateString } from '@/utils/date';
 
 interface ScrapedItem {
   category: string;
@@ -46,24 +47,8 @@ async function fetchWithFetch(url: string): Promise<string | null> {
 }
 
 async function fetchPageContent(url: string): Promise<string> {
-  const textViaFetch = await fetchWithFetch(url);
-  if (textViaFetch) return textViaFetch;
-
-  console.log('⚠️ fetch 失敗，嘗試 Puppeteer...');
-  try {
-    // 有的網站是動態載入就改用 Puppeteer 模擬瀏覽器打開網頁來抓「執行 JS 後才出現的內容」
-    const puppeteer = await import('puppeteer');
-    const browser = await puppeteer.default.launch({ headless: true });
-    const page = await browser.newPage();
-    await page.goto(url, { waitUntil: 'networkidle2', timeout: 30_000 });
-    const html = await page.content();
-    await browser.close();
-    const text = stripHtml(html);
-    if (text.length > 200) return text;
-  } catch (err) {
-    console.error('❌ Puppeteer 失敗：', err instanceof Error ? err.message : err);
-  }
-
+  const text = await fetchWithFetch(url);
+  if (text) return text;
   throw new Error('無法取得頁面內容');
 }
 
@@ -179,8 +164,6 @@ ${truncated}`;
   throw lastError || new Error('AI categorization failed');
 }
 
-const toISODate = () => new Date().toISOString().split('T')[0];
-
 function readJson<T>(filePath: string): T {
   const raw = fs.readFileSync(filePath, 'utf-8'); // 同步讀取檔案內容
   return JSON.parse(raw) as T; // 解析 JSON 字串
@@ -221,7 +204,7 @@ function writeItems(items: ScrapedItem[], dataDir: string, indexData: IndexData)
         id: catId,
         name: { en: catId, 'zh-tw': catId },
         preview: firstText,
-        lastUpdated: toISODate(),
+        lastUpdated: getTodayDateString(),
         items: [],
       };
       if (!indexData.categories.some((c) => c.id === catId)) {
@@ -229,7 +212,7 @@ function writeItems(items: ScrapedItem[], dataDir: string, indexData: IndexData)
           id: catId,
           name: { en: catId, 'zh-tw': catId },
           preview: firstText,
-          lastUpdated: toISODate(),
+          lastUpdated: getTodayDateString(),
           itemCount: 0,
         });
       }
@@ -251,7 +234,7 @@ function writeItems(items: ScrapedItem[], dataDir: string, indexData: IndexData)
     const newId = `${category}_${String(maxSeq + 1).padStart(3, '0')}`;
 
     catData.items.push({ id: newId, text, tags });
-    catData.lastUpdated = toISODate();
+    catData.lastUpdated = getTodayDateString();
     addedCount++;
   }
 
@@ -264,7 +247,7 @@ function writeItems(items: ScrapedItem[], dataDir: string, indexData: IndexData)
       cat.lastUpdated = categoriesData[cat.id].lastUpdated;
     }
   }
-  indexData.lastUpdated = toISODate();
+  indexData.lastUpdated = getTodayDateString();
   (indexData as IndexData & { totalItems?: number }).totalItems = indexData.categories.reduce(
     (s, c) => s + (c.itemCount ?? 0),
     0

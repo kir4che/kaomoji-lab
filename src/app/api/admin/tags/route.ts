@@ -1,6 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-import { readIndexFile, updateIndexFile, isTagInUse, getAllTags } from '@/services/dataService';
+import {
+  readIndexFile,
+  updateIndexFile,
+  readCategoryFile,
+  writeCategoryFile,
+  getAllTags,
+} from '@/services/dataService';
 
 export async function GET() {
   try {
@@ -52,25 +58,43 @@ export async function PUT(request: NextRequest) {
   }
 }
 
-// 刪除標籤
+// 刪除標籤（同時刪除顏文字 + 清理其他無用標籤）
 export async function DELETE(request: NextRequest) {
   try {
     const { id } = await request.json();
     if (!id) return NextResponse.json({ error: 'Missing tag ID.' }, { status: 400 });
 
-    if (await isTagInUse(id))
-      return NextResponse.json(
-        { error: 'Tag is still in use and cannot be deleted.' },
-        { status: 400 }
-      );
-
     const indexData = await readIndexFile();
-    const initialLength = indexData.tags.length;
-    indexData.tags = indexData.tags.filter((t) => t.id !== id);
 
-    if (indexData.tags.length === initialLength)
+    // 確認標籤存在
+    if (!indexData.tags.some((t) => t.id === id))
       return NextResponse.json({ error: 'Tag not found.' }, { status: 404 });
 
+    // 1. 讀取所有分類，刪除含該標籤的顏文字，同時收集仍被使用的 tag IDs。
+    const usedTags = new Set<string>();
+    const writeTasks: Promise<void>[] = [];
+
+    for (const cat of indexData.categories) {
+      const categoryData = await readCategoryFile(cat.id);
+      if (!categoryData) continue;
+
+      const before = categoryData.items.length;
+      const keptItems = categoryData.items.filter((item) => {
+        if (item.tags.includes(id)) return false; // 含目標標籤 → 刪除
+        item.tags.forEach((t) => usedTags.add(t)); // 記錄仍被使用的標籤
+        return true;
+      });
+
+      if (keptItems.length < before)
+        writeTasks.push(writeCategoryFile({ ...categoryData, items: keptItems }));
+      // 沒被刪除的類別也要記錄 tag 使用情況
+      else categoryData.items.forEach((item) => item.tags.forEach((t) => usedTags.add(t)));
+    }
+
+    await Promise.all(writeTasks);
+
+    // 2. 清理 index：只保留仍有使用的標籤（目標標籤 + 無用標籤一起清）
+    indexData.tags = indexData.tags.filter((tag) => usedTags.has(tag.id));
     await updateIndexFile(indexData);
 
     return NextResponse.json({ success: true });

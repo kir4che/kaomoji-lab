@@ -1,6 +1,6 @@
 import { ChangeEvent, InputHTMLAttributes, useId } from 'react';
 
-import CloseIcon from '@/assets/icons/close.svg';
+import { Icon } from '@/components/atoms/Icon';
 import { cn } from '@/utils/cn';
 import { t } from '@/lib/i18n';
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -76,9 +76,9 @@ const Input = ({
             type="button"
             onClick={handleClear}
             className="absolute inset-y-0 right-0 flex items-center pr-4 text-gray-400 hover:text-gray-600"
-              aria-label={t('a11yInputClear', lang)}
+            aria-label={t('a11yInputClear', lang)}
           >
-            <CloseIcon className="size-5" />
+            <Icon name="close" className="size-5" />
           </button>
         )}
       </div>

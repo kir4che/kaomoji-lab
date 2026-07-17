@@ -1,4 +1,5 @@
 import type { CategoryData, CategoryName } from '@/types/Kaomoji';
+import { getTodayDateString } from '@/utils/date';
 
 export const TEMP_CATEGORY_ID = '__temp';
 
@@ -11,6 +12,6 @@ export const createDefaultTemporaryCategory = (): CategoryData => ({
   id: TEMP_CATEGORY_ID,
   name: TEMP_CATEGORY_NAME,
   preview: '',
-  lastUpdated: new Date().toISOString().split('T')[0],
+  lastUpdated: getTodayDateString(),
   items: [],
 });

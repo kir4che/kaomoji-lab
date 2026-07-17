@@ -5,7 +5,7 @@
     "zh-tw": "裝飾"
   },
   "preview": "♥･*:.｡ ｡.:*･ﾟ♡･*:.｡ ｡",
-  "lastUpdated": "2026-04-17",
+  "lastUpdated": "2026-07-17",
   "items": [
     {
       "id": "decoration_001",
@@ -197,7 +197,6 @@
       "text": "* `★・*☆` ・☪☽°☆・°:** `★・*☆` ・☪☽°☆・°:*-",
       "tags": [
         "decoration",
-        "moon",
         "star"
       ]
     },
@@ -206,7 +205,6 @@
       "text": "✰⋆｡:ﾟ･*☽:ﾟ･⋆｡✰⋆｡:ﾟ･*☽:ﾟ･⋆｡✰⋆｡:ﾟ･*☽",
       "tags": [
         "decoration",
-        "moon",
         "star"
       ]
     },
@@ -421,8 +419,7 @@
       "id": "decoration_057",
       "text": "𛰙᭜𖫴𖫰𖫱𖫳𖫲𖫲𖫳𖫴𖫰𖫱꛰ ᭜𖫴𖫰𖫱𖫳𖫲𖫲𖫳𖫴𖫰𖫱꛰ಣ",
       "tags": [
-        "decoration",
-        "pattern"
+        "decoration"
       ]
     },
     {
@@ -541,9 +538,8 @@
       "id": "decoration_072",
       "text": "めƷɭ ɿ ㄘゅ ₹ ㄘゅ💋",
       "tags": [
-        "decoration",
         "cute",
-        "kiss"
+        "decoration"
       ]
     },
     {
@@ -608,89 +604,6 @@
       "text": "* ¨)* ¨)",
       "tags": [
         "decoration"
-      ]
-    },
-    {
-      "id": "decoration_081",
-      "text": "|∀・)+|∀・)+",
-      "tags": [
-        "decoration",
-        "repetition"
-      ]
-    },
-    {
-      "id": "decoration_082",
-      "text": "・－・）））（（（　・－・）",
-      "tags": [
-        "decoration",
-        "walking"
-      ]
-    },
-    {
-      "id": "decoration_083",
-      "text": "(´pωq｀)",
-      "tags": [
-        "sad",
-        "crying"
-      ]
-    },
-    {
-      "id": "decoration_084",
-      "text": "(´pω•｀q)",
-      "tags": [
-        "sad",
-        "peeking",
-        "crying"
-      ]
-    },
-    {
-      "id": "decoration_085",
-      "text": "бб)*бб)",
-      "tags": [
-        "decoration",
-        "repetition"
-      ]
-    },
-    {
-      "id": "decoration_086",
-      "text": "*'(ｪ)’)*'(ｪ)’",
-      "tags": [
-        "decoration",
-        "repetition"
-      ]
-    },
-    {
-      "id": "decoration_087",
-      "text": "|ω･)│)|ω･)│）",
-      "tags": [
-        "decoration",
-        "repetition",
-        "peeking"
-      ]
-    },
-    {
-      "id": "decoration_088",
-      "text": "｜д｀)д｀)",
-      "tags": [
-        "decoration",
-        "repetition"
-      ]
-    },
-    {
-      "id": "decoration_089",
-      "text": "（・ゝ・）（・ゝ・）",
-      "tags": [
-        "decoration",
-        "repetition"
-      ]
-    },
-    {
-      "id": "decoration_090",
-      "text": "┃дﾟ）┃дﾟ）",
-      "tags": [
-        "decoration",
-        "repetition",
-        "surprised"
       ]
     },
     {
@@ -952,7 +865,6 @@
       "id": "decoration_120",
       "text": "♡: :･ﾟ’★",
       "tags": [
-        "｡･: :･ﾟ’☆ヽ(ゝｖ・)ヽ･: :･ﾟ’★,｡･: :･ﾟ’☆♡,decoration",
         "line",
         "love",
         "star"

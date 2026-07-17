@@ -1,5 +1,6 @@
-/* global RequestInit */
 import type { CategoryData, KaomojiItem, Tag } from '@/types/Kaomoji';
+import { TEMP_CATEGORY_ID } from '@/constants/tempCategory';
+import { getTodayDateString } from '@/utils/date';
 
 async function fetchAPI(endpoint: string, options?: RequestInit) {
   const headers = new Headers(options?.headers);
@@ -44,18 +45,25 @@ export const updateCategoryInfo = (
 };
 
 export const updateCategoryItems = (categoryId: string, data: Partial<CategoryData>) => {
-  return fetchAPI('/categories', {
+  const endpoint = categoryId === TEMP_CATEGORY_ID ? '/temporary-category' : '/categories';
+  return fetchAPI(endpoint, {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ category: categoryId, ...data }),
+    body: JSON.stringify(
+      categoryId === TEMP_CATEGORY_ID ? data : { category: categoryId, ...data }
+    ),
   });
 };
 
 export const updateCategory = (categoryId: string, data: Partial<CategoryData>) => {
-  return fetchAPI('/categories', {
+  // 暫存分類用不同的 API endpoint
+  const endpoint = categoryId === TEMP_CATEGORY_ID ? '/temporary-category' : '/categories';
+  return fetchAPI(endpoint, {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ category: categoryId, ...data }),
+    body: JSON.stringify(
+      categoryId === TEMP_CATEGORY_ID ? data : { category: categoryId, ...data }
+    ),
   });
 };
 
@@ -70,7 +78,7 @@ export const deleteCategory = (categoryId: string) => {
 export const bulkUpdateCategoryItems = (categoryId: string, items: KaomojiItem[]) => {
   return updateCategoryItems(categoryId, {
     items,
-    lastUpdated: new Date().toISOString().split('T')[0],
+    lastUpdated: getTodayDateString(),
   });
 };
 

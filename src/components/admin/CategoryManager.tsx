@@ -6,10 +6,11 @@ import type { CategoryData } from '@/types/Kaomoji';
 import { useToast } from '@/contexts/ToastContext';
 import * as adminService from '@/services/adminService';
 import { cn } from '@/utils/cn';
+import { getTodayDateString } from '@/utils/date';
 import CategoryModal, { type FormState, type ModalState } from '@/components/admin/CategoryModal';
 import IconBtn from '@/components/atoms/IconBtn';
+import { Icon } from '@/components/atoms/Icon';
 import EditCard from '@/components/admin/EditCard';
-import PlusIcon from '@/assets/icons/plus.svg';
 
 interface CategoryManagerProps {
   categories: CategoryData[];
@@ -89,7 +90,7 @@ const CategoryManager = ({ categories: initialCategories, onDataChange }: Catego
               name: { en: trimmed.nameEn.toLowerCase(), 'zh-tw': trimmed.nameZhTw },
               preview: trimmed.preview,
               items: [],
-              lastUpdated: new Date().toISOString().split('T')[0],
+              lastUpdated: getTodayDateString(),
             } as CategoryData,
           ].sort((a, b) => a.id.localeCompare(b.id))
         : categories.map((cat) =>
@@ -98,7 +99,7 @@ const CategoryManager = ({ categories: initialCategories, onDataChange }: Catego
                   ...cat,
                   name: { en: trimmed.nameEn.toLowerCase(), 'zh-tw': trimmed.nameZhTw },
                   preview: trimmed.preview,
-                  lastUpdated: new Date().toISOString().split('T')[0],
+                  lastUpdated: getTodayDateString(),
                 }
               : cat
           );
@@ -111,7 +112,7 @@ const CategoryManager = ({ categories: initialCategories, onDataChange }: Catego
           category: trimmed.category,
           name: { en: trimmed.nameEn.toLowerCase(), 'zh-tw': trimmed.nameZhTw },
           preview: trimmed.preview,
-          lastUpdated: new Date().toISOString().split('T')[0],
+          lastUpdated: getTodayDateString(),
           items: [],
         };
 
@@ -173,7 +174,7 @@ const CategoryManager = ({ categories: initialCategories, onDataChange }: Catego
           })}
         >
           <h3 className="text-lg font-semibold">分類列表 ({categories.length})</h3>
-          <IconBtn icon={<PlusIcon />} onClick={handleCreate} label="分類" />
+          <IconBtn icon={<Icon name="plus" />} onClick={handleCreate} label="分類" />
         </div>
         <div className="grid gap-3.5 grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {categories.length > 0 ? (

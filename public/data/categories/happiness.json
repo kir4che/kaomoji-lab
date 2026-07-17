@@ -5,7 +5,7 @@
     "zh-tw": "幸福"
   },
   "preview": "ᜊ(꒪ˊ꒳ˋ꒪)ᜊ",
-  "lastUpdated": "2026-04-17",
+  "lastUpdated": "2026-07-17",
   "items": [
     {
       "id": "happiness_001",
@@ -359,16 +359,6 @@
       ]
     },
     {
-      "id": "happiness_046",
-      "text": "(ɔ ˘⌣˘)˘⌣˘ c)",
-      "tags": [
-        "closed-eyes",
-        "happiness",
-        "hug",
-        "smile"
-      ]
-    },
-    {
       "id": "happiness_047",
       "text": "（人*´∀｀）",
       "tags": [
@@ -496,16 +486,6 @@
       ]
     },
     {
-      "id": "happiness_062",
-      "text": "ヾ(*´∀｀*)ﾉ",
-      "tags": [
-        "banzai",
-        "happiness",
-        "happy",
-        "thrilled"
-      ]
-    },
-    {
       "id": "happiness_063",
       "text": "ﾍ(´∀｀ﾍ)",
       "tags": [
@@ -534,28 +514,12 @@
       ]
     },
     {
-      "id": "happiness_066",
-      "text": "（　´∀｀）",
-      "tags": [
-        "happiness",
-        "happy"
-      ]
-    },
-    {
       "id": "happiness_067",
       "text": "(〃´∀｀)",
       "tags": [
         "happiness",
         "happy",
         "shy"
-      ]
-    },
-    {
-      "id": "happiness_068",
-      "text": "(*´∀｀)",
-      "tags": [
-        "happiness",
-        "happy"
       ]
     },
     {
@@ -816,14 +780,6 @@
     {
       "id": "happiness_098",
       "text": "(๑´ω`๑)",
-      "tags": [
-        "cute",
-        "happiness"
-      ]
-    },
-    {
-      "id": "happiness_099",
-      "text": "(●´ω`●)",
       "tags": [
         "cute",
         "happiness"
@@ -1198,9 +1154,8 @@
       "id": "happiness_144",
       "text": "＞ω＜🍒",
       "tags": [
-        "happy",
         "cute",
-        "cherry"
+        "happy"
       ]
     },
     {
@@ -1314,15 +1269,6 @@
         "happy",
         "cute",
         "cool"
-      ]
-    },
-    {
-      "id": "happiness_158",
-      "text": "( ú ·̫ ù )💘",
-      "tags": [
-        "happy",
-        "cute",
-        "love"
       ]
     },
     {
@@ -1511,7 +1457,9 @@
       "tags": [
         "happiness",
         "love",
-        "cute"
+        "cute",
+        "big-eyes",
+        "sad"
       ]
     },
     {
@@ -1679,15 +1627,6 @@
       ]
     },
     {
-      "id": "happiness_199",
-      "text": "( ♥_♥)",
-      "tags": [
-        "happiness",
-        "love",
-        "cute"
-      ]
-    },
-    {
       "id": "happiness_200",
       "text": "(♡o♡)",
       "tags": [
@@ -1719,15 +1658,6 @@
       "text": "(✿♥‿♥✿)",
       "tags": [
         "happiness",
-        "love",
-        "cute"
-      ]
-    },
-    {
-      "id": "happiness_204",
-      "text": "(♥♥",
-      "tags": [
-        "),happiness",
         "love",
         "cute"
       ]
@@ -1875,16 +1805,6 @@
         "happiness",
         "love",
         "big-eyes"
-      ]
-    },
-    {
-      "id": "happiness_221",
-      "text": "(♥﹏♥)",
-      "tags": [
-        "happiness",
-        "love",
-        "big-eyes",
-        "sad"
       ]
     },
     {
@@ -2237,15 +2157,6 @@
       ]
     },
     {
-      "id": "happiness_259",
-      "text": "ヾ(◕◡◕*)",
-      "tags": [
-        "happiness",
-        "comfort",
-        "cute"
-      ]
-    },
-    {
       "id": "happiness_260",
       "text": "( ﹡ˊᵕˋ)ﾉ( ˶´⚰︎`˵ )",
       "tags": [
@@ -2334,15 +2245,6 @@
       ]
     },
     {
-      "id": "happiness_270",
-      "text": "( * ´꒳`ﾉ(´^`° )",
-      "tags": [
-        "happiness",
-        "comfort",
-        "sad"
-      ]
-    },
-    {
       "id": "happiness_271",
       "text": "今日はとても楽しかったね₍ ᐢ. .ᐢ ₎",
       "tags": [
@@ -2379,9 +2281,8 @@
       "id": "happiness_275",
       "text": "プレゼン頑張ったけどうまくいかなかったんだ￣( ´•̥×•̥` )￣",
       "tags": [
-        "sad",
         "cute",
-        "effort"
+        "sad"
       ]
     },
     {
@@ -2389,16 +2290,15 @@
       "text": "新しい服を着てみたけどどうだった꒰ᐢ⸝⸝•༝•⸝⸝ᐢ꒱？",
       "tags": [
         "cute",
-        "asking"
+        "question"
       ]
     },
     {
       "id": "happiness_277",
       "text": "そばにいてくれるだけで元気が出るよ！ありがとう(꜆՞_ _՞꜀)",
       "tags": [
-        "grateful",
         "cute",
-        "thankyou"
+        "grateful"
       ]
     },
     {
@@ -2414,17 +2314,19 @@
       "id": "happiness_279",
       "text": "天気がいいから遊びに行かない？ꪔꪔꪔ",
       "tags": [
-        "invitation",
-        "cute"
+        "cute",
+        "play",
+        "question"
       ]
     },
     {
       "id": "happiness_280",
       "text": "テストが近くて忙しいんだ₍ᐢ;௰;ᐢ₎",
       "tags": [
-        "nervous",
         "cute",
-        "busy"
+        "nervous",
+        "sad",
+        "tired"
       ]
     }
   ]

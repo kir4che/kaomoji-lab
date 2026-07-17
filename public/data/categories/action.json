@@ -5,7 +5,7 @@
     "zh-tw": "動作"
   },
   "preview": "╰( ^o^)╮",
-  "lastUpdated": "2026-04-17",
+  "lastUpdated": "2026-07-17",
   "items": [
     {
       "id": "action_002",
@@ -230,14 +230,18 @@
       "id": "action_084",
       "text": "|ω・）",
       "tags": [
-        "peeking"
+        "peeking",
+        "action",
+        "watching",
+        "shy"
       ]
     },
     {
       "id": "action_085",
       "text": "|ω･`)",
       "tags": [
-        "peeking"
+        "peeking",
+        "shy"
       ]
     },
     {
@@ -1029,14 +1033,6 @@
         "helpless",
         "naughty",
         "shrug"
-      ]
-    },
-    {
-      "id": "action_250",
-      "text": "₍₍ (ง ˙ω˙)ว ⁾⁾",
-      "tags": [
-        "cute",
-        "dancing"
       ]
     },
     {
@@ -3501,7 +3497,7 @@
       "id": "action_793",
       "text": "_(°ω°｣ ∠)_",
       "tags": [
-        "趴"
+        "lying-down"
       ]
     },
     {
@@ -4115,7 +4111,7 @@
       "id": "action_900",
       "text": "🌸( '-' 🍡）",
       "tags": [
-        "dango",
+        "cute",
         "eating",
         "flower",
         "neutral"
@@ -4920,7 +4916,6 @@
         "attack",
         "closed-eyes",
         "group",
-        "pinch",
         "sweat-drop"
       ]
     },
@@ -5116,7 +5111,6 @@
       "tags": [
         "closed-eyes",
         "group",
-        "pinch",
         "smile",
         "speechless",
         "sweat-drop"
@@ -5345,14 +5339,6 @@
         "cute",
         "please",
         "shy"
-      ]
-    },
-    {
-      "id": "action_1079",
-      "text": "( ੭˙ᗜ˙)੭",
-      "tags": [
-        "happy",
-        "hug"
       ]
     },
     {
@@ -5944,7 +5930,6 @@
       "tags": [
         "closed-eyes",
         "dumbfounded",
-        "fishing",
         "surprised",
         "sweat-drop"
       ]
@@ -6342,8 +6327,7 @@
       "text": "₍₍ ᕕ( •̀ㅂ•́)ᕗ⁾⁾",
       "tags": [
         "dance",
-        "energetic",
-        "determined"
+        "running"
       ]
     },
     {
@@ -6351,7 +6335,7 @@
       "text": "(~ ˙꒳​˙ )~",
       "tags": [
         "dance",
-        "swaying"
+        "dancing"
       ]
     },
     {
@@ -6482,14 +6466,6 @@
       ]
     },
     {
-      "id": "action_1256",
-      "text": "(～'ω' )～",
-      "tags": [
-        "dancing",
-        "action"
-      ]
-    },
-    {
       "id": "action_1257",
       "text": "₍₍ (ง ´・ω・｀ )ว ⁾⁾",
       "tags": [
@@ -6502,7 +6478,8 @@
       "text": "₍₍ (ง ˙ω˙)ว ⁾⁾",
       "tags": [
         "dancing",
-        "action"
+        "action",
+        "cute"
       ]
     },
     {
@@ -6516,14 +6493,6 @@
     {
       "id": "action_1260",
       "text": "(ง ･ω･)ว",
-      "tags": [
-        "dancing",
-        "action"
-      ]
-    },
-    {
-      "id": "action_1261",
-      "text": "₍₍(ง˘ω˘)ว⁾⁾",
       "tags": [
         "dancing",
         "action"
@@ -6636,14 +6605,6 @@
     {
       "id": "action_1275",
       "text": "ᕕ( ᐛ )ᕗ",
-      "tags": [
-        "dancing",
-        "action"
-      ]
-    },
-    {
-      "id": "action_1276",
-      "text": "(((ง ˙ω˙)ว))",
       "tags": [
         "dancing",
         "action"
@@ -6814,14 +6775,6 @@
       "text": "🥁✨ヾ(*´ω`*ヾ )(ノ*´ω`*)ノ🥁✨",
       "tags": [
         "dancing",
-        "action"
-      ]
-    },
-    {
-      "id": "action_1298",
-      "text": "₍₍ ◝(",
-      "tags": [
-        ",•ω•,,`◝) ⁾⁾ ₍₍ (◟´,,•ω•,,)◟ ⁾⁾,dancing",
         "action"
       ]
     },
@@ -7106,14 +7059,6 @@
       ]
     },
     {
-      "id": "action_1334",
-      "text": "♪( ง ^ω^)ว (ว ^ω^ )ง ( ง ^ω^ )ว♪",
-      "tags": [
-        "dancing",
-        "action"
-      ]
-    },
-    {
       "id": "action_1335",
       "text": "♪₍₍ ٩₍ᐢ⺣̤̬ᐢ₎ว ₎₎ ♪ ♪₍₍ ٩₍ᐢ⺣̤̬ᐢ₎ว ₎₎ ♪ ♪₍₍ ٩₍ᐢ⺣̤̬ᐢ₎ว ₎₎ ♪",
       "tags": [
@@ -7202,14 +7147,6 @@
       ]
     },
     {
-      "id": "action_1346",
-      "text": "‹‹\\(*´꒳`* )/››‹‹\\( 　*)/››‹‹\\( *´꒳`*)/››",
-      "tags": [
-        "dancing",
-        "action"
-      ]
-    },
-    {
       "id": "action_1347",
       "text": "\\( °-°)/≡(\\ °-)/≡\\( °)/≡\\( )/≡\\(° )/≡\\(-° /)≡\\(°-° )/",
       "tags": [
@@ -7254,7 +7191,8 @@
       "text": "‹‹\\(꒪꒫꒪)/›› ‹‹\\( ꒪꒫)/›› ‹‹/(०▵०)\\››‹‹\\(꒪⌓꒪)/››‹‹\\( ꒪)/››‹‹\\(꒪⌓꒪)/››~♪",
       "tags": [
         "dancing",
-        "action"
+        "action",
+        "cheers"
       ]
     },
     {
@@ -7426,14 +7364,6 @@
       ]
     },
     {
-      "id": "action_1374",
-      "text": "‹‹\\(´ω` )/››‹‹\\( 　´)/››‹‹\\( ´ω`)/››~♪",
-      "tags": [
-        "dancing",
-        "action"
-      ]
-    },
-    {
       "id": "action_1375",
       "text": "‹‹\\(´ω` )/››\\( ´ω` )/‹‹\\(´ω` )/››",
       "tags": [
@@ -7532,14 +7462,6 @@
     {
       "id": "action_1387",
       "text": "‹‹\\(ﾟДﾟ )/››‹‹\\( 　ﾟ)/›› ‹‹\\( ﾟДﾟ)/››",
-      "tags": [
-        "dancing",
-        "action"
-      ]
-    },
-    {
-      "id": "action_1388",
-      "text": "‹‹\\(´ω` )/››‹‹\\( ´)/›› ‹‹\\( ´ω`)/››~♪",
       "tags": [
         "dancing",
         "action"
@@ -7646,14 +7568,6 @@
       ]
     },
     {
-      "id": "action_1401",
-      "text": "_(:3」∠)_",
-      "tags": [
-        "action",
-        "lying-down"
-      ]
-    },
-    {
       "id": "action_1402",
       "text": "_(･ω･_)⌒)",
       "tags": [
@@ -7690,7 +7604,6 @@
       "text": "三c(　m･∀･)mｽﾗｲﾃﾞｨﾝｸﾞ土下座",
       "tags": [
         "action",
-        "sliding",
         "bowing"
       ]
     },
@@ -7898,7 +7811,8 @@
       "tags": [
         "action",
         "comfort",
-        "patting"
+        "patting",
+        "praise"
       ]
     },
     {
@@ -8116,14 +8030,6 @@
       ]
     },
     {
-      "id": "action_1456",
-      "text": "_(:3｣ ∠)_",
-      "tags": [
-        "action",
-        "lying-down"
-      ]
-    },
-    {
       "id": "action_1457",
       "text": "₍₍ ◝( ‾▿‾ )◟ ⁾⁾",
       "tags": [
@@ -8144,15 +8050,6 @@
       "text": "(´｡-ω(-ω-｡`)ぎゅっ♡",
       "tags": [
         "hug",
-        "action",
-        "cute"
-      ]
-    },
-    {
-      "id": "action_1460",
-      "text": "(っ´",
-      "tags": [
-        ",>ㅅ<)ω<`,, )ｷﾞｭｰ♡,hug",
         "action",
         "cute"
       ]
@@ -8203,19 +8100,9 @@
       ]
     },
     {
-      "id": "action_1466",
-      "text": "♡((*",
-      "tags": [
-        ",•ω(ω<,,*))ｷﾞｭ~ｯ,hug",
-        "action",
-        "cute"
-      ]
-    },
-    {
       "id": "action_1467",
       "text": ".°ʚ( *´꒳))ω`",
       "tags": [
-        ",)ｷﾞｭｯ♡,hug",
         "action",
         "cute"
       ]
@@ -8260,7 +8147,6 @@
       "id": "action_1472",
       "text": "´",
       "tags": [
-        ",･ω･)ω-｡)ﾋﾟﾄｯ♡,action",
         "cute"
       ]
     },
@@ -8328,15 +8214,6 @@
       ]
     },
     {
-      "id": "action_1480",
-      "text": "(＊",
-      "tags": [
-        ",•ω(ω<,,＊)ｷﾞｭｯ♡,hug",
-        "action",
-        "cute"
-      ]
-    },
-    {
       "id": "action_1481",
       "text": "(´｡•ω(•ω•｡`)",
       "tags": [
@@ -8358,15 +8235,6 @@
       "text": "(´｡>ω(•ω•｡`)ぎゅー♡",
       "tags": [
         "hug",
-        "action",
-        "cute"
-      ]
-    },
-    {
-      "id": "action_1484",
-      "text": "(っ",
-      "tags": [
-        ",>ω<)ω<,,`)むぎゅ～♡,hug",
         "action",
         "cute"
       ]
@@ -8411,7 +8279,6 @@
       "id": "action_1489",
       "text": "( *´꒳))ω`",
       "tags": [
-        ",)ｷﾞｭｯ♡,hug",
         "action",
         "cute"
       ]
@@ -8570,7 +8437,6 @@
       "id": "action_1507",
       "text": "（´",
       "tags": [
-        ",･ω･)ω-｡)ﾋﾟﾄｯ♡,action",
         "cute"
       ]
     },
@@ -8579,15 +8445,6 @@
       "text": "ｽﾘｽﾘ(*´ω(´ω`*)))ｷﾞｭ💓ぎゅ～っ",
       "tags": [
         "hug",
-        "action",
-        "cute"
-      ]
-    },
-    {
-      "id": "action_1509",
-      "text": "°ʚ( *´꒳))ω`",
-      "tags": [
-        ",)ｷﾞｭｯ…💗,hug",
         "action",
         "cute"
       ]
@@ -8649,15 +8506,6 @@
       "text": "(*>ω<)ω<*)",
       "tags": [
         "hug",
-        "cute"
-      ]
-    },
-    {
-      "id": "action_1517",
-      "text": "(´",
-      "tags": [
-        ",•ᆺ(•ᆺ•,,`)ぎゅ♡,hug",
-        "action",
         "cute"
       ]
     },
@@ -8749,13 +8597,6 @@
       ]
     },
     {
-      "id": "action_1528",
-      "text": "((*",
-      "tags": [
-        ",•ω(ω<,,✱))♡,cute"
-      ]
-    },
-    {
       "id": "action_1529",
       "text": "( *`ㅂ´(ΦωΦ｡)",
       "tags": [
@@ -8793,7 +8634,6 @@
       "id": "action_1533",
       "text": "ｽｽｽ.......(((´",
       "tags": [
-        ",･ω･)ω-｡)ﾋﾟﾄｯ♡,action",
         "cute"
       ]
     },
@@ -8827,7 +8667,6 @@
       "id": "action_1537",
       "text": ".°ʚ( *´ᵕ))ω`",
       "tags": [
-        ",)ｷﾞｭｯ♡,hug",
         "action",
         "cute"
       ]
@@ -9017,14 +8856,6 @@
       ]
     },
     {
-      "id": "action_1559",
-      "text": "♡“(´",
-      "tags": [
-        ",･ω･)ω-｡)”…♡ ”,action",
-        "cute"
-      ]
-    },
-    {
       "id": "action_1560",
       "text": "💕(っ*’-’)’ᵕ’*c)💕",
       "tags": [
@@ -9155,15 +8986,6 @@
       ]
     },
     {
-      "id": "action_1575",
-      "text": "*°ヾ(´",
-      "tags": [
-        ",>ω<,,`)/ぎゅ〜して💖,hug",
-        "action",
-        "cute"
-      ]
-    },
-    {
       "id": "action_1576",
       "text": "ぎゅうぎゅうぎゅうぎゅう\\(*´ `*)/❤",
       "tags": [
@@ -9263,7 +9085,6 @@
       "id": "action_1587",
       "text": "ぎゅ“(´",
       "tags": [
-        ",･ω･)ω-｡)”ぴとっ…♡ ”,action",
         "cute"
       ]
     },
@@ -9299,15 +9120,6 @@
       "text": "♡(*ﾉˆ▽ˆ*)ﾉぎゅ💕して…❤︎",
       "tags": [
         "hug",
-        "action",
-        "cute"
-      ]
-    },
-    {
-      "id": "action_1592",
-      "text": "((っ´･ω･(",
-      "tags": [
-        ",•ω•,,｀)ｷﾞｭｯ💕,hug",
         "action",
         "cute"
       ]
@@ -9442,37 +9254,6 @@
       ]
     },
     {
-      "id": "action_1609",
-      "text": "(っ'-')╮=͟͟͞͞ ﾌﾞｫﾝ",
-      "tags": [
-        "attack",
-        "throwing"
-      ]
-    },
-    {
-      "id": "action_1610",
-      "text": "( ~ ˙꒳​˙ )~",
-      "tags": [
-        "dancing"
-      ]
-    },
-    {
-      "id": "action_1611",
-      "text": "ใ(^▽^ )ว ใ(^▽^ )ว ♬♬",
-      "tags": [
-        "dancing",
-        "cheers"
-      ]
-    },
-    {
-      "id": "action_1612",
-      "text": "‹‹\\(꒪꒫꒪)/›› ‹‹\\( ꒪꒫)/››‹‹/(०▵०)\\››‹‹\\(꒪⌓꒪)/››‹‹\\( ꒪)/››‹‹\\(꒪⌓꒪)/››~♪",
-      "tags": [
-        "dancing",
-        "cheers"
-      ]
-    },
-    {
       "id": "action_1613",
       "text": "ヽ(ω･`*ヽ)(ﾉ*´･ω)ﾉヽ(ω･`*ヽ)(ﾉ*´･ω)ﾉｸﾙｸﾙ",
       "tags": [
@@ -9493,14 +9274,6 @@
       "text": "(๑´ω`ﾉﾉﾞぱちぱち",
       "tags": [
         "cheers",
-        "clapping"
-      ]
-    },
-    {
-      "id": "action_1616",
-      "text": "(´• ω •`)",
-      "tags": [
-        "cute",
         "happy"
       ]
     },
@@ -9582,15 +9355,6 @@
         "action",
         "magic",
         "love"
-      ]
-    },
-    {
-      "id": "action_1626",
-      "text": "๛ ก(ｰ̀ωｰ́ก)",
-      "tags": [
-        "action",
-        "attack",
-        "magic"
       ]
     },
     {
@@ -9806,15 +9570,6 @@
         "action",
         "love",
         "sparkle"
-      ]
-    },
-    {
-      "id": "action_1651",
-      "text": "๛ ๛ ก(ｰ̀ωｰ́ก)",
-      "tags": [
-        "action",
-        "attack",
-        "magic"
       ]
     },
     {
@@ -10599,15 +10354,6 @@
       ]
     },
     {
-      "id": "action_1739",
-      "text": "(∩",
-      "tags": [
-        ",•ω•,,)⊃━☆ﾟ.*･｡,action",
-        "magic",
-        "sparkle"
-      ]
-    },
-    {
       "id": "action_1740",
       "text": "(∩•ω•)⊃━☆ﾟ.*",
       "tags": [
@@ -10788,20 +10534,9 @@
       ]
     },
     {
-      "id": "action_1760",
-      "text": "＿〆(。。)",
-      "tags": [
-        "writing",
-        "studying"
-      ]
-    },
-    {
       "id": "action_1761",
       "text": "( 乂˙-˙)",
-      "tags": [
-        "stop",
-        "no"
-      ]
+      "tags": []
     },
     {
       "id": "action_1762",
@@ -10817,14 +10552,6 @@
       "tags": [
         "running",
         "action"
-      ]
-    },
-    {
-      "id": "action_1764",
-      "text": "(-_•)╦̵̵̿╤─",
-      "tags": [
-        "attack",
-        "gun"
       ]
     },
     {
@@ -11115,7 +10842,8 @@
       "text": "(つД・)ﾁﾗ",
       "tags": [
         "action",
-        "peeking"
+        "peeking",
+        "sad"
       ]
     },
     {
@@ -11158,8 +10886,7 @@
       "text": "(*´-`)→→→ﾁﾗｯ",
       "tags": [
         "action",
-        "peeking",
-        "arrow"
+        "peeking"
       ]
     },
     {
@@ -11218,7 +10945,8 @@
       "text": "|∀・)+|∀・)+",
       "tags": [
         "action",
-        "repetition"
+        "repetition",
+        "decoration"
       ]
     },
     {
@@ -11226,7 +10954,8 @@
       "text": "・－・）））（（（　・－・）",
       "tags": [
         "action",
-        "walking"
+        "dance",
+        "decoration"
       ]
     },
     {
@@ -11268,7 +10997,8 @@
       "tags": [
         "action",
         "repetition",
-        "peeking"
+        "peeking",
+        "decoration"
       ]
     },
     {
@@ -11276,7 +11006,8 @@
       "text": "｜д｀)д｀)",
       "tags": [
         "action",
-        "repetition"
+        "repetition",
+        "decoration"
       ]
     },
     {
@@ -11284,7 +11015,8 @@
       "text": "（・ゝ・）（・ゝ・）",
       "tags": [
         "action",
-        "repetition"
+        "repetition",
+        "decoration"
       ]
     },
     {
@@ -11293,7 +11025,8 @@
       "tags": [
         "action",
         "repetition",
-        "surprised"
+        "surprised",
+        "decoration"
       ]
     },
     {
@@ -11403,8 +11136,7 @@
       "text": "]ﾟ∀ﾟ)つ))",
       "tags": [
         "action",
-        "pointing",
-        "calling"
+        "pointing"
       ]
     },
     {
@@ -11430,7 +11162,8 @@
       "text": "ｮω･｡)",
       "tags": [
         "action",
-        "peeking"
+        "peeking",
+        "shy"
       ]
     },
     {
@@ -11464,7 +11197,6 @@
       "text": "│電柱│ﾟ∀ﾟ)つ)) ｺｯﾁｺｯﾁ",
       "tags": [
         "action",
-        "calling",
         "pointing"
       ]
     },
@@ -11509,16 +11241,11 @@
       "tags": [
         "action",
         "suspicious",
-        "watching"
-      ]
-    },
-    {
-      "id": "action_1846",
-      "text": "(・ ・ ) ( ・ ・)",
-      "tags": [
-        "action",
         "watching",
-        "repetition"
+        "shy",
+        "peeking",
+        "displeased",
+        "speechless"
       ]
     },
     {
@@ -11537,16 +11264,8 @@
         "action",
         "peeking",
         "surprised",
-        "watching"
-      ]
-    },
-    {
-      "id": "action_1849",
-      "text": "|ω･)",
-      "tags": [
-        "action",
-        "peeking",
-        "watching"
+        "watching",
+        "shy"
       ]
     },
     {
@@ -11555,7 +11274,9 @@
       "tags": [
         "action",
         "peeking",
-        "watching"
+        "watching",
+        "shy",
+        "wall"
       ]
     },
     {
@@ -11602,7 +11323,8 @@
       "tags": [
         "action",
         "peeking",
-        "watching"
+        "watching",
+        "shy"
       ]
     },
     {
@@ -11686,7 +11408,8 @@
       "tags": [
         "action",
         "peeking",
-        "watching"
+        "watching",
+        "shy"
       ]
     },
     {
@@ -11695,7 +11418,8 @@
       "tags": [
         "action",
         "peeking",
-        "watching"
+        "watching",
+        "shy"
       ]
     },
     {
@@ -11722,7 +11446,8 @@
       "tags": [
         "action",
         "peeking",
-        "watching"
+        "watching",
+        "shy"
       ]
     },
     {
@@ -11731,16 +11456,6 @@
       "tags": [
         "action",
         "watching"
-      ]
-    },
-    {
-      "id": "action_1870",
-      "text": "|qд･",
-      "tags": [
-        ",),action",
-        "peeking",
-        "watching",
-        "cute"
       ]
     },
     {
@@ -11795,16 +11510,6 @@
         "action",
         "shout",
         "sad"
-      ]
-    },
-    {
-      "id": "action_1877",
-      "text": "(*＾3＾)／～♡",
-      "tags": [
-        "action",
-        "throwing",
-        "love",
-        "happiness"
       ]
     },
     {
@@ -12036,15 +11741,6 @@
       ]
     },
     {
-      "id": "action_1901",
-      "text": "(ღ ˘⌣˘ ღ)",
-      "tags": [
-        "action",
-        "holding",
-        "love"
-      ]
-    },
-    {
       "id": "action_1902",
       "text": "ღ(¯`◕‿◕´¯)ღ",
       "tags": [
@@ -12061,15 +11757,6 @@
         "holding",
         "love",
         "excited"
-      ]
-    },
-    {
-      "id": "action_1904",
-      "text": "ღ(˘ω˘ღ)",
-      "tags": [
-        "action",
-        "holding",
-        "love"
       ]
     },
     {
@@ -12283,15 +11970,6 @@
     {
       "id": "action_1928",
       "text": "♡⌒ﾟヾ(･∀･ o)ｷｬｯﾁ!",
-      "tags": [
-        "action",
-        "catching",
-        "love"
-      ]
-    },
-    {
-      "id": "action_1929",
-      "text": "♡⌒ﾟヾ( ･ω･  o)ｷｬｯﾁ!",
       "tags": [
         "action",
         "catching",
@@ -12569,14 +12247,6 @@
       ]
     },
     {
-      "id": "action_1961",
-      "text": "ヾ(･∀･",
-      "tags": [
-        ",),action",
-        "comfort"
-      ]
-    },
-    {
       "id": "action_1962",
       "text": "( *ˊᵕˋ)ﾉ(^ᴗ^๑)",
       "tags": [
@@ -12598,8 +12268,7 @@
       "text": "( •́ㅿ•̀ )\\(•́ㅿ•̀ )",
       "tags": [
         "action",
-        "confused",
-        "talking"
+        "confused"
       ]
     },
     {
@@ -12697,7 +12366,6 @@
       "text": "( ˊ꒫ˋ)ﾉˊ-ˋ )",
       "tags": [
         "action",
-        "talking",
         "comfort"
       ]
     },
@@ -13025,15 +12693,6 @@
       ]
     },
     {
-      "id": "action_2012",
-      "text": "(*´ﾟ",
-      "tags": [
-        "_Jﾟ`)ﾉ(ToTw),action",
-        "comfort",
-        "sad"
-      ]
-    },
-    {
       "id": "action_2013",
       "text": "( *ˊᵕˋ)ﾉ ._.`)",
       "tags": [
@@ -13067,15 +12726,6 @@
         "action",
         "greeting",
         "comfort"
-      ]
-    },
-    {
-      "id": "action_2017",
-      "text": "*´ﾟ",
-      "tags": [
-        "_Jﾟ`)ﾉ(ToTw),action",
-        "comfort",
-        "sad"
       ]
     },
     {
@@ -13198,15 +12848,6 @@
       ]
     },
     {
-      "id": "action_2031",
-      "text": "ﾖｼﾖｼ(",
-      "tags": [
-        ",´^ω^)ﾉ,action",
-        "comfort",
-        "praise"
-      ]
-    },
-    {
       "id": "action_2032",
       "text": "( *´｀)ﾉ(´˘`*)ｲｲｺｲｲｺ",
       "tags": [
@@ -13214,15 +12855,6 @@
         "comfort",
         "praise",
         "happy"
-      ]
-    },
-    {
-      "id": "action_2033",
-      "text": "( *´･ᴗ･)/(._.`)ﾖｼﾖｼ",
-      "tags": [
-        "action",
-        "comfort",
-        "praise"
       ]
     },
     {
@@ -13381,7 +13013,9 @@
       "tags": [
         "action",
         "cute",
-        "cheer-up"
+        "cheer-up",
+        "happiness",
+        "comfort"
       ]
     },
     {
@@ -13390,15 +13024,8 @@
       "tags": [
         "action",
         "comfort",
-        "love"
-      ]
-    },
-    {
-      "id": "action_2052",
-      "text": "꒰⑅•ᴗ•⑅꒱ノ( ;ᯅ; )",
-      "tags": [
-        "action",
-        "comfort",
+        "love",
+        "happiness",
         "sad"
       ]
     },
@@ -14273,8 +13900,7 @@
       "text": "ﾎﾟｲ(･･*)ﾉ ⌒ρ さじ投げ",
       "tags": [
         "action",
-        "throw",
-        "spoon"
+        "throw"
       ]
     },
     {
@@ -14282,8 +13908,7 @@
       "text": "さじを投げる (･_･ )ノ ─〇ポイ！",
       "tags": [
         "action",
-        "throw",
-        "spoon"
+        "throw"
       ]
     },
     {
@@ -14480,14 +14105,6 @@
       "text": "(　ﾟдﾟ)⊃ U )～",
       "tags": [
         "action",
-        "throw"
-      ]
-    },
-    {
-      "id": "action_2180",
-      "text": "(-c_",
-      "tags": [
-        "・。)っ ⌒,action",
         "throw"
       ]
     },

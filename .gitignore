@@ -41,7 +41,6 @@ yarn-error.log*
 next-env.d.ts
 
 /kaomoji.csv
-/storage/
 
 # PWA generated files
 public/sw.js

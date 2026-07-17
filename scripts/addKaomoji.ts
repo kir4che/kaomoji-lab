@@ -4,14 +4,13 @@ import path from 'path';
 import csv from 'csv-parser';
 
 import type { KaomojiItem, CategoryData, CategorySummary, IndexData } from '@/types/Kaomoji';
+import { getTodayDateString } from '@/utils/date';
 
 interface CsvRow {
   category: string;
   text: string;
   tags: string;
 }
-
-const toISODate = () => new Date().toISOString().split('T')[0];
 
 const ensureDir = (dirPath: string) => {
   if (!fs.existsSync(dirPath)) fs.mkdirSync(dirPath, { recursive: true });
@@ -68,7 +67,7 @@ const addKaomojiToCategory = (
   }
 
   categoryData.items.push({ id: newId, text, tags });
-  categoryData.lastUpdated = toISODate();
+  categoryData.lastUpdated = getTodayDateString();
   return true;
 };
 
@@ -82,12 +81,12 @@ const updateIndex = (indexData: IndexData, categoriesData: Record<string, Catego
     cat.itemCount = data.items.length;
     cat.name = data.name;
     cat.preview = cat.preview ?? data.preview ?? '';
-    cat.lastUpdated = data.lastUpdated ?? toISODate();
+    cat.lastUpdated = data.lastUpdated ?? getTodayDateString();
     total += data.items.length;
   });
 
   indexData.totalItems = total;
-  indexData.lastUpdated = toISODate();
+  indexData.lastUpdated = getTodayDateString();
 };
 
 // 確保所有分類檔案存在（按 index.json）
@@ -103,7 +102,7 @@ const ensureCategoryFilesExist = (indexData: IndexData): void => {
         id: cat.id,
         name: cat.name,
         preview: cat.preview || '',
-        lastUpdated: toISODate(),
+        lastUpdated: getTodayDateString(),
         items: [],
       };
 
@@ -158,7 +157,7 @@ const processCsv = (csvFilePath: string): void => {
           id: categoryId,
           name: { en: categoryId, 'zh-tw': categoryId },
           preview: '',
-          lastUpdated: toISODate(),
+          lastUpdated: getTodayDateString(),
           items: [],
         };
         const newCatFilePath = path.join(dataDir, `categories/${categoryId}.json`);
@@ -171,7 +170,7 @@ const processCsv = (csvFilePath: string): void => {
           preview: '',
           filePath: `categories/${categoryId}.json`,
           itemCount: 0,
-          lastUpdated: toISODate(),
+          lastUpdated: getTodayDateString(),
         };
         indexData.categories.push(newIndexCategory);
       }

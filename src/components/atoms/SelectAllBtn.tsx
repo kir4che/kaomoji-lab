@@ -1,7 +1,7 @@
+import { Icon } from '@/components/atoms/Icon';
 import { cn } from '@/utils/cn';
 import { t } from '@/lib/i18n';
 import { useLanguage } from '@/contexts/LanguageContext';
-import SelectAllIcon from '@/assets/icons/select-all.svg';
 
 interface SelectAllBtnProps {
   selectedCount: number;
@@ -40,11 +40,9 @@ const SelectAllBtn = ({
         isAllSelected ? 'text-primary-600' : 'text-gray-800',
         className
       )}
-      aria-label={
-        isAllSelected ? t('a11yDeselectAll', lang) : t('a11ySelectAll', lang)
-      }
+      aria-label={isAllSelected ? t('a11yDeselectAll', lang) : t('a11ySelectAll', lang)}
     >
-      <SelectAllIcon className="size-4.5" />
+      <Icon name="select-all" className="size-4.5" />
       <span
         className={cn(
           'text-xs font-normal',

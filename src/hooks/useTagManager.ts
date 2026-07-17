@@ -1,9 +1,11 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
 
-import type { KaomojiItem, Tag } from '@/types/Kaomoji';
+import type { CategoryData, KaomojiItem, Tag } from '@/types/Kaomoji';
 import { useToast } from '@/contexts/ToastContext';
 import * as adminService from '@/services/adminService';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { computeTagRemovalFromSelectedKaomoji } from '@/utils/duplicateCleanup';
+import { buildTagSynonymMap } from '@/utils/tagUtils';
 
 export interface TagUsage extends Tag {
   count: number;
@@ -11,11 +13,13 @@ export interface TagUsage extends Tag {
 }
 
 interface UseTagManagerProps {
+  categories: CategoryData[];
   allKaomoji: KaomojiItem[];
   onDataChange: () => void;
 }
 
-export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) => {
+// 標籤管理功能
+export const useTagManager = ({ categories, allKaomoji, onDataChange }: UseTagManagerProps) => {
   const { showToast } = useToast();
   const { lang } = useLanguage();
   const [tags, setTags] = useState<Tag[]>([]);
@@ -38,6 +42,13 @@ export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) 
   const [isDeleteTagsMode, setIsDeleteTagsMode] = useState(false);
   const [tagsToDeleteBulk, setTagsToDeleteBulk] = useState(new Set<string>());
   const [crossFilterTagIds, setCrossFilterTagIds] = useState<string[]>([]);
+
+  const [deleteConfirmTag, setDeleteConfirmTag] = useState<{
+    id: string;
+    name: string;
+    count: number;
+  } | null>(null);
+  const [isDeleteConfirmModalOpen, setIsDeleteConfirmModalOpen] = useState(false);
 
   const kaomojiMap = useMemo(() => {
     const map = new Map<string, KaomojiItem>();
@@ -80,6 +91,8 @@ export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) 
     });
     return usageMap;
   }, [allKaomoji, tags]);
+
+  const tagSynonymMap = useMemo(() => buildTagSynonymMap(tags), [tags]);
 
   const allTagsWithUsage = useMemo(() => Array.from(tagUsageMap.values()), [tagUsageMap]);
 
@@ -240,31 +253,19 @@ export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) 
         return;
 
       try {
-        const updatesByCat = new Map<string, KaomojiItem[]>();
-
-        selectedKaomojiIds.forEach((kaomojiId) => {
-          const kaomoji = allKaomoji.find((k) => k.id === kaomojiId);
-          if (!kaomoji) return;
-
-          const categoryId = kaomoji.id.split('_')[0];
-          if (!updatesByCat.has(categoryId)) {
-            updatesByCat.set(
-              categoryId,
-              allKaomoji.filter((k) => k.id.startsWith(`${categoryId}_`))
-            );
-          }
+        const { updatedItemCount, updatesByCategory } = computeTagRemovalFromSelectedKaomoji({
+          categories,
+          selectedKaomojiIds,
+          tagInputs: [tagToRemove],
+          tagSynonymMap,
         });
 
-        updatesByCat.forEach((items, categoryId) => {
-          const updatedItems = items.map((item) => {
-            if (selectedKaomojiIds.has(item.id))
-              return { ...item, tags: item.tags.filter((t) => t !== tagToRemove) };
-            return item;
-          });
-          updatesByCat.set(categoryId, updatedItems);
-        });
+        if (updatedItemCount === 0) {
+          showToast('沒有符合的標籤可移除。', 'info');
+          return;
+        }
 
-        const updatePromises = Array.from(updatesByCat.entries()).map(([catId, items]) =>
+        const updatePromises = Array.from(updatesByCategory.entries()).map(([catId, items]) =>
           adminService.bulkUpdateCategoryItems(catId, items)
         );
 
@@ -277,7 +278,7 @@ export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) 
         showToast(err instanceof Error ? err.message : '更新失敗！', 'error');
       }
     },
-    [selectedKaomojiIds, allKaomoji, onDataChange, showToast]
+    [selectedKaomojiIds, categories, tagSynonymMap, onDataChange, showToast]
   );
 
   const filteredExpandedTagKaomojis = useMemo(() => {
@@ -327,9 +328,7 @@ export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) 
     }
   };
 
-  const handleDelete = async (tagId: string) => {
-    if (!window.confirm(`確定要刪除標籤「${tagId}」嗎？此操作無法復原。`)) return;
-
+  const executeDelete = async (tagId: string) => {
     try {
       await adminService.deleteTag(tagId);
       showToast('標籤刪除成功！', 'success');
@@ -338,6 +337,44 @@ export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) 
     } catch (err) {
       showToast(err instanceof Error ? err.message : '刪除失敗，請重試！', 'error');
     }
+  };
+
+  const handleDelete = async (tagId: string) => {
+    const usage = tagUsageMap.get(tagId);
+    const count = usage?.count ?? 0;
+
+    if (count > 5) {
+      setDeleteConfirmTag({
+        id: tagId,
+        name: usage?.name['zh-tw'] || usage?.name.en || tagId,
+        count,
+      });
+      setIsDeleteConfirmModalOpen(true);
+      return;
+    }
+
+    if (count > 0) {
+      if (
+        !window.confirm(
+          `確定要刪除標籤「${tagId}」嗎？該標籤包含 ${count} 個顏文字。此操作無法復原。`
+        )
+      )
+        return;
+    }
+
+    await executeDelete(tagId);
+  };
+
+  const confirmDeleteTag = async () => {
+    if (!deleteConfirmTag) return;
+    await executeDelete(deleteConfirmTag.id);
+    setDeleteConfirmTag(null);
+    setIsDeleteConfirmModalOpen(false);
+  };
+
+  const cancelDeleteTag = () => {
+    setDeleteConfirmTag(null);
+    setIsDeleteConfirmModalOpen(false);
   };
 
   return {
@@ -384,5 +421,9 @@ export const useTagManager = ({ allKaomoji, onDataChange }: UseTagManagerProps) 
     crossFilterTagIds,
     setCrossFilterTagIds,
     filteredExpandedTagKaomojis,
+    deleteConfirmTag,
+    isDeleteConfirmModalOpen,
+    confirmDeleteTag,
+    cancelDeleteTag,
   };
 };

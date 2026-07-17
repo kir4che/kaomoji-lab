@@ -1,8 +1,7 @@
 import type { ReactNode } from 'react';
 
+import { Icon } from '@/components/atoms/Icon';
 import { cn } from '@/utils/cn';
-import DeleteIcon from '@/assets/icons/delete.svg';
-import EditIcon from '@/assets/icons/edit.svg';
 
 interface EditCardProps {
   type?: 'category' | 'tag';
@@ -73,7 +72,7 @@ const EditCard = ({
               className="text-gray-400 hover:text-blue-500"
               aria-label="編輯"
             >
-              <EditIcon className="size-5" />
+              <Icon name="edit" className="size-5" />
             </button>
           )}
           {handleDelete && (
@@ -87,7 +86,7 @@ const EditCard = ({
               className="text-gray-400 hover:text-rose-600"
               aria-label="刪除"
             >
-              <DeleteIcon className="size-5" />
+              <Icon name="delete" className="size-5" />
             </button>
           )}
         </div>

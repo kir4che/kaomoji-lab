@@ -5,7 +5,7 @@
     "zh-tw": "開心"
   },
   "preview": "ᐠ( ᐢ ᵕ ᐢ )ᐟ",
-  "lastUpdated": "2026-04-17",
+  "lastUpdated": "2026-07-17",
   "items": [
     {
       "id": "happy_001",
@@ -261,15 +261,6 @@
       "id": "happy_047",
       "text": "✌︎ ᵔ◡ᵔ",
       "tags": [
-        "happy",
-        "smile"
-      ]
-    },
-    {
-      "id": "happy_048",
-      "text": "（๑ᵔ⤙ᵔ๑)",
-      "tags": [
-        "happiness",
         "happy",
         "smile"
       ]
@@ -1584,14 +1575,6 @@
       ]
     },
     {
-      "id": "happy_342",
-      "text": "(*´︶｀*)",
-      "tags": [
-        "happiness",
-        "happy"
-      ]
-    },
-    {
       "id": "happy_343",
       "text": "(ට˓˳̮ට๑)",
       "tags": [
@@ -1889,7 +1872,10 @@
     {
       "id": "happy_391",
       "text": "(*",
-      "tags": []
+      "tags": [
+        "action",
+        "cute"
+      ]
     },
     {
       "id": "happy_392",
@@ -2540,7 +2526,9 @@
       "tags": [
         "happy",
         "lol",
-        "thrilled"
+        "thrilled",
+        "animal",
+        "cute"
       ]
     },
     {
@@ -3688,7 +3676,8 @@
       "text": "( ～'ω')～",
       "tags": [
         "dancing",
-        "happy"
+        "happy",
+        "action"
       ]
     },
     {
@@ -4060,7 +4049,10 @@
       "tags": [
         "happy",
         "love",
-        "pouting"
+        "pouting",
+        "action",
+        "throwing",
+        "happiness"
       ]
     },
     {
@@ -4276,14 +4268,6 @@
       ]
     },
     {
-      "id": "happy_790",
-      "text": "( ˶﻿ ̇ ̵ ̇﻿˶﻿ )",
-      "tags": [
-        "happy",
-        "neutral"
-      ]
-    },
-    {
       "id": "happy_791",
       "text": "⁽˙ᵕ˙⁾",
       "tags": [
@@ -4452,14 +4436,6 @@
       ]
     },
     {
-      "id": "happy_812",
-      "text": "(´∪｀ )",
-      "tags": [
-        "happy",
-        "smile"
-      ]
-    },
-    {
       "id": "happy_813",
       "text": "(´▽`)",
       "tags": [
@@ -4530,14 +4506,6 @@
     {
       "id": "happy_822",
       "text": "(๑>ᴗ<๑)",
-      "tags": [
-        "happy",
-        "cute"
-      ]
-    },
-    {
-      "id": "happy_823",
-      "text": "(๑´∀｀)",
       "tags": [
         "happy",
         "cute"
@@ -4626,14 +4594,6 @@
     {
       "id": "happy_834",
       "text": "(^o^)",
-      "tags": [
-        "happy",
-        "smile"
-      ]
-    },
-    {
-      "id": "happy_835",
-      "text": "(＾ω＾)",
       "tags": [
         "happy",
         "smile"
@@ -4992,14 +4952,6 @@
       ]
     },
     {
-      "id": "happy_880",
-      "text": "( ˶´⚰︎`˵ )",
-      "tags": [
-        "happy",
-        "cute"
-      ]
-    },
-    {
       "id": "happy_881",
       "text": "(▰╹◡╹▰)",
       "tags": [
@@ -5076,7 +5028,8 @@
       "text": "( ੭ ˙ᗜ˙ )੭",
       "tags": [
         "happy",
-        "cute"
+        "cute",
+        "hug"
       ]
     },
     {
@@ -5084,7 +5037,11 @@
       "text": "ヾ(*´∀`*)ﾉ",
       "tags": [
         "happy",
-        "excited"
+        "excited",
+        "cheers",
+        "banzai",
+        "happiness",
+        "thrilled"
       ]
     },
     {
@@ -5100,7 +5057,9 @@
       "text": "(´；Д；｀)",
       "tags": [
         "happy",
-        "crying"
+        "crying",
+        "sweat-drop",
+        "sad"
       ]
     },
     {
@@ -5166,14 +5125,6 @@
         "happy",
         "crying",
         "sparkle"
-      ]
-    },
-    {
-      "id": "happy_902",
-      "text": "(´•ω•`)",
-      "tags": [
-        "happy",
-        "smile"
       ]
     },
     {
@@ -5423,24 +5374,8 @@
       ]
     },
     {
-      "id": "happy_932",
-      "text": "（｡ì _ í｡）",
-      "tags": [
-        "happy",
-        "smile"
-      ]
-    },
-    {
       "id": "happy_933",
       "text": "（｡ŏ _ ŏ｡）",
-      "tags": [
-        "happy",
-        "smile"
-      ]
-    },
-    {
-      "id": "happy_934",
-      "text": "（｡ŏ﹏ŏ｡）",
       "tags": [
         "happy",
         "smile"
@@ -5673,14 +5608,6 @@
       ]
     },
     {
-      "id": "happy_963",
-      "text": "σ(",
-      "tags": [
-        ",´∀｀,,)ｴﾍﾍ,happy",
-        "shy"
-      ]
-    },
-    {
       "id": "happy_964",
       "text": "(* ∀ *)ゞ",
       "tags": [
@@ -5776,14 +5703,6 @@
       "tags": [
         "happy",
         "shy"
-      ]
-    },
-    {
-      "id": "happy_976",
-      "text": "( ⸝⸝•ᴗ•⸝⸝ )",
-      "tags": [
-        "happy",
-        "cute"
       ]
     },
     {
@@ -5977,15 +5896,6 @@
         "shy",
         "happy",
         "love"
-      ]
-    },
-    {
-      "id": "happy_1000",
-      "text": "テヘ(*´∀`)σ)))))*3ﾟ)",
-      "tags": [
-        "･´.､,shy",
-        "happy",
-        "attack"
       ]
     },
     {
@@ -6350,7 +6260,7 @@
     },
     {
       "id": "happy_1044",
-      "text": "(ᐡ⸝⸝∩༝∩⸝⸝ᐡ).｡o()",
+      "text": "(ᐡ⸝⸝∩༝∩⸝⸝ᐡ).｡o",
       "tags": [
         "happy",
         "cute"
@@ -6550,8 +6460,7 @@
       "id": "happy_1068",
       "text": "( ∩՞ټ՞∩) ﾝﾌ～～",
       "tags": [
-        "happy",
-        "laugh"
+        "happy"
       ]
     },
     {
@@ -6781,15 +6690,6 @@
       ]
     },
     {
-      "id": "happy_1094",
-      "text": "ｷｬー(",
-      "tags": [
-        ",> ꇴ <,,)ー!!,shout",
-        "happy",
-        "cute"
-      ]
-    },
-    {
       "id": "happy_1095",
       "text": "(*ﾉﾉ)ｷｬｰ",
       "tags": [
@@ -6825,14 +6725,6 @@
         "shy",
         "happy",
         "love"
-      ]
-    },
-    {
-      "id": "happy_1099",
-      "text": "(o^^o)",
-      "tags": [
-        "happy",
-        "smile"
       ]
     },
     {
@@ -6881,14 +6773,6 @@
       "tags": [
         "happy",
         "shy"
-      ]
-    },
-    {
-      "id": "happy_1106",
-      "text": "(о´ω`о)",
-      "tags": [
-        "happy",
-        "cute"
       ]
     },
     {
@@ -7356,14 +7240,6 @@
       ]
     },
     {
-      "id": "happy_1163",
-      "text": "(๑╹ڡ╹๑) ﾓｸﾞﾓｸﾞ",
-      "tags": [
-        "happy",
-        "eating"
-      ]
-    },
-    {
       "id": "happy_1164",
       "text": "˓˓(๑′ℼ̇‵๑)",
       "tags": [
@@ -7411,7 +7287,8 @@
       "tags": [
         "happy",
         "comfort",
-        "sad"
+        "sad",
+        "action"
       ]
     },
     {
@@ -7791,7 +7668,8 @@
       "text": "(*´﹀`*)",
       "tags": [
         "happy",
-        "smile"
+        "smile",
+        "happiness"
       ]
     },
     {
@@ -7875,14 +7753,6 @@
       ]
     },
     {
-      "id": "happy_1226",
-      "text": "(๑˃∇˂๑)ｧ",
-      "tags": [
-        "､ `,happy",
-        "lol"
-      ]
-    },
-    {
       "id": "happy_1227",
       "text": "｡ﾟ(ﾟ^∀^ﾟ)ﾟ｡ｷﾞｬｰﾊｯﾊｯﾊｯﾊｯﾊｯﾊﾊｯﾊｯﾊｯﾊｯﾊ !!",
       "tags": [
@@ -7907,26 +7777,10 @@
       ]
     },
     {
-      "id": "happy_1230",
-      "text": "ゞ(≧ε≦*)ｧ `",
-      "tags": [
-        "､,happy",
-        "lol"
-      ]
-    },
-    {
       "id": "happy_1231",
       "text": "(((*´∀p【爆笑】q♪ﾟ+.",
       "tags": [
         "happy",
-        "lol"
-      ]
-    },
-    {
-      "id": "happy_1232",
-      "text": "ｧ `",
-      "tags": [
-        "､ `,､( ∀`) `,､ `,､,happy",
         "lol"
       ]
     },
@@ -8421,8 +8275,7 @@
       "id": "happy_1291",
       "text": "(¨)( :)(..)(: )",
       "tags": [
-        "other",
-        "spinning"
+        "other"
       ]
     },
     {
@@ -8475,24 +8328,8 @@
       ]
     },
     {
-      "id": "happy_1298",
-      "text": "(´•ω•` )",
-      "tags": [
-        "happy",
-        "smile"
-      ]
-    },
-    {
       "id": "happy_1299",
       "text": "(´•ω•`*)",
-      "tags": [
-        "happy",
-        "smile"
-      ]
-    },
-    {
-      "id": "happy_1300",
-      "text": "(´•ω•`* )",
       "tags": [
         "happy",
         "smile"
@@ -8597,14 +8434,6 @@
     {
       "id": "happy_1313",
       "text": "a(*´ڡ`●)",
-      "tags": [
-        "happy",
-        "cute"
-      ]
-    },
-    {
-      "id": "happy_1314",
-      "text": "(  ´ސު｀ )",
       "tags": [
         "happy",
         "cute"
@@ -8725,14 +8554,6 @@
     {
       "id": "happy_1329",
       "text": "꒰๑•̮̮́౪•̮̮̀๑꒱",
-      "tags": [
-        "happy",
-        "cute"
-      ]
-    },
-    {
-      "id": "happy_1330",
-      "text": "(・ω< ）",
       "tags": [
         "happy",
         "cute"
@@ -9219,21 +9040,6 @@
       ]
     },
     {
-      "id": "happy_1391",
-      "text": "(◍˃̵͈̑ᴗ˂̵͈̑)ｧ",
-      "tags": [
-        "､,happy",
-        "cheers"
-      ]
-    },
-    {
-      "id": "happy_1392",
-      "text": "ｧ",
-      "tags": [
-        "､ `( ꒪Д꒪),､ ` `,､"
-      ]
-    },
-    {
       "id": "happy_1393",
       "text": "( -ω- `)ﾌｯ",
       "tags": [
@@ -9306,13 +9112,6 @@
       ]
     },
     {
-      "id": "happy_1402",
-      "text": "(((( ´",
-      "tags": [
-        ",_ゝ｀))))"
-      ]
-    },
-    {
       "id": "happy_1403",
       "text": "(๑⊙ლ⊙)ぷっ",
       "tags": [
@@ -9323,22 +9122,6 @@
     {
       "id": "happy_1404",
       "text": "ﾌﾟﾌﾟ━(〃>З<)━ｯｯ!!!",
-      "tags": [
-        "happy",
-        "smile"
-      ]
-    },
-    {
-      "id": "happy_1405",
-      "text": "ꉂꉂ (",
-      "tags": [
-        ",>з<)ﾌﾟｯ！,happy",
-        "smile"
-      ]
-    },
-    {
-      "id": "happy_1406",
-      "text": "( ﾟ∀ﾟ)・∵ﾌﾞﾊｯ!",
       "tags": [
         "happy",
         "smile"
@@ -9425,31 +9208,10 @@
       ]
     },
     {
-      "id": "happy_1417",
-      "text": "(๑˃̶᷄ ౩ ˂̶᷇) ﾌﾞﾊｯ!",
-      "tags": [
-        "happy",
-        "smile"
-      ]
-    },
-    {
       "id": "happy_1418",
       "text": "ﾌﾞ─(;゜;ж(;゜;ж;゜;)ж;゜;)─!!",
       "tags": [
         "happy",
-        "smile"
-      ]
-    },
-    {
-      "id": "happy_1419",
-      "text": "ブ━━(;.;:´;",
-      "tags": [
-        ".゜",
-        ",",
-        "3",
-        ",",
-        "゜",
-        ",)━━ッ!!,happy",
         "smile"
       ]
     },
@@ -9638,14 +9400,6 @@
       ]
     },
     {
-      "id": "happy_1443",
-      "text": "ꉂꉂ(ᵔᗜᵔ*)ｧ",
-      "tags": [
-        "､ `,happy",
-        "cheers"
-      ]
-    },
-    {
       "id": "happy_1444",
       "text": "*´∀`)´∀`)*´∀`)*´∀`)あはは",
       "tags": [
@@ -9690,14 +9444,6 @@
       "text": "ｧﾊﾊ(*´∀｀*)oO",
       "tags": [
         "happy",
-        "cheers"
-      ]
-    },
-    {
-      "id": "happy_1450",
-      "text": "(๑ˊ͈ ꇴ ˋ͈)ｧ‘",
-      "tags": [
-        "､,happy",
         "cheers"
       ]
     },
@@ -9770,7 +9516,8 @@
       "text": "( ･×･ )",
       "tags": [
         "cute",
-        "rabbit"
+        "rabbit",
+        "animal"
       ]
     },
     {
@@ -10008,14 +9755,6 @@
       ]
     },
     {
-      "id": "happy_1488",
-      "text": "/ (•ㅅ•)＼",
-      "tags": [
-        "cute",
-        "rabbit"
-      ]
-    },
-    {
       "id": "happy_1489",
       "text": "c( Uò×ò)U",
       "tags": [
@@ -10057,14 +9796,6 @@
       ]
     },
     {
-      "id": "happy_1494",
-      "text": "₍ᐡ• ·̫ •ᐡ₎⊃",
-      "tags": [
-        "cute",
-        "rabbit"
-      ]
-    },
-    {
       "id": "happy_1495",
       "text": "(՞ ܸ.ˬ.ܸ)੭”",
       "tags": [
@@ -10093,7 +9824,8 @@
       "text": "₍ᐢ⑅•ᴗ•⑅ᐢ₎",
       "tags": [
         "cute",
-        "rabbit"
+        "rabbit",
+        "smile"
       ]
     },
     {

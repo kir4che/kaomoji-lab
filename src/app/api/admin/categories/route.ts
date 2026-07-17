@@ -8,12 +8,12 @@ import {
   writeCategoryFile,
   deleteCategoryFile,
   rebuildTagsFromCategories,
-  getTodayDateString,
   isValidCategoryId,
   readTemporaryCategory,
   writeTemporaryCategory,
 } from '@/services/dataService';
 import { TEMP_CATEGORY_ID } from '@/constants/tempCategory';
+import { getTodayDateString } from '@/utils/date';
 
 export async function GET() {
   try {

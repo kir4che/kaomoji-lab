@@ -25,14 +25,15 @@ interface UseKaomojiFormParams {
   onTagCreated?: (tag: Tag) => void | Promise<void>;
 }
 
-export function useKaomojiForm({
+// 管理單一顏文字的編輯表單，包含自動儲存、標籤正規化與即時建立新標籤。
+export const useKaomojiForm = ({
   kaomoji,
   currCategory,
   onSave,
   onMove,
   availableTags = [],
   onTagCreated,
-}: UseKaomojiFormParams) {
+}: UseKaomojiFormParams) => {
   const { showToast } = useToast();
 
   const [formData, setFormData] = useState<KaomojiItem>(kaomoji);
@@ -61,6 +62,7 @@ export function useKaomojiForm({
   const tagLookup = useMemo(() => {
     const map = new Map<string, string>();
 
+    // 表單內接受標籤 ID、英文名、中文名三種輸入方式，都對應到同一個標籤。
     combinedTags.forEach((tag) => {
       const candidates = [tag.id, tag.name?.en, tag.name?.['zh-tw']].filter(
         (value): value is string => Boolean(value)
@@ -104,6 +106,7 @@ export function useKaomojiForm({
     async (dataToSave: KaomojiItem, showSuccessToast = false) => {
       if (!dataToSave.id) return;
 
+      // 若資料沒變就跳過，避免打字過程中一直重複寫入同一筆資料。
       const dataString = JSON.stringify({ text: dataToSave.text, tags: dataToSave.tags });
       if (dataString === lastSavedDataRef.current) return;
 
@@ -133,6 +136,7 @@ export function useKaomojiForm({
 
       let englishName = '';
       while (true) {
+        // 新標籤是使用者建立的資料，寫入前先用互動對話框驗證。
         const input = window.prompt(`請為新標籤「${zhName}」輸入英文名稱`, englishName);
         if (input === null) return null;
         const trimmed = input.trim();
@@ -221,6 +225,7 @@ export function useKaomojiForm({
             continue;
           }
 
+          // 無法辨識的輸入視為「要求建立新標籤」，不會當成暫時性的自由文字標籤。
           const createdTag = await requestNewTag(trimmed);
           if (!createdTag) continue;
 
@@ -351,4 +356,4 @@ export function useKaomojiForm({
     handleMove,
     availableTagOptions: combinedTags,
   };
-}
+};

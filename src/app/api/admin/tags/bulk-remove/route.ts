@@ -1,35 +1,7 @@
-import { promises as fs } from 'fs';
-import path from 'path';
-
 import { NextRequest, NextResponse } from 'next/server';
 
-import type { IndexData, CategoryData, KaomojiItem } from '@/types/Kaomoji';
-
-const DATA_DIR = path.join(process.cwd(), 'public', 'data');
-const CATEGORIES_DIR = path.join(DATA_DIR, 'categories');
-const INDEX_FILE = path.join(DATA_DIR, 'index.json');
-
-async function readIndexFile(): Promise<IndexData> {
-  const content = await fs.readFile(INDEX_FILE, 'utf-8');
-  return JSON.parse(content);
-}
-
-async function readCategoryFile(categoryId: string): Promise<CategoryData | null> {
-  try {
-    const content = await fs.readFile(path.join(CATEGORIES_DIR, `${categoryId}.json`), 'utf-8');
-    return JSON.parse(content);
-  } catch {
-    return null;
-  }
-}
-
-async function writeCategoryFile(categoryData: CategoryData): Promise<void> {
-  await fs.writeFile(
-    path.join(CATEGORIES_DIR, `${categoryData.id}.json`),
-    JSON.stringify(categoryData, null, 2),
-    'utf-8'
-  );
-}
+import type { CategoryData, KaomojiItem } from '@/types/Kaomoji';
+import { readIndexFile, readCategoryFile, writeCategoryFile } from '@/services/dataService';
 
 export async function POST(request: NextRequest) {
   try {
